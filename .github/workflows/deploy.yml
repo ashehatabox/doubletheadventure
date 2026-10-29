@@ -1,0 +1,67 @@
+name: Check and deploy
+
+# On every push to main: install, run the page checks, then (if the cPanel secrets are set)
+# tell GoDaddy to pull the new code and restart the app.
+#
+# Repository secrets (GitHub > Settings > Secrets and variables > Actions):
+#   CPANEL_HOST       the cPanel server name, e.g. a2publishing.ca
+#   CPANEL_USER       the cPanel username
+#   CPANEL_TOKEN      a cPanel API token (cPanel > Security > Manage API Tokens)
+#   CPANEL_REPO_ROOT  the repository path in cPanel Git Version Control, e.g. /home/USER/doubletheadventure
+#   SITE_URL          optional, e.g. https://a2publishing.ca, to check the site answers afterwards
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+
+  deploy:
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull and restart on GoDaddy
+        env:
+          CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
+          CPANEL_USER: ${{ secrets.CPANEL_USER }}
+          CPANEL_TOKEN: ${{ secrets.CPANEL_TOKEN }}
+          CPANEL_REPO_ROOT: ${{ secrets.CPANEL_REPO_ROOT }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: |
+          if [ -z "$CPANEL_HOST" ] || [ -z "$CPANEL_USER" ] || [ -z "$CPANEL_TOKEN" ] || [ -z "$CPANEL_REPO_ROOT" ]; then
+            echo "cPanel secrets aren't set, so the server wasn't updated. Pull in cPanel > Git Version Control."
+            exit 0
+          fi
+          AUTH="Authorization: cpanel ${CPANEL_USER}:${CPANEL_TOKEN}"
+          RESULT=$(curl -fsS -G "https://${CPANEL_HOST}:2083/execute/VersionControl/update" -H "$AUTH" \
+            --data-urlencode "repository_root=${CPANEL_REPO_ROOT}" --data-urlencode "branch=main")
+          echo "$RESULT" | grep -q '"status":1' || { echo "cPanel didn't pull: $RESULT"; exit 1; }
+          echo "GoDaddy pulled the new code."
+          # Runs .cpanel.yml, which restarts the app.
+          RESULT=$(curl -fsS -G "https://${CPANEL_HOST}:2083/execute/VersionControlDeployment/create" -H "$AUTH" \
+            --data-urlencode "repository_root=${CPANEL_REPO_ROOT}")
+          echo "$RESULT" | grep -q '"status":1' || { echo "cPanel didn't deploy: $RESULT"; exit 1; }
+          echo "Restart requested."
+          if [ -n "$SITE_URL" ]; then
+            for i in $(seq 1 10); do
+              curl -fsS -o /dev/null "$SITE_URL/healthz" && echo "The site answers." && exit 0
+              sleep 6
+            done
+            echo "The site didn't answer. Check the app's log in cPanel > Setup Node.js App."
+            exit 1
+          fi

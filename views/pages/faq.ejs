@@ -1,0 +1,14 @@
+<%
+  const items = t('faq.items');
+  const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: items.map(function (q) { return { '@type': 'Question', name: q[0], acceptedAnswer: { '@type': 'Answer', text: q[1] } }; }) };
+%>
+<%- include('../partials/top', { jsonLd: ld }) %>
+<section class="section tight">
+  <div class="wrap stack" style="max-width:860px">
+    <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('faq.title') %></h1>
+    <% items.forEach(function (q) { %>
+    <div class="card card-pad stack-sm"><h2 class="h3" style="font-size:21px"><%= q[0] %></h2><p class="muted" style="margin:0"><%= q[1] %></p></div>
+    <% }) %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

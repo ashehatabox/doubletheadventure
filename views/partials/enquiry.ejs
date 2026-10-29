@@ -1,0 +1,17 @@
+<%# Contact / quote form. Needs: kind. Optional: formTitle, messageLabel, button, showOrg %>
+<form class="form card card-pad" method="post" action="/api/enquire" id="enquiry" data-ajax data-kind="enquiry">
+  <% if (typeof formTitle !== 'undefined' && formTitle) { %><h2 class="h3"><%= formTitle %></h2><% } %>
+  <input type="hidden" name="kind" value="<%= kind %>">
+  <input type="hidden" name="back" value="<%= url(basePath) %>">
+  <input type="hidden" name="form" value="enquiry">
+  <div class="hp" aria-hidden="true"><label for="enq-website">Website</label><input id="enq-website" name="website" tabindex="-1" autocomplete="off"></div>
+  <div class="field"><label for="enq-name"><%= t('common.name') %></label><input class="input" id="enq-name" name="name" autocomplete="name"></div>
+  <div class="field"><label for="enq-email"><%= t('common.email') %></label><input class="input" id="enq-email" name="email" type="email" autocomplete="email" required></div>
+  <% if (typeof showOrg === 'undefined' || showOrg) { %>
+  <div class="field"><label for="enq-org"><%= t('common.organisation') %></label><input class="input" id="enq-org" name="organisation" autocomplete="organization"></div>
+  <% } %>
+  <div class="field"><label for="enq-message"><%= typeof messageLabel !== 'undefined' ? messageLabel : t('common.message') %></label><textarea class="textarea" id="enq-message" name="message" required></textarea></div>
+  <div><button class="btn btn-primary" type="submit"><%= typeof button !== 'undefined' ? button : t('common.send') %></button></div>
+  <p class="notice ok" role="status" data-ok <%- sent === 'enquiry' ? '' : 'hidden' %>><%= t('common.thanksEnquiry') %></p>
+  <p class="notice bad" role="alert" data-bad <%- failed === 'enquiry' ? '' : 'hidden' %>><%= t('common.error') %></p>
+</form>

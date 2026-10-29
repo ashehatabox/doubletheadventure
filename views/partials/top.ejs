@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="<%= lang %>">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><%= seo.fullTitle %></title>
+<meta name="description" content="<%= seo.description %>">
+<link rel="canonical" href="<%= seo.canonical %>">
+<% alternates.forEach(function (a) { %><link rel="alternate" hreflang="<%= a.lang %>" href="<%= a.href %>">
+<% }) %><link rel="alternate" hreflang="x-default" href="<%= alternates[0].href %>">
+<meta property="og:type" content="website">
+<meta property="og:title" content="<%= seo.fullTitle %>">
+<meta property="og:description" content="<%= seo.description %>">
+<meta property="og:url" content="<%= seo.canonical %>">
+<% if (seo.image) { %><meta property="og:image" content="<%= seo.canonical.split('/').slice(0, 3).join('/') + seo.image %>"><% } %>
+<meta name="theme-color" content="#0E7C7B">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="/css/site.css">
+<% if (typeof jsonLd !== 'undefined' && jsonLd) { %><script type="application/ld+json"><%- JSON.stringify(jsonLd).replace(/</g, '\\u003c') %></script><% } %>
+<script src="/js/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main"><%= t('nav.skip') %></a>
+<div class="topbar">
+  <div class="wrap">
+    <span><%= t('topbar.newBook') %> <a href="<%= featured.href %>"><%= featured.displayTitle %></a>, <%= t('topbar.newBookLine') %></span>
+    <nav class="lang-switch" aria-label="<%= t('nav.language') %>">
+      <a href="<%= basePath %>" hreflang="en" lang="en" <%- lang === 'en' ? 'aria-current="true"' : '' %>>English</a>
+      <a href="/fr<%= basePath === '/' ? '/' : basePath %>" hreflang="fr" lang="fr" <%- lang === 'fr' ? 'aria-current="true"' : '' %>>Français</a>
+    </nav>
+  </div>
+</div>
+<header class="header">
+  <div class="wrap">
+    <a class="logo" href="<%= url('/') %>">
+      <span class="logo-mark" aria-hidden="true">A²</span>
+      <span class="logo-text">A² Publishing</span>
+    </a>
+    <% const navItems = [['/books', 'nav.books'], ['/shop', 'nav.shop'], ['/play', 'nav.play'], ['/parents', 'nav.parents'], ['/educators', 'nav.educators'], ['/partners', 'nav.partners']]; %>
+    <nav class="nav" aria-label="<%= t('nav.main') %>">
+      <% navItems.forEach(function (n) { const on = basePath === n[0] || basePath.startsWith(n[0] + '/'); %>
+      <a href="<%= url(n[0]) %>" <%- on ? 'aria-current="page"' : '' %>><%= t(n[1]) %></a>
+      <% }) %>
+    </nav>
+    <a class="btn btn-primary header-cta" href="<%= url('/') %>#free-page"><%= t('nav.freePage') %></a>
+    <details class="menu">
+      <summary><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><%= t('nav.menu') %></summary>
+      <nav class="menu-panel" aria-label="<%= t('nav.main') %>">
+        <% navItems.forEach(function (n) { %><a href="<%= url(n[0]) %>"><%= t(n[1]) %></a><% }) %>
+        <a href="<%= url('/') %>#free-page"><%= t('nav.freePage') %></a>
+      </nav>
+    </details>
+  </div>
+</header>
+<main id="main">

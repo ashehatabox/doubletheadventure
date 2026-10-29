@@ -1,0 +1,8 @@
+# Runs when cPanel deploys this repository (Git Version Control > Deploy HEAD Commit, or the GitHub Action).
+# The app runs straight from the cloned folder, so deploying only tells Passenger to restart it.
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/doubletheadventure
+    - /bin/mkdir -p $DEPLOYPATH/tmp
+    - /bin/touch $DEPLOYPATH/tmp/restart.txt

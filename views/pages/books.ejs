@@ -1,0 +1,26 @@
+<%- include('../partials/top') %>
+<% const shown = allBooks.filter(function (b) { return b.status !== 'coming'; }); %>
+<section class="section tight">
+  <div class="wrap stack" style="gap:28px">
+    <div class="stack-sm" style="max-width:760px">
+      <p class="eyebrow"><%= t('common.agesTag') %></p>
+      <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('books.title') %></h1>
+      <p class="lead"><%= t('books.lead') %></p>
+    </div>
+    <nav aria-label="<%= t('books.filterLabel') %>" class="stack-sm">
+      <span style="font-weight:800"><%= t('books.filterLabel') %></span>
+      <div class="chips" style="gap:10px" data-filter>
+        <a class="pill" href="<%= url('/books') %>" data-moment="" <%- moment ? '' : 'aria-current="true"' %>><%= t('books.all') %></a>
+        <% Object.keys(catalog.moments).forEach(function (m) { if (!shown.some(function (b) { return b.moments.includes(m); })) return; %>
+        <a class="pill" href="<%= url('/books') %>?moment=<%= m %>" data-moment="<%= m %>" <%- moment === m ? 'aria-current="true"' : '' %>><%= momentLabel(m) %></a>
+        <% }) %>
+      </div>
+    </nav>
+    <div class="grid-books" data-books>
+      <% shown.forEach(function (b) { const hide = moment && !b.moments.includes(moment); %><div data-moments="<%= b.moments.join(' ') %>" <%- hide ? 'hidden' : '' %>><%- include('../partials/book-card', { b: b }) %></div><% }) %>
+    </div>
+    <p class="muted" data-none <%- shown.some(function (b) { return !moment || b.moments.includes(moment); }) ? 'hidden' : '' %>><%= t('books.none') %></p>
+    <p><a class="btn btn-ghost" href="<%= url('/books/coming') %>"><%= t('common.comingSoon') %></a></p>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

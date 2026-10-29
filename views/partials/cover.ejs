@@ -1,0 +1,9 @@
+<%# A book cover, or a coloured placeholder with the title until the cover file exists. Needs: b. Optional: badge, eager %>
+<div class="cover" style="background:<%= b.color %>">
+  <% if (typeof badge !== 'undefined' && badge) { %><span class="badge"><%= badge %></span><% } %>
+  <% if (b.cover) { %>
+  <img src="<%= b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle %>" width="900" height="1440" <%- (typeof eager !== 'undefined' && eager) ? '' : 'loading="lazy"' %>>
+  <% } else { %>
+  <span <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span>
+  <% } %>
+</div>

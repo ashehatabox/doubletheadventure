@@ -1,0 +1,9 @@
+<%- include('../partials/top') %>
+<section class="section">
+  <div class="wrap stack" style="max-width:720px;text-align:center;align-items:center">
+    <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('notFound.title') %></h1>
+    <p class="lead"><%= t('notFound.text') %></p>
+    <a class="btn btn-primary" href="<%= url('/books') %>"><%= t('common.exploreBooks') %></a>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

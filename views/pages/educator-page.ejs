@@ -1,0 +1,23 @@
+<%- include('../partials/top') %>
+<% const heads = lang === 'fr' ? ['Offre', 'Ce que c\'est', 'Comment'] : ['Offer', 'What it is', 'How']; %>
+<section class="section tight">
+  <div class="wrap stack" style="gap:28px">
+    <p><a href="<%= url('/educators') %>" style="font-weight:800">← <%= t('educators.title') %></a></p>
+    <div class="stack-sm" style="max-width:760px">
+      <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= content.title %></h1>
+      <p class="lead"><%= content.lead %></p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><% heads.forEach(function (h) { %><th scope="col"><%= h %></th><% }) %></tr></thead>
+        <tbody><% content.offers.forEach(function (o) { %><tr><td style="font-weight:800"><%= o[0] %></td><td><%= o[1] %></td><td><%= o[2] %></td></tr><% }) %></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<section class="section tight" style="padding-top:0">
+  <div class="wrap" style="max-width:760px">
+    <%- include('../partials/enquiry', { kind: content.formKind, formTitle: content.formTitle }) %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

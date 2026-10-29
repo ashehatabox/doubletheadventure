@@ -1,0 +1,47 @@
+<%- include('../partials/top') %>
+<section class="section tight">
+  <div class="wrap stack" style="gap:28px">
+    <div class="stack-sm" style="max-width:760px">
+      <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('parents.title') %></h1>
+      <p class="lead"><%= t('parents.lead') %></p>
+    </div>
+  </div>
+</section>
+<section class="section band-sun">
+  <div class="wrap stack" style="gap:28px">
+    <div class="stack-sm" style="max-width:760px">
+      <h2 class="h2"><%= t('parents.readTitle') %></h2>
+      <p class="lead"><%= t('parents.readLead') %></p>
+    </div>
+    <div class="grid-cards">
+      <% t('parents.prompts').forEach(function (p) { %>
+      <div class="card card-pad stack-sm"><h3 class="h3" style="font-size:21px"><%= p.title %></h3><p class="muted" style="margin:0"><%= p.text %></p></div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<section class="section tight">
+  <div class="wrap stack" style="gap:20px">
+    <h2 class="h2" style="font-size:32px"><%= t('parents.momentsTitle') %></h2>
+    <div class="chips" style="gap:10px">
+      <% Object.keys(catalog.moments).forEach(function (m) { %><a class="pill" href="<%= url('/books') %>?moment=<%= m %>"><%= momentLabel(m) %></a><% }) %>
+    </div>
+  </div>
+</section>
+<section class="section tight" style="padding-top:0">
+  <div class="wrap grid-cards" style="grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:24px">
+    <div class="card card-pad stack-sm" style="background:#DDF5E2"><h2 class="h3"><%= t('parents.screenTitle') %></h2><p style="margin:0"><%= t('parents.screenText') %></p><a href="<%= url('/play') %>" style="font-weight:800"><%= t('nav.play') %></a></div>
+    <div class="card card-pad stack-sm" style="background:#DDF1FC"><h2 class="h3"><%= t('parents.bilingualTitle') %></h2><p style="margin:0"><%= t('parents.bilingualText') %></p></div>
+    <div class="card card-pad stack-sm" style="background:#FFE3DE"><h2 class="h3"><%= t('parents.giftsTitle') %></h2><p style="margin:0"><%= t('parents.giftsText') %></p><a href="<%= url('/shop') %>" style="font-weight:800"><%= t('nav.shop') %></a></div>
+  </div>
+</section>
+<section class="section tight" style="padding-top:0">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 class="h2" style="font-size:32px"><%= t('parents.homeschoolTitle') %></h2>
+      <p class="lead"><%= t('parents.homeschoolText') %></p>
+    </div>
+    <%- include('../partials/enquiry', { kind: 'quote', showOrg: false, button: t('parents.quoteButton') }) %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

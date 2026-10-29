@@ -1,0 +1,6 @@
+<%# One book in a grid. Needs: b %>
+<a class="book-card" href="<%= b.href %>">
+  <%- include('cover', { b: b, badge: b.status === 'live' ? '' : (b.status === 'soon' ? t('books.soon') : t('common.comingSoon')) }) %>
+  <span class="book-card-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span>
+  <span class="book-card-sub"><%= b.valueText %><%= b.cultureText ? ' · ' + b.cultureText : '' %></span>
+</a>

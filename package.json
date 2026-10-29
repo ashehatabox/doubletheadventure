@@ -1,0 +1,23 @@
+{
+  "name": "doubletheadventure",
+  "version": "1.0.0",
+  "description": "A² Publishing — the Double the Adventure picture books: catalog, corners for parents and educators, partners, sign-ups.",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "check": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "compression": "^1.8.2",
+    "dotenv": "^18.0.8",
+    "ejs": "^7.0.1",
+    "express": "^5.3.0",
+    "nodemailer": "^10.1.2"
+  }
+}

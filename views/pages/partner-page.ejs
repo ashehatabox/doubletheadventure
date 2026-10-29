@@ -1,0 +1,13 @@
+<%- include('../partials/top') %>
+<section class="section tight">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack">
+      <p><a href="<%= url('/partners') %>" style="font-weight:800">← <%= t('partners.title') %></a></p>
+      <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= content.title %></h1>
+      <p class="lead"><%= content.lead %></p>
+      <ul class="clean"><% content.points.forEach(function (p) { %><li><%= p %></li><% }) %></ul>
+    </div>
+    <%- include('../partials/enquiry', { kind: content.formKind, formTitle: content.formTitle }) %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

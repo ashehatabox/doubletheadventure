@@ -1,0 +1,27 @@
+<%- include('../partials/top') %>
+<section class="section band-teal">
+  <div class="wrap stack" style="gap:32px">
+    <div class="stack-sm" style="max-width:760px">
+      <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px);color:#fff"><%= t('play.title') %></h1>
+      <p class="lead"><%= t('play.lead') %></p>
+    </div>
+    <div class="grid-cards">
+      <% t('play.games').forEach(function (g, i) { const bg = ['#FFFFFF', '#DDF1FC', '#FFE3DE', '#FFF1C2'][i % 4]; %>
+      <div class="card card-pad stack-sm" style="background:<%= bg %>;color:#4A3426"><h2 class="h3"><%= g.title %></h2><p style="margin:0"><%= g.text %></p></div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<section class="section tight">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 class="h2" style="font-size:30px"><%= t('play.promiseTitle') %></h2>
+      <ul class="clean"><% t('play.promise').forEach(function (p) { %><li><%= p %></li><% }) %></ul>
+    </div>
+    <div class="signup-box stack-sm" style="padding:32px">
+      <h2 class="h3"><%= t('play.signupTitle') %></h2>
+      <%- include('../partials/signup', { formId: 'play-signup', source: 'play-opening', label: t('home.freeLabel') }) %>
+    </div>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

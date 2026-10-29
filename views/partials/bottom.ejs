@@ -1,0 +1,44 @@
+</main>
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="logo-text" style="color:#fff">A² Publishing</span>
+        <span><%= t('footer.tagline') %></span>
+      </div>
+      <nav class="footer-col" aria-label="<%= t('footer.booksTitle') %>">
+        <strong><%= t('footer.booksTitle') %></strong>
+        <a href="<%= url('/books') %>"><%= t('footer.allBooks') %></a>
+        <a href="<%= url('/books/coming') %>"><%= t('common.comingSoon') %></a>
+        <a href="<%= url('/books/review-team') %>"><%= t('footer.reviewTeam') %></a>
+        <a href="<%= url('/shop') %>"><%= t('nav.shop') %></a>
+      </nav>
+      <nav class="footer-col" aria-label="<%= t('footer.familiesTitle') %>">
+        <strong><%= t('footer.familiesTitle') %></strong>
+        <a href="<%= url('/parents') %>"><%= t('nav.parents') %></a>
+        <a href="<%= url('/play') %>"><%= t('nav.play') %></a>
+        <a href="<%= url('/about') %>"><%= t('footer.about') %></a>
+        <a href="<%= url('/faq') %>"><%= t('footer.faq') %></a>
+      </nav>
+      <nav class="footer-col" aria-label="<%= t('footer.educatorsTitle') %>">
+        <strong><%= t('footer.educatorsTitle') %></strong>
+        <% t('educators.cards').forEach(function (c) { %><a href="<%= url('/educators/' + c.key) %>"><%= c.title %></a><% }) %>
+      </nav>
+      <nav class="footer-col" aria-label="<%= t('footer.partnersTitle') %>">
+        <strong><%= t('footer.partnersTitle') %></strong>
+        <% t('partners.cards').forEach(function (c) { %><a href="<%= url('/partners/' + c.key) %>"><%= c.title %></a><% }) %>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© <%= new Date().getFullYear() %> A² Publishing</span>
+      <span class="row" style="gap:20px">
+        <a href="<%= url('/contact') %>"><%= t('footer.contact') %></a>
+        <a href="<%= url('/policies/shipping') %>"><%= t('footer.shipping') %></a>
+        <a href="<%= url('/policies/privacy') %>"><%= t('footer.privacy') %></a>
+        <a href="<%= url('/policies/terms') %>"><%= t('footer.terms') %></a>
+      </span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

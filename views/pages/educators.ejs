@@ -1,0 +1,21 @@
+<%- include('../partials/top') %>
+<section class="section tight">
+  <div class="wrap stack" style="gap:32px">
+    <div class="stack-sm" style="max-width:760px">
+      <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('educators.title') %></h1>
+      <p class="lead"><%= t('educators.lead') %></p>
+    </div>
+    <div class="grid-cards">
+      <% t('educators.cards').forEach(function (c, i) { const cls = ['educators', 'play', 'parents', 'partners'][i]; %>
+      <a class="door <%= cls %>" href="<%= url('/educators/' + c.key) %>"><span class="door-title"><%= c.title %></span><span class="door-text"><%= c.text %></span></a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<section class="section band-sky">
+  <div class="wrap stack-sm" style="max-width:860px">
+    <h2 class="h2" style="font-size:32px"><%= t('educators.curriculumTitle') %></h2>
+    <ul class="clean"><% t('educators.curriculum').forEach(function (c) { %><li><%= c %></li><% }) %></ul>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

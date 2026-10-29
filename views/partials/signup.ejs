@@ -1,0 +1,21 @@
+<%#
+  Email sign-up. Optional: formId, list ('subscribers' | 'waitlist'), book (slug), source, label, button, compact, askRole
+%>
+<% const fid = typeof formId !== 'undefined' ? formId : 'signup'; %>
+<form class="form" method="post" action="/api/subscribe" id="<%= fid %>" data-ajax>
+  <input type="hidden" name="lang" value="<%= lang %>">
+  <input type="hidden" name="back" value="<%= url(basePath) %>">
+  <input type="hidden" name="form" value="<%= fid %>">
+  <input type="hidden" name="list" value="<%= typeof list !== 'undefined' ? list : 'subscribers' %>">
+  <% if (typeof book !== 'undefined' && book) { %><input type="hidden" name="book" value="<%= book %>"><% } %>
+  <input type="hidden" name="source" value="<%= typeof source !== 'undefined' ? source : basePath %>">
+  <div class="hp" aria-hidden="true"><label for="<%= fid %>-website">Website</label><input id="<%= fid %>-website" name="website" tabindex="-1" autocomplete="off"></div>
+  <label for="<%= fid %>-email"><%= typeof label !== 'undefined' ? label : t('common.yourEmail') %></label>
+  <div class="inline-form">
+    <input class="input round" id="<%= fid %>-email" name="email" type="email" autocomplete="email" required placeholder="<%= t('common.emailPlaceholder') %>">
+    <button class="btn btn-dark" type="submit"><%= typeof button !== 'undefined' ? button : t('common.notifyMe') %></button>
+  </div>
+  <label class="check"><input type="checkbox" name="consent" value="1" required> <span><%= t('common.consent') %> <a href="<%= url('/policies/privacy') %>" style="color:inherit"><%= t('common.privacy') %></a></span></label>
+  <p class="notice ok" role="status" data-ok <%- sent === fid ? '' : 'hidden' %>><%= t('common.thanks') %></p>
+  <p class="notice bad" role="alert" data-bad <%- failed === fid ? '' : 'hidden' %>><%= t('common.error') %></p>
+</form>

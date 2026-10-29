@@ -1,0 +1,60 @@
+<%- include('../partials/top') %>
+<% const en = lang !== 'en' ? ' lang="en"' : ''; const g1 = g.moments; %>
+<section class="section tight band-sky no-print-bg">
+  <div class="wrap guide-head">
+    <div class="guide-cover"><%- include('../partials/cover', { b: book, eager: true }) %></div>
+    <div class="stack-sm">
+      <p class="eyebrow"><a href="<%= url('/educators/guides') %>"><%= t('guides.title') %></a></p>
+      <h1 class="h1" style="font-size:clamp(30px,4.2vw,46px)"><%= t('guides.pageTitle').replace('{title}', book.displayTitle) %></h1>
+      <p class="muted"><%= t('common.value') %>: <strong><%= book.valueText %></strong> · <%= t('book.ageLabel') %>: <%= site.ages %> · <%= t('guides.time') %></p>
+      <div class="row no-print">
+        <button type="button" class="btn btn-primary" data-print><%= t('guides.print') %></button>
+        <a class="btn btn-ghost" href="<%= url('/books/' + book.slug) %>"><%= t('guides.bookPage') %></a>
+      </div>
+      <% if (lang !== 'en') { %><p class="muted"><%= t('guides.englishOnly') %></p><% } %>
+    </div>
+  </div>
+</section>
+<section class="section tight">
+  <div class="wrap guide" style="max-width:820px">
+    <h2 class="h2"><%= t('guides.aboutTitle') %></h2>
+    <p<%- en %>><%= g.summary %></p>
+    <% if (g.childValue) { %><p<%- en %>><strong><%= t('guides.bigIdea') %>:</strong> <%= g.childValue %></p><% } %>
+    <% if (g.theme) { %><p class="quote"<%- en %>>“<%= g.theme %>”</p><% } %>
+
+    <h2 class="h2"><%= t('guides.beforeTitle') %></h2>
+    <ul>
+      <% t('guides.before').forEach(function (x) { %><li><%= x.replace('{value}', book.valueText.toLowerCase()) %></li><% }) %>
+    </ul>
+
+    <h2 class="h2"><%= t('guides.duringTitle') %></h2>
+    <p><%= t('guides.duringText') %></p>
+    <ol<%- en %>><% g.moments.forEach(function (m) { %><li><%= m %></li><% }) %></ol>
+
+    <h2 class="h2"><%= t('guides.afterTitle') %></h2>
+    <ol<%- en %>><% g.questions.forEach(function (q) { %><li><%= q %></li><% }) %></ol>
+
+    <h2 class="h2"><%= t('guides.activitiesTitle') %></h2>
+    <div class="guide-acts">
+      <div class="card card-pad stack-sm"><h3 class="h3"><%= t('guides.act1Title') %></h3><p style="margin:0"><%= t('guides.act1') %></p></div>
+      <div class="card card-pad stack-sm"><h3 class="h3"><%= t('guides.act2Title') %></h3><p style="margin:0"><%= t('guides.act2') %></p></div>
+      <div class="card card-pad stack-sm"><h3 class="h3"><%= t('guides.act3Title') %></h3><p style="margin:0"><%= t('guides.act3') %></p></div>
+    </div>
+
+    <h2 class="h2"><%= t('guides.linksTitle') %></h2>
+    <ul>
+      <% t('guides.links').forEach(function (x) { %><li><%= x %></li><% }) %>
+    </ul>
+
+    <% if (hasColor || hasJigsaw || guideArticles.length) { %>
+    <h2 class="h2 no-print"><%= t('guides.moreTitle') %></h2>
+    <div class="row no-print">
+      <% if (hasColor) { %><a class="btn btn-ghost" href="<%= url('/play/color/' + book.slug) %>"><%= t('book.playColor') %></a><% } %>
+      <% if (hasJigsaw) { %><a class="btn btn-ghost" href="<%= url('/play/jigsaw/' + book.slug) %>"><%= t('book.playJigsaw') %></a><% } %>
+    </div>
+    <% if (guideArticles.length) { %><div class="acards no-print"><% guideArticles.forEach(function (a) { %><%- include('../partials/article-card', { a: a }) %><% }) %></div><% } %>
+    <% } %>
+    <p class="muted guide-foot"><%= t('guides.foot') %> · A² Publishing · <%= seo.canonical %></p>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

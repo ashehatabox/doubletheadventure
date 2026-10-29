@@ -1,0 +1,21 @@
+<%- include('../partials/top') %>
+<section class="section tight band-sky">
+  <div class="wrap stack-sm" style="max-width:820px;margin-left:auto;margin-right:auto">
+    <p class="eyebrow"><a href="<%= url('/educators') %>"><%= t('nav.educators') %></a></p>
+    <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('guides.title') %></h1>
+    <p class="lead"><%= t('guides.lead') %></p>
+    <% if (lang !== 'en') { %><p class="muted"><%= t('guides.englishOnly') %></p><% } %>
+  </div>
+</section>
+<section class="section tight">
+  <div class="wrap">
+    <div class="grid-books"><% guideList.forEach(function (b) { %>
+      <a class="card guide-pick" href="<%= url('/educators/guides/' + b.slug) %>">
+        <%- include('../partials/cover', { b: b }) %>
+        <span class="guide-pick-title"><%= b.displayTitle %></span>
+        <span class="muted"><%= t('common.value') %>: <%= b.valueText %></span>
+      </a>
+    <% }) %></div>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

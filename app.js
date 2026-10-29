@@ -12,6 +12,7 @@ const catalog = require('./data/books');
 const play = require('./data/play');
 const mapPoints = require('./data/map-points.json');
 const articles = require('./lib/articles');
+const guides = require('./lib/guides');
 const { helpers, bookImage, LANGS } = require('./lib/i18n');
 const amazon = require('./lib/amazon');
 const { insert } = require('./lib/supabase');
@@ -255,6 +256,29 @@ router.get('/parents/articles/:slug', (req, res, next) => {
   });
 });
 router.get('/educators', (req, res) => page(req, res, 'educators', { seo: { title: req.h.t('educators.title') } }));
+// Teacher guides: one printable page per book.
+const guideBooks = () => catalog.books.filter((b) => b.status !== 'coming' && guides.get(b.slug));
+router.get('/educators/guides', (req, res) => {
+  const h = req.h;
+  page(req, res, 'guides', {
+    guideList: guideBooks().map((b) => bookView(b, h, req)),
+    seo: { title: h.t('guides.title'), description: h.t('guides.lead') }
+  });
+});
+router.get('/educators/guides/:slug', (req, res, next) => {
+  const b = catalog.get(req.params.slug);
+  const g = b && b.status !== 'coming' ? guides.get(b.slug) : null;
+  if (!g) return next();
+  const h = req.h;
+  const view = bookView(b, h, req);
+  const arts = articles.forBook(b.slug, h.lang).filter((a) => ['classroom', 'activities', 'reading'].includes(a.topic)).slice(0, 3);
+  page(req, res, 'guide', {
+    book: view, g, guideArticles: arts,
+    hasColor: play.pages(b.slug).length > 0,
+    hasJigsaw: play.jigsaw.includes(b.slug),
+    seo: { title: h.t('guides.pageTitle').replace('{title}', view.displayTitle), description: h.t('guides.lead'), image: view.cover }
+  });
+});
 router.get('/educators/:page', (req, res, next) => {
   if (!EDUCATOR_PAGES.includes(req.params.page)) return next();
   const content = req.h.t('educatorPages.' + req.params.page);
@@ -367,6 +391,7 @@ app.get('/robots.txt', (req, res) => res.type('text/plain').send(`User-agent: *\
 app.get('/sitemap.xml', (req, res) => {
   const paths = ['/', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
     .concat(EDUCATOR_PAGES.map((p) => '/educators/' + p))
+    .concat(['/educators/guides'], guideBooks().map((b) => '/educators/guides/' + b.slug))
     .concat(PARTNER_PAGES.map((p) => '/partners/' + p))
     .concat(POLICY_PAGES.map((p) => '/policies/' + p))
     .concat(catalog.books.map((b) => '/books/' + b.slug))

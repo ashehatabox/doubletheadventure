@@ -80,3 +80,6 @@
   if (!('serviceWorker' in navigator) || !/^(\/fr)?\/play(\/|$)/.test(location.pathname)) return;
   window.addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function () {}); });
 })();
+
+// Print buttons (teacher guides)
+document.querySelectorAll('[data-print]').forEach(function (b) { b.addEventListener('click', function () { window.print(); }); });

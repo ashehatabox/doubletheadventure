@@ -246,6 +246,41 @@ module.exports = {
     giftsText: 'Signed copies and a bookplate with your child\'s name open in early 2027.',
     quoteButton: 'Ask for a homeschool quote'
   },
+  guides: {
+    title: 'Free read-aloud guides',
+    pageTitle: 'Read-aloud guide: {title}',
+    lead: 'One page per book for teachers and early-years educators: what to ask before, during and after reading, three short activities and links to the Ontario Kindergarten Program. Free to print and share in your class.',
+    englishOnly: 'The guides are in English for now. French versions are coming.',
+    time: 'About 20 minutes',
+    print: 'Print this guide',
+    bookPage: 'About the book',
+    aboutTitle: 'The story and the big idea',
+    bigIdea: 'The big idea for children',
+    beforeTitle: 'Before reading (3 minutes)',
+    before: [
+      'Show the cover and read the title. Ask: What do you notice? Who do you think the story is about? What might happen?',
+      'Say: Today\'s story is about {value}. What does that word mean to you? Let two or three children answer; there are no wrong answers.',
+      'Ask the children to listen for one moment where they feel something in their body (a smile, a worry, a surprise).'
+    ],
+    duringTitle: 'During reading (10 minutes)',
+    duringText: 'Pause at these moments, ask the children what they think and how the character feels, then read on.',
+    afterTitle: 'After reading: talk together (5 minutes)',
+    activitiesTitle: 'Three short activities',
+    act1Title: 'Draw it',
+    act1: 'Each child draws the moment from the story they liked best and tells a partner why. Write a few words on the page if the child dictates them.',
+    act2Title: 'Freeze frame',
+    act2: 'In small groups, children choose one moment from the list above and stand like a picture. The class guesses which moment it is and how the character feels.',
+    act3Title: 'Take it home',
+    act3: 'Send home the last question. Children ask a grown-up at home the same question and share the answer the next day at circle time.',
+    linksTitle: 'Links to learning',
+    links: [
+      'Ontario Kindergarten Program: Belonging and Contributing; Self-Regulation and Well-Being.',
+      'Demonstrating Literacy and Math Behaviours: listening to and talking about a story, making meaning, retelling.',
+      'How Does Learning Happen?: belonging, well-being, engagement and expression.'
+    ],
+    moreTitle: 'More for the classroom',
+    foot: 'Free to copy for classroom use'
+  },
   educators: {
     title: 'Educator corner',
     lead: 'Every book teaches one value through a child who chooses to act. Guides, sets and visits for classrooms, daycares, libraries and newcomer programs.',

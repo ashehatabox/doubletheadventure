@@ -275,3 +275,21 @@ details.stores ul { list-style: none; padding: 0; margin: 8px 0 0; display: flex
   .prose { order: 2; font-size: 18px; }
   .article-books { order: 3; }
 }
+
+/* Teacher guides */
+.guide-head { display: grid; grid-template-columns: 150px 1fr; gap: 24px; align-items: center; max-width: 920px; margin-left: auto; margin-right: auto; }
+.guide-cover { max-width: 150px; }
+.guide .h2 { font-size: 26px; margin-top: 28px; }
+.guide ol, .guide ul { padding-left: 22px; display: grid; gap: 8px; }
+.guide-acts { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); }
+.guide-pick { display: grid; gap: 8px; padding: 14px; text-decoration: none; color: inherit; }
+.guide-pick-title { font-weight: 800; font-family: var(--font-display, inherit); }
+.guide-foot { margin-top: 32px; font-size: 14px; }
+@media (max-width: 520px) { .guide-head { grid-template-columns: 1fr; } .guide-cover { max-width: 120px; } }
+@media print {
+  .no-print, header, footer, nav, .site-header, .site-footer, .skip-link { display: none !important; }
+  .no-print-bg { background: none !important; }
+  body { background: #fff !important; }
+  .guide .h2 { break-after: avoid; }
+  .guide-acts .card, .guide li { break-inside: avoid; }
+}

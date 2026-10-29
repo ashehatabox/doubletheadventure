@@ -246,6 +246,41 @@ module.exports = {
     giftsText: 'Exemplaires dédicacés et ex-libris au nom de votre enfant dès le début de 2027.',
     quoteButton: 'Demander une soumission'
   },
+  guides: {
+    title: 'Guides de lecture à voix haute',
+    pageTitle: 'Guide de lecture : {title}',
+    lead: 'Une page par livre pour les enseignants et les éducateurs de la petite enfance : quoi demander avant, pendant et après la lecture, trois courtes activités et des liens avec le Programme de la maternelle et du jardin d\'enfants de l\'Ontario. Gratuit, à imprimer et à partager dans votre classe.',
+    englishOnly: 'Pour l\'instant, les guides sont en anglais. Les versions françaises s\'en viennent.',
+    time: 'Environ 20 minutes',
+    print: 'Imprimer ce guide',
+    bookPage: 'À propos du livre',
+    aboutTitle: 'L\'histoire et la grande idée',
+    bigIdea: 'La grande idée pour les enfants',
+    beforeTitle: 'Avant la lecture (3 minutes)',
+    before: [
+      'Montrez la couverture et lisez le titre. Demandez : Que remarquez-vous ? Selon vous, de qui parle l\'histoire ? Que va-t-il arriver ?',
+      'Dites : L\'histoire d\'aujourd\'hui parle de cette valeur : {value}. Que veut dire ce mot pour vous ? Laissez deux ou trois enfants répondre ; il n\'y a pas de mauvaise réponse.',
+      'Demandez aux enfants d\'écouter un moment où ils ressentent quelque chose dans leur corps (un sourire, une inquiétude, une surprise).'
+    ],
+    duringTitle: 'Pendant la lecture (10 minutes)',
+    duringText: 'Arrêtez-vous à ces moments, demandez aux enfants ce qu\'ils en pensent et comment le personnage se sent, puis poursuivez.',
+    afterTitle: 'Après la lecture : on en parle ensemble (5 minutes)',
+    activitiesTitle: 'Trois courtes activités',
+    act1Title: 'Dessine-le',
+    act1: 'Chaque enfant dessine le moment de l\'histoire qu\'il a préféré et dit à un camarade pourquoi. Écrivez quelques mots sur la page si l\'enfant les dicte.',
+    act2Title: 'Arrêt sur image',
+    act2: 'En petits groupes, les enfants choisissent un moment de la liste ci-dessus et prennent la pose comme sur une photo. La classe devine de quel moment il s\'agit et comment le personnage se sent.',
+    act3Title: 'À la maison',
+    act3: 'Envoyez la dernière question à la maison. Les enfants la posent à un adulte et partagent la réponse le lendemain au regroupement.',
+    linksTitle: 'Liens avec les apprentissages',
+    links: [
+      'Programme de la maternelle et du jardin d\'enfants de l\'Ontario : Appartenance et contribution ; Autorégulation et bien-être.',
+      'Démonstration de comportements en littératie et en mathématiques : écouter une histoire, en parler, donner du sens, raconter.',
+      'Comment apprend-on ? : appartenance, bien-être, engagement et expression.'
+    ],
+    moreTitle: 'Pour la classe',
+    foot: 'Libre de copie pour usage en classe'
+  },
   educators: {
     title: 'Coin des éducateurs',
     lead: 'Chaque livre enseigne une valeur grâce à un enfant qui choisit d\'agir. Guides, ensembles et visites pour les classes, garderies, bibliothèques et programmes pour nouveaux arrivants.',

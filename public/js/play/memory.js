@@ -4,6 +4,7 @@
   var P = window.Play;
   if (!P || P.cfg.game !== 'memory') return;
   var cfg = P.cfg, T = P.T, el = P.el;
+  try { if (!cfg.pairs) cfg.pairs = Number(new URLSearchParams(location.search).get('pairs')) || 0; } catch (e) { /* old browser */ }
   var ASPECT = 1440 / 900; // cover height / width
 
   function pickSize() {

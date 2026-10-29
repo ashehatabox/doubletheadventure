@@ -5,6 +5,7 @@
   var P = window.Play;
   if (!P || P.cfg.game !== 'jigsaw') return;
   var cfg = P.cfg, T = P.T, el = P.el;
+  try { if (!cfg.pieces) cfg.pieces = Number(new URLSearchParams(location.search).get('pieces')) || 0; } catch (e) { /* old browser */ }
   var GRIDS = { 6: [2, 3], 12: [3, 4], 24: [4, 6] };
 
   function pickSize() {

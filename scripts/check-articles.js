@@ -17,7 +17,9 @@ for (const lang of fs.readdirSync(ROOT)) {
   if (!fs.statSync(dir).isDirectory()) continue;
   slugs[lang] = fs.readdirSync(dir).filter((f) => f.endsWith('.md')).map((f) => f.slice(0, -3));
 }
-const allSlugs = new Set(Object.values(slugs).flat());
+// Only published articles can be linked to (a draft is a 404 on the live site).
+const allSlugs = new Set(Object.entries(slugs).flatMap(([lang, list]) =>
+  list.filter((s) => !/^draft:\s*true\s*$/m.test(fs.readFileSync(path.join(ROOT, lang, s + '.md'), 'utf8').split(/\r?\n---/)[0]))));
 
 for (const [lang, list] of Object.entries(slugs)) {
   for (const slug of list) {

@@ -74,6 +74,26 @@
 </section>
 <% } %>
 
+<% if (bookPlay.color || bookPlay.jigsaw || bookArticles.length || bookPlay.map) { %>
+<section class="section tight" style="padding-top:0">
+  <div class="wrap stack">
+    <% if (bookPlay.color || bookPlay.jigsaw) { %>
+    <h2 class="h2" style="font-size:32px"><%= t('book.playTitle') %></h2>
+    <div class="row">
+      <% if (bookPlay.color) { %><a class="btn btn-ghost" href="<%= url('/play/color/' + b.slug) %>"><%= t('book.playColor') %></a><% } %>
+      <% if (bookPlay.jigsaw) { %><a class="btn btn-ghost" href="<%= url('/play/jigsaw/' + b.slug) %>"><%= t('book.playJigsaw') %></a><% } %>
+      <% if (bookPlay.memory) { %><a class="btn btn-ghost" href="<%= url('/play/memory') %>"><%= t('book.playMemory') %></a><% } %>
+      <% if (bookPlay.map) { %><a class="btn btn-ghost" href="<%= url('/values-map') %>"><%= t('book.seeOnMap') %></a><% } %>
+    </div>
+    <% } %>
+    <% if (bookArticles.length) { %>
+    <h2 class="h2" style="font-size:32px"><%= t('book.articlesTitle') %></h2>
+    <div class="acards"><% bookArticles.forEach(function (a) { %><%- include('../partials/article-card', { a: a }) %><% }) %></div>
+    <% } %>
+  </div>
+</section>
+<% } %>
+
 <% if (related.length) { %>
 <section class="section tight" style="padding-top:0">
   <div class="wrap stack">

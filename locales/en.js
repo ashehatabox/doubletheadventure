@@ -99,6 +99,12 @@ module.exports = {
     directText: 'Signed copies, dedications, gift sets and classroom sets open in early 2027.',
     freeTitle: 'Free coloring page',
     freeText: 'Get a coloring page from this book and a bedtime question to ask after reading.',
+    playTitle: 'Play with this book',
+    playColor: 'Coloring pages',
+    playJigsaw: 'Jigsaw puzzle',
+    playMemory: 'Memory game',
+    seeOnMap: 'See it on the values map',
+    articlesTitle: 'For parents and teachers: more about this book',
     moreTitle: 'More books like this',
     parentsLink: 'Reading it at home? See the questions to ask together',
     teachersLink: 'Reading it in class? See the educator corner'

@@ -123,6 +123,13 @@ router.get('/books/:slug', (req, res, next) => {
   page(req, res, 'book', {
     book: view,
     related,
+    bookArticles: articles.forBook(b.slug, h.lang).slice(0, 6),
+    bookPlay: {
+      color: play.pages(b.slug).length > 0,
+      jigsaw: play.hasCover(b.slug) && play.jigsaw.includes(b.slug),
+      memory: play.jigsaw.includes(b.slug),
+      map: !!(b.culture && mapPoints.points[b.culture])
+    },
     seo: { title: view.displayTitle, description: h.pick(b.blurb) || h.pick(b.subtitle) || h.t('meta.siteDescription'), image: view.cover }
   });
 });

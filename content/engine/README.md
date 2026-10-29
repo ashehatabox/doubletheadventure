@@ -19,6 +19,16 @@ Every day, one long article for the Parents section (`/parents/articles`). Each 
 6. `node scripts/engine-next.js --done <item id> <article-slug>`.
 7. Commit both files (`Article: <title>`) and push to `main`. The site deploys itself.
 
+## The French part of every run
+After the English article is pushed, do one French version in the same run (it can be an older article; the oldest without a French twin goes first).
+1. `node scripts/engine-next.js --fr` prints the English article to translate and where to write it. If `next` is null, stop.
+2. Write the French version to `content/articles/fr/<same file name>.md`. Same file name as the English one (the address stays the same).
+3. Header: translate `title` (under 70 characters) and `description` (120–160 characters); `date`, `topic`, `books` (and `image`, `draft` if present) must be exactly the same as the English header.
+4. Text: write natural Canadian French, not word-for-word. Address the reader as « vous ». Keep the same sections, the same number of `###` questions, the same links (site paths stay as they are, `/books/...`). Translate the headings; the section that starts with `## Questions` becomes `## Questions des parents`, and `## Sources` stays `## Sources` (keep the outside links as they are, translate only the link text if useful).
+5. Keep the book titles in English (they are the titles on the covers) and use *italics* for them. Never translate the refrain or the theme line: quote them only in English, or leave them out.
+6. Don't add facts. The French article says exactly what the English one says.
+7. `npm run check` must pass, then commit (`Article FR: <title>`) and push with the English one or on its own.
+
 ## The angles
 | angle | topic | what the article does |
 |---|---|---|

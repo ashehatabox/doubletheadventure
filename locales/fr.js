@@ -99,6 +99,12 @@ module.exports = {
     directText: 'Exemplaires dédicacés, dédicaces, coffrets cadeaux et ensembles pour la classe dès le début de 2027.',
     freeTitle: 'Coloriage gratuit',
     freeText: 'Recevez un coloriage de ce livre et une question à poser après la lecture.',
+    playTitle: 'Jouer avec ce livre',
+    playColor: 'Pages à colorier',
+    playJigsaw: 'Casse-tête',
+    playMemory: 'Jeu de mémoire',
+    seeOnMap: 'Voir sur la carte des valeurs',
+    articlesTitle: 'Pour les parents et les éducateurs : en savoir plus sur ce livre',
     moreTitle: 'D\'autres livres du même genre',
     parentsLink: 'Vous le lisez à la maison ? Voyez les questions à poser ensemble',
     teachersLink: 'Vous le lisez en classe ? Voyez le coin des éducateurs'

@@ -35,6 +35,15 @@ for (const [lang, list] of Object.entries(slugs)) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(meta.date || '')) bad(file, 'date must be YYYY-MM-DD');
     if (!TOPICS.includes(meta.topic)) bad(file, `topic must be one of ${TOPICS.join(', ')}`);
     (meta.books || '').split(',').map((s) => s.trim()).filter(Boolean).forEach((b) => { if (!catalog.get(b)) bad(file, `unknown book "${b}"`); });
+    if (lang === 'fr' && !slugs.en.includes(slug)) bad(file, 'French article has no English twin with the same file name');
+    if (lang === 'fr' && slugs.en.includes(slug)) {
+      const en = fs.readFileSync(path.join(ROOT, 'en', slug + '.md'), 'utf8').match(/^---\r?\n([\s\S]*?)\r?\n---/)[1];
+      const get = (txt, k) => ((txt.match(new RegExp('^' + k + ':\\s*(.*)$', 'm')) || [])[1] || '').trim();
+      ['topic', 'books', 'date'].forEach((k) => { if (get(en, k) !== (meta[k] || '')) bad(file, `${k} must match the English article`); });
+      const faq = (t) => (t.match(/^### /gm) || []).length;
+      const enBody = fs.readFileSync(path.join(ROOT, 'en', slug + '.md'), 'utf8');
+      if (faq(enBody) !== faq(m[2])) bad(file, 'number of ### headings differs from the English article');
+    }
     const body = m[2];
     if (/^# /m.test(body)) bad(file, 'no "# " title in the text (the page shows the title)');
     const words = body.split(/\s+/).filter(Boolean).length;

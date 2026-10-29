@@ -4,6 +4,7 @@ Every day, one long article for the Parents section (`/parents/articles`). Each 
 
 ## Files
 - `content/engine/queue.json`: every book × every angle (20 books × 8 angles = 160 articles), in writing order. Rebuild with `node scripts/make-article-queue.js` after adding a book (it keeps what's done).
+- `content/engine/values-library.json`: rows from the A² Values Library for each book (key = book number): the book's own value ("Book NN") and the same value in other traditions ("close to Book NN"), with sources, reliability notes and care flags. Use it for origin articles.
 - `content/engine/books/<slug>.md`: the brief for each book: story in our own words, characters, the real animals, the setting, the value and where it comes from, questions. **Write only from the brief and from checked sources.** A book without a brief is skipped.
 - `content/articles/en/<slug>.md`: the articles (format: top of `lib/articles.js`).
 - `scripts/engine-next.js`: prints the next item and its book. `--done <id> <article-slug>` marks it written.
@@ -38,7 +39,8 @@ Every day, one long article for the Parents section (`/parents/articles`). Each 
 - **Slug:** lowercase words with hyphens, from the search phrase (e.g. `what-do-porcupines-eat-the-snug`). Must not exist yet.
 - **Links:** the book page `/books/<slug>` (1–2 times), another of our articles if one fits, `/values-map` for origin articles, `/play` or `/play/color/<slug>` for activities when that game exists. No other site paths. Outside links only in Sources.
 - **KDP Select:** never copy the book's text. Only the title, the refrain and the theme line from the brief may be quoted. Describe the story in your own words; don't give away the ending in more than a sentence.
-- **Cultures:** name the real source of a saying, don't present a sacred idea as ours, keep stories secular (animals learning a life lesson). If the brief marks a care flag (Māori, Andean, Aboriginal, West African and similar), write the article with `draft: true` so the owner can have it checked first.
+- **Secular:** no religious content and no religious sources (scripture, hadith, sermons), even where a value has a religious parallel. The books are animals learning a life lesson.
+- **Cultures:** name the real source of a saying, don't present a sacred idea as ours, keep stories secular (animals learning a life lesson). If the brief's `care_flag` is not `none`, the **origin** article for that book gets `draft: true` so the owner can have it checked by a reader from that culture first; other angles may name the value and its source (as the book's note does) but don't explain the cultural or sacred idea beyond the brief.
 - **Safety:** no medical, therapy or diagnosis advice. For real worries (behaviour, development, anxiety), suggest talking to the child's doctor or educator. Activities must be safe for 3–7 year olds with a grown-up (no small parts for under-3s, no sharp tools, no unsafe foods or allergens without a note).
 - **Voice:** warm, practical, plain words, a parent talking to a parent. "We" means A² Publishing. Short paragraphs. No hype, no "in today's fast-paced world", no emojis.
 - **One article per run.** If something fails (check won't pass, no sources found), don't commit a half article: leave the item as todo and explain in the run summary.

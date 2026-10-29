@@ -20,10 +20,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700;800&display=swap">
 <link rel="stylesheet" href="/css/site.css">
+<% if (typeof playMode !== 'undefined' && playMode) { %><link rel="stylesheet" href="/css/play.css"><% } %>
 <% if (typeof jsonLd !== 'undefined' && jsonLd) { %><script type="application/ld+json"><%- JSON.stringify(jsonLd).replace(/</g, '\\u003c') %></script><% } %>
 <script src="/js/site.js" defer></script>
+<% if (typeof gameScript !== 'undefined' && gameScript) { %><script src="/js/play/common.js" defer></script><script src="/js/play/<%= gameScript %>.js" defer></script><% } %>
 </head>
-<body>
+<% if (typeof playMode !== 'undefined' && playMode) { %><body class="play-mode">
+<main id="main">
+<% } else { %><body>
 <a class="skip" href="#main"><%= t('nav.skip') %></a>
 <div class="topbar">
   <div class="wrap">
@@ -56,3 +60,4 @@
   </div>
 </header>
 <main id="main">
+<% } %>

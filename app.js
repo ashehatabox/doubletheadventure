@@ -9,6 +9,7 @@ const compression = require('compression');
 
 const site = require('./data/site');
 const catalog = require('./data/books');
+const play = require('./data/play');
 const { helpers, bookImage, LANGS } = require('./lib/i18n');
 const amazon = require('./lib/amazon');
 const { insert } = require('./lib/supabase');
@@ -121,7 +122,64 @@ router.get('/books/:slug', (req, res, next) => {
 });
 
 router.get('/shop', (req, res) => page(req, res, 'shop', { seo: { title: req.h.t('shop.title') } }));
-router.get('/play', (req, res) => page(req, res, 'play', { seo: { title: req.h.t('play.title') } }));
+router.get('/play', (req, res) => {
+  const h = req.h;
+  const views = (slugs) => slugs.map((s) => bookView(catalog.get(s), h, req));
+  page(req, res, 'play', {
+    coloringBooks: views(play.coloring).map((b) => ({ ...b, pageCount: play.pages(b.slug).length })),
+    jigsawBooks: views(play.jigsaw),
+    memorySizes: play.MEMORY_SIZES,
+    seo: { title: h.t('play.title'), description: h.t('play.lead') }
+  });
+});
+
+// One game page. Everything the game script needs goes in data-config on the page.
+function gamePage(req, res, game, book, config, title) {
+  const h = req.h;
+  const view = book ? bookView(book, h, req) : null;
+  page(req, res, 'play-game', {
+    playMode: true,
+    gameScript: game,
+    game,
+    book: view,
+    config: {
+      game,
+      lang: h.lang,
+      text: h.t('playGame'),
+      book: view ? { title: view.displayTitle, href: view.href, cover: view.cover, amazon: view.amazonMain } : null,
+      playHref: h.url('/play'),
+      ...config
+    },
+    seo: { title, description: h.t('play.lead'), image: view ? view.cover : '' }
+  });
+}
+
+router.get('/play/color/:slug', (req, res, next) => {
+  const b = catalog.get(req.params.slug);
+  const pages = b ? play.pages(b.slug) : [];
+  if (!pages.length) return next();
+  const n = Math.min(Math.max(parseInt(req.query.p, 10) || 1, 1), pages.length);
+  gamePage(req, res, 'color', b, { pages, start: req.query.p ? n - 1 : -1, colorHref: req.h.url('/play/color/' + b.slug) },
+    req.h.t('playGame.colorTitle') + ': ' + req.h.bookTitle(b));
+});
+
+router.get('/play/jigsaw/:slug', (req, res, next) => {
+  const b = catalog.get(req.params.slug);
+  if (!b || !play.hasCover(b.slug)) return next();
+  const pieces = play.JIGSAW_SIZES.includes(Number(req.query.pieces)) ? Number(req.query.pieces) : 0;
+  gamePage(req, res, 'jigsaw', b, { image: '/images/books/' + b.slug + '/cover.jpg', pieces, sizes: play.JIGSAW_SIZES },
+    req.h.t('playGame.jigsawTitle') + ': ' + req.h.bookTitle(b));
+});
+
+router.get('/play/memory', (req, res) => {
+  const h = req.h;
+  const pairs = play.MEMORY_SIZES.includes(Number(req.query.pairs)) ? Number(req.query.pairs) : 0;
+  const cards = play.jigsaw.map((s) => {
+    const v = bookView(catalog.get(s), h, req);
+    return { slug: s, title: v.displayTitle, cover: v.cover, href: v.href };
+  });
+  gamePage(req, res, 'memory', null, { cards, pairs, sizes: play.MEMORY_SIZES }, h.t('playGame.memoryTitle'));
+});
 router.get('/parents', (req, res) => page(req, res, 'parents', { seo: { title: req.h.t('parents.title') } }));
 router.get('/educators', (req, res) => page(req, res, 'educators', { seo: { title: req.h.t('educators.title') } }));
 router.get('/educators/:page', (req, res, next) => {
@@ -238,7 +296,10 @@ app.get('/sitemap.xml', (req, res) => {
     .concat(EDUCATOR_PAGES.map((p) => '/educators/' + p))
     .concat(PARTNER_PAGES.map((p) => '/partners/' + p))
     .concat(POLICY_PAGES.map((p) => '/policies/' + p))
-    .concat(catalog.books.map((b) => '/books/' + b.slug));
+    .concat(catalog.books.map((b) => '/books/' + b.slug))
+    .concat(['/play/memory'])
+    .concat(play.coloring.map((s) => '/play/color/' + s))
+    .concat(play.jigsaw.map((s) => '/play/jigsaw/' + s));
   const loc = (lang, p) => SITE_URL + (lang === 'en' ? p : '/' + lang + (p === '/' ? '/' : p));
   const urls = paths.flatMap((p) =>
     LANGS.map((lang) => {

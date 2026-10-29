@@ -197,3 +197,21 @@ details.stores ul { list-style: none; padding: 0; margin: 8px 0 0; display: flex
 .play-tile .art { aspect-ratio: 3 / 4; align-items: center; justify-content: center; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } a.door:hover, .book-card:hover .cover { transform: none; } }
+
+/* Play hub */
+.play-doors { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 16px; }
+.play-door { display: flex; flex-direction: column; gap: 6px; padding: 22px; border-radius: var(--radius); color: var(--ink); text-decoration: none; box-shadow: 0 6px 0 rgba(0,0,0,.12); transition: transform .15s; }
+.play-door:hover { color: var(--ink); transform: translateY(-3px); }
+.play-door-icon { display: block; margin-bottom: 4px; }
+.play-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 18px; }
+.play-pick { display: flex; flex-direction: column; gap: 6px; text-decoration: none; color: var(--ink); font-weight: 800; line-height: 1.25; }
+.play-pick:hover { color: var(--teal); }
+.play-pick-art { display: block; border-radius: 14px; overflow: hidden; background: var(--white); box-shadow: 0 6px 18px rgba(74,52,38,.14); aspect-ratio: 5 / 8; transition: transform .15s; }
+.play-pick:hover .play-pick-art { transform: translateY(-3px) rotate(-1deg); }
+.play-pick-art img { width: 100%; height: 100%; object-fit: cover; }
+.play-pick-lineart { aspect-ratio: 867 / 1100; border: 2px solid var(--line); }
+.play-pick-lineart img { object-fit: contain; }
+.play-pick-meta { font-weight: 600; font-size: 14px; color: var(--ink-soft); }
+.play-levels { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+.play-memory-art { display: flex; justify-content: center; padding: 20px 0; }
+.play-memory-art img { width: min(30%, 160px); border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,.18); transform: rotate(var(--r)); margin: 0 -10px; border: 4px solid var(--white); }

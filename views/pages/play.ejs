@@ -1,18 +1,79 @@
 <%- include('../partials/top') %>
-<section class="section band-teal">
-  <div class="wrap stack" style="gap:32px">
+<section class="section band-teal play-hero">
+  <div class="wrap stack" style="gap:28px">
     <div class="stack-sm" style="max-width:760px">
       <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px);color:#fff"><%= t('play.title') %></h1>
       <p class="lead"><%= t('play.lead') %></p>
     </div>
-    <div class="grid-cards">
-      <% t('play.games').forEach(function (g, i) { const bg = ['#FFFFFF', '#DDF1FC', '#FFE3DE', '#FFF1C2'][i % 4]; %>
-      <div class="card card-pad stack-sm" style="background:<%= bg %>;color:#4A3426"><h2 class="h3"><%= g.title %></h2><p style="margin:0"><%= g.text %></p></div>
+    <div class="play-doors">
+      <% t('play.games').forEach(function (g, i) { const bg = ['#FFF1C2', '#DDF1FC', '#FFE3DE'][i % 3]; %>
+      <a class="play-door" href="#<%= g.key %>" style="background:<%= bg %>">
+        <span class="play-door-icon" aria-hidden="true"><%- g.key === 'color'
+          ? '<svg viewBox="0 0 48 48" width="44" height="44"><circle cx="16" cy="18" r="9" fill="#D9381E"/><circle cx="32" cy="18" r="9" fill="#FFC93C"/><circle cx="24" cy="31" r="9" fill="#0E7C7B"/></svg>'
+          : g.key === 'jigsaw'
+          ? '<svg viewBox="0 0 48 48" width="44" height="44"><path d="M8 8h13a5 5 0 1 0 6 0h13v13a5 5 0 1 1 0 6v13H27a5 5 0 1 0-6 0H8V27a5 5 0 1 0 0-6z" fill="#0E7C7B"/></svg>'
+          : '<svg viewBox="0 0 48 48" width="44" height="44"><rect x="5" y="9" width="17" height="24" rx="4" fill="#D9381E" transform="rotate(-8 13 21)"/><rect x="26" y="13" width="17" height="24" rx="4" fill="#24325F" transform="rotate(8 34 25)"/></svg>' %></span>
+        <span class="h3"><%= g.title %></span>
+        <span><%= g.text %></span>
+      </a>
       <% }) %>
     </div>
   </div>
 </section>
-<section class="section tight">
+
+<section class="section tight" id="color">
+  <div class="wrap stack">
+    <div class="stack-sm">
+      <h2 class="h2" style="font-size:clamp(28px,3.4vw,38px)"><%= t('play.colorTitle') %></h2>
+      <p class="lead" style="margin:0"><%= t('play.colorLead') %></p>
+    </div>
+    <div class="play-grid">
+      <% coloringBooks.forEach(function (b) { %>
+      <a class="play-pick" href="<%= url('/play/color/' + b.slug) %>">
+        <span class="play-pick-art play-pick-lineart"><img src="/images/play/<%= b.slug %>/p01.png" alt="" loading="lazy" width="867" height="1100"></span>
+        <span class="play-pick-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span>
+        <span class="play-pick-meta"><%= b.pageCount %> <%= t('play.pagesCount') %></span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section tight band-sky" id="jigsaw">
+  <div class="wrap stack">
+    <div class="stack-sm">
+      <h2 class="h2" style="font-size:clamp(28px,3.4vw,38px)"><%= t('play.jigsawTitle') %></h2>
+      <p class="lead" style="margin:0"><%= t('play.jigsawLead') %></p>
+    </div>
+    <div class="play-grid">
+      <% jigsawBooks.forEach(function (b) { %>
+      <a class="play-pick" href="<%= url('/play/jigsaw/' + b.slug) %>">
+        <span class="play-pick-art"><img src="<%= b.cover %>" alt="" loading="lazy" width="900" height="1440"></span>
+        <span class="play-pick-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" id="memory">
+  <div class="wrap grid-2" style="align-items:center">
+    <div class="stack-sm">
+      <h2 class="h2" style="font-size:clamp(28px,3.4vw,38px)"><%= t('play.memoryTitle') %></h2>
+      <p class="lead" style="margin:0"><%= t('play.memoryLead') %></p>
+      <div class="play-levels">
+        <% memorySizes.forEach(function (n) { %>
+        <a class="btn btn-primary" href="<%= url('/play/memory') %>?pairs=<%= n %>"><%= t('play.memoryLevels')[n] %></a>
+        <% }) %>
+      </div>
+    </div>
+    <div class="play-memory-art" aria-hidden="true">
+      <% jigsawBooks.slice(0, 3).forEach(function (b, i) { %><img src="<%= b.cover %>" alt="" loading="lazy" style="--r:<%= [-8, 3, 10][i] %>deg"><% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section tight band-sun">
   <div class="wrap grid-2" style="align-items:start">
     <div class="stack-sm">
       <h2 class="h2" style="font-size:30px"><%= t('play.promiseTitle') %></h2>
@@ -20,7 +81,8 @@
     </div>
     <div class="signup-box stack-sm" style="padding:32px">
       <h2 class="h3"><%= t('play.signupTitle') %></h2>
-      <%- include('../partials/signup', { formId: 'play-signup', source: 'play-opening', label: t('home.freeLabel') }) %>
+      <p style="margin:0"><%= t('play.signupLead') %></p>
+      <%- include('../partials/signup', { formId: 'play-signup', source: 'play', label: t('home.freeLabel') }) %>
     </div>
   </div>
 </section>

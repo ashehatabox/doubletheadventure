@@ -1,0 +1,18 @@
+<%- include('../partials/top') %>
+<div class="play-shell" id="game" data-config="<%= JSON.stringify(config) %>">
+  <header class="play-bar">
+    <a class="play-back" href="<%= url('/play') %>" aria-label="<%= t('playGame.back') %>">
+      <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+      <span class="play-back-text"><%= t('playGame.back') %></span>
+    </a>
+    <div class="play-name">
+      <strong><%= t('playGame.' + game + 'Title') %></strong>
+      <% if (book) { %><span <%- book.titleIsFallback ? 'lang="en"' : '' %>><%= book.displayTitle %></span><% } %>
+    </div>
+    <div class="play-actions" id="play-actions"></div>
+  </header>
+  <div class="play-stage" id="play-stage"><p class="play-loading"><%= t('playGame.loading') %></p></div>
+  <div class="play-tools" id="play-tools"></div>
+  <noscript><p class="play-noscript"><%= t('playGame.noscript') %></p></noscript>
+</div>
+<%- include('../partials/bottom') %>

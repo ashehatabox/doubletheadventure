@@ -1,5 +1,5 @@
 </main>
-<footer class="footer">
+<% if (typeof playMode === 'undefined' || !playMode) { %><footer class="footer">
   <div class="wrap">
     <div class="footer-grid">
       <div class="footer-col">
@@ -40,5 +40,6 @@
     </div>
   </div>
 </footer>
+<% } %>
 </body>
 </html>

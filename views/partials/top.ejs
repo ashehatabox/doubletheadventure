@@ -14,7 +14,8 @@
 <meta property="og:url" content="<%= seo.canonical %>">
 <% if (seo.image) { %><meta property="og:image" content="<%= seo.canonical.split('/').slice(0, 3).join('/') + seo.image %>"><% } %>
 <meta name="theme-color" content="#0E7C7B">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700;800&display=swap">
@@ -36,8 +37,7 @@
 <header class="header">
   <div class="wrap">
     <a class="logo" href="<%= url('/') %>">
-      <span class="logo-mark" aria-hidden="true">A²</span>
-      <span class="logo-text">A² Publishing</span>
+      <img class="logo-img" src="/images/brand/logo.png" alt="A² Publishing, Double the Adventure" width="720" height="180">
     </a>
     <% const navItems = [['/books', 'nav.books'], ['/shop', 'nav.shop'], ['/play', 'nav.play'], ['/parents', 'nav.parents'], ['/educators', 'nav.educators'], ['/partners', 'nav.partners']]; %>
     <nav class="nav" aria-label="<%= t('nav.main') %>">

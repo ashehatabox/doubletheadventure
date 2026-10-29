@@ -302,7 +302,7 @@ module.exports = {
       body: [
         'We collect only what you give us: an email address (and a name or organisation if you send an enquiry). We use it to send what you asked for and our emails, which you can leave at any time with the unsubscribe link.',
         'We never collect information about children. Our games and pages for kids need no account and ask for nothing.',
-        'Your details are stored with Supabase in Canada and are not sold or shared. To see or delete what we hold about you, write to hello@a2publishing.ca.',
+        'Your details are stored with Supabase in Canada and are not sold or shared. To see or delete what we hold about you, write to hello@doubleadventure.ca.',
         'We follow Canada\'s privacy law (PIPEDA) and anti-spam law (CASL).'
       ]
     },

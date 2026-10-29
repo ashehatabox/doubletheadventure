@@ -62,9 +62,9 @@ npm run check      # checks every page and form
 
 The same way as pulsetwins and Everlore.
 
-1. **Domain:** cPanel → **Domains**: add `a2publishing.ca`, document root `doubletheadventure`. Add `doubletheadventure.ca` too; the app sends it on to `a2publishing.ca`.
+1. **Domain:** cPanel → **Domains**: add `doubleadventure.ca`, document root `doubletheadventure`. Add `doubletheadventure.ca` too; the app sends it on to `doubleadventure.ca`.
 2. **Get the code:** cPanel → **Git Version Control** → *Create* → clone `https://github.com/ashehatabox/doubletheadventure` into `doubletheadventure`.
-3. **Create the app:** cPanel → **Setup Node.js App** → *Create Application*: Node.js 18 or newer, Production, application root `doubletheadventure`, URL `a2publishing.ca`, startup file `app.js`.
+3. **Create the app:** cPanel → **Setup Node.js App** → *Create Application*: Node.js 18 or newer, Production, application root `doubletheadventure`, URL `doubleadventure.ca`, startup file `app.js`.
 4. **Settings:** add each line of `.env.example` as an environment variable (at least `SITE_URL`, `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`).
 5. **Run NPM Install**, then **Restart**.
 6. **HTTPS:** cPanel → **SSL/TLS Status** → run AutoSSL for both domains.

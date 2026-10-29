@@ -302,7 +302,7 @@ module.exports = {
       body: [
         'Nous ne recueillons que ce que vous nous donnez : un courriel (et un nom ou un organisme si vous nous écrivez). Nous l\'utilisons pour vous envoyer ce que vous avez demandé et nos courriels, dont vous pouvez vous désabonner à tout moment.',
         'Nous ne recueillons jamais d\'information sur les enfants. Nos jeux et pages pour enfants ne demandent ni compte ni renseignement.',
-        'Vos données sont conservées chez Supabase au Canada et ne sont ni vendues ni partagées. Pour consulter ou supprimer vos données, écrivez à hello@a2publishing.ca.',
+        'Vos données sont conservées chez Supabase au Canada et ne sont ni vendues ni partagées. Pour consulter ou supprimer vos données, écrivez à hello@doubleadventure.ca.',
         'Nous respectons la loi canadienne sur la protection des renseignements personnels (LPRPDE) et la loi anti-pourriel (LCAP).'
       ]
     },

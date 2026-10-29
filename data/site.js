@@ -3,7 +3,7 @@ module.exports = {
   name: 'A² Publishing',
   series: 'Double the Adventure',
   authors: ['Amr Mohamed', 'Abdallah Shehata'],
-  contactEmail: 'hello@a2publishing.ca',
+  contactEmail: 'hello@doubleadventure.ca',
   ages: '3–7',
   languages: ['en', 'fr', 'es', 'de', 'it'],
   // Prices shown on the site (same as Amazon, same for every book).

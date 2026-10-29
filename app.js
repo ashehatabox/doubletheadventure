@@ -14,7 +14,7 @@ const amazon = require('./lib/amazon');
 const { insert } = require('./lib/supabase');
 const { notify } = require('./lib/mailer');
 
-const SITE_URL = (process.env.SITE_URL || 'https://a2publishing.ca').replace(/\/$/, '');
+const SITE_URL = (process.env.SITE_URL || 'https://doubleadventure.ca').replace(/\/$/, '');
 const EDUCATOR_PAGES = ['teachers', 'early-years', 'libraries', 'newcomers'];
 const PARTNER_PAGES = ['press', 'stores', 'sponsors', 'rights'];
 const POLICY_PAGES = ['privacy', 'terms', 'shipping'];
@@ -29,7 +29,7 @@ app.use(compression());
 // The series domain and www both go to the main address.
 app.use((req, res, next) => {
   const host = String(req.hostname || '').toLowerCase();
-  if (host.startsWith('www.') || host.includes('doubletheadventure')) {
+  if (host.startsWith('www.') || host.includes('doubletheadventure') || host.includes('a2publishing')) {
     if (host !== 'localhost' && !host.startsWith('127.')) return res.redirect(301, SITE_URL + req.originalUrl);
   }
   next();

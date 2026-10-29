@@ -17,7 +17,7 @@ Every day, one long article for the Parents section (`/parents/articles`). Each 
 4. Write the article (rules below) to `content/articles/en/<article-slug>.md`.
 5. `npm run check` must pass. Fix and re-run until it does.
 6. `node scripts/engine-next.js --done <item id> <article-slug>`.
-7. Commit both files (`Article: <title>`) and push to `main`. The site deploys itself.
+7. Run `npm run share` (makes the share picture for the new article; if it says Playwright isn't available, carry on). Commit the article, the queue file and the new file in `public/images/share/` (`Article: <title>`) and push to `main`. The site deploys itself.
 
 ## The French part of every run
 After the English article is pushed, do one French version in the same run (it can be an older article; the oldest without a French twin goes first).

@@ -13,6 +13,7 @@ const play = require('./data/play');
 const mapPoints = require('./data/map-points.json');
 const articles = require('./lib/articles');
 const guides = require('./lib/guides');
+const shareImage = require('./lib/share');
 const { helpers, bookImage, LANGS } = require('./lib/i18n');
 const amazon = require('./lib/amazon');
 const { insert } = require('./lib/supabase');
@@ -131,7 +132,7 @@ router.get('/books/:slug', (req, res, next) => {
       memory: play.jigsaw.includes(b.slug),
       map: !!(b.culture && mapPoints.points[b.culture])
     },
-    seo: { title: view.displayTitle, description: h.pick(b.blurb) || h.pick(b.subtitle) || h.t('meta.siteDescription'), image: view.cover }
+    seo: { title: view.displayTitle, description: h.pick(b.blurb) || h.pick(b.subtitle) || h.t('meta.siteDescription'), image: shareImage('book', b.slug, view.cover) }
   });
 });
 
@@ -217,7 +218,7 @@ router.get('/parents/articles/:slug', (req, res, next) => {
   const books = a.books.map((s) => catalog.get(s)).filter(Boolean).map((b) => bookView(b, h, req));
   const more = articles.list(h.lang).filter((o) => o.slug !== a.slug)
     .sort((x, y) => (y.topic === a.topic) - (x.topic === a.topic)).slice(0, 3);
-  const image = a.image || (books[0] && books[0].cover) || '';
+  const image = a.image || shareImage('article', a.slug, (books[0] && books[0].cover) || '');
   const url = SITE_URL + h.url('/parents/articles/' + a.slug);
   const jsonLd = {
     '@context': 'https://schema.org',

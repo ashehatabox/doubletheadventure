@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "node --watch app.js",
+    "share": "node scripts/make-share-images.js",
     "check": "node scripts/check-articles.js && node scripts/smoke-test.js"
   },
   "engines": {

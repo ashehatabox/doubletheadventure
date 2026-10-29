@@ -8,7 +8,7 @@ care_flag: none
 ---
 
 ## Story in short
-Felix and Finn are two young foxes who are best friends. They race through the autumn woods, share fruit and live in dens side by side. One day Felix finds a beautiful shiny pebble by the river and keeps it in his den, but the next morning it is gone. When he sees a shiny pebble outside Finn's den, he jumps to conclusions and accuses Finn of stealing it. Finn insists he found his own pebble near the oak tree, but Felix won't believe him and calls him a liar. Hurt and angry, they turn away from each other. Days pass and both are miserable; the woods feel empty without their games. Then, walking by the river one evening, Felix spots his own pebble glinting in the water. It must have rolled out of his den. Ashamed, he goes straight to Finn, tells him what he found and says sorry for not believing him. Finn admits he was really hurt, and forgives him. They hug and agree to stay friends, knowing that mistakes happen but forgiveness can make a friendship stronger.
+Felix and Finn are best-friend foxes who race through the autumn woods, share fruit and live in dens side by side. Felix finds a beautiful shiny pebble by the river and keeps it in his den, but the next day it's gone. Seeing a shiny pebble outside Finn's den, he accuses Finn of taking it. Finn says he found his own near the oak tree, but Felix calls him a liar. Hurt and angry, they turn away from each other, and for days both are miserable. Then one evening Felix spots his own pebble glinting in the river: it must have rolled out of his den. Ashamed, he goes straight to Finn, explains and says sorry for not believing him. Finn tells him how much it hurt, and forgives him. They hug and stay friends, knowing mistakes happen but forgiveness can make a friendship stronger.
 
 ## Characters
 - **Felix** (fox): proud of his special find, quick to blame; makes the mistake, then owns it and apologises. The one who learns.
@@ -29,8 +29,6 @@ What the book avoids: forgiveness as "it's fine, forget it"; the hurt person bei
 
 ## Where the value comes from
 Shared across traditions. Related sayings:
-- **Buddhist tradition**: "Never does hatred cease by hating; by not hating does it cease: this is the ancient law." Original: na hi verena verāni sammantīdha kudācanaṃ / averena ca sammanti esa dhammo sanantano. Source: Dhammapada 5 (Yamakavagga). care_flag: none.
-- **Prophet Muhammad (Hadith)**: it is not right to shun your brother for more than three nights, each turning away when they meet; the better of the two is the one who greets first. Original: وَخَيْرُهُمَا الَّذِي يَبْدَأُ بِالسَّلاَمِ. Source: Sahih al-Bukhari 6077; Sahih Muslim 2560a (Abu Ayyub al-Ansari). care_flag: none.
 - **Ancient China**: the jealous general Lian Po learned that Lin Xiangru had avoided quarrels to protect their kingdom; ashamed, he carried thorny brambles on his bare back to Lin's door and asked forgiveness, and they became firm friends. Original idiom: 負荊請罪. Source: Shiji (Records of the Grand Historian) ch. 81, Biographies of Lian Po and Lin Xiangru. care_flag: none.
 
 ## Key moments

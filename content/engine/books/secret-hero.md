@@ -8,7 +8,7 @@ care_flag: none
 ---
 
 ## Story in short
-A small, shy rabbit lives quietly in a forest and loves to help, but never wants anyone to know it was him. When a dry spell empties the forest's watering hole, he sneaks out after dark and mends a broken pipe so the water flows again. When a storm knocks a mother bird's nest down and one egg goes missing, he searches by night, finds it and returns it. When winter snow buries the paths to the animals' food, he clears them while everyone sleeps. Each morning the animals wonder who helped them, and Bunny stays hidden. One day a squirrel catches him in the act and asks why he keeps it secret; Bunny explains that helping is about making someone's day better, not about getting noticed. The forest starts talking about a mystery "Secret Hero", and the idea spreads: a monkey starts clearing water paths and the birds sing to cheer everyone up. In the end the whole forest is full of quiet good deeds, and small efforts add up to a big difference.
+A small, shy rabbit in a quiet forest loves to help, but never wants credit. When a dry spell empties the watering hole, he slips out at night and mends a broken pipe. When wind knocks down a mother bird's nest and an egg goes missing, he finds it in the dark and brings it back. When snow buries the paths to the animals' food, he clears them while everyone sleeps. Each morning the animals wonder who helped, and Bunny stays hidden. A squirrel finally catches him and asks why he keeps it secret; Bunny says helping is about brightening someone's day, not being noticed. Talk of a mysterious "Secret Hero" spreads, and others start helping too: a monkey clears water paths and the birds sing to cheer everyone. Soon the forest is full of quiet good deeds, and small efforts add up to a big difference.
 
 ## Characters
 - **Bunny** (rabbit): small, shy and modest; wants to help others without being thanked or seen. The hero. Look details are not in the text (check the illustrations).
@@ -34,7 +34,6 @@ What the book avoids: kindness as a way to be liked or thanked; the idea that on
 
 ## Where the value comes from
 Shared across traditions. Related sayings:
-- **Jesus (Gospels)**: "But when thou doest alms, let not thy left hand know what thy right hand doeth: that thine alms may be in secret." Source: Matthew 6:1-4 (quote vv. 3-4), KJV. care_flag: none.
 - **Ancient Greece & Rome**: in Aesop's fable the blustering North Wind cannot tear off a traveller's cloak, but the Sun's gentle warmth makes him take it off; "Kindness effects more than severity." Source: Aesop, The North Wind and the Sun (Perry Index 46; Avianus 4), moral as worded by J. Jacobs (1894). care_flag: none.
 - **Korea**: kind Heungbu chases off a snake and mends a swallow's broken leg, and its gift seed grows gourds full of treasure; his greedy brother Nolbu copies him for gain and is punished. Original: 흥부전 (흥부와 놀부). Source: Heungbujeon, anonymous late-Joseon tale; pansori version Heungbo-ga. care_flag: none.
 

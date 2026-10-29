@@ -8,7 +8,7 @@ care_flag: none
 ---
 
 ## Story in short
-Oakie is a tiny seed buried in the dark soil, who has never seen sunlight or felt the wind. A bird passing overhead describes how wonderful both are, and Oakie wants them right away, but pushing up through the heavy earth gets him nowhere. A friendly worm tells him that growing takes time and that he will reach the light when he is ready. Oakie finds this hard. Months pass; rain and sun soak into the ground, a root reaches down and a green shoot finally breaks the surface. The wind greets him. Then a hungry deer bites off one of his leaves, and Oakie is frightened and wonders if it is safe out in the open. He decides that growing in the light is worth the risk and keeps going, until he becomes a strong tree where birds nest. When the same deer rests in his shade, Oakie quietly forgives it. In the end a new little seed looks up at him, dreaming of being tall, and Oakie passes on the worm's advice. The forest keeps growing, one seed at a time.
+Oakie is a tiny seed in the dark soil who has never seen sunlight or felt the wind. A passing bird describes both, and Oakie wants them now, but the earth is too heavy to push through. A kind worm tells him growing takes time and he will reach the light when he's ready. Months pass. Rain and sun warm the ground, a root reaches down and a green shoot breaks through, and the wind welcomes him. Then a hungry deer bites off one of his leaves, and Oakie wonders if it's safe out in the open. He decides life in the light is worth the risk and keeps growing until he is a strong tree full of nests. When the same deer rests in his shade, he quietly forgives it. At the end a new little seed dreams of growing tall, and Oakie passes on the worm's advice. The forest grows, one seed at a time.
 
 ## Characters
 - **Oakie** (oak seed, then oak tree): eager and impatient at first, then brave and steady; wants to see the light and feel the wind. The hero. Spelled "Okie" once on the dedication page, "Oakie" everywhere else (use Oakie).
@@ -37,7 +37,6 @@ Shared across traditions. Related sayings:
 - **Ancient China**: a farmer of Song, worried his sprouts weren't growing fast enough, pulled each one up a little and came home proud that he had helped them grow; by morning they had withered. Original: 宋人有閔其苗之不長而揠之者。 Source: Mencius 2A2 (Gongsun Chou I); idiom 揠苗助長. care_flag: none.
 - **Japan**: "Even a cold stone grows warm if you sit on it for three years." Original: 石の上にも三年 (ishi no ue ni mo san nen). Source: Japanese proverb (kotowaza); Digital Daijisen, Nihon Kokugo Daijiten (first example Saikaku, 1694), via Kotobank. "Three years" means a good long while. care_flag: none.
 - **West Africa (Hausa)**: "He who is patient can cook a stone and enjoy its broth." Original: Mai haƙuri shi yakan dafa dutse ya sha romonsa. Source: Yusuf Sadau Saleh, 'A Contrastive Analysis of English and Hausa Proverbs in Selected Texts', M.Ed. thesis, Ahmadu Bello University, Zaria, 2014, p. 32. care_flag: none.
-- Also in the library, close to this book: the mustard seed that grows into a tree where birds lodge (Matthew 13:31-32).
 
 ## Key moments
 1. Oakie lies in the dark soil, never having seen light or felt wind.

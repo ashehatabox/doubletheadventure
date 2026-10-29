@@ -48,7 +48,7 @@ module.exports = {
     mapEyebrow: 'La carte des valeurs',
     mapTitle: 'Une valeur, une culture, un petit héros',
     mapLead: 'Chaque livre part d\'une valeur qui a façonné les contes traditionnels quelque part dans le monde, et des lecteurs de cette culture le relisent avant sa publication.',
-    mapPlaceholder: 'Carte illustrée des valeurs bientôt',
+    mapCta: 'Ouvrir la carte des valeurs',
     shelfTitle: 'Trouvez un livre selon ce que vit votre enfant',
     playEyebrow: 'Jouer',
     playTitle: 'Colorie le cocon de Quilla, reconstitue la plage de Tama',
@@ -150,6 +150,36 @@ module.exports = {
     signupTitle: 'Nouveaux jeux et coloriages par courriel',
     signupLead: 'Pour les adultes : nous vous dirons quand de nouveaux héros et jeux arrivent.'
   },
+  valuesMap: {
+    title: 'La carte des valeurs',
+    lead: 'Chaque nouveau livre porte une valeur qui a façonné des histoires quelque part dans le monde. Touche un héros sur la carte pour voir d\'où vient sa valeur.',
+    howTitle: 'D\'où viennent les valeurs',
+    how: [
+      'Chaque nouveau livre part d\'une valeur que portent les contes d\'une culture : l\'Ubuntu en Afrique australe, le Sankofa au Ghana, l\'Ayni dans les Andes, le Kaitiakitanga en Aotearoa Nouvelle-Zélande.',
+      'L\'histoire parle toujours de petits animaux, pour que chaque enfant puisse s\'y retrouver. La note au début du livre explique aux adultes d\'où vient l\'idée.',
+      'Des lecteurs de chaque culture relisent le livre avant sa publication. Nos premiers livres portent des valeurs que toutes les familles partagent, et la carte grandit avec chaque nouveau héros.'
+    ],
+    allTitle: 'Chaque livre et sa valeur',
+    shared: 'Partagée partout'
+  },
+  articles: {
+    title: 'Articles pour les parents',
+    lead: 'Les idées derrière les histoires : d\'où vient chaque valeur, pourquoi elle compte pour les enfants de 3 à 7 ans, et comment en parler à la maison.',
+    topics: { philosophy: 'Notre approche', values: 'Valeurs', cultures: 'Cultures', reading: 'Lire ensemble', feelings: 'Émotions' },
+    all: 'Tous',
+    minRead: 'min de lecture',
+    toc: 'Dans cet article',
+    books: 'Les livres de cet article',
+    more: 'Autres articles',
+    allArticles: 'Tous les articles',
+    draft: 'Brouillon',
+    updated: 'Mis à jour',
+    englishOnly: 'Cet article est en anglais pour le moment.',
+    empty: 'Les premiers articles arrivent bientôt.',
+    read: 'Lire l\'article',
+    signupTitle: 'Une valeur par semaine, par courriel',
+    signupLead: 'Un petit mot pour les adultes : une valeur, une question pour le coucher et une petite activité.'
+  },
   playGame: {
     colorTitle: 'Coloriage',
     jigsawTitle: 'Casse-tête',
@@ -186,6 +216,8 @@ module.exports = {
     matched: 'Les livres que tu as trouvés'
   },
   parents: {
+    articlesTitle: 'Articles : les idées derrière les histoires',
+    articlesLead: 'D\'où vient chaque valeur, et comment en parler avec votre enfant.',
     title: 'Coin des parents',
     lead: 'Chaque livre porte une valeur. Voici comment en faire une conversation, et comment trouver le bon livre pour ce que vit votre enfant.',
     readTitle: 'Lisez ensemble, laissez parler votre enfant',

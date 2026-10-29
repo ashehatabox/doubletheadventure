@@ -1,0 +1,61 @@
+<%- include('../partials/top') %>
+<% const a = article; const fmt = function (d) { return d ? new Date(d + 'T12:00:00Z').toLocaleDateString(lang === 'fr' ? 'fr-CA' : 'en-CA', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }) : ''; }; %>
+<article <%- a.isFallback ? 'lang="en"' : '' %>>
+  <header class="section tight band-sun">
+    <div class="wrap article-head stack-sm">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="<%= url('/parents') %>"><%= t('nav.parents') %></a> › <a href="<%= url('/parents/articles') %>"><%= t('articles.title') %></a></nav>
+      <p class="eyebrow"><%= t('articles.topics')[a.topic] %><% if (a.draft) { %> · <%= t('articles.draft') %><% } %></p>
+      <h1 class="h1 article-title"><%= a.title %></h1>
+      <p class="lead"><%= a.description %></p>
+      <p class="article-meta"><%= fmt(a.date) %><% if (a.updated && a.updated !== a.date) { %> · <%= t('articles.updated') %> <%= fmt(a.updated) %><% } %> · <%= a.minutes %> <%= t('articles.minRead') %></p>
+      <% if (a.isFallback) { %><p class="article-note" lang="<%= lang %>"><%= t('articles.englishOnly') %></p><% } %>
+    </div>
+  </header>
+  <div class="section tight">
+    <div class="wrap article-layout">
+      <aside class="article-aside">
+        <% if (a.toc.length > 2) { %>
+        <details class="article-toc" data-toc>
+          <summary><%= t('articles.toc') %></summary>
+          <ol><% a.toc.forEach(function (h) { %><li><a href="#<%= h.id %>"><%= h.text %></a></li><% }) %></ol>
+        </details>
+        <% } %>
+        <% if (books.length) { %>
+        <div class="stack-sm article-books">
+          <p class="eyebrow" lang="<%= lang %>"><%= t('articles.books') %></p>
+          <% books.forEach(function (b) { %>
+          <a class="tile" href="<%= b.href %>" lang="<%= lang %>">
+            <span class="tile-swatch" style="background:<%= b.color %>"><% if (b.cover) { %><img src="<%= b.cover %>" alt="" loading="lazy"><% } %></span>
+            <span><span class="tile-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span><span class="tile-text"><%= b.valueText %></span></span>
+          </a>
+          <% }) %>
+        </div>
+        <% } %>
+      </aside>
+      <div class="prose"><%- a.html %></div>
+    </div>
+  </div>
+</article>
+<section class="section tight band-mint" lang="<%= lang %>">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 class="h2" style="font-size:30px"><%= t('articles.signupTitle') %></h2>
+      <p class="lead" style="margin:0"><%= t('articles.signupLead') %></p>
+    </div>
+    <div class="signup-box stack-sm" style="padding:28px">
+      <%- include('../partials/signup', { formId: 'article-signup', source: 'article:' + a.slug, label: t('home.freeLabel') }) %>
+    </div>
+  </div>
+</section>
+<% if (more.length) { %>
+<section class="section tight" lang="<%= lang %>">
+  <div class="wrap stack" style="gap:24px">
+    <div class="row" style="justify-content:space-between;align-items:flex-end">
+      <h2 class="h2" style="font-size:30px"><%= t('articles.more') %></h2>
+      <a href="<%= url('/parents/articles') %>" style="font-weight:800"><%= t('articles.allArticles') %></a>
+    </div>
+    <div class="acards"><% more.forEach(function (m) { %><%- include('../partials/article-card', { a: m }) %><% }) %></div>
+  </div>
+</section>
+<% } %>
+<%- include('../partials/bottom') %>

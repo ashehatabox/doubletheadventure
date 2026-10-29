@@ -48,7 +48,7 @@ module.exports = {
     mapEyebrow: 'The values map',
     mapTitle: 'One value, one culture, one little hero',
     mapLead: 'Every book starts from a value that shaped traditional stories somewhere in the world, and readers from that culture check it before it\'s published.',
-    mapPlaceholder: 'Illustrated values map coming soon',
+    mapCta: 'Open the values map',
     shelfTitle: 'Find a book by what your child is going through',
     playEyebrow: 'Play',
     playTitle: 'Color Quilla\'s hut, piece together Tama\'s beach',
@@ -150,6 +150,36 @@ module.exports = {
     signupTitle: 'New games and coloring pages by email',
     signupLead: 'For grown-ups: we\'ll tell you when new heroes and games arrive.'
   },
+  valuesMap: {
+    title: 'The values map',
+    lead: 'Each new book carries one value that shaped stories somewhere in the world. Tap a hero on the map to see where its value comes from.',
+    howTitle: 'Where the values come from',
+    how: [
+      'We start every new book from a value that traditional stories carry in one culture: Ubuntu in Southern Africa, Sankofa in Ghana, Ayni in the Andes, Kaitiakitanga in Aotearoa New Zealand.',
+      'The story itself is always about little animals, so any child can step into it. The note at the front of the book tells grown-ups where the idea comes from.',
+      'Readers from each culture check the book before it is published. Our first books carry values every family shares, and the map grows with each new hero.'
+    ],
+    allTitle: 'Every book and its value',
+    shared: 'Shared everywhere'
+  },
+  articles: {
+    title: 'Articles for parents',
+    lead: 'The ideas behind the stories: where each value comes from, why it matters for children aged 3 to 7, and how to talk about it at home.',
+    topics: { philosophy: 'Our approach', values: 'Values', cultures: 'Cultures', reading: 'Reading together', feelings: 'Feelings' },
+    all: 'All',
+    minRead: 'min read',
+    toc: 'In this article',
+    books: 'Books for this article',
+    more: 'More articles',
+    allArticles: 'All articles',
+    draft: 'Draft',
+    updated: 'Updated',
+    englishOnly: 'This article is in English for now.',
+    empty: 'The first articles are on their way.',
+    read: 'Read the article',
+    signupTitle: 'One value a week, by email',
+    signupLead: 'A short note for grown-ups: a value, a bedtime question and a small activity.'
+  },
   playGame: {
     colorTitle: 'Coloring',
     jigsawTitle: 'Jigsaw',
@@ -186,6 +216,8 @@ module.exports = {
     matched: 'Books you matched'
   },
   parents: {
+    articlesTitle: 'Articles: the ideas behind the stories',
+    articlesLead: 'Where each value comes from, and how to talk about it with your child.',
     title: 'Parent corner',
     lead: 'Each book carries one value. Here\'s how to turn reading it into a conversation, and how to find the right book for what your child is going through.',
     readTitle: 'Read it together, let your child do the talking',

@@ -84,5 +84,6 @@
     }
   }
 
+  P.warm(cfg.cards.map(function (c) { return c.cover; }));
   if (cfg.sizes.indexOf(cfg.pairs) >= 0) play(cfg.pairs); else pickSize();
 })();

@@ -1,0 +1,7 @@
+<% const fmt = function (d) { return d ? new Date(d + 'T12:00:00Z').toLocaleDateString(lang === 'fr' ? 'fr-CA' : 'en-CA', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }) : ''; }; %>
+<a class="acard" href="<%= url('/parents/articles/' + a.slug) %>" <%- a.isFallback ? 'lang="en"' : '' %>>
+  <span class="acard-topic"><%= t('articles.topics')[a.topic] %><% if (a.draft) { %> · <%= t('articles.draft') %><% } %></span>
+  <span class="acard-title"><%= a.title %></span>
+  <span class="acard-text"><%= a.description %></span>
+  <span class="acard-meta"><%= fmt(a.date) %> · <%= a.minutes %> <%= t('articles.minRead') %></span>
+</a>

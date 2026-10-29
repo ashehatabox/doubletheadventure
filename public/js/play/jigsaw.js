@@ -180,5 +180,6 @@
     P.actions.appendChild(peek);
   }
 
+  P.warm([cfg.image]);
   if (GRIDS[cfg.pieces]) play(cfg.pieces); else pickSize();
 })();

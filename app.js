@@ -10,6 +10,8 @@ const compression = require('compression');
 const site = require('./data/site');
 const catalog = require('./data/books');
 const play = require('./data/play');
+const mapPoints = require('./data/map-points.json');
+const articles = require('./lib/articles');
 const { helpers, bookImage, LANGS } = require('./lib/i18n');
 const amazon = require('./lib/amazon');
 const { insert } = require('./lib/supabase');
@@ -36,7 +38,10 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static(path.join(__dirname, 'public'), { maxAge: '7d' }));
+app.use(express.static(path.join(__dirname, 'public'), {
+  maxAge: '7d',
+  setHeaders: (res, file) => { if (file.endsWith(path.sep + 'sw.js')) res.set('Cache-Control', 'no-cache'); }
+}));
 app.use(express.urlencoded({ extended: false, limit: '20kb' }));
 app.use(express.json({ limit: '20kb' }));
 
@@ -87,6 +92,7 @@ function page(req, res, view, data = {}, status = 200) {
     allBooks: catalog.books.map((b) => bookView(b, h, req)),
     featured: bookView(catalog.get(site.featured), h, req),
     bookView: (b) => bookView(b, h, req),
+    mapPoints,
     ...data,
     seo: { ...seo, fullTitle, canonical: SITE_URL + h.url(req.basePath) }
   });
@@ -120,6 +126,8 @@ router.get('/books/:slug', (req, res, next) => {
     seo: { title: view.displayTitle, description: h.pick(b.blurb) || h.pick(b.subtitle) || h.t('meta.siteDescription'), image: view.cover }
   });
 });
+
+router.get('/values-map', (req, res) => page(req, res, 'values-map', { seo: { title: req.h.t('valuesMap.title'), description: req.h.t('valuesMap.lead') } }));
 
 router.get('/shop', (req, res) => page(req, res, 'shop', { seo: { title: req.h.t('shop.title') } }));
 router.get('/play', (req, res) => {
@@ -180,7 +188,62 @@ router.get('/play/memory', (req, res) => {
   });
   gamePage(req, res, 'memory', null, { cards, pairs, sizes: play.MEMORY_SIZES }, h.t('playGame.memoryTitle'));
 });
-router.get('/parents', (req, res) => page(req, res, 'parents', { seo: { title: req.h.t('parents.title') } }));
+router.get('/parents', (req, res) =>
+  page(req, res, 'parents', { latestArticles: articles.list(req.h.lang).slice(0, 3), seo: { title: req.h.t('parents.title') } }));
+
+router.get('/parents/articles', (req, res) => {
+  const topic = articles.TOPICS.includes(req.query.topic) ? req.query.topic : '';
+  const all = articles.list(req.h.lang);
+  page(req, res, 'articles', {
+    topic,
+    articleList: all,
+    topics: articles.TOPICS.filter((tp) => all.some((a) => a.topic === tp)),
+    seo: { title: req.h.t('articles.title'), description: req.h.t('articles.lead') }
+  });
+});
+
+router.get('/parents/articles/:slug', (req, res, next) => {
+  const h = req.h;
+  const a = articles.get(req.params.slug, h.lang);
+  if (!a) return next();
+  const books = a.books.map((s) => catalog.get(s)).filter(Boolean).map((b) => bookView(b, h, req));
+  const more = articles.list(h.lang).filter((o) => o.slug !== a.slug)
+    .sort((x, y) => (y.topic === a.topic) - (x.topic === a.topic)).slice(0, 3);
+  const image = a.image || (books[0] && books[0].cover) || '';
+  const url = SITE_URL + h.url('/parents/articles/' + a.slug);
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Article',
+        headline: a.title,
+        description: a.description,
+        inLanguage: a.lang,
+        datePublished: a.date,
+        dateModified: a.updated || a.date,
+        mainEntityOfPage: url,
+        image: image ? SITE_URL + image : undefined,
+        author: { '@type': 'Organization', name: 'A² Publishing', url: SITE_URL },
+        publisher: { '@type': 'Organization', name: 'A² Publishing', logo: { '@type': 'ImageObject', url: SITE_URL + '/images/brand/logo.png' } }
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: h.t('nav.parents'), item: SITE_URL + h.url('/parents') },
+          { '@type': 'ListItem', position: 2, name: h.t('articles.title'), item: SITE_URL + h.url('/parents/articles') },
+          { '@type': 'ListItem', position: 3, name: a.title, item: url }
+        ]
+      }
+    ]
+  };
+  page(req, res, 'article', {
+    article: a,
+    books,
+    more,
+    jsonLd,
+    seo: { title: a.title, description: a.description, image, noindex: a.draft, type: 'article' }
+  });
+});
 router.get('/educators', (req, res) => page(req, res, 'educators', { seo: { title: req.h.t('educators.title') } }));
 router.get('/educators/:page', (req, res, next) => {
   if (!EDUCATOR_PAGES.includes(req.params.page)) return next();
@@ -292,11 +355,13 @@ app.post('/api/enquire', async (req, res) => {
 app.get('/robots.txt', (req, res) => res.type('text/plain').send(`User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`));
 
 app.get('/sitemap.xml', (req, res) => {
-  const paths = ['/', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
+  const paths = ['/', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
     .concat(EDUCATOR_PAGES.map((p) => '/educators/' + p))
     .concat(PARTNER_PAGES.map((p) => '/partners/' + p))
     .concat(POLICY_PAGES.map((p) => '/policies/' + p))
     .concat(catalog.books.map((b) => '/books/' + b.slug))
+    .concat(['/parents/articles'])
+    .concat(articles.published().map((s) => '/parents/articles/' + s))
     .concat(['/play/memory'])
     .concat(play.coloring.map((s) => '/play/color/' + s))
     .concat(play.jigsaw.map((s) => '/play/jigsaw/' + s));

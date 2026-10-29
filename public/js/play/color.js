@@ -18,6 +18,7 @@
   var state = { color: COLORS[0][0], tool: 'fill', undo: [] };
 
   function start() {
+    P.warm(cfg.pages);
     var pages = cfg.pages || [];
     if (cfg.start >= 0 || pages.length === 1) return openPage(Math.max(cfg.start, 0));
     pickPage();

@@ -1,0 +1,31 @@
+<%- include('../partials/top') %>
+<section class="section band-sky">
+  <div class="wrap stack" style="gap:32px">
+    <div class="stack-sm" style="max-width:760px">
+      <p class="eyebrow"><%= t('home.mapEyebrow') %></p>
+      <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('valuesMap.title') %></h1>
+      <p class="lead"><%= t('valuesMap.lead') %></p>
+    </div>
+    <%- include('../partials/values-map') %>
+  </div>
+</section>
+<section class="section tight">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 class="h2" style="font-size:clamp(26px,3vw,34px)"><%= t('valuesMap.howTitle') %></h2>
+      <% t('valuesMap.how').forEach(function (p) { %><p style="margin:0"><%= p %></p><% }) %>
+    </div>
+    <div class="stack-sm">
+      <h2 class="h2" style="font-size:clamp(26px,3vw,34px)"><%= t('valuesMap.allTitle') %></h2>
+      <div class="stack-sm">
+        <% allBooks.forEach(function (b) { %>
+        <a class="tile" href="<%= b.href %>">
+          <span class="tile-swatch" style="background:<%= b.color %>"><% if (b.cover) { %><img src="<%= b.cover %>" alt="" loading="lazy"><% } %></span>
+          <span><span class="tile-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span><span class="tile-text"><%= b.valueText %> · <%= b.cultureText || t('valuesMap.shared') %></span></span>
+        </a>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

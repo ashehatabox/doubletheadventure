@@ -21,6 +21,18 @@
   </div>
 </section>
 <section class="section tight">
+  <div class="wrap stack" style="gap:24px">
+    <div class="row" style="justify-content:space-between;align-items:flex-end">
+      <div class="stack-sm" style="max-width:720px">
+        <h2 class="h2" style="font-size:32px"><%= t('parents.articlesTitle') %></h2>
+        <p class="lead" style="margin:0"><%= t('parents.articlesLead') %></p>
+      </div>
+      <a href="<%= url('/parents/articles') %>" style="font-weight:800"><%= t('articles.allArticles') %></a>
+    </div>
+    <% if (latestArticles.length) { %><div class="acards"><% latestArticles.forEach(function (a) { %><%- include('../partials/article-card', { a: a }) %><% }) %></div><% } else { %><p><%= t('articles.empty') %></p><% } %>
+  </div>
+</section>
+<section class="section tight">
   <div class="wrap stack" style="gap:20px">
     <h2 class="h2" style="font-size:32px"><%= t('parents.momentsTitle') %></h2>
     <div class="chips" style="gap:10px">

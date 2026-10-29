@@ -1,0 +1,26 @@
+<% const mapBooks = allBooks.filter(function (b) { return b.culture && mapPoints.points[b.culture]; });
+   const mapCultures = Object.keys(mapPoints.points).filter(function (k) { return mapBooks.some(function (b) { return b.culture === k; }); }); %>
+<div class="vmap" data-vmap>
+  <div class="vmap-stage" style="aspect-ratio:<%= mapPoints.aspect %>">
+    <img class="vmap-world" src="/images/map/world.svg" alt="" width="1000" height="490">
+    <% mapCultures.forEach(function (k) { const p = mapPoints.points[k]; const b = mapBooks.find(function (x) { return x.culture === k; }); %>
+    <a class="vmap-pin" href="#c-<%= k %>" data-key="<%= k %>" style="left:<%= p[0] %>%;top:<%= p[1] %>%;--c:<%= b.color %>" aria-label="<%= pick(catalog.cultures[k]) %>">
+      <% if (b.cover) { %><img src="<%= b.cover %>" alt="" loading="lazy"><% } else { %><span class="vmap-pin-n"><%= b.n %></span><% } %>
+    </a>
+    <% }) %>
+  </div>
+  <div class="vmap-panels">
+    <% mapCultures.forEach(function (k) { %>
+    <section class="vmap-panel" id="c-<%= k %>" data-key="<%= k %>">
+      <p class="eyebrow"><%= pick(catalog.cultures[k]) %></p>
+      <% mapBooks.filter(function (b) { return b.culture === k; }).forEach(function (b) { %>
+      <p class="vmap-idea" <%- isFallback(b.cultureIdea) ? 'lang="en"' : '' %>><%= pick(b.cultureIdea) %></p>
+      <a class="tile" href="<%= b.href %>">
+        <span class="tile-swatch" style="background:<%= b.color %>"><% if (b.cover) { %><img src="<%= b.cover %>" alt="" loading="lazy"><% } %></span>
+        <span><span class="tile-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span><span class="tile-text"><%= b.valueText %><% if (b.hero) { %> · <%= pick(b.hero) %><% } %></span></span>
+      </a>
+      <% }) %>
+    </section>
+    <% }) %>
+  </div>
+</div>

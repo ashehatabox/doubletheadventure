@@ -137,5 +137,11 @@
     } catch (e) { /* old browser: fine */ }
   }
 
-  window.Play = { cfg: cfg, T: T, el: el, icon: icon, button: button, choose: choose, finish: finish, shuffle: shuffle, loadImage: loadImage, clear: clear, setQuery: setQuery, stage: stage, tools: tools, actions: actions, root: root };
+  // Fetch pictures in the background so the whole game works offline later.
+  function warm(urls) {
+    if (!('serviceWorker' in navigator) || !window.fetch) return;
+    setTimeout(function () { urls.forEach(function (u) { fetch(u).catch(function () {}); }); }, 1500);
+  }
+
+  window.Play = { warm: warm, cfg: cfg, T: T, el: el, icon: icon, button: button, choose: choose, finish: finish, shuffle: shuffle, loadImage: loadImage, clear: clear, setQuery: setQuery, stage: stage, tools: tools, actions: actions, root: root };
 })();

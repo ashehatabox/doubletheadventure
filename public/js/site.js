@@ -53,3 +53,30 @@
     });
   }
 })();
+
+// Values map: tap a pin to show its culture and book.
+(function () {
+  var map = document.querySelector('[data-vmap]');
+  if (!map) return;
+  var pins = map.querySelectorAll('.vmap-pin'), panels = map.querySelectorAll('.vmap-panel');
+  if (!pins.length) return;
+  map.classList.add('is-js');
+  function show(key) {
+    pins.forEach(function (p) { p.setAttribute('aria-current', p.getAttribute('data-key') === key ? 'true' : 'false'); });
+    panels.forEach(function (p) { p.classList.toggle('is-on', p.getAttribute('data-key') === key); });
+  }
+  pins.forEach(function (p) { p.addEventListener('click', function (e) { e.preventDefault(); show(p.getAttribute('data-key')); }); });
+  show(pins[0].getAttribute('data-key'));
+})();
+
+// Article contents: open beside the text on wide screens, folded on phones.
+(function () {
+  var toc = document.querySelector('[data-toc]');
+  if (toc && window.matchMedia('(min-width: 901px)').matches) toc.open = true;
+})();
+
+// Play area: let the games work offline once opened. Only registered on Play pages.
+(function () {
+  if (!('serviceWorker' in navigator) || !/^(\/fr)?\/play(\/|$)/.test(location.pathname)) return;
+  window.addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function () {}); });
+})();

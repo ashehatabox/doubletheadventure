@@ -70,3 +70,12 @@ The same way as pulsetwins and Everlore.
 6. **HTTPS:** cPanel → **SSL/TLS Status** → run AutoSSL for both domains.
 
 **Updates:** every push to `main` runs the checks on GitHub. Once the cPanel secrets are added to the repo (see `.github/workflows/deploy.yml`), GoDaddy pulls and restarts by itself. Without them: Git Version Control → *Manage* → *Pull*, then *Deploy HEAD Commit* (or Restart in Setup Node.js App). After a change to `package.json`, also click **Run NPM Install**.
+
+## Parent articles
+Long articles live in `content/articles/en/<slug>.md` (French: `content/articles/fr/<slug>.md`), with a small header (title, description, date, topic, books, draft). See the top of `lib/articles.js`. `draft: true` hides an article on the live site; set `SHOW_DRAFTS=1` to see drafts (the preview does). They appear at `/parents/articles`, on the Parents page and in the sitemap.
+
+## Values map
+`/values-map` and the home page show each book's culture on a world map. The map picture (`public/images/map/world.svg`) and pin positions (`data/map-points.json`) come from `scripts/make-map.mjs`. A new culture needs a pin added there and in `cultures` in `data/books.js`.
+
+## Play offline
+`public/sw.js` keeps Play pages and their pictures on the device after a child opens them. Change `VERSION` in it when game files change.

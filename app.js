@@ -234,7 +234,10 @@ router.get('/parents/articles/:slug', (req, res, next) => {
           { '@type': 'ListItem', position: 3, name: a.title, item: url }
         ]
       }
-    ]
+    ].concat(a.faq.length ? [{
+      '@type': 'FAQPage',
+      mainEntity: a.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
+    }] : [])
   };
   page(req, res, 'article', {
     article: a,

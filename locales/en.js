@@ -165,7 +165,7 @@ module.exports = {
   articles: {
     title: 'Articles for parents',
     lead: 'The ideas behind the stories: where each value comes from, why it matters for children aged 3 to 7, and how to talk about it at home.',
-    topics: { philosophy: 'Our approach', values: 'Values', cultures: 'Cultures', reading: 'Reading together', feelings: 'Feelings' },
+    topics: { philosophy: 'Our approach', values: 'Values', cultures: 'Cultures', animals: 'The animals', nature: 'Nature and places', feelings: 'Feelings', activities: 'Activities', reading: 'Reading together', classroom: 'In the classroom' },
     all: 'All',
     minRead: 'min read',
     toc: 'In this article',

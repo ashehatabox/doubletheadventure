@@ -165,7 +165,7 @@ module.exports = {
   articles: {
     title: 'Articles pour les parents',
     lead: 'Les idées derrière les histoires : d\'où vient chaque valeur, pourquoi elle compte pour les enfants de 3 à 7 ans, et comment en parler à la maison.',
-    topics: { philosophy: 'Notre approche', values: 'Valeurs', cultures: 'Cultures', reading: 'Lire ensemble', feelings: 'Émotions' },
+    topics: { philosophy: 'Notre approche', values: 'Valeurs', cultures: 'Cultures', animals: 'Les animaux', nature: 'Nature et lieux', feelings: 'Émotions', activities: 'Activités', reading: 'Lire ensemble', classroom: 'En classe' },
     all: 'Tous',
     minRead: 'min de lecture',
     toc: 'Dans cet article',

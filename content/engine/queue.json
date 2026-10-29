@@ -1,0 +1,1445 @@
+{
+ "note": "Daily article engine queue. See content/engine/README.md.",
+ "items": [
+  {
+   "id": "secret-hero--value",
+   "book": "secret-hero",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "becoming-a-tree--value",
+   "book": "becoming-a-tree",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "friendship-bridge--value",
+   "book": "friendship-bridge",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-fox-mistake--value",
+   "book": "the-fox-mistake",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "rainy-day-shiny-things--value",
+   "book": "rainy-day-shiny-things",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-desert-buzz--value",
+   "book": "the-desert-buzz",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-honest-little-raccoon--value",
+   "book": "the-honest-little-raccoon",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "finn-and-coral--value",
+   "book": "finn-and-coral",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "pip-the-brave-parrot--value",
+   "book": "pip-the-brave-parrot",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-spring-that-wanted-to-stay--value",
+   "book": "the-spring-that-wanted-to-stay",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-light-that-grows--value",
+   "book": "the-light-that-grows",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-pebbles-inside--value",
+   "book": "the-pebbles-inside",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-snug--value",
+   "book": "the-snug",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-view-from-down-low--value",
+   "book": "the-view-from-down-low",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "eight-times-up--value",
+   "book": "eight-times-up",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-littlest-guardian--value",
+   "book": "the-littlest-guardian",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-old-path-song--value",
+   "book": "the-old-path-song",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-circle-of-paws--value",
+   "book": "the-circle-of-paws",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-beetle-who-knew-the-stars--value",
+   "book": "the-beetle-who-knew-the-stars",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "knot-by-knot--value",
+   "book": "knot-by-knot",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "secret-hero--animals",
+   "book": "secret-hero",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "becoming-a-tree--animals",
+   "book": "becoming-a-tree",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "friendship-bridge--animals",
+   "book": "friendship-bridge",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-fox-mistake--animals",
+   "book": "the-fox-mistake",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "rainy-day-shiny-things--animals",
+   "book": "rainy-day-shiny-things",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-desert-buzz--animals",
+   "book": "the-desert-buzz",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-honest-little-raccoon--animals",
+   "book": "the-honest-little-raccoon",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "finn-and-coral--animals",
+   "book": "finn-and-coral",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "pip-the-brave-parrot--animals",
+   "book": "pip-the-brave-parrot",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-spring-that-wanted-to-stay--animals",
+   "book": "the-spring-that-wanted-to-stay",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-light-that-grows--animals",
+   "book": "the-light-that-grows",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-pebbles-inside--animals",
+   "book": "the-pebbles-inside",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-snug--animals",
+   "book": "the-snug",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-view-from-down-low--animals",
+   "book": "the-view-from-down-low",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "eight-times-up--animals",
+   "book": "eight-times-up",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-littlest-guardian--animals",
+   "book": "the-littlest-guardian",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-old-path-song--animals",
+   "book": "the-old-path-song",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-circle-of-paws--animals",
+   "book": "the-circle-of-paws",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-beetle-who-knew-the-stars--animals",
+   "book": "the-beetle-who-knew-the-stars",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "knot-by-knot--animals",
+   "book": "knot-by-knot",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "secret-hero--origin",
+   "book": "secret-hero",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "becoming-a-tree--origin",
+   "book": "becoming-a-tree",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "friendship-bridge--origin",
+   "book": "friendship-bridge",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-fox-mistake--origin",
+   "book": "the-fox-mistake",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "rainy-day-shiny-things--origin",
+   "book": "rainy-day-shiny-things",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-desert-buzz--origin",
+   "book": "the-desert-buzz",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-honest-little-raccoon--origin",
+   "book": "the-honest-little-raccoon",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "finn-and-coral--origin",
+   "book": "finn-and-coral",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "pip-the-brave-parrot--origin",
+   "book": "pip-the-brave-parrot",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-spring-that-wanted-to-stay--origin",
+   "book": "the-spring-that-wanted-to-stay",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-light-that-grows--origin",
+   "book": "the-light-that-grows",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-pebbles-inside--origin",
+   "book": "the-pebbles-inside",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-snug--origin",
+   "book": "the-snug",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-view-from-down-low--origin",
+   "book": "the-view-from-down-low",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "eight-times-up--origin",
+   "book": "eight-times-up",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-littlest-guardian--origin",
+   "book": "the-littlest-guardian",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-old-path-song--origin",
+   "book": "the-old-path-song",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-circle-of-paws--origin",
+   "book": "the-circle-of-paws",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-beetle-who-knew-the-stars--origin",
+   "book": "the-beetle-who-knew-the-stars",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "knot-by-knot--origin",
+   "book": "knot-by-knot",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "secret-hero--moment",
+   "book": "secret-hero",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "becoming-a-tree--moment",
+   "book": "becoming-a-tree",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "friendship-bridge--moment",
+   "book": "friendship-bridge",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-fox-mistake--moment",
+   "book": "the-fox-mistake",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "rainy-day-shiny-things--moment",
+   "book": "rainy-day-shiny-things",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-desert-buzz--moment",
+   "book": "the-desert-buzz",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-honest-little-raccoon--moment",
+   "book": "the-honest-little-raccoon",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "finn-and-coral--moment",
+   "book": "finn-and-coral",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "pip-the-brave-parrot--moment",
+   "book": "pip-the-brave-parrot",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-spring-that-wanted-to-stay--moment",
+   "book": "the-spring-that-wanted-to-stay",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-light-that-grows--moment",
+   "book": "the-light-that-grows",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-pebbles-inside--moment",
+   "book": "the-pebbles-inside",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-snug--moment",
+   "book": "the-snug",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-view-from-down-low--moment",
+   "book": "the-view-from-down-low",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "eight-times-up--moment",
+   "book": "eight-times-up",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-littlest-guardian--moment",
+   "book": "the-littlest-guardian",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-old-path-song--moment",
+   "book": "the-old-path-song",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-circle-of-paws--moment",
+   "book": "the-circle-of-paws",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-beetle-who-knew-the-stars--moment",
+   "book": "the-beetle-who-knew-the-stars",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "knot-by-knot--moment",
+   "book": "knot-by-knot",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "secret-hero--environment",
+   "book": "secret-hero",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "becoming-a-tree--environment",
+   "book": "becoming-a-tree",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "friendship-bridge--environment",
+   "book": "friendship-bridge",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-fox-mistake--environment",
+   "book": "the-fox-mistake",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "rainy-day-shiny-things--environment",
+   "book": "rainy-day-shiny-things",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-desert-buzz--environment",
+   "book": "the-desert-buzz",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-honest-little-raccoon--environment",
+   "book": "the-honest-little-raccoon",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "finn-and-coral--environment",
+   "book": "finn-and-coral",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "pip-the-brave-parrot--environment",
+   "book": "pip-the-brave-parrot",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-spring-that-wanted-to-stay--environment",
+   "book": "the-spring-that-wanted-to-stay",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-light-that-grows--environment",
+   "book": "the-light-that-grows",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-pebbles-inside--environment",
+   "book": "the-pebbles-inside",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-snug--environment",
+   "book": "the-snug",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-view-from-down-low--environment",
+   "book": "the-view-from-down-low",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "eight-times-up--environment",
+   "book": "eight-times-up",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-littlest-guardian--environment",
+   "book": "the-littlest-guardian",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-old-path-song--environment",
+   "book": "the-old-path-song",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-circle-of-paws--environment",
+   "book": "the-circle-of-paws",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-beetle-who-knew-the-stars--environment",
+   "book": "the-beetle-who-knew-the-stars",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "knot-by-knot--environment",
+   "book": "knot-by-knot",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "secret-hero--classroom",
+   "book": "secret-hero",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "becoming-a-tree--classroom",
+   "book": "becoming-a-tree",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "friendship-bridge--classroom",
+   "book": "friendship-bridge",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-fox-mistake--classroom",
+   "book": "the-fox-mistake",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "rainy-day-shiny-things--classroom",
+   "book": "rainy-day-shiny-things",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-desert-buzz--classroom",
+   "book": "the-desert-buzz",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-honest-little-raccoon--classroom",
+   "book": "the-honest-little-raccoon",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "finn-and-coral--classroom",
+   "book": "finn-and-coral",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "pip-the-brave-parrot--classroom",
+   "book": "pip-the-brave-parrot",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-spring-that-wanted-to-stay--classroom",
+   "book": "the-spring-that-wanted-to-stay",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-light-that-grows--classroom",
+   "book": "the-light-that-grows",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-pebbles-inside--classroom",
+   "book": "the-pebbles-inside",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-snug--classroom",
+   "book": "the-snug",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-view-from-down-low--classroom",
+   "book": "the-view-from-down-low",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "eight-times-up--classroom",
+   "book": "eight-times-up",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-littlest-guardian--classroom",
+   "book": "the-littlest-guardian",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-old-path-song--classroom",
+   "book": "the-old-path-song",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-circle-of-paws--classroom",
+   "book": "the-circle-of-paws",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-beetle-who-knew-the-stars--classroom",
+   "book": "the-beetle-who-knew-the-stars",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "knot-by-knot--classroom",
+   "book": "knot-by-knot",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "secret-hero--activities",
+   "book": "secret-hero",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "becoming-a-tree--activities",
+   "book": "becoming-a-tree",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "friendship-bridge--activities",
+   "book": "friendship-bridge",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-fox-mistake--activities",
+   "book": "the-fox-mistake",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "rainy-day-shiny-things--activities",
+   "book": "rainy-day-shiny-things",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-desert-buzz--activities",
+   "book": "the-desert-buzz",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-honest-little-raccoon--activities",
+   "book": "the-honest-little-raccoon",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "finn-and-coral--activities",
+   "book": "finn-and-coral",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "pip-the-brave-parrot--activities",
+   "book": "pip-the-brave-parrot",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-spring-that-wanted-to-stay--activities",
+   "book": "the-spring-that-wanted-to-stay",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-light-that-grows--activities",
+   "book": "the-light-that-grows",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-pebbles-inside--activities",
+   "book": "the-pebbles-inside",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-snug--activities",
+   "book": "the-snug",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-view-from-down-low--activities",
+   "book": "the-view-from-down-low",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "eight-times-up--activities",
+   "book": "eight-times-up",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-littlest-guardian--activities",
+   "book": "the-littlest-guardian",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-old-path-song--activities",
+   "book": "the-old-path-song",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-circle-of-paws--activities",
+   "book": "the-circle-of-paws",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-beetle-who-knew-the-stars--activities",
+   "book": "the-beetle-who-knew-the-stars",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "knot-by-knot--activities",
+   "book": "knot-by-knot",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "secret-hero--reading",
+   "book": "secret-hero",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "becoming-a-tree--reading",
+   "book": "becoming-a-tree",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "friendship-bridge--reading",
+   "book": "friendship-bridge",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-fox-mistake--reading",
+   "book": "the-fox-mistake",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "rainy-day-shiny-things--reading",
+   "book": "rainy-day-shiny-things",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-desert-buzz--reading",
+   "book": "the-desert-buzz",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-honest-little-raccoon--reading",
+   "book": "the-honest-little-raccoon",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "finn-and-coral--reading",
+   "book": "finn-and-coral",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "pip-the-brave-parrot--reading",
+   "book": "pip-the-brave-parrot",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-spring-that-wanted-to-stay--reading",
+   "book": "the-spring-that-wanted-to-stay",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-light-that-grows--reading",
+   "book": "the-light-that-grows",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-pebbles-inside--reading",
+   "book": "the-pebbles-inside",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-snug--reading",
+   "book": "the-snug",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-view-from-down-low--reading",
+   "book": "the-view-from-down-low",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "eight-times-up--reading",
+   "book": "eight-times-up",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-littlest-guardian--reading",
+   "book": "the-littlest-guardian",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-old-path-song--reading",
+   "book": "the-old-path-song",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-circle-of-paws--reading",
+   "book": "the-circle-of-paws",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "the-beetle-who-knew-the-stars--reading",
+   "book": "the-beetle-who-knew-the-stars",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "knot-by-knot--reading",
+   "book": "knot-by-knot",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  }
+ ]
+}

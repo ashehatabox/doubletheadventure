@@ -86,7 +86,8 @@ function page(req, res, view, data = {}, status = 200) {
     allBooks: catalog.books.map((b) => bookView(b, h, req)),
     featured: bookView(catalog.get(site.featured), h, req),
     bookView: (b) => bookView(b, h, req),
-    ...data
+    ...data,
+    seo: { ...seo, fullTitle, canonical: SITE_URL + h.url(req.basePath) }
   });
 }
 

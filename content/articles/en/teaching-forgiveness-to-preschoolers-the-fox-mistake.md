@@ -35,7 +35,7 @@ Parents sometimes assume forgiveness is too abstract for a preschooler. Studies 
 
 In one study, published in the *Journal of Experimental Psychology: General* by psychologists Janine Oostenbroek and Amrisha Vaish, four- and five-year-olds watched short videos. In each, a girl accidentally broke a toy she had been admiring and apologised. Sometimes the toy's owner forgave her; sometimes the owner accepted the apology but stayed upset.
 
-The five-year-olds were consistent: they preferred the forgiving character and judged the unforgiving one as "not nice." Four-year-olds' answers were more mixed, but children of both ages gave more of their flowers (a small gift in the study) to the child who forgave. As the Greater Good Science Center summarised it, the researchers concluded that children begin to see the social value of forgiveness by around four, and that it is well established by five.
+The five-year-olds were consistent: they preferred the forgiving character and judged the unforgiving one as "not nice." Four-year-olds' answers were more mixed, but children of both ages gave more of their flowers (a small gift in the study) to the character who forgave. As the Greater Good Science Center summarised it, the researchers concluded that children begin to see the social value of forgiveness by around four, and that it is well established by five.
 
 ### Remorse matters to children
 

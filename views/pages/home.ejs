@@ -54,9 +54,11 @@
 
 <section class="section band-sun" aria-labelledby="featured-title">
   <div class="wrap grid-2">
-    <div class="art" style="background:<%= featured.color %>;min-height:440px">
-      <% if (featured.spread) { %><img src="<%= featured.spread %>" alt="" loading="lazy"><% } else if (featured.cover) { %><img src="<%= featured.cover %>" alt="" loading="lazy" style="object-position:top"><% } %>
-    </div>
+    <% if (featured.spread) { %>
+    <div class="art" style="background:<%= featured.color %>;min-height:440px"><img src="<%= featured.spread %>" alt="" loading="lazy"></div>
+    <% } else { %>
+    <div class="art art-cover" style="background:<%= featured.color %>"><%- include('../partials/cover', { b: featured, eager: false }) %></div>
+    <% } %>
     <div class="stack">
       <p class="eyebrow"><%= t('common.newBook') %> · <%= featured.valueText %></p>
       <h2 id="featured-title" class="h2" <%- featured.titleIsFallback ? 'lang="en"' : '' %>><%= featured.displayTitle %></h2>

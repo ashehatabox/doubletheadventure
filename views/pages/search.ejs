@@ -1,0 +1,28 @@
+<%- include('../partials/top') %>
+<section class="section tight band-sky">
+  <div class="wrap stack-sm" style="max-width:820px;margin-left:auto;margin-right:auto">
+    <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('search.title') %></h1>
+    <%- include('../partials/search-form', { sid: 'page' }) %>
+  </div>
+</section>
+<section class="section tight">
+  <div class="wrap stack" style="max-width:820px;margin-left:auto;margin-right:auto">
+    <% if (q && !results.length) { %>
+      <p class="lead"><%= t('search.none') %></p>
+      <div class="row"><a class="btn btn-ghost" href="<%= url('/books') %>"><%= t('common.exploreBooks') %></a><a class="btn btn-ghost" href="<%= url('/values') %>"><%= t('footer.values') %></a><a class="btn btn-ghost" href="<%= url('/parents/articles') %>"><%= t('articles.title') %></a></div>
+    <% } else if (q) { %>
+      <p class="muted"><%= results.length %> <%= t('search.found') %></p>
+      <ul class="search-results">
+        <% results.forEach(function (r) { %>
+        <li><a class="card search-hit" href="<%= r.href %>"<%- r.lang ? ' lang="en"' : '' %>>
+          <span class="search-kind"><%= t('search.kinds')[r.kind] %></span>
+          <span class="search-title"><%= r.title %></span>
+        </a></li>
+        <% }) %>
+      </ul>
+    <% } else { %>
+      <p class="lead"><%= t('search.lead') %></p>
+    <% } %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

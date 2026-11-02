@@ -246,6 +246,16 @@ module.exports = {
     giftsText: 'Exemplaires dédicacés et ex-libris au nom de votre enfant dès le début de 2027.',
     quoteButton: 'Demander une soumission'
   },
+  search: {
+    title: 'Recherche',
+    label: 'Chercher sur le site',
+    placeholder: 'Essayez : gentillesse, patience, perroquet, classe...',
+    button: 'Chercher',
+    lead: 'Cherchez dans nos livres, articles, valeurs et guides pour enseignants.',
+    none: 'Rien trouvé. Essayez un mot plus simple, comme une valeur (gentillesse) ou un animal (lapin).',
+    found: 'résultats',
+    kinds: { book: 'Livre', article: 'Article', value: 'Valeur', guide: 'Guide pour enseignants' }
+  },
   valueHub: {
     indexTitle: 'Les valeurs de nos histoires',
     indexLead: 'Chaque livre Double the Adventure repose sur une valeur que l\'enfant peut pratiquer : gentillesse, patience, courage et bien d\'autres. Choisissez une valeur pour voir ses livres, jeux, guides et articles.',

@@ -246,6 +246,16 @@ module.exports = {
     giftsText: 'Signed copies and a bookplate with your child\'s name open in early 2027.',
     quoteButton: 'Ask for a homeschool quote'
   },
+  search: {
+    title: 'Search',
+    label: 'Search the site',
+    placeholder: 'Try: kindness, patience, parrot, classroom...',
+    button: 'Search',
+    lead: 'Search our books, articles, values and teacher guides.',
+    none: 'Nothing found. Try a simpler word, like a value (kindness) or an animal (rabbit).',
+    found: 'results',
+    kinds: { book: 'Book', article: 'Article', value: 'Value', guide: 'Teacher guide' }
+  },
   valueHub: {
     indexTitle: 'Values our stories teach',
     indexLead: 'Every Double the Adventure book is built around one value a child can practise: kindness, patience, courage and more. Pick a value to see its books, games, teacher guides and articles.',

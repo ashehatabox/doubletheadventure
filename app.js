@@ -14,6 +14,7 @@ const mapPoints = require('./data/map-points.json');
 const articles = require('./lib/articles');
 const guides = require('./lib/guides');
 const shareImage = require('./lib/share');
+const search = require('./lib/search');
 const { helpers, bookImage, LANGS } = require('./lib/i18n');
 const amazon = require('./lib/amazon');
 const { insert } = require('./lib/supabase');
@@ -159,6 +160,29 @@ router.get('/values/:value', (req, res, next) => {
     others: hubValues().filter((o) => o !== v).map((o) => ({ key: o, label: h.pick(catalog.values[o]), href: h.url('/values/' + o) })),
     seo: { title: h.t('valueHub.pageTitle').replace('{value}', label), description: h.t('valueHub.pageLead').replace('{value}', label.toLowerCase()), image: shareImage('book', list[0].slug, bookViews[0].cover) }
   });
+});
+
+// Search: books, articles, values and teacher guides.
+router.get('/search', (req, res) => {
+  const h = req.h;
+  const q = String(req.query.q || '').trim().slice(0, 80);
+  let results = [];
+  if (q) {
+    const docs = [];
+    catalog.books.filter((b) => b.status !== 'coming').forEach((b) => {
+      const v = bookView(b, h, req);
+      docs.push({ kind: 'book', title: v.displayTitle, href: v.href, image: v.cover, boost: 4,
+        text: [h.pick(b.subtitle), h.pick(b.blurb), h.pick(b.hero), v.valueText, v.cultureText, h.pick(b.cultureIdea), h.pick(b.refrain), b.moments.map((m) => h.pick(catalog.moments[m])).join(' ')].filter(Boolean).join(' ') });
+      if (guides.get(b.slug)) docs.push({ kind: 'guide', title: h.t('guides.pageTitle').replace('{title}', v.displayTitle), href: h.url('/educators/guides/' + b.slug), image: v.cover, text: guides.get(b.slug).summary + ' ' + guides.get(b.slug).questions.join(' ') });
+    });
+    hubValues().forEach((v) => {
+      const label = h.pick(catalog.values[v]);
+      docs.push({ kind: 'value', title: h.t('valueHub.pageTitle').replace('{value}', label), href: h.url('/values/' + v), text: label, boost: 2 });
+    });
+    articles.list(h.lang).forEach((a) => docs.push({ kind: 'article', title: a.title, href: h.url('/parents/articles/' + a.slug), text: a.description + ' ' + a.toc.map((x) => x.text).join(' ') + ' ' + a.faq.map((f) => f.q).join(' '), lang: a.isFallback ? 'en' : '' }));
+    results = search.run(docs, q);
+  }
+  page(req, res, 'search', { q, results, seo: { title: h.t('search.title'), description: h.t('search.lead'), noindex: true } });
 });
 
 router.get('/values-map', (req, res) => page(req, res, 'values-map', { seo: { title: req.h.t('valuesMap.title'), description: req.h.t('valuesMap.lead') } }));

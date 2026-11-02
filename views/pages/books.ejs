@@ -7,6 +7,7 @@
       <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('books.title') %></h1>
       <p class="lead"><%= t('books.lead') %></p>
     </div>
+    <div style="max-width:560px"><%- include('../partials/search-form', { sid: 'bk' }) %></div>
     <nav aria-label="<%= t('books.filterLabel') %>" class="stack-sm">
       <span style="font-weight:800"><%= t('books.filterLabel') %></span>
       <div class="chips" style="gap:10px" data-filter>

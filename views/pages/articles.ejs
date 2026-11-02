@@ -8,6 +8,7 @@
 </section>
 <section class="section tight">
   <div class="wrap stack" style="gap:28px">
+    <div style="max-width:560px"><%- include('../partials/search-form', { sid: 'ar' }) %></div>
     <% if (topics.length > 1) { %>
     <nav class="chips" style="gap:10px" aria-label="<%= t('articles.title') %>">
       <a class="pill" href="<%= url('/parents/articles') %>" aria-current="<%= topic ? 'false' : 'true' %>"><%= t('articles.all') %></a>

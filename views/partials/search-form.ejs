@@ -1,0 +1,5 @@
+<form class="search-form" action="<%= url('/search') %>" method="get" role="search">
+  <label class="sr-only" for="q-<%= typeof sid !== 'undefined' ? sid : 'main' %>"><%= t('search.label') %></label>
+  <input id="q-<%= typeof sid !== 'undefined' ? sid : 'main' %>" type="search" name="q" value="<%= typeof q !== 'undefined' ? q : '' %>" placeholder="<%= t('search.placeholder') %>" maxlength="80" autocomplete="off">
+  <button class="btn btn-primary" type="submit"><%= t('search.button') %></button>
+</form>

@@ -303,3 +303,14 @@ details.stores ul { list-style: none; padding: 0; margin: 8px 0 0; display: flex
 .art.art-cover { align-items: center; justify-content: center; padding: clamp(20px, 4vw, 40px); }
 .art.art-cover .cover { width: min(100%, 300px); box-shadow: 0 16px 36px rgba(74, 52, 38, .28); }
 @media (max-width: 640px) { .art.art-cover .cover { width: min(70%, 240px); } }
+
+/* Search */
+.search-form { display: flex; gap: 10px; flex-wrap: wrap; }
+.search-form input { flex: 1 1 220px; min-width: 0; font: inherit; padding: 12px 16px; border: 2px solid var(--line); border-radius: 999px; background: var(--white); color: var(--ink); }
+.search-form input:focus { outline: 3px solid var(--sun); border-color: var(--ink); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.search-results { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.search-hit { display: grid; gap: 4px; padding: 14px 18px; text-decoration: none; color: inherit; }
+.search-hit:hover { border-color: var(--teal); }
+.search-kind { font-size: 13px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--coral); }
+.search-title { font-family: var(--serif); font-weight: 700; font-size: 20px; }

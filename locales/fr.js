@@ -246,6 +246,17 @@ module.exports = {
     giftsText: 'Exemplaires dédicacés et ex-libris au nom de votre enfant dès le début de 2027.',
     quoteButton: 'Demander une soumission'
   },
+  valueHub: {
+    indexTitle: 'Les valeurs de nos histoires',
+    indexLead: 'Chaque livre Double the Adventure repose sur une valeur que l\'enfant peut pratiquer : gentillesse, patience, courage et bien d\'autres. Choisissez une valeur pour voir ses livres, jeux, guides et articles.',
+    pageTitle: 'Enseigner la valeur « {value} » aux enfants : livres, jeux et guides',
+    pageLead: 'Albums, jeux gratuits, guides pour enseignants et longs articles pour aider les enfants de 3 à 7 ans à comprendre et à pratiquer : {value}.',
+    booksTitle: 'Livres sur cette valeur',
+    aboutBook: 'À propos du livre',
+    guide: 'Guide pour enseignants',
+    articlesTitle: 'Articles pour parents et enseignants',
+    moreTitle: 'Autres valeurs'
+  },
   guides: {
     title: 'Guides de lecture à voix haute',
     pageTitle: 'Guide de lecture : {title}',
@@ -441,6 +452,7 @@ module.exports = {
   footer: {
     tagline: 'Sagesse ancienne, petits héros. De 3 à 7 ans, en cinq langues.',
     booksTitle: 'Livres', familiesTitle: 'Familles', educatorsTitle: 'Éducateurs', partnersTitle: 'Partenaires',
+    values: 'Les valeurs',
     allBooks: 'Tous les livres', reviewTeam: 'Équipe de lecteurs', about: 'Notre histoire', contact: 'Nous écrire', faq: 'Questions',
     privacy: 'Confidentialité', terms: 'Conditions', shipping: 'Livraison'
   },

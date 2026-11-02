@@ -6,7 +6,7 @@ const catalog = require('../data/books');
 
 const ROOT = path.join(__dirname, '..', 'content', 'articles');
 const TOPICS = ['philosophy', 'values', 'cultures', 'animals', 'nature', 'feelings', 'activities', 'reading', 'classroom'];
-const PAGES = ['/', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/play/memory', '/parents', '/parents/articles', '/educators', '/educators/teachers', '/educators/early-years', '/educators/libraries', '/educators/newcomers', '/partners', '/about', '/contact', '/faq', '/values-map'];
+const PAGES = ['/', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/play/memory', '/parents', '/parents/articles', '/educators', '/educators/teachers', '/educators/early-years', '/educators/libraries', '/educators/newcomers', '/partners', '/about', '/contact', '/faq', '/values-map', '/values'];
 const MIN_WORDS = 800;
 
 let errors = 0;
@@ -52,7 +52,7 @@ for (const [lang, list] of Object.entries(slugs)) {
     for (const [, href] of body.matchAll(/\]\((\/[^)\s#?]*)[^)]*\)/g)) {
       const p = href.replace(/^\/fr(?=\/|$)/, '') || '/';
       const ok = PAGES.includes(p) || (p.startsWith('/books/') && catalog.get(p.slice(7))) ||
-        (p.startsWith('/parents/articles/') && allSlugs.has(p.slice(18))) || /^\/play\/(color|jigsaw)\/[a-z0-9-]+$/.test(p);
+        (p.startsWith('/parents/articles/') && allSlugs.has(p.slice(18))) || /^\/play\/(color|jigsaw)\/[a-z0-9-]+$/.test(p) || /^\/(values|educators\/guides)\/[a-z0-9-]+$/.test(p);
       if (!ok) bad(file, `dead site link ${href}`);
     }
   }

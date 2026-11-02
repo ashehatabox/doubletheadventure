@@ -136,6 +136,31 @@ router.get('/books/:slug', (req, res, next) => {
   });
 });
 
+// Value hubs: every book, article, game and guide for one value.
+const hubValues = () => Object.keys(catalog.values).filter((v) => catalog.books.some((b) => b.value === v && b.status !== 'coming'));
+router.get('/values', (req, res) => {
+  const h = req.h;
+  const items = hubValues().map((v) => ({
+    key: v, label: h.pick(catalog.values[v]), href: h.url('/values/' + v),
+    book: bookView(catalog.books.find((b) => b.value === v && b.status !== 'coming'), h, req)
+  }));
+  page(req, res, 'values', { items, seo: { title: h.t('valueHub.indexTitle'), description: h.t('valueHub.indexLead') } });
+});
+router.get('/values/:value', (req, res, next) => {
+  const v = req.params.value;
+  if (!hubValues().includes(v)) return next();
+  const h = req.h;
+  const label = h.pick(catalog.values[v]);
+  const list = catalog.books.filter((b) => b.value === v && b.status !== 'coming');
+  const bookViews = list.map((b) => ({ ...bookView(b, h, req), idea: (guides.get(b.slug) || {}).childValue || '', hasColor: play.pages(b.slug).length > 0, hasGuide: !!guides.get(b.slug) }));
+  const arts = articles.list(h.lang).filter((a) => a.books.some((s) => list.some((b) => b.slug === s)));
+  page(req, res, 'value-hub', {
+    value: v, label, bookViews, arts,
+    others: hubValues().filter((o) => o !== v).map((o) => ({ key: o, label: h.pick(catalog.values[o]), href: h.url('/values/' + o) })),
+    seo: { title: h.t('valueHub.pageTitle').replace('{value}', label), description: h.t('valueHub.pageLead').replace('{value}', label.toLowerCase()), image: shareImage('book', list[0].slug, bookViews[0].cover) }
+  });
+});
+
 router.get('/values-map', (req, res) => page(req, res, 'values-map', { seo: { title: req.h.t('valuesMap.title'), description: req.h.t('valuesMap.lead') } }));
 
 router.get('/shop', (req, res) => page(req, res, 'shop', { seo: { title: req.h.t('shop.title') } }));
@@ -390,9 +415,9 @@ app.post('/api/enquire', async (req, res) => {
 app.get('/robots.txt', (req, res) => res.type('text/plain').send(`User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`));
 
 app.get('/sitemap.xml', (req, res) => {
-  const paths = ['/', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
+  const paths = ['/', '/values', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
     .concat(EDUCATOR_PAGES.map((p) => '/educators/' + p))
-    .concat(['/educators/guides'], guideBooks().map((b) => '/educators/guides/' + b.slug))
+    .concat(hubValues().map((v) => '/values/' + v), ['/educators/guides'], guideBooks().map((b) => '/educators/guides/' + b.slug))
     .concat(PARTNER_PAGES.map((p) => '/partners/' + p))
     .concat(POLICY_PAGES.map((p) => '/policies/' + p))
     .concat(catalog.books.map((b) => '/books/' + b.slug))

@@ -293,3 +293,8 @@ details.stores ul { list-style: none; padding: 0; margin: 8px 0 0; display: flex
   .guide .h2 { break-after: avoid; }
   .guide-acts .card, .guide li { break-inside: avoid; }
 }
+
+/* Value hubs */
+.hub-book { display: grid; grid-template-columns: 120px 1fr; gap: 20px; align-items: start; }
+.hub-cover { max-width: 120px; }
+@media (max-width: 520px) { .hub-book { grid-template-columns: 90px 1fr; gap: 14px; } .hub-cover { max-width: 90px; } }

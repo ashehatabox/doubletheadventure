@@ -47,7 +47,7 @@
 
 <section class="section tight" style="padding-top:0">
   <div class="wrap facts">
-    <div class="fact"><div class="fact-label"><%= t('book.valueLabel') %></div><div class="fact-value"><%= b.valueText %></div></div>
+    <div class="fact"><div class="fact-label"><%= t('book.valueLabel') %></div><div class="fact-value"><% if (b.status !== 'coming') { %><a href="<%= url('/values/' + b.value) %>"><%= b.valueText %></a><% } else { %><%= b.valueText %><% } %></div></div>
     <% if (b.cultureText) { %><div class="fact"><div class="fact-label"><%= t('book.cultureLabel') %></div><div class="fact-value"><%= b.cultureText %></div><% if (pick(b.cultureIdea)) { %><div class="muted" style="margin-top:4px" <%- isFallback(b.cultureIdea) ? 'lang="en"' : '' %>><%= pick(b.cultureIdea) %></div><% } %></div><% } %>
     <% if (pick(b.hero)) { %><div class="fact"><div class="fact-label"><%= t('book.heroLabel') %></div><div class="fact-value" <%- isFallback(b.hero) ? 'lang="en"' : '' %>><%= pick(b.hero) %></div></div><% } %>
     <% if (pick(b.refrain)) { %><div class="fact"><div class="fact-label"><%= t('book.refrainLabel') %></div><div class="fact-value" <%- isFallback(b.refrain) ? 'lang="en"' : '' %>><%= pick(b.refrain) %></div></div><% } %>

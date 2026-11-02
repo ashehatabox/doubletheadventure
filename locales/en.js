@@ -246,6 +246,17 @@ module.exports = {
     giftsText: 'Signed copies and a bookplate with your child\'s name open in early 2027.',
     quoteButton: 'Ask for a homeschool quote'
   },
+  valueHub: {
+    indexTitle: 'Values our stories teach',
+    indexLead: 'Every Double the Adventure book is built around one value a child can practise: kindness, patience, courage and more. Pick a value to see its books, games, teacher guides and articles.',
+    pageTitle: 'Teaching {value} to children: books, games and guides',
+    pageLead: 'Picture books, free games, teacher guides and long articles that help children aged 3 to 7 understand and practise {value}.',
+    booksTitle: 'Books on this value',
+    aboutBook: 'About the book',
+    guide: 'Teacher guide',
+    articlesTitle: 'Articles for parents and teachers',
+    moreTitle: 'Other values'
+  },
   guides: {
     title: 'Free read-aloud guides',
     pageTitle: 'Read-aloud guide: {title}',
@@ -441,6 +452,7 @@ module.exports = {
   footer: {
     tagline: 'Old wisdom, little heroes. Ages 3–7, in five languages.',
     booksTitle: 'Books', familiesTitle: 'Families', educatorsTitle: 'Educators', partnersTitle: 'Partners',
+    values: 'Values',
     allBooks: 'All books', reviewTeam: 'Review team', about: 'Our story', contact: 'Contact', faq: 'Questions',
     privacy: 'Privacy', terms: 'Terms', shipping: 'Shipping'
   },

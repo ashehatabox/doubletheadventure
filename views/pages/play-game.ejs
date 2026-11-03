@@ -6,7 +6,7 @@
       <span class="play-back-text"><%= t('playGame.back') %></span>
     </a>
     <div class="play-name">
-      <strong><%= t('playGame.' + game + 'Title') %></strong>
+      <h1><%= t('playGame.' + game + 'Title') %></h1>
       <% if (book) { %><span <%- book.titleIsFallback ? 'lang="en"' : '' %>><%= book.displayTitle %></span><% } %>
     </div>
     <div class="play-actions" id="play-actions"></div>

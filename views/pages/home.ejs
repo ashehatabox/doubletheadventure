@@ -167,7 +167,7 @@
     <div class="grid-cards">
       <% coming.forEach(function (b) { %>
       <a class="tile card" href="<%= b.href %>" style="background:#fff">
-        <span class="tile-swatch" style="background:<%= b.color %>"><% if (b.cover) { %><img src="<%= b.cover %>" alt="" loading="lazy"><% } %></span>
+        <span class="tile-swatch" style="background:<%= b.color %>"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576"><% } %></span>
         <span><span class="tile-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span><span class="tile-text" style="color:#0E7C7B;font-weight:800"><%= t('common.notifyMe') %></span></span>
       </a>
       <% }) %>

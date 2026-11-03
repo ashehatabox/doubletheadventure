@@ -15,7 +15,7 @@ const articles = require('./lib/articles');
 const guides = require('./lib/guides');
 const shareImage = require('./lib/share');
 const search = require('./lib/search');
-const { helpers, bookImage, LANGS } = require('./lib/i18n');
+const { helpers, bookImage, coverSmall, LANGS } = require('./lib/i18n');
 const amazon = require('./lib/amazon');
 const { insert } = require('./lib/supabase');
 const { notify } = require('./lib/mailer');
@@ -69,6 +69,7 @@ function bookView(b, h, req) {
     displayTitle: title,
     titleIsFallback: h.isFallback(b.title),
     cover: bookImage(b.slug, 'cover'),
+    coverSmall: coverSmall(b.slug),
     spread: bookImage(b.slug, 'spread'),
     href: h.url('/books/' + b.slug),
     amazonMain: amazon.link(b, title, store),
@@ -81,7 +82,7 @@ function bookView(b, h, req) {
 function page(req, res, view, data = {}, status = 200) {
   const h = req.h;
   const seo = Object.assign({ title: '', description: h.t('meta.siteDescription') }, data.seo || {});
-  const fullTitle = seo.title ? `${seo.title} | A² Publishing` : 'A² Publishing | Double the Adventure picture books';
+  const fullTitle = seo.title ? `${seo.title} | A² Publishing` : (h.lang === 'fr' ? 'A² Publishing | Albums Double the Adventure pour enfants' : 'A² Publishing | Double the Adventure picture books');
   const alternates = LANGS.map((l) => ({ lang: l, href: SITE_URL + (l === 'en' ? req.basePath : '/' + l + (req.basePath === '/' ? '/' : req.basePath)) }));
   res.status(status).render('pages/' + view, {
     ...h,

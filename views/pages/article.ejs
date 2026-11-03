@@ -25,7 +25,7 @@
           <p class="eyebrow" lang="<%= lang %>"><%= t('articles.books') %></p>
           <% books.forEach(function (b) { %>
           <a class="tile" href="<%= b.href %>" lang="<%= lang %>">
-            <span class="tile-swatch" style="background:<%= b.color %>"><% if (b.cover) { %><img src="<%= b.cover %>" alt="" loading="lazy"><% } %></span>
+            <span class="tile-swatch" style="background:<%= b.color %>"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576"><% } %></span>
             <span><span class="tile-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span><span class="tile-text"><%= b.valueText %></span></span>
           </a>
           <% }) %>

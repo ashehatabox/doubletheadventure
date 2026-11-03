@@ -8,7 +8,7 @@ body.play-mode { background: var(--sky-pale); -webkit-user-select: none; user-se
 .play-back { display: inline-flex; align-items: center; gap: 6px; min-height: 48px; min-width: 48px; padding: 0 14px 0 8px; border-radius: 999px; background: rgba(255,255,255,.16); color: var(--white); text-decoration: none; font-weight: 800; flex: none; }
 .play-back:hover { color: var(--white); background: rgba(255,255,255,.26); }
 .play-name { flex: 1; min-width: 0; display: flex; flex-direction: column; line-height: 1.15; }
-.play-name strong { font-family: var(--serif); font-size: 20px; }
+.play-name h1 { font-family: var(--serif); font-size: 20px; font-weight: 700; margin: 0; }
 .play-name span { font-size: 14px; opacity: .9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .play-actions { display: flex; gap: 8px; align-items: center; flex: none; }
 
@@ -99,7 +99,7 @@ body.play-mode { background: var(--sky-pale); -webkit-user-select: none; user-se
 }
 @media (max-width: 520px) {
   .play-back-text, .hide-phone { display: none !important; }
-  .play-name strong { font-size: 17px; }
+  .play-name h1 { font-size: 17px; }
   .pbtn.is-small span { display: none; }
   .pbtn.is-small { min-width: 48px; }
   .pswatch { width: 38px; height: 38px; }

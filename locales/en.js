@@ -246,6 +246,17 @@ module.exports = {
     giftsText: 'Signed copies and a bookplate with your child\'s name open in early 2027.',
     quoteButton: 'Ask for a homeschool quote'
   },
+  start: {
+    title: 'Start here: which book first?',
+    lead: 'Tell us what your child is going through right now and we\'ll point you to the story that opens that conversation.',
+    question: 'What does your child need right now?',
+    book: 'book', books: 'books',
+    resultTitle: 'Books for {moment}',
+    resultLead: 'Start with the first book, read it together, then ask the questions at the end. Each one is a short story for ages 3 to 7.',
+    first: 'Start with this one',
+    next: 'Then try',
+    otherTitle: 'Another moment'
+  },
   search: {
     title: 'Search',
     label: 'Search the site',
@@ -463,6 +474,7 @@ module.exports = {
     tagline: 'Old wisdom, little heroes. Ages 3–7, in five languages.',
     booksTitle: 'Books', familiesTitle: 'Families', educatorsTitle: 'Educators', partnersTitle: 'Partners',
     values: 'Values',
+    start: 'Which book first?',
     allBooks: 'All books', reviewTeam: 'Review team', about: 'Our story', contact: 'Contact', faq: 'Questions',
     privacy: 'Privacy', terms: 'Terms', shipping: 'Shipping'
   },

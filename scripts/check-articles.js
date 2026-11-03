@@ -6,7 +6,7 @@ const catalog = require('../data/books');
 
 const ROOT = path.join(__dirname, '..', 'content', 'articles');
 const TOPICS = ['philosophy', 'values', 'cultures', 'animals', 'nature', 'feelings', 'activities', 'reading', 'classroom'];
-const PAGES = ['/', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/play/memory', '/parents', '/parents/articles', '/educators', '/educators/teachers', '/educators/early-years', '/educators/libraries', '/educators/newcomers', '/partners', '/about', '/contact', '/faq', '/values-map', '/values'];
+const PAGES = ['/', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/play/memory', '/parents', '/parents/articles', '/educators', '/educators/teachers', '/educators/early-years', '/educators/libraries', '/educators/newcomers', '/partners', '/about', '/contact', '/faq', '/values-map', '/values', '/start'];
 const MIN_WORDS = 800;
 
 let errors = 0;

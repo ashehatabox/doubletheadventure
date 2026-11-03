@@ -246,6 +246,17 @@ module.exports = {
     giftsText: 'Exemplaires dédicacés et ex-libris au nom de votre enfant dès le début de 2027.',
     quoteButton: 'Demander une soumission'
   },
+  start: {
+    title: 'Par où commencer ? Quel livre d\'abord ?',
+    lead: 'Dites-nous ce que votre enfant vit en ce moment et nous vous proposerons l\'histoire qui ouvre la conversation.',
+    question: 'De quoi votre enfant a-t-il besoin en ce moment ?',
+    book: 'livre', books: 'livres',
+    resultTitle: 'Livres pour : {moment}',
+    resultLead: 'Commencez par le premier livre, lisez-le ensemble, puis posez les questions à la fin. Chacun est une courte histoire pour les 3 à 7 ans.',
+    first: 'Commencez par celui-ci',
+    next: 'Ensuite',
+    otherTitle: 'Un autre moment'
+  },
   search: {
     title: 'Recherche',
     label: 'Chercher sur le site',
@@ -463,6 +474,7 @@ module.exports = {
     tagline: 'Sagesse ancienne, petits héros. De 3 à 7 ans, en cinq langues.',
     booksTitle: 'Livres', familiesTitle: 'Familles', educatorsTitle: 'Éducateurs', partnersTitle: 'Partenaires',
     values: 'Les valeurs',
+    start: 'Quel livre d\'abord ?',
     allBooks: 'Tous les livres', reviewTeam: 'Équipe de lecteurs', about: 'Notre histoire', contact: 'Nous écrire', faq: 'Questions',
     privacy: 'Confidentialité', terms: 'Conditions', shipping: 'Livraison'
   },

@@ -185,6 +185,30 @@ router.get('/search', (req, res) => {
   page(req, res, 'search', { q, results, seo: { title: h.t('search.title'), description: h.t('search.lead'), noindex: true } });
 });
 
+// Start here: a short "what does your child need right now?" guide.
+const startMoments = () => Object.keys(catalog.moments).filter((m) => catalog.books.some((b) => b.status !== 'coming' && b.moments.includes(m)));
+router.get('/start', (req, res) => {
+  const h = req.h;
+  const items = startMoments().map((m) => ({ key: m, label: h.pick(catalog.moments[m]), href: h.url('/start/' + m), count: catalog.books.filter((b) => b.status !== 'coming' && b.moments.includes(m)).length }));
+  page(req, res, 'start', { items, seo: { title: h.t('start.title'), description: h.t('start.lead') } });
+});
+router.get('/start/:moment', (req, res, next) => {
+  const m = req.params.moment;
+  if (!startMoments().includes(m)) return next();
+  const h = req.h;
+  // Live books first, then the ones coming soon; a book whose first moment is this one comes first.
+  const list = catalog.books.filter((b) => b.status !== 'coming' && b.moments.includes(m))
+    .sort((a, b) => (a.status === 'live' ? 0 : 1) - (b.status === 'live' ? 0 : 1) || a.moments.indexOf(m) - b.moments.indexOf(m));
+  const label = h.pick(catalog.moments[m]);
+  const bookViews = list.map((b) => ({ ...bookView(b, h, req), idea: (guides.get(b.slug) || {}).childValue || '', hubHref: h.url('/values/' + b.value) }));
+  const arts = articles.list(h.lang).filter((a) => a.books.some((s) => list.some((b) => b.slug === s))).slice(0, 3);
+  page(req, res, 'start-result', {
+    label, bookViews, arts,
+    others: startMoments().filter((o) => o !== m).map((o) => ({ label: h.pick(catalog.moments[o]), href: h.url('/start/' + o) })),
+    seo: { title: h.t('start.resultTitle').replace('{moment}', label.toLowerCase()), description: h.t('start.resultLead'), image: shareImage('book', list[0].slug, bookViews[0].cover) }
+  });
+});
+
 router.get('/values-map', (req, res) => page(req, res, 'values-map', { seo: { title: req.h.t('valuesMap.title'), description: req.h.t('valuesMap.lead') } }));
 
 router.get('/shop', (req, res) => page(req, res, 'shop', { seo: { title: req.h.t('shop.title') } }));
@@ -439,9 +463,9 @@ app.post('/api/enquire', async (req, res) => {
 app.get('/robots.txt', (req, res) => res.type('text/plain').send(`User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`));
 
 app.get('/sitemap.xml', (req, res) => {
-  const paths = ['/', '/values', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
+  const paths = ['/', '/start', '/values', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
     .concat(EDUCATOR_PAGES.map((p) => '/educators/' + p))
-    .concat(hubValues().map((v) => '/values/' + v), ['/educators/guides'], guideBooks().map((b) => '/educators/guides/' + b.slug))
+    .concat(startMoments().map((m) => '/start/' + m), hubValues().map((v) => '/values/' + v), ['/educators/guides'], guideBooks().map((b) => '/educators/guides/' + b.slug))
     .concat(PARTNER_PAGES.map((p) => '/partners/' + p))
     .concat(POLICY_PAGES.map((p) => '/policies/' + p))
     .concat(catalog.books.map((b) => '/books/' + b.slug))

@@ -1,0 +1,33 @@
+<%- include('../partials/top') %>
+<section class="section tight band-sun">
+  <div class="wrap stack-sm" style="max-width:820px;margin-left:auto;margin-right:auto">
+    <p class="eyebrow"><a href="<%= url('/start') %>"><%= t('start.title') %></a></p>
+    <h1 class="h1" style="font-size:clamp(32px,4.4vw,48px)"><%= t('start.resultTitle').replace('{moment}', label.toLowerCase()) %></h1>
+    <p class="lead"><%= t('start.resultLead') %></p>
+  </div>
+</section>
+<section class="section tight">
+  <div class="wrap stack" style="gap:24px">
+    <% bookViews.forEach(function (b, i) { %>
+    <div class="card card-pad hub-book">
+      <div class="hub-cover"><%- include('../partials/cover', { b: b }) %></div>
+      <div class="stack-sm">
+        <p class="eyebrow" style="margin:0"><%= i === 0 ? t('start.first') : t('start.next') %> · <%= b.valueText %></p>
+        <h2 class="h3"><a href="<%= b.href %>"><%= b.displayTitle %></a></h2>
+        <% if (pick(b.blurb)) { %><p style="margin:0" <%- isFallback(b.blurb) ? 'lang="en"' : '' %>><%= pick(b.blurb) %></p><% } %>
+        <div class="row">
+          <a class="btn <%= i === 0 ? 'btn-primary' : 'btn-ghost' %>" href="<%= b.href %>"><%= t('valueHub.aboutBook') %></a>
+          <a class="btn btn-ghost" href="<%= b.hubHref %>"><%= b.valueText %></a>
+        </div>
+      </div>
+    </div>
+    <% }) %>
+    <% if (arts.length) { %>
+    <h2 class="h2" style="font-size:28px"><%= t('valueHub.articlesTitle') %></h2>
+    <div class="acards"><% arts.forEach(function (a) { %><%- include('../partials/article-card', { a: a }) %><% }) %></div>
+    <% } %>
+    <h2 class="h2" style="font-size:28px"><%= t('start.otherTitle') %></h2>
+    <nav class="chips" style="gap:10px"><% others.forEach(function (o) { %><a class="pill" href="<%= o.href %>"><%= o.label %></a><% }) %></nav>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

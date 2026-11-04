@@ -15,6 +15,9 @@ const articles = require('./lib/articles');
 const guides = require('./lib/guides');
 const shareImage = require('./lib/share');
 const search = require('./lib/search');
+const shop = require('./lib/shop');
+const shopData = require('./data/shop');
+const welcome = require('./lib/welcome');
 const { helpers, bookImage, coverSmall, LANGS } = require('./lib/i18n');
 const amazon = require('./lib/amazon');
 const { insert } = require('./lib/supabase');
@@ -45,6 +48,13 @@ app.use(express.static(path.join(__dirname, 'public'), {
   maxAge: '7d',
   setHeaders: (res, file) => { if (file.endsWith(path.sep + 'sw.js')) res.set('Cache-Control', 'no-cache'); }
 }));
+// Stripe webhook: needs the raw body to check the signature, so it goes before the JSON parser.
+app.post('/stripe/webhook', express.raw({ type: 'application/json', limit: '1mb' }), async (req, res) => {
+  if (!shop.stripe() || !process.env.STRIPE_WEBHOOK_SECRET) return res.status(404).end();
+  let event;
+  try { event = shop.verify(req.body, req.get('stripe-signature')); } catch (err) { return res.status(400).send('Bad signature'); }
+  try { await shop.handleEvent(event); res.json({ received: true }); } catch (err) { console.error('Stripe webhook failed:', err.message); res.status(500).end(); }
+});
 app.use(express.urlencoded({ extended: false, limit: '20kb' }));
 app.use(express.json({ limit: '20kb' }));
 
@@ -55,7 +65,7 @@ app.use((req, res, next) => {
   res.set('X-Frame-Options', 'SAMEORIGIN');
   res.set(
     'Content-Security-Policy',
-    "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+    "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://checkout.stripe.com"
   );
   next();
 });
@@ -212,7 +222,30 @@ router.get('/start/:moment', (req, res, next) => {
 
 router.get('/values-map', (req, res) => page(req, res, 'values-map', { seo: { title: req.h.t('valuesMap.title'), description: req.h.t('valuesMap.lead') } }));
 
-router.get('/shop', (req, res) => page(req, res, 'shop', { seo: { title: req.h.t('shop.title') } }));
+router.get('/shop', (req, res) => {
+  const h = req.h;
+  const open = shop.open();
+  page(req, res, 'shop', {
+    shopOpen: open,
+    products: open ? shop.priced().map((p) => ({ id: p.id, title: h.pick(p.title), text: h.pick(p.text), price: (p.priceCents / 100).toFixed(2) })) : [],
+    seo: { title: open ? h.t('shop.openTitle') : h.t('shop.title') }
+  });
+});
+router.get('/shop/thanks', (req, res) => page(req, res, 'shop-thanks', { seo: { title: req.h.t('shop.thanksTitle'), noindex: true } }));
+router.post('/shop/checkout', async (req, res) => {
+  const b = req.body || {};
+  try {
+    const url = await shop.createSession({ productId: String(b.product || ''), quantity: b.quantity, lang: LANGS.includes(b.lang) && b.lang === 'fr' ? 'fr' : 'en' });
+    if (url) return res.redirect(303, url);
+  } catch (err) { console.error('Checkout failed:', err.message); }
+  res.redirect(303, (b.lang === 'fr' ? '/fr' : '') + '/shop');
+});
+// Unsubscribe: the link in every email opens a page with one button (so mail scanners can't unsubscribe people by accident).
+router.get('/unsubscribe', (req, res) => {
+  const e = String(req.query.e || '').toLowerCase().slice(0, 254);
+  const ok = EMAIL_RE.test(e) && welcome.validToken(e, String(req.query.t || ''));
+  page(req, res, 'unsubscribe', { e, token: String(req.query.t || ''), valid: ok, done: req.query.done === '1', seo: { title: req.h.t('unsub.title'), noindex: true } });
+});
 router.get('/play', (req, res) => {
   const h = req.h;
   const views = (slugs) => slugs.map((s) => bookView(catalog.get(s), h, req));
@@ -434,7 +467,15 @@ app.post('/api/subscribe', async (req, res) => {
     ? { email, book_slug: slug, lang, consent: true }
     : { email, role: ROLE.includes(b.role) ? b.role : null, source: clean(b.source, 80) || null, book_slug: slug, lang, consent: true };
   const result = await insert(table, row);
+  if (result.ok) welcome.sendWelcome(row, { waitlist: table === 'waitlist', bookTitle: slug ? (catalog.get(slug).title[lang] || catalog.get(slug).title.en) : '' }).catch(() => {});
   finish(req, res, result.ok, safeBack(req));
+});
+
+app.post('/unsubscribe', async (req, res) => {
+  const e = String((req.body || {}).e || '').toLowerCase().slice(0, 254);
+  const lang = (req.body || {}).lang === 'fr' ? '/fr' : '';
+  if (EMAIL_RE.test(e) && welcome.validToken(e, String((req.body || {}).t || ''))) await insert('unsubscribes', { email: e });
+  res.redirect(303, `${lang}/unsubscribe?done=1`);
 });
 
 app.post('/api/enquire', async (req, res) => {

@@ -2,10 +2,27 @@
 <section class="section tight">
   <div class="wrap stack" style="gap:32px">
     <div class="stack-sm" style="max-width:760px">
-      <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('shop.title') %></h1>
-      <p class="lead"><%= t('shop.lead') %></p>
+      <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= shopOpen ? t('shop.openTitle') : t('shop.title') %></h1>
+      <p class="lead"><%= shopOpen ? t('shop.openLead') : t('shop.lead') %></p>
       <div class="row"><a class="btn btn-primary" href="<%= url('/books') %>"><%= t('common.exploreBooks') %></a></div>
     </div>
+    <% if (shopOpen) { %>
+    <div class="grid-cards">
+      <% products.forEach(function (p) { %>
+      <form class="card card-pad stack-sm" method="post" action="/shop/checkout">
+        <input type="hidden" name="product" value="<%= p.id %>"><input type="hidden" name="lang" value="<%= lang %>">
+        <h2 class="h3"><%= p.title %></h2>
+        <p class="muted" style="margin:0"><%= p.text %></p>
+        <p style="margin:0;font-weight:800;font-size:22px">$<%= p.price %> <span class="muted" style="font-size:14px;font-weight:600">CAD</span></p>
+        <label class="muted" for="qty-<%= p.id %>"><%= t('shop.quantity') %></label>
+        <input class="input round" id="qty-<%= p.id %>" name="quantity" type="number" min="1" max="10" value="1" style="max-width:100px">
+        <button class="btn btn-primary" type="submit"><%= t('shop.buy') %></button>
+      </form>
+      <% }) %>
+    </div>
+    <p class="muted"><%= t('shop.secure') %> <a href="<%= url('/policies/shipping') %>"><%= t('footer.shipping') %></a></p>
+    <% } %>
+    <% if (!shopOpen) { %>
     <div class="grid-cards">
       <% t('shop.items').forEach(function (item, i) { const bg = ['#FFF1C2', '#DDF1FC', '#DDF5E2', '#FFE3DE', '#EFE6FC'][i % 5]; %>
       <div class="card card-pad stack-sm" style="background:<%= bg %>"><h2 class="h3"><%= item.title %></h2><p class="muted" style="margin:0"><%= item.text %></p></div>
@@ -15,6 +32,7 @@
       <h2 class="h3"><%= t('shop.signupTitle') %></h2>
       <%- include('../partials/signup', { formId: 'shop-signup', source: 'shop-opening' }) %>
     </div>
+    <% } %>
   </div>
 </section>
 <%- include('../partials/bottom') %>

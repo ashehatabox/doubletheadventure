@@ -1,0 +1,18 @@
+<%- include('../partials/top') %>
+<section class="section">
+  <div class="wrap stack" style="max-width:640px">
+    <h1 class="h1" style="font-size:clamp(32px,4.4vw,46px)"><%= t('unsub.title') %></h1>
+    <% if (done) { %>
+      <p class="lead" role="status"><%= t('unsub.done') %></p>
+    <% } else if (valid) { %>
+      <p class="lead"><%= t('unsub.ask') %> <strong><%= e %></strong></p>
+      <form method="post" action="/unsubscribe">
+        <input type="hidden" name="e" value="<%= e %>"><input type="hidden" name="t" value="<%= token %>"><input type="hidden" name="lang" value="<%= lang %>">
+        <button class="btn btn-primary" type="submit"><%= t('unsub.button') %></button>
+      </form>
+    <% } else { %>
+      <p class="lead"><%= t('unsub.bad') %></p>
+    <% } %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

@@ -1,7 +1,7 @@
 {
   "name": "doubletheadventure",
   "version": "1.0.0",
-  "description": "A\u00b2 Publishing \u2014 the Double the Adventure picture books: catalog, corners for parents and educators, partners, sign-ups.",
+  "description": "A² Publishing — the Double the Adventure picture books: catalog, corners for parents and educators, partners, sign-ups.",
   "main": "app.js",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "dev": "node --watch app.js",
     "audit": "node scripts/audit-site.js",
     "share": "node scripts/make-share-images.js",
-    "check": "node scripts/check-articles.js && node scripts/smoke-test.js"
+    "check": "node scripts/check-articles.js && node scripts/smoke-test.js && node scripts/test-shop.js"
   },
   "engines": {
     "node": ">=18"
@@ -21,6 +21,7 @@
     "ejs": "^7.0.1",
     "express": "^5.3.0",
     "marked": "^14.1.4",
-    "nodemailer": "^10.1.2"
+    "nodemailer": "^10.1.2",
+    "stripe": "^23.1.0"
   }
 }

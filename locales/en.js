@@ -132,6 +132,13 @@ module.exports = {
       { title: 'Printables', text: 'Wordless coloring packs and activity pages from the books.' },
       { title: 'Gift cards', text: 'Let them choose their own heroes.' }
     ],
+    openTitle: 'The shop',
+    openLead: 'Sets, signed copies and gifts, shipped from Canada. Single books are still on Amazon.',
+    buy: 'Buy now',
+    quantity: 'Quantity',
+    secure: 'You pay on a secure Stripe page. Shipping to Canada and the United States.',
+    thanksTitle: 'Thank you for your order',
+    thanksText: 'A receipt is on its way to your email. We\'ll write again when your order ships. While you wait, the games are open.',
     signupTitle: 'Tell me when the shop opens'
   },
   play: {
@@ -256,6 +263,13 @@ module.exports = {
     first: 'Start with this one',
     next: 'Then try',
     otherTitle: 'Another moment'
+  },
+  unsub: {
+    title: 'Unsubscribe',
+    ask: 'Stop all emails from A² Publishing to',
+    button: 'Unsubscribe',
+    done: 'Done. You won\'t get any more emails from us.',
+    bad: 'This link is not valid. Reply to any of our emails with the word "unsubscribe" and we\'ll remove you.'
   },
   search: {
     title: 'Search',

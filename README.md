@@ -79,3 +79,8 @@ Long articles live in `content/articles/en/<slug>.md` (French: `content/articles
 
 ## Play offline
 `public/sw.js` keeps Play pages and their pictures on the device after a child opens them. Change `VERSION` in it when game files change.
+
+## Shop and emails (built, switched off)
+- **Welcome email**: sent after every sign-up once a mail account is set (`RESEND_API_KEY` or `SMTP_*`). It carries the free coloring link, the "Which book first?" link and a signed unsubscribe link. Set `UNSUB_SECRET` (any long random text) and `MAIL_ADDRESS` (your mailing address; Canada's anti-spam law requires it). Unsubscribes are saved in the Supabase table `unsubscribes`: any future newsletter must skip those addresses.
+- **Shop**: Stripe Checkout (hosted page), shipping to Canada and the US. Off until all three are true: `SHOP_OPEN=1`, `STRIPE_SECRET_KEY` is set, and at least one product in `data/shop.js` has a `priceCents`. In Stripe, add a webhook to `https://<site>/stripe/webhook` for `checkout.session.completed` and `checkout.session.async_payment_succeeded`, and put its signing secret in `STRIPE_WEBHOOK_SECRET`. Each paid order is saved once in the Supabase table `orders` and emailed to `STORE_EMAIL`. Test with Stripe test keys and card 4242 4242 4242 4242 before going live. Turn on `STRIPE_AUTOMATIC_TAX=1` only after GST/HST registration is added in Stripe Tax.
+- `node scripts/test-shop.js` tests all of this without Stripe.

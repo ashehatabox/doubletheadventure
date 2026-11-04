@@ -132,6 +132,13 @@ module.exports = {
       { title: 'À imprimer', text: 'Des cahiers de coloriage sans texte et des activités tirées des livres.' },
       { title: 'Cartes-cadeaux', text: 'Pour qu\'ils choisissent leurs propres héros.' }
     ],
+    openTitle: 'La boutique',
+    openLead: 'Ensembles, exemplaires dédicacés et cadeaux, expédiés du Canada. Les livres à l\'unité sont toujours sur Amazon.',
+    buy: 'Acheter',
+    quantity: 'Quantité',
+    secure: 'Vous payez sur une page Stripe sécurisée. Livraison au Canada et aux États-Unis.',
+    thanksTitle: 'Merci pour votre commande',
+    thanksText: 'Un reçu est en route vers votre courriel. Nous vous écrirons de nouveau à l\'expédition. En attendant, les jeux sont ouverts.',
     signupTitle: 'Me prévenir à l\'ouverture de la boutique'
   },
   play: {
@@ -256,6 +263,13 @@ module.exports = {
     first: 'Commencez par celui-ci',
     next: 'Ensuite',
     otherTitle: 'Un autre moment'
+  },
+  unsub: {
+    title: 'Se désabonner',
+    ask: 'Ne plus recevoir de courriels de A² Publishing à l\'adresse',
+    button: 'Me désabonner',
+    done: 'C\'est fait. Vous ne recevrez plus de courriels de notre part.',
+    bad: 'Ce lien n\'est pas valide. Répondez à l\'un de nos courriels avec le mot « désabonner » et nous vous retirerons.'
   },
   search: {
     title: 'Recherche',

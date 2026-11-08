@@ -60,7 +60,9 @@ const books = [
     n: 13, slug: 'the-snug',
     title: { en: 'The Snug', fr: 'Le Cocon' },
     subtitle: { en: 'A Story About Belonging and Making Room for Everyone', fr: 'Une histoire sur l\'appartenance et la place pour chacun' },
-    value: 'belonging', moments: ['left-out', 'friendship'], status: 'soon', languages: FIVE, color: '#A8DDA8',
+    value: 'belonging', moments: ['left-out', 'friendship'], status: 'live', languages: FIVE, color: '#A8DDA8',
+    // Live since early Nov 2026: paperback B0HNX1BTYF, Kindle B0HNVY8T7Y (French Le Cocon: paperback B0HP44JZXG, Kindle B0HP3T3KVC).
+    amazon: Object.fromEntries(['ca', 'com', 'uk', 'fr', 'de', 'es', 'it'].map((st) => [st, `https://www.amazon.${{ ca: 'ca', com: 'com', uk: 'co.uk', fr: 'fr', de: 'de', es: 'es', it: 'it' }[st]}/dp/B0HNX1BTYF`])),
     hero: { en: 'Quilla the porcupine and Bodie the badger' },
     refrain: { en: 'Scoop, loop, snug!', fr: 'Creuse, boucle, cocon !' },
     blurb: { en: 'Quilla doesn\'t wait to be let in. With Bodie, she scoops, loops and pins together a warm little hut of their own. When the first snow falls, she has one big decision to make: who is it for?' },

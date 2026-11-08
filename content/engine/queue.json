@@ -182,6 +182,15 @@
    "date": ""
   },
   {
+   "id": "tumble-and-the-honey-glow--value",
+   "book": "tumble-and-the-honey-glow",
+   "angle": "value",
+   "topic": "values",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
    "id": "secret-hero--animals",
    "book": "secret-hero",
    "angle": "animals",
@@ -355,6 +364,15 @@
   {
    "id": "knot-by-knot--animals",
    "book": "knot-by-knot",
+   "angle": "animals",
+   "topic": "animals",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "tumble-and-the-honey-glow--animals",
+   "book": "tumble-and-the-honey-glow",
    "angle": "animals",
    "topic": "animals",
    "status": "todo",
@@ -542,6 +560,15 @@
    "date": ""
   },
   {
+   "id": "tumble-and-the-honey-glow--origin",
+   "book": "tumble-and-the-honey-glow",
+   "angle": "origin",
+   "topic": "cultures",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
    "id": "secret-hero--moment",
    "book": "secret-hero",
    "angle": "moment",
@@ -715,6 +742,15 @@
   {
    "id": "knot-by-knot--moment",
    "book": "knot-by-knot",
+   "angle": "moment",
+   "topic": "feelings",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "tumble-and-the-honey-glow--moment",
+   "book": "tumble-and-the-honey-glow",
    "angle": "moment",
    "topic": "feelings",
    "status": "todo",
@@ -902,6 +938,15 @@
    "date": ""
   },
   {
+   "id": "tumble-and-the-honey-glow--environment",
+   "book": "tumble-and-the-honey-glow",
+   "angle": "environment",
+   "topic": "nature",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
    "id": "secret-hero--classroom",
    "book": "secret-hero",
    "angle": "classroom",
@@ -1075,6 +1120,15 @@
   {
    "id": "knot-by-knot--classroom",
    "book": "knot-by-knot",
+   "angle": "classroom",
+   "topic": "classroom",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "tumble-and-the-honey-glow--classroom",
+   "book": "tumble-and-the-honey-glow",
    "angle": "classroom",
    "topic": "classroom",
    "status": "todo",
@@ -1262,6 +1316,15 @@
    "date": ""
   },
   {
+   "id": "tumble-and-the-honey-glow--activities",
+   "book": "tumble-and-the-honey-glow",
+   "angle": "activities",
+   "topic": "activities",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
    "id": "secret-hero--reading",
    "book": "secret-hero",
    "angle": "reading",
@@ -1435,6 +1498,15 @@
   {
    "id": "knot-by-knot--reading",
    "book": "knot-by-knot",
+   "angle": "reading",
+   "topic": "reading",
+   "status": "todo",
+   "article": "",
+   "date": ""
+  },
+  {
+   "id": "tumble-and-the-honey-glow--reading",
+   "book": "tumble-and-the-honey-glow",
    "angle": "reading",
    "topic": "reading",
    "status": "todo",

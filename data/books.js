@@ -112,27 +112,46 @@ const books = [
   },
   {
     n: 18, slug: 'the-circle-of-paws',
-    title: { en: 'The Circle of Paws' },
+    title: { en: 'The Circle of Paws', fr: 'Le Cercle des pattes' },
     subtitle: { en: 'A Story About Asking for Help and Letting Others Give' },
-    value: 'giving', moments: ['asking-help', 'friendship'], status: 'coming', languages: FIVE, color: '#FFE08A',
+    value: 'giving', moments: ['asking-help', 'friendship'], status: 'soon', languages: FIVE, color: '#FFE08A',
     culture: 'andes', cultureIdea: { en: 'Ayni: today I help you, tomorrow you help me' },
-    hero: { en: 'Killa the chinchilla and Sami the vicuña' }
+    hero: { en: 'Killa the chinchilla and Sami the vicuña' },
+    refrain: { en: 'Paw to paw, round and round!' },
+    blurb: { en: 'Killa is the fastest helper on the mountain, and the one who never lets anyone help her back. "I can do it myself!" she says, until a hailstorm tumbles her wall and the stones are too heavy. Can a little chinchilla learn to ask?' },
+    themeLine: { en: 'Help is a circle. Let it come back around.' }
   },
   {
     n: 19, slug: 'the-beetle-who-knew-the-stars',
-    title: { en: 'The Beetle Who Knew the Stars' },
+    title: { en: 'The Beetle Who Knew the Stars', fr: 'Le Scarabée qui connaissait les étoiles' },
     subtitle: { en: 'A Story About Asking Instead of Telling' },
-    value: 'asking', moments: ['friendship'], status: 'coming', languages: FIVE, color: '#CDB8F2',
+    value: 'asking', moments: ['friendship'], status: 'soon', languages: FIVE, color: '#CDB8F2',
     culture: 'egypt', cultureIdea: { en: 'The Maxims of Ptahhotep: ask others, because wisdom can be found anywhere' },
-    hero: { en: 'Kemi the hoopoe and Sabu the dung beetle' }
+    hero: { en: 'Kemi the hoopoe and Sabu the dung beetle' },
+    refrain: { en: 'Roll, roll, look up!' },
+    blurb: { en: 'Kemi the hoopoe knows lots of things, and she loves to tell them. She tells the kingfisher how to fish and the little dung beetle he is rolling the wrong way. Then the sun sets over dunes that all look the same, and the one who can help her home is the friend she never asked.' },
+    themeLine: { en: 'Telling shows what you know. Asking helps you grow.' }
   },
   {
     n: 20, slug: 'knot-by-knot',
-    title: { en: 'Knot by Knot' },
+    title: { en: 'Knot by Knot', fr: 'Nœud par nœud' },
     subtitle: { en: 'A Story About Doing Things Well and Getting Them Done' },
-    value: 'craft', moments: ['trying-again'], status: 'coming', languages: FIVE, color: '#A8DDA8',
+    value: 'craft', moments: ['trying-again'], status: 'soon', languages: FIVE, color: '#A8DDA8',
     culture: 'oman', cultureIdea: { en: 'Itqan: doing your work with care, all the way to the end' },
-    hero: { en: 'Zayn the weaver bird and Hana the chameleon' }
+    hero: { en: 'Zayn the weaver bird and Hana the chameleon' },
+    refrain: { en: 'Loop, pull, tug!' },
+    blurb: { en: 'Zayn is the fastest weaver on the misty hill, and "Zip, zip, done!" is his song. But a quick nest sags in the drizzle and splashes into the pool. Can he learn to do it well, and still finish before the big wind?' },
+    themeLine: { en: 'Do it well, and get it done.' }
+  },
+  {
+    n: 21, slug: 'tumble-and-the-honey-glow',
+    title: { en: 'Tumble and the Honey Glow', fr: 'Tumble et la lueur de miel' },
+    subtitle: { en: 'A Story About Listening to Your Body', fr: 'Une histoire sur l\'écoute de son corps' },
+    value: 'selfcare', moments: ['unwell'], status: 'soon', languages: FIVE, color: '#F7C873',
+    hero: { en: 'Tumble the bear cub and Zuzu the honeybee' },
+    refrain: { en: 'Warm, slow, honey-glow.', fr: 'Au chaud, tout doux, lueur de miel.' },
+    blurb: { en: 'Tumble the bear cub tumbles everywhere, and the Last Leaf Games are coming. Then something in his throat goes tickle, tickle, hack-hack! "A Tickle Monster! I must fight it!" But the harder he fights, the worse he feels, until Mama Bear asks one gentle question.' },
+    themeLine: { en: 'The strongest bears are gentle with themselves.' }
   }
 ];
 
@@ -156,7 +175,8 @@ const values = {
   elders: { en: 'Learning from elders', fr: 'La sagesse des anciens' },
   giving: { en: 'Giving and receiving', fr: 'Donner et recevoir' },
   asking: { en: 'Asking and listening', fr: 'Demander et écouter' },
-  craft: { en: 'Doing it well', fr: 'Le travail bien fait' }
+  craft: { en: 'Doing it well', fr: 'Le travail bien fait' },
+  selfcare: { en: 'Listening to your body', fr: 'Écouter son corps' }
 };
 
 const moments = {
@@ -173,7 +193,8 @@ const moments = {
   honesty: { en: 'Telling the truth', fr: 'Dire la vérité' },
   patience: { en: 'Waiting', fr: 'Savoir attendre' },
   thankful: { en: 'Being thankful', fr: 'Dire merci' },
-  'asking-help': { en: 'Asking for help', fr: 'Demander de l\'aide' }
+  'asking-help': { en: 'Asking for help', fr: 'Demander de l\'aide' },
+  unwell: { en: 'Feeling unwell', fr: 'Quand on est malade' }
 };
 
 const cultures = {

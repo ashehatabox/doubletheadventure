@@ -29,7 +29,7 @@
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--cream); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.55; }
 img { max-width: 100%; display: block; }
-a { color: var(--teal); }
+a { color: var(--teal-dark); }
 a:hover { color: var(--teal-dark); }
 a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, summary:focus-visible, select:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
 .wrap { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
@@ -46,10 +46,11 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 700; color: var(--ink); mar
 .h2 { font-size: clamp(28px, 4vw, 44px); }
 .h3 { font-size: 24px; }
 .band-teal h2, .band-teal h3 { color: var(--white); }
-.eyebrow { font-size: 14px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--coral); margin: 0; }
+.eyebrow { font-size: 14px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--coral-dark); margin: 0; }
+.eyebrow a { color: inherit; }
 .band-teal .eyebrow { color: var(--white); }
 .lead { font-size: 19px; line-height: 1.6; color: var(--ink-soft); margin: 0; }
-.band-teal .lead { color: #E6F4F3; }
+.band-teal .lead { color: var(--white); }
 .muted { color: var(--ink-soft); }
 .stack { display: flex; flex-direction: column; gap: 20px; }
 .stack-sm { display: flex; flex-direction: column; gap: 10px; }
@@ -83,7 +84,7 @@ a.chip:hover { filter: brightness(0.96); color: var(--ink); }
 .topbar .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; align-items: center; min-height: 40px; padding-top: 6px; padding-bottom: 6px; }
 .topbar a { color: var(--white); }
 .lang-switch { display: flex; gap: 16px; }
-.lang-switch a[aria-current="true"] { text-decoration: none; opacity: .75; }
+.lang-switch a[aria-current="true"] { text-decoration: none; background: rgba(0,0,0,.22); padding: 2px 8px; border-radius: 999px; }
 .header { border-bottom: 1px solid var(--line); background: var(--cream); position: relative; }
 .header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px 28px; min-height: 84px; padding-top: 12px; padding-bottom: 12px; }
 .logo { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); }
@@ -91,7 +92,7 @@ a.chip:hover { filter: brightness(0.96); color: var(--ink); }
 .logo-text { font-family: var(--serif); font-weight: 700; font-size: 22px; }
 .nav { display: flex; flex-wrap: wrap; gap: 4px 22px; align-items: center; }
 .nav a { color: var(--ink); text-decoration: none; font-weight: 700; font-size: 16px; padding: 12px 2px; }
-.nav a:hover, .nav a[aria-current="page"] { color: var(--coral); }
+.nav a:hover, .nav a[aria-current="page"] { color: var(--coral-dark); }
 .menu { display: none; }
 .menu summary { list-style: none; cursor: pointer; min-height: 48px; padding: 0 18px; border-radius: 999px; border: 2px solid var(--ink); font-weight: 800; display: inline-flex; align-items: center; gap: 8px; }
 .menu summary::-webkit-details-marker { display: none; }
@@ -214,7 +215,7 @@ details.stores ul { list-style: none; padding: 0; margin: 8px 0 0; display: flex
 .play-pick-meta { font-weight: 600; font-size: 14px; color: var(--ink-soft); }
 .play-levels { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
 .play-memory-art { display: flex; justify-content: center; padding: 20px 0; }
-.play-memory-art img { width: min(30%, 160px); border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,.18); transform: rotate(var(--r)); margin: 0 -10px; border: 4px solid var(--white); }
+.play-memory-art img { width: min(30%, 170px); height: auto; aspect-ratio: 900 / 1440; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,.18); transform: rotate(var(--r)); margin: 0 -10px; border: 4px solid var(--white); }
 
 /* Values map */
 .vmap { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(260px, 1fr); gap: 24px; align-items: center; background: var(--white); border-radius: var(--radius); padding: 20px; box-shadow: 0 8px 24px rgba(74,52,38,.08); }
@@ -341,3 +342,8 @@ details.stores ul { list-style: none; padding: 0; margin: 8px 0 0; display: flex
 .ra-card .ra-thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .7; }
 .ra-card .ra-btn { width: 56px; height: 56px; font-size: 22px; }
 .ra-card-title { font-family: var(--serif); font-weight: 700; font-size: 20px; }
+
+/* Play doors sit on the teal band: keep their text dark on the pastel cards. */
+.band-teal .play-door, .band-teal .play-door .h3, .band-teal .play-door:hover { color: var(--ink); }
+.band-teal .btn-sun, .band-teal .btn-sun:hover { color: var(--ink); }
+.play-door .h3 { font-family: var(--serif); font-weight: 700; font-size: 24px; }

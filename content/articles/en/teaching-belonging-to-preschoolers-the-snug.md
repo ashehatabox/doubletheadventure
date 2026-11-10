@@ -114,7 +114,7 @@ Short, plain sentences you can read aloud or say in your own words. Use the ones
 
 If your child enjoys the book's refrain, it can become a family shorthand. When someone makes room on the sofa or in a game, "Scoop, loop, snug!" says "you did it" without a lecture.
 
-## Questions to talk about after reading
+## Talking about the story after reading
 
 There are no right answers. Follow your child's lead, and for a three-year-old, one question is plenty.
 

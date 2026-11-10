@@ -253,6 +253,15 @@ module.exports = {
     giftsText: 'Exemplaires dédicacés et ex-libris au nom de votre enfant dès le début de 2027.',
     quoteButton: 'Demander une soumission'
   },
+  readaloud: {
+    title: 'L\'heure du conte : histoires lues à voix haute',
+    lead: 'Appuyez sur lecture et écoutez nos albums lus à voix haute, page après page, en français, en anglais et dans d\'autres langues. Parfait pour se blottir ensemble.',
+    bookTitle: 'Regarder l\'histoire lue',
+    play: 'Lancer l\'histoire',
+    note: 'La vidéo se charge depuis YouTube seulement quand vous appuyez sur lecture. Aucune publicité n\'est montrée sur nos vidéos pour enfants.',
+    none: 'Nos premières vidéos lues à voix haute arrivent bientôt. Revenez nous voir !',
+    footer: 'L\'heure du conte'
+  },
   start: {
     title: 'Par où commencer ? Quel livre d\'abord ?',
     lead: 'Dites-nous ce que votre enfant vit en ce moment et nous vous proposerons l\'histoire qui ouvre la conversation.',

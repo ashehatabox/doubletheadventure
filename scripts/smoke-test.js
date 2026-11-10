@@ -41,6 +41,8 @@ const checks = [
   ['/parents', 200, 'dialogic reading'],
   ['/educators', 200, 'Educator corner'],
   ['/educators/teachers', 200, 'SEL pack per book'],
+  ['/stories', 200, 'Story time'],
+  ['/fr/stories', 200, 'heure du conte'],
   ['/start', 200, 'What does your child need right now'],
   ['/start/big-feelings', 200, 'Start with this one'],
   ['/fr/start/left-out', 200, 'Commencez par celui-ci'],

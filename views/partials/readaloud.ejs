@@ -1,0 +1,20 @@
+<%# The read-aloud player: shows the cover until play is pressed, then loads the video (YouTube no-cookie or our own file). %>
+<div class="ra" data-ra>
+  <div class="ra-stage" data-ra-stage>
+    <button type="button" class="ra-play" data-ra-play aria-label="<%= t('readaloud.play') %>: <%= b.displayTitle %>">
+      <% if (b.cover) { %><img src="<%= b.cover %>" alt="" loading="lazy" width="900" height="1440"><% } %>
+      <span class="ra-btn" aria-hidden="true">▶</span>
+      <span class="ra-hint"><%= t('readaloud.play') %></span>
+    </button>
+  </div>
+  <% if (videos.length > 1) { %>
+  <div class="ra-langs" role="group" aria-label="<%= t('book.languages') %>">
+    <% videos.forEach(function (v, i) { %>
+    <button type="button" class="pill<%= i === 0 ? ' is-on' : '' %>" data-ra-lang data-youtube="<%= v.youtube || '' %>" data-file="<%= v.file || '' %>" aria-pressed="<%= i === 0 ? 'true' : 'false' %>" lang="<%= v.lang %>"><%= v.label %></button>
+    <% }) %>
+  </div>
+  <% } else { %>
+  <span hidden data-ra-lang class="is-on" data-youtube="<%= videos[0].youtube || '' %>" data-file="<%= videos[0].file || '' %>"></span>
+  <% } %>
+  <% if (videos.some(function (v) { return v.youtube; })) { %><p class="muted ra-note"><%= t('readaloud.note') %></p><% } %>
+</div>

@@ -18,6 +18,7 @@ const search = require('./lib/search');
 const shop = require('./lib/shop');
 const shopData = require('./data/shop');
 const welcome = require('./lib/welcome');
+const readalouds = require('./lib/readalouds');
 const { helpers, bookImage, coverSmall, LANGS } = require('./lib/i18n');
 const amazon = require('./lib/amazon');
 const { insert } = require('./lib/supabase');
@@ -65,7 +66,7 @@ app.use((req, res, next) => {
   res.set('X-Frame-Options', 'SAMEORIGIN');
   res.set(
     'Content-Security-Policy',
-    "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://checkout.stripe.com"
+    "default-src 'self'; img-src 'self' data:; media-src 'self'; frame-src https://www.youtube-nocookie.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://checkout.stripe.com"
   );
   next();
 });
@@ -138,6 +139,7 @@ router.get('/books/:slug', (req, res, next) => {
     book: view,
     related,
     bookArticles: articles.forBook(b.slug, h.lang).slice(0, 6),
+    readAloud: readalouds.forBook(b.slug, h.lang),
     bookPlay: {
       color: play.pages(b.slug).length > 0,
       jigsaw: play.hasCover(b.slug) && play.jigsaw.includes(b.slug),
@@ -220,6 +222,14 @@ router.get('/start/:moment', (req, res, next) => {
   });
 });
 
+// Story time: read-aloud videos of our books.
+router.get('/stories', (req, res) => {
+  const h = req.h;
+  const list = readalouds.slugs().map((s) => catalog.get(s)).filter(Boolean)
+    .map((b) => ({ ...bookView(b, h, req), langs: readalouds.forBook(b.slug, h.lang).map((v) => v.label) }));
+  page(req, res, 'stories', { list, seo: { title: h.t('readaloud.title'), description: h.t('readaloud.lead') } });
+});
+
 router.get('/values-map', (req, res) => page(req, res, 'values-map', { seo: { title: req.h.t('valuesMap.title'), description: req.h.t('valuesMap.lead') } }));
 
 router.get('/shop', (req, res) => {
@@ -250,6 +260,7 @@ router.get('/play', (req, res) => {
   const h = req.h;
   const views = (slugs) => slugs.map((s) => bookView(catalog.get(s), h, req));
   page(req, res, 'play', {
+    storyCount: readalouds.slugs().length,
     coloringBooks: views(play.coloring).map((b) => ({ ...b, pageCount: play.pages(b.slug).length })),
     jigsawBooks: views(play.jigsaw),
     memorySizes: play.MEMORY_SIZES,
@@ -505,7 +516,7 @@ app.post('/api/enquire', async (req, res) => {
 app.get('/robots.txt', (req, res) => res.type('text/plain').send(`User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`));
 
 app.get('/sitemap.xml', (req, res) => {
-  const paths = ['/', '/start', '/values', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
+  const paths = ['/', '/stories', '/start', '/values', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
     .concat(EDUCATOR_PAGES.map((p) => '/educators/' + p))
     .concat(startMoments().map((m) => '/start/' + m), hubValues().map((v) => '/values/' + v), ['/educators/guides'], guideBooks().map((b) => '/educators/guides/' + b.slug))
     .concat(PARTNER_PAGES.map((p) => '/partners/' + p))

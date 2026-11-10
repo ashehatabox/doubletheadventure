@@ -17,6 +17,13 @@
         <span><%= g.text %></span>
       </a>
       <% }) %>
+      <% if (storyCount) { %>
+      <a class="play-door" href="<%= url('/stories') %>" style="background:#E6F4EA">
+        <span class="play-door-icon" aria-hidden="true"><svg viewBox="0 0 48 48" width="44" height="44"><rect x="4" y="10" width="40" height="28" rx="6" fill="#24325F"/><path d="M20 17l11 7-11 7z" fill="#FFC93C"/></svg></span>
+        <span class="h3"><%= t('readaloud.footer') %></span>
+        <span><%= t('readaloud.lead').split('.')[0] %>.</span>
+      </a>
+      <% } %>
     </div>
   </div>
 </section>

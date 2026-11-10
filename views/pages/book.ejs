@@ -74,6 +74,15 @@
 </section>
 <% } %>
 
+<% if (readAloud.length) { %>
+<section class="section tight" id="read-aloud" style="padding-top:0">
+  <div class="wrap stack-sm" style="max-width:900px">
+    <h2 class="h2" style="font-size:32px"><%= t('readaloud.bookTitle') %></h2>
+    <%- include('../partials/readaloud', { b: b, videos: readAloud }) %>
+  </div>
+</section>
+<% } %>
+
 <% if (bookPlay.color || bookPlay.jigsaw || bookArticles.length || bookPlay.map) { %>
 <section class="section tight" style="padding-top:0">
   <div class="wrap stack">

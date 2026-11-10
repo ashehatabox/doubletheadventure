@@ -83,3 +83,38 @@
 
 // Print buttons (teacher guides)
 document.querySelectorAll('[data-print]').forEach(function (b) { b.addEventListener('click', function () { window.print(); }); });
+
+// Read-aloud player: nothing loads from YouTube until a visitor presses play.
+document.querySelectorAll('[data-ra]').forEach(function (box) {
+  var stage = box.querySelector('[data-ra-stage]');
+  var langs = box.querySelectorAll('[data-ra-lang]');
+  function current() { return box.querySelector('[data-ra-lang].is-on') || langs[0]; }
+  function load(btn, autoplay) {
+    var yt = btn.getAttribute('data-youtube'), file = btn.getAttribute('data-file');
+    stage.innerHTML = '';
+    if (yt) {
+      var f = document.createElement('iframe');
+      f.src = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(yt) + '?rel=0&playsinline=1' + (autoplay ? '&autoplay=1' : '');
+      f.title = 'Read-aloud video';
+      f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      f.allowFullscreen = true;
+      f.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+      stage.appendChild(f);
+    } else if (file) {
+      var v = document.createElement('video');
+      v.src = file; v.controls = true; v.playsInline = true; v.preload = 'metadata';
+      stage.appendChild(v);
+      if (autoplay) v.play().catch(function () {});
+    }
+  }
+  var play = box.querySelector('[data-ra-play]');
+  if (play) play.addEventListener('click', function () { load(current(), true); });
+  langs.forEach(function (btn) {
+    if (btn.hidden) return;
+    btn.addEventListener('click', function () {
+      langs.forEach(function (b) { b.classList.remove('is-on'); b.setAttribute('aria-pressed', 'false'); });
+      btn.classList.add('is-on'); btn.setAttribute('aria-pressed', 'true');
+      if (!stage.querySelector('[data-ra-play]')) load(btn, true);
+    });
+  });
+});

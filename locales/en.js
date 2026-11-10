@@ -253,6 +253,15 @@ module.exports = {
     giftsText: 'Signed copies and a bookplate with your child\'s name open in early 2027.',
     quoteButton: 'Ask for a homeschool quote'
   },
+  readaloud: {
+    title: 'Story time: read-aloud videos',
+    lead: 'Press play and listen to our picture books read aloud, page by page, in English and other languages. Made for snuggling up together.',
+    bookTitle: 'Watch the read-aloud',
+    play: 'Play the story',
+    note: 'The video loads from YouTube only when you press play. No ads are shown on our kids videos.',
+    none: 'Our first read-aloud videos are on their way. Come back soon!',
+    footer: 'Story time'
+  },
   start: {
     title: 'Start here: which book first?',
     lead: 'Tell us what your child is going through right now and we\'ll point you to the story that opens that conversation.',

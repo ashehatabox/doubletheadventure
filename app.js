@@ -101,6 +101,7 @@ function page(req, res, view, data = {}, status = 200) {
     catalog,
     seo: { ...seo, fullTitle, canonical: SITE_URL + h.url(req.basePath) },
     alternates,
+    storiesLive: readalouds.slugs().length > 0,
     basePath: req.basePath,
     sent: req.query.sent,
     failed: req.query.failed,
@@ -171,7 +172,7 @@ router.get('/values/:value', (req, res, next) => {
   page(req, res, 'value-hub', {
     value: v, label, bookViews, arts,
     others: hubValues().filter((o) => o !== v).map((o) => ({ key: o, label: h.pick(catalog.values[o]), href: h.url('/values/' + o) })),
-    seo: { title: h.t('valueHub.pageTitle').replace('{value}', label), description: h.t('valueHub.pageLead').replace('{value}', label.toLowerCase()), image: shareImage('book', list[0].slug, bookViews[0].cover) }
+    seo: { title: h.t('valueHub.pageTitle').replace('{value}', h.lang === 'en' ? label.toLowerCase() : label), description: h.t('valueHub.pageLead').replace('{value}', label.toLowerCase()), image: shareImage('book', list[0].slug, bookViews[0].cover) }
   });
 });
 
@@ -190,7 +191,7 @@ router.get('/search', (req, res) => {
     });
     hubValues().forEach((v) => {
       const label = h.pick(catalog.values[v]);
-      docs.push({ kind: 'value', title: h.t('valueHub.pageTitle').replace('{value}', label), href: h.url('/values/' + v), text: label, boost: 2 });
+      docs.push({ kind: 'value', title: h.t('valueHub.pageTitle').replace('{value}', h.lang === 'en' ? label.toLowerCase() : label), href: h.url('/values/' + v), text: label, boost: 2 });
     });
     articles.list(h.lang).forEach((a) => docs.push({ kind: 'article', title: a.title, href: h.url('/parents/articles/' + a.slug), text: a.description + ' ' + a.toc.map((x) => x.text).join(' ') + ' ' + a.faq.map((f) => f.q).join(' '), lang: a.isFallback ? 'en' : '' }));
     results = search.run(docs, q);

@@ -1,12 +1,12 @@
 <%
-  const ld = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t('valueHub.pageTitle').replace('{value}', label), description: seo.description, url: seo.canonical,
+  const ld = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t('valueHub.pageTitle').replace('{value}', lang === 'en' ? label.toLowerCase() : label), description: seo.description, url: seo.canonical,
     hasPart: bookViews.map(function (b) { return { '@type': 'Book', name: b.displayTitle, url: seo.canonical.split('/').slice(0, 3).join('/') + b.href }; }) };
 %>
 <%- include('../partials/top', { jsonLd: ld }) %>
 <section class="section tight band-sun">
   <div class="wrap stack-sm" style="max-width:820px;margin-left:auto;margin-right:auto">
     <p class="eyebrow"><a href="<%= url('/values') %>"><%= t('valueHub.indexTitle') %></a></p>
-    <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('valueHub.pageTitle').replace('{value}', label) %></h1>
+    <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('valueHub.pageTitle').replace('{value}', lang === 'en' ? label.toLowerCase() : label) %></h1>
     <p class="lead"><%= t('valueHub.pageLead').replace('{value}', label.toLowerCase()) %></p>
   </div>
 </section>

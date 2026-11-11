@@ -356,7 +356,7 @@ module.exports = {
       title: 'Teacher corner',
       lead: 'A ready read-aloud lesson for every value, linked to Ontario\'s Kindergarten Program.',
       offers: [
-        ['Free teacher guide per book', '2–4 pages: before-reading question, 5–6 discussion questions, two activities, curriculum links', 'Free download (coming with each book)'],
+        ['Free read-aloud guide per book', 'One printable page: before, during and after reading, discussion questions, three activities, Ontario Kindergarten links', 'Free, online now (Read-aloud guides)'],
         ['SEL pack per book', 'Lesson plan, sequencing cards, "color the feeling" pages, refrain tracing, a craft, classroom licence', '4.99'],
         ['Classroom sets', '5–10 books by value or by language', 'Quote'],
         ['French immersion sets', 'The French editions with French guides', 'Quote'],
@@ -369,7 +369,7 @@ module.exports = {
       title: 'Early years and daycares',
       lead: 'Most 3–5 year olds spend their day in child care. Each book maps onto How Does Learning Happen?: belonging, well-being, engagement and expression.',
       offers: [
-        ['Circle-time guide per book', 'One page: the foundation it supports, 3 questions, a movement game, an art activity, the refrain to sing', 'Free (coming with each book)'],
+        ['Circle-time guide per book', 'One page: the foundation it supports, 3 questions, a movement game, an art activity, the refrain to sing', 'Free: use the read-aloud guide for each book'],
         ['Centre sets', '5 or 10 books by foundation', 'Quote'],
         ['Multi-site pricing', 'For daycare chains and early-years programs', 'Quote'],
         ['Storytime visits', 'Read-aloud, refrain and a coloring page to take home', 'Per session'],

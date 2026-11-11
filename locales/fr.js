@@ -356,7 +356,7 @@ module.exports = {
       title: 'Coin des enseignants',
       lead: 'Une leçon de lecture à voix haute prête pour chaque valeur, liée au programme de maternelle de l\'Ontario.',
       offers: [
-        ['Guide gratuit par livre', '2 à 4 pages : question d\'avant-lecture, 5 ou 6 questions de discussion, deux activités, liens au programme', 'Téléchargement gratuit (avec chaque livre)'],
+        ['Guide de lecture gratuit par livre', 'Une page à imprimer : avant, pendant et après la lecture, questions de discussion, trois activités, liens au programme de maternelle de l\'Ontario', 'Gratuit, en ligne maintenant (guides de lecture)'],
         ['Trousse SEL par livre', 'Plan de leçon, cartes de séquence, pages « colorie l\'émotion », refrain à tracer, bricolage, licence de classe', '4,99'],
         ['Ensembles de classe', '5 à 10 livres par valeur ou par langue', 'Soumission'],
         ['Ensembles d\'immersion française', 'Les éditions françaises avec guides en français', 'Soumission'],

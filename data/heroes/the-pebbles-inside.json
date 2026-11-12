@@ -1,0 +1,1320 @@
+{
+ "book": "the-pebbles-inside",
+ "draft": true,
+ "updated": "2026-11-12",
+ "review": {
+  "factsChecked": "2026-11-12",
+  "culturalReader": true
+ },
+ "title": {
+  "en": "Heroes of the Willow Brook"
+ },
+ "seoTitle": {
+  "en": "Heroes of the Willow Brook: the real animals behind The Pebbles Inside"
+ },
+ "description": {
+  "en": "A turtle that can live 60 years, a hare that runs 70 km/h, frogs with balloon cheeks and a hedgehog with 7,000 spines. Real facts for kids."
+ },
+ "intro": {
+  "en": "Every animal in The Pebbles Inside is real, and they all live by ponds and brooks in Europe. Here is how they really live."
+ },
+ "place": {
+  "name": {
+   "en": "La Brenne, France"
+  },
+  "image": "place.jpg",
+  "intro": {
+   "en": "The willow brook has no real name, so we picked the Brenne Regional Natural Park in France. It's the best place in France to meet a European pond turtle like Tavi, along with frogs, ducks and lots of other pond life."
+  },
+  "introSrc": [
+   "francetoday",
+   "fvoyage"
+  ],
+  "facts": [
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Land of a thousand ponds"
+    },
+    "text": {
+     "en": "There are more than 2,000 lakes and ponds in the Brenne!"
+    },
+    "src": [
+     "fvoyage"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "Made by monks"
+    },
+    "text": {
+     "en": "Monks started building chains of ponds here in the 1100s."
+    },
+    "src": [
+     "frenchmoments"
+    ]
+   },
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Turtle capital"
+    },
+    "text": {
+     "en": "About 90% of France's pond turtles live in the Brenne. The turtle is the park's emblem."
+    },
+    "src": [
+     "francetoday",
+     "claise"
+    ]
+   },
+   {
+    "kind": "ha",
+    "title": {
+     "en": "Dragonfly party"
+    },
+    "text": {
+     "en": "More than 60 kinds of dragonflies zoom over the ponds."
+    },
+    "src": [
+     "ryo"
+    ]
+   },
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Bird heaven"
+    },
+    "text": {
+     "en": "267 kinds of birds have been seen in the Brenne."
+    },
+    "src": [
+     "gites"
+    ]
+   }
+  ],
+  "map": {
+   "lat": 46.7,
+   "lon": 1.17,
+   "zoom": 10,
+   "region": [
+    -9,
+    41,
+    7,
+    52
+   ],
+   "highlight": [
+    250
+   ],
+   "label": {
+    "en": "La Brenne, France"
+   },
+   "text": {
+    "en": "A park of ponds, heath and woods in central France, about three hours south of Paris. It was created in 1989."
+   },
+   "src": [
+    "navaway",
+    "ramsar"
+   ],
+   "areaNote": {
+    "en": "Yellow: France."
+   },
+   "pin": [
+    63.56,
+    50.73
+   ],
+   "aspect": 0.9963
+  }
+ },
+ "cast": [
+  {
+   "id": "tavi",
+   "role": "hero",
+   "colour": "mint",
+   "name": {
+    "en": "Tavi"
+   },
+   "animal": {
+    "en": "European pond turtle"
+   },
+   "image": "tavi.jpg",
+   "job": {
+    "en": "The quiet turtle who learns to share what she carries"
+   },
+   "superpower": {
+    "en": "Can live 40 to 60 years"
+   },
+   "lineup": {
+    "weight": {
+     "en": "usually 400–700 g"
+    },
+    "grams": 550,
+    "like": {
+     "en": "a loaf of bread"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "Shell about 12–20 cm long"
+     },
+     "src": [
+      "zooexperte"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Usually 400–700 g"
+     },
+     "src": [
+      "zooexperte"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "40–60 years"
+     },
+     "src": [
+      "allturtles"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Water snails, worms, insects, small fish and frogs"
+     },
+     "src": [
+      "zooexperte",
+      "adw-turtle"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Calm ponds, marshes and slow streams"
+     },
+     "src": [
+      "allturtles"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Moms lay 3–15 eggs; turtles grow up on their own"
+     },
+     "src": [
+      "skansen"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Sunbathing"
+     },
+     "text": {
+      "en": "Pond turtles climb out onto logs and banks to warm up in the sun."
+     },
+     "src": [
+      "allturtles"
+     ]
+    },
+    {
+     "title": {
+      "en": "Winter in the mud"
+     },
+     "text": {
+      "en": "In cold places they spend the winter asleep. In very hot places they can rest through the summer instead."
+     },
+     "src": [
+      "exmoor",
+      "skansen"
+     ]
+    },
+    {
+     "title": {
+      "en": "Grown-up at ten"
+     },
+     "text": {
+      "en": "A pond turtle isn't grown up until it's about 10 years old."
+     },
+     "src": [
+      "skansen"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Waiting in the egg"
+     },
+     "text": {
+      "en": "When the weather is bad, babies can stay inside their eggs for a whole winter and hatch in spring!"
+     },
+     "src": [
+      "aquazoo"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Salad later"
+     },
+     "text": {
+      "en": "Young pond turtles eat mostly little animals. As they get older, some eat more plants."
+     },
+     "src": [
+      "wiki-turtle"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Rare in France"
+     },
+     "text": {
+      "en": "The pond turtle is the most endangered reptile in France."
+     },
+     "src": [
+      "wiki-turtle"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Brenne's turtle"
+     },
+     "text": {
+      "en": "About 90% of France's pond turtles live in the Brenne."
+     },
+     "src": [
+      "francetoday"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real pond turtles are dark brown or black with little yellow spots, not bright green like Tavi. And they don't keep pebbles on their shells! But they really do love quiet ponds and brooks."
+   },
+   "storyVsRealSrc": [
+    "wiki-turtle"
+   ]
+  },
+  {
+   "id": "fern",
+   "role": "friend",
+   "colour": "sun",
+   "name": {
+    "en": "Fern"
+   },
+   "animal": {
+    "en": "European hare"
+   },
+   "image": "fern.jpg",
+   "job": {
+    "en": "The best friend who sits down and stays"
+   },
+   "superpower": {
+    "en": "Runs up to 70 km/h"
+   },
+   "lineup": {
+    "weight": {
+     "en": "2–5 kg"
+    },
+    "grams": 3500,
+    "like": {
+     "en": "a small cat"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "50–70 cm"
+     },
+     "src": [
+      "wt-hare"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "2–5 kg"
+     },
+     "src": [
+      "wt-hare"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Usually 2–4 years"
+     },
+     "src": [
+      "iucn-hare"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Grasses, herbs, twigs and bark"
+     },
+     "src": [
+      "afn-hare"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Open fields and grassland; it rests in a dip in the ground"
+     },
+     "src": [
+      "mammal-hare",
+      "ypte-hare"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Usually alone; babies are called leverets"
+     },
+     "src": [
+      "mammal-hare",
+      "wlo-hare"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Ready to go"
+     },
+     "text": {
+      "en": "Baby hares are born with fur and open eyes. Rabbit babies are born bare and blind."
+     },
+     "src": [
+      "wlo-hare"
+     ]
+    },
+    {
+     "title": {
+      "en": "Zigzag escape"
+     },
+     "text": {
+      "en": "If a fox chases it, a hare swerves and zigzags to escape."
+     },
+     "src": [
+      "ypte-hare"
+     ]
+    },
+    {
+     "title": {
+      "en": "Ears flat, keep still"
+     },
+     "text": {
+      "en": "Lying in its dip with its ears flat, a hare is very hard to spot."
+     },
+     "src": [
+      "ypte-hare"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Boxing hares"
+     },
+     "text": {
+      "en": "In spring, hares stand up and box with their front paws. Often it's a mom telling a dad to back off!"
+     },
+     "src": [
+      "hc-hare",
+      "ypte-hare"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Super speed"
+     },
+     "text": {
+      "en": "A hare can reach about 70 km/h, as fast as a car on a country road."
+     },
+     "src": [
+      "hc-hare"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Mega jump"
+     },
+     "text": {
+      "en": "A hare can leap about 3 metres forward and 2 metres high."
+     },
+     "src": [
+      "afn-hare"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Quiet talkers"
+     },
+     "text": {
+      "en": "Hares are mostly quiet. Moms make soft calls to their leverets."
+     },
+     "src": [
+      "eol-hare"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Fern really is a hare, not a rabbit: look at those long legs and ears! Real hares mostly live alone, so a hare and a turtle best friend is story magic. The blue scarf is our artist's idea."
+   },
+   "storyVsRealSrc": [
+    "mammal-hare"
+   ]
+  },
+  {
+   "id": "frogs",
+   "role": "supporting",
+   "colour": "sky",
+   "name": {
+    "en": "The frogs"
+   },
+   "animal": {
+    "en": "Green water frogs"
+   },
+   "image": "frogs.jpg",
+   "job": {
+    "en": "They laughed, then one came to say sorry"
+   },
+   "superpower": {
+    "en": "Balloon cheeks for loud songs"
+   },
+   "lineup": {
+    "weight": {
+     "en": "about 20–50 g"
+    },
+    "grams": 35,
+    "like": {
+     "en": "an egg... a small one"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "About 8–12 cm"
+     },
+     "src": [
+      "me-frog"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "About 20–50 g"
+     },
+     "src": [
+      "snappit-frog"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Up to about 15 years"
+     },
+     "src": [
+      "az-frog"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Insects, moths and spiders; tadpoles eat plants"
+     },
+     "src": [
+      "az-frog"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Ponds, lakes and slow streams"
+     },
+     "src": [
+      "donau-frog"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "A female can lay thousands of eggs"
+     },
+     "src": [
+      "az-frog"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Balloon singers"
+     },
+     "text": {
+      "en": "Boy frogs blow up two grey balloons, one on each side of the mouth, to make their croaks louder."
+     },
+     "src": [
+      "uksafari-frog",
+      "donau-frog"
+     ]
+    },
+    {
+     "title": {
+      "en": "A secret recipe"
+     },
+     "text": {
+      "en": "The edible frog is a mix of two other green frogs: the pool frog and the marsh frog."
+     },
+     "src": [
+      "donau-frog"
+     ]
+    },
+    {
+     "title": {
+      "en": "Tadpole to frog"
+     },
+     "text": {
+      "en": "Tadpoles eat mostly plants. Grown-up frogs hunt bugs."
+     },
+     "src": [
+      "az-frog"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Re-re-re-re!"
+     },
+     "text": {
+      "en": "Edible frogs croak 20 to 30 times every second, in a fast rattling song."
+     },
+     "src": [
+      "donau-frog"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Spot the stripe"
+     },
+     "text": {
+      "en": "Many green frogs have a pale stripe down the middle of their back."
+     },
+     "src": [
+      "uksafari-frog"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Big family"
+     },
+     "text": {
+      "en": "There are three kinds of green frogs in Europe. The marsh frog is the biggest, up to 17 cm."
+     },
+     "src": [
+      "me-frog"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real green frogs are very noisy, so they'd be great at laughing! But a frog can't really be sorry. In the story, the little frog shows us how."
+   },
+   "storyVsRealSrc": [
+    "donau-frog"
+   ]
+  },
+  {
+   "id": "hedgehog",
+   "role": "supporting",
+   "colour": "peach",
+   "name": {
+    "en": "The hedgehog"
+   },
+   "animal": {
+    "en": "European hedgehog"
+   },
+   "image": "hedgehog.jpg",
+   "job": {
+    "en": "Brings a pebble for the path"
+   },
+   "superpower": {
+    "en": "Up to 7,000 spines"
+   },
+   "lineup": {
+    "weight": {
+     "en": "500 g to nearly 2 kg"
+    },
+    "grams": 800,
+    "like": {
+     "en": "a pineapple"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "24–35 cm"
+     },
+     "src": [
+      "wlo-hog"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "500 g to nearly 2 kg, heaviest in autumn"
+     },
+     "src": [
+      "wlo-hog",
+      "mammal-hog"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "2–3 years on average"
+     },
+     "src": [
+      "mammal-hog"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Mostly beetles, earwigs and earthworms"
+     },
+     "src": [
+      "wlo-hog"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Hedges, woods, fields and gardens"
+     },
+     "src": [
+      "wlo-hog"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Babies are born blind"
+     },
+     "src": [
+      "nwe-hog"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Spiny but light"
+     },
+     "text": {
+      "en": "Each spine is hollow inside, which keeps it light."
+     },
+     "src": [
+      "adw-hog"
+     ]
+    },
+    {
+     "title": {
+      "en": "Not a porcupine"
+     },
+     "text": {
+      "en": "Hedgehog spines don't come loose easily like a porcupine's quills."
+     },
+     "src": [
+      "nwe-hog"
+     ]
+    },
+    {
+     "title": {
+      "en": "Deep winter sleep"
+     },
+     "text": {
+      "en": "When a hedgehog hibernates, its body cools from about 35°C to just 2–5°C."
+     },
+     "src": [
+      "wiki-hog"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Winter diet"
+     },
+     "text": {
+      "en": "A hedgehog can lose 20–40% of its weight while it hibernates."
+     },
+     "src": [
+      "proigel"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Night shift"
+     },
+     "text": {
+      "en": "Hedgehogs are mostly out at night."
+     },
+     "src": [
+      "wiki-hog"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Bug buffet"
+     },
+     "text": {
+      "en": "About 85% of a hedgehog's food is beetles, earwigs and earthworms. Yum?"
+     },
+     "src": [
+      "wlo-hog"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real hedgehogs come out at night and sleep through winter, so you'd rarely see one at a sunny brook. Carrying a pebble is story magic too."
+   },
+   "storyVsRealSrc": [
+    "wiki-hog"
+   ]
+  },
+  {
+   "id": "duck",
+   "role": "supporting",
+   "colour": "lilac",
+   "name": {
+    "en": "The duck"
+   },
+   "animal": {
+    "en": "Mallard"
+   },
+   "image": "duck.jpg",
+   "job": {
+    "en": "Sets down a pebble she had kept inside"
+   },
+   "superpower": {
+    "en": "Bottoms-up feeding"
+   },
+   "lineup": {
+    "weight": {
+     "en": "750–1,500 g"
+    },
+    "grams": 1100,
+    "like": {
+     "en": "a bag of sugar"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "51–62 cm"
+     },
+     "src": [
+      "crt-mallard"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "750–1,500 g"
+     },
+     "src": [
+      "crt-mallard"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "5–10 years"
+     },
+     "src": [
+      "crt-mallard"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Seeds, acorns, berries, water plants and bugs"
+     },
+     "src": [
+      "crt-mallard"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Ponds, lakes, rivers and canals"
+     },
+     "src": [
+      "crt-mallard"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Moms lay about 11–14 eggs"
+     },
+     "src": [
+      "bto-mallard"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Bottoms up!"
+     },
+     "text": {
+      "en": "Mallards are 'dabbling' ducks: they tip up in shallow water to reach plants, with their tails in the air."
+     },
+     "src": [
+      "crt-mallard"
+     ]
+    },
+    {
+     "title": {
+      "en": "Who's who"
+     },
+     "text": {
+      "en": "Boys have shiny green heads. Girls are speckled brown, like the duck in the story."
+     },
+     "src": [
+      "crt-mallard"
+     ]
+    },
+    {
+     "title": {
+      "en": "Follow mom"
+     },
+     "text": {
+      "en": "Ducklings follow their mom closely while they're little."
+     },
+     "src": [
+      "az-mallard"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Who says quack?"
+     },
+     "text": {
+      "en": "The famous loud quack is mostly the mother duck calling her ducklings."
+     },
+     "src": [
+      "az-mallard"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Duck great-grandma"
+     },
+     "text": {
+      "en": "The mallard is the wild ancestor of almost all farm ducks."
+     },
+     "src": [
+      "pgc-mallard"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Lots of hunters"
+     },
+     "text": {
+      "en": "Foxes, mink, stoats and weasels all hunt mallards."
+     },
+     "src": [
+      "crt-mallard"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "The duck in the story is a mother mallard: speckled brown with an orange bill. Mallards live on ponds and brooks all over Europe."
+   },
+   "storyVsRealSrc": [
+    "crt-mallard",
+    "sheff-mallard"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "title": {
+    "en": "Pebble feelings"
+   },
+   "text": {
+    "en": "Find a few smooth pebbles. Hold one and say one feeling out loud. Put it down. Feel lighter?"
+   }
+  },
+  {
+   "title": {
+    "en": "Stepping stones"
+   },
+   "text": {
+    "en": "Make a path with cushions or paper 'stones'. Say one thing you feel on each step."
+   }
+  },
+  {
+   "title": {
+    "en": "Hare hop"
+   },
+   "text": {
+    "en": "How far can you jump? A hare can leap about 3 metres!"
+   }
+  },
+  {
+   "title": {
+    "en": "Frog song"
+   },
+   "text": {
+    "en": "Puff your cheeks like a frog's balloons and croak 're-re-re-re' as fast as you can."
+   }
+  },
+  {
+   "title": {
+    "en": "Find France"
+   },
+   "text": {
+    "en": "Find France on a map, then look for the middle of the country. That's where the Brenne is."
+   }
+  }
+ ],
+ "faq": [
+  {
+   "q": {
+    "en": "Are the animals in The Pebbles Inside real?"
+   },
+   "a": {
+    "en": "Yes. European pond turtles, hares, green frogs, hedgehogs and mallards all live in Europe. Each hero file tells you what we changed for the story."
+   }
+  },
+  {
+   "q": {
+    "en": "Is Fern a rabbit or a hare?"
+   },
+   "a": {
+    "en": "A hare. Hares have longer legs and ears, and their babies are born with fur and open eyes."
+   },
+   "src": [
+    "wlo-hare"
+   ]
+  },
+  {
+   "q": {
+    "en": "How long do pond turtles live?"
+   },
+   "a": {
+    "en": "A long time: often 40 to 60 years."
+   },
+   "src": [
+    "allturtles"
+   ]
+  },
+  {
+   "q": {
+    "en": "Where can I see a European pond turtle?"
+   },
+   "a": {
+    "en": "The Brenne in France is one of the best places. About 90% of France's pond turtles live there."
+   },
+   "src": [
+    "francetoday"
+   ]
+  }
+ ],
+ "sources": {
+  "zooexperte": {
+   "name": "Zooexperte",
+   "title": "European pond turtle: profile and food",
+   "url": "https://uk.zooexperte.com/european-marsh-turtle"
+  },
+  "adw-turtle": {
+   "name": "Animal Diversity Web, University of Michigan",
+   "title": "Emys orbicularis (European pond turtle)",
+   "url": "https://animaldiversity.org/accounts/Emys_orbicularis/"
+  },
+  "allturtles": {
+   "name": "AllTurtles",
+   "title": "European pond turtle",
+   "url": "https://www.allturtles.com/european-pond-turtle/"
+  },
+  "exmoor": {
+   "name": "Exmoor Zoo",
+   "title": "European pond turtle",
+   "url": "https://www.exmoorzoo.co.uk/?p=6330"
+  },
+  "aquazoo": {
+   "name": "Aquazoo Leeuwarden",
+   "title": "European pond turtle",
+   "url": "https://www.aquazoo.nl/en/animals/european-pond-turtle"
+  },
+  "skansen": {
+   "name": "Skansen",
+   "title": "European pond turtle",
+   "url": "https://www.skansen.se/en/european-pond-turtle/"
+  },
+  "wiki-turtle": {
+   "name": "Wikipedia (mirror)",
+   "title": "European pond turtle",
+   "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Emys_orbicularis.html"
+  },
+  "mammal-hare": {
+   "name": "The Mammal Society",
+   "title": "Brown hare fact sheet",
+   "url": "https://www.mammal.org.uk/wp-content/uploads/2022/07/Brown-Hare-Fact-Sheet-v2.pdf"
+  },
+  "wt-hare": {
+   "name": "The Wildlife Trusts",
+   "title": "Brown hare",
+   "url": "https://www.wildlifetrusts.org/node/44"
+  },
+  "iucn-hare": {
+   "name": "IUCN UK Peatland Programme",
+   "title": "Brown hare",
+   "url": "https://www.iucn-uk-peatlandprogramme.org/wildlife-explorer/mammals/brown-hare"
+  },
+  "hc-hare": {
+   "name": "Hedgehog Cycling",
+   "title": "Brown hare",
+   "url": "https://hedgehogcycling.co.uk/brown-hare.html"
+  },
+  "wlo-hare": {
+   "name": "Wildlife Online",
+   "title": "Brown hare",
+   "url": "https://www.wildlifeonline.me.uk/animals/species/brown-hare"
+  },
+  "afn-hare": {
+   "name": "Animal Fun Facts",
+   "title": "European brown hare",
+   "url": "https://www.animalfunfacts.net/rabbits/64-european-hare.html"
+  },
+  "ypte-hare": {
+   "name": "Young People's Trust for the Environment",
+   "title": "Brown hare",
+   "url": "https://ypte.org.uk/factsheets/hare-brown/print"
+  },
+  "eol-hare": {
+   "name": "Encyclopedia of Life",
+   "title": "European hare",
+   "url": "https://eol.org/pages/118009/articles"
+  },
+  "donau-frog": {
+   "name": "Donau-Auen National Park",
+   "title": "Edible frog",
+   "url": "https://www.donauauen.at/en/facts/nature-science/fauna-engl/edible-frog"
+  },
+  "me-frog": {
+   "name": "Mark Eising Birding",
+   "title": "Edible frog",
+   "url": "https://markeisingbirding.com/node/4835"
+  },
+  "uksafari-frog": {
+   "name": "UK Safari",
+   "title": "Edible frogs",
+   "url": "https://uksafari.com/ediblefrogs.htm"
+  },
+  "az-frog": {
+   "name": "A-Z Animals",
+   "title": "Edible frog",
+   "url": "https://a-z-animals.com/animals/edible-frog/"
+  },
+  "snappit-frog": {
+   "name": "Snappit",
+   "title": "Edible frog",
+   "url": "https://www.snappit.app/explore/edible-frog"
+  },
+  "wlo-hog": {
+   "name": "Wildlife Online",
+   "title": "European hedgehog",
+   "url": "https://www.wildlifeonline.me.uk/animals/species/european-hedgehog"
+  },
+  "mammal-hog": {
+   "name": "The Mammal Society",
+   "title": "European hedgehog",
+   "url": "https://mammal.org.uk/british-mammals/european-hedgehog"
+  },
+  "adw-hog": {
+   "name": "Animal Diversity Web, University of Michigan",
+   "title": "Erinaceus europaeus (European hedgehog)",
+   "url": "https://www.animaldiversity.org/accounts/Erinaceus_europaeus/"
+  },
+  "wiki-hog": {
+   "name": "Wikipedia",
+   "title": "Hedgehog",
+   "url": "https://EN.wikipedia.com/wiki/Hedgehog"
+  },
+  "proigel": {
+   "name": "Pro Igel",
+   "title": "Hedgehog biology",
+   "url": "https://www.pro-igel.de/biology/?lang=en"
+  },
+  "nwe-hog": {
+   "name": "New World Encyclopedia",
+   "title": "Hedgehog (Erinaceidae)",
+   "url": "https://www.newworldencyclopedia.org/entry/Erinaceidae"
+  },
+  "crt-mallard": {
+   "name": "Canal & River Trust",
+   "title": "Mallard",
+   "url": "https://canalrivertrust.org.uk/things-to-do/canal-and-river-wildlife/a-spotters-guide-to-waterway-wildlife/duck/mallard"
+  },
+  "bto-mallard": {
+   "name": "British Trust for Ornithology",
+   "title": "Mallard",
+   "url": "https://www.bto.org/understanding-birds/birdfacts/mallard"
+  },
+  "az-mallard": {
+   "name": "A-Z Animals",
+   "title": "Mallard",
+   "url": "https://a-z-animals.com/animals/mallard"
+  },
+  "pgc-mallard": {
+   "name": "Pennsylvania Game Commission",
+   "title": "Mallard",
+   "url": "https://www.pgc.pa.gov:443/Education/WildlifeNotesIndex/Documents/Mallard%20hr.pdf"
+  },
+  "francetoday": {
+   "name": "France Today",
+   "title": "10 reasons to visit the Brenne Regional Park",
+   "url": "https://francetoday.com/travel/10-reasons-to-visit-the-brenne-regional-park/"
+  },
+  "fvoyage": {
+   "name": "France-Voyage",
+   "title": "La Brenne",
+   "url": "https://france-voyage.com/tourism/brenne-1566.htm"
+  },
+  "gites": {
+   "name": "Gîtes de France",
+   "title": "Parc Naturel Régional de la Brenne",
+   "url": "https://www.gites-de-france.com/en/french-regions/centre-val-de-loire/holiday-rentals-indre-berry/parc-naturel-regional-de-la-brenne"
+  },
+  "navaway": {
+   "name": "Navaway",
+   "title": "Visit the Brenne Park",
+   "url": "https://navaway.com/visit-brenne-park"
+  },
+  "frenchmoments": {
+   "name": "French Moments",
+   "title": "The Brenne Natural Park",
+   "url": "https://frenchmoments.eu/?p=8649"
+  },
+  "ryo": {
+   "name": "Ryo",
+   "title": "Visit Brenne Natural Regional Park",
+   "url": "https://ryo.co/en/articles/france/chateauroux/visit-brenne-natural-regional-park/"
+  },
+  "claise": {
+   "name": "Days on the Claise",
+   "title": "European pond terrapin (la Cistude d'Europe)",
+   "url": "https://daysontheclaise.blogspot.com/2008/10/european-pond-terrapin-le-cistude.html"
+  },
+  "ramsar": {
+   "name": "Ramsar Sites Information Service",
+   "title": "La Brenne",
+   "url": "https://rsisd10.unepgrid.ch/ris/518"
+  },
+  "sheff-mallard": {
+   "name": "Sheffield and Rotherham Wildlife Trust",
+   "title": "Mallard",
+   "url": "https://www.wildsheffield.com/species/mallard"
+  }
+ }
+}

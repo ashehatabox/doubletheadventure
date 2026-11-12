@@ -9,5 +9,14 @@
 module.exports = {
   'becoming-a-tree': {
     en: {youtube: 'xadUnTLixnY'}
+  },
+  'the-beetle-who-knew-the-stars': {
+    en: {youtube: 'KGDQuZFm_5Y'}
+  },
+  'the-circle-of-paws': {
+    en: {youtube: 'D4MO6CECcSk'}
+  },
+  'the-desert-buzz': {
+    en: {youtube: 's5z-1rc1oCo'}
   }
 };

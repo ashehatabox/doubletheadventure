@@ -1,0 +1,904 @@
+{
+  "book": "knot-by-knot",
+  "draft": true,
+  "updated": "2026-11-12",
+  "review": {
+    "factsChecked": "2026-11-12",
+    "culturalReader": true
+  },
+  "title": {
+    "en": "Heroes of the Misty Mountains"
+  },
+  "seoTitle": {
+    "en": "Heroes of the Misty Mountains: the real animals behind Knot by Knot"
+  },
+  "description": {
+    "en": "A bird that weaves its house with its beak, a chameleon that turns green when the rains come, and a desert that turns into a cloud forest. Real facts for kids."
+  },
+  "intro": {
+    "en": "Every animal in Knot by Knot is real, and so is its misty green home in southern Oman. Here is how they build, eat and grow, and the true secrets behind the story."
+  },
+  "place": {
+    "name": {
+      "en": "Dhofar, southern Oman, in the khareef"
+    },
+    "image": "place.jpg",
+    "intro": {
+      "en": "Zayn's hill is in Dhofar, in the south of Oman. Every summer from late June to late September, the khareef brings drizzle and fog, and the dry hills turn bright green."
+    },
+    "introSrc": [
+      "tradearabia"
+    ],
+    "facts": [
+      {
+        "kind": "wow",
+        "title": {
+          "en": "A desert that turns green"
+        },
+        "text": {
+          "en": "For most of the year Dhofar's hills are dry and brown. During the khareef, sea winds wrap the mountains in fog and light rain, springs and waterfalls start flowing, and everything turns green."
+        },
+        "src": [
+          "tradearabia",
+          "omanobs-khareef"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "A waterfall that builds its own cliff"
+        },
+        "text": {
+          "en": "At Wadi Darbat, water rich in dissolved limestone loses gas as it falls, and the limestone turns back into rock. Over time the falling water has built a huge stone curtain called travertine."
+        },
+        "src": [
+          "showcaves"
+        ]
+      },
+      {
+        "kind": "wow",
+        "title": {
+          "en": "The trees that smell like a palace"
+        },
+        "text": {
+          "en": "Dhofar is one of the few places on Earth where frankincense trees grow naturally, thanks to the monsoon. At Wadi Dawkah their sweet-smelling resin is still collected today."
+        },
+        "src": [
+          "nm-oman",
+          "unesco-frank"
+        ]
+      },
+      {
+        "kind": "ha",
+        "title": {
+          "en": "Autumn in summer"
+        },
+        "text": {
+          "en": "Khareef means \"autumn\" in Arabic, but in Dhofar it's the name of the summer rainy season. Rain, fog and cool air in July, while the rest of Arabia is baking!"
+        },
+        "src": [
+          "gulfnews-khareef"
+        ]
+      }
+    ],
+    "map": {
+      "lat": 17.1,
+      "lon": 54.45,
+      "zoom": 12,
+      "region": [
+        32,
+        8,
+        62,
+        31
+      ],
+      "highlight": [
+        512
+      ],
+      "label": {
+        "en": "Wadi Darbat, Oman"
+      },
+      "text": {
+        "en": "A green valley in the Dhofar mountains with waterfalls and a giant travertine cliff. Its water flows down to Khor Rori on the coast. Birdwatchers come here for its birds."
+      },
+      "src": [
+        "birdlife-darbat",
+        "showcaves"
+      ],
+      "areaNote": {
+        "en": "Yellow: Oman."
+      },
+      "pin": [
+        74.83,
+        62.09
+      ],
+      "aspect": 1.2195
+    }
+  },
+  "cast": [
+    {
+      "id": "zayn",
+      "role": "hero",
+      "colour": "sun",
+      "name": {
+        "en": "Zayn"
+      },
+      "animal": {
+        "en": "Rüppell's weaver"
+      },
+      "image": "zayn.jpg",
+      "job": {
+        "en": "The fastest beak in the colony, learning to build well"
+      },
+      "superpower": {
+        "en": "Weaves a hanging house with only his beak"
+      },
+      "lineup": {
+        "weight": {
+          "en": "16–29 g"
+        },
+        "grams": 22,
+        "like": {
+          "en": "five sugar cubes"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "About 14 cm"
+          },
+          "src": [
+            "oiseaux"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "16–29 g, about five sugar cubes"
+          },
+          "src": [
+            "oiseaux"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Not known"
+          },
+          "plain": true
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Mostly seeds, including grain"
+          },
+          "src": [
+            "adu",
+            "birdsnet"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Woven nests hanging in trees, often over water"
+          },
+          "src": [
+            "adu-news"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Colonies of 4 to 50 nests"
+          },
+          "src": [
+            "adu-news"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the wild"
+          },
+          "value": {
+            "en": "Least Concern"
+          },
+          "src": [
+            "adu"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "The only weaver in Arabia"
+          },
+          "text": {
+            "en": "Rüppell's weaver is the only weaver bird that lives naturally in the Middle East. It's common in the forests and valleys of Dhofar."
+          },
+          "src": [
+            "adu",
+            "omanobs-weaver"
+          ]
+        },
+        {
+          "title": {
+            "en": "Dad is the builder"
+          },
+          "text": {
+            "en": "In weaver families, the male weaves the nests, from grass or long strips of palm leaf. He starts with a simple ball and may add an entrance tunnel later."
+          },
+          "src": [
+            "adu"
+          ]
+        },
+        {
+          "title": {
+            "en": "A yellow suit for spring"
+          },
+          "text": {
+            "en": "Adult males are bright yellow with red eyes and a chestnut mask that can look black from far away. Females and young males are much duller."
+          },
+          "src": [
+            "omanobs-weaver"
+          ]
+        },
+        {
+          "title": {
+            "en": "Neighbours over the water"
+          },
+          "text": {
+            "en": "Weavers nest together in colonies, often in thorny trees and often right over water. In Oman they breed from about March to September."
+          },
+          "src": [
+            "adu-news",
+            "adu"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Practice makes better"
+          },
+          "text": {
+            "en": "Scientists filmed weaver birds building nest after nest. The more nests a bird built, the fewer blades of grass it dropped. Building is a skill they learn, just like Zayn!"
+          },
+          "src": [
+            "standrews"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Lefties and righties"
+          },
+          "text": {
+            "en": "In the same study, some weavers built their nests from left to right, and others from right to left. Every builder has a style."
+          },
+          "src": [
+            "sciencedaily"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Dozens of houses a year"
+          },
+          "text": {
+            "en": "Weaver birds often build dozens of nests in one season. That's a lot of loop, pull, tug."
+          },
+          "src": [
+            "phys"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Named by mistake"
+          },
+          "text": {
+            "en": "The explorer Eduard Rüppell thought this bird was an oriole, so its scientific name, galbula, comes from a Latin word for a little yellow bird."
+          },
+          "src": [
+            "adu"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real weavers really do get better with practice. But a real male weaver builds his nest to win a mate, not for his little sister. And the green grass ring on Zayn's leg is our artist's idea."
+      },
+      "storyVsRealSrc": [
+        "adu",
+        "standrews"
+      ]
+    },
+    {
+      "id": "hana",
+      "role": "friend",
+      "colour": "mint",
+      "name": {
+        "en": "Hana"
+      },
+      "animal": {
+        "en": "Arabian chameleon"
+      },
+      "image": "hana.jpg",
+      "job": {
+        "en": "The careful friend: grip, test, step"
+      },
+      "superpower": {
+        "en": "Eyes that look two ways at once"
+      },
+      "lineup": {
+        "weight": {
+          "en": "about 17–56 g (cousin)"
+        },
+        "grams": 35,
+        "like": {
+          "en": "a slice of bread"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Found"
+          },
+          "value": {
+            "en": "Only in southern Yemen and Dhofar"
+          },
+          "src": [
+            "lacerta-yemen"
+          ]
+        },
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "Not well recorded; her close cousin is 20–40 cm"
+          },
+          "src": [
+            "wiki-commoncham"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "Her cousin weighs 17–56 g, about a slice of bread"
+          },
+          "src": [
+            "adw-medcham"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Not known for her species; a close cousin lives about 5–7 years"
+          },
+          "src": [
+            "morocco-herps"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Insects, caught with her tongue"
+          },
+          "src": [
+            "mentalfloss-cham"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Trees and bushes in the Dhofar mountains"
+          },
+          "src": [
+            "omanobs-cham"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the wild"
+          },
+          "value": {
+            "en": "Not endangered, but threatened locally"
+          },
+          "src": [
+            "omanobs-cham"
+          ],
+          "flag": true
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Green for the rains"
+          },
+          "text": {
+            "en": "The Arabian chameleon turns green in the monsoon season, the same season as the story. Hana's leafy green is exactly right for the khareef."
+          },
+          "src": [
+            "wiki-arabcham",
+            "omanobs-cham"
+          ]
+        },
+        {
+          "title": {
+            "en": "Slow on purpose"
+          },
+          "text": {
+            "en": "She moves slowly and carefully, and even rocks back and forth like a leaf in the wind, so hunters don't notice her."
+          },
+          "src": [
+            "omanobs-cham"
+          ]
+        },
+        {
+          "title": {
+            "en": "Salad-tong feet"
+          },
+          "text": {
+            "en": "A chameleon's feet grip a branch like a pair of salad tongs. Many chameleons can also hang on with their tail, like an extra hand."
+          },
+          "src": [
+            "mentalfloss-cham"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Two eyes, two directions"
+          },
+          "text": {
+            "en": "A chameleon's eyes swivel separately: one can look up and left while the other looks down and right. When she spots a bug, both eyes lock on it."
+          },
+          "src": [
+            "mentalfloss-cham"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "The tongue that shoots"
+          },
+          "text": {
+            "en": "A chameleon's sticky tongue can be up to two and a half times as long as its body, and shoots out and back in less than a second."
+          },
+          "src": [
+            "mentalfloss-cham"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Colours are for talking"
+          },
+          "text": {
+            "en": "Chameleons mostly change colour to send messages and to warm up or cool down, not to hide. Tiny crystals in their skin move closer together or farther apart to change the colour."
+          },
+          "src": [
+            "mentalfloss-cham"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Threats in her valley"
+          },
+          "text": {
+            "en": "Oman's Environment Authority says the Arabian chameleon faces local dangers from habitat loss, pollution and people taking them from the wild."
+          },
+          "src": [
+            "omanobs-cham"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real Arabian chameleons really are slow and careful, and really are green in the khareef. The pale blue stripe along Hana's side is our artist's touch, so you can always find her."
+      },
+      "storyVsRealSrc": [
+        "omanobs-cham"
+      ]
+    },
+    {
+      "id": "rima",
+      "role": "supporting",
+      "colour": "peach",
+      "name": {
+        "en": "Rima"
+      },
+      "animal": {
+        "en": "Weaver chick"
+      },
+      "image": "rima.jpg",
+      "job": {
+        "en": "Zayn's little sister, who needs a snug nest"
+      },
+      "superpower": {
+        "en": "Ready to fly at 18 days old"
+      },
+      "lineup": {
+        "weight": {
+          "en": "about 2 g at hatching"
+        },
+        "grams": 2.1,
+        "like": {
+          "en": "two paperclips"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Eggs"
+          },
+          "value": {
+            "en": "2–3, white or deep blue with brick-red spots"
+          },
+          "src": [
+            "adu-phown"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the egg"
+          },
+          "value": {
+            "en": "14–15 days, kept warm by Mom"
+          },
+          "src": [
+            "adu-phown"
+          ]
+        },
+        {
+          "label": {
+            "en": "Hatching weight"
+          },
+          "value": {
+            "en": "About 2 g"
+          },
+          "src": [
+            "worldspecies-weaver"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Food brought by Dad, then by both parents"
+          },
+          "src": [
+            "birdsnet"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "A woven nest hanging 2–6 m up"
+          },
+          "src": [
+            "adu-phown"
+          ]
+        },
+        {
+          "label": {
+            "en": "Leaves home"
+          },
+          "value": {
+            "en": "At about 18 days old"
+          },
+          "src": [
+            "birdsnet"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Dad does the feeding"
+          },
+          "text": {
+            "en": "In most weavers, Mom does the early feeding. Rüppell's weaver is different: for the first days Dad feeds the chicks while Mom keeps them warm. From day four, both parents bring food."
+          },
+          "src": [
+            "birdsnet",
+            "omanobs-weaver"
+          ]
+        },
+        {
+          "title": {
+            "en": "Bugs for babies"
+          },
+          "text": {
+            "en": "Grown-up weavers eat mostly seeds, but the chicks are probably fed insects and other small creepy-crawlies too, for extra growing power."
+          },
+          "src": [
+            "birdsnet"
+          ]
+        },
+        {
+          "title": {
+            "en": "A swinging bedroom"
+          },
+          "text": {
+            "en": "The nest hangs from a branch 2 to 6 metres up, often over water."
+          },
+          "src": [
+            "adu-phown",
+            "adu-news"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "From egg to flying in a month"
+          },
+          "text": {
+            "en": "About two weeks in the egg, then about 18 days in the nest, and the chick is ready to leave home. Less than five weeks in all!"
+          },
+          "src": [
+            "adu-phown",
+            "birdsnet"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Blue eggs with freckles"
+          },
+          "text": {
+            "en": "Rüppell's weaver eggs can be white or deep blue, usually covered in brick-red speckles."
+          },
+          "src": [
+            "adu-phown"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "In real life, a chick is cared for by its parents, not by a big brother, and it would be flying by itself at about 18 days old. The brown feather cap on Rima's head is just for the story."
+      },
+      "storyVsRealSrc": [
+        "birdsnet"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "title": {
+        "en": "Loop, pull, tug"
+      },
+      "text": {
+        "en": "Weave strips of paper or wool through a fork or a paper plate. Is your second try neater than your first?"
+      }
+    },
+    {
+      "title": {
+        "en": "Grip, test, step"
+      },
+      "text": {
+        "en": "Walk along a line on the floor like Hana: grip, test, step. Slow and careful, all the way to the end."
+      }
+    },
+    {
+      "title": {
+        "en": "Chameleon eyes"
+      },
+      "text": {
+        "en": "Cover one eye and look around, then the other. A chameleon can use each eye separately all the time!"
+      }
+    },
+    {
+      "title": {
+        "en": "Done, or done well?"
+      },
+      "text": {
+        "en": "Build a block tower fast, then slowly and carefully. Which one survives a gentle 'wind' from your breath?"
+      }
+    },
+    {
+      "title": {
+        "en": "Find Oman"
+      },
+      "text": {
+        "en": "Find Oman on a map, then the Arabian Sea that brings the khareef fog."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are the animals in Knot by Knot real?"
+      },
+      "a": {
+        "en": "Yes. Rüppell's weavers and Arabian chameleons both live in Dhofar, in southern Oman. We changed a few small things for the story, and each hero tells you what."
+      }
+    },
+    {
+      "q": {
+        "en": "Do weaver birds really weave?"
+      },
+      "a": {
+        "en": "Yes. The male weaves a hanging nest from grass or long strips of palm leaf, using his beak. Studies show weavers get better with practice."
+      },
+      "src": [
+        "adu",
+        "standrews"
+      ]
+    },
+    {
+      "q": {
+        "en": "When is the khareef?"
+      },
+      "a": {
+        "en": "Roughly from 21 June to 21 September each year, when light rain, drizzle and fog cover Dhofar's mountains."
+      },
+      "src": [
+        "tradearabia"
+      ]
+    },
+    {
+      "q": {
+        "en": "Do chameleons change colour to hide?"
+      },
+      "a": {
+        "en": "Mostly no. They change colour mainly to send messages to other chameleons and to warm up or cool down."
+      },
+      "src": [
+        "mentalfloss-cham"
+      ]
+    }
+  ],
+  "sources": {
+    "adu": {
+      "name": "Animal Demography Unit, University of Cape Town",
+      "title": "Weaver species: Rüppell's Weaver",
+      "url": "https://weavers.adu.org.za/sp.php?spp=3910"
+    },
+    "adu-news": {
+      "name": "Animal Demography Unit, University of Cape Town",
+      "title": "Weaver news: Rüppell's Weaver",
+      "url": "https://weavers.adu.org.za/newstable.php?id=278"
+    },
+    "adu-phown": {
+      "name": "Animal Demography Unit, University of Cape Town",
+      "title": "PHOWN: Rüppell's Weaver breeding data (from Handbook of the Birds of the World)",
+      "url": "https://weavers.adu.org.za/phown_sp.php?Spp=3910"
+    },
+    "oiseaux": {
+      "name": "Oiseaux.net",
+      "title": "Rüppell's Weaver",
+      "url": "https://www.oiseaux.net/birds/ruppell.s.weaver.html"
+    },
+    "birdsnet": {
+      "name": "The-Birds.net",
+      "title": "Rüppell's Weaver",
+      "url": "https://the-birds.net/birds/ruppell.s.weaver.html"
+    },
+    "omanobs-weaver": {
+      "name": "Oman Observer",
+      "title": "Ruppell's Weaver adds touch of beauty to 'Al Sarb' season",
+      "url": "https://www.omanobserver.om/ampArticle/1160281"
+    },
+    "worldspecies-weaver": {
+      "name": "WorldSpecies",
+      "title": "Ploceus galbula (Rüppell's Weaver)",
+      "url": "https://worldspecies.org/ntaxa/909809"
+    },
+    "standrews": {
+      "name": "University of St Andrews",
+      "title": "Feathered friends are far from bird-brained",
+      "url": "https://news.st-andrews.ac.uk/archive/feathered-friends-are-far-from-bird-brained/"
+    },
+    "sciencedaily": {
+      "name": "ScienceDaily (University of Edinburgh)",
+      "title": "Feathered friends are far from bird-brained when building nests",
+      "url": "https://sciencedaily.com/releases/2011/09/110925192704.htm"
+    },
+    "phys": {
+      "name": "Phys.org (University of Edinburgh)",
+      "title": "Feathered friends are far from bird-brained when building nests",
+      "url": "https://phys.org/news/2011-09-feathered-friends-bird-brained.html"
+    },
+    "wiki-arabcham": {
+      "name": "Wikipedia",
+      "title": "Arabian chameleon",
+      "url": "https://en.wikipedia.org/wiki/Arabian_chameleon"
+    },
+    "omanobs-cham": {
+      "name": "Oman Observer (Environment Authority)",
+      "title": "Arabian Chameleon in Dhofar faces a threat from poaching, pollution",
+      "url": "https://www.omanobserver.om/ampArticle/1174864"
+    },
+    "lacerta-yemen": {
+      "name": "Herpetological survey of Yemen (lacerta.de library)",
+      "title": "The terrestrial reptile fauna of Yemen",
+      "url": "https://lacerta.de/AF/Bibliografie/BIB_17134.pdf"
+    },
+    "wiki-commoncham": {
+      "name": "Wikipedia",
+      "title": "Common chameleon",
+      "url": "https://en.wikipedia.org/wiki/Common_chameleon"
+    },
+    "adw-medcham": {
+      "name": "Animal Diversity Web",
+      "title": "Chamaeleo chamaeleon",
+      "url": "https://animaldiversity.org/accounts/Chamaeleo_chamaeleon/"
+    },
+    "morocco-herps": {
+      "name": "MoroccoHerps",
+      "title": "Chamaeleo chamaeleon species page",
+      "url": "https://www.moroccoherps.com/en/?p=3109"
+    },
+    "mentalfloss-cham": {
+      "name": "Mental Floss",
+      "title": "10 Colorful Facts About Chameleons",
+      "url": "https://www.mentalfloss.com/animals/reptiles/10-colorful-facts-about-chameleons"
+    },
+    "tradearabia": {
+      "name": "TradeArabia",
+      "title": "Dhofar Khareef promises enriching experience for global visitors",
+      "url": "https://tradearabia.com/news/TTN_425282.html"
+    },
+    "omanobs-khareef": {
+      "name": "Oman Observer",
+      "title": "Dhofar: Trekker's paradise",
+      "url": "https://www.omanobserver.om/ampArticle/1194769"
+    },
+    "gulfnews-khareef": {
+      "name": "Gulf News",
+      "title": "Salalah Khareef season 2026",
+      "url": "https://gulfnews.com/living-in-uae/ask-us/salalah-khareef-season-2026-the-best-time-to-visit-weather-forecasts-and-itinerary-planning-1.500565124"
+    },
+    "showcaves": {
+      "name": "Showcaves.com",
+      "title": "Wadi Darbat travertine falls",
+      "url": "https://showcaves.com/english/om/karst/Darbat.html"
+    },
+    "nm-oman": {
+      "name": "National Museum of Oman",
+      "title": "The Land",
+      "url": "https://www.nm.gov.om/en/the-land"
+    },
+    "unesco-frank": {
+      "name": "UNESCO World Heritage Centre",
+      "title": "Land of Frankincense",
+      "url": "https://whc.unesco.org/en/list/1010/bestpractice"
+    },
+    "birdlife-darbat": {
+      "name": "BirdLife International",
+      "title": "Important Bird Area factsheet: Wadi Darbat",
+      "url": "https://datazone.birdlife.org/site/factsheet/wadi-darbat-iba-oman"
+    }
+  }
+}

@@ -1,0 +1,1488 @@
+{
+ "book": "the-beetle-who-knew-the-stars",
+ "draft": true,
+ "updated": "2026-11-12",
+ "review": {
+  "factsChecked": "2026-11-12",
+  "culturalReader": true
+ },
+ "title": {
+  "en": "Heroes of the Nile and the Stars"
+ },
+ "seoTitle": {
+  "en": "Heroes of the Nile and the Stars: the real animals behind The Beetle Who Knew the Stars"
+ },
+ "description": {
+  "en": "A bird with a fan on its head, a beetle that steers by the Milky Way, and a jerboa that never drinks. Real, checked facts for kids."
+ },
+ "intro": {
+  "en": "Every animal in The Beetle Who Knew the Stars is real, and they all live in Egypt today. Here is how they eat, grow and find their way, and the true secrets behind the story."
+ },
+ "place": {
+  "name": {
+   "en": "The Nile at Aswan, Egypt"
+  },
+  "image": "place.jpg",
+  "intro": {
+   "en": "The story doesn't name a town, so we picked a real place where everything in it happens side by side: Aswan in southern Egypt, where green palm islands sit in the Nile and golden dunes come right down to the river."
+  },
+  "introSrc": [
+   "planetware"
+  ],
+  "facts": [
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Dunes beside the river"
+    },
+    "text": {
+     "en": "On Aswan's west bank, huge golden sand dunes come down to the edge of the Nile, while the islands in the river are green with palm trees."
+    },
+    "src": [
+     "planetware"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "The black land and the red land"
+    },
+    "text": {
+     "en": "Ancient Egyptians called their country Kemet, the \"black land\", after the dark, rich soil left by the Nile. The desert was Deshret, the \"red land\". Kemi's name comes from Kemet!"
+    },
+    "src": [
+     "historyskills",
+     "worldatlas-name"
+    ]
+   },
+   {
+    "kind": "ha",
+    "title": {
+     "en": "The Dome of the Wind"
+    },
+    "text": {
+     "en": "The hill above the west bank is called Qubbet el-Hawa, \"Dome of the Wind\", after a little domed tomb on its top."
+    },
+    "src": [
+     "ahs-qubbet"
+    ]
+   },
+   {
+    "kind": "wow",
+    "title": {
+     "en": "4,500 years of neighbours"
+    },
+    "text": {
+     "en": "Governors of ancient Egypt were buried in tombs cut into that hill from about 2500 BC."
+    },
+    "src": [
+     "madain"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "A bird paradise"
+    },
+    "text": {
+     "en": "The Nile at Aswan is a green strip in the desert, so birds love it. Pied kingfishers live here all year, and many birds from Europe spend the winter."
+    },
+    "src": [
+     "10kbirds-aswan",
+     "10kbirds-profile"
+    ]
+   }
+  ],
+  "map": {
+   "lat": 24.1025,
+   "lon": 32.8889,
+   "zoom": 13,
+   "region": [
+    18,
+    14,
+    46,
+    36
+   ],
+   "highlight": [
+    818
+   ],
+   "label": {
+    "en": "Qubbet el-Hawa, Aswan, Egypt"
+   },
+   "text": {
+    "en": "A sandstone hill on the Nile's west bank, across the river from the city of Aswan. From the top you can see the river, the palm islands and the dunes."
+   },
+   "src": [
+    "egymonuments",
+    "madain"
+   ],
+   "areaNote": {
+    "en": "Yellow: Egypt."
+   },
+   "pin": [
+    53.17,
+    56.27
+   ],
+   "aspect": 1.1429
+  }
+ },
+ "cast": [
+  {
+   "id": "kemi",
+   "role": "hero",
+   "colour": "peach",
+   "name": {
+    "en": "Kemi"
+   },
+   "animal": {
+    "en": "Eurasian hoopoe"
+   },
+   "image": "kemi.jpg",
+   "job": {
+    "en": "Knows lots of things and learns to ask first"
+   },
+   "superpower": {
+    "en": "A crest that opens like a fan"
+   },
+   "lineup": {
+    "weight": {
+     "en": "46–89 g"
+    },
+    "grams": 67,
+    "like": {
+     "en": "a tennis ball"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "25–32 cm, beak included"
+     },
+     "src": [
+      "birdfact",
+      "azanimals"
+     ]
+    },
+    {
+     "label": {
+      "en": "Wings"
+     },
+     "value": {
+      "en": "44–48 cm from tip to tip"
+     },
+     "src": [
+      "birdfact"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "46–89 g, about a tennis ball"
+     },
+     "src": [
+      "birdfact",
+      "azanimals"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "About 10 years in the wild"
+     },
+     "src": [
+      "azanimals"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Insects such as crickets and grasshoppers, sometimes small lizards"
+     },
+     "src": [
+      "rspb-hoopoe"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Holes in trees, walls, cliffs and old buildings"
+     },
+     "src": [
+      "oiseaux-hoopoe"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Mom sits on the eggs for 16–18 days; both parents feed the chicks"
+     },
+     "src": [
+      "oiseaux-hoopoe",
+      "birdfact"
+     ]
+    },
+    {
+     "label": {
+      "en": "In the wild"
+     },
+     "value": {
+      "en": "Least Concern, 5 to 10 million birds"
+     },
+     "src": [
+      "theanimalfacts"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "A fan made of 28 feathers"
+     },
+     "text": {
+      "en": "Most of the time a hoopoe's crest lies flat. When the bird is excited or alarmed, all 28 feathers spring open into a fan with black tips."
+     },
+     "src": [
+      "oiseaux-hoopoe",
+      "birdfact"
+     ]
+    },
+    {
+     "title": {
+      "en": "A beak made for digging"
+     },
+     "text": {
+      "en": "Hoopoes walk on open ground and poke their long, curved beak into the soil to pull out insects and grubs."
+     },
+     "src": [
+      "birdfact"
+     ]
+    },
+    {
+     "title": {
+      "en": "Named after its song"
+     },
+     "text": {
+      "en": "Its call is a soft \"oop-oop-oop\". The English name hoopoe and the Latin name Upupa both copy that sound."
+     },
+     "src": [
+      "azanimals"
+     ]
+    },
+    {
+     "title": {
+      "en": "An Egyptian all year round"
+     },
+     "text": {
+      "en": "Hoopoes can be found in Egypt all year long, in fields, farmland and gardens. Egypt even has its own hoopoe subspecies."
+     },
+     "src": [
+      "cguaa",
+      "birdsnet-hoopoe"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Stinky self-defence"
+     },
+     "text": {
+      "en": "From about six days old, hoopoe chicks have a trick: they turn around and squirt their poop at anything that pokes into the nest, while hissing like a snake!"
+     },
+     "src": [
+      "oiseaux-hoopoe",
+      "audubon-hoopoe"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Mom's secret paint"
+     },
+     "text": {
+      "en": "When she is nesting, a mother hoopoe's oil gland makes a brown, smelly liquid full of helpful bacteria. She smears it on her eggs, and scientists think it helps protect them from germs."
+     },
+     "src": [
+      "natgeo-hoopoe",
+      "soler2008"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "A bird in the pharaohs' tombs"
+     },
+     "text": {
+      "en": "Ancient Egyptian artists painted hoopoes on tomb walls, often held by children like pets. There is even a hoopoe hieroglyph!"
+     },
+     "src": [
+      "thepast-birds",
+      "cguaa"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Count the spots"
+     },
+     "text": {
+      "en": "Scientists found that male hoopoes with more black spots on their crest tend to raise more chicks. The crest is a little report card!"
+     },
+     "src": [
+      "dw-hoopoe-uk"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "A real hoopoe's crest really does pop up when it is excited. But a real hoopoe eats insects, so in real life Sabu might want to keep his distance! And real hoopoes don't say \"I know!\" (as far as we know)."
+   },
+   "storyVsRealSrc": [
+    "birdfact",
+    "rspb-hoopoe"
+   ]
+  },
+  {
+   "id": "sabu",
+   "role": "friend",
+   "colour": "lilac",
+   "name": {
+    "en": "Sabu"
+   },
+   "animal": {
+    "en": "Sacred scarab (dung beetle)"
+   },
+   "image": "sabu.jpg",
+   "job": {
+    "en": "The quiet friend who looks up at the sky"
+   },
+   "superpower": {
+    "en": "Steers by the Milky Way"
+   },
+   "lineup": {
+    "weight": {
+     "en": "about 0.3–4 g"
+    },
+    "grams": 2,
+    "like": {
+     "en": "two paperclips"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "1.9–4 cm"
+     },
+     "src": [
+      "wiki-scarab",
+      "insectbooks"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Ball-rolling beetles weigh about 0.3–4 g"
+     },
+     "src": [
+      "holter2005"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "About 1–3 years"
+     },
+     "src": [
+      "dimensions"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Animal dung, rolled into a ball, buried and eaten over several days"
+     },
+     "src": [
+      "wiki-scarab"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "An underground room where it hides its ball"
+     },
+     "src": [
+      "wiki-scarab"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Mom lays one egg in a ball of dung; she has only about six young in her life"
+     },
+     "src": [
+      "wiki-scarab"
+     ]
+    },
+    {
+     "label": {
+      "en": "Found"
+     },
+     "value": {
+      "en": "Southern Europe, North Africa and West Asia"
+     },
+     "src": [
+      "wiki-scarab"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "A ball, a getaway"
+     },
+     "text": {
+      "en": "When a dung beetle finds fresh droppings, it shapes a ball and rolls it away in a straight line. Going straight is the fastest way to escape other beetles that might steal it."
+     },
+     "src": [
+      "popsci",
+      "audubon-beetle"
+     ]
+    },
+    {
+     "title": {
+      "en": "Pushing backwards"
+     },
+     "text": {
+      "en": "The beetle rolls its ball walking backwards, head down, pushing with its back legs."
+     },
+     "src": [
+      "popsci"
+     ]
+    },
+    {
+     "title": {
+      "en": "A baby's lunchbox"
+     },
+     "text": {
+      "en": "A mother scarab buries a special ball of dung and lays one egg inside. When the larva hatches, its whole lunch is already around it."
+     },
+     "src": [
+      "wiki-scarab",
+      "insectbooks"
+     ]
+    },
+    {
+     "title": {
+      "en": "Super strong"
+     },
+     "text": {
+      "en": "A dung beetle can push a ball up to 50 times heavier than its own body."
+     },
+     "src": [
+      "sd-cool"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "The beetle that reads the galaxy"
+     },
+     "text": {
+      "en": "In 2013 scientists showed that dung beetles can keep a straight path using the glowing band of the Milky Way. It was the first animal ever shown to use the Milky Way to find its way!"
+     },
+     "src": [
+      "dacke2013",
+      "scinews"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "The dance on top"
+     },
+     "text": {
+      "en": "Before setting off, a dung beetle climbs on its ball and turns around in a little dance. It is checking the sky to pick its direction."
+     },
+     "src": [
+      "csmonitor"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Tiny beetle boots"
+     },
+     "text": {
+      "en": "On hot sand, beetles climb on their cool, damp ball to rest their feet. To prove it, scientists gave beetles tiny silicone boots, and the booted beetles climbed far less often!"
+     },
+     "src": [
+      "sd-cool",
+      "phys-cool"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "The beetle and the sun"
+     },
+     "text": {
+      "en": "Ancient Egyptians saw the scarab rolling its ball and imagined the god Khepri rolling the sun across the sky each morning. Scarab charms were among the most important in Egypt."
+     },
+     "src": [
+      "mcclung"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "A big mix-up"
+     },
+     "text": {
+      "en": "Egyptians saw young beetles climb out of dung balls and thought males made babies all by themselves. They were wrong: mom lays the egg."
+     },
+     "src": [
+      "wiki-scarab"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real dung beetles really steer by the Milky Way, but the beetle tested was a South African cousin that rolls at night. The sacred scarab of Egypt mostly works in the daytime, using the sun. And Sabu's golden star is our artist's idea."
+   },
+   "storyVsRealSrc": [
+    "dacke2013",
+    "insectbooks"
+   ]
+  },
+  {
+   "id": "kingfisher",
+   "role": "supporting",
+   "colour": "sky",
+   "name": {
+    "en": "The kingfisher"
+   },
+   "animal": {
+    "en": "Pied kingfisher"
+   },
+   "image": "kingfisher.jpg",
+   "job": {
+    "en": "The chatty fisher on the papyrus stem"
+   },
+   "superpower": {
+    "en": "Hovers in the air like a helicopter"
+   },
+   "lineup": {
+    "weight": {
+     "en": "70–100 g"
+    },
+    "grams": 85,
+    "like": {
+     "en": "a deck of cards"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "25–29 cm"
+     },
+     "src": [
+      "adw-kingfisher"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "70–100 g, about a deck of cards"
+     },
+     "src": [
+      "adw-kingfisher"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Not known in the wild"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Mostly fish, plus water insects and shrimp-like animals"
+     },
+     "src": [
+      "adw-kingfisher"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "A tunnel dug into a soft earth bank"
+     },
+     "src": [
+      "adw-kingfisher"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Pairs or family groups, often with helpers"
+     },
+     "src": [
+      "adw-kingfisher"
+     ]
+    },
+    {
+     "label": {
+      "en": "Near Aswan"
+     },
+     "value": {
+      "en": "A common resident bird"
+     },
+     "src": [
+      "10kbirds-aswan"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "The hovering champion"
+     },
+     "text": {
+      "en": "Pied kingfishers are the largest birds that can hover in one spot for a long time. They hang over the water, then plunge in head-first."
+     },
+     "src": [
+      "adw-kingfisher",
+      "hidmc"
+     ]
+    },
+    {
+     "title": {
+      "en": "Bones? Cough them up"
+     },
+     "text": {
+      "en": "Fish bones can't be digested, so a pied kingfisher coughs up three or four little pellets of bones every day."
+     },
+     "src": [
+      "adw-kingfisher"
+     ]
+    },
+    {
+     "title": {
+      "en": "Big families, many neighbours"
+     },
+     "text": {
+      "en": "They live in pairs or loose family groups. Along a good river, 9 to 16 birds can share one kilometre of shore."
+     },
+     "src": [
+      "adw-kingfisher"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Big brother helps"
+     },
+     "text": {
+      "en": "Young birds, often sons of the father, help raise the new chicks by bringing food. Most pied kingfishers are males!"
+     },
+     "src": [
+      "adw-kingfisher"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Lots of practice holes"
+     },
+     "text": {
+      "en": "Digging a nest takes 23 to 26 days, and about 80% of the holes they start never get finished."
+     },
+     "src": [
+      "adw-kingfisher"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Miss, miss, splash, catch!"
+     },
+     "text": {
+      "en": "Only 9 to 50 dives out of every 100 catch a fish. Kingfishers keep trying."
+     },
+     "src": [
+      "adw-kingfisher"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Five eggs, eighteen days"
+     },
+     "text": {
+      "en": "A typical nest has five eggs, laid one day apart. Mom does most of the sitting, especially at night."
+     },
+     "src": [
+      "adw-kingfisher"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Pied kingfishers really are black and white, chatty and great at diving. In the story the kingfisher only talks about fishing. A real one would happily eat a little frog now and then!"
+   },
+   "storyVsRealSrc": [
+    "adw-kingfisher"
+   ]
+  },
+  {
+   "id": "frogs",
+   "role": "supporting",
+   "colour": "mint",
+   "name": {
+    "en": "The two frogs"
+   },
+   "animal": {
+    "en": "Nile grass frogs"
+   },
+   "image": "frogs.jpg",
+   "job": {
+    "en": "The cheerful croakers on the mud bank"
+   },
+   "superpower": {
+    "en": "Jump like little rockets"
+   },
+   "lineup": {
+    "weight": {
+     "en": "not well recorded"
+    },
+    "grams": 10,
+    "like": {
+     "en": "a few grapes (our guess)"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Found"
+     },
+     "value": {
+      "en": "Along the Nile valley and delta in Egypt"
+     },
+     "src": [
+      "iucn-ptych",
+      "amnh-nilotica"
+     ]
+    },
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "About 4–7 cm, not counting legs (frogs of this family group)"
+     },
+     "src": [
+      "amphibiaweb"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Not well recorded"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Not known"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Beetles, grasshoppers, dragonflies, ants and more"
+     },
+     "src": [
+      "amphibiaweb"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Wet grass beside rivers, ditches and puddles"
+     },
+     "src": [
+      "amphibiaweb",
+      "namibian"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eggs"
+     },
+     "value": {
+      "en": "About 1,000 tiny eggs at a time (measured in West Africa)"
+     },
+     "src": [
+      "amphibiaweb"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Rocket frogs"
+     },
+     "text": {
+      "en": "Frogs in this family have long legs and streamlined bodies. They are such good jumpers that people call them rocket frogs, and they are very hard to catch."
+     },
+     "src": [
+      "afamph"
+     ]
+    },
+    {
+     "title": {
+      "en": "Stripes and ridges"
+     },
+     "text": {
+      "en": "They have long ridges of skin down their back, which is why they are also called ridged frogs. Their back can be green or brown."
+     },
+     "src": [
+      "amphibiaweb",
+      "namibian"
+     ]
+    },
+    {
+     "title": {
+      "en": "From tadpole to frog"
+     },
+     "text": {
+      "en": "Tadpoles grow up to 6 cm long and turn into frogs after about 60 days."
+     },
+     "src": [
+      "namibian"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "A river that brings frogs"
+     },
+     "text": {
+      "en": "Egypt is mostly desert, but the Nile works like a green road that lets frogs from tropical Africa live far to the north."
+     },
+     "src": [
+      "zobodat"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Named after faraway islands"
+     },
+     "text": {
+      "en": "Their family name, Mascarene, comes from islands east of Madagascar, where the first one was described. Far from the Nile!"
+     },
+     "src": [
+      "namibian"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Splash and dash"
+     },
+     "text": {
+      "en": "When a grass frog is grabbed, it can squirt a jet of water from its body, then leap into the water or the grass."
+     },
+     "src": [
+      "namibian"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Tiny eggs"
+     },
+     "text": {
+      "en": "Each egg is only about 1 mm across, smaller than a grain of rice."
+     },
+     "src": [
+      "amphibiaweb"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Scientists are still sorting out exactly which grass frog lives in Egypt; it belongs to a group of look-alike species. Real ones can be brown as well as green. And these frogs eat beetles, so Sabu should be careful!"
+   },
+   "storyVsRealSrc": [
+    "amnh-nilotica",
+    "amphibiaweb"
+   ]
+  },
+  {
+   "id": "jerboas",
+   "role": "supporting",
+   "colour": "sun",
+   "name": {
+    "en": "The jerboa family"
+   },
+   "animal": {
+    "en": "Lesser Egyptian jerboa"
+   },
+   "image": "jerboas.jpg",
+   "job": {
+    "en": "The desert bouncers who know the way"
+   },
+   "superpower": {
+    "en": "Never needs to drink"
+   },
+   "lineup": {
+    "weight": {
+     "en": "43–73 g"
+    },
+    "grams": 55,
+    "like": {
+     "en": "an egg"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "Body about 10 cm, tail 13–25 cm"
+     },
+     "src": [
+      "adw-jerboa"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "43–73 g, about an egg"
+     },
+     "src": [
+      "adw-jerboa"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "2–3 years in the wild"
+     },
+     "src": [
+      "adw-jerboa"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Roots, grass, seeds and grains, plus some insects"
+     },
+     "src": [
+      "adw-jerboa"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "A spiral burrow about 1.2 m deep"
+     },
+     "src": [
+      "adw-jerboa"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Lives alone; mom has 1–6 babies, usually 3"
+     },
+     "src": [
+      "adw-jerboa"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "No water bottle needed"
+     },
+     "text": {
+      "en": "Lesser Egyptian jerboas don't drink. They get all the water they need from plants and insects."
+     },
+     "src": [
+      "adw-jerboa",
+      "eol-jerboa"
+     ]
+    },
+    {
+     "title": {
+      "en": "Night-time travellers"
+     },
+     "text": {
+      "en": "They come out only at night, when the desert is cool, and can travel up to about 10 km from their burrow."
+     },
+     "src": [
+      "adw-jerboa"
+     ]
+    },
+    {
+     "title": {
+      "en": "Three toes and a tufted tail"
+     },
+     "text": {
+      "en": "Each long back foot has three toes. The long tail with its tufted tip helps them balance when they jump."
+     },
+     "src": [
+      "adw-jerboa",
+      "wiki-jerboa"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Three-metre leaps"
+     },
+     "text": {
+      "en": "A lesser Egyptian jerboa can leap up to three metres in one bound. That's like you jumping across a bus!"
+     },
+     "src": [
+      "wiki-jerboa"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "A twisty staircase"
+     },
+     "text": {
+      "en": "They dig their burrows in a spiral, turning counter-clockwise, with a nest at the bottom and secret exits on the side."
+     },
+     "src": [
+      "adw-jerboa"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Nose-to-nose hello"
+     },
+     "text": {
+      "en": "Jerboas recognise each other by smell. In captivity they say hello by touching noses for 1 to 5 seconds."
+     },
+     "src": [
+      "adw-jerboa"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Run for home"
+     },
+     "text": {
+      "en": "Foxes, weasels and vipers hunt jerboas. Their best defence is a fast dash back into the burrow."
+     },
+     "src": [
+      "adw-jerboa"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real jerboas really do bounce across the desert at night. But real jerboas live alone, and only mom raises the babies, so a family of five out for a walk is a story treat. The youngest's bent ear is our artist's idea."
+   },
+   "storyVsRealSrc": [
+    "adw-jerboa"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "title": {
+    "en": "Ask, don't tell"
+   },
+   "text": {
+    "en": "Play with a grown-up: for five minutes, you can only ask questions. What did you learn about them?"
+   }
+  },
+  {
+   "title": {
+    "en": "Roll like Sabu"
+   },
+   "text": {
+    "en": "Roll a ball backwards with your feet in a straight line. Is it harder than it looks?"
+   }
+  },
+  {
+   "title": {
+    "en": "Find the river of stars"
+   },
+   "text": {
+    "en": "On a dark, clear night away from city lights, look for a pale, cloudy band across the sky. That's the Milky Way."
+   }
+  },
+  {
+   "title": {
+    "en": "Jerboa jump"
+   },
+   "text": {
+    "en": "How far can you jump? Mark it with a sock. A jerboa can jump 3 metres, about 30 times its own body length!"
+   }
+  },
+  {
+   "title": {
+    "en": "Find Egypt"
+   },
+   "text": {
+    "en": "Find Egypt on a map, then follow the Nile from Aswan all the way to the sea."
+   }
+  }
+ ],
+ "faq": [
+  {
+   "q": {
+    "en": "Are the animals in The Beetle Who Knew the Stars real?"
+   },
+   "a": {
+    "en": "Yes. Hoopoes, sacred scarabs, pied kingfishers, grass frogs and lesser Egyptian jerboas all live in Egypt. Each hero file tells you what we changed for the story."
+   }
+  },
+  {
+   "q": {
+    "en": "Do dung beetles really use the stars?"
+   },
+   "a": {
+    "en": "Yes. Scientists showed in 2013 that some dung beetles keep a straight path using the band of light of the Milky Way."
+   },
+   "src": [
+    "dacke2013",
+    "sciencenews"
+   ]
+  },
+  {
+   "q": {
+    "en": "Does a hoopoe's crest really pop up?"
+   },
+   "a": {
+    "en": "Yes. It usually lies flat and opens like a fan when the bird is excited or alarmed."
+   },
+   "src": [
+    "birdfact",
+    "oiseaux-hoopoe"
+   ]
+  },
+  {
+   "q": {
+    "en": "What does the name Kemi mean?"
+   },
+   "a": {
+    "en": "It comes from Kemet, the ancient Egyptians' name for their country. It means \"black land\", after the rich dark soil of the Nile."
+   },
+   "src": [
+    "historyskills"
+   ]
+  },
+  {
+   "q": {
+    "en": "Is it OK to pick up a dung beetle?"
+   },
+   "a": {
+    "en": "It's best to watch and not touch. Wild animals, even small ones, should be left to do their work, and dung is not clean. Wash your hands after being outdoors."
+   }
+  }
+ ],
+ "sources": {
+  "planetware": {
+   "name": "PlanetWare",
+   "title": "Attractions & Things to Do in Aswan",
+   "url": "https://planetware.com/aswan/lake-nasser-egy-asw-lknass.htm"
+  },
+  "historyskills": {
+   "name": "History Skills",
+   "title": "Things you must know to understand the world of Ancient Egypt",
+   "url": "https://historyskills.com/classroom/ancient-history/anc-intro-to-egypt-reading"
+  },
+  "worldatlas-name": {
+   "name": "WorldAtlas",
+   "title": "Who named Egypt?",
+   "url": "https://www.worldatlas.com/ancient-world/who-named-egypt.html"
+  },
+  "ahs-qubbet": {
+   "name": "Ancient History Sites",
+   "title": "Qubbet el-Hawa: the rock-cut governors' necropolis at Aswan",
+   "url": "https://www.ancient-history-sites.com/?p=133600"
+  },
+  "madain": {
+   "name": "Madain Project",
+   "title": "Qubbet el-Hawa",
+   "url": "https://www.madainproject.com/qubbet_el_hawa"
+  },
+  "egymonuments": {
+   "name": "Egyptian Ministry of Tourism and Antiquities",
+   "title": "Qubbat Al-Hawa Cemetery",
+   "url": "https://egymonuments.gov.eg/archaeological-sites/qubbat-al-hawa-cemetery-1"
+  },
+  "10kbirds-aswan": {
+   "name": "10,000 Birds",
+   "title": "Winter birding at Aswan on the Nile",
+   "url": "https://www.10000birds.com/winter-birding-at-aswan-on-the-nile.htm"
+  },
+  "10kbirds-profile": {
+   "name": "10,000 Birds",
+   "title": "Aswan, Egypt: a profile for birders",
+   "url": "https://www.10000birds.com/aswan-egypt-profile-for-birders.htm"
+  },
+  "birdfact": {
+   "name": "Birdfact",
+   "title": "Hoopoe (Upupa epops)",
+   "url": "https://birdfact.com/birds/hoopoe"
+  },
+  "azanimals": {
+   "name": "A-Z Animals",
+   "title": "Hoopoe",
+   "url": "https://a-z-animals.com/animals/hoopoe"
+  },
+  "rspb-hoopoe": {
+   "name": "RSPB",
+   "title": "My first Hoopoe (RSPB members' magazine)",
+   "url": "https://members.rspb.org.uk/?p=86737"
+  },
+  "oiseaux-hoopoe": {
+   "name": "Oiseaux-Birds",
+   "title": "Hoopoe",
+   "url": "https://www.oiseaux-birds.com/card-hoopoe.html"
+  },
+  "theanimalfacts": {
+   "name": "The Animal Facts (citing BirdLife International / IUCN Red List)",
+   "title": "Eurasian Hoopoe",
+   "url": "https://www.theanimalfacts.com/birds/eurasian-hoopoe/"
+  },
+  "birdsnet-hoopoe": {
+   "name": "The-Birds.net",
+   "title": "Eurasian Hoopoe: subspecies",
+   "url": "https://the-birds.net/birds/eurasian.hoopoe.html"
+  },
+  "cguaa": {
+   "name": "Abd el Hameed, Journal of the General Union of Arab Archaeologists (2017)",
+   "title": "Hoopoe symbolism in ancient Egyptian religion",
+   "url": "https://cguaa.journals.ekb.eg/article_29512.html"
+  },
+  "thepast-birds": {
+   "name": "Ancient Egypt magazine (The Past)",
+   "title": "Hilary Wilson on… Birds in fine feather",
+   "url": "https://the-past.com/feature/hilary-wilson-on-birds-in-fine-feather/"
+  },
+  "audubon-hoopoe": {
+   "name": "Audubon",
+   "title": "The Hoopoe: emissary of kings, secreter of stink",
+   "url": "https://audubon.org/news/the-hoopoe-emissary-kings-secreter-stink"
+  },
+  "natgeo-hoopoe": {
+   "name": "National Geographic",
+   "title": "The bird that paints its eggs with bacteria",
+   "url": "https://www.nationalgeographic.com/science/article/the-bird-that-paints-its-eggs-with-bacteria"
+  },
+  "soler2008": {
+   "name": "Soler et al., Functional Ecology (2008)",
+   "title": "Symbiotic association between hoopoes and antibiotic-producing bacteria that live in their uropygial gland",
+   "url": "https://digibug.ugr.es/bitstream/handle/10481/88066/Soler08FunctEcol.pdf?sequence=1"
+  },
+  "dw-hoopoe-uk": {
+   "name": "BBC Wildlife (Discover Wildlife)",
+   "title": "Hoopoes in the UK",
+   "url": "https://www.discoverwildlife.com/animal-facts/birds/hoopoes-in-uk"
+  },
+  "wiki-scarab": {
+   "name": "Wikipedia",
+   "title": "Scarabaeus sacer",
+   "url": "https://en.wikipedia.org/wiki/Scarabaeus_sacer"
+  },
+  "insectbooks": {
+   "name": "Insect-Books",
+   "title": "Scarabaeus sacer",
+   "url": "https://insect-books.com/species/scarabaeus-sacer/"
+  },
+  "dimensions": {
+   "name": "Dimensions.com",
+   "title": "Sacred Scarab (Scarabaeus sacer)",
+   "url": "https://www.dimensions.com/element/sacred-scarab-scarabaeus-sacer"
+  },
+  "holter2005": {
+   "name": "Holter & Scholtz, Ecological Entomology (2005)",
+   "title": "Are ball-rolling and tunnelling dung beetles equally choosy about the size of ingested dung particles?",
+   "url": "https://www.dungbeetles.com.au/journal-article/are-ball-rolling-scarabaeini-gymnopleurini-sisyphini-and-tunnelling-scarabaeine.html"
+  },
+  "mcclung": {
+   "name": "McClung Museum, University of Tennessee",
+   "title": "The Sacred Scarab",
+   "url": "https://mcclungmuseum.utk.edu/1996/01/01/sacred-scarab/"
+  },
+  "popsci": {
+   "name": "Popular Science",
+   "title": "Dung beetles navigate by the stars",
+   "url": "https://www.popsci.com/science/article/2013-01/dung-beetles-navigate-stars"
+  },
+  "dacke2013": {
+   "name": "Dacke et al., Current Biology (2013)",
+   "title": "Dung beetles use the Milky Way for orientation",
+   "url": "https://www.sciencebuddies.org/science-fair-projects/ask-an-expert/download/file.php?id=261"
+  },
+  "scinews": {
+   "name": "Sci.News",
+   "title": "Dung beetles use Milky Way for orientation",
+   "url": "https://www.sci.news/biology/article00844.html"
+  },
+  "sciencenews": {
+   "name": "Science News",
+   "title": "Dung beetles steer by the Milky Way",
+   "url": "https://sciencenews.org/?p=9310"
+  },
+  "csmonitor": {
+   "name": "Christian Science Monitor (LiveScience)",
+   "title": "The dung beetle as celestial navigator",
+   "url": "https://csmonitor.com/Science/2013/0125/The-dung-beetle-as-celestial-navigator"
+  },
+  "sd-cool": {
+   "name": "ScienceDaily (University of the Witwatersrand)",
+   "title": "Beetles use dung balls to stay cool",
+   "url": "https://www.sciencedaily.com/releases/2012/10/121022122056.htm"
+  },
+  "phys-cool": {
+   "name": "Phys.org (Wits University)",
+   "title": "Beetles use dung balls to stay cool",
+   "url": "https://phys.org/news/2012-10-beetles-dung-balls-cool.html"
+  },
+  "audubon-beetle": {
+   "name": "Audubon",
+   "title": "Dung beetles navigate by the stars",
+   "url": "https://audubon.org/magazine/dung-beetles-navigate-stars"
+  },
+  "adw-kingfisher": {
+   "name": "Animal Diversity Web, University of Michigan",
+   "title": "Ceryle rudis (pied kingfisher)",
+   "url": "https://animaldiversity.org/accounts/Ceryle_rudis/"
+  },
+  "hidmc": {
+   "name": "HIDMC",
+   "title": "A Nile river cruise for birdwatching and wildlife spotting",
+   "url": "https://www.hidmc.com/blog-posts/a-nile-river-cruise-for-birdwatching-wildlife-spotting"
+  },
+  "iucn-ptych": {
+   "name": "IUCN Centre for Mediterranean Cooperation",
+   "title": "Ptychadena mascareniensis: species summary",
+   "url": "https://uicnmed.org/web2007/cd_rep_amp/materials/amph_summery/ptychadena_mascareniensis.pdf"
+  },
+  "amnh-nilotica": {
+   "name": "Amphibian Species of the World, American Museum of Natural History",
+   "title": "Ptychadena nilotica",
+   "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Ptychadenidae/Ptychadena/Ptychadena-nilotica"
+  },
+  "amphibiaweb": {
+   "name": "AmphibiaWeb, University of California, Berkeley",
+   "title": "Ptychadena mascareniensis",
+   "url": "https://amphibiaweb.org/species/4941"
+  },
+  "afamph": {
+   "name": "African Amphibians",
+   "title": "Ptychadenidae",
+   "url": "https://africanamphibians.myspecies.info/taxonomy/term/961/descriptions"
+  },
+  "namibian": {
+   "name": "Namibian.org",
+   "title": "Mascarene grass frog",
+   "url": "https://namibian.org/nature-wildlife-old/reptiles-and-frogs/frogs/mascarene-grass-frog"
+  },
+  "zobodat": {
+   "name": "Herpetozoa (via Zobodat)",
+   "title": "Ptychadena in Egypt",
+   "url": "https://www.zobodat.at/pdf/HER_18_3_4_0178-0181.pdf"
+  },
+  "adw-jerboa": {
+   "name": "Animal Diversity Web, University of Michigan",
+   "title": "Jaculus jaculus (lesser Egyptian jerboa)",
+   "url": "https://animaldiversity.org/accounts/Jaculus_jaculus/"
+  },
+  "wiki-jerboa": {
+   "name": "Wikipedia",
+   "title": "Lesser Egyptian jerboa",
+   "url": "https://www.wikipedia.com/wiki/Jaculus_jaculus"
+  },
+  "eol-jerboa": {
+   "name": "Encyclopedia of Life",
+   "title": "Lesser Egyptian jerboa",
+   "url": "https://media.eol.org/pages/327896/articles"
+  }
+ }
+}

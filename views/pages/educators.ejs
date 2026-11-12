@@ -12,11 +12,26 @@
     </div>
   </div>
 </section>
-<section class="section tight">
-  <div class="wrap card card-pad stack-sm" style="max-width:860px;background:#FFF1C2;border-color:#FFD966">
-    <h2 class="h2" style="font-size:30px"><%= t('guides.title') %></h2>
-    <p style="margin:0"><%= t('guides.lead') %></p>
-    <div><a class="btn btn-primary" href="<%= url('/educators/guides') %>"><%= t('guides.title') %></a></div>
+<section class="section feature-band band-sunpale">
+  <div class="wrap feature">
+    <div class="guide-stack" aria-hidden="true">
+      <% guideCovers.slice(0, 5).forEach(function (b, i) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576" style="--i:<%= i %>"><% }) %>
+    </div>
+    <div class="feature-text stack">
+      <h2 class="h2 feature-h"><%= t('guides.title') %></h2>
+      <p class="lead"><%= t('guides.lead') %></p>
+      <ul class="glance"><li><%= t('educators.guideCount').replace('{n}', guideCovers.length) %></li><li><%= t('educators.guideFree') %></li></ul>
+      <a class="btn btn-primary" style="align-self:flex-start" href="<%= url('/educators/guides') %>"><%= t('guides.title') %></a>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap stack" style="gap:28px">
+    <div class="stack-sm" style="max-width:720px">
+      <h2 class="h2"><%= t('educators.insideTitle') %></h2>
+      <p class="lead"><%= t('educators.insideLead') %></p>
+    </div>
+    <%- include('../partials/inside', { sc: showcase, k: 'educators' }) %>
   </div>
 </section>
 <section class="section band-sky">

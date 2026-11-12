@@ -5,7 +5,7 @@ module.exports = {
   },
   topbar: { newBook: 'New:', newBookLine: 'a story about belonging you build yourself' },
   nav: {
-    books: 'Books', shop: 'Shop', play: 'Play', parents: 'Parents', educators: 'Educators', partners: 'Partners',
+    readWatch: 'Read & watch', animals: 'Real animals', books: 'Books', shop: 'Shop', play: 'Play', parents: 'Parents', educators: 'Educators', partners: 'Partners',
     freePage: 'Free coloring page', menu: 'Menu', main: 'Main', language: 'Language', skip: 'Skip to content'
   },
   common: {
@@ -36,6 +36,12 @@ module.exports = {
     coverOf: 'Cover of'
   },
   home: {
+    insideTitle: 'Inside every book',
+    insideLead: 'Every story comes with more to do together: read it online, watch it read aloud, meet the real animals and play.',
+    insideRead: 'Read it online', insideReadText: '{n} books you can open and read here, page by page.',
+    insideWatch: 'Watch the read-aloud', insideWatchText: '{n} read-aloud videos, in English and other languages.',
+    insideAnimals: 'Meet the real animals', insideAnimalsText: '{n} real animals behind the stories, with true facts.',
+    insidePlay: 'Color and play', insidePlayText: 'Coloring pages from {n} books, plus puzzles and memory games.',
     title: 'Old wisdom from around the world, in stories where {{little heroes}} choose to do the right thing.',
     lead: 'Picture books that carry one value from one culture, told for today\'s children. In English, French, Spanish, German and Italian.',
     doorsTitle: 'Who\'s reading today?',
@@ -78,6 +84,7 @@ module.exports = {
     aboutCta: 'Read our story'
   },
   books: {
+    readOnline: 'Read online', liveTitle: 'On Amazon now', soonTitle: 'Coming to Amazon soon', exRead: 'Read inside', exWatch: 'Video', exAnimals: 'Real animals', exPlay: 'Games',
     title: 'All the books',
     lead: 'Twenty little heroes, each carrying one value from one culture. Pick by what your child is going through, or browse them all.',
     filterLabel: 'Find a book by the moment',
@@ -261,6 +268,12 @@ module.exports = {
     matched: 'Books you matched'
   },
   parents: {
+    insideTitle: 'More than a book at bedtime',
+    insideLead: 'Every story keeps going after the last page. Here is what you can do with it together.',
+    insideRead: 'Read it together on a screen', insideReadText: '{n} books open right here, page by page. Press Read to me on busy nights.',
+    insideWatch: 'Story time videos', insideWatchText: '{n} read-aloud videos, some in French, Spanish and German.',
+    insideAnimals: 'For curious kids', insideAnimalsText: '{n} real animals from the stories, with true facts you can check.',
+    insidePlay: 'Screen time that ends on a book', insidePlayText: 'Coloring from {n} books, puzzles and memory games. No ads, no accounts.',
     articlesTitle: 'Articles: the ideas behind the stories',
     articlesLead: 'Where each value comes from, and how to talk about it with your child.',
     title: 'Parent corner',
@@ -324,6 +337,13 @@ module.exports = {
     unlockedCode: 'To read it on another phone or tablet, use this code:',
     unlockedKeep: 'Keep it somewhere safe. It works for this book only.',
     startReading: 'Start reading'
+  },
+  readwatch: {
+    title: 'Read & watch',
+    lead: 'Open a book and read it right here, page by page, or press play and listen to it read aloud. Made for snuggling up together.',
+    readTitle: 'Read it online',
+    readLead: 'The first pages of every book are free to read here. Turn the pages yourself, or press Read to me.',
+    watchTitle: 'Watch the read-aloud'
   },
   readaloud: {
     title: 'Story time: read-aloud videos',
@@ -409,6 +429,13 @@ module.exports = {
     foot: 'Free to copy for classroom use'
   },
   educators: {
+    guideCount: '{n} guides, one per book', guideFree: 'Free to print and share',
+    insideTitle: 'Ready for your classroom',
+    insideLead: 'Use the books on the big screen, at circle time and in science and nature lessons.',
+    insideRead: 'Read it on the class screen', insideReadText: '{n} books to open on a projector or smartboard, page by page.',
+    insideWatch: 'Circle time videos', insideWatchText: '{n} read-aloud videos, good for French immersion and ESL groups.',
+    insideAnimals: 'Science and nature', insideAnimalsText: '{n} real animals with sourced facts, maps and activities.',
+    insidePlay: 'Centres and early finishers', insidePlayText: 'Coloring from {n} books, puzzles and memory games. No ads, no logins.',
     title: 'Educator corner',
     lead: 'Every book teaches one value through a child who chooses to act. Guides, sets and visits for classrooms, daycares, libraries and newcomer programs.',
     cards: [
@@ -566,6 +593,7 @@ module.exports = {
     }
   },
   heroes: {
+    countAnimals: '{n} real animals', countBooks: 'from {n} books', spotTitle: 'Animal of the day', readFile: 'Read {name}\'s file', openGuide: 'Open the guide',
     title: 'Heroes Encyclopedia',
     lead: 'The real animals behind every story: how they live, what they eat, and the true secrets the books are built on. Every fact links to where we found it.',
     meet: 'Meet the cast', seeBook: 'See the book', cast: 'The cast', castLead: 'Every character in the book is a real animal. Tap one to read its file.',

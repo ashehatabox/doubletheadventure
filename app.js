@@ -130,11 +130,36 @@ function page(req, res, view, data = {}, status = 200) {
 // ---------- Pages (mounted once for English at / and once for French at /fr) ----------
 const router = express.Router();
 
-router.get('/', (req, res) => page(req, res, 'home'));
+// Picture cards for "Inside every book" (home, parents, educators).
+function showcaseData(h, req) {
+  const guides = heroes.list().filter((g) => heroVisible(g) && catalog.get(g.book));
+  const animals = [];
+  guides.forEach((g) => (g.cast || []).forEach((c) => { const img = heroes.image(g.book, c.image); if (img) animals.push({ image: img, name: h.pick(c.name), animal: h.pick(c.animal), book: g.book }); }));
+  const strip = [];
+  guides.forEach((g) => { const a = animals.find((x) => x.book === g.book); if (a) strip.push(a); });
+  const readSlug = reader.has(site.featured) ? site.featured : reader.slugs()[0];
+  const videoSlug = readalouds.forBook(site.featured, h.lang).length ? site.featured : readalouds.slugs()[0];
+  return {
+    read: readSlug ? { preview: readerPreview(readSlug, h.lang), href: h.url('/stories') + '#read', count: reader.slugs().length } : null,
+    watch: videoSlug ? { book: bookView(catalog.get(videoSlug), h, req), count: readalouds.slugs().reduce((n, s) => n + readalouds.forBook(s, 'en').length, 0) } : null,
+    animals: { strip: strip.slice(0, 8), count: animals.length },
+    color: { pages: play.coloring.slice(0, 3).map((s) => play.pages(s)[0]), count: play.coloring.length },
+    snugPage: play.pages('the-snug')[0] || ''
+  };
+}
+router.get('/', (req, res) => page(req, res, 'home', { showcase: showcaseData(req.h, req) }));
 
 router.get('/books', (req, res) => {
   const moment = catalog.moments[req.query.moment] ? req.query.moment : '';
-  page(req, res, 'books', { moment, seo: { title: req.h.t('books.title') } });
+  const extras = {};
+  catalog.books.forEach((b) => {
+    extras[b.slug] = {
+      read: reader.has(b.slug), watch: readalouds.forBook(b.slug, 'en').length > 0,
+      animals: heroVisible(heroes.get(b.slug)), play: play.pages(b.slug).length > 0 || play.jigsaw.includes(b.slug)
+    };
+  });
+  const filterRead = req.query.moment === 'read';
+  page(req, res, 'books', { moment: filterRead ? 'read' : moment, extras, seo: { title: req.h.t('books.title') } });
 });
 
 router.get('/books/coming', (req, res) => page(req, res, 'coming', { seo: { title: req.h.t('coming.title') } }));
@@ -196,8 +221,20 @@ router.get('/books/:slug', (req, res, next) => {
 const heroVisible = (g) => g && (!g.draft || process.env.SHOW_DRAFTS === '1');
 router.get('/heroes', (req, res) => {
   const h = req.h;
-  const list = heroes.list().filter((g) => heroVisible(g) && catalog.get(g.book)).map((g) => ({ guide: g, book: bookView(catalog.get(g.book), h, req) }));
-  page(req, res, 'heroes', { extraCss: 'heroes', list, seo: { title: h.t('heroes.title'), description: h.t('heroes.lead') } });
+  const list = heroes.list().filter((g) => heroVisible(g) && catalog.get(g.book))
+    .sort((x, y) => catalog.get(x.book).n - catalog.get(y.book).n)
+    .map((g) => ({
+      guide: g, book: bookView(catalog.get(g.book), h, req), place: h.pick(g.place && g.place.name),
+      cast: (g.cast || []).map((c) => ({ id: c.id, name: h.pick(c.name), animal: h.pick(c.animal), superpower: h.pick(c.superpower), colour: c.colour, image: heroes.image(g.book, c.image), fact: (c.facts || []).find((f) => f.kind === 'wow') || (c.facts || [])[0] }))
+    }));
+  const all = [];
+  list.forEach((x) => x.cast.forEach((c) => { if (c.image && c.fact) all.push({ ...c, book: x.book, guideSlug: x.guide.book }); }));
+  // The featured animal changes every day.
+  const day = Math.floor(Date.now() / 86400000);
+  const spot = all.length ? all[day % all.length] : null;
+  if (spot) spot.factText = { title: h.pick(spot.fact.title), text: h.pick(spot.fact.text) };
+  const animalCount = list.reduce((n, x) => n + x.cast.length, 0);
+  page(req, res, 'heroes', { extraCss: 'heroes', list, spot, animalCount, seo: { title: h.t('heroes.title'), description: h.t('heroes.lead') } });
 });
 router.get('/heroes/:slug', (req, res, next) => {
   const g = heroes.get(req.params.slug);
@@ -305,7 +342,10 @@ router.get('/stories', (req, res) => {
   const h = req.h;
   const list = readalouds.slugs().map((s) => catalog.get(s)).filter(Boolean)
     .map((b) => ({ ...bookView(b, h, req), langs: readalouds.forBook(b.slug, h.lang).map((v) => v.label) }));
-  page(req, res, 'stories', { list, seo: { title: h.t('readaloud.title'), description: h.t('readaloud.lead') } });
+  const readList = reader.slugs().map((s) => catalog.get(s)).filter((b) => b && b.status !== 'coming')
+    .map((b) => ({ book: bookView(b, h, req), preview: readerPreview(b.slug, h.lang), href: h.url('/books/' + b.slug + '/read') }))
+    .filter((r) => r.preview);
+  page(req, res, 'stories', { list, readList, seo: { title: h.t('readwatch.title'), description: h.t('readwatch.lead') } });
 });
 
 router.get('/values-map', (req, res) => page(req, res, 'values-map', { seo: { title: req.h.t('valuesMap.title'), description: req.h.t('valuesMap.lead') } }));
@@ -472,7 +512,7 @@ router.get('/play/memory', (req, res) => {
   gamePage(req, res, 'memory', null, { cards, pairs, sizes: play.MEMORY_SIZES }, h.t('playGame.memoryTitle'));
 });
 router.get('/parents', (req, res) =>
-  page(req, res, 'parents', { latestArticles: articles.list(req.h.lang).slice(0, 3), seo: { title: req.h.t('parents.title') } }));
+  page(req, res, 'parents', { showcase: showcaseData(req.h, req), latestArticles: articles.list(req.h.lang).slice(0, 3), seo: { title: req.h.t('parents.title') } }));
 
 router.get('/parents/articles', (req, res) => {
   const topic = articles.TOPICS.includes(req.query.topic) ? req.query.topic : '';
@@ -530,7 +570,11 @@ router.get('/parents/articles/:slug', (req, res, next) => {
     seo: { title: a.title, description: a.description, image, noindex: a.draft, type: 'article' }
   });
 });
-router.get('/educators', (req, res) => page(req, res, 'educators', { seo: { title: req.h.t('educators.title') } }));
+router.get('/educators', (req, res) => page(req, res, 'educators', {
+  showcase: showcaseData(req.h, req),
+  guideCovers: catalog.books.filter((b) => b.status !== 'coming' && guides.get(b.slug)).map((b) => bookView(b, req.h, req)),
+  seo: { title: req.h.t('educators.title') }
+}));
 // Teacher guides: one printable page per book.
 const guideBooks = () => catalog.books.filter((b) => b.status !== 'coming' && guides.get(b.slug));
 router.get('/educators/guides', (req, res) => {

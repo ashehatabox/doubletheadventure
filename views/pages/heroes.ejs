@@ -3,22 +3,56 @@
   <div class="wrap stack-sm hg-index-head">
     <h1 class="h1"><%= t('heroes.title') %></h1>
     <p class="lead"><%= t('heroes.lead') %></p>
+    <ul class="glance"><li><%= t('heroes.countAnimals').replace('{n}', animalCount) %></li><li><%= t('heroes.countBooks').replace('{n}', list.length) %></li></ul>
   </div>
 </section>
+<% if (!list.length) { %><section class="section tight"><div class="wrap"><p class="lead"><%= t('heroes.none') %></p></div></section><% } %>
+
+<% if (spot) { %>
 <section class="section tight" lang="<%= lang %>">
   <div class="wrap">
-    <% if (!list.length) { %><p class="lead"><%= t('heroes.none') %></p><% } %>
-    <ul class="hg-index" role="list">
-      <% list.forEach(function (x) { %>
-      <li>
-        <a class="hg-index-card" href="<%= url('/heroes/' + x.guide.book) %>">
-          <% if (x.book.cover) { %><img src="<%= x.book.coverSmall || x.book.cover %>" alt="" loading="lazy" width="360" height="576"><% } %>
-          <span class="hg-cast-name"><%= pick(x.guide.title) %></span>
-          <span class="hg-cast-animal"><%= x.guide.cast.map(function (c) { return pick(c.animal); }).join(', ') %></span>
-        </a>
-      </li>
-      <% }) %>
-    </ul>
+    <div class="spot spot-<%= spot.colour %>">
+      <a class="spot-img" href="<%= url('/heroes/' + spot.guideSlug) %>#<%= spot.id %>"><img src="<%= spot.image %>" alt="<%= spot.name %>, <%= spot.animal %>" width="960" height="960"></a>
+      <div class="stack-sm spot-text">
+        <p class="spot-kicker"><%= t('heroes.spotTitle') %></p>
+        <h2 class="h2 feature-h"><%= spot.name %></h2>
+        <p class="spot-animal"><%= spot.animal %><% if (spot.superpower) { %> · <%= t('heroes.superpower') %>: <%= spot.superpower %><% } %></p>
+        <h3 class="h3"><%= spot.factText.title %></h3>
+        <p style="margin:0"><%= spot.factText.text %></p>
+        <div class="row" style="margin-top:8px">
+          <a class="btn btn-primary" href="<%= url('/heroes/' + spot.guideSlug) %>#<%= spot.id %>"><%= t('heroes.readFile').replace('{name}', spot.name) %></a>
+          <a class="btn btn-ghost" href="<%= spot.book.href %>"><%= spot.book.displayTitle %></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<section class="section tight" lang="<%= lang %>">
+  <div class="wrap stack" style="gap:56px">
+    <% list.forEach(function (x) { %>
+    <div class="ag">
+      <a class="ag-head" href="<%= url('/heroes/' + x.guide.book) %>">
+        <% if (x.book.cover) { %><img class="ag-cover" src="<%= x.book.coverSmall || x.book.cover %>" alt="" loading="lazy" width="360" height="576"><% } %>
+        <span class="stack-sm" style="gap:2px">
+          <span class="ag-title"><%= pick(x.guide.title) %></span>
+          <span class="ag-meta"><%= x.book.displayTitle %><% if (x.place) { %> · <%= x.place %><% } %></span>
+        </span>
+        <span class="ag-open"><%= t('heroes.openGuide') %></span>
+      </a>
+      <ul class="cast-grid" role="list">
+        <% x.cast.forEach(function (c) { %>
+        <li><a class="cast-card" href="<%= url('/heroes/' + x.guide.book) %>#<%= c.id %>">
+          <% if (c.image) { %><img src="<%= c.image %>" alt="" loading="lazy" width="960" height="960"><% } else { %><span class="cast-ph" aria-hidden="true"></span><% } %>
+          <span class="cast-name"><%= c.name %></span>
+          <span class="cast-animal"><%= c.animal %></span>
+          <% if (c.superpower) { %><span class="cast-power"><%= c.superpower %></span><% } %>
+        </a></li>
+        <% }) %>
+      </ul>
+    </div>
+    <% }) %>
   </div>
 </section>
 <%- include('../partials/bottom') %>

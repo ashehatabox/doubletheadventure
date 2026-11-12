@@ -13,15 +13,21 @@
       <span style="font-weight:800"><%= t('books.filterLabel') %></span>
       <div class="chips" style="gap:10px" data-filter>
         <a class="pill" href="<%= url('/books') %>" data-moment="" <%- moment ? '' : 'aria-current="true"' %>><%= t('books.all') %></a>
+        <a class="pill" href="<%= url('/books') %>?moment=read" data-moment="read" <%- moment === 'read' ? 'aria-current="true"' : '' %>><%= t('books.readOnline') %></a>
         <% Object.keys(catalog.moments).forEach(function (m) { if (!shown.some(function (b) { return b.moments.includes(m); })) return; %>
         <a class="pill" href="<%= url('/books') %>?moment=<%= m %>" data-moment="<%= m %>" <%- moment === m ? 'aria-current="true"' : '' %>><%= momentLabel(m) %></a>
         <% }) %>
       </div>
     </nav>
-    <div class="grid-books" data-books>
-      <% shown.forEach(function (b) { const hide = moment && !b.moments.includes(moment); %><div data-moments="<%= b.moments.join(' ') %>" <%- hide ? 'hidden' : '' %>><%- include('../partials/book-card', { b: b }) %></div><% }) %>
+    <% [['live', t('books.liveTitle')], ['soon', t('books.soonTitle')]].forEach(function (grp) { const set = shown.filter(function (b) { return grp[0] === 'live' ? b.status === 'live' : b.status !== 'live'; }); if (!set.length) return; %>
+    <div class="stack" style="gap:20px" data-group>
+      <h2 class="h2 book-h2"><%= grp[1] %> <span class="muted" style="font-family:var(--sans);font-size:18px;font-weight:700">(<%= set.length %>)</span></h2>
+      <div class="grid-books" data-books>
+        <% set.forEach(function (b) { const ex = extras[b.slug] || {}; const ms = b.moments.concat(ex.read ? ['read'] : []); const hide = moment && !ms.includes(moment); %><div data-moments="<%= ms.join(' ') %>" <%- hide ? 'hidden' : '' %>><%- include('../partials/book-card', { b: b, ex: ex }) %></div><% }) %>
+      </div>
     </div>
-    <p class="muted" data-none <%- shown.some(function (b) { return !moment || b.moments.includes(moment); }) ? 'hidden' : '' %>><%= t('books.none') %></p>
+    <% }) %>
+    <p class="muted" data-none <%- shown.some(function (b) { const ex = extras[b.slug] || {}; return !moment || b.moments.concat(ex.read ? ['read'] : []).includes(moment); }) ? 'hidden' : '' %>><%= t('books.none') %></p>
     <p><a class="btn btn-ghost" href="<%= url('/books/coming') %>"><%= t('common.comingSoon') %></a></p>
   </div>
 </section>

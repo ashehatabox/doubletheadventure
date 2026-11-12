@@ -3,4 +3,12 @@
   <%- include('cover', { b: b, badge: b.status === 'live' ? '' : (b.status === 'soon' ? t('books.soon') : t('common.comingSoon')) }) %>
   <span class="book-card-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span>
   <span class="book-card-sub"><%= b.valueText %><%= b.cultureText ? ' · ' + b.cultureText : '' %></span>
+  <% if (typeof ex !== 'undefined' && ex && (ex.read || ex.watch || ex.animals || ex.play)) { %>
+  <span class="book-extras">
+    <% if (ex.read) { %><span class="bx bx-read"><%= t('books.exRead') %></span><% } %>
+    <% if (ex.watch) { %><span class="bx bx-watch"><%= t('books.exWatch') %></span><% } %>
+    <% if (ex.animals) { %><span class="bx bx-animals"><%= t('books.exAnimals') %></span><% } %>
+    <% if (ex.play) { %><span class="bx bx-play"><%= t('books.exPlay') %></span><% } %>
+  </span>
+  <% } %>
 </a>

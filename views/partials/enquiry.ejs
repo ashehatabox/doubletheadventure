@@ -1,6 +1,7 @@
 <%# Contact / quote form. Needs: kind. Optional: topic (e.g. "value"), formTitle, messageLabel, button, showOrg %>
 <form class="form card card-pad" method="post" action="/api/enquire" id="enquiry" data-ajax data-kind="enquiry">
   <% if (typeof formTitle !== 'undefined' && formTitle) { %><h2 class="h3"><%= formTitle %></h2><% } %>
+  <p class="muted" style="margin:0"><%= t('common.enquiryNote') %> <a href="<%= url('/policies/privacy') %>"><%= t('common.privacy') %></a></p>
   <input type="hidden" name="kind" value="<%= kind %>">
   <input type="hidden" name="back" value="<%= url(basePath) %>">
   <input type="hidden" name="form" value="enquiry">

@@ -37,7 +37,7 @@
 <section class="section band-sky">
   <div class="wrap stack-sm" style="max-width:860px">
     <h2 class="h2" style="font-size:32px"><%= t('educators.curriculumTitle') %></h2>
-    <ul class="clean"><% t('educators.curriculum').forEach(function (c) { %><li><%= c %></li><% }) %></ul>
+    <ul class="clean"><% t('educators.curriculum').forEach(function (c) { %><li><% if (c.href) { %><a href="<%= c.href %>" style="font-weight:800" rel="noopener"><%= c.name %></a>: <% } %><%= c.text || c %></li><% }) %></ul>
   </div>
 </section>
 <%- include('../partials/bottom') %>

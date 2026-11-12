@@ -7,6 +7,8 @@ process.env.UNSUB_SECRET = 'test-secret';
 process.env.DATA_DIR = require('os').tmpdir() + '/dta-test-' + Date.now();
 delete process.env.SUPABASE_URL;
 const shopData = require('../data/shop');
+const realPrices = shopData.products.map((p) => p.priceCents);
+shopData.products.forEach((p) => { p.priceCents = null; }); // start from a shop with nothing priced
 const http = require('http');
 const req = (method, path, body, headers = {}) => new Promise((res) => {
   const r = http.request({ port: 3991, path, method, headers: { 'content-type': 'application/x-www-form-urlencoded', ...headers } }, (x) => { let b = ''; x.on('data', (c) => (b += c)); x.on('end', () => res({ status: x.statusCode, body: b, loc: x.headers.location })); });
@@ -22,6 +24,9 @@ require('../app.js');
   shopData.products[0].priceCents = 4500;
   r = await req('GET', '/shop');
   ok(/The shop/.test(r.body) && /\/shop\/checkout/.test(r.body) && /45\.00/.test(r.body) && !/early 2027/.test(r.body), 'shop shows the priced product with a Buy button');
+  shopData.products.forEach((p, i) => { p.priceCents = realPrices[i]; });
+  r = await req('GET', '/shop');
+  ok(/Classroom set: 5 books/.test(r.body) && /59\.99/.test(r.body) && /219\.99/.test(r.body), 'real prices show, classroom sets included');
   r = await req('GET', '/fr/shop');
   ok(/Acheter/.test(r.body), 'French shop page');
   r = await req('POST', '/shop/checkout', 'product=nope&lang=en');

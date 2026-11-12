@@ -10,11 +10,36 @@
     <div class="table-wrap" tabindex="0" role="region" aria-label="<%= content.title %>">
       <table>
         <thead><tr><% heads.forEach(function (h) { %><th scope="col"><%= h %></th><% }) %></tr></thead>
-        <tbody><% content.offers.forEach(function (o) { %><tr><td style="font-weight:800" data-label="<%= heads[0] %>"><%= o[0] %></td><td data-label="<%= heads[1] %>"><%= o[1] %></td><td data-label="<%= heads[2] %>"><%= o[2] %></td></tr><% }) %></tbody>
+        <tbody><% content.offers.forEach(function (o) { %><tr><td style="font-weight:800" data-label="<%= heads[0] %>"><%= o[0] %></td><td data-label="<%= heads[1] %>"><%= o[1] %></td><td data-label="<%= heads[2] %>"><% if (o[3]) { %><a href="<%= url(o[3]) %>" style="font-weight:800"><%= o[2] %></a><% } else { %><%= o[2] %><% } %></td></tr><% }) %></tbody>
       </table>
+    </div>
+    <% if (content.note) { %><p class="muted" style="margin:0;max-width:760px"><%= content.note %></p><% } %>
+  </div>
+</section>
+<% if (content.showBooks && guideCovers.length) { %>
+<section class="section tight" style="padding-top:0">
+  <div class="wrap stack" style="gap:20px">
+    <div class="stack-sm" style="max-width:720px">
+      <h2 class="h2" style="font-size:32px"><%= t('educators.booksTitle') %></h2>
+      <p class="lead"><%= t('educators.booksLead') %></p>
+    </div>
+    <div class="grid-cards">
+      <% guideCovers.forEach(function (b) { %>
+      <div class="card card-pad stack-sm">
+        <a href="<%= url('/educators/guides/' + b.slug) %>"><img src="<%= b.coverSmall || b.cover %>" alt="<%= b.displayTitle %>" loading="lazy" width="360" height="576" style="width:100%;height:auto;border-radius:12px"></a>
+        <h3 class="h3" style="margin:0"><%= b.displayTitle %></h3>
+        <% if (b.valueText) { %><p class="muted" style="margin:0"><%= t('common.value') %>: <%= b.valueText %></p><% } %>
+        <div class="row" style="gap:8px;flex-wrap:wrap">
+          <a class="btn btn-primary" href="<%= url('/educators/guides/' + b.slug) %>"><%= t('educators.bookGuide') %></a>
+          <a class="btn" href="<%= url('/books/' + b.slug + '/read') %>"><%= t('educators.bookRead') %></a>
+          <% if (b.hasVideo) { %><a class="btn" href="<%= url('/books/' + b.slug) %>#read-aloud"><%= t('educators.bookWatch') %></a><% } %>
+        </div>
+      </div>
+      <% }) %>
     </div>
   </div>
 </section>
+<% } %>
 <section class="section tight" style="padding-top:0">
   <div class="wrap" style="max-width:760px">
     <%- include('../partials/enquiry', { kind: content.formKind, formTitle: content.formTitle }) %>

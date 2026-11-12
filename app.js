@@ -601,7 +601,9 @@ router.get('/educators/guides/:slug', (req, res, next) => {
 router.get('/educators/:page', (req, res, next) => {
   if (!EDUCATOR_PAGES.includes(req.params.page)) return next();
   const content = req.h.t('educatorPages.' + req.params.page);
-  page(req, res, 'educator-page', { key: req.params.page, content, seo: { title: content.title, description: content.lead } });
+  const videos = readalouds.slugs();
+  const guideCovers = content.showBooks ? guideBooks().map((b) => ({ ...bookView(b, req.h, req), hasVideo: videos.includes(b.slug) })) : [];
+  page(req, res, 'educator-page', { key: req.params.page, content, guideCovers, seo: { title: content.title, description: content.lead } });
 });
 router.get('/partners', (req, res) => page(req, res, 'partners', { seo: { title: req.h.t('partners.title') } }));
 router.get('/partners/:page', (req, res, next) => {

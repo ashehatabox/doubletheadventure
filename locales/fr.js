@@ -31,6 +31,7 @@ module.exports = {
     privacy: 'Confidentialité',
     thanks: 'Merci ! Vous êtes inscrit.',
     thanksEnquiry: 'Merci ! Nous vous répondrons bientôt.',
+    enquiryNote: 'Nous répondons en 2 jours ouvrables et utilisons vos coordonnées seulement pour vous répondre.',
     error: 'Une erreur s\'est produite. Vérifiez votre courriel et réessayez.',
     englishOnly: 'Ce texte est en anglais pour l\'instant.',
     coverOf: 'Couverture de'
@@ -446,21 +447,28 @@ module.exports = {
     ],
     curriculumTitle: 'Liés à ce que vous enseignez déjà',
     curriculum: [
-      'Programme de la maternelle et du jardin d\'enfants de l\'Ontario : appartenance et contribution, autorégulation et bien-être.',
-      'Comment apprend-on ? : appartenance, bien-être, engagement et expression.'
-    ]
+      { name: 'Programme de la maternelle et du jardin d\'enfants de l\'Ontario (2016)', href: 'https://www.ontario.ca/document/kindergarten-program-2016', text: 'les livres appuient ses quatre domaines : appartenance et contribution, autorégulation et bien-être, manifestation des comportements en littératie et en mathématiques, résolution de problèmes et innovation.' },
+      { text: 'Comment apprend-on ? (la pédagogie de l\'Ontario pour la petite enfance) : appartenance, bien-être, engagement et expression, les quatre fondements des garderies et des centres ON y va.' }
+    ],
+    booksTitle: 'Choisissez un livre, enseignez-le demain',
+    booksLead: 'Chaque livre publié a un guide de lecture gratuit, se lit au tableau de la classe, et la plupart ont une vidéo lue à voix haute.',
+    bookGuide: 'Guide', bookRead: 'Lire au tableau', bookWatch: 'Regarder'
   },
   educatorPages: {
     teachers: {
       title: 'Coin des enseignants',
       lead: 'Une leçon de lecture à voix haute prête pour chaque valeur, liée au programme de maternelle de l\'Ontario.',
       offers: [
-        ['Guide de lecture gratuit par livre', 'Une page à imprimer : avant, pendant et après la lecture, questions de discussion, trois activités, liens au programme de maternelle de l\'Ontario', 'Gratuit, en ligne maintenant (guides de lecture)'],
-        ['Trousse SEL par livre', 'Plan de leçon, cartes de séquence, pages « colorie l\'émotion », refrain à tracer, bricolage, licence de classe', '4,99'],
-        ['Ensembles de classe', '5 à 10 livres par valeur ou par langue', 'Soumission'],
-        ['Ensembles d\'immersion française', 'Les éditions françaises avec guides en français', 'Soumission'],
-        ['Visites d\'auteurs', 'En ligne ou en personne : lecture, refrain, coloriage à rapporter', 'Réservation']
+        ['Guide de lecture gratuit par livre', 'Une page à imprimer : avant, pendant et après la lecture, questions de discussion, trois activités, liens au programme de maternelle de l\'Ontario', 'Gratuit : ouvrir les guides', '/educators/guides'],
+        ['Trousse SEL par livre', 'Plan de leçon, cartes de séquence, pages « colorie l\'émotion », refrain à tracer, bricolage, licence de classe', '4,99 $ CA (bientôt). Gratuite avec chaque ensemble de classe'],
+        ['Ensemble de classe : 5 livres', 'Cinq livres brochés au choix, par valeur ou par langue, avec leurs trousses SEL', '59,99 $ CA, livraison incluse', '/shop'],
+        ['Ensemble de classe : 10 livres', 'Dix livres brochés au choix, avec leurs trousses SEL', '109,99 $ CA, livraison incluse', '/shop'],
+        ['Toute la collection', 'Les 21 livres dans une langue, toutes les trousses SEL', '219,99 $ CA, livraison incluse', '/shop'],
+        ['Ensembles d\'immersion française', 'Tous les ensembles ci-dessus en français, avec les guides en français', 'Mêmes prix que les ensembles ci-dessus', '/shop'],
+        ['Visites d\'auteurs', 'En ligne ou en personne : lecture, refrain, coloriage à rapporter', 'Écrivez-nous avec le formulaire ci-dessous']
       ],
+      note: 'Prix en dollars canadiens, livraison au Canada et aux États-Unis incluse. Livres en français, anglais, espagnol, allemand ou italien. Vous commandez pour plusieurs classes ou tout un conseil scolaire ? Demandez-nous un prix multi-classes.',
+      showBooks: true,
       formKind: 'quote',
       formTitle: 'Demander une soumission ou une visite'
     },
@@ -468,13 +476,16 @@ module.exports = {
       title: 'Petite enfance et garderies',
       lead: 'La plupart des enfants de 3 à 5 ans passent leur journée en service de garde. Chaque livre rejoint Comment apprend-on ? : appartenance, bien-être, engagement et expression.',
       offers: [
-        ['Guide pour le cercle par livre', 'Une page : le fondement visé, 3 questions, un jeu de mouvement, une activité d\'art, le refrain à chanter', 'Gratuit (avec chaque livre)'],
-        ['Ensembles pour les centres', '5 ou 10 livres par fondement', 'Soumission'],
-        ['Prix multi-sites', 'Pour les réseaux de garderies et programmes de petite enfance', 'Soumission'],
-        ['Heures du conte', 'Lecture, refrain et coloriage à rapporter', 'Par séance'],
+        ['Guide pour le cercle par livre', 'Une page : le fondement visé, 3 questions, un jeu de mouvement, une activité d\'art, le refrain à chanter', 'Gratuit : ouvrir les guides', '/educators/guides'],
+        ['Ensemble pour centre : 5 livres', 'Cinq livres brochés par fondement, avec leurs trousses SEL', '59,99 $ CA, livraison incluse', '/shop'],
+        ['Ensemble pour centre : 10 livres', 'Dix livres brochés, avec leurs trousses SEL', '109,99 $ CA, livraison incluse', '/shop'],
+        ['Prix multi-sites', 'Pour les réseaux de garderies et programmes de petite enfance qui commandent pour plusieurs centres', 'Écrivez-nous avec le formulaire ci-dessous'],
+        ['Heures du conte', 'Lecture, refrain et coloriage à rapporter', 'Écrivez-nous avec le formulaire ci-dessous'],
         ['Ensembles commandités', 'Une entreprise locale offre des livres à un centre, avec sa page de dédicace', 'Voir Partenaires']
       ],
       formKind: 'quote',
+      note: 'Prix en dollars canadiens, livraison au Canada et aux États-Unis incluse.',
+      showBooks: true,
       formTitle: 'Demander une soumission ou une heure du conte'
     },
     libraries: {
@@ -483,21 +494,24 @@ module.exports = {
       offers: [
         ['Fiche par livre', 'ISBN, âge, valeur, résumé et critiques', 'Téléchargement gratuit (bientôt)'],
         ['Trousse d\'heure du conte', 'Conseils de lecture, refrain, coloriage', 'Gratuit (avec chaque livre)'],
-        ['Éditions multilingues', 'Français, anglais, espagnol, allemand et italien, pour les succursales qui accueillent des familles nouvellement arrivées', 'Par distributeur ou en direct'],
-        ['Heures du conte', 'En ligne ou en personne', 'Réservation']
+        ['Éditions multilingues', 'Français, anglais, espagnol, allemand et italien, pour les succursales qui accueillent des familles nouvellement arrivées', 'Sur Amazon, ou en direct : 5 livres 59,99 $, 10 livres 109,99 $, les 21 livres 219,99 $ CA', '/shop'],
+        ['Heures du conte', 'En ligne ou en personne', 'Écrivez-nous avec le formulaire ci-dessous']
       ],
+      showBooks: true,
       formKind: 'quote',
       formTitle: 'Nous écrire pour commander ou réserver'
     },
     newcomers: {
       title: 'Nouveaux arrivants et ALS',
-      lead: 'Des histoires qui honorent des valeurs de nombreuses cultures, en cinq langues, pour que les enfants retrouvent une idée familière dans un nouveau pays.',
+      lead: 'Des histoires qui honorent des valeurs de nombreuses cultures, en français, anglais, espagnol, allemand et italien, pour que les enfants retrouvent une idée familière dans un nouveau pays.',
       offers: [
-        ['Ensembles multilingues', 'La même histoire en français ou en anglais et dans une langue d\'origine que nous publions', 'Soumission'],
-        ['Prix pour programmes', 'Pour les organismes d\'établissement, classes d\'ALS et programmes de bibliothèque, avec bons de commande', 'Soumission'],
+        ['Ensembles multilingues', 'La même histoire en français ou en anglais, et en espagnol, allemand ou italien', '2 livres 26,99 $, 5 livres 59,99 $, 10 livres 109,99 $ CA, livraison incluse', '/shop'],
+        ['Vidéos lues à voix haute', 'L\'histoire lue à voix haute, gratuite, sur la page du livre (français et anglais d\'abord)', 'Gratuit'],
+        ['Prix pour programmes', 'Pour les organismes d\'établissement, classes d\'ALS et programmes de bibliothèque, avec bons de commande', 'Écrivez-nous avec le formulaire ci-dessous'],
         ['Notes culturelles', 'Chaque livre explique d\'où vient sa valeur', 'Dans chaque livre']
       ],
       formKind: 'quote',
+      showBooks: true,
       formTitle: 'Demander les prix pour programmes'
     }
   },

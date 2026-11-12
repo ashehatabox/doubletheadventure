@@ -31,6 +31,7 @@ module.exports = {
     privacy: 'Privacy',
     thanks: 'Thank you! You\'re on the list.',
     thanksEnquiry: 'Thank you! We\'ll write back soon.',
+    enquiryNote: 'We reply within 2 business days and only use your details to answer you.',
     error: 'Something went wrong. Please check your email address and try again.',
     englishOnly: 'This text is in English for now.',
     coverOf: 'Cover of'
@@ -446,21 +447,28 @@ module.exports = {
     ],
     curriculumTitle: 'Linked to what you already teach',
     curriculum: [
-      'Ontario Kindergarten Program: Belonging and Contributing, and Self-Regulation and Well-Being.',
-      'How Does Learning Happen?: belonging, well-being, engagement and expression.'
-    ]
+      { name: 'Ontario Kindergarten Program (2016)', href: 'https://www.ontario.ca/document/kindergarten-program-2016', text: 'the books support its four frames: Belonging and Contributing, Self-Regulation and Well-Being, Demonstrating Literacy and Mathematics Behaviours, and Problem Solving and Innovating.' },
+      { text: 'How Does Learning Happen? (Ontario\'s pedagogy for the early years): belonging, well-being, engagement and expression, the four foundations daycares and EarlyON centres plan around.' }
+    ],
+    booksTitle: 'Pick a book, teach it tomorrow',
+    booksLead: 'Every published book has a free read-aloud guide, can be read on the class screen, and most have a read-aloud video.',
+    bookGuide: 'Guide', bookRead: 'Read on screen', bookWatch: 'Watch'
   },
   educatorPages: {
     teachers: {
       title: 'Teacher corner',
       lead: 'A ready read-aloud lesson for every value, linked to Ontario\'s Kindergarten Program.',
       offers: [
-        ['Free read-aloud guide per book', 'One printable page: before, during and after reading, discussion questions, three activities, Ontario Kindergarten links', 'Free, online now (Read-aloud guides)'],
-        ['SEL pack per book', 'Lesson plan, sequencing cards, "color the feeling" pages, refrain tracing, a craft, classroom licence', '4.99'],
-        ['Classroom sets', '5–10 books by value or by language', 'Quote'],
-        ['French immersion sets', 'The French editions with French guides', 'Quote'],
-        ['Author visits', 'Virtual or in person: read-aloud, refrain, a coloring page to take home', 'Booking']
+        ['Free read-aloud guide per book', 'One printable page: before, during and after reading, discussion questions, three activities, Ontario Kindergarten links', 'Free: open the guides', '/educators/guides'],
+        ['SEL pack per book', 'Lesson plan, sequencing cards, "color the feeling" pages, refrain tracing, a craft, classroom licence', '$4.99 CAD (coming soon). Free with every classroom set'],
+        ['Classroom set: 5 books', 'Five paperbacks you choose, by value or by language, plus their SEL packs', '$59.99 CAD, shipping included', '/shop'],
+        ['Classroom set: 10 books', 'Ten paperbacks you choose, plus their SEL packs', '$109.99 CAD, shipping included', '/shop'],
+        ['The whole library', 'All 21 books in one language, every SEL pack', '$219.99 CAD, shipping included', '/shop'],
+        ['French immersion sets', 'Any set above in French, with the French guides', 'Same prices as the sets above', '/shop'],
+        ['Author visits', 'Virtual or in person: read-aloud, refrain, a coloring page to take home', 'Ask us with the form below']
       ],
+      note: 'Prices in Canadian dollars, shipping to Canada and the United States included. Books are English, French, Spanish, German or Italian. Ordering for several classrooms or a whole board? Ask us for a multi-class price.',
+      showBooks: true,
       formKind: 'quote',
       formTitle: 'Ask for a quote or a visit'
     },
@@ -468,13 +476,16 @@ module.exports = {
       title: 'Early years and daycares',
       lead: 'Most 3–5 year olds spend their day in child care. Each book maps onto How Does Learning Happen?: belonging, well-being, engagement and expression.',
       offers: [
-        ['Circle-time guide per book', 'One page: the foundation it supports, 3 questions, a movement game, an art activity, the refrain to sing', 'Free: use the read-aloud guide for each book'],
-        ['Centre sets', '5 or 10 books by foundation', 'Quote'],
-        ['Multi-site pricing', 'For daycare chains and early-years programs', 'Quote'],
-        ['Storytime visits', 'Read-aloud, refrain and a coloring page to take home', 'Per session'],
+        ['Circle-time guide per book', 'One page: the foundation it supports, 3 questions, a movement game, an art activity, the refrain to sing', 'Free: use the read-aloud guide for each book', '/educators/guides'],
+        ['Centre set: 5 books', 'Five paperbacks by foundation, plus their SEL packs', '$59.99 CAD, shipping included', '/shop'],
+        ['Centre set: 10 books', 'Ten paperbacks, plus their SEL packs', '$109.99 CAD, shipping included', '/shop'],
+        ['Multi-site pricing', 'For daycare chains and early-years programs ordering for several centres', 'Ask us with the form below'],
+        ['Storytime visits', 'Read-aloud, refrain and a coloring page to take home', 'Ask us with the form below'],
         ['Sponsored centre sets', 'A local business funds books for a centre, with its dedication page', 'See Partners']
       ],
       formKind: 'quote',
+      note: 'Prices in Canadian dollars, shipping to Canada and the United States included.',
+      showBooks: true,
       formTitle: 'Ask for a quote or a storytime visit'
     },
     libraries: {
@@ -483,21 +494,24 @@ module.exports = {
       offers: [
         ['One-sheet per book', 'ISBN, age, value, summary and reviews', 'Free download (coming soon)'],
         ['Storytime kit', 'Read-aloud tips, the refrain, a coloring page', 'Free (coming with each book)'],
-        ['Multilingual editions', 'English, French, Spanish, German and Italian, for branches serving newcomer families', 'Through distributors or direct'],
-        ['Storytime visits', 'Virtual or in person', 'Booking']
+        ['Multilingual editions', 'English, French, Spanish, German and Italian, for branches serving newcomer families', 'On Amazon, or direct: 5 books $59.99, 10 books $109.99, all 21 $219.99 CAD', '/shop'],
+        ['Storytime visits', 'Virtual or in person', 'Ask us with the form below']
       ],
+      showBooks: true,
       formKind: 'quote',
       formTitle: 'Ask about ordering or a visit'
     },
     newcomers: {
       title: 'Newcomer and ESL programs',
-      lead: 'Stories that honour values from many cultures, in five languages, so children can meet a familiar idea in a new place.',
+      lead: 'Stories that honour values from many cultures, in English, French, Spanish, German and Italian, so children can meet a familiar idea in a new place.',
       offers: [
-        ['Multilingual sets', 'The same story in English or French plus a home language we publish in', 'Quote'],
-        ['Program pricing', 'For settlement agencies, ESL classes and library newcomer programs, with purchase orders', 'Quote'],
+        ['Multilingual sets', 'The same story in English or French plus Spanish, German or Italian', '2 books $26.99, 5 books $59.99, 10 books $109.99 CAD, shipping included', '/shop'],
+        ['Read-aloud videos', 'Hear the story read aloud, free, on the book page (English and French first)', 'Free'],
+        ['Program pricing', 'For settlement agencies, ESL classes and library newcomer programs, with purchase orders', 'Ask us with the form below'],
         ['Cultural notes', 'Each book explains where its value comes from', 'In every book']
       ],
       formKind: 'quote',
+      showBooks: true,
       formTitle: 'Ask for program pricing'
     }
   },

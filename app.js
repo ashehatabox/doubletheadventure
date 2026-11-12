@@ -129,6 +129,28 @@ router.get('/books', (req, res) => {
 router.get('/books/coming', (req, res) => page(req, res, 'coming', { seo: { title: req.h.t('coming.title') } }));
 router.get('/books/review-team', (req, res) => page(req, res, 'review-team', { seo: { title: req.h.t('reviewTeam.title') } }));
 
+// Book page: the first story spread of the online reader (always inside the free sample), or null.
+function readerPreview(slug, lang) {
+  const m = reader.has(slug) ? reader.manifest(slug) : null;
+  if (!m) return null;
+  const l = m.langs.includes(lang) ? lang : (m.langs.includes('en') ? 'en' : m.langs[0]);
+  const spread = m.spreads.find((s, i) => i > 0 && i < reader.settings.sampleSpreads && s.length === 2 && s[0] !== 'p01') || m.spreads[1];
+  if (!spread) return null;
+  return { pages: spread.map((p) => `/reader/${slug}/${l}/${p}.webp`), totalPages: m.spreads.reduce((n, s) => n + s.filter((p) => p !== 'cover').length, 0) };
+}
+// Book page: a short look at the hero guide (portraits, one fact), or null.
+function heroTeaser(slug, h) {
+  const g = heroes.get(slug);
+  if (!heroVisible(g)) return null;
+  const fact = (g.place && g.place.facts || []).find((f) => f.kind === 'wow') || (g.place && g.place.facts || [])[0];
+  return {
+    title: h.pick(g.title), intro: h.pick(g.intro), place: h.pick(g.place && g.place.name),
+    placeImage: heroes.image(slug, g.place && g.place.image),
+    fact: fact ? { title: h.pick(fact.title), text: h.pick(fact.text) } : null,
+    cast: (g.cast || []).map((c) => ({ name: h.pick(c.name), animal: h.pick(c.animal), superpower: h.pick(c.superpower), image: heroes.image(slug, c.image), colour: c.colour }))
+  };
+}
+
 router.get('/books/:slug', (req, res, next) => {
   const b = catalog.get(req.params.slug);
   if (!b) return next();
@@ -144,6 +166,9 @@ router.get('/books/:slug', (req, res, next) => {
     bookArticles: articles.forBook(b.slug, h.lang).slice(0, 6),
     readAloud: readalouds.forBook(b.slug, h.lang),
     readHref: reader.has(b.slug) ? h.url('/books/' + b.slug + '/read') : '',
+    readPreview: readerPreview(b.slug, h.lang),
+    heroTeaser: heroTeaser(b.slug, h),
+    colorPages: play.pages(b.slug),
     readOpen: reader.isOpen(b.slug),
     bookPlay: {
       color: play.pages(b.slug).length > 0,

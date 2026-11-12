@@ -1,1324 +1,1319 @@
 {
-  "book": "the-view-from-down-low",
-  "draft": true,
-  "updated": "2026-11-12",
-  "review": {
-    "factsChecked": "2026-11-12",
-    "culturalReader": true
+ "book": "the-view-from-down-low",
+ "draft": false,
+ "updated": "2026-11-12",
+ "review": {
+  "factsChecked": "2026-11-12",
+  "culturalReader": true
+ },
+ "title": {
+  "en": "Heroes of the Golden Plain"
+ },
+ "seoTitle": {
+  "en": "Heroes of the Golden Plain: the real animals behind The View From Down Low"
+ },
+ "description": {
+  "en": "A giraffe with a 50 cm tongue, meerkat lookouts, a tortoise that might live to 100 and warthogs that eat on their knees. Real facts for kids."
+ },
+ "intro": {
+  "en": "Every animal in The View From Down Low is real, and they all live on the grassy plains of Southern Africa. Here is how they see the world, from very high and very low."
+ },
+ "place": {
+  "name": {
+   "en": "Tswalu Kalahari Reserve, South Africa"
   },
-  "title": {
-    "en": "Heroes of the Golden Plain"
-  },
-  "seoTitle": {
-    "en": "Heroes of the Golden Plain: the real animals behind The View From Down Low"
-  },
-  "description": {
-    "en": "A giraffe with a 50 cm tongue, meerkat lookouts, a tortoise that might live to 100 and warthogs that eat on their knees. Real facts for kids."
-  },
+  "image": "place.jpg",
   "intro": {
-    "en": "Every animal in The View From Down Low is real, and they all live on the grassy plains of Southern Africa. Here is how they see the world, from very high and very low."
+   "en": "The book's golden plain has no name, so we picked a real place where giraffes, meerkats, leopard tortoises, guineafowl and warthogs all live: Tswalu Kalahari Reserve in South Africa."
   },
-  "place": {
-    "name": {
-      "en": "Tswalu Kalahari Reserve, South Africa"
-    },
-    "image": "place.jpg",
-    "intro": {
-      "en": "The book's golden plain has no name, so we picked a real place where giraffes, meerkats, leopard tortoises, guineafowl and warthogs all live: Tswalu Kalahari Reserve in South Africa."
-    },
-    "introSrc": [
-      "tswalu-wildlife",
-      "aws-tswalu"
-    ],
-    "facts": [
-      {
-        "kind": "wow",
-        "title": {
-          "en": "The great thirst"
-        },
-        "text": {
-          "en": "The name Kalahari comes from Tswana words meaning \"the great thirst\" or \"the waterless place\". Tswalu's corner gets more rain, so it's called the green Kalahari."
-        },
-        "src": [
-          "tswalu-info"
-        ]
-      },
-      {
-        "kind": "hidden",
-        "title": {
-          "en": "A new beginning"
-        },
-        "text": {
-          "en": "Tswalu means \"new beginning\". Since the late 1990s, worn-out farmland has been turned back into wild land, about ten times bigger than it started."
-        },
-        "src": [
-          "longrun",
-          "shore"
-        ]
-      },
-      {
-        "kind": "wow",
-        "title": {
-          "en": "South Africa's biggest"
-        },
-        "text": {
-          "en": "At more than 114,000 hectares, it's the largest private game reserve in South Africa."
-        },
-        "src": [
-          "shore"
-        ]
-      },
-      {
-        "kind": "hidden",
-        "title": {
-          "en": "Ancient art"
-        },
-        "text": {
-          "en": "The southern Kalahari is the ancestral home of the San people, and the reserve protects old rock engravings."
-        },
-        "src": [
-          "tswalu-guide"
-        ]
-      },
-      {
-        "kind": "ha",
-        "title": {
-          "en": "Red dunes and old mountains"
-        },
-        "text": {
-          "en": "Red sand dunes roll across the reserve, and the ancient Korannaberg mountains run through the middle."
-        },
-        "src": [
-          "tswalu-guide"
-        ]
-      }
-    ],
-    "map": {
-      "lat": -27.243,
-      "lon": 22.405,
-      "zoom": 10,
-      "region": [
-        4,
-        -36,
-        34,
-        -16
-      ],
-      "highlight": [
-        710
-      ],
-      "label": {
-        "en": "Tswalu, South Africa"
-      },
-      "text": {
-        "en": "A huge reserve of red dunes, grassland and mountains in South Africa's Northern Cape, in the southern Kalahari."
-      },
-      "src": [
-        "wiki-tswalu",
-        "tswalu-guide"
-      ],
-      "areaNote": {
-        "en": "Yellow: South Africa."
-      },
-      "pin": [
-        61.35,
-        54.04
-      ],
-      "aspect": 1.3378
-    }
-  },
-  "cast": [
-    {
-      "id": "langa",
-      "role": "hero",
-      "colour": "sun",
-      "name": {
-        "en": "Langa"
-      },
-      "animal": {
-        "en": "Giraffe"
-      },
-      "image": "langa.jpg",
-      "job": {
-        "en": "The tallest one, learning to see what's down low"
-      },
-      "superpower": {
-        "en": "A tongue as long as your arm"
-      },
-      "lineup": {
-        "weight": {
-          "en": "bulls up to about 1,360 kg"
-        },
-        "grams": 1000000,
-        "like": {
-          "en": "a small car"
-        },
-        "awake": "day"
-      },
-      "card": [
-        {
-          "label": {
-            "en": "Height"
-          },
-          "value": {
-            "en": "Males 4.6–6 m tall; a newborn is already about 1.8 m"
-          },
-          "src": [
-            "fresno-giraffe",
-            "gcf-baby"
-          ]
-        },
-        {
-          "label": {
-            "en": "Weight"
-          },
-          "value": {
-            "en": "Bulls up to about 1,360 kg; newborns about 65 kg"
-          },
-          "src": [
-            "sgn",
-            "gcf-baby"
-          ]
-        },
-        {
-          "label": {
-            "en": "Lives"
-          },
-          "value": {
-            "en": "About 25 years in the wild"
-          },
-          "src": [
-            "fresno-giraffe"
-          ]
-        },
-        {
-          "label": {
-            "en": "Eats"
-          },
-          "value": {
-            "en": "Leaves and shoots, especially from thorny acacia trees"
-          },
-          "src": [
-            "gcf-tongue",
-            "fresno-giraffe"
-          ]
-        },
-        {
-          "label": {
-            "en": "Home"
-          },
-          "value": {
-            "en": "Open savanna and woodland in Africa, including the Kalahari"
-          },
-          "src": [
-            "tswalu-wildlife"
-          ]
-        },
-        {
-          "label": {
-            "en": "Family"
-          },
-          "value": {
-            "en": "Moms give birth standing up; calves can stand within an hour"
-          },
-          "src": [
-            "gcf-baby"
-          ]
-        }
-      ],
-      "life": [
-        {
-          "title": {
-            "en": "A thorn-proof tongue"
-          },
-          "text": {
-            "en": "A giraffe's tongue is 45–50 cm long and can grab. It's dark blue-black, which may protect it from sunburn, and thick spit guards against thorns."
-          },
-          "src": [
-            "gcf-tongue",
-            "pbs"
-          ]
-        },
-        {
-          "title": {
-            "en": "The giraffe haircut"
-          },
-          "text": {
-            "en": "Giraffes nibble trees so evenly that they leave a flat 'browse line' at about 4–5.5 m high. That's the highest they can reach!"
-          },
-          "src": [
-            "sdz-giraffe-diet"
-          ]
-        },
-        {
-          "title": {
-            "en": "Bending down is hard"
-          },
-          "text": {
-            "en": "To drink, a giraffe has to splay its front legs wide or bend its knees. Special valves in its neck stop blood rushing to its head."
-          },
-          "src": [
-            "bristol"
-          ]
-        },
-        {
-          "title": {
-            "en": "Same neck bones as you"
-          },
-          "text": {
-            "en": "A giraffe's neck has just seven bones, the same number as yours. Each one is just much, much longer."
-          },
-          "src": [
-            "perth"
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "kind": "wow",
-          "title": {
-            "en": "A two-metre welcome"
-          },
-          "text": {
-            "en": "Giraffe moms give birth standing up, so the baby drops about 2 metres to the ground. Ouch! But within an hour it's standing."
-          },
-          "src": [
-            "gcf-baby"
-          ]
-        },
-        {
-          "kind": "hidden",
-          "title": {
-            "en": "Spots like fingerprints"
-          },
-          "text": {
-            "en": "No two giraffes have the same pattern. Each giraffe's patches are as unique as human fingerprints."
-          },
-          "src": [
-            "pbs"
-          ]
-        },
-        {
-          "kind": "ha",
-          "title": {
-            "en": "Not silent after all"
-          },
-          "text": {
-            "en": "People once thought giraffes were silent, but they make a soft mooing sound, especially with their calves."
-          },
-          "src": [
-            "fresno-giraffe"
-          ]
-        },
-        {
-          "kind": "wow",
-          "title": {
-            "en": "Super pump"
-          },
-          "text": {
-            "en": "Giraffes have the highest known blood pressure of any animal, to push blood all the way up that long neck."
-          },
-          "src": [
-            "fresno-giraffe"
-          ]
-        },
-        {
-          "kind": "uhoh",
-          "title": {
-            "en": "Trees fight back"
-          },
-          "text": {
-            "en": "When giraffes browse an acacia, the tree can grow longer thorns and make its leaves taste more bitter!"
-          },
-          "src": [
-            "sdz-giraffe-diet"
-          ]
-        }
-      ],
-      "storyVsReal": {
-        "en": "Real giraffes really do have trouble bending down: it's a wobbly, risky move. But a giraffe's horns, called ossicones, are real, and its heart-shaped neck patch is our artist's idea."
-      },
-      "storyVsRealSrc": [
-        "bristol",
-        "pbs"
-      ]
-    },
-    {
-      "id": "themba",
-      "role": "friend",
-      "colour": "peach",
-      "name": {
-        "en": "Themba"
-      },
-      "animal": {
-        "en": "Meerkat"
-      },
-      "image": "themba.jpg",
-      "job": {
-        "en": "The small friend who shows Langa the view from down low"
-      },
-      "superpower": {
-        "en": "Takes turns as lookout"
-      },
-      "lineup": {
-        "weight": {
-          "en": "about 720–731 g"
-        },
-        "grams": 725,
-        "like": {
-          "en": "a pineapple... a small one"
-        },
-        "awake": "day"
-      },
-      "card": [
-        {
-          "label": {
-            "en": "Length"
-          },
-          "value": {
-            "en": "24.5–29 cm, plus a 19–24 cm tail"
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        },
-        {
-          "label": {
-            "en": "Weight"
-          },
-          "value": {
-            "en": "About 720–731 g on average"
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        },
-        {
-          "label": {
-            "en": "Lives"
-          },
-          "value": {
-            "en": "5–15 years in the wild"
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        },
-        {
-          "label": {
-            "en": "Eats"
-          },
-          "value": {
-            "en": "Mostly insects (about 82%), and even scorpions"
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        },
-        {
-          "label": {
-            "en": "Home"
-          },
-          "value": {
-            "en": "Burrow systems; up to 5 in one family's range"
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        },
-        {
-          "label": {
-            "en": "Family"
-          },
-          "value": {
-            "en": "Mobs of 2 to 50; usually only the top mom and dad have pups"
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        }
-      ],
-      "life": [
-        {
-          "title": {
-            "en": "On guard!"
-          },
-          "text": {
-            "en": "While the mob digs for food, one meerkat stands on a high point as sentinel and calls out when danger comes."
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        },
-        {
-          "title": {
-            "en": "Babysitter club"
-          },
-          "text": {
-            "en": "Grown-ups who aren't parents help raise the pups, bringing them food and staying at the den to guard them."
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        },
-        {
-          "title": {
-            "en": "Belly sunbathing"
-          },
-          "text": {
-            "en": "On cold mornings meerkats lie on their backs to warm their tummies in the sun. When it's hot, they stretch out in the shade."
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "kind": "uhoh",
-          "title": {
-            "en": "Eagles from the sky"
-          },
-          "text": {
-            "en": "Jackals, martial eagles and tawny eagles are a meerkat's most dangerous enemies. That's why the lookout always watches the sky."
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        },
-        {
-          "kind": "wow",
-          "title": {
-            "en": "Big litters"
-          },
-          "text": {
-            "en": "A meerkat mom has 3 to 7 pups at a time, usually about 4."
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        },
-        {
-          "kind": "ha",
-          "title": {
-            "en": "Dark sunglasses"
-          },
-          "text": {
-            "en": "Meerkats have black rings around their big eyes."
-          },
-          "src": [
-            "adw-meerkat"
-          ]
-        },
-        {
-          "kind": "hidden",
-          "title": {
-            "en": "Meet them at Tswalu"
-          },
-          "text": {
-            "en": "Tswalu has two meerkat families so used to people that visitors can sit and watch them close up."
-          },
-          "src": [
-            "aws-tswalu"
-          ]
-        }
-      ],
-      "storyVsReal": {
-        "en": "Real meerkats really do stand up tall to see further, just like Themba. But they don't wear grass hats! And real meerkats almost never hang out with giraffes."
-      },
-      "storyVsRealSrc": [
-        "adw-meerkat"
-      ]
-    },
-    {
-      "id": "kulu",
-      "role": "supporting",
-      "colour": "mint",
-      "name": {
-        "en": "Kulu"
-      },
-      "animal": {
-        "en": "Leopard tortoise"
-      },
-      "image": "kulu.jpg",
-      "job": {
-        "en": "The slow, wise friend at the waterhole"
-      },
-      "superpower": {
-        "en": "May live to 100"
-      },
-      "lineup": {
-        "weight": {
-          "en": "18–54 kg"
-        },
-        "grams": 30000,
-        "like": {
-          "en": "a big suitcase"
-        },
-        "awake": "day"
-      },
-      "card": [
-        {
-          "label": {
-            "en": "Length"
-          },
-          "value": {
-            "en": "Shell 40–70 cm long"
-          },
-          "src": [
-            "azanimals-tortoise"
-          ]
-        },
-        {
-          "label": {
-            "en": "Weight"
-          },
-          "value": {
-            "en": "18–54 kg"
-          },
-          "src": [
-            "azanimals-tortoise"
-          ]
-        },
-        {
-          "label": {
-            "en": "Lives"
-          },
-          "value": {
-            "en": "50–100 years"
-          },
-          "src": [
-            "azanimals-tortoise",
-            "lvzoo"
-          ]
-        },
-        {
-          "label": {
-            "en": "Eats"
-          },
-          "value": {
-            "en": "Grasses, succulents, thistles and fruit"
-          },
-          "src": [
-            "lvzoo"
-          ]
-        },
-        {
-          "label": {
-            "en": "Home"
-          },
-          "value": {
-            "en": "Dry savannas; shelters in old burrows dug by other animals"
-          },
-          "src": [
-            "lvzoo",
-            "southwicks2"
-          ]
-        },
-        {
-          "label": {
-            "en": "Family"
-          },
-          "value": {
-            "en": "Lives alone; mom lays 5–30 eggs in a hole"
-          },
-          "src": [
-            "lvzoo"
-          ]
-        }
-      ],
-      "life": [
-        {
-          "title": {
-            "en": "The fourth biggest"
-          },
-          "text": {
-            "en": "Leopard tortoises are the fourth largest tortoises in the world, named for the spots on their shell."
-          },
-          "src": [
-            "southwicks"
-          ]
-        },
-        {
-          "title": {
-            "en": "Borrowed homes"
-          },
-          "text": {
-            "en": "They don't dig, except to lay eggs. To escape heat or cold they hide in burrows left by other animals."
-          },
-          "src": [
-            "southwicks2"
-          ]
-        },
-        {
-          "title": {
-            "en": "Tiny babies"
-          },
-          "text": {
-            "en": "Hatchlings weigh just 23–50 g and are 4–5 cm long. Mom digs the nest, then stamps the soil down with her belly."
-          },
-          "src": [
-            "sa-tortoise"
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "kind": "wow",
-          "title": {
-            "en": "The world's longest wait"
-          },
-          "text": {
-            "en": "Leopard tortoise eggs take 240 to 400 days to hatch. That's up to more than a year!"
-          },
-          "src": [
-            "lvzoo"
-          ]
-        },
-        {
-          "kind": "ha",
-          "title": {
-            "en": "Bone snacks"
-          },
-          "text": {
-            "en": "Leopard tortoises sometimes gnaw old bones and even hyena droppings, probably for the calcium their shells need."
-          },
-          "src": [
-            "kruger-tortoise"
-          ]
-        },
-        {
-          "kind": "hidden",
-          "title": {
-            "en": "Armour for life"
-          },
-          "text": {
-            "en": "Adults are so big that few predators can bite through the shell. Their eggs and babies are the ones in danger."
-          },
-          "src": [
-            "lvzoo"
-          ]
-        }
-      ],
-      "storyVsReal": {
-        "en": "Real leopard tortoises really are slow and steady. The acacia leaf stuck on Kulu's shell is our artist's idea, though one could easily get stuck there!"
-      },
-      "storyVsRealSrc": [
-        "lvzoo"
-      ]
-    },
-    {
-      "id": "chicks",
-      "role": "supporting",
-      "colour": "lilac",
-      "name": {
-        "en": "The three chicks"
-      },
-      "animal": {
-        "en": "Helmeted guineafowl keets"
-      },
-      "image": "chicks.jpg",
-      "job": {
-        "en": "Little ones who can't reach the pods"
-      },
-      "superpower": {
-        "en": "Walking and feeding a few hours after hatching"
-      },
-      "lineup": {
-        "weight": {
-          "en": "adults 1.3–1.6 kg"
-        },
-        "grams": 1450,
-        "like": {
-          "en": "a big bag of flour"
-        },
-        "awake": "day"
-      },
-      "card": [
-        {
-          "label": {
-            "en": "Weight"
-          },
-          "value": {
-            "en": "Adults 1.3–1.6 kg"
-          },
-          "src": [
-            "sydneyzoo"
-          ]
-        },
-        {
-          "label": {
-            "en": "Lives"
-          },
-          "value": {
-            "en": "10–15 years"
-          },
-          "src": [
-            "sydneyzoo"
-          ]
-        },
-        {
-          "label": {
-            "en": "Eats"
-          },
-          "value": {
-            "en": "Seeds, insects, ticks, worms, even small lizards"
-          },
-          "src": [
-            "adw-gf",
-            "clemetzoo-gf"
-          ]
-        },
-        {
-          "label": {
-            "en": "Home"
-          },
-          "value": {
-            "en": "Open savanna; the flock roosts in trees at night"
-          },
-          "src": [
-            "nzbo-gf"
-          ]
-        },
-        {
-          "label": {
-            "en": "Family"
-          },
-          "value": {
-            "en": "Flocks of up to 200; both parents care for the keets"
-          },
-          "src": [
-            "savenues-gf",
-            "adw-gf"
-          ]
-        },
-        {
-          "label": {
-            "en": "Babies"
-          },
-          "value": {
-            "en": "6–12 eggs, hatching after about 30 days"
-          },
-          "src": [
-            "safariwest-gf",
-            "adw-gf"
-          ]
-        }
-      ],
-      "life": [
-        {
-          "title": {
-            "en": "Keets on the go"
-          },
-          "text": {
-            "en": "Baby guineafowl are called keets. They start feeding with the flock just a few hours after hatching."
-          },
-          "src": [
-            "safariwest-gf",
-            "sydneyzoo"
-          ]
-        },
-        {
-          "title": {
-            "en": "Day shift, night shift"
-          },
-          "text": {
-            "en": "For the first two weeks, mom keeps the keets warm at night and dad takes the day shift."
-          },
-          "src": [
-            "adw-gf"
-          ]
-        },
-        {
-          "title": {
-            "en": "Flying in four weeks"
-          },
-          "text": {
-            "en": "Keets can fly at about four weeks old and stay with their parents for a while after."
-          },
-          "src": [
-            "adw-gf"
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "kind": "ha",
-          "title": {
-            "en": "The savanna alarm"
-          },
-          "text": {
-            "en": "When danger comes, the whole flock shouts a loud rattling \"kek-kek-kek-krrrrr\" that gets faster and faster."
-          },
-          "src": [
-            "adw-gf"
-          ]
-        },
-        {
-          "kind": "hidden",
-          "title": {
-            "en": "Stones in the tummy"
-          },
-          "text": {
-            "en": "Guineafowl swallow little pebbles. The stones help grind up their food in their gizzard."
-          },
-          "src": [
-            "adw-gf"
-          ]
-        },
-        {
-          "kind": "wow",
-          "title": {
-            "en": "Tick patrol"
-          },
-          "text": {
-            "en": "Guineafowl eat lots of ticks, so farmers love having them around."
-          },
-          "src": [
-            "clemetzoo-gf"
-          ]
-        }
-      ],
-      "storyVsReal": {
-        "en": "Real keets are striped brown and grey, not spotted like grown-ups. They'd also stay right by their parents, and the crooked little crest is our artist's idea."
-      },
-      "storyVsRealSrc": [
-        "adw-gf"
-      ]
-    },
-    {
-      "id": "warthogs",
-      "role": "supporting",
-      "colour": "sky",
-      "name": {
-        "en": "The warthog twins"
-      },
-      "animal": {
-        "en": "Common warthog"
-      },
-      "image": "warthogs.jpg",
-      "job": {
-        "en": "Muddy-nosed twins who need things low"
-      },
-      "superpower": {
-        "en": "Knee pads they're born with"
-      },
-      "lineup": {
-        "weight": {
-          "en": "50–150 kg"
-        },
-        "grams": 75000,
-        "like": {
-          "en": "a grown-up person"
-        },
-        "awake": "day"
-      },
-      "card": [
-        {
-          "label": {
-            "en": "Height"
-          },
-          "value": {
-            "en": "63–85 cm at the shoulder"
-          },
-          "src": [
-            "safariwest-wh"
-          ]
-        },
-        {
-          "label": {
-            "en": "Weight"
-          },
-          "value": {
-            "en": "50–150 kg"
-          },
-          "src": [
-            "safariwest-wh"
-          ]
-        },
-        {
-          "label": {
-            "en": "Lives"
-          },
-          "value": {
-            "en": "7–10 years in the wild, sometimes up to 18"
-          },
-          "src": [
-            "safariwest-wh"
-          ]
-        },
-        {
-          "label": {
-            "en": "Eats"
-          },
-          "value": {
-            "en": "Grass, plus roots and bulbs they dig up with their snout"
-          },
-          "src": [
-            "safariwest-wh",
-            "hluhluwe"
-          ]
-        },
-        {
-          "label": {
-            "en": "Home"
-          },
-          "value": {
-            "en": "Burrows, often old aardvark holes"
-          },
-          "src": [
-            "wildlifesafari-wh"
-          ]
-        },
-        {
-          "label": {
-            "en": "Family"
-          },
-          "value": {
-            "en": "Moms have 1–8 piglets, usually 2 or 3"
-          },
-          "src": [
-            "sdz-warthog"
-          ]
-        }
-      ],
-      "life": [
-        {
-          "title": {
-            "en": "Eating on their knees"
-          },
-          "text": {
-            "en": "Warthogs kneel on their front legs to graze. The knee pads they use are already there before they're born!"
-          },
-          "src": [
-            "fresno-warthog"
-          ]
-        },
-        {
-          "title": {
-            "en": "Backing in"
-          },
-          "text": {
-            "en": "Piglets run into the burrow head first, but adults spin around and back in, so their tusks face the door."
-          },
-          "src": [
-            "wildlifesafari-wh"
-          ]
-        },
-        {
-          "title": {
-            "en": "Tails up, follow me!"
-          },
-          "text": {
-            "en": "When a family runs, their tails stand straight up like flags, so they can keep together in long grass."
-          },
-          "src": [
-            "hluhluwe"
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "kind": "wow",
-          "title": {
-            "en": "Fast pigs"
-          },
-          "text": {
-            "en": "A startled warthog can run up to 50 km/h."
-          },
-          "src": [
-            "africageo-wh"
-          ]
-        },
-        {
-          "kind": "ha",
-          "title": {
-            "en": "Mud spa"
-          },
-          "text": {
-            "en": "Warthogs roll in mud to cool off and keep biting insects away."
-          },
-          "src": [
-            "safariwest-wh",
-            "fresno-warthog"
-          ]
-        },
-        {
-          "kind": "hidden",
-          "title": {
-            "en": "Water optional"
-          },
-          "text": {
-            "en": "Warthogs don't need to drink often, but they will if water is around."
-          },
-          "src": [
-            "wildlifesafari-wh"
-          ]
-        }
-      ],
-      "storyVsReal": {
-        "en": "Real warthog piglets often have siblings born at the same time, so twins are very believable. One muddy nose? Also very believable!"
-      },
-      "storyVsRealSrc": [
-        "sdz-warthog",
-        "safariwest-wh"
-      ]
-    }
+  "introSrc": [
+   "tswalu-wildlife",
+   "aws-tswalu"
   ],
-  "activities": [
-    {
-      "title": {
-        "en": "Down low walk"
-      },
-      "text": {
-        "en": "Crouch down to a toddler's height and walk around your home. What can't you see from down there?"
-      }
+  "facts": [
+   {
+    "kind": "wow",
+    "title": {
+     "en": "The great thirst"
     },
-    {
-      "title": {
-        "en": "Up high look"
-      },
-      "text": {
-        "en": "Stand on a safe step with a grown-up. What new things can you see from up high?"
-      }
+    "text": {
+     "en": "The name Kalahari comes from Tswana words meaning \"the great thirst\" or \"the waterless place\". Tswalu's corner gets more rain, so it's called the green Kalahari."
     },
-    {
-      "title": {
-        "en": "Meerkat lookout"
-      },
-      "text": {
-        "en": "Take turns being the lookout while others play. Call out \"kek-kek!\" if you spot the 'eagle' (a grown-up)."
-      }
+    "src": [
+     "tswalu-info"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "A new beginning"
     },
-    {
-      "title": {
-        "en": "Giraffe tongue"
-      },
-      "text": {
-        "en": "Measure 45 cm on a string. That's how long a giraffe's tongue is! Is it longer than your arm?"
-      }
+    "text": {
+     "en": "Tswalu means \"new beginning\". Since the late 1990s, worn-out farmland has been turned back into wild land, about ten times bigger than it started."
     },
-    {
-      "title": {
-        "en": "Find the Kalahari"
-      },
-      "text": {
-        "en": "Find South Africa on a map, then the Kalahari in the north-west of the country."
-      }
-    }
+    "src": [
+     "longrun",
+     "shore"
+    ]
+   },
+   {
+    "kind": "wow",
+    "title": {
+     "en": "South Africa's biggest"
+    },
+    "text": {
+     "en": "At more than 114,000 hectares, it's the largest private game reserve in South Africa."
+    },
+    "src": [
+     "shore"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "Ancient art"
+    },
+    "text": {
+     "en": "The southern Kalahari is the ancestral home of the San people, and the reserve protects old rock engravings."
+    },
+    "src": [
+     "tswalu-guide"
+    ]
+   },
+   {
+    "kind": "ha",
+    "title": {
+     "en": "Red dunes and old mountains"
+    },
+    "text": {
+     "en": "Red sand dunes roll across the reserve, and the ancient Korannaberg mountains run through the middle."
+    },
+    "src": [
+     "tswalu-guide"
+    ]
+   }
   ],
-  "faq": [
-    {
-      "q": {
-        "en": "Are the animals in The View From Down Low real?"
-      },
-      "a": {
-        "en": "Yes. Giraffes, meerkats, leopard tortoises, helmeted guineafowl and warthogs all live in Southern Africa. Each hero file tells you what we changed for the story."
-      }
-    },
-    {
-      "q": {
-        "en": "Why can't giraffes bend down easily?"
-      },
-      "a": {
-        "en": "Their necks are too short to reach the ground, so they must splay their front legs or bend their knees. Special valves protect their brain from a rush of blood."
-      },
-      "src": [
-        "bristol"
-      ]
-    },
-    {
-      "q": {
-        "en": "Do meerkats really take turns keeping watch?"
-      },
-      "a": {
-        "en": "Yes. One meerkat usually stands guard on a high spot while the others feed."
-      },
-      "src": [
-        "adw-meerkat"
-      ]
-    },
-    {
-      "q": {
-        "en": "Can I see meerkats in the wild?"
-      },
-      "a": {
-        "en": "Yes. At Tswalu, two meerkat families are used to people, so visitors can watch them quietly up close."
-      },
-      "src": [
-        "aws-tswalu"
-      ]
-    }
-  ],
-  "sources": {
-    "gcf-tongue": {
-      "name": "Giraffe Conservation Foundation",
-      "title": "How long is a giraffe's tongue? What color is it?",
-      "url": "https://giraffeconservation.org/facts-about-giraffe/how-long-is-a-giraffes-tongue-what-color-is-it/"
-    },
-    "gcf-baby": {
-      "name": "Giraffe Conservation Foundation",
-      "title": "FAQs about baby giraffe",
-      "url": "https://giraffeconservation.org/facts-about-giraffe/faqs-about-baby-giraffe/"
-    },
-    "fresno-giraffe": {
-      "name": "Fresno Chaffee Zoo",
-      "title": "Reticulated giraffe",
-      "url": "https://fresnochaffeezoo.org/?p=498"
-    },
-    "sgn": {
-      "name": "Save Giraffes Now",
-      "title": "The science of living large",
-      "url": "https://savegiraffesnow.org/?p=1610"
-    },
-    "bristol": {
-      "name": "Bristol Zoo Project",
-      "title": "7 amazing facts about giraffes",
-      "url": "https://bristolzoo.org.uk/news/7-amazing-facts-about-giraffes"
-    },
-    "perth": {
-      "name": "Perth Zoo",
-      "title": "Giraffe",
-      "url": "https://perthzoo.wa.gov.au/animal/Giraffe"
-    },
-    "pbs": {
-      "name": "PBS Nature (with San Diego Zoo)",
-      "title": "Giraffe fact sheet",
-      "url": "https://www.pbs.org/wnet/nature/blog/giraffe-fact-sheet"
-    },
-    "sdz-giraffe-diet": {
-      "name": "San Diego Zoo Wildlife Alliance Library",
-      "title": "Giraffes fact sheet: diet",
-      "url": "https://ielc.libguides.com/sdzg/factsheets/giraffes/diet"
-    },
-    "adw-meerkat": {
-      "name": "Animal Diversity Web, University of Michigan",
-      "title": "Suricata suricatta (meerkat)",
-      "url": "https://animaldiversity.org/accounts/Suricata_suricatta/"
-    },
-    "southwicks": {
-      "name": "Southwick's Zoo",
-      "title": "Leopard tortoise",
-      "url": "https://southwickszoo.com/our-animals/leopard-tortoise/"
-    },
-    "southwicks2": {
-      "name": "Southwick's Zoo",
-      "title": "Leopard tortoise: shelter",
-      "url": "https://southwickszoo.com/?p=49467"
-    },
-    "lvzoo": {
-      "name": "Lehigh Valley Zoo",
-      "title": "Leopard tortoise",
-      "url": "https://lvzoo.org/?p=4971"
-    },
-    "kruger-tortoise": {
-      "name": "Kruger National Park (krugerpark.co.za)",
-      "title": "Leopard tortoise",
-      "url": "https://krugerpark.co.za/africa_leopard_tortoise.html"
-    },
-    "sa-tortoise": {
-      "name": "SouthAfrica.co.za",
-      "title": "Leopard tortoise",
-      "url": "https://southafrica.co.za/leopard-tortoise.html"
-    },
-    "azanimals-tortoise": {
-      "name": "A-Z Animals",
-      "title": "Leopard tortoise",
-      "url": "https://a-z-animals.com/animals/leopard-tortoise/"
-    },
-    "sydneyzoo": {
-      "name": "Sydney Zoo",
-      "title": "Helmeted guineafowl",
-      "url": "https://sydneyzoo.com/animal/helmeted-guineafowl"
-    },
-    "safariwest-gf": {
-      "name": "Safari West",
-      "title": "Helmeted guineafowl",
-      "url": "https://safariwest.org/?p=621"
-    },
-    "adw-gf": {
-      "name": "Animal Diversity Web, University of Michigan",
-      "title": "Numida meleagris (helmeted guineafowl)",
-      "url": "https://animaldiversity.org/accounts/Numida%20meleagris"
-    },
-    "savenues-gf": {
-      "name": "SA-Venues",
-      "title": "The helmeted guineafowl",
-      "url": "https://www.sa-venues.com/wildlife/birds_helmeted_guineafowl.php"
-    },
-    "nzbo-gf": {
-      "name": "New Zealand Birds Online",
-      "title": "Helmeted guineafowl",
-      "url": "https://nzbirdsonline.org.nz/species/helmeted-guineafowl"
-    },
-    "clemetzoo-gf": {
-      "name": "Cleveland Metroparks Zoo",
-      "title": "Helmeted guineafowl",
-      "url": "https://resourcelibrary.clemetzoo.com/Animal/1257"
-    },
-    "safariwest-wh": {
-      "name": "Safari West",
-      "title": "Warthog",
-      "url": "https://safariwest.org/?p=649"
-    },
-    "sdz-warthog": {
-      "name": "San Diego Zoo Wildlife Alliance Library",
-      "title": "Common warthog fact sheet",
-      "url": "https://ielc.libguides.com/sdzg/factsheets/warthog_common"
-    },
-    "fresno-warthog": {
-      "name": "Fresno Chaffee Zoo",
-      "title": "Warthog",
-      "url": "https://fresnochaffeezoo.org/?p=446"
-    },
-    "wildlifesafari-wh": {
-      "name": "Wildlife Safari Info",
-      "title": "Warthog",
-      "url": "https://wildlifesafari.info/?p=63"
-    },
-    "africageo-wh": {
-      "name": "Africa Geographic",
-      "title": "Warthog facts you need to know",
-      "url": "https://africageographic.com/stories/warthog-facts-you-need-to-know/"
-    },
-    "hluhluwe": {
-      "name": "Hluhluwe Game Reserve",
-      "title": "Warthog facts",
-      "url": "https://www.hluhluwegamereserve.com/warthog-facts/"
-    },
-    "tswalu-wildlife": {
-      "name": "Tswalu Kalahari Reserve",
-      "title": "Wildlife sightings",
-      "url": "https://tswalu.com/wildlife/"
-    },
-    "tswalu-guide": {
-      "name": "Tswalu Kalahari Reserve",
-      "title": "Guest information guide (2026)",
-      "url": "https://tswalu.com/wp-content/uploads/2026/08/TSW_GUEST_INFORMATION_GUIDE_20260824.pdf"
-    },
-    "tswalu-info": {
-      "name": "Tswalu Kalahari Reserve",
-      "title": "Information guide (2026)",
-      "url": "https://tswalu.com/wp-content/uploads/2026/05/TSW_INFO_GUIDE_20260515.pdf"
-    },
-    "aws-tswalu": {
-      "name": "African Wildlife Safaris",
-      "title": "Tswalu Kalahari",
-      "url": "https://www.africanwildlifesafaris.com/destinations/africa/south-africa/malaria-free-game-reserves/tswalu-kalahari/"
-    },
-    "shore": {
-      "name": "Shore Africa",
-      "title": "Oppenheimer family's Tswalu builds conservation legacy",
-      "url": "https://shore.africa/?p=29982"
-    },
-    "longrun": {
-      "name": "The Long Run",
-      "title": "Tswalu Kalahari",
-      "url": "https://archive.thelongrun.org/?p=11479"
-    },
-    "wiki-tswalu": {
-      "name": "Wikipedia",
-      "title": "Tswalu Kalahari Reserve",
-      "url": "https://wikipedia.com/wiki/Tswalu_Kalahari_Reserve"
-    }
+  "map": {
+   "lat": -27.243,
+   "lon": 22.405,
+   "zoom": 10,
+   "region": [
+    4,
+    -36,
+    34,
+    -16
+   ],
+   "highlight": [
+    710
+   ],
+   "label": {
+    "en": "Tswalu, South Africa"
+   },
+   "text": {
+    "en": "A huge reserve of red dunes, grassland and mountains in South Africa's Northern Cape, in the southern Kalahari."
+   },
+   "src": [
+    "wiki-tswalu",
+    "tswalu-guide"
+   ],
+   "areaNote": {
+    "en": "Yellow: South Africa."
+   }
   }
+ },
+ "cast": [
+  {
+   "id": "langa",
+   "role": "hero",
+   "colour": "sun",
+   "name": {
+    "en": "Langa"
+   },
+   "animal": {
+    "en": "Giraffe"
+   },
+   "image": "langa.jpg",
+   "job": {
+    "en": "The tallest one, learning to see what's down low"
+   },
+   "superpower": {
+    "en": "A tongue as long as your arm"
+   },
+   "lineup": {
+    "weight": {
+     "en": "bulls up to about 1,360 kg"
+    },
+    "grams": 1000000,
+    "like": {
+     "en": "a small car"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Height"
+     },
+     "value": {
+      "en": "Males 4.6–6 m tall; a newborn is already about 1.8 m"
+     },
+     "src": [
+      "fresno-giraffe",
+      "gcf-baby"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Bulls up to about 1,360 kg; newborns about 65 kg"
+     },
+     "src": [
+      "sgn",
+      "gcf-baby"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "About 25 years in the wild"
+     },
+     "src": [
+      "fresno-giraffe"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Leaves and shoots, especially from thorny acacia trees"
+     },
+     "src": [
+      "gcf-tongue",
+      "fresno-giraffe"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Open savanna and woodland in Africa, including the Kalahari"
+     },
+     "src": [
+      "tswalu-wildlife"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Moms give birth standing up; calves can stand within an hour"
+     },
+     "src": [
+      "gcf-baby"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "A thorn-proof tongue"
+     },
+     "text": {
+      "en": "A giraffe's tongue is 45–50 cm long and can grab. It's dark blue-black, which may protect it from sunburn, and thick spit guards against thorns."
+     },
+     "src": [
+      "gcf-tongue",
+      "pbs"
+     ]
+    },
+    {
+     "title": {
+      "en": "The giraffe haircut"
+     },
+     "text": {
+      "en": "Giraffes nibble trees so evenly that they leave a flat 'browse line' at about 4–5.5 m high. That's the highest they can reach!"
+     },
+     "src": [
+      "sdz-giraffe-diet"
+     ]
+    },
+    {
+     "title": {
+      "en": "Bending down is hard"
+     },
+     "text": {
+      "en": "To drink, a giraffe has to splay its front legs wide or bend its knees. Special valves in its neck stop blood rushing to its head."
+     },
+     "src": [
+      "bristol"
+     ]
+    },
+    {
+     "title": {
+      "en": "Same neck bones as you"
+     },
+     "text": {
+      "en": "A giraffe's neck has just seven bones, the same number as yours. Each one is just much, much longer."
+     },
+     "src": [
+      "perth"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "A two-metre welcome"
+     },
+     "text": {
+      "en": "Giraffe moms give birth standing up, so the baby drops about 2 metres to the ground. Ouch! But within an hour it's standing."
+     },
+     "src": [
+      "gcf-baby"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Spots like fingerprints"
+     },
+     "text": {
+      "en": "No two giraffes have the same pattern. Each giraffe's patches are as unique as human fingerprints."
+     },
+     "src": [
+      "pbs"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Not silent after all"
+     },
+     "text": {
+      "en": "People once thought giraffes were silent, but they make a soft mooing sound, especially with their calves."
+     },
+     "src": [
+      "fresno-giraffe"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Super pump"
+     },
+     "text": {
+      "en": "Giraffes have the highest known blood pressure of any animal, to push blood all the way up that long neck."
+     },
+     "src": [
+      "fresno-giraffe"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Trees fight back"
+     },
+     "text": {
+      "en": "When giraffes browse an acacia, the tree can grow longer thorns and make its leaves taste more bitter!"
+     },
+     "src": [
+      "sdz-giraffe-diet"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real giraffes really do have trouble bending down: it's a wobbly, risky move. But a giraffe's horns, called ossicones, are real, and its heart-shaped neck patch is our artist's idea."
+   },
+   "storyVsRealSrc": [
+    "bristol",
+    "pbs"
+   ]
+  },
+  {
+   "id": "themba",
+   "role": "friend",
+   "colour": "peach",
+   "name": {
+    "en": "Themba"
+   },
+   "animal": {
+    "en": "Meerkat"
+   },
+   "image": "themba.jpg",
+   "job": {
+    "en": "The small friend who shows Langa the view from down low"
+   },
+   "superpower": {
+    "en": "Takes turns as lookout"
+   },
+   "lineup": {
+    "weight": {
+     "en": "about 720–731 g"
+    },
+    "grams": 725,
+    "like": {
+     "en": "a pineapple... a small one"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "24.5–29 cm, plus a 19–24 cm tail"
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "About 720–731 g on average"
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "5–15 years in the wild"
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Mostly insects (about 82%), and even scorpions"
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Burrow systems; up to 5 in one family's range"
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Mobs of 2 to 50; usually only the top mom and dad have pups"
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "On guard!"
+     },
+     "text": {
+      "en": "While the mob digs for food, one meerkat stands on a high point as sentinel and calls out when danger comes."
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    },
+    {
+     "title": {
+      "en": "Babysitter club"
+     },
+     "text": {
+      "en": "Grown-ups who aren't parents help raise the pups, bringing them food and staying at the den to guard them."
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    },
+    {
+     "title": {
+      "en": "Belly sunbathing"
+     },
+     "text": {
+      "en": "On cold mornings meerkats lie on their backs to warm their tummies in the sun. When it's hot, they stretch out in the shade."
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Eagles from the sky"
+     },
+     "text": {
+      "en": "Jackals, martial eagles and tawny eagles are a meerkat's most dangerous enemies. That's why the lookout always watches the sky."
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Big litters"
+     },
+     "text": {
+      "en": "A meerkat mom has 3 to 7 pups at a time, usually about 4."
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Dark sunglasses"
+     },
+     "text": {
+      "en": "Meerkats have black rings around their big eyes."
+     },
+     "src": [
+      "adw-meerkat"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Meet them at Tswalu"
+     },
+     "text": {
+      "en": "Tswalu has two meerkat families so used to people that visitors can sit and watch them close up."
+     },
+     "src": [
+      "aws-tswalu"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real meerkats really do stand up tall to see further, just like Themba. But they don't wear grass hats! And real meerkats almost never hang out with giraffes."
+   },
+   "storyVsRealSrc": [
+    "adw-meerkat"
+   ]
+  },
+  {
+   "id": "kulu",
+   "role": "supporting",
+   "colour": "mint",
+   "name": {
+    "en": "Kulu"
+   },
+   "animal": {
+    "en": "Leopard tortoise"
+   },
+   "image": "kulu.jpg",
+   "job": {
+    "en": "The slow, wise friend at the waterhole"
+   },
+   "superpower": {
+    "en": "May live to 100"
+   },
+   "lineup": {
+    "weight": {
+     "en": "18–54 kg"
+    },
+    "grams": 30000,
+    "like": {
+     "en": "a big suitcase"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "Shell 40–70 cm long"
+     },
+     "src": [
+      "azanimals-tortoise"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "18–54 kg"
+     },
+     "src": [
+      "azanimals-tortoise"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "50–100 years"
+     },
+     "src": [
+      "azanimals-tortoise",
+      "lvzoo"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Grasses, succulents, thistles and fruit"
+     },
+     "src": [
+      "lvzoo"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Dry savannas; shelters in old burrows dug by other animals"
+     },
+     "src": [
+      "lvzoo",
+      "southwicks2"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Lives alone; mom lays 5–30 eggs in a hole"
+     },
+     "src": [
+      "lvzoo"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "The fourth biggest"
+     },
+     "text": {
+      "en": "Leopard tortoises are the fourth largest tortoises in the world, named for the spots on their shell."
+     },
+     "src": [
+      "southwicks"
+     ]
+    },
+    {
+     "title": {
+      "en": "Borrowed homes"
+     },
+     "text": {
+      "en": "They don't dig, except to lay eggs. To escape heat or cold they hide in burrows left by other animals."
+     },
+     "src": [
+      "southwicks2"
+     ]
+    },
+    {
+     "title": {
+      "en": "Tiny babies"
+     },
+     "text": {
+      "en": "Hatchlings weigh just 23–50 g and are 4–5 cm long. Mom digs the nest, then stamps the soil down with her belly."
+     },
+     "src": [
+      "sa-tortoise"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "The world's longest wait"
+     },
+     "text": {
+      "en": "Leopard tortoise eggs take 240 to 400 days to hatch. That's up to more than a year!"
+     },
+     "src": [
+      "lvzoo"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Bone snacks"
+     },
+     "text": {
+      "en": "Leopard tortoises sometimes gnaw old bones and even hyena droppings, probably for the calcium their shells need."
+     },
+     "src": [
+      "kruger-tortoise"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Armour for life"
+     },
+     "text": {
+      "en": "Adults are so big that few predators can bite through the shell. Their eggs and babies are the ones in danger."
+     },
+     "src": [
+      "lvzoo"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real leopard tortoises really are slow and steady. The acacia leaf stuck on Kulu's shell is our artist's idea, though one could easily get stuck there!"
+   },
+   "storyVsRealSrc": [
+    "lvzoo"
+   ]
+  },
+  {
+   "id": "chicks",
+   "role": "supporting",
+   "colour": "lilac",
+   "name": {
+    "en": "The three chicks"
+   },
+   "animal": {
+    "en": "Helmeted guineafowl keets"
+   },
+   "image": "chicks.jpg",
+   "job": {
+    "en": "Little ones who can't reach the pods"
+   },
+   "superpower": {
+    "en": "Walking and feeding a few hours after hatching"
+   },
+   "lineup": {
+    "weight": {
+     "en": "adults 1.3–1.6 kg"
+    },
+    "grams": 1450,
+    "like": {
+     "en": "a big bag of flour"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Adults 1.3–1.6 kg"
+     },
+     "src": [
+      "sydneyzoo"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "10–15 years"
+     },
+     "src": [
+      "sydneyzoo"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Seeds, insects, ticks, worms, even small lizards"
+     },
+     "src": [
+      "adw-gf",
+      "clemetzoo-gf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Open savanna; the flock roosts in trees at night"
+     },
+     "src": [
+      "nzbo-gf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Flocks of up to 200; both parents care for the keets"
+     },
+     "src": [
+      "savenues-gf",
+      "adw-gf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Babies"
+     },
+     "value": {
+      "en": "6–12 eggs, hatching after about 30 days"
+     },
+     "src": [
+      "safariwest-gf",
+      "adw-gf"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Keets on the go"
+     },
+     "text": {
+      "en": "Baby guineafowl are called keets. They start feeding with the flock just a few hours after hatching."
+     },
+     "src": [
+      "safariwest-gf",
+      "sydneyzoo"
+     ]
+    },
+    {
+     "title": {
+      "en": "Day shift, night shift"
+     },
+     "text": {
+      "en": "For the first two weeks, mom keeps the keets warm at night and dad takes the day shift."
+     },
+     "src": [
+      "adw-gf"
+     ]
+    },
+    {
+     "title": {
+      "en": "Flying in four weeks"
+     },
+     "text": {
+      "en": "Keets can fly at about four weeks old and stay with their parents for a while after."
+     },
+     "src": [
+      "adw-gf"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "The savanna alarm"
+     },
+     "text": {
+      "en": "When danger comes, the whole flock shouts a loud rattling \"kek-kek-kek-krrrrr\" that gets faster and faster."
+     },
+     "src": [
+      "adw-gf"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Stones in the tummy"
+     },
+     "text": {
+      "en": "Guineafowl swallow little pebbles. The stones help grind up their food in their gizzard."
+     },
+     "src": [
+      "adw-gf"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Tick patrol"
+     },
+     "text": {
+      "en": "Guineafowl eat lots of ticks, so farmers love having them around."
+     },
+     "src": [
+      "clemetzoo-gf"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real keets are striped brown and grey, not spotted like grown-ups. They'd also stay right by their parents, and the crooked little crest is our artist's idea."
+   },
+   "storyVsRealSrc": [
+    "adw-gf"
+   ]
+  },
+  {
+   "id": "warthogs",
+   "role": "supporting",
+   "colour": "sky",
+   "name": {
+    "en": "The warthog twins"
+   },
+   "animal": {
+    "en": "Common warthog"
+   },
+   "image": "warthogs.jpg",
+   "job": {
+    "en": "Muddy-nosed twins who need things low"
+   },
+   "superpower": {
+    "en": "Knee pads they're born with"
+   },
+   "lineup": {
+    "weight": {
+     "en": "50–150 kg"
+    },
+    "grams": 75000,
+    "like": {
+     "en": "a grown-up person"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Height"
+     },
+     "value": {
+      "en": "63–85 cm at the shoulder"
+     },
+     "src": [
+      "safariwest-wh"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "50–150 kg"
+     },
+     "src": [
+      "safariwest-wh"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "7–10 years in the wild, sometimes up to 18"
+     },
+     "src": [
+      "safariwest-wh"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Grass, plus roots and bulbs they dig up with their snout"
+     },
+     "src": [
+      "safariwest-wh",
+      "hluhluwe"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Burrows, often old aardvark holes"
+     },
+     "src": [
+      "wildlifesafari-wh"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Moms have 1–8 piglets, usually 2 or 3"
+     },
+     "src": [
+      "sdz-warthog"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Eating on their knees"
+     },
+     "text": {
+      "en": "Warthogs kneel on their front legs to graze. The knee pads they use are already there before they're born!"
+     },
+     "src": [
+      "fresno-warthog"
+     ]
+    },
+    {
+     "title": {
+      "en": "Backing in"
+     },
+     "text": {
+      "en": "Piglets run into the burrow head first, but adults spin around and back in, so their tusks face the door."
+     },
+     "src": [
+      "wildlifesafari-wh"
+     ]
+    },
+    {
+     "title": {
+      "en": "Tails up, follow me!"
+     },
+     "text": {
+      "en": "When a family runs, their tails stand straight up like flags, so they can keep together in long grass."
+     },
+     "src": [
+      "hluhluwe"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Fast pigs"
+     },
+     "text": {
+      "en": "A startled warthog can run up to 50 km/h."
+     },
+     "src": [
+      "africageo-wh"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Mud spa"
+     },
+     "text": {
+      "en": "Warthogs roll in mud to cool off and keep biting insects away."
+     },
+     "src": [
+      "safariwest-wh",
+      "fresno-warthog"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Water optional"
+     },
+     "text": {
+      "en": "Warthogs don't need to drink often, but they will if water is around."
+     },
+     "src": [
+      "wildlifesafari-wh"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real warthog piglets often have siblings born at the same time, so twins are very believable. One muddy nose? Also very believable!"
+   },
+   "storyVsRealSrc": [
+    "sdz-warthog",
+    "safariwest-wh"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "title": {
+    "en": "Down low walk"
+   },
+   "text": {
+    "en": "Crouch down to a toddler's height and walk around your home. What can't you see from down there?"
+   }
+  },
+  {
+   "title": {
+    "en": "Up high look"
+   },
+   "text": {
+    "en": "Stand on a safe step with a grown-up. What new things can you see from up high?"
+   }
+  },
+  {
+   "title": {
+    "en": "Meerkat lookout"
+   },
+   "text": {
+    "en": "Take turns being the lookout while others play. Call out \"kek-kek!\" if you spot the 'eagle' (a grown-up)."
+   }
+  },
+  {
+   "title": {
+    "en": "Giraffe tongue"
+   },
+   "text": {
+    "en": "Measure 45 cm on a string. That's how long a giraffe's tongue is! Is it longer than your arm?"
+   }
+  },
+  {
+   "title": {
+    "en": "Find the Kalahari"
+   },
+   "text": {
+    "en": "Find South Africa on a map, then the Kalahari in the north-west of the country."
+   }
+  }
+ ],
+ "faq": [
+  {
+   "q": {
+    "en": "Are the animals in The View From Down Low real?"
+   },
+   "a": {
+    "en": "Yes. Giraffes, meerkats, leopard tortoises, helmeted guineafowl and warthogs all live in Southern Africa. Each hero file tells you what we changed for the story."
+   }
+  },
+  {
+   "q": {
+    "en": "Why can't giraffes bend down easily?"
+   },
+   "a": {
+    "en": "Their necks are too short to reach the ground, so they must splay their front legs or bend their knees. Special valves protect their brain from a rush of blood."
+   },
+   "src": [
+    "bristol"
+   ]
+  },
+  {
+   "q": {
+    "en": "Do meerkats really take turns keeping watch?"
+   },
+   "a": {
+    "en": "Yes. One meerkat usually stands guard on a high spot while the others feed."
+   },
+   "src": [
+    "adw-meerkat"
+   ]
+  },
+  {
+   "q": {
+    "en": "Can I see meerkats in the wild?"
+   },
+   "a": {
+    "en": "Yes. At Tswalu, two meerkat families are used to people, so visitors can watch them quietly up close."
+   },
+   "src": [
+    "aws-tswalu"
+   ]
+  }
+ ],
+ "sources": {
+  "gcf-tongue": {
+   "name": "Giraffe Conservation Foundation",
+   "title": "How long is a giraffe's tongue? What color is it?",
+   "url": "https://giraffeconservation.org/facts-about-giraffe/how-long-is-a-giraffes-tongue-what-color-is-it/"
+  },
+  "gcf-baby": {
+   "name": "Giraffe Conservation Foundation",
+   "title": "FAQs about baby giraffe",
+   "url": "https://giraffeconservation.org/facts-about-giraffe/faqs-about-baby-giraffe/"
+  },
+  "fresno-giraffe": {
+   "name": "Fresno Chaffee Zoo",
+   "title": "Reticulated giraffe",
+   "url": "https://fresnochaffeezoo.org/?p=498"
+  },
+  "sgn": {
+   "name": "Save Giraffes Now",
+   "title": "The science of living large",
+   "url": "https://savegiraffesnow.org/?p=1610"
+  },
+  "bristol": {
+   "name": "Bristol Zoo Project",
+   "title": "7 amazing facts about giraffes",
+   "url": "https://bristolzoo.org.uk/news/7-amazing-facts-about-giraffes"
+  },
+  "perth": {
+   "name": "Perth Zoo",
+   "title": "Giraffe",
+   "url": "https://perthzoo.wa.gov.au/animal/Giraffe"
+  },
+  "pbs": {
+   "name": "PBS Nature (with San Diego Zoo)",
+   "title": "Giraffe fact sheet",
+   "url": "https://www.pbs.org/wnet/nature/blog/giraffe-fact-sheet"
+  },
+  "sdz-giraffe-diet": {
+   "name": "San Diego Zoo Wildlife Alliance Library",
+   "title": "Giraffes fact sheet: diet",
+   "url": "https://ielc.libguides.com/sdzg/factsheets/giraffes/diet"
+  },
+  "adw-meerkat": {
+   "name": "Animal Diversity Web, University of Michigan",
+   "title": "Suricata suricatta (meerkat)",
+   "url": "https://animaldiversity.org/accounts/Suricata_suricatta/"
+  },
+  "southwicks": {
+   "name": "Southwick's Zoo",
+   "title": "Leopard tortoise",
+   "url": "https://southwickszoo.com/our-animals/leopard-tortoise/"
+  },
+  "southwicks2": {
+   "name": "Southwick's Zoo",
+   "title": "Leopard tortoise: shelter",
+   "url": "https://southwickszoo.com/?p=49467"
+  },
+  "lvzoo": {
+   "name": "Lehigh Valley Zoo",
+   "title": "Leopard tortoise",
+   "url": "https://lvzoo.org/?p=4971"
+  },
+  "kruger-tortoise": {
+   "name": "Kruger National Park (krugerpark.co.za)",
+   "title": "Leopard tortoise",
+   "url": "https://krugerpark.co.za/africa_leopard_tortoise.html"
+  },
+  "sa-tortoise": {
+   "name": "SouthAfrica.co.za",
+   "title": "Leopard tortoise",
+   "url": "https://southafrica.co.za/leopard-tortoise.html"
+  },
+  "azanimals-tortoise": {
+   "name": "A-Z Animals",
+   "title": "Leopard tortoise",
+   "url": "https://a-z-animals.com/animals/leopard-tortoise/"
+  },
+  "sydneyzoo": {
+   "name": "Sydney Zoo",
+   "title": "Helmeted guineafowl",
+   "url": "https://sydneyzoo.com/animal/helmeted-guineafowl"
+  },
+  "safariwest-gf": {
+   "name": "Safari West",
+   "title": "Helmeted guineafowl",
+   "url": "https://safariwest.org/?p=621"
+  },
+  "adw-gf": {
+   "name": "Animal Diversity Web, University of Michigan",
+   "title": "Numida meleagris (helmeted guineafowl)",
+   "url": "https://animaldiversity.org/accounts/Numida%20meleagris"
+  },
+  "savenues-gf": {
+   "name": "SA-Venues",
+   "title": "The helmeted guineafowl",
+   "url": "https://www.sa-venues.com/wildlife/birds_helmeted_guineafowl.php"
+  },
+  "nzbo-gf": {
+   "name": "New Zealand Birds Online",
+   "title": "Helmeted guineafowl",
+   "url": "https://nzbirdsonline.org.nz/species/helmeted-guineafowl"
+  },
+  "clemetzoo-gf": {
+   "name": "Cleveland Metroparks Zoo",
+   "title": "Helmeted guineafowl",
+   "url": "https://resourcelibrary.clemetzoo.com/Animal/1257"
+  },
+  "safariwest-wh": {
+   "name": "Safari West",
+   "title": "Warthog",
+   "url": "https://safariwest.org/?p=649"
+  },
+  "sdz-warthog": {
+   "name": "San Diego Zoo Wildlife Alliance Library",
+   "title": "Common warthog fact sheet",
+   "url": "https://ielc.libguides.com/sdzg/factsheets/warthog_common"
+  },
+  "fresno-warthog": {
+   "name": "Fresno Chaffee Zoo",
+   "title": "Warthog",
+   "url": "https://fresnochaffeezoo.org/?p=446"
+  },
+  "wildlifesafari-wh": {
+   "name": "Wildlife Safari Info",
+   "title": "Warthog",
+   "url": "https://wildlifesafari.info/?p=63"
+  },
+  "africageo-wh": {
+   "name": "Africa Geographic",
+   "title": "Warthog facts you need to know",
+   "url": "https://africageographic.com/stories/warthog-facts-you-need-to-know/"
+  },
+  "hluhluwe": {
+   "name": "Hluhluwe Game Reserve",
+   "title": "Warthog facts",
+   "url": "https://www.hluhluwegamereserve.com/warthog-facts/"
+  },
+  "tswalu-wildlife": {
+   "name": "Tswalu Kalahari Reserve",
+   "title": "Wildlife sightings",
+   "url": "https://tswalu.com/wildlife/"
+  },
+  "tswalu-guide": {
+   "name": "Tswalu Kalahari Reserve",
+   "title": "Guest information guide (2026)",
+   "url": "https://tswalu.com/wp-content/uploads/2026/08/TSW_GUEST_INFORMATION_GUIDE_20260824.pdf"
+  },
+  "tswalu-info": {
+   "name": "Tswalu Kalahari Reserve",
+   "title": "Information guide (2026)",
+   "url": "https://tswalu.com/wp-content/uploads/2026/05/TSW_INFO_GUIDE_20260515.pdf"
+  },
+  "aws-tswalu": {
+   "name": "African Wildlife Safaris",
+   "title": "Tswalu Kalahari",
+   "url": "https://www.africanwildlifesafaris.com/destinations/africa/south-africa/malaria-free-game-reserves/tswalu-kalahari/"
+  },
+  "shore": {
+   "name": "Shore Africa",
+   "title": "Oppenheimer family's Tswalu builds conservation legacy",
+   "url": "https://shore.africa/?p=29982"
+  },
+  "longrun": {
+   "name": "The Long Run",
+   "title": "Tswalu Kalahari",
+   "url": "https://archive.thelongrun.org/?p=11479"
+  },
+  "wiki-tswalu": {
+   "name": "Wikipedia",
+   "title": "Tswalu Kalahari Reserve",
+   "url": "https://wikipedia.com/wiki/Tswalu_Kalahari_Reserve"
+  }
+ }
 }

@@ -26,7 +26,7 @@ require('../app.js');
   ok(/The shop/.test(r.body) && /\/shop\/checkout/.test(r.body) && /45\.00/.test(r.body) && !/early 2027/.test(r.body), 'shop shows the priced product with a Buy button');
   shopData.products.forEach((p, i) => { p.priceCents = realPrices[i]; });
   r = await req('GET', '/shop');
-  ok(/Classroom set: 5 books/.test(r.body) && /74\.99/.test(r.body) && /279\.99/.test(r.body), 'real prices show, classroom sets included');
+  ok(/Classroom set: 5 books/.test(r.body) && /59\.99/.test(r.body) && /239\.99/.test(r.body), 'real prices show, classroom sets included');
   r = await req('GET', '/fr/shop');
   ok(/Acheter/.test(r.body), 'French shop page');
   r = await req('POST', '/shop/checkout', 'product=nope&lang=en');

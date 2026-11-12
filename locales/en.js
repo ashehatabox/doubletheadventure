@@ -461,9 +461,9 @@ module.exports = {
       offers: [
         ['Free read-aloud guide per book', 'One printable page: before, during and after reading, discussion questions, three activities, Ontario Kindergarten links', 'Free: open the guides', '/educators/guides'],
         ['SEL pack per book', 'Lesson plan, sequencing cards, "color the feeling" pages, refrain tracing, a craft, classroom licence', '$4.99 CAD (coming soon). Free with every classroom set'],
-        ['Classroom set: 5 books', 'Five paperbacks you choose, by value or by language, plus their SEL packs', '$74.99 CAD, shipping included', '/shop'],
-        ['Classroom set: 10 books', 'Ten paperbacks you choose, plus their SEL packs', '$139.99 CAD, shipping included', '/shop'],
-        ['The whole library', 'All 21 books in one language, every SEL pack', '$279.99 CAD, shipping included', '/shop'],
+        ['Classroom set: 5 books', 'Five paperbacks you choose, by value or by language, plus their SEL packs', '$59.99 CAD, shipping included', '/shop'],
+        ['Classroom set: 10 books', 'Ten paperbacks you choose, plus their SEL packs', '$114.99 CAD, shipping included', '/shop'],
+        ['The whole library', 'All 21 books in one language, every SEL pack', '$239.99 CAD, shipping included', '/shop'],
         ['French immersion sets', 'Any set above in French, with the French guides', 'Same prices as the sets above', '/shop'],
         ['Author visits', 'Virtual or in person: read-aloud, refrain, a coloring page to take home', 'Ask us with the form below']
       ],
@@ -477,8 +477,8 @@ module.exports = {
       lead: 'Most 3–5 year olds spend their day in child care. Each book maps onto How Does Learning Happen?: belonging, well-being, engagement and expression.',
       offers: [
         ['Circle-time guide per book', 'One page: the foundation it supports, 3 questions, a movement game, an art activity, the refrain to sing', 'Free: use the read-aloud guide for each book', '/educators/guides'],
-        ['Centre set: 5 books', 'Five paperbacks by foundation, plus their SEL packs', '$74.99 CAD, shipping included', '/shop'],
-        ['Centre set: 10 books', 'Ten paperbacks, plus their SEL packs', '$139.99 CAD, shipping included', '/shop'],
+        ['Centre set: 5 books', 'Five paperbacks by foundation, plus their SEL packs', '$59.99 CAD, shipping included', '/shop'],
+        ['Centre set: 10 books', 'Ten paperbacks, plus their SEL packs', '$114.99 CAD, shipping included', '/shop'],
         ['Multi-site pricing', 'For daycare chains and early-years programs ordering for several centres', 'Ask us with the form below'],
         ['Storytime visits', 'Read-aloud, refrain and a coloring page to take home', 'Ask us with the form below'],
         ['Sponsored centre sets', 'A local business funds books for a centre, with its dedication page', 'See Partners']
@@ -494,7 +494,7 @@ module.exports = {
       offers: [
         ['One-sheet per book', 'ISBN, age, value, summary and reviews', 'Free download (coming soon)'],
         ['Storytime kit', 'Read-aloud tips, the refrain, a coloring page', 'Free (coming with each book)'],
-        ['Multilingual editions', 'English, French, Spanish, German and Italian, for branches serving newcomer families', 'On Amazon, or direct: 5 books $74.99, 10 books $139.99, all 21 $279.99 CAD', '/shop'],
+        ['Multilingual editions', 'English, French, Spanish, German and Italian, for branches serving newcomer families', 'On Amazon, or direct: 5 books $59.99, 10 books $114.99, all 21 $239.99 CAD', '/shop'],
         ['Storytime visits', 'Virtual or in person', 'Ask us with the form below']
       ],
       showBooks: true,
@@ -505,7 +505,7 @@ module.exports = {
       title: 'Newcomer and ESL programs',
       lead: 'Stories that honour values from many cultures, in English, French, Spanish, German and Italian, so children can meet a familiar idea in a new place.',
       offers: [
-        ['Multilingual sets', 'The same story in English or French plus Spanish, German or Italian', '2 books $34.99, 5 books $74.99, 10 books $139.99 CAD, shipping included', '/shop'],
+        ['Multilingual sets', 'The same story in English or French plus Spanish, German or Italian', '2 books $29.99, 5 books $59.99, 10 books $114.99 CAD, shipping included', '/shop'],
         ['Read-aloud videos', 'Hear the story read aloud, free, on the book page (English and French first)', 'Free'],
         ['Program pricing', 'For settlement agencies, ESL classes and library newcomer programs, with purchase orders', 'Ask us with the form below'],
         ['Cultural notes', 'Each book explains where its value comes from', 'In every book']

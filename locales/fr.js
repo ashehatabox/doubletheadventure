@@ -461,9 +461,9 @@ module.exports = {
       offers: [
         ['Guide de lecture gratuit par livre', 'Une page à imprimer : avant, pendant et après la lecture, questions de discussion, trois activités, liens au programme de maternelle de l\'Ontario', 'Gratuit : ouvrir les guides', '/educators/guides'],
         ['Trousse SEL par livre', 'Plan de leçon, cartes de séquence, pages « colorie l\'émotion », refrain à tracer, bricolage, licence de classe', '4,99 $ CA (bientôt). Gratuite avec chaque ensemble de classe'],
-        ['Ensemble de classe : 5 livres', 'Cinq livres brochés au choix, par valeur ou par langue, avec leurs trousses SEL', '74,99 $ CA, livraison incluse', '/shop'],
-        ['Ensemble de classe : 10 livres', 'Dix livres brochés au choix, avec leurs trousses SEL', '139,99 $ CA, livraison incluse', '/shop'],
-        ['Toute la collection', 'Les 21 livres dans une langue, toutes les trousses SEL', '279,99 $ CA, livraison incluse', '/shop'],
+        ['Ensemble de classe : 5 livres', 'Cinq livres brochés au choix, par valeur ou par langue, avec leurs trousses SEL', '59,99 $ CA, livraison incluse', '/shop'],
+        ['Ensemble de classe : 10 livres', 'Dix livres brochés au choix, avec leurs trousses SEL', '114,99 $ CA, livraison incluse', '/shop'],
+        ['Toute la collection', 'Les 21 livres dans une langue, toutes les trousses SEL', '239,99 $ CA, livraison incluse', '/shop'],
         ['Ensembles d\'immersion française', 'Tous les ensembles ci-dessus en français, avec les guides en français', 'Mêmes prix que les ensembles ci-dessus', '/shop'],
         ['Visites d\'auteurs', 'En ligne ou en personne : lecture, refrain, coloriage à rapporter', 'Écrivez-nous avec le formulaire ci-dessous']
       ],
@@ -477,8 +477,8 @@ module.exports = {
       lead: 'La plupart des enfants de 3 à 5 ans passent leur journée en service de garde. Chaque livre rejoint Comment apprend-on ? : appartenance, bien-être, engagement et expression.',
       offers: [
         ['Guide pour le cercle par livre', 'Une page : le fondement visé, 3 questions, un jeu de mouvement, une activité d\'art, le refrain à chanter', 'Gratuit : ouvrir les guides', '/educators/guides'],
-        ['Ensemble pour centre : 5 livres', 'Cinq livres brochés par fondement, avec leurs trousses SEL', '74,99 $ CA, livraison incluse', '/shop'],
-        ['Ensemble pour centre : 10 livres', 'Dix livres brochés, avec leurs trousses SEL', '139,99 $ CA, livraison incluse', '/shop'],
+        ['Ensemble pour centre : 5 livres', 'Cinq livres brochés par fondement, avec leurs trousses SEL', '59,99 $ CA, livraison incluse', '/shop'],
+        ['Ensemble pour centre : 10 livres', 'Dix livres brochés, avec leurs trousses SEL', '114,99 $ CA, livraison incluse', '/shop'],
         ['Prix multi-sites', 'Pour les réseaux de garderies et programmes de petite enfance qui commandent pour plusieurs centres', 'Écrivez-nous avec le formulaire ci-dessous'],
         ['Heures du conte', 'Lecture, refrain et coloriage à rapporter', 'Écrivez-nous avec le formulaire ci-dessous'],
         ['Ensembles commandités', 'Une entreprise locale offre des livres à un centre, avec sa page de dédicace', 'Voir Partenaires']
@@ -494,7 +494,7 @@ module.exports = {
       offers: [
         ['Fiche par livre', 'ISBN, âge, valeur, résumé et critiques', 'Téléchargement gratuit (bientôt)'],
         ['Trousse d\'heure du conte', 'Conseils de lecture, refrain, coloriage', 'Gratuit (avec chaque livre)'],
-        ['Éditions multilingues', 'Français, anglais, espagnol, allemand et italien, pour les succursales qui accueillent des familles nouvellement arrivées', 'Sur Amazon, ou en direct : 5 livres 74,99 $, 10 livres 139,99 $, les 21 livres 279,99 $ CA', '/shop'],
+        ['Éditions multilingues', 'Français, anglais, espagnol, allemand et italien, pour les succursales qui accueillent des familles nouvellement arrivées', 'Sur Amazon, ou en direct : 5 livres 59,99 $, 10 livres 114,99 $, les 21 livres 239,99 $ CA', '/shop'],
         ['Heures du conte', 'En ligne ou en personne', 'Écrivez-nous avec le formulaire ci-dessous']
       ],
       showBooks: true,
@@ -505,7 +505,7 @@ module.exports = {
       title: 'Nouveaux arrivants et ALS',
       lead: 'Des histoires qui honorent des valeurs de nombreuses cultures, en français, anglais, espagnol, allemand et italien, pour que les enfants retrouvent une idée familière dans un nouveau pays.',
       offers: [
-        ['Ensembles multilingues', 'La même histoire en français ou en anglais, et en espagnol, allemand ou italien', '2 livres 34,99 $, 5 livres 74,99 $, 10 livres 139,99 $ CA, livraison incluse', '/shop'],
+        ['Ensembles multilingues', 'La même histoire en français ou en anglais, et en espagnol, allemand ou italien', '2 livres 29,99 $, 5 livres 59,99 $, 10 livres 114,99 $ CA, livraison incluse', '/shop'],
         ['Vidéos lues à voix haute', 'L\'histoire lue à voix haute, gratuite, sur la page du livre (français et anglais d\'abord)', 'Gratuit'],
         ['Prix pour programmes', 'Pour les organismes d\'établissement, classes d\'ALS et programmes de bibliothèque, avec bons de commande', 'Écrivez-nous avec le formulaire ci-dessous'],
         ['Notes culturelles', 'Chaque livre explique d\'où vient sa valeur', 'Dans chaque livre']

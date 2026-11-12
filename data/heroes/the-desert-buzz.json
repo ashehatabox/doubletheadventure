@@ -1,0 +1,895 @@
+{
+ "book": "the-desert-buzz",
+ "draft": true,
+ "updated": "2026-11-12",
+ "review": {
+  "factsChecked": "2026-11-12",
+  "culturalReader": true
+ },
+ "title": {
+  "en": "Heroes of the Desert"
+ },
+ "seoTitle": {
+  "en": "Heroes of the Desert: the real animals behind The Desert Buzz"
+ },
+ "description": {
+  "en": "A beetle that does headstands, a bee that dances directions and a scorpion that glows. Real facts for kids about the animals behind The Desert Buzz."
+ },
+ "intro": {
+  "en": "Etoo, Bella and the wise old scorpion live in a hot, sandy desert. Real desert animals have clever ways to stay cool, find food and stay safe. Here's how."
+ },
+ "place": {
+  "name": {
+   "en": "Saguaro National Park, Arizona"
+  },
+  "image": "place.jpg",
+  "intro": {
+   "en": "The book's desert has no name, but its tall cactuses look like saguaros, so we picked Saguaro National Park in Arizona. Pinacate beetles and desert hairy scorpions live in this desert."
+  },
+  "introSrc": [
+   "dm-pin",
+   "nps-sco"
+  ],
+  "facts": [
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Two million giants"
+    },
+    "text": {
+     "en": "The park is home to more than 2 million saguaro cactuses."
+    },
+    "src": [
+     "nps-sag2"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "Slow growers"
+    },
+    "text": {
+     "en": "A saguaro grows only a few inches (less than 10 cm) in its first ten years."
+    },
+    "src": [
+     "nps-sag"
+    ]
+   },
+   {
+    "kind": "ha",
+    "title": {
+     "en": "Arms come late"
+    },
+    "text": {
+     "en": "Saguaros usually start growing arms when they are 60 to 75 years old."
+    },
+    "src": [
+     "nps-sag"
+    ]
+   },
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Bird city"
+    },
+    "text": {
+     "en": "About 200 kinds of birds live in the park, including 18 kinds of hummingbirds."
+    },
+    "src": [
+     "fos"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "Tiny owl, big cactus"
+    },
+    "text": {
+     "en": "The elf owl, the world's smallest owl, nests in old woodpecker holes in saguaros."
+    },
+    "src": [
+     "nps-birds"
+    ]
+   }
+  ],
+  "map": {
+   "lat": 32.25,
+   "lon": -110.95,
+   "zoom": 9,
+   "region": [
+    -118,
+    28,
+    -106,
+    38
+   ],
+   "highlight": [
+    840
+   ],
+   "label": {
+    "en": "Saguaro National Park"
+   },
+   "text": {
+    "en": "Two parts of one park, on the east and west sides of the city of Tucson, in southern Arizona."
+   },
+   "src": [
+    "gr-sag"
+   ],
+   "areaNote": {
+    "en": "The United States."
+   },
+   "pin": [
+    58.75,
+    58.85
+   ],
+   "aspect": 1.0038
+  }
+ },
+ "cast": [
+  {
+   "id": "etoo",
+   "role": "hero",
+   "colour": "sun",
+   "name": {
+    "en": "Etoo"
+   },
+   "animal": {
+    "en": "Pinacate beetle (our pick)"
+   },
+   "image": "etoo.jpg",
+   "job": {
+    "en": "A tiny beetle learning to calm his big anger"
+   },
+   "superpower": {
+    "en": "A headstand that warns 'back off!'"
+   },
+   "lineup": {
+    "weight": {
+     "en": "not well recorded"
+    },
+    "grams": 1,
+    "like": {
+     "en": "a paperclip (our guess)"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "About 1–3.5 cm"
+     },
+     "src": [
+      "ua-pin"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Not well recorded"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "More than a year"
+     },
+     "src": [
+      "bid-pin"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Bits of dead plants and other scraps"
+     },
+     "src": [
+      "az-pin"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Deserts of the western US and Mexico"
+     },
+     "src": [
+      "pbs-pin"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Moms lay up to 100 eggs in soft soil"
+     },
+     "src": [
+      "bid-pin"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "The big headstand"
+     },
+     "text": {
+      "en": "When a pinacate beetle feels threatened, it puts its head down and its back end up, like a headstand."
+     },
+     "src": [
+      "ua-pin",
+      "pbs-pin"
+     ]
+    },
+    {
+     "title": {
+      "en": "Stinky spray"
+     },
+     "text": {
+      "en": "If the warning doesn't work, it lets out a smelly spray from its back end."
+     },
+     "src": [
+      "ua-pin",
+      "az-pin"
+     ]
+    },
+    {
+     "title": {
+      "en": "Walker, not flyer"
+     },
+     "text": {
+      "en": "Its wing covers are joined together, so it can't fly. It walks everywhere!"
+     },
+     "src": [
+      "az-pin"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Clown beetle"
+     },
+     "text": {
+      "en": "Because of its headstand, people also call it the clown beetle or the stink beetle."
+     },
+     "src": [
+      "az-pin"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Black beetle"
+     },
+     "text": {
+      "en": "Pinacate comes from an Aztec word, pinacatl, meaning 'black beetle'."
+     },
+     "src": [
+      "sbc-pin"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "No drinks needed"
+     },
+     "text": {
+      "en": "These beetles don't need to drink. Their bodies make water from their food."
+     },
+     "src": [
+      "sfz-pin"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Clever mouse"
+     },
+     "text": {
+      "en": "The grasshopper mouse pushes the beetle's back end into the sand so the spray can't reach it."
+     },
+     "src": [
+      "bow-pin"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "The book doesn't name Etoo's kind of beetle, so we picked the pinacate beetle, a small black desert beetle. When it gets upset it does a headstand and sprays, so it knows all about big feelings!"
+   },
+   "storyVsRealSrc": [
+    "dm-pin",
+    "ua-pin"
+   ]
+  },
+  {
+   "id": "bella",
+   "role": "friend",
+   "colour": "peach",
+   "name": {
+    "en": "Bella"
+   },
+   "animal": {
+    "en": "Honey bee (our pick)"
+   },
+   "image": "bella.jpg",
+   "job": {
+    "en": "Etoo's best friend, who buzzes from flower to flower"
+   },
+   "superpower": {
+    "en": "Dances to give directions"
+   },
+   "lineup": {
+    "weight": {
+     "en": "not well recorded"
+    },
+    "grams": 0.1,
+    "like": {
+     "en": "a grain of rice (our guess)"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "10–15 mm (a worker)"
+     },
+     "src": [
+      "bb-bee"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Not well recorded"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "5–6 weeks in spring and summer"
+     },
+     "src": [
+      "kbb-bee"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Nectar and pollen from flowers"
+     },
+     "src": [
+      "aff-bee"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "A hive of 20,000–60,000 bees"
+     },
+     "src": [
+      "ntu-bee"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "One queen lays up to 2,000 eggs a day"
+     },
+     "src": [
+      "tx-bee2"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "The waggle dance"
+     },
+     "text": {
+      "en": "A bee that finds flowers dances back home. The angle and length of her waggle tell the others where to fly."
+     },
+     "src": [
+      "tx-bee"
+     ]
+    },
+    {
+     "title": {
+      "en": "Busy, busy"
+     },
+     "text": {
+      "en": "On one trip, a honey bee visits 50 to 100 flowers."
+     },
+     "src": [
+      "wa-bee"
+     ]
+    },
+    {
+     "title": {
+      "en": "One sweet drop"
+     },
+     "text": {
+      "en": "In her whole life, one bee makes only about 1/12 of a teaspoon of honey."
+     },
+     "src": [
+      "kbb-bee"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Tasty toes"
+     },
+     "text": {
+      "en": "Honey bees can taste with their feet!"
+     },
+     "src": [
+      "bb-bee"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "That's the buzz"
+     },
+     "text": {
+      "en": "The buzz is the sound of a bee's wings, beating up to 16,000 times a minute."
+     },
+     "src": [
+      "kbb-bee"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Secret flower maps"
+     },
+     "text": {
+      "en": "Many flowers have patterns only bees can see, which help them find nectar."
+     },
+     "src": [
+      "tx-bee2"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Bella's gust of wind knocking over a sand tower is a story idea, since a real bee is far too small! Worker honey bees really are all girls, like Bella."
+   },
+   "storyVsRealSrc": [
+    "kbb-bee"
+   ]
+  },
+  {
+   "id": "scorpion",
+   "role": "supporting",
+   "colour": "lilac",
+   "name": {
+    "en": "The wise old scorpion"
+   },
+   "animal": {
+    "en": "Giant desert hairy scorpion (our pick)"
+   },
+   "image": "scorpion.jpg",
+   "job": {
+    "en": "Gives Etoo good advice"
+   },
+   "superpower": {
+    "en": "Glows under ultraviolet light"
+   },
+   "lineup": {
+    "weight": {
+     "en": "not well recorded"
+    },
+    "grams": 5,
+    "like": {
+     "en": "a nickel coin (our guess)"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "Up to about 14 cm"
+     },
+     "src": [
+      "je-sco"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Not well recorded"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "7–10 years in the wild"
+     },
+     "src": [
+      "je-sco"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Insects, spiders, lizards, sometimes small mammals"
+     },
+     "src": [
+      "tmp-sco"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Burrows in the Sonoran and Mojave deserts"
+     },
+     "src": [
+      "bt-sco",
+      "tmp-sco"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Babies ride on Mom's back for about a week"
+     },
+     "src": [
+      "bz-sco"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Hairy helpers"
+     },
+     "text": {
+      "en": "Its body hairs feel tiny shakes in the ground and air, so it can find food in the dark."
+     },
+     "src": [
+      "bt-sco"
+     ]
+    },
+    {
+     "title": {
+      "en": "Night glow"
+     },
+     "text": {
+      "en": "Under ultraviolet light, its shell glows bright blue-green."
+     },
+     "src": [
+      "bt-sco"
+     ]
+    },
+    {
+     "title": {
+      "en": "Night hunter"
+     },
+     "text": {
+      "en": "It hides in the day and hunts at night."
+     },
+     "src": [
+      "mbh-sco"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Biggest of all"
+     },
+     "text": {
+      "en": "It's the largest scorpion in North America."
+     },
+     "src": [
+      "mbh-sco"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Bee-sized sting"
+     },
+     "text": {
+      "en": "Its sting hurts about as much as a bee sting, and isn't strong enough to kill a person."
+     },
+     "src": [
+      "tmp-sco"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Watch the sky"
+     },
+     "text": {
+      "en": "Owls and big lizards hunt it."
+     },
+     "src": [
+      "tmp-sco"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "The book's scorpion is purple and wise. Real desert hairy scorpions are yellow with a dark back, and they're not famous for advice, but they can live for years, so 'old' fits!"
+   },
+   "storyVsRealSrc": [
+    "je-sco",
+    "bt-sco"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "title": {
+    "en": "Desert breeze breath"
+   },
+   "text": {
+    "en": "When you feel angry, breathe in slowly, then blow out like a soft desert breeze. Try it three times."
+   }
+  },
+  {
+   "title": {
+    "en": "Waggle dance"
+   },
+   "text": {
+    "en": "Hide a toy, then do a dance to show where it is. Can your family find it?"
+   }
+  },
+  {
+   "title": {
+    "en": "Sand tower"
+   },
+   "text": {
+    "en": "Build a tower with blocks or sand. If it falls, what can you say or do?"
+   }
+  },
+  {
+   "title": {
+    "en": "Night glow"
+   },
+   "text": {
+    "en": "Draw a scorpion with a glow-in-the-dark or bright green crayon, like it looks under UV light."
+   }
+  },
+  {
+   "title": {
+    "en": "Find the desert"
+   },
+   "text": {
+    "en": "Find Arizona on a map, then the city of Tucson. The park is on both sides of it!"
+   }
+  }
+ ],
+ "faq": [
+  {
+   "q": {
+    "en": "What kind of beetle is Etoo?"
+   },
+   "a": {
+    "en": "The book doesn't say. We picked the pinacate beetle, a small black beetle from North American deserts."
+   },
+   "src": [
+    "dm-pin"
+   ]
+  },
+  {
+   "q": {
+    "en": "Why do bees dance?"
+   },
+   "a": {
+    "en": "To tell the other bees which way to fly and how far to go to find flowers."
+   },
+   "src": [
+    "tx-bee"
+   ]
+  },
+  {
+   "q": {
+    "en": "Are desert hairy scorpions dangerous?"
+   },
+   "a": {
+    "en": "Their sting hurts, about like a bee sting, but it isn't strong enough to kill a person. Never touch one."
+   },
+   "src": [
+    "tmp-sco"
+   ]
+  },
+  {
+   "q": {
+    "en": "Why do saguaros have arms?"
+   },
+   "a": {
+    "en": "Old saguaros grow arms, usually after 60 to 75 years. More arms mean more flowers."
+   },
+   "src": [
+    "nps-sag"
+   ]
+  }
+ ],
+ "sources": {
+  "ua-pin": {
+   "name": "University of Arizona Cooperative Extension",
+   "title": "Pinacate beetles",
+   "url": "https://www.extension.arizona.edu/sites/extension.arizona.edu/files/barnesm/PinacateBeetle.pdf"
+  },
+  "pbs-pin": {
+   "name": "PBS SoCal",
+   "title": "The pinacate beetle is not afraid of you",
+   "url": "https://pbssocal.org/redefine/the-pinacate-beetle-is-not-afraid-of-you"
+  },
+  "bow-pin": {
+   "name": "Bug of the Week",
+   "title": "Headstands in the desert: Eleodes",
+   "url": "https://bugoftheweek.com/blog/2013/1/17/headstands-in-the-desert-ieleodes-spi"
+  },
+  "sfz-pin": {
+   "name": "San Francisco Zoo",
+   "title": "Pinacate beetle",
+   "url": "https://www.sfzoo.org/darkling-beetle/"
+  },
+  "sfz-pin2": {
+   "name": "San Francisco Zoo",
+   "title": "Pinacate beetle: defence",
+   "url": "https://www.sfzoo.org/?p=434"
+  },
+  "az-pin": {
+   "name": "A-Z Animals",
+   "title": "Pinacate beetle",
+   "url": "https://a-z-animals.com/animals/pinacate-beetle/"
+  },
+  "sbc-pin": {
+   "name": "San Bernardino County Sentinel",
+   "title": "False wireworms",
+   "url": "https://sbcsentinel.com/?p=10364"
+  },
+  "bid-pin": {
+   "name": "Beetle Identifications",
+   "title": "Desert stink beetles (Eleodes)",
+   "url": "https://beetleidentifications.com/?p=2109"
+  },
+  "dm-pin": {
+   "name": "Arizona-Sonora Desert Museum",
+   "title": "Beetles of the Sonoran Desert",
+   "url": "https://desertmuseum.org/books/nhsd_beetles.php"
+  },
+  "ntu-bee": {
+   "name": "Nanyang Technological University",
+   "title": "The life of honey bees, part 2",
+   "url": "https://blogs.ntu.edu.sg/sao-cnysc/category/articles/page/2"
+  },
+  "bb-bee": {
+   "name": "Best Bees",
+   "title": "155 amazing bee facts",
+   "url": "https://bestbees.com/?p=11514"
+  },
+  "aff-bee": {
+   "name": "Animal Fun Facts",
+   "title": "Honey bee",
+   "url": "https://animalfunfacts.net/bees-wasps/28-honey-bee.html"
+  },
+  "kbb-bee": {
+   "name": "Keeping Backyard Bees",
+   "title": "Facts about honeybees",
+   "url": "https://www.keepingbackyardbees.com/?p=4036"
+  },
+  "wa-bee": {
+   "name": "WorldAtlas",
+   "title": "10 interesting facts about honey bees",
+   "url": "https://worldatlas.com/articles/10-interesting-facts-about-honey-bees.html"
+  },
+  "tx-bee": {
+   "name": "Terminix",
+   "title": "Bee facts and myths",
+   "url": "https://www.terminix.com/blog/bug-facts/11-bee-facts-and-myths/"
+  },
+  "tx-bee2": {
+   "name": "Terminix",
+   "title": "Why are bees important?",
+   "url": "https://www.terminix.com/blog/education/why-are-bees-important/"
+  },
+  "mbh-sco": {
+   "name": "Missoula Butterfly House",
+   "title": "Desert hairy scorpion",
+   "url": "https://www.missoulabutterflyhouse.org/?p=261"
+  },
+  "bt-sco": {
+   "name": "Better Termite",
+   "title": "Arizona hairy scorpion identification guide",
+   "url": "https://bettertermite.com/pests/other/arizona-hairy-scorpions/"
+  },
+  "je-sco": {
+   "name": "Jan Emming",
+   "title": "Giant hairy desert scorpions, the largest North American scorpion",
+   "url": "https://janemming.com/2019/10/08/giant-hairy-desert-scorpions-hadrurus-arizonensis-the-largest-north-american-scorpion/"
+  },
+  "tmp-sco": {
+   "name": "Tom Mankiewicz Parks Foundation",
+   "title": "Giant desert hairy scorpion",
+   "url": "https://tmparksfoundation.org/animals/giant-desert-hairy-scorpion"
+  },
+  "bz-sco": {
+   "name": "The Big Zoo",
+   "title": "Giant desert hairy scorpion",
+   "url": "https://thebigzoo.com/giant-desert-hairy-scorpion/"
+  },
+  "nps-sag": {
+   "name": "National Park Service",
+   "title": "The saguaro cactus",
+   "url": "https://www.nps.gov/sagu/learn/nature/Saguaro.htm"
+  },
+  "nps-sag2": {
+   "name": "National Park Service",
+   "title": "The saguaro cactus: Saguaro National Park",
+   "url": "https://home.nps.gov/sagu/learn/nature/saguaro.htm"
+  },
+  "nps-sagfacts": {
+   "name": "National Park Service",
+   "title": "Saguaro cactus facts",
+   "url": "https://www.nps.gov/articles/saguaro-cactus-facts.htm"
+  },
+  "nps-birds": {
+   "name": "National Park Service",
+   "title": "Birds of Saguaro National Park",
+   "url": "https://www.nps.gov/sagu/learn/nature/birds.htm?fullweb=1"
+  },
+  "fos": {
+   "name": "Friends of Saguaro National Park",
+   "title": "Park wildlife and habitat",
+   "url": "https://friendsofsaguaro.org/wildlifehabitat"
+  },
+  "gr-sag": {
+   "name": "Geography Realm",
+   "title": "The largest cactus in the United States",
+   "url": "https://www.geographyrealm.com/the-largest-cactus-in-the-united-states/"
+  },
+  "nps-sco": {
+   "name": "National Park Service (archived)",
+   "title": "Ecological equilibrium the bug way: desert hairy scorpion",
+   "url": "https://webarchive.library.unt.edu/eot2008/20081101215154/http://www.nps.gov/sagu/planyourvisit/tmd_equil_bug.htm"
+  }
+ }
+}

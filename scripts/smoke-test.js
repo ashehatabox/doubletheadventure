@@ -41,6 +41,7 @@ const checks = [
   ['/heroes/the-snug', 200, 'Casentino'],
   ['/heroes/the-pebbles-inside', 200, 'Brenne'],
   ['/heroes/the-light-that-grows', 200, 'Guadarrama'],
+  ['/heroes/the-spring-that-wanted-to-stay', 200, 'Hohe Tauern'],
   ['/fr/heroes', 200, 'Encyclopédie des héros'],
   ['/fr/parents/articles', 200, 'Articles pour les parents'],
   ['/parents/articles/why-every-story-starts-from-one-value', 404, ''],

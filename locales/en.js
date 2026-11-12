@@ -506,6 +506,7 @@ module.exports = {
     awake: { day: 'Awake in the day', night: 'Awake at night', dawn: 'Awake at dawn and dusk' },
     tryHome: 'Try it at home', faq: 'Questions parents ask', allSources: 'Every source we used',
     checked: 'Facts checked', draft: 'Draft: not public yet', culturalReader: 'Waiting for a cultural reader',
+    visit: 'Visit it for real', flyEarth: 'Fly there on Google Earth', openMaps: 'Open in Google Maps', leaving: 'The buttons open Google in a new tab.',
     readBook: 'Read the story', otherGuides: 'More hero guides', none: 'Hero guides are coming for every book.'
   },
   footer: {

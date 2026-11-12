@@ -2,228 +2,1446 @@
   "book": "the-circle-of-paws",
   "draft": true,
   "updated": "2026-11-12",
-  "review": { "factsChecked": "2026-11-12", "culturalReader": false },
-  "title": { "en": "Heroes of the High Andes" },
-  "seoTitle": { "en": "Heroes of the High Andes: the real animals behind The Circle of Paws" },
-  "description": { "en": "Fur so thick fleas can't live in it, a bird that sleeps clinging to cave walls, and poop that turns mountains green. Real Andes animal facts for kids." },
-  "intro": { "en": "Every animal in The Circle of Paws is real. Here is how they live, what they eat and the true secrets behind the story." },
+  "review": {
+    "factsChecked": "2026-11-12",
+    "culturalReader": false
+  },
+  "title": {
+    "en": "Heroes of the High Andes"
+  },
+  "seoTitle": {
+    "en": "Heroes of the High Andes: the real animals behind The Circle of Paws"
+  },
+  "description": {
+    "en": "Fur so thick fleas can't live in it, a bird that sleeps clinging to cave walls, and poop that turns mountains green. Real Andes animal facts for kids."
+  },
+  "intro": {
+    "en": "Every animal in The Circle of Paws is real. Here is how they live, what they eat and the true secrets behind the story."
+  },
   "place": {
-    "name": { "en": "The puna, high in the Andes" },
+    "name": {
+      "en": "The puna, high in the Andes"
+    },
     "image": "place.jpg",
-    "intro": { "en": "Killa lives on the puna, a high, cold grassland across Peru, Bolivia, Chile and Argentina, mostly above 3,200 metres." },
-    "introSrc": ["wiki-puna"],
+    "intro": {
+      "en": "Killa lives on the puna, a high, cold grassland across Peru, Bolivia, Chile and Argentina, mostly above 3,200 metres."
+    },
+    "introSrc": [
+      "wiki-puna"
+    ],
     "facts": [
-      { "kind": "wow", "title": { "en": "Shorts at lunch, snowsuit at bedtime" }, "text": { "en": "Afternoons can reach about 25 °C, then most nights drop below freezing. The swing between day and night can be as big as 45 °C. Every animal in this book has a trick to survive it." }, "src": ["lambrinos"] },
-      { "kind": "hidden", "title": { "en": "The hail is real" }, "text": { "en": "In summer, the rain on the puna often falls as hail. The hailstorm in the story is real puna weather." }, "src": ["zenodo-vicuna"] },
-      { "kind": "wow", "title": { "en": "The highest trees on Earth" }, "text": { "en": "Kinti's twisted tree is a queñua (ken-YOO-ah). Some grow above 5,000 metres. Its name, Polylepis, means \"many layers\": its red bark peels in thin sheets, like paper." }, "src": ["simpson", "atlas"] },
-      { "kind": "ha", "title": { "en": "The world's slowest birthday" }, "text": { "en": "Some queñuas take more than 100 years to grow half an inch wider. The tree in the story might be older than your great-grandparents." }, "src": ["atlas"] },
-      { "kind": "hidden", "title": { "en": "Giant stone steps" }, "text": { "en": "The steps on the hillsides are farming terraces called andenes. Each step has its own little climate, so families can grow different crops on one hill. Farmers still use them today." }, "src": ["nmai", "pri"] }
-    ]
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Shorts at lunch, snowsuit at bedtime"
+        },
+        "text": {
+          "en": "Afternoons can reach about 25 °C, then most nights drop below freezing. The swing between day and night can be as big as 45 °C. Every animal in this book has a trick to survive it."
+        },
+        "src": [
+          "lambrinos"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "The hail is real"
+        },
+        "text": {
+          "en": "In summer, the rain on the puna often falls as hail. The hailstorm in the story is real puna weather."
+        },
+        "src": [
+          "zenodo-vicuna"
+        ]
+      },
+      {
+        "kind": "wow",
+        "title": {
+          "en": "The highest trees on Earth"
+        },
+        "text": {
+          "en": "Kinti's twisted tree is a queñua (ken-YOO-ah). Some grow above 5,000 metres. Its name, Polylepis, means \"many layers\": its red bark peels in thin sheets, like paper."
+        },
+        "src": [
+          "simpson",
+          "atlas"
+        ]
+      },
+      {
+        "kind": "ha",
+        "title": {
+          "en": "The world's slowest birthday"
+        },
+        "text": {
+          "en": "Some queñuas take more than 100 years to grow half an inch wider. The tree in the story might be older than your great-grandparents."
+        },
+        "src": [
+          "atlas"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "Giant stone steps"
+        },
+        "text": {
+          "en": "The steps on the hillsides are farming terraces called andenes. Each step has its own little climate, so families can grow different crops on one hill. Farmers still use them today."
+        },
+        "src": [
+          "nmai",
+          "pri"
+        ]
+      }
+    ],
+    "map": {
+      "lat": -14.69,
+      "lon": -74.376,
+      "zoom": 11,
+      "region": [
+        -82,
+        -56,
+        -34,
+        13
+      ],
+      "highlight": [
+        604,
+        68,
+        152,
+        32
+      ],
+      "label": {
+        "en": "Pampa Galeras, Peru"
+      },
+      "text": {
+        "en": "A real puna where wild vicuñas live, 3,700 to 4,300 metres up. It's where villagers hold the chaccu every year."
+      },
+      "src": [
+        "kba",
+        "smithsonian"
+      ],
+      "areaNote": {
+        "en": "Yellow: the four countries of the puna."
+      },
+      "pin": [
+        15.88,
+        34.53
+      ],
+      "aspect": 0.5926
+    }
   },
   "cast": [
     {
-      "id": "killa", "role": "hero", "colour": "sky",
-      "name": { "en": "Killa" }, "animal": { "en": "Chinchilla" },
+      "id": "killa",
+      "role": "hero",
+      "colour": "sky",
+      "name": {
+        "en": "Killa"
+      },
+      "animal": {
+        "en": "Chinchilla"
+      },
       "image": "killa.jpg",
-      "job": { "en": "The fastest helper on the mountain" },
-      "superpower": { "en": "The thickest fur of any land animal" },
-      "lineup": { "weight": { "en": "0.5–0.8 kg" }, "grams": 650, "like": { "en": "a loaf of bread" }, "lifespan": { "en": "about 10 years" }, "babies": { "en": "2–3" }, "awake": "night" },
+      "job": {
+        "en": "The fastest helper on the mountain"
+      },
+      "superpower": {
+        "en": "The thickest fur of any land animal"
+      },
+      "lineup": {
+        "weight": {
+          "en": "0.5–0.8 kg"
+        },
+        "grams": 650,
+        "like": {
+          "en": "a loaf of bread"
+        },
+        "lifespan": {
+          "en": "about 10 years"
+        },
+        "babies": {
+          "en": "2–3"
+        },
+        "awake": "night"
+      },
       "card": [
-        { "label": { "en": "Body" }, "value": { "en": "22–38 cm, plus a 7–15 cm bushy tail" }, "src": ["adw-chin"] },
-        { "label": { "en": "Weight" }, "value": { "en": "0.5–0.8 kg, about a loaf of bread" }, "src": ["adw-chin"] },
-        { "label": { "en": "Lives" }, "value": { "en": "About 10 years wild, 20+ as a pet" }, "src": ["adw-chin"] },
-        { "label": { "en": "Eats" }, "value": { "en": "Grass and seeds, sometimes insects" }, "src": ["adw-chin"] },
-        { "label": { "en": "Home" }, "value": { "en": "Rock cracks, 3,000–5,000 m up" }, "src": ["adw-chin"] },
-        { "label": { "en": "Awake" }, "value": { "en": "Dusk and night" }, "src": ["vetstreet"] },
-        { "label": { "en": "In the wild" }, "value": { "en": "Endangered" }, "src": ["mnzoo-blog"], "flag": true }
+        {
+          "label": {
+            "en": "Body"
+          },
+          "value": {
+            "en": "22–38 cm, plus a 7–15 cm bushy tail"
+          },
+          "src": [
+            "adw-chin"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "0.5–0.8 kg, about a loaf of bread"
+          },
+          "src": [
+            "adw-chin"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About 10 years wild, 20+ as a pet"
+          },
+          "src": [
+            "adw-chin"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Grass and seeds, sometimes insects"
+          },
+          "src": [
+            "adw-chin"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Rock cracks, 3,000–5,000 m up"
+          },
+          "src": [
+            "adw-chin"
+          ]
+        },
+        {
+          "label": {
+            "en": "Awake"
+          },
+          "value": {
+            "en": "Dusk and night"
+          },
+          "src": [
+            "vetstreet"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the wild"
+          },
+          "value": {
+            "en": "Endangered"
+          },
+          "src": [
+            "mnzoo-blog"
+          ],
+          "flag": true
+        }
       ],
       "life": [
-        { "title": { "en": "A night in the life" }, "text": { "en": "Killa's alarm clock goes off at sunset. Chinchillas sleep through the bright day in a rock crack and wake when the light goes soft. Breakfast is a salad of grass and seeds. A tasty insect or a bird egg? A chinchilla isn't fussy." }, "src": ["vetstreet", "adw-chin"] },
-        { "title": { "en": "Home sweet rock" }, "text": { "en": "No soft burrows here. Chinchillas live in cracks and holes between rocks on bare, dry mountainsides. Hard walls, a great view, no lawn to mow." }, "src": ["adw-chin"] },
-        { "title": { "en": "Big crowd, girl boss" }, "text": { "en": "Wild colonies can hold more than 100 chinchillas. The females are bigger than the males, and they are the bosses." }, "src": ["adw-chin"] },
-        { "title": { "en": "Babies" }, "text": { "en": "Mom carries her babies for about 111 days, very long for a small rodent, and usually has two or three, about twice a year. The kits are born with fur on and eyes open." }, "src": ["adw-chin", "beardsley"] }
+        {
+          "title": {
+            "en": "A night in the life"
+          },
+          "text": {
+            "en": "Killa's alarm clock goes off at sunset. Chinchillas sleep through the bright day in a rock crack and wake when the light goes soft. Breakfast is a salad of grass and seeds. A tasty insect or a bird egg? A chinchilla isn't fussy."
+          },
+          "src": [
+            "vetstreet",
+            "adw-chin"
+          ]
+        },
+        {
+          "title": {
+            "en": "Home sweet rock"
+          },
+          "text": {
+            "en": "No soft burrows here. Chinchillas live in cracks and holes between rocks on bare, dry mountainsides. Hard walls, a great view, no lawn to mow."
+          },
+          "src": [
+            "adw-chin"
+          ]
+        },
+        {
+          "title": {
+            "en": "Big crowd, girl boss"
+          },
+          "text": {
+            "en": "Wild colonies can hold more than 100 chinchillas. The females are bigger than the males, and they are the bosses."
+          },
+          "src": [
+            "adw-chin"
+          ]
+        },
+        {
+          "title": {
+            "en": "Babies"
+          },
+          "text": {
+            "en": "Mom carries her babies for about 111 days, very long for a small rodent, and usually has two or three, about twice a year. The kits are born with fur on and eyes open."
+          },
+          "src": [
+            "adw-chin",
+            "beardsley"
+          ]
+        }
       ],
       "facts": [
-        { "kind": "wow", "title": { "en": "60 hairs in one hole" }, "text": { "en": "You grow one hair from each tiny hole in your skin. A chinchilla grows 50 to 60. Its coat is the densest of any land mammal; only the sea otter beats it." }, "src": ["mnzoo", "wiki-chin"] },
-        { "kind": "ha", "title": { "en": "Bath time? Dust time!" }, "text": { "en": "Chinchilla fur is so thick it can't dry, so they never bathe in water. They flip and roll in fine dust instead, and in the wild, volcanic ash." }, "src": ["beardsley", "vetstreet"] },
-        { "kind": "uhoh", "title": { "en": "The great escape" }, "text": { "en": "Grabbed by a predator? A chinchilla lets go of a clump of fur and runs, leaving the hunter with a mouthful of fluff. Then it bounces away: chinchillas can jump 1.8 metres." }, "src": ["vetstreet", "wiki-chin"] },
-        { "kind": "hidden", "title": { "en": "Ears are air conditioning" }, "text": { "en": "Chinchillas can't sweat. They let out extra heat through their big ears." }, "src": ["beardsley"] }
+        {
+          "kind": "wow",
+          "title": {
+            "en": "60 hairs in one hole"
+          },
+          "text": {
+            "en": "You grow one hair from each tiny hole in your skin. A chinchilla grows 50 to 60. Its coat is the densest of any land mammal; only the sea otter beats it."
+          },
+          "src": [
+            "mnzoo",
+            "wiki-chin"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Bath time? Dust time!"
+          },
+          "text": {
+            "en": "Chinchilla fur is so thick it can't dry, so they never bathe in water. They flip and roll in fine dust instead, and in the wild, volcanic ash."
+          },
+          "src": [
+            "beardsley",
+            "vetstreet"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "The great escape"
+          },
+          "text": {
+            "en": "Grabbed by a predator? A chinchilla lets go of a clump of fur and runs, leaving the hunter with a mouthful of fluff. Then it bounces away: chinchillas can jump 1.8 metres."
+          },
+          "src": [
+            "vetstreet",
+            "wiki-chin"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Ears are air conditioning"
+          },
+          "text": {
+            "en": "Chinchillas can't sweat. They let out extra heat through their big ears."
+          },
+          "src": [
+            "beardsley"
+          ]
+        }
       ],
-      "storyVsReal": { "en": "Real chinchillas are quick, springy jumpers, just like Killa. But a real one would be fast asleep at noon. Killa is a daytime chinchilla, just for the story." }
+      "storyVsReal": {
+        "en": "Real chinchillas are quick, springy jumpers, just like Killa. But a real one would be fast asleep at noon. Killa is a daytime chinchilla, just for the story."
+      }
     },
     {
-      "id": "sami", "role": "friend", "colour": "sun",
-      "name": { "en": "Sami" }, "animal": { "en": "Vicuña" },
+      "id": "sami",
+      "role": "friend",
+      "colour": "sun",
+      "name": {
+        "en": "Sami"
+      },
+      "animal": {
+        "en": "Vicuña"
+      },
       "image": "sami.jpg",
-      "job": { "en": "The tall, patient friend who keeps offering" },
-      "superpower": { "en": "The finest wool in the world" },
-      "lineup": { "weight": { "en": "35–65 kg" }, "grams": 50000, "like": { "en": "a grown-up" }, "lifespan": { "en": "about 20 years" }, "babies": { "en": "1" }, "awake": "day" },
+      "job": {
+        "en": "The tall, patient friend who keeps offering"
+      },
+      "superpower": {
+        "en": "The finest wool in the world"
+      },
+      "lineup": {
+        "weight": {
+          "en": "35–65 kg"
+        },
+        "grams": 50000,
+        "like": {
+          "en": "a grown-up"
+        },
+        "lifespan": {
+          "en": "about 20 years"
+        },
+        "babies": {
+          "en": "1"
+        },
+        "awake": "day"
+      },
       "card": [
-        { "label": { "en": "Height" }, "value": { "en": "70–110 cm at the shoulder, the smallest of the camel family" }, "src": ["eol-vicuna"] },
-        { "label": { "en": "Weight" }, "value": { "en": "35–65 kg, about a grown-up" }, "src": ["eol-vicuna"] },
-        { "label": { "en": "Lives" }, "value": { "en": "About 20 years wild" }, "src": ["eol-life"] },
-        { "label": { "en": "Eats" }, "value": { "en": "Short grasses, and a drink every day" }, "src": ["eol-vicuna"] },
-        { "label": { "en": "Home" }, "value": { "en": "Open grassland, 3,200–4,800 m up" }, "src": ["zenodo-vicuna"] },
-        { "label": { "en": "Famous for" }, "value": { "en": "Peru's national animal" }, "src": ["smithsonian"] },
-        { "label": { "en": "In the wild" }, "value": { "en": "Least Concern: a comeback story" }, "src": ["cites"] }
+        {
+          "label": {
+            "en": "Height"
+          },
+          "value": {
+            "en": "70–110 cm at the shoulder, the smallest of the camel family"
+          },
+          "src": [
+            "eol-vicuna"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "35–65 kg, about a grown-up"
+          },
+          "src": [
+            "eol-vicuna"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About 20 years wild"
+          },
+          "src": [
+            "eol-life"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Short grasses, and a drink every day"
+          },
+          "src": [
+            "eol-vicuna"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Open grassland, 3,200–4,800 m up"
+          },
+          "src": [
+            "zenodo-vicuna"
+          ]
+        },
+        {
+          "label": {
+            "en": "Famous for"
+          },
+          "value": {
+            "en": "Peru's national animal"
+          },
+          "src": [
+            "smithsonian"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the wild"
+          },
+          "value": {
+            "en": "Least Concern: a comeback story"
+          },
+          "src": [
+            "cites"
+          ]
+        }
       ],
       "life": [
-        { "title": { "en": "What's for dinner?" }, "text": { "en": "Grass. And more grass. Vicuñas nibble short mountain grasses and, unlike most of their camel cousins, need a drink of water every single day." }, "src": ["eol-vicuna"] },
-        { "title": { "en": "Two houses, no walls" }, "text": { "en": "A vicuña family eats in one patch all day, then walks to a separate, higher spot to sleep. A dining room and a bedroom, on different parts of the mountain." }, "src": ["enc-vicuna"] },
-        { "title": { "en": "Dad on guard duty" }, "text": { "en": "A family is one dad with a group of moms, often 5 to 15, and their babies. Dad guards the territory all year and calls an alarm when danger comes, so Mom and baby can eat in peace. Sounds like Sami." }, "src": ["nwe-vicuna", "adw-vicuna"] },
-        { "title": { "en": "Babies" }, "text": { "en": "Mom carries one baby for almost a year, 330 to 350 days. It nurses for up to ten months and is grown up at about one. Then Dad sends the young ones off to find their own way." }, "src": ["enc-vicuna", "eol-vicuna"] }
+        {
+          "title": {
+            "en": "What's for dinner?"
+          },
+          "text": {
+            "en": "Grass. And more grass. Vicuñas nibble short mountain grasses and, unlike most of their camel cousins, need a drink of water every single day."
+          },
+          "src": [
+            "eol-vicuna"
+          ]
+        },
+        {
+          "title": {
+            "en": "Two houses, no walls"
+          },
+          "text": {
+            "en": "A vicuña family eats in one patch all day, then walks to a separate, higher spot to sleep. A dining room and a bedroom, on different parts of the mountain."
+          },
+          "src": [
+            "enc-vicuna"
+          ]
+        },
+        {
+          "title": {
+            "en": "Dad on guard duty"
+          },
+          "text": {
+            "en": "A family is one dad with a group of moms, often 5 to 15, and their babies. Dad guards the territory all year and calls an alarm when danger comes, so Mom and baby can eat in peace. Sounds like Sami."
+          },
+          "src": [
+            "nwe-vicuna",
+            "adw-vicuna"
+          ]
+        },
+        {
+          "title": {
+            "en": "Babies"
+          },
+          "text": {
+            "en": "Mom carries one baby for almost a year, 330 to 350 days. It nurses for up to ten months and is grown up at about one. Then Dad sends the young ones off to find their own way."
+          },
+          "src": [
+            "enc-vicuna",
+            "eol-vicuna"
+          ]
+        }
       ],
       "facts": [
-        { "kind": "wow", "title": { "en": "Thinner than cashmere" }, "text": { "en": "One vicuña hair is about 12 microns wide, thinner than the finest cashmere and far thinner than yours. That's how Sami stays warm on freezing nights." }, "src": ["wildfibres"] },
-        { "kind": "uhoh", "title": { "en": "Only 6,000 left" }, "text": { "en": "Vicuñas once numbered in the millions. Poachers hunted them for their wool, and by the mid-1960s only about 6,000 were left in Peru." }, "src": ["smithsonian"] },
-        { "kind": "rescue", "title": { "en": "Saved by a human chain" }, "text": { "en": "Andean villages brought back the chaccu: every June, people join hands across the mountains, gently gather the wild vicuñas, shear a little wool and let every one go free. Today Peru has over 200,000." }, "src": ["smithsonian", "cites"] },
-        { "kind": "ha", "title": { "en": "Poop that grows gardens" }, "text": { "en": "Vicuña families share one bathroom: a dung pile. On bare rock left by melting glaciers, these piles help plants grow about a hundred years sooner." }, "src": ["cu-boulder", "cu-boulder-2"] },
-        { "kind": "hidden", "title": { "en": "Teeth like a rabbit" }, "text": { "en": "A vicuña's bottom front teeth never stop growing, like a rodent's. No other hoofed animal has teeth like that. Sami and Killa have more in common than you'd think." }, "src": ["eol-vicuna"] }
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Thinner than cashmere"
+          },
+          "text": {
+            "en": "One vicuña hair is about 12 microns wide, thinner than the finest cashmere and far thinner than yours. That's how Sami stays warm on freezing nights."
+          },
+          "src": [
+            "wildfibres"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Only 6,000 left"
+          },
+          "text": {
+            "en": "Vicuñas once numbered in the millions. Poachers hunted them for their wool, and by the mid-1960s only about 6,000 were left in Peru."
+          },
+          "src": [
+            "smithsonian"
+          ]
+        },
+        {
+          "kind": "rescue",
+          "title": {
+            "en": "Saved by a human chain"
+          },
+          "text": {
+            "en": "Andean villages brought back the chaccu: every June, people join hands across the mountains, gently gather the wild vicuñas, shear a little wool and let every one go free. Today Peru has over 200,000."
+          },
+          "src": [
+            "smithsonian",
+            "cites"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Poop that grows gardens"
+          },
+          "text": {
+            "en": "Vicuña families share one bathroom: a dung pile. On bare rock left by melting glaciers, these piles help plants grow about a hundred years sooner."
+          },
+          "src": [
+            "cu-boulder",
+            "cu-boulder-2"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Teeth like a rabbit"
+          },
+          "text": {
+            "en": "A vicuña's bottom front teeth never stop growing, like a rodent's. No other hoofed animal has teeth like that. Sami and Killa have more in common than you'd think."
+          },
+          "src": [
+            "eol-vicuna"
+          ]
+        }
       ],
-      "storyVsReal": { "en": "Real vicuñas don't wear ear tassels: Sami's red tassel makes him easy to spot on every page. And a real vicuña would be out with his whole family." }
+      "storyVsReal": {
+        "en": "Real vicuñas don't wear ear tassels: Sami's red tassel makes him easy to spot on every page. And a real vicuña would be out with his whole family."
+      }
     },
     {
-      "id": "kinti", "role": "supporting", "colour": "mint",
-      "name": { "en": "Kinti" }, "animal": { "en": "Andean hillstar" },
+      "id": "kinti",
+      "role": "supporting",
+      "colour": "mint",
+      "name": {
+        "en": "Kinti"
+      },
+      "animal": {
+        "en": "Andean hillstar"
+      },
       "image": "kinti.jpg",
-      "job": { "en": "The tiny bird who thinks she's too small to help" },
-      "superpower": { "en": "Survives freezing nights by nearly switching off" },
-      "lineup": { "weight": { "en": "8 g" }, "grams": 8, "like": { "en": "a loonie" }, "lifespan": { "en": "not known" }, "babies": { "en": "2 eggs" }, "awake": "day" },
+      "job": {
+        "en": "The tiny bird who thinks she's too small to help"
+      },
+      "superpower": {
+        "en": "Survives freezing nights by nearly switching off"
+      },
+      "lineup": {
+        "weight": {
+          "en": "8 g"
+        },
+        "grams": 8,
+        "like": {
+          "en": "a loonie"
+        },
+        "lifespan": {
+          "en": "not known"
+        },
+        "babies": {
+          "en": "2 eggs"
+        },
+        "awake": "day"
+      },
       "card": [
-        { "label": { "en": "Length" }, "value": { "en": "13–15 cm, beak to tail" }, "src": ["oiseaux"] },
-        { "label": { "en": "Weight" }, "value": { "en": "About 8 g, a little more than a loonie" }, "src": ["oiseaux"] },
-        { "label": { "en": "Lives" }, "value": { "en": "Not known: nobody has tracked wild hillstars long enough" }, "plain": true },
-        { "label": { "en": "Eats" }, "value": { "en": "Flower nectar, with insects on the side" }, "src": ["ecoreg-species"] },
-        { "label": { "en": "Home" }, "value": { "en": "Rocky valleys and grassland, 2,400–5,000 m up" }, "src": ["ecoreg-species"] },
-        { "label": { "en": "In the wild" }, "value": { "en": "Least Concern, a common puna bird" }, "src": ["wiki-hillstar"] }
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "13–15 cm, beak to tail"
+          },
+          "src": [
+            "oiseaux"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "About 8 g, a little more than a loonie"
+          },
+          "src": [
+            "oiseaux"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Not known: nobody has tracked wild hillstars long enough"
+          },
+          "plain": true
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Flower nectar, with insects on the side"
+          },
+          "src": [
+            "ecoreg-species"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Rocky valleys and grassland, 2,400–5,000 m up"
+          },
+          "src": [
+            "ecoreg-species"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the wild"
+          },
+          "value": {
+            "en": "Least Concern, a common puna bird"
+          },
+          "src": [
+            "wiki-hillstar"
+          ]
+        }
       ],
       "life": [
-        { "title": { "en": "What's for dinner?" }, "text": { "en": "Sugar! Hillstars drink nectar from tough mountain shrubs and little cushion cacti, and snatch insects for protein. Most hummingbirds hover to eat; hillstars usually perch on the flower. Saving energy, even at dinner." }, "src": ["oiseaux"] },
-        { "title": { "en": "The coziest nest on the mountain" }, "text": { "en": "Mom builds a woolly cup up to 8 cm deep from plant fibres and wool, often camelid wool from Sami's family. She sticks it to a rock wall with spider silk, facing the morning sun. A circle of helping, in real life!" }, "src": ["ecoreg-sheet", "oiseaux"] },
-        { "title": { "en": "Single mom, superstar" }, "text": { "en": "Mom holds the territory, builds the nest and raises the chicks alone while Dad roams. She sits on two eggs for 20 days, and the chicks fly about 38 days after hatching." }, "src": ["oiseaux", "wiki-hillstar"] }
+        {
+          "title": {
+            "en": "What's for dinner?"
+          },
+          "text": {
+            "en": "Sugar! Hillstars drink nectar from tough mountain shrubs and little cushion cacti, and snatch insects for protein. Most hummingbirds hover to eat; hillstars usually perch on the flower. Saving energy, even at dinner."
+          },
+          "src": [
+            "oiseaux"
+          ]
+        },
+        {
+          "title": {
+            "en": "The coziest nest on the mountain"
+          },
+          "text": {
+            "en": "Mom builds a woolly cup up to 8 cm deep from plant fibres and wool, often camelid wool from Sami's family. She sticks it to a rock wall with spider silk, facing the morning sun. A circle of helping, in real life!"
+          },
+          "src": [
+            "ecoreg-sheet",
+            "oiseaux"
+          ]
+        },
+        {
+          "title": {
+            "en": "Single mom, superstar"
+          },
+          "text": {
+            "en": "Mom holds the territory, builds the nest and raises the chicks alone while Dad roams. She sits on two eggs for 20 days, and the chicks fly about 38 days after hatching."
+          },
+          "src": [
+            "oiseaux",
+            "wiki-hillstar"
+          ]
+        }
       ],
       "facts": [
-        { "kind": "wow", "title": { "en": "The bird that almost switches off" }, "text": { "en": "To survive freezing nights, a hillstar lets its body cool to about 7 °C, close to a fridge, and sinks into a deep sleep called torpor. It was the first hummingbird proven to do it." }, "src": ["bow"] },
-        { "kind": "hidden", "title": { "en": "Sleeping on the wall" }, "text": { "en": "Hillstars spend the night in caves, clinging to the rock and propped on their tails. When scientists checked, every hillstar sleeping in the caves was a female. Kinti in her rock nook: true to life." }, "src": ["bow", "pearson"] },
-        { "kind": "uhoh", "title": { "en": "Hailstorm danger" }, "text": { "en": "Hail can stop a hillstar from feeding all day: then a 15-hour fast and a freezing night on an empty tank. Scientists call their survival remarkable. Tiny Kinti is tougher than she thinks." }, "src": ["bow"] }
+        {
+          "kind": "wow",
+          "title": {
+            "en": "The bird that almost switches off"
+          },
+          "text": {
+            "en": "To survive freezing nights, a hillstar lets its body cool to about 7 °C, close to a fridge, and sinks into a deep sleep called torpor. It was the first hummingbird proven to do it."
+          },
+          "src": [
+            "bow"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Sleeping on the wall"
+          },
+          "text": {
+            "en": "Hillstars spend the night in caves, clinging to the rock and propped on their tails. When scientists checked, every hillstar sleeping in the caves was a female. Kinti in her rock nook: true to life."
+          },
+          "src": [
+            "bow",
+            "pearson"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Hailstorm danger"
+          },
+          "text": {
+            "en": "Hail can stop a hillstar from feeding all day: then a 15-hour fast and a freezing night on an empty tank. Scientists call their survival remarkable. Tiny Kinti is tougher than she thinks."
+          },
+          "src": [
+            "bow"
+          ]
+        }
       ],
-      "storyVsReal": { "en": "Only the male hillstar has the shiny green throat; females have a pale, speckled one. We gave Kinti the sparkle anyway. Can your child spot the change?" },
-      "storyVsRealSrc": ["ebird"]
+      "storyVsReal": {
+        "en": "Only the male hillstar has the shiny green throat; females have a pale, speckled one. We gave Kinti the sparkle anyway. Can your child spot the change?"
+      },
+      "storyVsRealSrc": [
+        "ebird"
+      ]
     },
     {
-      "id": "viscachas", "role": "supporting", "colour": "lilac",
-      "name": { "en": "The viscachas" }, "animal": { "en": "Mountain viscacha" },
+      "id": "viscachas",
+      "role": "supporting",
+      "colour": "lilac",
+      "name": {
+        "en": "The viscachas"
+      },
+      "animal": {
+        "en": "Mountain viscacha"
+      },
       "image": "viscachas.jpg",
-      "job": { "en": "The neighbours on the sunny rocks" },
-      "superpower": { "en": "A built-in alarm whistle" },
-      "lineup": { "weight": { "en": "up to 3 kg" }, "grams": 3000, "like": { "en": "a big house cat" }, "lifespan": { "en": "up to 19 years in zoos" }, "babies": { "en": "1–2" }, "awake": "day" },
+      "job": {
+        "en": "The neighbours on the sunny rocks"
+      },
+      "superpower": {
+        "en": "A built-in alarm whistle"
+      },
+      "lineup": {
+        "weight": {
+          "en": "up to 3 kg"
+        },
+        "grams": 3000,
+        "like": {
+          "en": "a big house cat"
+        },
+        "lifespan": {
+          "en": "up to 19 years in zoos"
+        },
+        "babies": {
+          "en": "1–2"
+        },
+        "awake": "day"
+      },
       "card": [
-        { "label": { "en": "Looks like" }, "value": { "en": "A rabbit with a long, curly, bushy tail" }, "plain": true },
-        { "label": { "en": "Weight" }, "value": { "en": "Up to 3 kg, four times a chinchilla" }, "src": ["adw-visc"] },
-        { "label": { "en": "Lives" }, "value": { "en": "Up to about 19 years in zoos" }, "src": ["adw-visc"] },
-        { "label": { "en": "Eats" }, "value": { "en": "Grasses, mosses and lichens" }, "src": ["adw-visc"] },
-        { "label": { "en": "Home" }, "value": { "en": "Cracks under rocky outcrops" }, "src": ["grzimek"] },
-        { "label": { "en": "Awake" }, "value": { "en": "Day, busiest at sunrise and sunset" }, "src": ["adw-visc"] }
+        {
+          "label": {
+            "en": "Looks like"
+          },
+          "value": {
+            "en": "A rabbit with a long, curly, bushy tail"
+          },
+          "plain": true
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "Up to 3 kg, four times a chinchilla"
+          },
+          "src": [
+            "adw-visc"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Up to about 19 years in zoos"
+          },
+          "src": [
+            "adw-visc"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Grasses, mosses and lichens"
+          },
+          "src": [
+            "adw-visc"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Cracks under rocky outcrops"
+          },
+          "src": [
+            "grzimek"
+          ]
+        },
+        {
+          "label": {
+            "en": "Awake"
+          },
+          "value": {
+            "en": "Day, busiest at sunrise and sunset"
+          },
+          "src": [
+            "adw-visc"
+          ]
+        }
       ],
       "life": [
-        { "title": { "en": "What's for dinner?" }, "text": { "en": "Mostly grasses, plus mosses and even crusty lichens off the rocks. Like chinchillas, they sit up straight to eat. Very good table manners." }, "src": ["adw-visc", "grzimek"] },
-        { "title": { "en": "A rock apartment building" }, "text": { "en": "Each small family has its own crack under the rocks, and many families live side by side in a loose colony." }, "src": ["grzimek"] },
-        { "title": { "en": "Babies" }, "text": { "en": "Mom carries her baby for about four months and usually has just one or two. The little striped one in our story is extra precious." }, "src": ["adw-visc"] }
+        {
+          "title": {
+            "en": "What's for dinner?"
+          },
+          "text": {
+            "en": "Mostly grasses, plus mosses and even crusty lichens off the rocks. Like chinchillas, they sit up straight to eat. Very good table manners."
+          },
+          "src": [
+            "adw-visc",
+            "grzimek"
+          ]
+        },
+        {
+          "title": {
+            "en": "A rock apartment building"
+          },
+          "text": {
+            "en": "Each small family has its own crack under the rocks, and many families live side by side in a loose colony."
+          },
+          "src": [
+            "grzimek"
+          ]
+        },
+        {
+          "title": {
+            "en": "Babies"
+          },
+          "text": {
+            "en": "Mom carries her baby for about four months and usually has just one or two. The little striped one in our story is extra precious."
+          },
+          "src": [
+            "adw-visc"
+          ]
+        }
       ],
       "facts": [
-        { "kind": "wow", "title": { "en": "Secret cousins" }, "text": { "en": "They look like rabbits, but viscachas belong to the chinchilla family. Killa and her neighbours are real relatives." }, "src": ["discover"] },
-        { "kind": "ha", "title": { "en": "Professional sunbathers" }, "text": { "en": "After a freezing night, viscachas sit on rocks to soak up the sun, like grumpy grandpas on beach chairs." }, "src": ["discover"] },
-        { "kind": "uhoh", "title": { "en": "Who's watching?" }, "text": { "en": "The Andean mountain cat hunts viscachas. So one always keeps watch, and a high whistle sends everyone diving for the rocks. Looking out for each other: that's a circle too." }, "src": ["wiki-lagidium", "grzimek"] }
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Secret cousins"
+          },
+          "text": {
+            "en": "They look like rabbits, but viscachas belong to the chinchilla family. Killa and her neighbours are real relatives."
+          },
+          "src": [
+            "discover"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Professional sunbathers"
+          },
+          "text": {
+            "en": "After a freezing night, viscachas sit on rocks to soak up the sun, like grumpy grandpas on beach chairs."
+          },
+          "src": [
+            "discover"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Who's watching?"
+          },
+          "text": {
+            "en": "The Andean mountain cat hunts viscachas. So one always keeps watch, and a high whistle sends everyone diving for the rocks. Looking out for each other: that's a circle too."
+          },
+          "src": [
+            "wiki-lagidium",
+            "grzimek"
+          ]
+        }
       ],
-      "storyVsReal": { "en": "Chinchillas work the night shift and viscachas the day shift, so in real life the neighbours mostly take turns on the same rocks." },
-      "storyVsRealSrc": ["grzimek"]
+      "storyVsReal": {
+        "en": "Chinchillas work the night shift and viscachas the day shift, so in real life the neighbours mostly take turns on the same rocks."
+      },
+      "storyVsRealSrc": [
+        "grzimek"
+      ]
     },
     {
-      "id": "guinea-pigs", "role": "supporting", "colour": "peach",
-      "name": { "en": "The guinea-pig family" }, "animal": { "en": "Montane guinea pig" },
+      "id": "guinea-pigs",
+      "role": "supporting",
+      "colour": "peach",
+      "name": {
+        "en": "The guinea-pig family"
+      },
+      "animal": {
+        "en": "Montane guinea pig"
+      },
       "image": "guinea-pigs.jpg",
-      "job": { "en": "The little family with big hearts" },
-      "superpower": { "en": "Babies born ready to go" },
-      "lineup": { "weight": { "en": "295–390 g" }, "grams": 340, "like": { "en": "a can of soup" }, "lifespan": { "en": "5–6 years (pets)" }, "babies": { "en": "1–4" }, "awake": "dawn" },
+      "job": {
+        "en": "The little family with big hearts"
+      },
+      "superpower": {
+        "en": "Babies born ready to go"
+      },
+      "lineup": {
+        "weight": {
+          "en": "295–390 g"
+        },
+        "grams": 340,
+        "like": {
+          "en": "a can of soup"
+        },
+        "lifespan": {
+          "en": "5–6 years (pets)"
+        },
+        "babies": {
+          "en": "1–4"
+        },
+        "awake": "dawn"
+      },
       "card": [
-        { "label": { "en": "Body" }, "value": { "en": "22–27 cm, and no tail at all" }, "src": ["hmw"] },
-        { "label": { "en": "Weight" }, "value": { "en": "295–390 g, about a can of soup" }, "src": ["hmw"] },
-        { "label": { "en": "Lives" }, "value": { "en": "Pets about 5–6 years; wild ones aren't well studied" }, "src": ["vca"] },
-        { "label": { "en": "Eats" }, "value": { "en": "Herbs and grasses of mountain meadows" }, "src": ["natzoo"] },
-        { "label": { "en": "Home" }, "value": { "en": "Rocky, grassy places with secret runways" }, "src": ["wiki-gp"] },
-        { "label": { "en": "Awake" }, "value": { "en": "Mostly dawn and dusk" }, "src": ["adw-cavia"] }
+        {
+          "label": {
+            "en": "Body"
+          },
+          "value": {
+            "en": "22–27 cm, and no tail at all"
+          },
+          "src": [
+            "hmw"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "295–390 g, about a can of soup"
+          },
+          "src": [
+            "hmw"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Pets about 5–6 years; wild ones aren't well studied"
+          },
+          "src": [
+            "vca"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Herbs and grasses of mountain meadows"
+          },
+          "src": [
+            "natzoo"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Rocky, grassy places with secret runways"
+          },
+          "src": [
+            "wiki-gp"
+          ]
+        },
+        {
+          "label": {
+            "en": "Awake"
+          },
+          "value": {
+            "en": "Mostly dawn and dusk"
+          },
+          "src": [
+            "adw-cavia"
+          ]
+        }
       ],
       "life": [
-        { "title": { "en": "One long snack" }, "text": { "en": "Wild guinea pigs eat the herbs and grasses of mountain meadows, at ground level, all day long, to keep their busy little bodies going." }, "src": ["natzoo", "adw-cavia"] },
-        { "title": { "en": "Tunnels in the grass" }, "text": { "en": "They wear secret runways through thick plants to scurry out of sight, and in some places live in burrows with several doors. Very handy when someone hungry comes knocking." }, "src": ["wiki-gp"] },
-        { "title": { "en": "The family" }, "text": { "en": "Guinea pigs live in small herds, and some dads help groom and play with the babies. Moms have one to four at a time, grown up at about two months." }, "src": ["adw-cavia", "hmw"] }
+        {
+          "title": {
+            "en": "One long snack"
+          },
+          "text": {
+            "en": "Wild guinea pigs eat the herbs and grasses of mountain meadows, at ground level, all day long, to keep their busy little bodies going."
+          },
+          "src": [
+            "natzoo",
+            "adw-cavia"
+          ]
+        },
+        {
+          "title": {
+            "en": "Tunnels in the grass"
+          },
+          "text": {
+            "en": "They wear secret runways through thick plants to scurry out of sight, and in some places live in burrows with several doors. Very handy when someone hungry comes knocking."
+          },
+          "src": [
+            "wiki-gp"
+          ]
+        },
+        {
+          "title": {
+            "en": "The family"
+          },
+          "text": {
+            "en": "Guinea pigs live in small herds, and some dads help groom and play with the babies. Moms have one to four at a time, grown up at about two months."
+          },
+          "src": [
+            "adw-cavia",
+            "hmw"
+          ]
+        }
       ],
       "facts": [
-        { "kind": "wow", "title": { "en": "Every pet guinea pig came from here" }, "text": { "en": "People in the Andes tamed guinea pigs thousands of years ago, from a wild ancestor like this one. A pet guinea pig's family tree starts on Killa's mountain." }, "src": ["scirep"] },
-        { "kind": "ha", "title": { "en": "Born ready" }, "text": { "en": "Most baby rodents are born bald and blind. Guinea-pig babies arrive with fur, open eyes and teeth, and nibble solid food right away." }, "src": ["adw-cavia", "merck"] },
-        { "kind": "hidden", "title": { "en": "Just like you" }, "text": { "en": "Guinea pigs can't make their own vitamin C, so they get it from plants. Humans can't either. Eat your veggies!" }, "src": ["adw-cavia-2"] },
-        { "kind": "uhoh", "title": { "en": "Scatter!" }, "text": { "en": "Big eyes, big ears and a sharp nose spot danger early. When it comes, the whole group scatters in every direction to confuse the hunter." }, "src": ["adw-cavia", "natzoo-2"] }
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Every pet guinea pig came from here"
+          },
+          "text": {
+            "en": "People in the Andes tamed guinea pigs thousands of years ago, from a wild ancestor like this one. A pet guinea pig's family tree starts on Killa's mountain."
+          },
+          "src": [
+            "scirep"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Born ready"
+          },
+          "text": {
+            "en": "Most baby rodents are born bald and blind. Guinea-pig babies arrive with fur, open eyes and teeth, and nibble solid food right away."
+          },
+          "src": [
+            "adw-cavia",
+            "merck"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Just like you"
+          },
+          "text": {
+            "en": "Guinea pigs can't make their own vitamin C, so they get it from plants. Humans can't either. Eat your veggies!"
+          },
+          "src": [
+            "adw-cavia-2"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Scatter!"
+          },
+          "text": {
+            "en": "Big eyes, big ears and a sharp nose spot danger early. When it comes, the whole group scatters in every direction to confuse the hunter."
+          },
+          "src": [
+            "adw-cavia",
+            "natzoo-2"
+          ]
+        }
       ],
-      "storyVsReal": { "en": "Real wild guinea pigs are plain sandy-brown, just as we painted them. The swirly colours of pets came later, from people breeding them." },
-      "storyVsRealSrc": ["natzoo"]
+      "storyVsReal": {
+        "en": "Real wild guinea pigs are plain sandy-brown, just as we painted them. The swirly colours of pets came later, from people breeding them."
+      },
+      "storyVsRealSrc": [
+        "natzoo"
+      ]
     }
   ],
   "activities": [
-    { "title": { "en": "Weigh the heroes" }, "text": { "en": "Find a loonie, a can of soup and a loaf of bread. Which hero weighs the same as each?" } },
-    { "title": { "en": "The fridge test" }, "text": { "en": "A hand in the fridge for three seconds. Brrr! That's how cold a sleeping hillstar gets." } },
-    { "title": { "en": "Paper-tree peel" }, "text": { "en": "Wrap ten sheets of tissue round a tube, then peel one: a queñua losing an old coat." } },
-    { "title": { "en": "The human chain" }, "text": { "en": "Pass a cushion hand to hand, like the villagers at a chaccu, and the animals in the story." } },
-    { "title": { "en": "Spot the change" }, "text": { "en": "Flip through the book: find Kinti's sparkly throat, Sami's tassel and Killa awake at noon." } }
+    {
+      "title": {
+        "en": "Weigh the heroes"
+      },
+      "text": {
+        "en": "Find a loonie, a can of soup and a loaf of bread. Which hero weighs the same as each?"
+      }
+    },
+    {
+      "title": {
+        "en": "The fridge test"
+      },
+      "text": {
+        "en": "A hand in the fridge for three seconds. Brrr! That's how cold a sleeping hillstar gets."
+      }
+    },
+    {
+      "title": {
+        "en": "Paper-tree peel"
+      },
+      "text": {
+        "en": "Wrap ten sheets of tissue round a tube, then peel one: a queñua losing an old coat."
+      }
+    },
+    {
+      "title": {
+        "en": "The human chain"
+      },
+      "text": {
+        "en": "Pass a cushion hand to hand, like the villagers at a chaccu, and the animals in the story."
+      }
+    },
+    {
+      "title": {
+        "en": "Spot the change"
+      },
+      "text": {
+        "en": "Flip through the book: find Kinti's sparkly throat, Sami's tassel and Killa awake at noon."
+      }
+    }
   ],
   "faq": [
-    { "q": { "en": "Are the animals in The Circle of Paws real?" }, "a": { "en": "Yes. Chinchillas, vicuñas, mountain viscachas, wild guinea pigs and Andean hillstars all live in the Andes today. We changed a few small things for the story, and each hero tells you what." } },
-    { "q": { "en": "Are chinchillas endangered?" }, "a": { "en": "Wild chinchillas are, after years of fur hunting. Pet chinchillas are bred in captivity." }, "src": ["mnzoo-blog"] },
-    { "q": { "en": "What's the difference between a vicuña, a llama and an alpaca?" }, "a": { "en": "Llamas and alpacas are tame animals that people raise. Vicuñas are wild, and DNA research suggests alpacas descend from them." }, "src": ["eol-vicuna"] },
-    { "q": { "en": "What is torpor?" }, "a": { "en": "A very deep, cold sleep that saves energy. The Andean hillstar was the first hummingbird shown to use it." }, "src": ["bow"] }
+    {
+      "q": {
+        "en": "Are the animals in The Circle of Paws real?"
+      },
+      "a": {
+        "en": "Yes. Chinchillas, vicuñas, mountain viscachas, wild guinea pigs and Andean hillstars all live in the Andes today. We changed a few small things for the story, and each hero tells you what."
+      }
+    },
+    {
+      "q": {
+        "en": "Are chinchillas endangered?"
+      },
+      "a": {
+        "en": "Wild chinchillas are, after years of fur hunting. Pet chinchillas are bred in captivity."
+      },
+      "src": [
+        "mnzoo-blog"
+      ]
+    },
+    {
+      "q": {
+        "en": "What's the difference between a vicuña, a llama and an alpaca?"
+      },
+      "a": {
+        "en": "Llamas and alpacas are tame animals that people raise. Vicuñas are wild, and DNA research suggests alpacas descend from them."
+      },
+      "src": [
+        "eol-vicuna"
+      ]
+    },
+    {
+      "q": {
+        "en": "What is torpor?"
+      },
+      "a": {
+        "en": "A very deep, cold sleep that saves energy. The Andean hillstar was the first hummingbird shown to use it."
+      },
+      "src": [
+        "bow"
+      ]
+    }
   ],
   "sources": {
-    "adw-chin": { "name": "Animal Diversity Web", "title": "Chinchilla lanigera", "url": "https://animaldiversity.org/accounts/Chinchilla_lanigera/" },
-    "adw-vicuna": { "name": "Animal Diversity Web", "title": "Vicugna vicugna", "url": "https://animaldiversity.org/accounts/Vicugna_vicugna/" },
-    "adw-visc": { "name": "Animal Diversity Web", "title": "Lagidium viscacia", "url": "https://animaldiversity.org/accounts/Lagidium_viscacia" },
-    "adw-cavia": { "name": "Animal Diversity Web", "title": "Cavia", "url": "https://animaldiversity.org/site/accounts/information/Cavia.html" },
-    "adw-cavia-2": { "name": "Animal Diversity Web", "title": "Cavia", "url": "https://animaldiversity.org/accounts/Cavia/" },
-    "eol-vicuna": { "name": "Encyclopedia of Life", "title": "Vicuña", "url": "https://media.eol.org/pages/309016/articles" },
-    "eol-life": { "name": "Encyclopedia of Life", "title": "Vicuña life expectancy", "url": "https://api.eol.org/pages/309016/articles" },
-    "mnzoo": { "name": "Minnesota Zoo", "title": "Chinchilla", "url": "https://mnzoo.org/?p=53459" },
-    "mnzoo-blog": { "name": "Minnesota Zoo", "title": "Chinchilla: how they're doing", "url": "https://mnzoo.org/blog/animals/chinchilla/" },
-    "beardsley": { "name": "Beardsley Zoo", "title": "Chinchilla", "url": "https://beardsleyzoo.org/animals/chinchilla/" },
-    "vetstreet": { "name": "Vetstreet", "title": "The Top 10 Things to Know About Chinchillas", "url": "https://www.vetstreet.com/our-pet-experts/the-top-10-things-to-know-about-chinchillas" },
-    "natzoo": { "name": "Smithsonian's National Zoo", "title": "Guinea pig", "url": "https://www.nationalzoo.si.edu/node/11440" },
-    "natzoo-2": { "name": "Smithsonian's National Zoo", "title": "Guinea pig", "url": "https://NationalZoo.si.edu/animals/guinea-pig" },
-    "hmw": { "name": "Handbook of the Mammals of the World", "title": "Cavia tschudii (Wilson, Lacher & Mittermeier 2016)", "url": "https://zenodo.org/record/6585522" },
-    "vca": { "name": "VCA Animal Hospitals", "title": "Guinea pigs: owning", "url": "https://vcahospitals.com/st-marys/know-your-pet/guinea-pigs-owning" },
-    "merck": { "name": "Merck Veterinary Manual", "title": "Guinea Pigs", "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/rodents/guinea-pigs" },
-    "scirep": { "name": "Scientific Reports", "title": "Ancient DNA of guinea pigs (Lord et al. 2020)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7264122" },
-    "enc-vicuna": { "name": "Encyclopedia.com", "title": "Vicuña", "url": "https://encyclopedia.com/plants-and-animals/animals/vertebrate-zoology/vicuna" },
-    "grzimek": { "name": "Grzimek's Animal Life Encyclopedia", "title": "Viscachas and Chinchillas", "url": "https://encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/viscachas-and-chinchillas-chinchillidae" },
-    "nwe-vicuna": { "name": "New World Encyclopedia", "title": "Vicuña", "url": "https://www.newworldencyclopedia.org/entry/Vicuña" },
-    "smithsonian": { "name": "Smithsonian Magazine", "title": "How an Ancestral Peruvian Ceremony Is Saving the Once-Endangered Vicuña", "url": "https://www.smithsonianmag.com/travel/how-an-ancestral-peruvian-ceremony-is-saving-the-once-endangered-vicuna-180986933/" },
-    "cites": { "name": "CITES", "title": "Vicuña in Peru: livelihoods fact sheet (2022)", "url": "https://cites.org/sites/default/files/eng/prog/Livelihoods/case_studies/2022/CITES_%26_livelihoods_fact_sheet_Vicuna%20Peru.pdf" },
-    "cu-boulder": { "name": "University of Colorado Boulder", "title": "How animal poop helps ecosystems adapt to climate change", "url": "https://www.colorado.edu/today/2025/01/21/how-animal-poop-helps-ecosystems-adapt-climate-change" },
-    "cu-boulder-2": { "name": "University of Colorado Boulder", "title": "Vicuña latrines and glacier retreat", "url": "https://www.colorado.edu/today/node/53997" },
-    "wildfibres": { "name": "Wild Fibres", "title": "Vicuña", "url": "https://wildfibres.co.uk/html/vicuna.html" },
-    "zenodo-vicuna": { "name": "Zenodo", "title": "Vicugna vicugna species account", "url": "https://openpolar.no/Record/ftdatacite:10.5281%2Fzenodo.5719732" },
-    "bow": { "name": "Cornell Lab, Birds of the World", "title": "Andean Hillstar: behavior", "url": "https://birdsoftheworld.org/bow/historic/nb/andhil1/1.0/behavior" },
-    "pearson": { "name": "The Condor", "title": "Pearson (1953), Use of caves by hummingbirds at high altitudes in Peru", "url": "https://sora.unm.edu/sites/default/files/journals/condor/v055n01/p0017-p0020.pdf" },
-    "ecoreg-sheet": { "name": "EcoRegistros", "title": "Andean Hillstar species sheet", "url": "https://www.ecoregistros.org/sheet/Oreotrochilus-estella?a=2020" },
-    "ecoreg-species": { "name": "EcoRegistros", "title": "Andean Hillstar", "url": "https://www.ecoregistros.org/site_en/especie.php?id=1193" },
-    "ebird": { "name": "eBird", "title": "Andean Hillstar", "url": "https://ebird.org/species/andhil3/BO-T" },
-    "oiseaux": { "name": "Oiseaux-Birds", "title": "Andean Hillstar", "url": "https://www.oiseaux-birds.com/card-andean-hillstar.html" },
-    "wiki-hillstar": { "name": "Wikipedia", "title": "Andean hillstar", "url": "https://en.wikipedia.org/wiki/Andean_hillstar" },
-    "discover": { "name": "Discover Wildlife", "title": "Viscachas", "url": "https://www.discoverwildlife.com/animal-facts/mammals/viscachas" },
-    "wiki-lagidium": { "name": "Wikipedia", "title": "Lagidium", "url": "https://en.wikipedia.org/wiki/Lagidium" },
-    "wiki-chin": { "name": "Wikipedia", "title": "Chinchilla", "url": "https://en.wikipedia.org/wiki/Chinchilla" },
-    "wiki-gp": { "name": "Wikipedia", "title": "Montane guinea pig", "url": "https://en.wikipedia.org/wiki/Montane_guinea_pig" },
-    "wiki-puna": { "name": "Wikipedia", "title": "Puna grassland", "url": "https://en.wikipedia.org/wiki/Puna_grassland" },
-    "lambrinos": { "name": "Revista Chilena de Historia Natural", "title": "Plant community variation across a puna landscape (Lambrinos et al. 2006)", "url": "https://www.redalyc.org/pdf/3699/369944278009.pdf" },
-    "simpson": { "name": "Smithsonian Contributions to Botany", "title": "A Revision of the Genus Polylepis (Simpson)", "url": "https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo112202/pdf/GOVPUB-SI-PURL-gpo112202.pdf" },
-    "atlas": { "name": "Atlas Obscura", "title": "These Fairytale Trees Only Grow at Incredible Altitudes", "url": "https://www.atlasobscura.com/articles/these-fairytale-trees-only-grow-at-incredible-altitudes" },
-    "nmai": { "name": "Smithsonian National Museum of the American Indian", "title": "Food Diversification", "url": "https://americanindian.si.edu/nk360/inka-water/food-diversification/food.cshtml" },
-    "pri": { "name": "The World (PRI)", "title": "Ancient Incan agriculture revived due to climate change", "url": "https://theworld.org/stories/2013/08/15/stub-5839" }
+    "adw-chin": {
+      "name": "Animal Diversity Web",
+      "title": "Chinchilla lanigera",
+      "url": "https://animaldiversity.org/accounts/Chinchilla_lanigera/"
+    },
+    "adw-vicuna": {
+      "name": "Animal Diversity Web",
+      "title": "Vicugna vicugna",
+      "url": "https://animaldiversity.org/accounts/Vicugna_vicugna/"
+    },
+    "adw-visc": {
+      "name": "Animal Diversity Web",
+      "title": "Lagidium viscacia",
+      "url": "https://animaldiversity.org/accounts/Lagidium_viscacia"
+    },
+    "adw-cavia": {
+      "name": "Animal Diversity Web",
+      "title": "Cavia",
+      "url": "https://animaldiversity.org/site/accounts/information/Cavia.html"
+    },
+    "adw-cavia-2": {
+      "name": "Animal Diversity Web",
+      "title": "Cavia",
+      "url": "https://animaldiversity.org/accounts/Cavia/"
+    },
+    "eol-vicuna": {
+      "name": "Encyclopedia of Life",
+      "title": "Vicuña",
+      "url": "https://media.eol.org/pages/309016/articles"
+    },
+    "eol-life": {
+      "name": "Encyclopedia of Life",
+      "title": "Vicuña life expectancy",
+      "url": "https://api.eol.org/pages/309016/articles"
+    },
+    "mnzoo": {
+      "name": "Minnesota Zoo",
+      "title": "Chinchilla",
+      "url": "https://mnzoo.org/?p=53459"
+    },
+    "mnzoo-blog": {
+      "name": "Minnesota Zoo",
+      "title": "Chinchilla: how they're doing",
+      "url": "https://mnzoo.org/blog/animals/chinchilla/"
+    },
+    "beardsley": {
+      "name": "Beardsley Zoo",
+      "title": "Chinchilla",
+      "url": "https://beardsleyzoo.org/animals/chinchilla/"
+    },
+    "vetstreet": {
+      "name": "Vetstreet",
+      "title": "The Top 10 Things to Know About Chinchillas",
+      "url": "https://www.vetstreet.com/our-pet-experts/the-top-10-things-to-know-about-chinchillas"
+    },
+    "natzoo": {
+      "name": "Smithsonian's National Zoo",
+      "title": "Guinea pig",
+      "url": "https://www.nationalzoo.si.edu/node/11440"
+    },
+    "natzoo-2": {
+      "name": "Smithsonian's National Zoo",
+      "title": "Guinea pig",
+      "url": "https://NationalZoo.si.edu/animals/guinea-pig"
+    },
+    "hmw": {
+      "name": "Handbook of the Mammals of the World",
+      "title": "Cavia tschudii (Wilson, Lacher & Mittermeier 2016)",
+      "url": "https://zenodo.org/record/6585522"
+    },
+    "vca": {
+      "name": "VCA Animal Hospitals",
+      "title": "Guinea pigs: owning",
+      "url": "https://vcahospitals.com/st-marys/know-your-pet/guinea-pigs-owning"
+    },
+    "merck": {
+      "name": "Merck Veterinary Manual",
+      "title": "Guinea Pigs",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/rodents/guinea-pigs"
+    },
+    "scirep": {
+      "name": "Scientific Reports",
+      "title": "Ancient DNA of guinea pigs (Lord et al. 2020)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7264122"
+    },
+    "enc-vicuna": {
+      "name": "Encyclopedia.com",
+      "title": "Vicuña",
+      "url": "https://encyclopedia.com/plants-and-animals/animals/vertebrate-zoology/vicuna"
+    },
+    "grzimek": {
+      "name": "Grzimek's Animal Life Encyclopedia",
+      "title": "Viscachas and Chinchillas",
+      "url": "https://encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/viscachas-and-chinchillas-chinchillidae"
+    },
+    "nwe-vicuna": {
+      "name": "New World Encyclopedia",
+      "title": "Vicuña",
+      "url": "https://www.newworldencyclopedia.org/entry/Vicuña"
+    },
+    "smithsonian": {
+      "name": "Smithsonian Magazine",
+      "title": "How an Ancestral Peruvian Ceremony Is Saving the Once-Endangered Vicuña",
+      "url": "https://www.smithsonianmag.com/travel/how-an-ancestral-peruvian-ceremony-is-saving-the-once-endangered-vicuna-180986933/"
+    },
+    "cites": {
+      "name": "CITES",
+      "title": "Vicuña in Peru: livelihoods fact sheet (2022)",
+      "url": "https://cites.org/sites/default/files/eng/prog/Livelihoods/case_studies/2022/CITES_%26_livelihoods_fact_sheet_Vicuna%20Peru.pdf"
+    },
+    "cu-boulder": {
+      "name": "University of Colorado Boulder",
+      "title": "How animal poop helps ecosystems adapt to climate change",
+      "url": "https://www.colorado.edu/today/2025/01/21/how-animal-poop-helps-ecosystems-adapt-climate-change"
+    },
+    "cu-boulder-2": {
+      "name": "University of Colorado Boulder",
+      "title": "Vicuña latrines and glacier retreat",
+      "url": "https://www.colorado.edu/today/node/53997"
+    },
+    "wildfibres": {
+      "name": "Wild Fibres",
+      "title": "Vicuña",
+      "url": "https://wildfibres.co.uk/html/vicuna.html"
+    },
+    "zenodo-vicuna": {
+      "name": "Zenodo",
+      "title": "Vicugna vicugna species account",
+      "url": "https://openpolar.no/Record/ftdatacite:10.5281%2Fzenodo.5719732"
+    },
+    "bow": {
+      "name": "Cornell Lab, Birds of the World",
+      "title": "Andean Hillstar: behavior",
+      "url": "https://birdsoftheworld.org/bow/historic/nb/andhil1/1.0/behavior"
+    },
+    "pearson": {
+      "name": "The Condor",
+      "title": "Pearson (1953), Use of caves by hummingbirds at high altitudes in Peru",
+      "url": "https://sora.unm.edu/sites/default/files/journals/condor/v055n01/p0017-p0020.pdf"
+    },
+    "ecoreg-sheet": {
+      "name": "EcoRegistros",
+      "title": "Andean Hillstar species sheet",
+      "url": "https://www.ecoregistros.org/sheet/Oreotrochilus-estella?a=2020"
+    },
+    "ecoreg-species": {
+      "name": "EcoRegistros",
+      "title": "Andean Hillstar",
+      "url": "https://www.ecoregistros.org/site_en/especie.php?id=1193"
+    },
+    "ebird": {
+      "name": "eBird",
+      "title": "Andean Hillstar",
+      "url": "https://ebird.org/species/andhil3/BO-T"
+    },
+    "oiseaux": {
+      "name": "Oiseaux-Birds",
+      "title": "Andean Hillstar",
+      "url": "https://www.oiseaux-birds.com/card-andean-hillstar.html"
+    },
+    "wiki-hillstar": {
+      "name": "Wikipedia",
+      "title": "Andean hillstar",
+      "url": "https://en.wikipedia.org/wiki/Andean_hillstar"
+    },
+    "discover": {
+      "name": "Discover Wildlife",
+      "title": "Viscachas",
+      "url": "https://www.discoverwildlife.com/animal-facts/mammals/viscachas"
+    },
+    "wiki-lagidium": {
+      "name": "Wikipedia",
+      "title": "Lagidium",
+      "url": "https://en.wikipedia.org/wiki/Lagidium"
+    },
+    "wiki-chin": {
+      "name": "Wikipedia",
+      "title": "Chinchilla",
+      "url": "https://en.wikipedia.org/wiki/Chinchilla"
+    },
+    "wiki-gp": {
+      "name": "Wikipedia",
+      "title": "Montane guinea pig",
+      "url": "https://en.wikipedia.org/wiki/Montane_guinea_pig"
+    },
+    "wiki-puna": {
+      "name": "Wikipedia",
+      "title": "Puna grassland",
+      "url": "https://en.wikipedia.org/wiki/Puna_grassland"
+    },
+    "lambrinos": {
+      "name": "Revista Chilena de Historia Natural",
+      "title": "Plant community variation across a puna landscape (Lambrinos et al. 2006)",
+      "url": "https://www.redalyc.org/pdf/3699/369944278009.pdf"
+    },
+    "simpson": {
+      "name": "Smithsonian Contributions to Botany",
+      "title": "A Revision of the Genus Polylepis (Simpson)",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo112202/pdf/GOVPUB-SI-PURL-gpo112202.pdf"
+    },
+    "atlas": {
+      "name": "Atlas Obscura",
+      "title": "These Fairytale Trees Only Grow at Incredible Altitudes",
+      "url": "https://www.atlasobscura.com/articles/these-fairytale-trees-only-grow-at-incredible-altitudes"
+    },
+    "nmai": {
+      "name": "Smithsonian National Museum of the American Indian",
+      "title": "Food Diversification",
+      "url": "https://americanindian.si.edu/nk360/inka-water/food-diversification/food.cshtml"
+    },
+    "pri": {
+      "name": "The World (PRI)",
+      "title": "Ancient Incan agriculture revived due to climate change",
+      "url": "https://theworld.org/stories/2013/08/15/stub-5839"
+    },
+    "kba": {
+      "name": "Key Biodiversity Areas",
+      "title": "Reserva Nacional Pampa Galeras - Bárbara d'Achille",
+      "url": "https://www.keybiodiversityareas.org/site/factsheet/14796"
+    }
   }
 }

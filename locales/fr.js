@@ -506,6 +506,7 @@ module.exports = {
     awake: { day: 'Actif le jour', night: 'Actif la nuit', dawn: 'Actif à l\'aube et au crépuscule' },
     tryHome: 'À essayer à la maison', faq: 'Questions des parents', allSources: 'Toutes nos sources',
     checked: 'Faits vérifiés', draft: 'Brouillon : pas encore public', culturalReader: 'En attente d\'un lecteur culturel',
+    visit: 'Visiter le vrai lieu', flyEarth: 'Y voler avec Google Earth', openMaps: 'Ouvrir dans Google Maps', leaving: 'Les boutons ouvrent Google dans un nouvel onglet.',
     readBook: 'Lire l\'histoire', otherGuides: 'Autres fiches de héros', none: 'Des fiches de héros arrivent pour chaque livre.'
   },
   footer: {

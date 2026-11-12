@@ -1,0 +1,92 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ],
+    [
+      "p25",
+      "p26"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To those who do good quietly, just like Bunny. A story about kindness, humility, and helping others.",
+        "p03": "In a peaceful forest, a little Bunny lived quietly under the trees. He was small and shy, but he loved to help others.",
+        "p04": "One hot day, the forest’s watering hole dried up.",
+        "p05": "The animals were worried. “What will we do?” they cried.",
+        "p06": "Tap-tap! Clink-clank! That night, Bunny found a broken pipe and fixed it.",
+        "p07": "By morning, the water was back. “Who did this?” the animals asked.",
+        "p08": "Bunny stayed quiet, hiding in the grass.",
+        "p09": "Another day, a strong wind blew Mama Bird’s nest to the ground. One egg got lost.",
+        "p10": "That night, when everyone was asleep, Bunny went searching for the missing egg.",
+        "p11": "He found it and carefully, he carried it back to the nest.",
+        "p12": "When Mama Bird saw her eggs safe, she chirped, “Who helped me?”",
+        "p13": "But Bunny just hopped away unseen.",
+        "p14": "In winter, snow covered the forest paths. “What will we do?” squeaked the squirrel.",
+        "p15": "The animals couldn’t find their way to their food.",
+        "p16": "That night, Bunny worked quietly, to clear the path.",
+        "p17": "Scrape-scrape! Swish-swish!",
+        "p18": "By morning, the path was clear.",
+        "p19": "“Who cleared the snow?” the animals asked. But they never knew.",
+        "p20": "One day, a squirrel saw Bunny helping.“Why don’t you tell anyone it’s you?” the squirrel asked.",
+        "p21": "Bunny smiled. “Helping is more fun when it’s a secret! It’s not about being noticed. It’s about making someone’s day better.”",
+        "p22": "The animals started wondering about a mysterious “Secret Hero” in the forest. \"Who could it be?\" they whispered to one another.",
+        "p23": "Inspired by the unseen helper, the monkey cleared water paths.",
+        "p24": "And the birds sang cheerful songs to brighten everyone’s day.",
+        "p25": "The forest soon became a better place full of hidden acts of kindness, where small efforts made a big difference.",
+        "p26": "The End",
+        "cover": "Secret Hero."
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ],
+    [
+      "p25",
+      "p26"
+    ],
+    [
+      "p27",
+      "p28"
+    ],
+    [
+      "p29",
+      "p30"
+    ],
+    [
+      "p31",
+      "p32"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To those who can’t take it like Etoo A story about managing Anger",
+        "p03": "In the middle of a hot, sandy desert, lived a tiny beetle named Etoo and a buzzing bee named Bella.",
+        "p04": "They were the best of friends, always exploring the desert dunes together.",
+        "p05": "They climp over cactus plants, shared drops of sweet nectar, and rested under cool rocks when the sun was too hot",
+        "p06": "One scorching afternoon, Etoo was building a small sand tower",
+        "p07": "While Bella gathered nectar from nearby flowers.",
+        "p08": "But when Bella zoomed by, her wings made a gust of wind that knocked Etoo’s sand tower down.",
+        "p09": "“Bellaaaaaa!” Etoo shouted, “You ruined my tower!”",
+        "p10": "“I didn’t mean to!” Bella buzzed back.",
+        "p11": "“It was just the wind from my wings!”",
+        "p12": "But Etoo was too angry to listen.",
+        "p13": "“You always ruin everything!” he snapped and stomped away, his tiny legs kicking up dust.",
+        "p14": "Bella felt hurt and flew off to a tall cactus, her wings drooping.",
+        "p15": "The hot desert felt even lonelier without Etoo’s laughter.",
+        "p16": "Later, Etoo sat under a rock, his face still scrunched with anger.",
+        "p17": "But soon, he noticed how quiet and empty it felt without Bella.",
+        "p18": "Etoo thought about how much fun they always had",
+        "p19": "He realized that being angry wasn’t making him feel better.",
+        "p20": "He took a deep breath, just like the desert breeze after a sandstorm.",
+        "p21": "He remembered what the wise old scorpion once said, “When anger buzzes loud, pause and listen to your heart.”",
+        "p22": "Etoo decided to find Bella.",
+        "p23": "When he did, he saw her quietly sitting by the cactus.",
+        "p24": "“Bella,” Etoo said softly, “I’m sorry I got so mad.",
+        "p25": "I know you didn’t mean to knock down my tower.”",
+        "p26": "Bella’s wings perked up.",
+        "p27": "“I’m sorry too. I didn’t mean to upset you.”",
+        "p28": "They smiled at each other.",
+        "p29": "“Let’s build the biggest sand tower together!” Bella shouted.",
+        "p30": "From that day on, Etoo learned that when he felt angry, taking a deep breath helped him cool down",
+        "p31": "just like the desert wind after a hot day. And everything will be alright again.",
+        "p32": "The End",
+        "cover": "The Desert Buzz."
+      }
+    }
+  }
+}

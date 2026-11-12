@@ -1,0 +1,110 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ],
+    [
+      "p25",
+      "p26"
+    ],
+    [
+      "p27",
+      "p28"
+    ],
+    [
+      "p29",
+      "p30"
+    ],
+    [
+      "p31",
+      "p32"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To best friends like Felix and Finn. A story about friendship and forgiveness.",
+        "p03": "In a quiet forest, under the golden autumn leaves, lived two foxes named Felix and Finn.",
+        "p04": "They were the best of friends and did everything together.",
+        "p05": "They raced through the woods, shared tasty fruits, and even built cozy dens side by side.",
+        "p06": "One day, Felix found a shiny, round pebble by the river",
+        "p07": "“Look, Finn!” he called. “Isn’t it beautiful?”",
+        "p08": "Felix placed the pebble in his den, proud of his special find.",
+        "p09": "But the next day, it was gone!",
+        "p10": "Felix rushed to Finn’s den and saw a shiny pebble sitting by the entrance.",
+        "p11": "“Finn, you took my pebble!” Felix shouted.",
+        "p12": "Finn’s eyes widened. “I didn’t!",
+        "p13": "This is my pebble. I found it near the oak tree!”",
+        "p14": "But Felix didn’t believe him. “You’re lying!” he growled.",
+        "p15": "Angry and hurt, the two foxes turned their backs on each other and stormed off",
+        "p16": "Days passed, but neither fox felt happy.",
+        "p17": "The forest felt emptier without their laughter and adventures.",
+        "p18": "One evening, Felix was walking by the river",
+        "p19": "he saw something sparkling in the water. It was his pebble!",
+        "p20": "Felix realized he had been wrong.",
+        "p21": "The pebble must have rolled out of his den and into the river.",
+        "p22": "Feeling ashamed, Felix knew he had to make things right",
+        "p23": "He ran to Finn’s den.",
+        "p24": "“Finn,” Felix said softly, “I found my pebble by the river.",
+        "p25": "I’m so sorry for not believing you.”",
+        "p26": "Finn looked at Felix, his eyes softening.",
+        "p27": "“I was really hurt, Felix. But I forgive you.”",
+        "p28": "The two foxes hugged tightly. “Friends?” Felix asked.",
+        "p29": "“Always,” Finn smiled.",
+        "p30": "From that day on, Felix and Finn knew that mistakes could happen,",
+        "p31": "but forgiveness made their friendship even stronger.",
+        "p32": "The End",
+        "cover": "The Fox Mistake."
+      }
+    }
+  }
+}

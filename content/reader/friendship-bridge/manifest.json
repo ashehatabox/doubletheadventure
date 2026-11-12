@@ -1,0 +1,110 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ],
+    [
+      "p25",
+      "p26"
+    ],
+    [
+      "p27",
+      "p28"
+    ],
+    [
+      "p29",
+      "p30"
+    ],
+    [
+      "p31",
+      "p32"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To those who build stuff like Venny & Sammy A story about Teamwork.",
+        "p03": "In a peaceful forest, by the edge of a wide, rushing river, lived a beaver named Venny and a squirrel named Sammy.",
+        "p04": "One day, Venny and Sammy spotted the biggest, juiciest strawberry bush on the other side of the river",
+        "p05": "“Let’s build a bridge!” Venny said excitedly. “Yes!” Sammy agreed.",
+        "p06": "“We should build it with strong logs,” Venny said, tapping his thick tail. “It needs to be sturdy.”",
+        "p07": "“No, no!” Sammy squeaked. “We should use light branches so it’s quick and easy!",
+        "p08": "As usual they both had different ideas. They argued and argued until finally,",
+        "p09": "they decided to build separate bridges their own way.",
+        "p10": "Venny gathered heavy logs and built his bridge.",
+        "p11": "But the logs were too big and float away into the river with a big splash!",
+        "p12": "Sammy used light branches to build his bridge.",
+        "p13": "But the branches were too flimsy, and his bridge wobbled and collapsed with a loud crack!",
+        "p14": "They both sat by the river, wet and frustrated.",
+        "p15": "“Your idea didn’t work!” Sammy huffed. “Well, neither did yours!” Venny grumbled.",
+        "p16": "After a moment, Sammy sighed. “Maybe… we should try working together?”",
+        "p17": "Venny thought for a second and nodded. “Yeah, maybe combining our ideas is the best way.”",
+        "p18": "“Your logs are really strong,” Sammy admitted. “But they’re too heavy on their own.”",
+        "p19": "Venny scratched his head. “And your branches are light and flexible, but too weak to hold everything up.”",
+        "p20": "Sammy’s eyes lit up. “What if we use my soft branches to tie your big logs together?”",
+        "p21": "Venny grinned. “That might actually work! The logs will be sturdy, and the branches will keep them from floating away.”",
+        "p22": "So, they got to work. Venny brought strong logs",
+        "p23": "and Sammy tied them together with flexible branches.",
+        "p24": "They laughed and cheered as they worked,",
+        "p25": "realizing how much faster and better it was when they helped each other.",
+        "p26": "By the end of the day, they had built the sturdiest, most beautiful bridge the forest had ever seen",
+        "p27": "Together, Venny and Sammy crossed the bridge, excited to reach the strawberry bush.",
+        "p28": "As they munched on the juicy strawberries, Sammy smiled. “We did it!”",
+        "p29": "Venny grinned. “Yep! Together, we can do more.”",
+        "p30": "From that day on, Venny and Sammy became the best of friends",
+        "p31": "knowing that teamwork made everything better —and a lot more fun!",
+        "p32": "The End",
+        "cover": "Friendship Bridge."
+      }
+    }
+  }
+}

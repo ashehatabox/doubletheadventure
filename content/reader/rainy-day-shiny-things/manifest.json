@@ -1,0 +1,109 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ],
+    [
+      "p25",
+      "p26"
+    ],
+    [
+      "p27",
+      "p28"
+    ],
+    [
+      "p29",
+      "p30"
+    ],
+    [
+      "p31",
+      "p32"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To those who Find Joy in Small Moments, just like the cats. A story about gratitude and appreciation.",
+        "p03": "In a cozy little house on Maple Street lived three cats: Whiskers, the curious one; Mittens, the playful one; and Shadow, the quiet observer.",
+        "p04": "They lived with a kind, caring lady named Mrs. Maple, who loved them dearly.",
+        "p05": "Every night, she tucked them into their favorite spots with a gentle scratch behind their ears.",
+        "p06": "Whiskers loved to explore every corner of the house.",
+        "p07": "He peeked into cupboards and climbed onto bookshelves, always searching for something new.",
+        "p08": "Shadow preferred to nap in quiet corners.",
+        "p09": "He loved curling up in the sunniest spot, his fur warming under the golden light.",
+        "p10": "Mittens was full of playful energy and fun.",
+        "p11": "She loved to chase yarn balls, leap and pounce on shadows that danced across the floor.",
+        "p12": "On a rainy day, Whiskers saw a butterfly outside and wished he could chase it.",
+        "p13": "“Why does it have to rain?” he muttered. His tail twitched in frustration.",
+        "p14": "Shadow gazed at the gray sky through the window. He flicked his tail and sighed .",
+        "p15": "He watched the raindrops slide down the glass. He missed the sunshine. He can't sleep.",
+        "p16": "Mittens found a new toy mouse by the food bowl. She flopped onto the floor, feeling bored.",
+        "p17": "She grumbled, “It’s not as fun as chasing real mice outside in the field.”",
+        "p18": "A loud crash echoed from the kitchen! They ran to find a glass had fallen off the counter.",
+        "p19": "The shards sparkled like tiny stars on the floor. Curious, they stepped closer, their earlier grumpiness forgotten.",
+        "p20": "In the mess of broken glass, they spotted silver, shiny wings from Mrs. Maple’s necklace,",
+        "p21": "A special gift from her husband. The cats felt taken by the shiny light.",
+        "p22": "That evening after the shiny necklace adventure, Mrs. Maple called them for food, and the cats began to purr.",
+        "p23": "They felt the warmth of her love, realizing that even on a rainy day, they had an adventure, comfort and care.",
+        "p24": "The cats watched as she filled their bowls with their favorite meal. They purred and rubbed against her legs, their way of saying, \"We love you, Mrs. Maple.\"",
+        "p26": "Later, they curled up together on the windowsill, listening to the rain. At first, the sound had made them restless.",
+        "p27": "But now, they found it soothing, their tails curling around each other.",
+        "p28": "Whiskers purred. “Every day—rainy or sunny—has something special.”",
+        "p29": "He curled up next to Mittens and Shadow, enjoying the moment.",
+        "p30": "From that day on, they found joy in everything,",
+        "p31": "knowing that every little moment can make their world perfect, if they choose to.",
+        "p32": "The End",
+        "cover": "Rainy Day, Shiny Things."
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To everyone carrying something inside: you can set it down. A story about sharing our feelings and the friends who listen.",
+        "p03": "Down by the willow brook lived a little turtle named Tavi. She had a smooth green shell and a big, quiet heart.",
+        "p04": "Her best friend was Fern, a long-eared hare who said whatever she felt, the moment she felt it.",
+        "p05": "One day the frogs laughed. \"Slowpoke Tavi!\" It stung. But Tavi only said, \"I'm fine,\" and tucked the hurt inside, like a little pebble.",
+        "p06": "When she wanted to tell Fern, \"You're my best friend,\" her cheeks went hot. So she tucked that inside too. Click.",
+        "p07": "A worry about the thunder. Click. A \"no, thank you\" she was afraid to say. Click. A wonderful idea for a game. Click.",
+        "p08": "Keeping quiet felt safe. No one could laugh. No one could get it wrong. No one could say no.",
+        "p09": "But pebble by pebble, Tavi's shell grew heavy. She walked slower and slower, and she couldn't climb Clover Hill anymore.",
+        "p10": "\"Come and play hop-stones!\" called Fern. \"Not today,\" said Tavi. Her shell was far too heavy to hop.",
+        "p11": "At night, the pebbles rattled inside her. There was so little room left that Tavi couldn't find her own giggle.",
+        "p12": "Everything she kept inside was safe. But Tavi felt heavy, and grey, and very far away from everyone.",
+        "p13": "One evening, Fern sat down beside her. \"You've been so quiet,\" she said softly. \"Is something heavy?\"",
+        "p14": "\"I'm fine,\" said Tavi. Click. Fern didn't push. She just stayed. \"I'm here,\" she said, \"whenever you're ready.\"",
+        "p15": "The stars came out. Slowly, Tavi took out one tiny pebble. \"When the frogs laughed at me… it hurt,\" she whispered.",
+        "p16": "Fern didn't laugh. She leaned close. \"Thank you for telling me. That would hurt me too.\" And the pebble felt lighter.",
+        "p17": "So Tavi took out another. \"I'm scared of thunder.\" And another. \"I have a wonderful idea for a game!\"",
+        "p18": "Then the biggest one of all: \"Fern… you're my best friend.\" \"And you're mine!\" cried Fern. Tavi felt as light as a leaf!",
+        "p19": "Now there was a little pile of pebbles in the grass, every one a different color. \"What should we do with them?\" asked Tavi.",
+        "p20": "Fern grinned. \"Let's build something.\" One by one, they set the pebbles in the brook.",
+        "p21": "The little frog hopped over with a pebble of his own. \"I laughed because I was scared they'd laugh at me,\" he said. \"I'm sorry.\"",
+        "p22": "The duck brought one. The hedgehog brought one. Soon everyone was setting down the things they had kept inside.",
+        "p23": "Pebble by pebble, a path of stepping stones grew across the brook, and everyone crossed it together.",
+        "p24": "Feelings kept inside grow heavy. Feelings we share become a path. The End",
+        "cover": "The Pebbles Inside. A Story About Sharing Our Feelings and the Friends Who Listen"
+      }
+    }
+  }
+}

@@ -9,23 +9,103 @@
     <%- include('../partials/values-map') %>
   </div>
 </section>
-<section class="section tight">
-  <div class="wrap grid-2" style="align-items:start">
-    <div class="stack-sm">
-      <h2 class="h2" style="font-size:clamp(26px,3vw,34px)"><%= t('valuesMap.howTitle') %></h2>
-      <% t('valuesMap.how').forEach(function (p) { %><p style="margin:0"><%= p %></p><% }) %>
+
+<section class="section">
+  <div class="wrap stack" style="gap:28px">
+    <h2 class="h2 book-h2"><%= t('valuesMap.stepsTitle') %></h2>
+    <ol class="vsteps">
+      <% t('valuesMap.steps').forEach(function (s, i) { %>
+      <li class="vstep vstep-<%= i %>"><span class="vstep-n"><%= i + 1 %></span><span class="vstep-title"><%= s.title %></span><span class="vstep-text"><%= s.text %></span></li>
+      <% }) %>
+    </ol>
+  </div>
+</section>
+
+<% const cult = atlas.filter(function (x) { return x.kind === 'culture'; }); const shared = atlas.filter(function (x) { return x.kind === 'story'; }); %>
+<% if (cult.length) { %>
+<section class="section feature-band band-sunpale" id="cultures">
+  <div class="wrap stack" style="gap:28px">
+    <div class="feature-head stack-sm">
+      <h2 class="h2 feature-h"><%= t('valuesMap.cultTitle') %></h2>
+      <p class="lead"><%= t('valuesMap.cultLead') %></p>
     </div>
-    <div class="stack-sm">
-      <h2 class="h2" style="font-size:clamp(26px,3vw,34px)"><%= t('valuesMap.allTitle') %></h2>
-      <div class="stack-sm">
-        <% allBooks.forEach(function (b) { %>
-        <a class="tile" href="<%= b.href %>">
-          <span class="tile-swatch" style="background:<%= b.color %>"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576"><% } %></span>
-          <span><span class="tile-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span><span class="tile-text"><%= b.valueText %> · <%= b.cultureText || t('valuesMap.shared') %></span></span>
+    <div class="cult-grid">
+      <% cult.forEach(function (x) { const b = x.book; %>
+      <article class="cult-card" style="--c:<%= b.color %>">
+        <p class="cult-where"><%= b.cultureText %></p>
+        <p class="cult-idea" <%- isFallback(b.cultureIdea) ? 'lang="en"' : '' %>><%= x.idea %></p>
+        <a class="cult-book" href="<%= b.href %>">
+          <% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576"><% } %>
+          <span><span class="tile-title"><%= b.displayTitle %></span><span class="tile-text"><%= b.valueText %></span></span>
         </a>
-        <% }) %>
-      </div>
+      </article>
+      <% }) %>
     </div>
   </div>
 </section>
+<% } %>
+
+<% if (shared.length) { %>
+<section class="section" id="shared">
+  <div class="wrap stack" style="gap:28px">
+    <div class="feature-head stack-sm">
+      <h2 class="h2 feature-h"><%= t('valuesMap.sharedTitle') %></h2>
+      <p class="lead"><%= t('valuesMap.sharedLead') %></p>
+    </div>
+    <div class="shared-grid">
+      <% shared.forEach(function (x) { const b = x.book; %>
+      <a class="shared-card" href="<%= b.href %>">
+        <% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576"><% } %>
+        <span class="shared-value"><%= b.valueText %></span>
+        <span class="shared-title"><%= b.displayTitle %></span>
+        <% if (x.place) { %><span class="shared-place"><%= t('valuesMap.storyIn') %> <%= x.place %></span><% } %>
+      </a>
+      <% }) %>
+    </div>
+    <div><a class="btn btn-ghost" href="#explore" data-fmap-open><%= t('valuesMap.explore') %></a></div>
+  </div>
+</section>
+<% } %>
+
+<dialog class="fmap" id="explore" aria-label="<%= t('valuesMap.fullTitle') %>" data-fmap>
+  <div class="fmap-head">
+    <div><p class="fmap-title"><%= t('valuesMap.fullTitle') %></p>
+      <p class="fmap-legend"><span class="lg lg-culture"></span><%= t('valuesMap.legendCulture') %> <span class="lg lg-story"></span><%= t('valuesMap.legendStory') %></p></div>
+    <button class="btn btn-ghost fmap-close" type="button" data-fmap-close><%= t('valuesMap.close') %></button>
+  </div>
+  <div class="fmap-body">
+    <div class="fmap-view" data-fmap-view>
+      <div class="fmap-stage" data-fmap-stage style="aspect-ratio:<%= mapPoints.aspect %>">
+        <img class="vmap-world" src="/images/map/world-zoom.svg" alt="" width="1000" height="444" draggable="false">
+        <% atlas.forEach(function (x, i) { %>
+        <button type="button" class="fpin fpin-<%= x.kind %>" style="left:<%= x.pt[0] %>%;top:<%= x.pt[1] %>%;--c:<%= x.book.color %>" data-i="<%= i %>" aria-label="<%= x.book.displayTitle %>"><span class="fpin-dot"><% if (x.book.cover) { %><img src="<%= x.book.coverSmall || x.book.cover %>" alt="" loading="lazy" width="360" height="576" draggable="false"><% } %></span></button>
+        <% }) %>
+      </div>
+      <div class="fmap-zoom">
+        <button type="button" data-z="in" aria-label="<%= t('valuesMap.zoomIn') %>">+</button>
+        <button type="button" data-z="out" aria-label="<%= t('valuesMap.zoomOut') %>">−</button>
+        <button type="button" data-z="reset" aria-label="<%= t('valuesMap.reset') %>">⤢</button>
+      </div>
+    </div>
+    <aside class="fmap-side">
+      <div class="fmap-card" data-fmap-card>
+        <p class="muted" style="margin:0"><%= t('valuesMap.fullHint') %></p>
+      </div>
+      <% atlas.forEach(function (x, i) { const b = x.book; %>
+      <template data-card="<%= i %>">
+        <div class="stack-sm">
+          <p class="cult-where"><%= x.kind === 'culture' ? b.cultureText : t('valuesMap.storyIn') + ' ' + x.place %></p>
+          <a class="cult-book" href="<%= b.href %>"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="" width="360" height="576"><% } %><span><span class="tile-title"><%= b.displayTitle %></span><span class="tile-text"><%= b.valueText %></span></span></a>
+          <% if (x.kind === 'culture' && x.idea) { %><p class="cult-idea" style="font-size:19px"><%= x.idea %></p><% } %>
+          <div class="row"><a class="btn btn-primary" href="<%= b.href %>"><%= t('valuesMap.openBook') %></a><% if (x.guideHref) { %><a class="btn btn-ghost" href="<%= x.guideHref %>"><%= t('valuesMap.meetAnimals') %></a><% } %></div>
+        </div>
+      </template>
+      <% }) %>
+      <p class="fmap-listhead"><%= t('valuesMap.allTitle') %></p>
+      <ul class="fmap-list">
+        <% atlas.forEach(function (x, i) { %><li><button type="button" data-go="<%= i %>"><span class="lg lg-<%= x.kind %>"></span><%= x.book.displayTitle %></button></li><% }) %>
+      </ul>
+    </aside>
+  </div>
+</dialog>
 <%- include('../partials/bottom') %>

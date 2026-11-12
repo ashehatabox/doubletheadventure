@@ -206,15 +206,28 @@ module.exports = {
   valuesMap: {
     title: 'The values map',
     lead: 'Each new book carries one value that shaped stories somewhere in the world. Tap a hero on the map to see where its value comes from.',
-    howTitle: 'Where the values come from',
-    how: [
-      'We start every new book from a value that traditional stories carry in one culture: Ubuntu in Southern Africa, Sankofa in Ghana, Ayni in the Andes, Kaitiakitanga in Aotearoa New Zealand.',
-      'The story itself is always about little animals, so any child can step into it. The note at the front of the book tells grown-ups where the idea comes from.',
-      'Readers from each culture check the book before it is published. Our first books carry values every family shares, and the map grows with each new hero.'
+    explore: 'Explore the full map',
+    exploreHint: 'Every book, zoom in and wander.',
+    fullTitle: 'Every book on the map',
+    fullHint: 'Tap a pin to see its book. Pinch or scroll to zoom, drag to explore.',
+    legendCulture: 'where the value comes from', legendStory: 'where the story\'s animals live',
+    close: 'Close', zoomIn: 'Zoom in', zoomOut: 'Zoom out', reset: 'Show the whole world',
+    openBook: 'Open the book', meetAnimals: 'Meet the real animals',
+    stepsTitle: 'How a value becomes a story',
+    steps: [
+      { title: 'One value, one culture', text: 'We start from a value that traditional stories carry somewhere in the world, like Ubuntu in Southern Africa or Ayni in the Andes.' },
+      { title: 'Little animals tell it', text: 'The story is always about small animals, so any child can step into it. A note at the front tells grown-ups where the idea comes from.' },
+      { title: 'Checked by that culture', text: 'Readers from the culture read the book before it is published. Our first books carry values every family shares.' }
     ],
+    cultTitle: 'Values from around the world',
+    cultLead: 'Each of these books starts from an idea that one culture has kept alive in its stories.',
+    sharedTitle: 'Values every family shares',
+    sharedLead: 'Our first books carry values found in every culture. Each story is set where its real animals live.',
+    storyIn: 'Story set in',
     allTitle: 'Every book and its value',
     shared: 'Shared everywhere'
   },
+
   articles: {
     title: 'Articles for parents',
     lead: 'The ideas behind the stories: where each value comes from, why it matters for children aged 3 to 7, and how to talk about it at home.',

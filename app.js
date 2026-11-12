@@ -12,6 +12,7 @@ const site = require('./data/site');
 const catalog = require('./data/books');
 const play = require('./data/play');
 const mapPoints = require('./data/map-points.json');
+const geo = require('./lib/geo');
 const articles = require('./lib/articles');
 const heroes = require('./lib/heroes');
 const guides = require('./lib/guides');
@@ -348,7 +349,21 @@ router.get('/stories', (req, res) => {
   page(req, res, 'stories', { list, readList, seo: { title: h.t('readwatch.title'), description: h.t('readwatch.lead') } });
 });
 
-router.get('/values-map', (req, res) => page(req, res, 'values-map', { seo: { title: req.h.t('valuesMap.title'), description: req.h.t('valuesMap.lead') } }));
+router.get('/values-map', (req, res) => {
+  const h = req.h;
+  // Every book gets a pin: where its value comes from (books with a culture), or where its story's real animals live (hero guide).
+  const atlas = catalog.books.filter((b) => b.status !== 'coming').map((b) => {
+    const g = heroes.get(b.slug); const m = g && g.place && g.place.map;
+    const culture = b.culture && mapPoints.points[b.culture];
+    const pt = culture ? mapPoints.points[b.culture] : (m && m.lat != null ? geo.toMap(m.lat, m.lon) : null);
+    return {
+      book: bookView(b, h, req), kind: culture ? 'culture' : 'story', pt,
+      place: g ? h.pick(g.place.name) : '', guideHref: heroVisible(g) ? h.url('/heroes/' + b.slug) : '',
+      idea: h.pick(b.cultureIdea)
+    };
+  }).filter((x) => x.pt);
+  page(req, res, 'values-map', { atlas, seo: { title: h.t('valuesMap.title'), description: h.t('valuesMap.lead') } });
+});
 
 router.get('/shop', (req, res) => {
   const h = req.h;

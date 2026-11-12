@@ -205,16 +205,29 @@ module.exports = {
   },
   valuesMap: {
     title: 'La carte des valeurs',
-    lead: 'Chaque nouveau livre porte une valeur qui a façonné des histoires quelque part dans le monde. Touche un héros sur la carte pour voir d\'où vient sa valeur.',
-    howTitle: 'D\'où viennent les valeurs',
-    how: [
-      'Chaque nouveau livre part d\'une valeur que portent les contes d\'une culture : l\'Ubuntu en Afrique australe, le Sankofa au Ghana, l\'Ayni dans les Andes, le Kaitiakitanga en Aotearoa Nouvelle-Zélande.',
-      'L\'histoire parle toujours de petits animaux, pour que chaque enfant puisse s\'y retrouver. La note au début du livre explique aux adultes d\'où vient l\'idée.',
-      'Des lecteurs de chaque culture relisent le livre avant sa publication. Nos premiers livres portent des valeurs que toutes les familles partagent, et la carte grandit avec chaque nouveau héros.'
+    lead: 'Chaque nouveau livre porte une valeur qui a façonné des histoires quelque part dans le monde. Touchez un héros sur la carte pour voir d\'où vient sa valeur.',
+    explore: 'Explorer toute la carte',
+    exploreHint: 'Tous les livres, zoomez et promenez-vous.',
+    fullTitle: 'Tous les livres sur la carte',
+    fullHint: 'Touchez une épingle pour voir son livre. Pincez ou faites défiler pour zoomer, glissez pour explorer.',
+    legendCulture: 'd\'où vient la valeur', legendStory: 'où vivent les animaux de l\'histoire',
+    close: 'Fermer', zoomIn: 'Zoomer', zoomOut: 'Dézoomer', reset: 'Voir le monde entier',
+    openBook: 'Ouvrir le livre', meetAnimals: 'Les vrais animaux',
+    stepsTitle: 'Comment une valeur devient une histoire',
+    steps: [
+      { title: 'Une valeur, une culture', text: 'Nous partons d\'une valeur que les récits traditionnels portent quelque part dans le monde, comme l\'Ubuntu en Afrique australe ou l\'Ayni dans les Andes.' },
+      { title: 'De petits animaux la racontent', text: 'L\'histoire parle toujours de petits animaux, pour que chaque enfant puisse y entrer. Une note au début dit aux grands d\'où vient l\'idée.' },
+      { title: 'Relue par cette culture', text: 'Des lecteurs de la culture lisent le livre avant sa publication. Nos premiers livres portent des valeurs que toutes les familles partagent.' }
     ],
+    cultTitle: 'Des valeurs du monde entier',
+    cultLead: 'Chacun de ces livres part d\'une idée qu\'une culture a gardée vivante dans ses récits.',
+    sharedTitle: 'Des valeurs que toutes les familles partagent',
+    sharedLead: 'Nos premiers livres portent des valeurs présentes dans toutes les cultures. Chaque histoire se passe là où vivent ses vrais animaux.',
+    storyIn: 'Histoire située à',
     allTitle: 'Chaque livre et sa valeur',
     shared: 'Partagée partout'
   },
+
   articles: {
     title: 'Articles pour les parents',
     lead: 'Les idées derrière les histoires : d\'où vient chaque valeur, pourquoi elle compte pour les enfants de 3 à 7 ans, et comment en parler à la maison.',

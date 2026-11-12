@@ -1,0 +1,683 @@
+{
+  "book": "friendship-bridge",
+  "draft": true,
+  "updated": "2026-11-12",
+  "review": {
+    "factsChecked": "2026-11-12",
+    "culturalReader": true
+  },
+  "title": {
+    "en": "Heroes of the River"
+  },
+  "seoTitle": {
+    "en": "Heroes of the River: the real animals behind Friendship Bridge"
+  },
+  "description": {
+    "en": "A beaver with orange iron teeth and a red squirrel that stores thousands of cones. Real facts for kids about the animals behind Friendship Bridge."
+  },
+  "intro": {
+    "en": "Venny the beaver and Sammy the squirrel live by a river in the woods. Here's how real beavers and red squirrels live."
+  },
+  "place": {
+    "name": {
+      "en": "Algonquin Provincial Park, Ontario"
+    },
+    "image": "place.jpg",
+    "intro": {
+      "en": "The book's river has no name, so we picked Algonquin Park in Ontario. Beavers and red squirrels both live in its forests and lakes."
+    },
+    "introSrc": [
+      "brit-alg",
+      "yk-rs"
+    ],
+    "facts": [
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Canada's first"
+        },
+        "text": {
+          "en": "Algonquin, opened in 1893, was the first provincial park in Canada."
+        },
+        "src": [
+          "tce-alg"
+        ]
+      },
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Lakes everywhere"
+        },
+        "text": {
+          "en": "The park has more than 2,400 lakes and 1,200 km of streams and rivers."
+        },
+        "src": [
+          "ip-alg"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "Beaver engineers"
+        },
+        "text": {
+          "en": "Beavers shape the park by making new ponds and wetlands."
+        },
+        "src": [
+          "ip-alg"
+        ]
+      },
+      {
+        "kind": "ha",
+        "title": {
+          "en": "Busy park"
+        },
+        "text": {
+          "en": "About 53 kinds of mammals and 272 kinds of birds live there."
+        },
+        "src": [
+          "tt-alg"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "Ancient rock"
+        },
+        "text": {
+          "en": "The park sits on the Canadian Shield, with rock more than a billion years old."
+        },
+        "src": [
+          "ip-alg"
+        ]
+      }
+    ],
+    "map": {
+      "lat": 45.58,
+      "lon": -78.36,
+      "zoom": 8,
+      "region": [
+        -86,
+        40,
+        -74,
+        50
+      ],
+      "highlight": [
+        124
+      ],
+      "label": {
+        "en": "Algonquin Park"
+      },
+      "text": {
+        "en": "A big wild park of lakes and forests in central Ontario, about 250 km north of Toronto."
+      },
+      "src": [
+        "tce-alg"
+      ],
+      "areaNote": {
+        "en": "Canada."
+      },
+      "pin": [
+        63.67,
+        46.4
+      ],
+      "aspect": 0.8457
+    }
+  },
+  "cast": [
+    {
+      "id": "venny",
+      "role": "hero",
+      "colour": "peach",
+      "name": {
+        "en": "Venny"
+      },
+      "animal": {
+        "en": "North American beaver"
+      },
+      "image": "venny.jpg",
+      "job": {
+        "en": "A beaver who learns that building together is better"
+      },
+      "superpower": {
+        "en": "Iron-strong orange teeth"
+      },
+      "lineup": {
+        "weight": {
+          "en": "11–32 kg"
+        },
+        "grams": 20000,
+        "like": {
+          "en": "a big suitcase"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "74–102 cm, plus a 20–35 cm tail"
+          },
+          "src": [
+            "aff-bv"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "11–32 kg"
+          },
+          "src": [
+            "aff-bv"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "10–20 years in the wild"
+          },
+          "src": [
+            "adw-bv"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Tree bark and water plants"
+          },
+          "src": [
+            "aff-bv"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Wetlands, lake edges and slow rivers"
+          },
+          "src": [
+            "yk-bv"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Families share one lodge and one food store in winter"
+          },
+          "src": [
+            "pbs-bv"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Orange teeth"
+          },
+          "text": {
+            "en": "A beaver's front teeth are orange because the enamel has iron in it, which makes them extra strong."
+          },
+          "src": [
+            "nz-bv"
+          ]
+        },
+        {
+          "title": {
+            "en": "Never stop growing"
+          },
+          "text": {
+            "en": "Its teeth keep growing all its life, and gnawing wood wears them down."
+          },
+          "src": [
+            "nz-bv"
+          ]
+        },
+        {
+          "title": {
+            "en": "Builders"
+          },
+          "text": {
+            "en": "Beavers build lodges to live and sleep in, and dams to hold back water."
+          },
+          "src": [
+            "aff-bv"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "The biggest dam"
+          },
+          "text": {
+            "en": "A beaver dam found in Alberta in 2007 is 850 metres long! Beavers had worked on it for years."
+          },
+          "src": [
+            "aff-bv"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Canada's animal"
+          },
+          "text": {
+            "en": "The beaver became an official symbol of Canada in 1975."
+          },
+          "src": [
+            "fa-bv"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Swimming babies"
+          },
+          "text": {
+            "en": "Baby beavers swim inside the lodge within an hour of being born."
+          },
+          "src": [
+            "pbs-bv"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Beaver from Canada"
+          },
+          "text": {
+            "en": "Its scientific name, Castor canadensis, means 'beaver from Canada'."
+          },
+          "src": [
+            "wa-bv"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real beavers really are master builders, but they build dams and lodges, not bridges. Working together is real, though: a beaver family shares its home."
+      },
+      "storyVsRealSrc": [
+        "aff-bv",
+        "pbs-bv"
+      ]
+    },
+    {
+      "id": "sammy",
+      "role": "friend",
+      "colour": "sun",
+      "name": {
+        "en": "Sammy"
+      },
+      "animal": {
+        "en": "American red squirrel"
+      },
+      "image": "sammy.jpg",
+      "job": {
+        "en": "Venny's friend, who helps build the bridge"
+      },
+      "superpower": {
+        "en": "Stores thousands of cones for winter"
+      },
+      "lineup": {
+        "weight": {
+          "en": "141–312 g"
+        },
+        "grams": 230,
+        "like": {
+          "en": "an apple"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "About 30 cm, tail included"
+          },
+          "src": [
+            "yk-rs"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "141–312 g"
+          },
+          "src": [
+            "uwsp-rs"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About 5 years; the oldest wild one reached 10"
+          },
+          "src": [
+            "bk-rs"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Mostly seeds from pine, spruce and fir cones"
+          },
+          "src": [
+            "esf-rs"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Conifer forests across North America"
+          },
+          "src": [
+            "yk-rs",
+            "wiki-rs"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Lives alone, except moms with babies"
+          },
+          "src": [
+            "ua-rs"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Cone pantry"
+          },
+          "text": {
+            "en": "In autumn, a red squirrel stores thousands of cones in one big pile called a midden, to eat all winter."
+          },
+          "src": [
+            "yk-rs"
+          ]
+        },
+        {
+          "title": {
+            "en": "Chatterbox"
+          },
+          "text": {
+            "en": "Its loud chatter call tells other squirrels: this is my place, stay away!"
+          },
+          "src": [
+            "ua-rs"
+          ]
+        },
+        {
+          "title": {
+            "en": "Winter snacks"
+          },
+          "text": {
+            "en": "In winter, a red squirrel may eat 40 to 50 cones a day."
+          },
+          "src": [
+            "nwf-rs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Giant piles"
+          },
+          "text": {
+            "en": "A midden of cone scales can grow up to 12 metres across."
+          },
+          "src": [
+            "wiki-rs"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Small but bossy"
+          },
+          "text": {
+            "en": "Red squirrels often chase squirrels more than twice their size."
+          },
+          "src": [
+            "uwsp-rs2"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Tough first year"
+          },
+          "text": {
+            "en": "Only about 1 in 4 red squirrels lives past its first birthday."
+          },
+          "src": [
+            "bk-rs"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real red squirrels like to be alone and guard their food, so a squirrel teaming up with a beaver is a story idea. It makes the teamwork in the book even more special!"
+      },
+      "storyVsRealSrc": [
+        "ua-rs"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "title": {
+        "en": "Build a bridge together"
+      },
+      "text": {
+        "en": "Use blocks, sticks or paper to build a bridge with a friend. Who did which job?"
+      }
+    },
+    {
+      "title": {
+        "en": "Beaver chew"
+      },
+      "text": {
+        "en": "Crunch a carrot and think about a beaver's strong teeth. Theirs never stop growing!"
+      }
+    },
+    {
+      "title": {
+        "en": "Cone count"
+      },
+      "text": {
+        "en": "Collect pine cones on a walk. How many could you store, like a red squirrel?"
+      }
+    },
+    {
+      "title": {
+        "en": "Chatter call"
+      },
+      "text": {
+        "en": "Make up a squirrel chatter. Use it to say 'hello' instead of 'go away'!"
+      }
+    },
+    {
+      "title": {
+        "en": "Find Algonquin"
+      },
+      "text": {
+        "en": "Find Toronto on a map of Ontario, then look north for Algonquin Park."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Why are beaver teeth orange?"
+      },
+      "a": {
+        "en": "Their enamel has iron in it, which makes the teeth extra strong for chewing wood."
+      },
+      "src": [
+        "nz-bv"
+      ]
+    },
+    {
+      "q": {
+        "en": "Do beavers build bridges?"
+      },
+      "a": {
+        "en": "Not really. They build dams across water and lodges to live in."
+      },
+      "src": [
+        "aff-bv"
+      ]
+    },
+    {
+      "q": {
+        "en": "Where do red squirrels keep their food?"
+      },
+      "a": {
+        "en": "In a big pile of cones called a midden, which they guard all winter."
+      },
+      "src": [
+        "yk-rs"
+      ]
+    },
+    {
+      "q": {
+        "en": "Is the beaver Canada's animal?"
+      },
+      "a": {
+        "en": "Yes. It became an official symbol of Canada in 1975."
+      },
+      "src": [
+        "fa-bv"
+      ]
+    }
+  ],
+  "sources": {
+    "aff-bv": {
+      "name": "Animal Fun Facts",
+      "title": "Beaver",
+      "url": "https://animalfunfacts.net/rodents/106-beaver.html"
+    },
+    "adw-bv": {
+      "name": "Animal Diversity Web, University of Michigan",
+      "title": "Castor canadensis",
+      "url": "https://animaldiversity.org/site/accounts/information/Castor_canadensis.html"
+    },
+    "yk-bv": {
+      "name": "Government of Yukon",
+      "title": "American beaver",
+      "url": "https://yukon.ca/en/american-beaver"
+    },
+    "pbs-bv": {
+      "name": "PBS Nature",
+      "title": "Beaver fact sheet",
+      "url": "https://www.pbs.org/wnet/nature/blog/beaver-fact-sheet"
+    },
+    "nz-bv": {
+      "name": "Smithsonian's National Zoo",
+      "title": "North American beaver",
+      "url": "https://nationalzoo.si.edu/node/6828"
+    },
+    "fa-bv": {
+      "name": "Fact Animal",
+      "title": "Beaver",
+      "url": "https://factanimal.com/?p=5348"
+    },
+    "wa-bv": {
+      "name": "WorldAtlas",
+      "title": "North American beaver facts",
+      "url": "https://www.worldatlas.com/articles/north-american-beaver-facts-animals-of-north-america.html"
+    },
+    "ncc-bv": {
+      "name": "Nature Conservancy of Canada",
+      "title": "Beaver",
+      "url": "https://www.natureconservancy.ca/en/what-we-do/resource-centre/featured-species/mammals/beaver.html"
+    },
+    "yk-rs": {
+      "name": "Government of Yukon",
+      "title": "Red squirrel",
+      "url": "https://yukon.ca/en/red-squirrel"
+    },
+    "uwsp-rs": {
+      "name": "University of Wisconsin-Stevens Point",
+      "title": "Red squirrel",
+      "url": "https://www.uwsp.edu/biology/VertebrateCollection/Pages/Vertebrates/Mammals%20of%20Wisconsin/Tamiasciurus%20hudsonicus/Tamiasciurus%20hudsonicus.aspx"
+    },
+    "uwsp-rs2": {
+      "name": "University of Wisconsin-Stevens Point",
+      "title": "Red squirrel: behaviour",
+      "url": "https://www3.uwsp.edu/biology/VertebrateCollection/Pages/Vertebrates/Mammals%20of%20Wisconsin/Tamiasciurus%20hudsonicus/Tamiasciurus%20hudsonicus.aspx"
+    },
+    "bk-rs": {
+      "name": "BioKIDS, University of Michigan",
+      "title": "Red squirrel",
+      "url": "https://www.biokids.umich.edu/critters/Tamiasciurus_hudsonicus"
+    },
+    "esf-rs": {
+      "name": "SUNY ESF",
+      "title": "Red squirrel",
+      "url": "https://www.esf.edu/aec/adks/mammals/redsquirrel.htm"
+    },
+    "ua-rs": {
+      "name": "University of Arizona",
+      "title": "Red squirrel natural history",
+      "url": "https://conservation.arizona.edu/content/natural-history.html"
+    },
+    "nwf-rs": {
+      "name": "National Wildlife Federation",
+      "title": "Mother knows best",
+      "url": "https://www.nwf.org/Magazines/National-Wildlife/2005/Mother-Knows-Best"
+    },
+    "wiki-rs": {
+      "name": "Wikipedia",
+      "title": "American red squirrel",
+      "url": "https://en.wikipedia.org/wiki/American_red_squirrel"
+    },
+    "tce-alg": {
+      "name": "The Canadian Encyclopedia",
+      "title": "Algonquin Provincial Park",
+      "url": "https://thecanadianencyclopedia.ca/article/algonquin-provincial-park"
+    },
+    "ip-alg": {
+      "name": "International Parks",
+      "title": "Algonquin",
+      "url": "https://www.internationalparks.org/canada/Algonquin"
+    },
+    "tt-alg": {
+      "name": "TheTravel",
+      "title": "What to do at Algonquin Provincial Park",
+      "url": "https://www.thetravel.com/what-to-do-at-algonquin-provincial-park/"
+    },
+    "brit-alg": {
+      "name": "Britannica",
+      "title": "Algonquin Provincial Park",
+      "url": "https://www.britannica.com/print/article/15165"
+    }
+  }
+}

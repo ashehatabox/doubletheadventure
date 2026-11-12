@@ -31,7 +31,7 @@ const checks = [
   ['/heroes', 200, 'Heroes Encyclopedia'],
   ['/heroes/the-circle-of-paws', 200, 'Pampa Galeras'],
   ['/books/the-circle-of-paws', 200, 'Meet the real animals'],
-  ['/heroes/tumble-and-the-honey-glow', 404, ''],
+  ['/heroes/tumble-and-the-honey-glow', 200, 'Piatra Craiului'],
   ['/fr/heroes', 200, 'Encyclopédie des héros'],
   ['/fr/parents/articles', 200, 'Articles pour les parents'],
   ['/parents/articles/why-every-story-starts-from-one-value', 404, ''],

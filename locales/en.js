@@ -87,6 +87,7 @@ module.exports = {
     none: 'No book for this moment yet.'
   },
   book: {
+    meetAnimals: 'Meet the real animals',
     valueLabel: 'The value',
     cultureLabel: 'Where the value comes from',
     heroLabel: 'The heroes',

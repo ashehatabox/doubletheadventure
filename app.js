@@ -146,7 +146,8 @@ router.get('/books/:slug', (req, res, next) => {
       color: play.pages(b.slug).length > 0,
       jigsaw: play.hasCover(b.slug) && play.jigsaw.includes(b.slug),
       memory: play.jigsaw.includes(b.slug),
-      map: !!(b.culture && mapPoints.points[b.culture])
+      map: !!(b.culture && mapPoints.points[b.culture]),
+      heroes: heroVisible(heroes.get(b.slug))
     },
     seo: { title: view.displayTitle, description: h.pick(b.blurb) || h.pick(b.subtitle) || h.t('meta.siteDescription'), image: shareImage('book', b.slug, view.cover) }
   });

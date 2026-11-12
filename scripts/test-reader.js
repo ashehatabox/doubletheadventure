@@ -9,7 +9,7 @@ process.env.PORT = '0';
 delete process.env.STRIPE_SECRET_KEY;
 
 const reader = require('../lib/reader');
-const SLUG = reader.slugs()[0];
+const SLUG = reader.slugs().find((s) => !(reader.settings.selectEnds || {})[s]);
 if (!SLUG) { console.log('reader: no books in content/reader yet, skipped'); process.exit(0); }
 const m = reader.manifest(SLUG);
 const pageOf = (i) => m.spreads[i].find((p) => p !== 'cover');
@@ -78,7 +78,16 @@ const post = (port, path, form, cookie) => get(port, path, { method: 'POST', bod
 
     // 6. No path tricks.
     assert.strictEqual((await get(port, `/reader/${SLUG}/${L}/..%2Fmanifest.json`)).status, 403, 'no path tricks');
+    // 7. A book whose Select term hasn't ended stays in sample mode even when open.
+    const inSelect = Object.keys(reader.settings.selectEnds || {}).find((s) => reader.has(s) && new Date().toISOString().slice(0, 10) <= reader.settings.selectEnds[s]);
+    if (inSelect) {
+      r = await get(port, `/books/${inSelect}/read`);
+      assert.ok(!r.body.includes('rd-code-in'), 'book still in its Select term has no code box');
+    }
     console.log(`reader: all checks passed (${SLUG})`);
+  } catch (err) {
+    console.error('reader test FAILED:', err.message);
+    process.exitCode = 1;
   } finally {
     server.close();
     process.exit(process.exitCode || 0);

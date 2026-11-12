@@ -14,6 +14,16 @@ module.exports = {
   sampleSpreads: 3, // cover + dedication + first story spread
   freeSpreads: 4, // when open: cover + dedication + 2 story spreads (4 story pages)
   stillInSelect: [],
+  // Last day of each book's KDP Select term (latest of its language editions; auto-renew turned off Nov 12, 2026).
+  // Even with READER_OPEN=1 a book stays in sample mode until the day after this date.
+  selectEnds: {
+    'becoming-a-tree': '2026-12-17',
+    'the-fox-mistake': '2026-12-31',
+    'the-honest-little-raccoon': '2027-01-04',
+    'the-snug': '2027-02-05',
+    'the-pebbles-inside': '2027-02-05',
+    'secret-hero': '2027-02-08'
+  },
   priceCents: 499, // unlock one book to read online, CAD (same as Kindle)
   currency: 'cad',
   // Code prefix printed on book codes, per book. Codes look like SNUG-0042-K7QX3M.

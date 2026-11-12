@@ -43,6 +43,7 @@ const checks = [
   ['/heroes/the-light-that-grows', 200, 'Guadarrama'],
   ['/heroes/the-spring-that-wanted-to-stay', 200, 'Hohe Tauern'],
   ['/heroes/pip-the-brave-parrot', 200, 'Karasabai'],
+  ['/heroes/finn-and-coral', 200, 'Bonaire'],
   ['/fr/heroes', 200, 'Encyclopédie des héros'],
   ['/fr/parents/articles', 200, 'Articles pour les parents'],
   ['/parents/articles/why-every-story-starts-from-one-value', 404, ''],

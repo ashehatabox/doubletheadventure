@@ -44,7 +44,7 @@ const checks = [
   ['/fr/heroes', 200, 'Encyclopédie des héros'],
   ['/fr/parents/articles', 200, 'Articles pour les parents'],
   ['/parents/articles/why-every-story-starts-from-one-value', 404, ''],
-  ['/sw.js', 200, 'play-v3'],
+  ['/sw.js', 200, 'play-v4'],
   ['/fr/play', 200, 'Jouer avec les héros'],
   ['/play/color/pip-the-brave-parrot', 200, '/js/play/color.js'],
   ['/play/color/pip-the-brave-parrot?p=3', 200, 'p05.png'],

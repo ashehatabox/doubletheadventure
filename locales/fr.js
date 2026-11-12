@@ -74,7 +74,7 @@ module.exports = {
     soonTitle: 'Rencontrez les prochains héros en premier',
     aboutEyebrow: 'Notre histoire',
     aboutTitle: 'Par Amr Mohamed et Abdallah Shehata',
-    aboutLead: 'Nous écrivons des histoires où l\'enfant est le héros et où la valeur est honnête, jamais « tu as ta place quand tu es utile ». Des lecteurs de chaque culture relisent chaque livre avant sa publication.',
+    aboutLead: 'Tout a commencé quand Amr s\'est demandé comment transmettre à son fils des valeurs qui restent. Avec son ami Abdallah, conteur, il a fait de cette question des livres, et chaque nouveau livre naît d\'une valeur que quelqu\'un souhaitait voir comprise par les enfants.',
     aboutCta: 'Lire notre histoire'
   },
   books: {
@@ -515,8 +515,38 @@ module.exports = {
     }
   },
   about: {
+    eyebrow: 'Comment tout a commencé',
     title: 'Notre histoire',
-    lead: 'A² Publishing crée les albums Double the Adventure pour les 3 à 7 ans.',
+    lead: 'Double the Adventure est né d\'un père, de son fils de six ans et d\'une question.',
+    question: 'Comment transmettre à un enfant une valeur qui reste avec lui ?',
+    beginTitle: 'La question d\'un père',
+    begin: [
+      'Amr est le père de Yousef, un petit garçon curieux de six ans. Comme tous les parents, il voulait lui transmettre ce qui compte : l\'honnêteté, la patience, la gentillesse, le courage.',
+      'Il a remarqué que les rappels ne durent pas. « Sois patient » est oublié avant le souper. Une histoire, c\'est différent. L\'enfant se souvient du petit héros qui a su attendre, et quand son propre moment arrive, l\'histoire revient avec lui.',
+      'Alors Amr s\'est demandé : une histoire pourrait-elle relier une valeur à un souvenir, et donner à Yousef la chance de l\'adopter et de la vivre lui-même ?'
+    ],
+    friendTitle: 'Un ami qui raconte des histoires',
+    friend: [
+      'Amr a partagé son idée avec son ami Abdallah, un conteur talentueux.',
+      'Abdallah l\'a tout de suite vue : un doux héros animal, une seule valeur, et un problème que le héros résout par son propre choix. Pas de leçon à la fin, pas d\'adulte qui arrange tout. L\'enfant qui lit vit la valeur aux côtés du héros.',
+      'Ensemble, ils ont donné vie à l\'idée. Amr apporte la question du père. Abdallah apporte l\'histoire.'
+    ],
+    communityEyebrow: 'Notre communauté',
+    communityTitle: 'Chaque livre commence par le souhait de quelqu\'un',
+    communityLead: 'Bientôt, les gens autour d\'eux s\'y sont mis. Parents, grands-parents, enseignants et amis ont commencé à partager les valeurs du quotidien qu\'ils souhaitent voir comprises par les enfants.',
+    steps: [
+      { title: 'Un souhait est partagé', text: 'Quelqu\'un nous confie une valeur qu\'il aimerait voir comprise par les enfants : attendre son tour, demander pardon, demander de l\'aide, finir ce qu\'on commence.' },
+      { title: 'Nous cherchons ses racines', text: 'Nous cherchons où cette valeur vit dans une culture ancienne : un dicton, une coutume ou un conte qui la porte depuis des générations.' },
+      { title: 'Un nouveau héros naît', text: 'Un petit animal fait face à un vrai problème et choisit la valeur par lui-même. Un lecteur de cette culture relit le livre avant sa publication.' }
+    ],
+    communityClose: 'Avec chaque inspiration, un nouveau livre prend vie. C\'est ainsi que la question d\'un père est devenue {count} histoires, et ce n\'est pas fini.',
+    visionEyebrow: 'Notre vision',
+    visionTitle: 'Des valeurs que les enfants gardent avec eux',
+    vision: [
+      'Nous imaginons une étagère de valeurs venues de partout dans le monde, pour chaque enfant, dans sa propre langue.',
+      'Pas des règles à apprendre par cœur, mais des histoires dont on se souvient. Pour que, le moment venu d\'être honnête, patient ou courageux, l\'enfant pense au héros, et fasse ce choix par lui-même.'
+    ],
+    careTitle: 'Ce qui nous tient à cœur',
     paragraphs: [
       'Chaque livre fait revivre une valeur ancienne qui a façonné les contes traditionnels d\'une culture, et la raconte aux enfants d\'aujourd\'hui.',
       'Le héros est toujours un enfant qui résout le problème par son propre choix. Pas d\'adulte qui vient à la rescousse, rien qui fasse peur.',
@@ -524,7 +554,15 @@ module.exports = {
       'Quand un livre s\'inspire d\'une culture, un lecteur de cette culture relit la note et les noms avant la publication.'
     ],
     authorsTitle: 'Les auteurs',
-    authors: 'Amr Mohamed et Abdallah Shehata'
+    authors: 'Amr Mohamed et Abdallah Shehata',
+    people: [
+      { name: 'Amr Mohamed', text: 'Père de Yousef, et celui qui a posé la première question. Il garde chaque livre proche de la vraie vie de famille.' },
+      { name: 'Abdallah Shehata', text: 'Conteur. Il transforme chaque valeur en un héros, un problème à résoudre et un refrain que les enfants adorent répéter.' }
+    ],
+    shareTitle: 'Partagez une valeur avec nous',
+    shareLead: 'Y a-t-il une valeur que vous aimeriez voir comprise par votre enfant, ou par tous les enfants ? Dites-le-nous. Votre souhait pourrait devenir le prochain livre.',
+    shareLabel: 'La valeur, et pourquoi elle compte pour vous',
+    shareButton: 'Partager ma valeur'
   },
   contact: {
     title: 'Nous écrire',

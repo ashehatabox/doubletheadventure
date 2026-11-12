@@ -1,16 +1,85 @@
 <%- include('../partials/top') %>
+<% var bookCount = allBooks.length; %>
 <section class="section tight">
-  <div class="wrap grid-2" style="align-items:start">
+  <div class="wrap grid-2" style="align-items:center">
     <div class="stack">
+      <p class="eyebrow"><%= t('about.eyebrow') %></p>
       <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('about.title') %></h1>
       <p class="lead"><%= t('about.lead') %></p>
-      <% t('about.paragraphs').forEach(function (p) { %><p style="margin:0"><%= p %></p><% }) %>
-      <h2 class="h3"><%= t('about.authorsTitle') %></h2>
-      <p style="margin:0;font-weight:700"><%= t('about.authors') %></p>
-      <div class="row"><a class="btn btn-primary" href="<%= url('/books') %>"><%= t('common.exploreBooks') %></a></div>
+      <p class="quote"><%= t('about.question') %></p>
     </div>
     <div class="hero-art">
       <% ['the-snug', 'eight-times-up', 'the-old-path-song'].forEach(function (s) { %><%- include('../partials/cover', { b: allBooks.find(function (b) { return b.slug === s; }) }) %><% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="begin-title">
+  <div class="wrap grid-2" style="gap:48px;align-items:start">
+    <div class="stack" style="max-width:640px">
+      <h2 id="begin-title" class="h2" style="font-size:clamp(26px,3.4vw,36px)"><%= t('about.beginTitle') %></h2>
+      <% t('about.begin').forEach(function (p) { %><p style="margin:0"><%= p %></p><% }) %>
+    </div>
+    <div class="stack" style="max-width:640px">
+      <h2 class="h2" style="font-size:clamp(26px,3.4vw,36px)"><%= t('about.friendTitle') %></h2>
+      <% t('about.friend').forEach(function (p) { %><p style="margin:0"><%= p %></p><% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section band-sunpale" aria-labelledby="community-title">
+  <div class="wrap stack" style="gap:28px">
+    <div class="stack-sm" style="max-width:720px">
+      <p class="eyebrow"><%= t('about.communityEyebrow') %></p>
+      <h2 id="community-title" class="h2"><%= t('about.communityTitle') %></h2>
+      <p class="lead" style="margin:0"><%= t('about.communityLead') %></p>
+    </div>
+    <ol class="grid-cards" style="list-style:none;padding:0;margin:0">
+      <% t('about.steps').forEach(function (s, i) { %>
+      <li class="card card-pad stack-sm">
+        <span class="eyebrow" aria-hidden="true"><%= i + 1 %></span>
+        <h3 class="h3" style="font-size:21px"><%= s.title %></h3>
+        <p class="muted" style="margin:0"><%= s.text %></p>
+      </li>
+      <% }) %>
+    </ol>
+    <p style="margin:0;font-weight:700;max-width:720px"><%= t('about.communityClose').replace('{count}', bookCount) %></p>
+  </div>
+</section>
+
+<section class="section band-teal" aria-labelledby="vision-title">
+  <div class="wrap stack" style="max-width:820px;gap:16px">
+    <p class="eyebrow"><%= t('about.visionEyebrow') %></p>
+    <h2 id="vision-title" class="h2"><%= t('about.visionTitle') %></h2>
+    <% t('about.vision').forEach(function (p) { %><p class="lead" style="margin:0"><%= p %></p><% }) %>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="care-title">
+  <div class="wrap stack" style="gap:24px">
+    <h2 id="care-title" class="h2" style="font-size:clamp(26px,3.4vw,36px)"><%= t('about.careTitle') %></h2>
+    <div class="grid-cards">
+      <% t('about.paragraphs').forEach(function (p) { %><div class="card card-pad"><p style="margin:0"><%= p %></p></div><% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section tight band-sky" aria-labelledby="authors-title">
+  <div class="wrap grid-2" style="gap:40px;align-items:start">
+    <div class="stack">
+      <h2 id="authors-title" class="h2" style="font-size:clamp(26px,3.4vw,36px)"><%= t('about.authorsTitle') %></h2>
+      <% t('about.people').forEach(function (p) { %>
+      <div class="card card-pad stack-sm">
+        <h3 class="h3" style="font-size:21px"><%= p.name %></h3>
+        <p class="muted" style="margin:0"><%= p.text %></p>
+      </div>
+      <% }) %>
+      <div class="row"><a class="btn btn-primary" href="<%= url('/books') %>"><%= t('common.exploreBooks') %></a></div>
+    </div>
+    <div class="stack">
+      <h2 class="h2" style="font-size:clamp(26px,3.4vw,36px)"><%= t('about.shareTitle') %></h2>
+      <p class="lead" style="margin:0"><%= t('about.shareLead') %></p>
+      <%- include('../partials/enquiry', { kind: 'contact', topic: 'value', showOrg: false, messageLabel: t('about.shareLabel'), button: t('about.shareButton') }) %>
     </div>
   </div>
 </section>

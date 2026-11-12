@@ -565,7 +565,7 @@ router.get('/partners/:page', (req, res, next) => {
   const content = req.h.t('partnerPages.' + req.params.page);
   page(req, res, 'partner-page', { key: req.params.page, content, seo: { title: content.title, description: content.lead } });
 });
-router.get('/about', (req, res) => page(req, res, 'about', { seo: { title: req.h.t('about.title') } }));
+router.get('/about', (req, res) => page(req, res, 'about', { seo: { title: req.h.t('about.title'), description: req.h.t('about.lead') + ' ' + req.h.t('about.question') } }));
 router.get('/contact', (req, res) => page(req, res, 'contact', { seo: { title: req.h.t('contact.title') } }));
 router.get('/faq', (req, res) => page(req, res, 'faq', { seo: { title: req.h.t('faq.title') } }));
 router.get('/policies/:page', (req, res, next) => {
@@ -656,7 +656,7 @@ app.post('/api/enquire', async (req, res) => {
     name: clean(b.name, 120) || null,
     email,
     organisation: clean(b.organisation, 160) || null,
-    message: clean(b.message, 4000),
+    message: (b.topic === 'value' ? '[Value idea] ' : '') + clean(b.message, 3980),
     page: safeBack(req)
   };
   const result = await insert('enquiries', row);

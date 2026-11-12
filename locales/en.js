@@ -74,7 +74,7 @@ module.exports = {
     soonTitle: 'Be the first to meet the next heroes',
     aboutEyebrow: 'Our story',
     aboutTitle: 'Made by Amr Mohamed & Abdallah Shehata',
-    aboutLead: 'We write stories where the child is the hero and the value is honest, never "you belong once you\'re useful". Readers from each culture check every book before it\'s published.',
+    aboutLead: 'It began when Amr wondered how to give his son values that stay. He and his friend Abdallah, a storyteller, turned that question into books, and every new one starts with a value someone wished children understood.',
     aboutCta: 'Read our story'
   },
   books: {
@@ -515,8 +515,38 @@ module.exports = {
     }
   },
   about: {
+    eyebrow: 'How it started',
     title: 'Our story',
-    lead: 'A² Publishing makes the Double the Adventure picture books for ages 3–7.',
+    lead: 'Double the Adventure began with a father, his six-year-old son and one question.',
+    question: 'How do you give a child a value that stays with them?',
+    beginTitle: 'A father\'s question',
+    begin: [
+      'Amr is the father of Yousef, a curious six-year-old. Like every parent, he wanted to pass on the things that matter: honesty, patience, kindness, courage.',
+      'He noticed that reminders don\'t last. "Be patient" is forgotten by dinnertime. A story is different. A child remembers the little hero who waited, and when their own moment comes, the story comes back with it.',
+      'So Amr began to wonder: could a story tie a value to a memory, and give Yousef the chance to embrace it and live it himself?'
+    ],
+    friendTitle: 'A friend who tells stories',
+    friend: [
+      'Amr shared the idea with his friend Abdallah, a talented storyteller.',
+      'Abdallah saw it right away: a gentle animal hero, one value, and a problem the hero solves by their own choice. No lecture at the end, no adult who fixes everything. The child reading lives the value alongside the hero.',
+      'Together they brought the idea to life. Amr brings the father\'s question. Abdallah brings the story.'
+    ],
+    communityEyebrow: 'Our community',
+    communityTitle: 'Every book starts with someone\'s wish',
+    communityLead: 'Soon the people around them joined in. Parents, grandparents, teachers and friends began sharing the everyday values they wish children understood.',
+    steps: [
+      { title: 'A wish is shared', text: 'Someone tells us a value they wish children understood: waiting your turn, saying sorry, asking for help, finishing what you start.' },
+      { title: 'We find its roots', text: 'We look for where that value lives in an old culture: a saying, a custom or a tale that has carried it for generations.' },
+      { title: 'A new hero is born', text: 'A little animal faces a real problem and chooses the value for themselves. A reader from that culture checks the book before it\'s published.' }
+    ],
+    communityClose: 'With each inspiration, a new book comes to life. That\'s how one father\'s question has grown into {count} stories, and counting.',
+    visionEyebrow: 'Our vision',
+    visionTitle: 'Values children carry with them',
+    vision: [
+      'We picture a shelf of values from every corner of the world, for every child, in their own language.',
+      'Not rules to memorise, but stories to remember. So that when the moment comes to be honest, patient or brave, a child thinks of the hero, and chooses it for themselves.'
+    ],
+    careTitle: 'What we hold to',
     paragraphs: [
       'Each book digs up one old value that shaped traditional stories in a particular culture, and retells it for today\'s children.',
       'The hero is always a child who solves the problem by their own choice. There\'s no adult rescue and nothing scary.',
@@ -524,7 +554,15 @@ module.exports = {
       'When a book draws on a culture, a reader from that culture checks the note and the names before it\'s published.'
     ],
     authorsTitle: 'The authors',
-    authors: 'Amr Mohamed & Abdallah Shehata'
+    authors: 'Amr Mohamed & Abdallah Shehata',
+    people: [
+      { name: 'Amr Mohamed', text: 'Father of Yousef, and the one who asked the first question. He keeps every book close to real family life.' },
+      { name: 'Abdallah Shehata', text: 'Storyteller. He turns each value into a hero, a problem worth solving and a refrain children love to say along.' }
+    ],
+    shareTitle: 'Share a value with us',
+    shareLead: 'Is there a value you wish your child, or every child, understood? Tell us. Your wish could become the next book.',
+    shareLabel: 'The value, and why it matters to you',
+    shareButton: 'Share my value'
   },
   contact: {
     title: 'Contact us',

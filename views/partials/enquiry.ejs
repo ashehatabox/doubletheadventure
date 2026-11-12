@@ -1,9 +1,10 @@
-<%# Contact / quote form. Needs: kind. Optional: formTitle, messageLabel, button, showOrg %>
+<%# Contact / quote form. Needs: kind. Optional: topic (e.g. "value"), formTitle, messageLabel, button, showOrg %>
 <form class="form card card-pad" method="post" action="/api/enquire" id="enquiry" data-ajax data-kind="enquiry">
   <% if (typeof formTitle !== 'undefined' && formTitle) { %><h2 class="h3"><%= formTitle %></h2><% } %>
   <input type="hidden" name="kind" value="<%= kind %>">
   <input type="hidden" name="back" value="<%= url(basePath) %>">
   <input type="hidden" name="form" value="enquiry">
+  <% if (typeof topic !== 'undefined' && topic) { %><input type="hidden" name="topic" value="<%= topic %>"><% } %>
   <div class="hp" aria-hidden="true"><label for="enq-website">Website</label><input id="enq-website" name="website" tabindex="-1" autocomplete="off"></div>
   <div class="field"><label for="enq-name"><%= t('common.name') %></label><input class="input" id="enq-name" name="name" autocomplete="name"></div>
   <div class="field"><label for="enq-email"><%= t('common.email') %></label><input class="input" id="enq-email" name="email" type="email" autocomplete="email" required></div>

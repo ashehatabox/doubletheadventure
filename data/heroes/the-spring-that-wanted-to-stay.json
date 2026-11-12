@@ -1,0 +1,1115 @@
+{
+  "book": "the-spring-that-wanted-to-stay",
+  "draft": true,
+  "updated": "2026-11-12",
+  "review": {
+    "factsChecked": "2026-11-12",
+    "culturalReader": true
+  },
+  "title": {
+    "en": "Heroes of the Mountain Stream"
+  },
+  "seoTitle": {
+    "en": "Heroes of the Mountain Stream: the real animals behind The Spring That Wanted to Stay"
+  },
+  "description": {
+    "en": "Otters with elbow whiskers, a heron with 1.8 m wings, bumblebees that shake pollen loose and frogs that live in the mountains. Real facts for kids."
+  },
+  "intro": {
+    "en": "Nura is a mountain spring and Willo is a willow tree, so they aren't in our animal line-up. But the animals who need Nura's water are all real. Here is how they live."
+  },
+  "place": {
+    "name": {
+      "en": "Hohe Tauern, Austria"
+    },
+    "image": "place.jpg",
+    "intro": {
+      "en": "Nura's mountain has no name, so we picked the Hohe Tauern National Park in the Austrian Alps. It's full of glaciers, springs and streams that melt and flow down to the valleys, just like Nura."
+    },
+    "introSrc": [
+      "np-waters",
+      "npa"
+    ],
+    "facts": [
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Biggest in the Alps"
+        },
+        "text": {
+          "en": "Hohe Tauern is the largest national park in the Alps: 1,856 square km."
+        },
+        "src": [
+          "np-ht"
+        ]
+      },
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Europe's biggest waterfall"
+        },
+        "text": {
+          "en": "The Krimml Waterfalls drop about 380 m in three huge steps."
+        },
+        "src": [
+          "islands",
+          "np-waters"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "342 glaciers"
+        },
+        "text": {
+          "en": "The park has 342 glaciers and 266 peaks over 3,000 m."
+        },
+        "src": [
+          "zillertal"
+        ]
+      },
+      {
+        "kind": "ha",
+        "title": {
+          "en": "550 lakes"
+        },
+        "text": {
+          "en": "It has around 550 mountain lakes, plus streams and gorges everywhere."
+        },
+        "src": [
+          "zillertal"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "Austria's tallest"
+        },
+        "text": {
+          "en": "Austria's highest mountain, the Grossglockner, and its biggest glacier are here."
+        },
+        "src": [
+          "zellamsee"
+        ]
+      }
+    ],
+    "map": {
+      "lat": 47.198,
+      "lon": 12.171,
+      "zoom": 10,
+      "region": [
+        3,
+        44,
+        16,
+        51
+      ],
+      "highlight": [
+        40
+      ],
+      "label": {
+        "en": "Krimml, Austria"
+      },
+      "text": {
+        "en": "The Krimml Waterfalls, at the north-west edge of the Hohe Tauern National Park in the Austrian Alps."
+      },
+      "src": [
+        "coe"
+      ],
+      "areaNote": {
+        "en": "Yellow: Austria."
+      },
+      "pin": [
+        70.55,
+        55.96
+      ],
+      "aspect": 1.252
+    }
+  },
+  "cast": [
+    {
+      "id": "otters",
+      "role": "supporting",
+      "colour": "peach",
+      "name": {
+        "en": "The otter family"
+      },
+      "animal": {
+        "en": "Eurasian otters"
+      },
+      "image": "otters.jpg",
+      "job": {
+        "en": "Look for a swimming hole, then leap in when the water comes back"
+      },
+      "superpower": {
+        "en": "Whiskers that feel fish moving"
+      },
+      "lineup": {
+        "weight": {
+          "en": "6–8 kg"
+        },
+        "grams": 7000,
+        "like": {
+          "en": "a big bag of potatoes"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "60–80 cm, plus a 32–56 cm tail"
+          },
+          "src": [
+            "crt-otter"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "6–8 kg"
+          },
+          "src": [
+            "crt-otter"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Up to 10 years, but few live past 5"
+          },
+          "src": [
+            "mammal-otter"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Mostly fish, plus frogs, birds, eggs and insects"
+          },
+          "src": [
+            "crt-otter",
+            "taf-otter"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "A den called a holt, in a riverbank or under tree roots"
+          },
+          "src": [
+            "tfl-otter"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Mom raises 2–3 cubs on her own"
+          },
+          "src": [
+            "ptes-otter",
+            "mammal-otter"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Super whiskers"
+          },
+          "text": {
+            "en": "Long whiskers feel the tiny water movements made by fish, even in murky water."
+          },
+          "src": [
+            "taf-otter",
+            "tfl-otter"
+          ]
+        },
+        {
+          "title": {
+            "en": "Elbow whiskers too!"
+          },
+          "text": {
+            "en": "Otters even have a few stiff whiskers on their elbows."
+          },
+          "src": [
+            "nf-otter"
+          ]
+        },
+        {
+          "title": {
+            "en": "Out at dusk"
+          },
+          "text": {
+            "en": "Otters are busiest at dusk and at night."
+          },
+          "src": [
+            "tfl-otter"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "ha",
+          "title": {
+            "en": "A romp of otters"
+          },
+          "text": {
+            "en": "A group of otters can be called a romp."
+          },
+          "src": [
+            "crt-otter"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Cubs stay in"
+          },
+          "text": {
+            "en": "Cubs stay inside the holt for about 10 weeks before they come out with mom."
+          },
+          "src": [
+            "mammal-otter"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Water slide"
+          },
+          "text": {
+            "en": "Otters can wear a slide into the bank outside their holt for quick trips into the water."
+          },
+          "src": [
+            "wlo-otter"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Tea-scented poo"
+          },
+          "text": {
+            "en": "Otter droppings are said to smell a bit like jasmine tea!"
+          },
+          "src": [
+            "swt-otter"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real otters really do need rivers full of water and fish. A dry stream would be a real problem for an otter family."
+      },
+      "storyVsRealSrc": [
+        "crt-otter"
+      ]
+    },
+    {
+      "id": "heron",
+      "role": "supporting",
+      "colour": "sky",
+      "name": {
+        "en": "The heron"
+      },
+      "animal": {
+        "en": "Grey heron"
+      },
+      "image": "heron.jpg",
+      "job": {
+        "en": "Comes back when the stream flows again"
+      },
+      "superpower": {
+        "en": "Wings 1.8 m across"
+      },
+      "lineup": {
+        "weight": {
+          "en": "about 1.5 kg"
+        },
+        "grams": 1500,
+        "like": {
+          "en": "a big bottle of water"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Height"
+          },
+          "value": {
+            "en": "About 94 cm long"
+          },
+          "src": [
+            "kent-heron"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "About 1.5 kg"
+          },
+          "src": [
+            "kent-heron"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About 5 years; the record is nearly 24"
+          },
+          "src": [
+            "bto-heron"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Mostly fish, plus frogs, voles and even ducklings"
+          },
+          "src": [
+            "birdspot-heron"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Rivers, lakes and ponds; nests high in trees"
+          },
+          "src": [
+            "uks-heron"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "3–4 eggs; mom and dad both feed the chicks"
+          },
+          "src": [
+            "bto-heron",
+            "seabird-heron"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Statue hunter"
+          },
+          "text": {
+            "en": "A heron stands perfectly still at the water's edge, waiting for a fish to swim by."
+          },
+          "src": [
+            "kent-heron"
+          ]
+        },
+        {
+          "title": {
+            "en": "Heron cities"
+          },
+          "text": {
+            "en": "Herons nest together in treetops. A group of nests is called a heronry."
+          },
+          "src": [
+            "uks-heron"
+          ]
+        },
+        {
+          "title": {
+            "en": "Neck tucked in"
+          },
+          "text": {
+            "en": "Herons fly with their neck pulled back. Cranes fly with their neck stretched out."
+          },
+          "src": [
+            "biokids-heron"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Light as a feather"
+          },
+          "text": {
+            "en": "Even with huge wings, a heron weighs little more than a pheasant."
+          },
+          "src": [
+            "gwct-heron"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Kraank!"
+          },
+          "text": {
+            "en": "Herons are mostly quiet, but in flight they can give a harsh 'kraank' call."
+          },
+          "src": [
+            "bto-heron"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Mole on the menu"
+          },
+          "text": {
+            "en": "Herons mostly eat fish, but they'll even catch moles."
+          },
+          "src": [
+            "sheff-heron"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real herons love clear, flowing water full of fish, so it makes sense that the heron only shows up once Nura shares her water."
+      },
+      "storyVsRealSrc": [
+        "kent-heron"
+      ]
+    },
+    {
+      "id": "bees",
+      "role": "supporting",
+      "colour": "sun",
+      "name": {
+        "en": "The bees"
+      },
+      "animal": {
+        "en": "Buff-tailed bumblebees"
+      },
+      "image": "bumblebee.jpg",
+      "job": {
+        "en": "Buzz from flower to flower"
+      },
+      "superpower": {
+        "en": "Buzz pollination"
+      },
+      "lineup": {
+        "weight": {
+          "en": "0.2–0.6 g"
+        },
+        "grams": 0.4,
+        "like": {
+          "en": "a paper clip... a small one"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "Workers 11–17 mm; queens 20–22 mm"
+          },
+          "src": [
+            "bb-org"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "0.2–0.6 g"
+          },
+          "src": [
+            "strange-bee"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Workers a few weeks; a queen about a year"
+          },
+          "src": [
+            "aguide-bee"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Nectar and pollen"
+          },
+          "src": [
+            "aguide-bee"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Underground, often in old mouse holes"
+          },
+          "src": [
+            "ww-bee",
+            "nhsn-bee"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "One queen and up to 600 bees"
+          },
+          "src": [
+            "ww-bee"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Shake it loose"
+          },
+          "text": {
+            "en": "Bumblebees vibrate their flight muscles to shake pollen out of flowers like tomatoes and blueberries."
+          },
+          "src": [
+            "aguide-bee"
+          ]
+        },
+        {
+          "title": {
+            "en": "Pollen baskets"
+          },
+          "text": {
+            "en": "They carry pollen home in little 'baskets' on their back legs."
+          },
+          "src": [
+            "insectweek"
+          ]
+        },
+        {
+          "title": {
+            "en": "Only the queen sleeps through winter"
+          },
+          "text": {
+            "en": "New queens are the only bees that survive winter. In spring each one starts a new nest."
+          },
+          "src": [
+            "aguide-bee"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Nectar robbers"
+          },
+          "text": {
+            "en": "If a flower is too deep, a bumblebee may bite a hole in the side and sip the nectar."
+          },
+          "src": [
+            "ww-bee"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "6,000 flowers a day"
+          },
+          "text": {
+            "en": "A queen starting her nest may visit as many as 6,000 flowers in one day."
+          },
+          "src": [
+            "bb-org"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Of the earth"
+          },
+          "text": {
+            "en": "Their name terrestris means 'of the earth', because they nest underground."
+          },
+          "src": [
+            "nhsn-bee"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "When rivers and meadows dry up, there are fewer flowers, and bees have a hard time. The story gets that right."
+      },
+      "storyVsRealSrc": [
+        "aguide-bee"
+      ]
+    },
+    {
+      "id": "frogs",
+      "role": "supporting",
+      "colour": "mint",
+      "name": {
+        "en": "The frogs"
+      },
+      "animal": {
+        "en": "Common frogs"
+      },
+      "image": "frog.jpg",
+      "job": {
+        "en": "Hop away when the pond grows still, and come back later"
+      },
+      "superpower": {
+        "en": "Lives as high as 2,700 m"
+      },
+      "lineup": {
+        "weight": {
+          "en": "about 22 g"
+        },
+        "grams": 22,
+        "like": {
+          "en": "four grapes"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "6–9 cm"
+          },
+          "src": [
+            "wiki-frog"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "About 22 g"
+          },
+          "src": [
+            "ww-frog"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "5–10 years"
+          },
+          "src": [
+            "ww-frog"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Insects, spiders, worms and slugs"
+          },
+          "src": [
+            "naturalis-frog"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Damp meadows, woods and mountain lakes"
+          },
+          "src": [
+            "adw-frog"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Tadpoles turn into froglets in about 14 weeks"
+          },
+          "src": [
+            "ww-frog"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Mountain frog"
+          },
+          "text": {
+            "en": "It's the most common frog in mountain lakes, and lives from the seaside up to 2,742 m."
+          },
+          "src": [
+            "adw-frog",
+            "pmc-frog"
+          ]
+        },
+        {
+          "title": {
+            "en": "Late wake-up"
+          },
+          "text": {
+            "en": "In the Alps, common frogs may not come out of hibernation until early June."
+          },
+          "src": [
+            "wiki-frog"
+          ]
+        },
+        {
+          "title": {
+            "en": "Breathing through skin"
+          },
+          "text": {
+            "en": "In winter they rest in cold water and get enough air through their skin."
+          },
+          "src": [
+            "wiki-frog"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Europe's top frog"
+          },
+          "text": {
+            "en": "It's the most widespread amphibian in Europe."
+          },
+          "src": [
+            "pmc-frog"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Sticky tongue"
+          },
+          "text": {
+            "en": "Common frogs catch bugs with a long, sticky tongue."
+          },
+          "src": [
+            "bilder-frog"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "No snacks while dating"
+          },
+          "text": {
+            "en": "During their short breeding season, common frogs don't eat at all."
+          },
+          "src": [
+            "bilder-frog"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Frogs need clean, fresh water, so they really would leave a pond that turned murky. Common frogs are usually brown or olive, a little less green than in the story."
+      },
+      "storyVsRealSrc": [
+        "adw-frog"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "title": {
+        "en": "Pass the water"
+      },
+      "text": {
+        "en": "Fill a cup and pass it along a line of friends with a spoon each. Does everyone get some?"
+      }
+    },
+    {
+      "title": {
+        "en": "Heron statue"
+      },
+      "text": {
+        "en": "Stand on one leg like a heron. How long can you stay still?"
+      }
+    },
+    {
+      "title": {
+        "en": "Bee buzz"
+      },
+      "text": {
+        "en": "Hum with your lips closed and feel the buzz. That's how bees shake pollen loose!"
+      }
+    },
+    {
+      "title": {
+        "en": "Ice to water"
+      },
+      "text": {
+        "en": "Put an ice cube on a plate in the sun. Watch it become a tiny spring."
+      }
+    },
+    {
+      "title": {
+        "en": "Find the Alps"
+      },
+      "text": {
+        "en": "Find Austria on a map, then the mountains in the middle. That's where Krimml is."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are the animals in The Spring That Wanted to Stay real?"
+      },
+      "a": {
+        "en": "Yes. Otters, grey herons, bumblebees and common frogs all live in Europe. Nura and Willo aren't animals: Nura is a spring and Willo is a willow tree."
+      }
+    },
+    {
+      "q": {
+        "en": "Where do mountain springs come from?"
+      },
+      "a": {
+        "en": "In the Alps, melting snow and glaciers feed springs, streams and waterfalls."
+      },
+      "src": [
+        "np-waters"
+      ]
+    },
+    {
+      "q": {
+        "en": "Why do otters need clean rivers?"
+      },
+      "a": {
+        "en": "Most of what an otter eats is fish, so it needs rivers full of water and fish."
+      },
+      "src": [
+        "taf-otter"
+      ]
+    },
+    {
+      "q": {
+        "en": "How big is the biggest waterfall in Europe?"
+      },
+      "a": {
+        "en": "The Krimml Waterfalls in Austria drop about 380 m."
+      },
+      "src": [
+        "islands"
+      ]
+    }
+  ],
+  "sources": {
+    "crt-otter": {
+      "name": "Canal & River Trust",
+      "title": "Otter",
+      "url": "https://canalrivertrust.org.uk/things-to-do/canal-and-river-wildlife/a-spotters-guide-to-waterway-wildlife/otter-waterway-wildlife"
+    },
+    "mammal-otter": {
+      "name": "The Mammal Society",
+      "title": "Otter",
+      "url": "https://mammal.org.uk/british-mammals/otter"
+    },
+    "ptes-otter": {
+      "name": "People's Trust for Endangered Species",
+      "title": "Otter",
+      "url": "https://ptes.org/product-tag/otter/"
+    },
+    "tfl-otter": {
+      "name": "Trees for Life",
+      "title": "European otter",
+      "url": "https://treesforlife.org.uk/forest/european-otter/"
+    },
+    "taf-otter": {
+      "name": "The Animal Facts",
+      "title": "Eurasian otter",
+      "url": "https://www.theanimalfacts.com/mammals/eurasian-otter"
+    },
+    "nf-otter": {
+      "name": "New Forest Wildlife Park",
+      "title": "Eurasian otter",
+      "url": "https://newforestwildlifepark.co.uk/animals/mammals/eurasian-otter/"
+    },
+    "swt-otter": {
+      "name": "Scottish Wildlife Trust",
+      "title": "Eurasian otter",
+      "url": "https://snorkel.scottishwildlifetrust.org.uk/?p=1009806"
+    },
+    "adw-otter": {
+      "name": "Animal Diversity Web, University of Michigan",
+      "title": "Lutra lutra",
+      "url": "https://animaldiversity.org/accounts/Lutra_lutra/"
+    },
+    "wlo-otter": {
+      "name": "Wildlife Online",
+      "title": "European otter",
+      "url": "https://www.wildlifeonline.me.uk/animals/species/european-otter"
+    },
+    "kent-heron": {
+      "name": "Kent Wildlife Trust",
+      "title": "Grey heron",
+      "url": "https://kentwildlifetrust.org.uk/wildlife-explorer/birds/herons-egrets-spoonbill-and-crane/grey-heron"
+    },
+    "bto-heron": {
+      "name": "British Trust for Ornithology",
+      "title": "Grey heron",
+      "url": "https://weblive.bto.org/learn/about-birds/birdfacts/grey-heron"
+    },
+    "birdspot-heron": {
+      "name": "BirdSpot",
+      "title": "Grey heron identification guide",
+      "url": "https://www.birdspot.co.uk/bird-identification/grey-heron"
+    },
+    "gwct-heron": {
+      "name": "Game & Wildlife Conservation Trust",
+      "title": "Grey heron",
+      "url": "https://www.gwct.org.uk/wildlife/species-of-the-month/2021/grey-heron"
+    },
+    "uks-heron": {
+      "name": "UK Safari",
+      "title": "Grey herons",
+      "url": "https://uksafari.com/greyherons.htm"
+    },
+    "biokids-heron": {
+      "name": "BioKIDS, University of Michigan",
+      "title": "Grey heron",
+      "url": "https://biokids.umich.edu/critters/Ardea_cinerea"
+    },
+    "sheff-heron": {
+      "name": "Sheffield and Rotherham Wildlife Trust",
+      "title": "Grey heron",
+      "url": "https://www.wildsheffield.com/species/grey-heron/"
+    },
+    "seabird-heron": {
+      "name": "Scottish Seabird Centre",
+      "title": "Grey heron",
+      "url": "https://www.seabird.org/wildlife/grey-heron"
+    },
+    "ww-bee": {
+      "name": "Wildlife Watch (The Wildlife Trusts)",
+      "title": "Buff-tailed bumblebee",
+      "url": "https://www.wildlifewatch.org.uk/wildlife-explorer/invertebrates/bees-and-wasps/buff-tailed-bumblebee"
+    },
+    "bb-org": {
+      "name": "Bumblebee.org",
+      "title": "Bombus terrestris",
+      "url": "https://bumblebee.org/terr.htm"
+    },
+    "strange-bee": {
+      "name": "Strange Animals",
+      "title": "The complete guide to bumblebees",
+      "url": "https://strangeanimals.info/insects/bees/bumblebee"
+    },
+    "aguide-bee": {
+      "name": "Global Animal Guide",
+      "title": "Bumblebee",
+      "url": "https://animal-guide-overview.pages.dev/animals/bumblebee"
+    },
+    "insectweek": {
+      "name": "Royal Entomological Society, Insect Week",
+      "title": "Buff-tailed bumblebee",
+      "url": "https://www.insectweek.org/?p=6833"
+    },
+    "nhsn-bee": {
+      "name": "Natural History Society of Northumbria",
+      "title": "Buff-tailed bumblebee",
+      "url": "https://www.nhsn.org.uk/?p=42596"
+    },
+    "wiki-frog": {
+      "name": "Wikipedia",
+      "title": "Common frog",
+      "url": "https://en.wikipedia.org/wiki/Common_frog"
+    },
+    "ww-frog": {
+      "name": "Wildlife Watch (The Wildlife Trusts)",
+      "title": "Common frog",
+      "url": "https://www.wildlifewatch.org.uk/wildlife-explorer/amphibians/common-frog"
+    },
+    "adw-frog": {
+      "name": "Animal Diversity Web, University of Michigan",
+      "title": "Rana temporaria",
+      "url": "https://animaldiversity.org/accounts/Rana_temporaria"
+    },
+    "pmc-frog": {
+      "name": "BMC Evolutionary Biology (2014)",
+      "title": "Adaptations to low-temperature environments in the common frog",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4037278"
+    },
+    "naturalis-frog": {
+      "name": "Naturalis Biodiversity Center",
+      "title": "Rana temporaria",
+      "url": "https://reptiles-and-amphibians.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=98989"
+    },
+    "bilder-frog": {
+      "name": "Bilderreich",
+      "title": "Common frog fact sheet",
+      "url": "https://bilderreich.de/1158/fact-sheet-common-frog-rana-temporaria.html"
+    },
+    "np-ht": {
+      "name": "Hohe Tauern National Park",
+      "title": "Facts about the largest national park in the Alps",
+      "url": "https://hohetauern.at/en/nature/national-park.html"
+    },
+    "np-waters": {
+      "name": "Hohe Tauern National Park",
+      "title": "Waters in the Hohe Tauern",
+      "url": "https://www.nationalpark.at/en/nationalpark/waters"
+    },
+    "npa": {
+      "name": "National Parks Austria",
+      "title": "Hohe Tauern",
+      "url": "https://archive.nationalparksaustria.at/en/pages/hohe-tauern-60.aspx.html"
+    },
+    "zillertal": {
+      "name": "Zillertal Arena",
+      "title": "Hohe Tauern National Park",
+      "url": "https://bypass.zillertalarena.com/en/krimml/summer/hiking-area/hohe-tauern-national-park/"
+    },
+    "coe": {
+      "name": "Council of Europe",
+      "title": "Krimml Waterfalls natural site",
+      "url": "https://www.coe.int/web/bern-convention/-/krimml-waterfalls-natural-site"
+    },
+    "islands": {
+      "name": "Islands",
+      "title": "Hohe Tauern National Park",
+      "url": "https://www.islands.com/1931825/hohe-tauern-national-park-austria-europe-jaw-dropping-alpine-glaciers-waterfalls-wildlife"
+    },
+    "zellamsee": {
+      "name": "Zell am See-Kaprun",
+      "title": "Hohe Tauern National Park",
+      "url": "https://www.zellamsee-kaprun.com/en/region/places/nationalpark"
+    }
+  }
+}

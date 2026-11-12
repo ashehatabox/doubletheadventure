@@ -1,0 +1,1555 @@
+{
+ "book": "the-old-path-song",
+ "draft": true,
+ "updated": "2026-11-12",
+ "review": {
+  "factsChecked": "2026-11-12",
+  "culturalReader": false
+ },
+ "title": {
+  "en": "Heroes of the Rainforest Path"
+ },
+ "seoTitle": {
+  "en": "Heroes of the Rainforest Path: the real animals behind The Old Path Song"
+ },
+ "description": {
+  "en": "A pangolin with armour, a bushbaby that leaps two metres, and a hornbill that spies on monkeys. Real, checked facts for kids."
+ },
+ "intro": {
+  "en": "Every animal in The Old Path Song is real, and they all live in the rainforests of southern Ghana. Here is how they eat, grow and get through the dry season."
+ },
+ "place": {
+  "name": {
+   "en": "Kakum National Park, Ghana"
+  },
+  "image": "place.jpg",
+  "intro": {
+   "en": "The story takes place in a forest in southern Ghana. We picked Kakum National Park, a protected rainforest near the coast where pangolins, bushbabies, hornbills, duikers and Lowe's monkeys all live."
+  },
+  "introSrc": [
+   "wiki-kakum",
+   "rainbow",
+   "pressreader-kakum",
+   "plazi-lowe"
+  ],
+  "facts": [
+   {
+    "kind": "wow",
+    "title": {
+     "en": "A walk in the treetops"
+    },
+    "text": {
+     "en": "Kakum has a canopy walkway 350 metres long that links seven treetops, high above the forest floor. It's one of only three in Africa."
+    },
+    "src": [
+     "wikiwand-kakum"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "The dusty wind"
+    },
+    "text": {
+     "en": "Every year from about the end of November to mid-March, the Harmattan blows dry, dusty wind from the Sahara Desert across Ghana. Its name comes from haramata, a word in Fante, a language of Ghana."
+    },
+    "src": [
+     "myjoy",
+     "gavi"
+    ]
+   },
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Then comes the rain"
+    },
+    "text": {
+     "en": "In southern Ghana the heaviest rain falls from April to June. That's the first rain at the end of the story."
+    },
+    "src": [
+     "easytrack"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "How important are figs?"
+    },
+    "text": {
+     "en": "In Asia, figs are a lifeline for fruit-eaters when other fruit is scarce. In some African forests scientists found other trees mattered more, while in others figs are key for monkeys and chimps. They're still studying it!"
+    },
+    "src": [
+     "kinnaird",
+     "tweheyo",
+     "gautier1989"
+    ]
+   },
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Elephants in the forest"
+    },
+    "text": {
+     "en": "Kakum is home to the densest population of forest elephants in Ghana."
+    },
+    "src": [
+     "pressreader-kakum"
+    ]
+   }
+  ],
+  "map": {
+   "lat": 5.417,
+   "lon": -1.317,
+   "zoom": 11,
+   "region": [
+    -19,
+    0,
+    15,
+    22
+   ],
+   "highlight": [
+    288
+   ],
+   "label": {
+    "en": "Kakum National Park, Ghana"
+   },
+   "text": {
+    "en": "A 375 km² rainforest in Ghana's Central Region, protected as a reserve since 1931 and a national park since 1992."
+   },
+   "src": [
+    "rainbow",
+    "wiki-kakum"
+   ],
+   "areaNote": {
+    "en": "Yellow: Ghana."
+   },
+   "pin": [
+    52.01,
+    75.93
+   ],
+   "aspect": 1.5066
+  }
+ },
+ "cast": [
+  {
+   "id": "ama",
+   "role": "hero",
+   "colour": "sun",
+   "name": {
+    "en": "Ama"
+   },
+   "animal": {
+    "en": "White-bellied (tree) pangolin"
+   },
+   "image": "ama.jpg",
+   "job": {
+    "en": "Loves everything new, and learns to go back"
+   },
+   "superpower": {
+    "en": "A suit of armour that rolls into a ball"
+   },
+   "lineup": {
+    "weight": {
+     "en": "up to 2 kg"
+    },
+    "grams": 1800,
+    "like": {
+     "en": "a big bag of sugar"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "About 46 cm, plus a long tail"
+     },
+     "src": [
+      "dswf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Up to 2 kg"
+     },
+     "src": [
+      "dswf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Not known in the wild"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Only ants and termites"
+     },
+     "src": [
+      "dswf",
+      "animalia-pangolin"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Tree hollows and forks of branches, high in the forest"
+     },
+     "src": [
+      "animalia-pangolin"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Lives alone; a mom has one baby at a time"
+     },
+     "src": [
+      "dswf",
+      "pangolinsg"
+     ]
+    },
+    {
+     "label": {
+      "en": "In the wild"
+     },
+     "value": {
+      "en": "Endangered"
+     },
+     "src": [
+      "pangolinsg"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "A walking pinecone"
+     },
+     "text": {
+      "en": "Pangolins are the only mammals covered in scales from head to tail. When scared, they roll into a tight ball."
+     },
+     "src": [
+      "zsl",
+      "dswf"
+     ]
+    },
+    {
+     "title": {
+      "en": "A tail that grips"
+     },
+     "text": {
+      "en": "Tree pangolins climb with a grasping tail that has special pads for gripping bark."
+     },
+     "src": [
+      "pangolinsg",
+      "zsl-species"
+     ]
+    },
+    {
+     "title": {
+      "en": "A night-time ant hunter"
+     },
+     "text": {
+      "en": "Tree pangolins come out mostly at night. By day they sleep curled up in a tree hollow or a forked branch."
+     },
+     "src": [
+      "animalia-pangolin"
+     ]
+    },
+    {
+     "title": {
+      "en": "No teeth, big tongue"
+     },
+     "text": {
+      "en": "Pangolins have no teeth. Their long tongue is joined near their hips, and stones in their tummy help grind up the ants."
+     },
+     "src": [
+      "savepangolins"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Named 'the roller'"
+     },
+     "text": {
+      "en": "The word pangolin comes from the Malay word penggulung, which means \"roller\"."
+     },
+     "src": [
+      "africageo"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "A record-breaking count"
+     },
+     "text": {
+      "en": "Scientists found that white-bellied pangolins have 114 chromosomes, the tiny packets of instructions inside every cell. That's more than almost any other mammal studied. You have 46!"
+     },
+     "src": [
+      "factanimal-pangolin"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Strong swimmers"
+     },
+     "text": {
+      "en": "Pangolins can swim! Not bad for an animal wearing a suit of armour."
+     },
+     "src": [
+      "zsl"
+     ]
+    },
+    {
+     "kind": "rescue",
+     "title": {
+      "en": "Help needed"
+     },
+     "text": {
+      "en": "Pangolins are the most illegally traded wild mammal in the world. More than a million have been poached in ten years. Protecting forests and stopping the trade gives them a chance."
+     },
+     "src": [
+      "zsl-species"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Tree pangolins really do climb, roll up and eat only ants and termites. But they mostly come out at night, they live alone, and Ama's golden tail scale and her drumming beat are our story's ideas."
+   },
+   "storyVsRealSrc": [
+    "animalia-pangolin",
+    "dswf"
+   ]
+  },
+  {
+   "id": "kwesi",
+   "role": "friend",
+   "colour": "lilac",
+   "name": {
+    "en": "Kwesi"
+   },
+   "animal": {
+    "en": "Demidoff's dwarf galago (bushbaby)"
+   },
+   "image": "kwesi.jpg",
+   "job": {
+    "en": "Ama's partner for finding new paths"
+   },
+   "superpower": {
+    "en": "Leaps 2 metres without dropping"
+   },
+   "lineup": {
+    "weight": {
+     "en": "46–88 g"
+    },
+    "grams": 60,
+    "like": {
+     "en": "an egg"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "10.5–12.3 cm, plus a 15–20 cm tail"
+     },
+     "src": [
+      "adw-galago"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "46–88 g, about an egg"
+     },
+     "src": [
+      "adw-galago"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Most live 4–5 years"
+     },
+     "src": [
+      "adw-galago"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Mostly beetles, moths and caterpillars, plus fruit and tree gum"
+     },
+     "src": [
+      "adw-galago"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Sleeps by day in a nest of leaves in thick bushes"
+     },
+     "src": [
+      "adw-galago"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Mostly alone at night; moms and young often share a bed"
+     },
+     "src": [
+      "adw-galago"
+     ]
+    },
+    {
+     "label": {
+      "en": "In Ghana"
+     },
+     "value": {
+      "en": "Lives in Kakum National Park"
+     },
+     "src": [
+      "rainbow"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Africa's smallest primate"
+     },
+     "text": {
+      "en": "Demidoff's dwarf galago is the smallest primate in Africa, with a body only about 10 cm long."
+     },
+     "src": [
+      "ucl-galago",
+      "adw-galago"
+     ]
+    },
+    {
+     "title": {
+      "en": "Big eyes for the dark"
+     },
+     "text": {
+      "en": "Galagos are nocturnal and use their huge eyes to find food in the dark. Each wakes about half an hour before nightfall."
+     },
+     "src": [
+      "ucl-galago",
+      "adw-galago"
+     ]
+    },
+    {
+     "title": {
+      "en": "Hide-and-seek baby"
+     },
+     "text": {
+      "en": "A mother hides her baby in thick leaves while she hunts, then carries it back to the nest before dawn."
+     },
+     "src": [
+      "adw-galago"
+     ]
+    },
+    {
+     "title": {
+      "en": "Six kinds of calls"
+     },
+     "text": {
+      "en": "They have six types of calls, from wake-up calls at dawn to alarm calls when danger is near."
+     },
+     "src": [
+      "adw-galago"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Flying leaps"
+     },
+     "text": {
+      "en": "A Demidoff's galago can leap 1.5 to 2 metres between branches without losing height. Its arms land first, like shock absorbers."
+     },
+     "src": [
+      "adw-galago"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Smelly hand-washing"
+     },
+     "text": {
+      "en": "Galagos wash their hands and feet with their own pee! The smell leaves a trail that tells others: this is my patch."
+     },
+     "src": [
+      "ucl-galago",
+      "nepc-galago"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "A thousand gum scrapes"
+     },
+     "text": {
+      "en": "One Demidoff's galago can scrape tree gum about 1,000 times in a single night."
+     },
+     "src": [
+      "ucl-galago"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "A comb on its toe"
+     },
+     "text": {
+      "en": "Galagos have a special claw on their foot, called a toilet claw, for combing their fur."
+     },
+     "src": [
+      "nepc-galago",
+      "ucl-galago"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Kwesi's white nose stripe is real: many dwarf galagos have a white stripe down the face. But a real one's tail is long and thin, not bushy, and real galagos mostly eat insects, so a fig would be a treat."
+   },
+   "storyVsRealSrc": [
+    "gbif-galago",
+    "adw-galago"
+   ]
+  },
+  {
+   "id": "nana",
+   "role": "supporting",
+   "colour": "peach",
+   "name": {
+    "en": "Nana"
+   },
+   "animal": {
+    "en": "White-bellied pangolin (grandmother)"
+   },
+   "image": "nana.jpg",
+   "job": {
+    "en": "Keeps the old song and knows the way"
+   },
+   "superpower": {
+    "en": "A tail for a baby to ride on"
+   },
+   "lineup": {
+    "weight": {
+     "en": "up to 2 kg"
+    },
+    "grams": 2000,
+    "like": {
+     "en": "a big bag of sugar"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Babies"
+     },
+     "value": {
+      "en": "One at a time, after about 150 days"
+     },
+     "src": [
+      "pangolinsg"
+     ]
+    },
+    {
+     "label": {
+      "en": "Baby's ride"
+     },
+     "value": {
+      "en": "On mom's tail for the first months"
+     },
+     "src": [
+      "dswf",
+      "zsl"
+     ]
+    },
+    {
+     "label": {
+      "en": "Milk"
+     },
+     "value": {
+      "en": "For three to four months"
+     },
+     "src": [
+      "savepangolins"
+     ]
+    },
+    {
+     "label": {
+      "en": "First ants"
+     },
+     "value": {
+      "en": "At about one month old"
+     },
+     "src": [
+      "savepangolins"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Not known in the wild"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Old age"
+     },
+     "value": {
+      "en": "Not known: wild pangolins are very hard to study"
+     },
+     "src": [
+      "savepangolins"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Soft scales first"
+     },
+     "text": {
+      "en": "A baby pangolin is born with soft scales that harden soon after birth."
+     },
+     "src": [
+      "zsl"
+     ]
+    },
+    {
+     "title": {
+      "en": "A living hug"
+     },
+     "text": {
+      "en": "If danger comes, the baby rolls into a ball and its mother rolls up around it. She also curls around it while it sleeps."
+     },
+     "src": [
+      "zsl",
+      "savepangolins"
+     ]
+    },
+    {
+     "title": {
+      "en": "Mysteries to solve"
+     },
+     "text": {
+      "en": "Pangolins are shy, solitary and active at night, so scientists still have many questions about how they live."
+     },
+     "src": [
+      "savepangolins"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Tail taxi"
+     },
+     "text": {
+      "en": "The baby pangolin rides on the base of its mother's tail while she looks for ants."
+     },
+     "src": [
+      "savepangolins",
+      "dswf"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Grown up at five months"
+     },
+     "text": {
+      "en": "Young tree pangolins stop drinking milk at about three months and stay with mom until about five months old."
+     },
+     "src": [
+      "animalia-pangolin"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real pangolin moms carry their babies on their tail, just as Nana's tail keeps the beat in the story. But real pangolin grandmothers don't live with their families: grown-ups live alone. Nana's song is our story's idea."
+   },
+   "storyVsRealSrc": [
+    "dswf",
+    "zsl"
+   ]
+  },
+  {
+   "id": "hornbill",
+   "role": "supporting",
+   "colour": "sky",
+   "name": {
+    "en": "The hornbill"
+   },
+   "animal": {
+    "en": "Yellow-casqued hornbill"
+   },
+   "image": "hornbill.jpg",
+   "job": {
+    "en": "The big bird who needs the fig tree"
+   },
+   "superpower": {
+    "en": "Understands monkey alarm calls"
+   },
+   "lineup": {
+    "weight": {
+     "en": "1.75–2.1 kg"
+    },
+    "grams": 1925,
+    "like": {
+     "en": "a big bag of sugar"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Up to about 2 kg, one of the biggest forest birds in West Africa"
+     },
+     "src": [
+      "wiki-ych",
+      "worldspecies-ych"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Not known"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Mostly fruit (about 80%), plus insects"
+     },
+     "src": [
+      "worldspecies-ych"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "High in the rainforest canopy"
+     },
+     "src": [
+      "wiki-ych"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Small family groups: a pair and one or two young"
+     },
+     "src": [
+      "wiki-ych"
+     ]
+    },
+    {
+     "label": {
+      "en": "In the wild"
+     },
+     "value": {
+      "en": "Vulnerable; only about 800 left in Ghana"
+     },
+     "src": [
+      "birdlife-ych"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "A helmet on the beak"
+     },
+     "text": {
+      "en": "The big lump on top of the beak is called a casque. On this hornbill it's pale yellow, on a black beak, with bright blue skin around the eye."
+     },
+     "src": [
+      "birdlife-ych"
+     ]
+    },
+    {
+     "title": {
+      "en": "A party at the ant nest"
+     },
+     "text": {
+      "en": "Families usually stay small, but they sometimes gather in bigger flocks to feast at an ant or termite nest."
+     },
+     "src": [
+      "wiki-ych"
+     ]
+    },
+    {
+     "title": {
+      "en": "Walled-in moms"
+     },
+     "text": {
+      "en": "In most hornbill families, the mother seals herself inside a tree hole with a wall of mud, droppings and fruit pulp. Dad passes food in through a slit."
+     },
+     "src": [
+      "fad-hornbill",
+      "encyc-hornbill"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Monkey spies"
+     },
+     "text": {
+      "en": "Yellow-casqued hornbills listen to Diana monkeys' alarm calls, and can tell the monkeys' \"eagle!\" call from their \"leopard!\" call. That matters: eagles hunt hornbills, but leopards don't."
+     },
+     "src": [
+      "rainey2004"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Mobbing the eagle"
+     },
+     "text": {
+      "en": "When a crowned eagle is near, hornbills fly at it and call loudly. Eagles rely on surprise, so they often give up and leave."
+     },
+     "src": [
+      "wiki-ych",
+      "rainey2004"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Forest gardeners"
+     },
+     "text": {
+      "en": "Hornbills swallow fruit and drop the seeds far away, helping new trees grow."
+     },
+     "src": [
+      "fad-hornbill"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Disappearing from Ghana"
+     },
+     "text": {
+      "en": "Hunting has made these hornbills rare in Ghana. Scientists think only about 800 are left there."
+     },
+     "src": [
+      "birdlife-ych"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real hornbills do love fruit, figs included. But a real yellow-casqued hornbill's beak is black with a pale yellow helmet on top, and the female's beak is smaller and brown."
+   },
+   "storyVsRealSrc": [
+    "birdlife-ych"
+   ]
+  },
+  {
+   "id": "duikers",
+   "role": "supporting",
+   "colour": "mint",
+   "name": {
+    "en": "The little antelopes"
+   },
+   "animal": {
+    "en": "Maxwell's duikers"
+   },
+   "image": "duikers.jpg",
+   "job": {
+    "en": "Hungry little antelopes who follow the beat"
+   },
+   "superpower": {
+    "en": "Sneak silently through thick forest"
+   },
+   "lineup": {
+    "weight": {
+     "en": "5–10 kg"
+    },
+    "grams": 7500,
+    "like": {
+     "en": "a big watermelon"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Height"
+     },
+     "value": {
+      "en": "32–42 cm at the shoulder"
+     },
+     "src": [
+      "plazi-maxwell"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "5–10 kg, about a big watermelon"
+     },
+     "src": [
+      "uu-maxwell",
+      "encyc-duiker"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Up to 10 years in zoos"
+     },
+     "src": [
+      "wiki-maxwell"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Fallen fruit and seeds, plus leaves, flowers and shrubs"
+     },
+     "src": [
+      "plazi-maxwell",
+      "wiki-maxwell"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Thick forest, where they can stay hidden"
+     },
+     "src": [
+      "adw-maxwell"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Couples that share a territory"
+     },
+     "src": [
+      "encyc-duiker"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Fruit pickers"
+     },
+     "text": {
+      "en": "In one study in Ivory Coast, Maxwell's duikers ate the fruit of over 78 kinds of plants. They eat more leaves and flowers when fruit is scarce."
+     },
+     "src": [
+      "plazi-maxwell"
+     ]
+    },
+    {
+     "title": {
+      "en": "Forest paths"
+     },
+     "text": {
+      "en": "They use the same sleeping spots, with clear trails leading to their own toilet areas."
+     },
+     "src": [
+      "uu-maxwell"
+     ]
+    },
+    {
+     "title": {
+      "en": "Common in Kakum"
+     },
+     "text": {
+      "en": "A study in the Kakum forest counted about 9 to 10 Maxwell's duikers per square kilometre."
+     },
+     "src": [
+      "knust-kakum"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Head-rub hello"
+     },
+     "text": {
+      "en": "Duiker couples rub their heads together, spreading a scent from glands below their eyes. It's like wearing the same perfume!"
+     },
+     "src": [
+      "encyc-duiker"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Head-to-head"
+     },
+     "text": {
+      "en": "Male Maxwell's duikers defend their patch by charging and bumping heads with strangers."
+     },
+     "src": [
+      "adw-maxwell"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Big babies"
+     },
+     "text": {
+      "en": "A duiker calf weighs about one tenth of its mother at birth."
+     },
+     "src": [
+      "wiki-maxwell"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Maxwell's duikers are among the most common little antelopes in Kakum's forest, but they are grey or grey-brown, not red like the ones in the book. Several reddish duikers live in Ghana's forests too."
+   },
+   "storyVsRealSrc": [
+    "adw-maxwell",
+    "knust-kakum",
+    "encyc-duiker"
+   ]
+  },
+  {
+   "id": "monkeys",
+   "role": "supporting",
+   "colour": "sun",
+   "name": {
+    "en": "The monkey family"
+   },
+   "animal": {
+    "en": "Lowe's monkeys"
+   },
+   "image": "monkeys.jpg",
+   "job": {
+    "en": "Fig fans in the high branches"
+   },
+   "superpower": {
+    "en": "Cheek pouches for a packed lunch"
+   },
+   "lineup": {
+    "weight": {
+     "en": "males 5.2–5.8 kg"
+    },
+    "grams": 5500,
+    "like": {
+     "en": "a big pumpkin"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "Body 40–52 cm, tail 54–75 cm"
+     },
+     "src": [
+      "plazi-lowe"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Males 5.2–5.8 kg; females usually smaller"
+     },
+     "src": [
+      "plazi-lowe"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "One lived to 30 in a zoo"
+     },
+     "src": [
+      "nepc-lowe"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Fruit (figs included), leaves and lots of insects"
+     },
+     "src": [
+      "plazi-lowe",
+      "bioexplorer-lowe"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Forests of southern Ghana and Ivory Coast, including Kakum"
+     },
+     "src": [
+      "nepc-lowe",
+      "plazi-lowe"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "One male, 4–5 females and their young: about 10 in all"
+     },
+     "src": [
+      "plazi-lowe"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "A lunchbox in the cheeks"
+     },
+     "text": {
+      "en": "Under their white cheek fur, these monkeys have stretchy cheek pouches to stuff with food and eat later somewhere safe."
+     },
+     "src": [
+      "nepc-lowe",
+      "adw-mona"
+     ]
+    },
+    {
+     "title": {
+      "en": "A thirsty trick"
+     },
+     "text": {
+      "en": "Lowe's monkeys drink by dipping their hands into water in tree holes and licking their fur."
+     },
+     "src": [
+      "plazi-lowe"
+     ]
+    },
+    {
+     "title": {
+      "en": "Safety in numbers"
+     },
+     "text": {
+      "en": "They often travel with Diana monkeys. Lowe's monkeys start and end these get-togethers, probably for extra eyes against predators."
+     },
+     "src": [
+      "plazi-lowe"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "The morning boom"
+     },
+     "text": {
+      "en": "At dawn and dusk, the head male climbs high and gives a series of loud booms."
+     },
+     "src": [
+      "bioexplorer-lowe"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Protected by tradition"
+     },
+     "text": {
+      "en": "Lowe's monkeys survive well in sacred forests in Ghana and Ivory Coast, where local traditions protect them."
+     },
+     "src": [
+      "plazi-lowe"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Seed planters"
+     },
+     "text": {
+      "en": "Monkeys that stuff fruit in their cheek pouches carry seeds far away, helping the forest grow."
+     },
+     "src": [
+      "adw-mona"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real Lowe's monkeys do eat figs and live in families. Their coats are a little more colourful than our gentle grey monkeys, with a chestnut crown flecked with yellow."
+   },
+   "storyVsRealSrc": [
+    "plazi-lowe",
+    "bioexplorer-lowe"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "title": {
+    "en": "Ask an elder"
+   },
+   "text": {
+    "en": "Ask a grandparent or older friend for a song, game or story from when they were little. Learn it, then teach it to someone new."
+   }
+  },
+  {
+   "title": {
+    "en": "Make a pangolin"
+   },
+   "text": {
+    "en": "Cut paper scales and glue them on overlapping, like a pinecone. Can your pangolin roll up?"
+   }
+  },
+  {
+   "title": {
+    "en": "Bushbaby leap"
+   },
+   "text": {
+    "en": "Mark 2 metres on the floor. That's how far a tiny galago leaps between branches!"
+   }
+  },
+  {
+   "title": {
+    "en": "Map song"
+   },
+   "text": {
+    "en": "Make up a short song that tells the way from your bed to the kitchen. Can someone follow it with their eyes closed?"
+   }
+  },
+  {
+   "title": {
+    "en": "Find Ghana"
+   },
+   "text": {
+    "en": "Find Ghana on a map, then the Sahara Desert where the Harmattan wind comes from."
+   }
+  }
+ ],
+ "faq": [
+  {
+   "q": {
+    "en": "Are the animals in The Old Path Song real?"
+   },
+   "a": {
+    "en": "Yes. Tree pangolins, dwarf galagos, yellow-casqued hornbills, Maxwell's duikers and Lowe's monkeys all live in Ghana's rainforests. Each hero file tells you what we changed for the story."
+   }
+  },
+  {
+   "q": {
+    "en": "What is a pangolin?"
+   },
+   "a": {
+    "en": "A mammal covered in scales from head to tail. It has no teeth and eats ants and termites with a very long tongue."
+   },
+   "src": [
+    "zsl",
+    "savepangolins"
+   ]
+  },
+  {
+   "q": {
+    "en": "What is the Harmattan?"
+   },
+   "a": {
+    "en": "A dry, dusty wind that blows from the Sahara Desert across West Africa from about late November to mid-March."
+   },
+   "src": [
+    "myjoy"
+   ]
+  },
+  {
+   "q": {
+    "en": "Why are pangolins in danger?"
+   },
+   "a": {
+    "en": "They are hunted and traded illegally more than any other wild mammal, and their forests are shrinking."
+   },
+   "src": [
+    "zsl-species"
+   ]
+  }
+ ],
+ "sources": {
+  "dswf": {
+   "name": "David Shepherd Wildlife Foundation",
+   "title": "Pangolin factsheet",
+   "url": "https://davidshepherd.org/wp-content/uploads/2023/06/DSWF_Pangolin_Factsheet.pdf"
+  },
+  "pangolinsg": {
+   "name": "IUCN SSC Pangolin Specialist Group",
+   "title": "White-bellied pangolin",
+   "url": "https://pangolinsg.org/white-bellied-pangolin/"
+  },
+  "zsl": {
+   "name": "Zoological Society of London (ZSL)",
+   "title": "Pangolins",
+   "url": "https://www.zsl.org/pangolins"
+  },
+  "zsl-species": {
+   "name": "Zoological Society of London (ZSL)",
+   "title": "Species of pangolins",
+   "url": "https://www.zsl.org/species-of-pangolins"
+  },
+  "savepangolins": {
+   "name": "Save Pangolins",
+   "title": "About pangolins",
+   "url": "https://www.savepangolins.org/about-pangolins"
+  },
+  "animalia-pangolin": {
+   "name": "Animalia",
+   "title": "Tree pangolin",
+   "url": "https://animalia.bio/index.php/tree-pangolin"
+  },
+  "africageo": {
+   "name": "Africa Geographic",
+   "title": "Fascinating pangolin facts",
+   "url": "https://africageographic.com/stories/fascinating-pangolin-facts/"
+  },
+  "factanimal-pangolin": {
+   "name": "FactAnimal (citing UCLA, 2023)",
+   "title": "Tree pangolin",
+   "url": "https://factanimal.com/?p=14914"
+  },
+  "adw-galago": {
+   "name": "Animal Diversity Web, University of Michigan",
+   "title": "Galagoides demidoff (Demidoff's bushbaby)",
+   "url": "https://animaldiversity.org/accounts/Galago_demidoff/"
+  },
+  "ucl-galago": {
+   "name": "UCL Grant Museum of Zoology",
+   "title": "Specimen of the week: the galago",
+   "url": "https://blogs.ucl.ac.uk/museums/2016/07/22/specimen-of-the-week-249-the-galago"
+  },
+  "nepc-galago": {
+   "name": "New England Primate Conservancy",
+   "title": "Demidoff's dwarf galago",
+   "url": "https://neprimateconservancy.org/?p=73114"
+  },
+  "gbif-galago": {
+   "name": "GBIF (Handbook of the Mammals of the World)",
+   "title": "Galagoides demidovii",
+   "url": "https://www.gbif.org/species/195955708"
+  },
+  "wiki-ych": {
+   "name": "Wikipedia",
+   "title": "Yellow-casqued hornbill",
+   "url": "https://en.wikipedia.org/wiki/Yellow-casqued_hornbill"
+  },
+  "worldspecies-ych": {
+   "name": "WorldSpecies",
+   "title": "Ceratogymna elata",
+   "url": "https://worldspecies.org/ntaxa/902877"
+  },
+  "birdlife-ych": {
+   "name": "BirdLife International",
+   "title": "Species factsheet: Yellow-casqued Hornbill",
+   "url": "https://datazone.birdlife.org/species/factsheet/yellow-casqued-hornbill-ceratogymna-elata/text"
+  },
+  "rainey2004": {
+   "name": "Wikipedia, citing Rainey, Zuberbühler & Slater, Proc. R. Soc. B (2004)",
+   "title": "Yellow-casqued hornbill: hornbills distinguish primate alarm calls",
+   "url": "https://Www.Wikipedia.org/wiki/Ceratogymna_elata"
+  },
+  "encyc-hornbill": {
+   "name": "Encyclopedia.com",
+   "title": "Hornbills",
+   "url": "https://encyclopedia.com/plants-and-animals/animals/vertebrate-zoology/hornbills"
+  },
+  "fad-hornbill": {
+   "name": "Facts and Details (citing Animal Diversity Web)",
+   "title": "Hornbills: characteristics, behavior, nest-building",
+   "url": "https://factsanddetails.com/asian/cat68/sub435/item2430.html"
+  },
+  "plazi-maxwell": {
+   "name": "Handbook of the Mammals of the World (via Plazi)",
+   "title": "Philantomba maxwelli",
+   "url": "https://publication.plazi.org/GgServer/html/03F5071399C2FF7C06DEF90DF75AFBE1"
+  },
+  "uu-maxwell": {
+   "name": "Ultimate Ungulate",
+   "title": "Maxwell's duiker",
+   "url": "https://ultimateungulate.com/Artiodactyla/Philantomba_maxwellii.html"
+  },
+  "encyc-duiker": {
+   "name": "Encyclopedia.com (Grzimek's)",
+   "title": "Bovids V: Duikers",
+   "url": "https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/bovids-v-duikers-cephalophinae"
+  },
+  "adw-maxwell": {
+   "name": "Animal Diversity Web, University of Michigan",
+   "title": "Philantomba maxwellii",
+   "url": "https://animaldiversity.org/accounts/Philantomba_maxwellii"
+  },
+  "wiki-maxwell": {
+   "name": "Wikipedia",
+   "title": "Maxwell's duiker",
+   "url": "https://en.wikipedia.org/wiki/Maxwell%27s_duiker"
+  },
+  "knust-kakum": {
+   "name": "KNUST (Kwame Nkrumah University of Science and Technology)",
+   "title": "Elephants, bongos and duikers in the Kakum Conservation Area",
+   "url": "https://ir.knust.edu.gh/handle/123456789/1773"
+  },
+  "plazi-lowe": {
+   "name": "Handbook of the Mammals of the World (via Plazi)",
+   "title": "Cercopithecus lowei (Lowe's monkey)",
+   "url": "https://tb.plazi.org/GgServer/html/CE199B17FFF6FFFCFAEC60A1FBAAFB81"
+  },
+  "nepc-lowe": {
+   "name": "New England Primate Conservancy",
+   "title": "Lowe's monkey",
+   "url": "https://neprimateconservancy.org/?p=97252"
+  },
+  "adw-mona": {
+   "name": "Animal Diversity Web, University of Michigan",
+   "title": "Cercopithecus mona",
+   "url": "https://animaldiversity.org/accounts/Cercopithecus_mona"
+  },
+  "bioexplorer-lowe": {
+   "name": "Bio Explorer",
+   "title": "Lowe's mona monkey",
+   "url": "https://bioexplorer.net/animals/mammals/monkeys/lowes-mona-monkey"
+  },
+  "wiafe-lowe": {
+   "name": "Wiafe, Journal of Threatened Taxa (2016)",
+   "title": "Lowe's Monkey in Kakum Conservation Area",
+   "url": "https://threatenedtaxa.org/index.php/JoTT/article/download/2193/3544/7328"
+  },
+  "wiki-kakum": {
+   "name": "Wikipedia",
+   "title": "Kakum National Park",
+   "url": "https://Www.Wikipedia.org/wiki/Kakum_National_Park"
+  },
+  "wikiwand-kakum": {
+   "name": "Wikiwand (Wikipedia)",
+   "title": "Kakum National Park: canopy walkway",
+   "url": "https://wikiwand.com/EN/Kakum_National_Park"
+  },
+  "rainbow": {
+   "name": "Rainbow Tours",
+   "title": "Kakum National Park",
+   "url": "https://www.rainbowtours.co.uk/ghana/kakum-national-park"
+  },
+  "pressreader-kakum": {
+   "name": "ChinAfrica (via PressReader)",
+   "title": "Kakum National Park",
+   "url": "https://www.pressreader.com/china/chinafrica/20240305/282222310719022"
+  },
+  "gavi": {
+   "name": "Gavi (The Conversation)",
+   "title": "West Africa's hazardous winds: Harmattan carries more than dust",
+   "url": "https://www.gavi.org/vaccineswork/west-africas-hazardous-winds-harmattan-carries-more-dust-it-also-spreads-disease"
+  },
+  "myjoy": {
+   "name": "MyJoyOnline (Ghana Meteorological Agency)",
+   "title": "This year's harmattan will be intense",
+   "url": "https://www.myjoyonline.com/this-years-harmattan-will-be-intense-meteorological-agency/"
+  },
+  "easytrack": {
+   "name": "Easy Track Ghana",
+   "title": "Climate in Ghana",
+   "url": "https://www.easytrackghana.com/travel-information-ghana-climate-calendar.php"
+  },
+  "gautier1989": {
+   "name": "Gautier-Hion & Michaloud, Ecology (1989)",
+   "title": "Are figs always keystone resources for tropical frugivorous vertebrates? A test in Gabon",
+   "url": "https://hal-univ-rennes1.archives-ouvertes.fr/hal-01369757"
+  },
+  "tweheyo": {
+   "name": "Tweheyo & Lye, African Journal of Ecology (2007)",
+   "title": "Phenology of chimpanzee food trees in Budongo Forest, Uganda",
+   "url": "https://nru.uncst.go.ug/bitstreams/49aaed68-b99f-4790-8f6d-9e10945e1580/download"
+  },
+  "kinnaird": {
+   "name": "Kinnaird & O'Brien, in Tropical Fruits and Frugivores (Springer, 2005)",
+   "title": "Fast foods of the forest: the influence of figs on primates and hornbills",
+   "url": "https://springerlink.bibliotecabuap.elogim.com/content/pdf/10.1007/1-4020-3833-X_9.pdf"
+  }
+ }
+}

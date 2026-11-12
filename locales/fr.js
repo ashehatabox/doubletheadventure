@@ -562,8 +562,8 @@ module.exports = {
     authorsTitle: 'Les auteurs',
     authors: 'Amr Mohamed et Abdallah Shehata',
     people: [
-      { name: 'Amr Mohamed', avatar: 'author-parrot', alt: 'Portrait d\'Amr Mohamed en aquarelle, style dessin animé', text: 'Père de Yousef, et celui qui a posé la première question. Il garde chaque livre proche de la vraie vie de famille.' },
-      { name: 'Abdallah Shehata', avatar: 'author-glasses', alt: 'Portrait d\'Abdallah Shehata en aquarelle, style dessin animé', text: 'Conteur. Il transforme chaque valeur en un héros, un problème à résoudre et un refrain que les enfants adorent répéter.' }
+      { name: 'Amr Mohamed', avatar: 'author-glasses', alt: 'Portrait d\'Amr Mohamed en aquarelle, style dessin animé', text: 'Père de Yousef, et celui qui a posé la première question. Il garde chaque livre proche de la vraie vie de famille.' },
+      { name: 'Abdallah Shehata', avatar: 'author-parrot', alt: 'Portrait d\'Abdallah Shehata en aquarelle, style dessin animé', text: 'Conteur. Il transforme chaque valeur en un héros, un problème à résoudre et un refrain que les enfants adorent répéter.' }
     ],
     shareTitle: 'Partagez une valeur avec nous',
     shareLead: 'Y a-t-il une valeur que vous aimeriez voir comprise par votre enfant, ou par tous les enfants ? Dites-le-nous. Votre souhait pourrait devenir le prochain livre.',

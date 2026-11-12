@@ -17,28 +17,37 @@
     <div><%- include('../partials/cover', { b: b, eager: true }) %></div>
     <div class="stack">
       <p class="eyebrow"><%= t('common.value') %>: <%= b.valueText %><%= b.cultureText ? ' · ' + b.cultureText : '' %></p>
-      <h1 class="h1" style="font-size:clamp(34px,4.6vw,56px)" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></h1>
-      <% if (pick(b.subtitle)) { %><p class="lead" style="font-weight:700" <%- isFallback(b.subtitle) ? 'lang="en"' : '' %>><%= pick(b.subtitle) %></p><% } %>
+      <div class="stack-sm">
+        <h1 class="h1 book-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></h1>
+        <% if (pick(b.subtitle)) { %><p class="book-subtitle" <%- isFallback(b.subtitle) ? 'lang="en"' : '' %>><%= pick(b.subtitle) %></p><% } %>
+      </div>
+      <ul class="glance" aria-label="<%= t('book.aboutTitle') %>">
+        <li><%= t('book.ageLabel') %> <%= site.ages %></li>
+        <% if (b.languages.length > 1) { %><li><%= t('book.languagesCount').replace('{n}', b.languages.length) %></li><% } %>
+        <% if (pick(b.hero)) { %><li <%- isFallback(b.hero) ? 'lang="en"' : '' %>><%= pick(b.hero) %></li><% } %>
+      </ul>
       <% if (pick(b.blurb)) { %><p class="lead" <%- isFallback(b.blurb) ? 'lang="en"' : '' %>><%= pick(b.blurb) %></p><% } %>
       <% if (pick(b.themeLine)) { %><p class="quote" <%- isFallback(b.themeLine) ? 'lang="en"' : '' %>>“<%= pick(b.themeLine) %>”</p><% } %>
 
       <% if (b.status === 'live') { %>
-      <div class="chips">
-        <span class="chip" style="background:#fff"><%= t('common.paperback') %> <%= site.prices.paperback %></span>
-        <span class="chip" style="background:#fff"><%= t('common.kindle') %> <%= site.prices.kindle %></span>
+      <div class="buy-box stack-sm">
+        <div class="chips">
+          <span class="chip" style="background:#fff"><%= t('common.paperback') %> <%= site.prices.paperback %></span>
+          <span class="chip" style="background:#fff"><%= t('common.kindle') %> <%= site.prices.kindle %></span>
+        </div>
+        <div class="row">
+          <a class="btn btn-primary" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyAmazon') %></a>
+          <a class="btn btn-ghost" href="<%= url('/shop') %>"><%= t('common.giftSet') %></a>
+          <% if (readHref) { %><a class="btn btn-ghost" href="<%= readHref %>"><%= readOpen ? t('reader.open') : t('reader.peek') %></a><% } %>
+        </div>
+        <details class="stores">
+          <summary><%= t('common.otherStores') %></summary>
+          <ul><% b.amazonStores.forEach(function (s) { %><li><a class="chip" href="<%= s.href %>" rel="noopener"><%= s.label %></a></li><% }) %></ul>
+        </details>
       </div>
-      <div class="row">
-        <a class="btn btn-primary" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyAmazon') %></a>
-        <a class="btn btn-ghost" href="<%= url('/shop') %>"><%= t('common.giftSet') %></a>
-      </div>
-      <% if (readHref) { %><a class="btn btn-ghost" style="align-self:flex-start" href="<%= readHref %>"><%= readOpen ? t('reader.open') : t('reader.peek') %></a><% } %>
-      <details class="stores">
-        <summary><%= t('common.otherStores') %></summary>
-        <ul><% b.amazonStores.forEach(function (s) { %><li><a class="chip" href="<%= s.href %>" rel="noopener"><%= s.label %></a></li><% }) %></ul>
-      </details>
       <% } else { %>
-      <div id="notify" class="card card-pad stack-sm" style="background:#FFF1C2;border-color:#FFD966">
-        <p style="margin:0;font-weight:700"><%= b.status === 'soon' ? t('book.soonNote') : t('book.comingNote') %></p>
+      <div id="notify" class="notify-box stack-sm">
+        <p class="notify-note"><%= b.status === 'soon' ? t('book.soonNote') : t('book.comingNote') %></p>
         <%- include('../partials/signup', { formId: 'notify-form', list: 'waitlist', book: b.slug, source: 'book-waitlist', button: t('common.notifyMe') }) %>
       </div>
       <% } %>
@@ -47,29 +56,53 @@
 </section>
 
 <section class="section tight" style="padding-top:0">
-  <div class="wrap facts">
-    <div class="fact"><div class="fact-label"><%= t('book.valueLabel') %></div><div class="fact-value"><% if (b.status !== 'coming') { %><a href="<%= url('/values/' + b.value) %>"><%= b.valueText %></a><% } else { %><%= b.valueText %><% } %></div></div>
-    <% if (b.cultureText) { %><div class="fact"><div class="fact-label"><%= t('book.cultureLabel') %></div><div class="fact-value"><%= b.cultureText %></div><% if (pick(b.cultureIdea)) { %><div class="muted" style="margin-top:4px" <%- isFallback(b.cultureIdea) ? 'lang="en"' : '' %>><%= pick(b.cultureIdea) %></div><% } %></div><% } %>
-    <% if (pick(b.hero)) { %><div class="fact"><div class="fact-label"><%= t('book.heroLabel') %></div><div class="fact-value" <%- isFallback(b.hero) ? 'lang="en"' : '' %>><%= pick(b.hero) %></div></div><% } %>
-    <% if (pick(b.refrain)) { %><div class="fact"><div class="fact-label"><%= t('book.refrainLabel') %></div><div class="fact-value" <%- isFallback(b.refrain) ? 'lang="en"' : '' %>><%= pick(b.refrain) %></div></div><% } %>
-    <div class="fact"><div class="fact-label"><%= t('book.languagesLabel') %></div><div class="fact-value"><%= b.languages.map(langName).join(', ') %></div></div>
-    <div class="fact"><div class="fact-label"><%= t('book.ageLabel') %></div><div class="fact-value"><%= site.ages %></div></div>
+  <div class="wrap">
+    <div class="about-book card">
+      <h2 class="h3"><%= t('book.aboutTitle') %></h2>
+      <dl>
+        <div><dt><%= t('book.valueLabel') %></dt><dd><% if (b.status !== 'coming') { %><a href="<%= url('/values/' + b.value) %>"><%= b.valueText %></a><% } else { %><%= b.valueText %><% } %></dd></div>
+        <% if (b.cultureText) { %><div><dt><%= t('book.cultureLabel') %></dt><dd><%= b.cultureText %><% if (pick(b.cultureIdea)) { %><span class="muted" <%- isFallback(b.cultureIdea) ? 'lang="en"' : '' %>><%= pick(b.cultureIdea) %></span><% } %></dd></div><% } %>
+        <% if (pick(b.refrain)) { %><div><dt><%= t('book.refrainLabel') %></dt><dd <%- isFallback(b.refrain) ? 'lang="en"' : '' %>>“<%= pick(b.refrain) %>”</dd></div><% } %>
+        <div><dt><%= t('book.languagesLabel') %></dt><dd><%= b.languages.map(langName).join(', ') %></dd></div>
+      </dl>
+    </div>
   </div>
 </section>
 
-<% if (b.status !== 'coming') { %>
+<%
+  const todo = [];
+  if (b.status !== 'coming') {
+    if (bookPlay.heroes) todo.push({ href: url('/heroes/' + b.slug), title: t('book.meetAnimals'), text: t('book.animalsText'), tone: 'mint' });
+    if (readAloud.length) todo.push({ href: '#read-aloud', title: t('readaloud.bookTitle'), text: t('book.readAloudText'), tone: 'rose' });
+    if (bookPlay.color) todo.push({ href: url('/play/color/' + b.slug), title: t('book.playColor'), text: t('book.colorText'), tone: 'sun' });
+    if (bookPlay.jigsaw) todo.push({ href: url('/play/jigsaw/' + b.slug), title: t('book.playJigsaw'), text: t('book.jigsawText'), tone: 'sky' });
+    if (bookPlay.memory) todo.push({ href: url('/play/memory'), title: t('book.playMemory'), text: t('book.memoryText'), tone: 'rose' });
+    if (bookPlay.map) todo.push({ href: url('/values-map'), title: t('book.seeOnMap'), text: t('book.mapText'), tone: 'mint' });
+    todo.push({ href: url('/parents'), title: t('book.homeTitle'), text: t('book.homeText'), tone: 'white' });
+    todo.push({ href: url('/educators'), title: t('book.classTitle'), text: t('book.classText'), tone: 'white' });
+    todo.push({ href: url('/shop'), title: t('book.giftTitle'), text: t('book.giftText'), tone: 'white' });
+  }
+%>
+<% if (todo.length) { %>
 <section class="section tight" style="padding-top:0">
-  <div class="wrap grid-cards" style="grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:24px">
-    <div class="signup-box stack-sm" style="padding:32px">
-      <h2 class="h3"><%= t('book.freeTitle') %></h2>
-      <p style="margin:0"><%= t('book.freeText') %></p>
-      <%- include('../partials/signup', { formId: 'book-free-page', book: b.slug, source: 'book-free-page', label: t('home.freeLabel'), button: t('home.freeButton') }) %>
+  <div class="wrap stack">
+    <h2 class="h2 book-h2"><%= t('book.doTitle') %></h2>
+    <div class="todo-grid">
+      <% todo.forEach(function (x) { %><a class="todo todo-<%= x.tone %>" href="<%= x.href %>"><span class="todo-title"><%= x.title %></span><span class="todo-text"><%= x.text %></span></a><% }) %>
     </div>
-    <div class="card card-pad stack-sm">
-      <h2 class="h3"><%= t('book.directTitle') %></h2>
-      <p class="muted" style="margin:0"><%= t('book.directText') %></p>
-      <a href="<%= url('/parents') %>" style="font-weight:800"><%= t('book.parentsLink') %></a>
-      <a href="<%= url('/educators') %>" style="font-weight:800"><%= t('book.teachersLink') %></a>
+  </div>
+</section>
+<% } %>
+
+<% if (b.status === 'live') { %>
+<section class="section tight" style="padding-top:0">
+  <div class="wrap">
+    <div class="signup-box stack-sm free-band">
+      <div class="stack-sm">
+        <h2 class="h3"><%= t('book.freeTitle') %></h2>
+        <p style="margin:0"><%= t('book.freeText') %></p>
+      </div>
+      <%- include('../partials/signup', { formId: 'book-free-page', book: b.slug, source: 'book-free-page', label: t('home.freeLabel'), button: t('home.freeButton') }) %>
     </div>
   </div>
 </section>
@@ -78,29 +111,17 @@
 <% if (readAloud.length) { %>
 <section class="section tight" id="read-aloud" style="padding-top:0">
   <div class="wrap stack-sm" style="max-width:900px">
-    <h2 class="h2" style="font-size:32px"><%= t('readaloud.bookTitle') %></h2>
+    <h2 class="h2 book-h2"><%= t('readaloud.bookTitle') %></h2>
     <%- include('../partials/readaloud', { b: b, videos: readAloud }) %>
   </div>
 </section>
 <% } %>
 
-<% if (bookPlay.color || bookPlay.jigsaw || bookArticles.length || bookPlay.map || bookPlay.heroes) { %>
+<% if (bookArticles.length) { %>
 <section class="section tight" style="padding-top:0">
   <div class="wrap stack">
-    <% if (bookPlay.heroes) { %><a class="btn btn-primary" style="align-self:flex-start" href="<%= url('/heroes/' + b.slug) %>"><%= t('book.meetAnimals') %></a><% } %>
-    <% if (bookPlay.color || bookPlay.jigsaw) { %>
-    <h2 class="h2" style="font-size:32px"><%= t('book.playTitle') %></h2>
-    <div class="row">
-      <% if (bookPlay.color) { %><a class="btn btn-ghost" href="<%= url('/play/color/' + b.slug) %>"><%= t('book.playColor') %></a><% } %>
-      <% if (bookPlay.jigsaw) { %><a class="btn btn-ghost" href="<%= url('/play/jigsaw/' + b.slug) %>"><%= t('book.playJigsaw') %></a><% } %>
-      <% if (bookPlay.memory) { %><a class="btn btn-ghost" href="<%= url('/play/memory') %>"><%= t('book.playMemory') %></a><% } %>
-      <% if (bookPlay.map) { %><a class="btn btn-ghost" href="<%= url('/values-map') %>"><%= t('book.seeOnMap') %></a><% } %>
-    </div>
-    <% } %>
-    <% if (bookArticles.length) { %>
-    <h2 class="h2" style="font-size:32px"><%= t('book.articlesTitle') %></h2>
+    <h2 class="h2 book-h2"><%= t('book.articlesTitle') %></h2>
     <div class="acards"><% bookArticles.forEach(function (a) { %><%- include('../partials/article-card', { a: a }) %><% }) %></div>
-    <% } %>
   </div>
 </section>
 <% } %>
@@ -108,7 +129,7 @@
 <% if (related.length) { %>
 <section class="section tight" style="padding-top:0">
   <div class="wrap stack">
-    <h2 class="h2" style="font-size:32px"><%= t('book.moreTitle') %></h2>
+    <h2 class="h2 book-h2"><%= t('book.moreTitle') %></h2>
     <div class="grid-books"><% related.forEach(function (r) { %><%- include('../partials/book-card', { b: r }) %><% }) %></div>
   </div>
 </section>

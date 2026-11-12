@@ -300,6 +300,7 @@ module.exports = {
     quoteButton: 'Demander une soumission'
   },
   reader: {
+    haveCode: 'Vous avez un code ?',
     peek: 'Feuilleter le livre',
     title: 'Lire le livre',
     open: 'Lire le livre',

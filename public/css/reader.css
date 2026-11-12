@@ -112,3 +112,7 @@ body.reader-mode { margin: 0; background: radial-gradient(120% 90% at 50% 40%, v
   .rd-btn, .rd-cta { transition: none; }
   .rd-toast { animation: none; }
 }
+.rd-have-code { width: min(100%, 340px); }
+.rd-have-code summary { cursor: pointer; color: var(--teal-dark); font-weight: 700; min-height: 44px; display: flex; align-items: center; justify-content: center; }
+.rd-have-code summary:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+.rd-have-code .rd-code { margin-top: 6px; }

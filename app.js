@@ -172,7 +172,7 @@ function readerPreview(slug, lang) {
   const l = m.langs.includes(lang) ? lang : (m.langs.includes('en') ? 'en' : m.langs[0]);
   const spread = m.spreads.find((s, i) => i > 0 && i < reader.settings.sampleSpreads && s.length === 2 && s[0] !== 'p01') || m.spreads[1];
   if (!spread) return null;
-  return { pages: spread.map((p) => `/reader/${slug}/${l}/${p}.webp`), totalPages: m.spreads.reduce((n, s) => n + s.filter((p) => p !== 'cover').length, 0) };
+  return { pages: spread.map((p) => (p === 'blank' ? '/images/blank-page.png' : `/reader/${slug}/${l}/${p}.webp`)), totalPages: m.spreads.reduce((n, s) => n + s.filter((p) => p !== 'cover' && p !== 'blank').length, 0) };
 }
 // Book page: a short look at the hero guide (portraits, one fact), or null.
 function heroTeaser(slug, h) {
@@ -403,10 +403,10 @@ router.post('/books/:slug/read/code', (req, res, next) => {
   const b = catalog.get(req.params.slug);
   if (!b || !reader.has(b.slug)) return next();
   const back = req.h.url('/books/' + b.slug + '/read');
-  if (!reader.isOpen(b.slug)) return res.redirect(303, back);
   if (reader.tooMany(req.ip)) return res.redirect(303, back + '?code=wait#gate');
   const r = reader.redeem((req.body || {}).code);
-  if (!r || (r.slug && r.slug !== b.slug && !r.all)) return res.redirect(303, back + '?code=bad#gate');
+  // While a book is in KDP Select (sample mode) only demo codes open it.
+  if (!r || (!r.demo && !reader.isOpen(b.slug)) || (r.slug && r.slug !== b.slug && !r.all)) return res.redirect(303, back + '?code=bad#gate');
   reader.writeCookie(req, res, r);
   res.redirect(303, back + '?code=ok');
 });

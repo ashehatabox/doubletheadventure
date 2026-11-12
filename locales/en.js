@@ -300,6 +300,7 @@ module.exports = {
     quoteButton: 'Ask for a homeschool quote'
   },
   reader: {
+    haveCode: 'Have a book code?',
     peek: 'Look inside the book',
     title: 'Read the book',
     open: 'Read the book',

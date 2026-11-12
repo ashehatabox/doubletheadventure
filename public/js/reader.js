@@ -24,6 +24,7 @@
   var items = []; // every open page, in order
   cfg.spreads.forEach(function (sp, s) {
     sp.pages.forEach(function (p, pos) {
+      if (p.blank) { items.push({ kind: 'img', src: p.src, text: '', spread: s, pos: pos, of: sp.pages.length, no: 0, blank: true, key: 'blank-' + s + '-' + pos }); return; }
       pageNo += 1;
       items.push({ kind: 'img', src: p.src, text: p.text, spread: s, pos: pos, of: sp.pages.length, no: pageNo, key: p.src });
     });
@@ -40,7 +41,7 @@
     return v;
   }
   function singleViews() {
-    return items.map(function (it) { return { page: it }; }).concat([{ page: GATE }]);
+    return items.filter(function (it) { return !it.blank; }).map(function (it) { return { page: it }; }).concat([{ page: GATE }]);
   }
 
   function content(item, live) {
@@ -128,13 +129,13 @@
     book.classList.toggle('is-cover-view', keysOf(v).indexOf(items[0] && items[0].key) >= 0 && (mode === 'single' || !v.left));
     status();
     preload();
-    var seen = (mode === 'spread' ? [v.left, v.right] : [v.page]).filter(function (p) { return p && p.kind === 'img'; });
+    var seen = (mode === 'spread' ? [v.left, v.right] : [v.page]).filter(function (p) { return p && p.kind === 'img' && !p.blank; });
     if (seen.length) session(KEY, seen[0].key);
   }
 
   function status() {
     var v = views[idx];
-    var pages = (mode === 'spread' ? [v.left, v.right] : [v.page]).filter(function (p) { return p && p.kind === 'img'; });
+    var pages = (mode === 'spread' ? [v.left, v.right] : [v.page]).filter(function (p) { return p && p.kind === 'img' && !p.blank; });
     countEl.textContent = pages.length ? T.pageOf.replace('{n}', pages[pages.length - 1].no).replace('{t}', cfg.totalPages) : '';
     prevBtn.disabled = idx === 0;
     nextBtn.disabled = idx >= views.length - 1;

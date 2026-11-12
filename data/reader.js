@@ -37,6 +37,10 @@ module.exports = {
     'the-old-path-song': 'PATH', 'the-circle-of-paws': 'PAWS', 'the-beetle-who-knew-the-stars': 'BEETLE',
     'knot-by-knot': 'KNOT', 'tumble-and-the-honey-glow': 'HONEY'
   },
+  // Demo codes (any case): open EVERY book in full on that device, even in sample mode / during KDP Select.
+  // For private presentations only. Anyone who has the code can read the full books, so change or remove it
+  // after a demo while books are still in KDP Select.
+  demoCodes: ['A2NOW'],
   // Codes to switch off (lost or shared too widely), e.g. 'SNUG-0042-K7QX3M'.
   revoked: []
 };

@@ -40,16 +40,20 @@ const post = (port, path, form, cookie) => get(port, path, { method: 'POST', bod
     delete process.env.READER_OPEN;
     let r = await get(port, `/books/${SLUG}/read`);
     assert.strictEqual(r.status, 200, 'reader page');
-    assert.ok(!r.body.includes('rd-code-in'), 'no code box while in KDP Select');
+    assert.ok(!r.body.includes('/read/buy'), 'no pay button while in KDP Select');
     assert.strictEqual((await get(port, file(reader.settings.sampleSpreads - 1))).status, 200, 'last sample page opens');
     assert.strictEqual((await get(port, file(reader.settings.sampleSpreads))).status, 403, 'page after the sample is locked');
     r = await post(port, `/books/${SLUG}/read/code`, { code: reader.makeCode(reader.prefixFor(SLUG), '0001') });
-    assert.ok(!String(r.headers['set-cookie'] || '').includes('a2read='), 'codes do nothing in sample mode');
+    assert.ok(!String(r.headers['set-cookie'] || '').includes('a2read='), 'book codes do nothing in sample mode');
+    r = await post(port, `/books/${SLUG}/read/code`, { code: 'a2now' });
+    const demo = String(r.headers['set-cookie']).split(';')[0];
+    assert.ok(/code=ok/.test(r.headers.location), 'demo code accepted in sample mode');
+    assert.strictEqual((await get(port, `/reader/${SLUG}/${L}/${pageOf(m.spreads.length - 1)}.webp`, { headers: { Cookie: demo } })).status, 200, 'demo code opens the whole book');
 
     // 2. Open mode: free spreads, then the gate.
     process.env.READER_OPEN = '1';
     r = await get(port, `/books/${SLUG}/read`);
-    assert.ok(r.body.includes('rd-code-in'), 'code box when open');
+    assert.ok(r.body.includes('rd-code-in') && !r.body.includes('rd-have-code'), 'full code box when open');
     assert.strictEqual((await get(port, file(reader.settings.freeSpreads - 1))).status, 200, 'last free page');
     assert.strictEqual((await get(port, file(reader.settings.freeSpreads))).status, 403, 'first paid page locked');
 
@@ -82,7 +86,7 @@ const post = (port, path, form, cookie) => get(port, path, { method: 'POST', bod
     const inSelect = Object.keys(reader.settings.selectEnds || {}).find((s) => reader.has(s) && new Date().toISOString().slice(0, 10) <= reader.settings.selectEnds[s]);
     if (inSelect) {
       r = await get(port, `/books/${inSelect}/read`);
-      assert.ok(!r.body.includes('rd-code-in'), 'book still in its Select term has no code box');
+      assert.ok(!r.body.includes('/read/buy'), 'book still in its Select term has no pay button');
     }
     console.log(`reader: all checks passed (${SLUG})`);
   } catch (err) {

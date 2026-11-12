@@ -65,8 +65,16 @@
         <p><%= t('reader.sampleText') %></p>
         <div class="rd-gate-actions">
           <a class="rd-cta" href="<%= config.amazon %>" rel="noopener"><%= t('reader.amazon') %></a>
-          <a class="rd-cta rd-cta-ghost" href="<%= book.href %>"><%= t('reader.back') %></a>
         </div>
+        <details class="rd-have-code"<%- codeState ? ' open' : '' %>>
+          <summary><%= t('reader.haveCode') %></summary>
+          <form class="rd-code" method="post" action="<%= url('/books/' + book.slug + '/read/code') %>">
+            <label for="rd-code-in"><%= t('reader.codeLabel') %></label>
+            <input id="rd-code-in" name="code" autocomplete="off" autocapitalize="characters" spellcheck="false" required maxlength="40" aria-describedby="rd-code-help">
+            <p id="rd-code-help" class="rd-small<%= codeState === 'bad' || codeState === 'wait' ? ' rd-error' : '' %>"><%= codeState === 'bad' ? t('reader.codeBad') : codeState === 'wait' ? t('reader.codeWait') : t('reader.codeHelp') %></p>
+            <button class="rd-cta" type="submit"><%= t('reader.codeButton') %></button>
+          </form>
+        </details>
       <% } else { %>
         <h2 id="gate-title"><%= t('reader.gateTitle') %></h2>
         <p><%= t('reader.gateText') %></p>

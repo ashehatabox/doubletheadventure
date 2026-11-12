@@ -1,0 +1,1294 @@
+{
+ "book": "pip-the-brave-parrot",
+ "draft": true,
+ "updated": "2026-11-12",
+ "review": {
+  "factsChecked": "2026-11-12",
+  "culturalReader": true
+ },
+ "title": {
+  "en": "Heroes of the Rainforest Song"
+ },
+ "seoTitle": {
+  "en": "Heroes of the Rainforest Song: the real animals behind Pip the Brave Parrot"
+ },
+ "description": {
+  "en": "A golden parrot with a very loud voice, a toucan with an air-conditioned beak, a sloth with a garden in its fur and macaws that eat clay. Real facts for kids."
+ },
+ "intro": {
+  "en": "Every animal in Pip the Brave Parrot is real, and they live in the rainforests of South America. Here is how they really live and sound."
+ },
+ "place": {
+  "name": {
+   "en": "Guyana, South America"
+  },
+  "image": "place.jpg",
+  "intro": {
+   "en": "Pip's jungle has no name, so we picked Guyana. The best place left to see wild sun conures like Pip is near the village of Karasabai. Guyana is also home to the giant Kaieteur Falls."
+  },
+  "introSrc": [
+   "lafeber",
+   "wiki-kaieteur"
+  ],
+  "facts": [
+   {
+    "kind": "wow",
+    "title": {
+     "en": "A giant waterfall"
+    },
+    "text": {
+     "en": "Kaieteur Falls drops 226 m in one single plunge."
+    },
+    "src": [
+     "wiki-kaieteur",
+     "np-kaieteur"
+    ]
+   },
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Four Niagaras tall"
+    },
+    "text": {
+     "en": "Kaieteur is about four times higher than Niagara Falls."
+    },
+    "src": [
+     "wiki-kaieteur3"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "Old man fall"
+    },
+    "text": {
+     "en": "The name Kaieteur is said to mean 'old-man-fall'."
+    },
+    "src": [
+     "wiki-kaieteur2"
+    ]
+   },
+   {
+    "kind": "ha",
+    "title": {
+     "en": "Fly in only"
+    },
+    "text": {
+     "en": "There are no roads to the falls. People get there by small plane."
+    },
+    "src": [
+     "geo-kaieteur"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "A very old park"
+    },
+    "text": {
+     "en": "Kaieteur National Park was set up in 1929, one of the first in South America."
+    },
+    "src": [
+     "geo-kaieteur"
+    ]
+   }
+  ],
+  "map": {
+   "lat": 4.03,
+   "lon": -59.53,
+   "zoom": 9,
+   "region": [
+    -66,
+    0,
+    -55,
+    10
+   ],
+   "highlight": [
+    328
+   ],
+   "label": {
+    "en": "Karasabai, Guyana"
+   },
+   "text": {
+    "en": "A village on the Ireng River in southern Guyana, near the border with Brazil, where wild sun conures still live."
+   },
+   "src": [
+    "wpt",
+    "northern"
+   ],
+   "areaNote": {
+    "en": "Yellow: Guyana."
+   },
+   "pin": [
+    58.82,
+    59.87
+   ],
+   "aspect": 1.0944
+  }
+ },
+ "cast": [
+  {
+   "id": "pip",
+   "role": "hero",
+   "colour": "sun",
+   "name": {
+    "en": "Pip"
+   },
+   "animal": {
+    "en": "Sun conure"
+   },
+   "image": "pip.jpg",
+   "job": {
+    "en": "The little parrot who finds his voice to call for help"
+   },
+   "superpower": {
+    "en": "A call you can hear from far away"
+   },
+   "lineup": {
+    "weight": {
+     "en": "120–130 g"
+    },
+    "grams": 125,
+    "like": {
+     "en": "an apple"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "About 30 cm, tail included"
+     },
+     "src": [
+      "wpt"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "120–130 g"
+     },
+     "src": [
+      "wpt"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Not known for sure in the wild"
+     },
+     "src": [
+      "chewy"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Seeds, nuts and fruit"
+     },
+     "src": [
+      "seaworld"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Forest and palm groves in northern Brazil and Guyana"
+     },
+     "src": [
+      "northern",
+      "seaworld"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Lays 3–4 eggs; chicks fly at 7–8 weeks"
+     },
+     "src": [
+      "wpt"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Golden feathers"
+     },
+     "text": {
+      "en": "Sun conures are golden with green wing tips. Young ones look more olive green."
+     },
+     "src": [
+      "seaworld"
+     ]
+    },
+    {
+     "title": {
+      "en": "Very loud!"
+     },
+     "text": {
+      "en": "Wild sun conures call back and forth to their neighbours, and can be heard a long way off."
+     },
+     "src": [
+      "pango"
+     ]
+    },
+    {
+     "title": {
+      "en": "Flock chatter"
+     },
+     "text": {
+      "en": "They call most at dawn and dusk, when the flock gathers."
+     },
+     "src": [
+      "pethelper"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Endangered"
+     },
+     "text": {
+      "en": "Only about 1,000–2,500 grown-up sun conures are left in the wild."
+     },
+     "src": [
+      "wpt"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "One village"
+     },
+     "text": {
+      "en": "The best place to see wild sun conures is near the village of Karasabai in Guyana."
+     },
+     "src": [
+      "lafeber"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Taken for pets"
+     },
+     "text": {
+      "en": "Many were caught for the pet trade, which is why they nearly vanished from Guyana."
+     },
+     "src": [
+      "wpt"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Sun in its name"
+     },
+     "text": {
+      "en": "Its scientific name, solstitialis, means 'of the sun'."
+     },
+     "src": [
+      "seaworld"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real sun conures are anything but quiet! Their calls are famously loud. Pip's soft voice and his green scarf are story ideas."
+   },
+   "storyVsRealSrc": [
+    "pango"
+   ]
+  },
+  {
+   "id": "tanagers",
+   "role": "friend",
+   "colour": "sky",
+   "name": {
+    "en": "The baby bird and its mother"
+   },
+   "animal": {
+    "en": "Blue-gray tanagers (our pick)"
+   },
+   "image": "tanager.jpg",
+   "job": {
+    "en": "The baby who falls from the nest, and the mother who comes"
+   },
+   "superpower": {
+    "en": "Babies leave the nest at 17 days old"
+   },
+   "lineup": {
+    "weight": {
+     "en": "30–40 g"
+    },
+    "grams": 35,
+    "like": {
+     "en": "seven sugar cubes"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "16–18 cm"
+     },
+     "src": [
+      "pbai-tanager"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "30–40 g"
+     },
+     "src": [
+      "pbai-tanager"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Up to about 12 years"
+     },
+     "src": [
+      "az-tanager"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Mostly fruit, plus nectar and insects"
+     },
+     "src": [
+      "animalia-tanager"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Open woods, farms and gardens, from Mexico to the Amazon"
+     },
+     "src": [
+      "wiki-tanager",
+      "animalia-tanager"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Cup nest in a tree; 1–3 eggs"
+     },
+     "src": [
+      "wni-tanager"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Quick to grow"
+     },
+     "text": {
+      "en": "Eggs hatch after 14 days, and the young leave the nest just 17 days later."
+     },
+     "src": [
+      "wni-tanager"
+     ]
+    },
+    {
+     "title": {
+      "en": "Squeaky song"
+     },
+     "text": {
+      "en": "Its song is a squeaky twitter with little 'tseee' notes."
+     },
+     "src": [
+      "pbai-tanager"
+     ]
+    },
+    {
+     "title": {
+      "en": "Fruit fan"
+     },
+     "text": {
+      "en": "It mostly eats soft fruit at the tops of trees."
+     },
+     "src": [
+      "az-tanager"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Blue jean"
+     },
+     "text": {
+      "en": "In Trinidad and Tobago this bird is nicknamed 'blue jean'."
+     },
+     "src": [
+      "wikiwand-tanager"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "The bishop bird"
+     },
+     "text": {
+      "en": "Its scientific name, episcopus, is Latin for 'bishop'."
+     },
+     "src": [
+      "az-tanager"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Everywhere"
+     },
+     "text": {
+      "en": "It lives all over the Amazon Basin, from Mexico to Bolivia."
+     },
+     "src": [
+      "wiki-tanager"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "The book doesn't name this little blue bird, so we picked the blue-gray tanager, a common blue bird of South American forests."
+   },
+   "storyVsRealSrc": [
+    "wiki-tanager"
+   ]
+  },
+  {
+   "id": "toucan",
+   "role": "supporting",
+   "colour": "peach",
+   "name": {
+    "en": "The toucan"
+   },
+   "animal": {
+    "en": "Toco toucan"
+   },
+   "image": "toucan.jpg",
+   "job": {
+    "en": "Listens from the treetops"
+   },
+   "superpower": {
+    "en": "A beak that works like an air conditioner"
+   },
+   "lineup": {
+    "weight": {
+     "en": "500–876 g"
+    },
+    "grams": 650,
+    "like": {
+     "en": "a bag of rice"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "55–65 cm"
+     },
+     "src": [
+      "taf-toucan"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "500–876 g"
+     },
+     "src": [
+      "taf-toucan"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Up to about 20 years in the wild"
+     },
+     "src": [
+      "birdorable"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Mostly fruit"
+     },
+     "src": [
+      "wa-toucan"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Open woods and savannas, including Guyana"
+     },
+     "src": [
+      "louisville-toucan"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Chicks hatch with a small bill that takes a year to grow"
+     },
+     "src": [
+      "sfzoo-toucan"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Biggest beak"
+     },
+     "text": {
+      "en": "Compared with its body, it has the biggest beak of any bird."
+     },
+     "src": [
+      "smith-toucan"
+     ]
+    },
+    {
+     "title": {
+      "en": "Cool beak"
+     },
+     "text": {
+      "en": "Its beak gives off body heat, like an elephant's ears. It's one of the best 'radiators' in the animal world."
+     },
+     "src": [
+      "smith-toucan"
+     ]
+    },
+    {
+     "title": {
+      "en": "Light as foam"
+     },
+     "text": {
+      "en": "The beak is made of bony struts and spongy keratin, so it's very light."
+     },
+     "src": [
+      "wiki-toucan"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Beak blanket"
+     },
+     "text": {
+      "en": "Toucans tuck their beaks under their wings to stay warm while they sleep."
+     },
+     "src": [
+      "wa-toucan"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Long reach"
+     },
+     "text": {
+      "en": "The long beak grabs fruit from branches too thin to hold the bird."
+     },
+     "src": [
+      "wa-toucan"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Giant toucan"
+     },
+     "text": {
+      "en": "Toco toucans are the largest toucans of all."
+     },
+     "src": [
+      "sfzoo-toucan"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real toucans do live in South American forests, but they'd be eating fruit rather than listening to songs. Probably!"
+   },
+   "storyVsRealSrc": [
+    "wa-toucan"
+   ]
+  },
+  {
+   "id": "sloth",
+   "role": "supporting",
+   "colour": "mint",
+   "name": {
+    "en": "The sloth"
+   },
+   "animal": {
+    "en": "Three-toed sloth"
+   },
+   "image": "sloth.jpg",
+   "job": {
+    "en": "Hangs around to hear the song"
+   },
+   "superpower": {
+    "en": "Green algae living in its fur"
+   },
+   "lineup": {
+    "weight": {
+     "en": "about 4 kg"
+    },
+    "grams": 4000,
+    "like": {
+     "en": "a house cat"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "About 60 cm"
+     },
+     "src": [
+      "ngk-sloth"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "About 4 kg"
+     },
+     "src": [
+      "ngk-sloth"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Not well known in the wild"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Leaves"
+     },
+     "src": [
+      "uwm-sloth"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Rainforest treetops of Central and South America"
+     },
+     "src": [
+      "ifaw-sloth"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Garden in its fur"
+     },
+     "text": {
+      "en": "Each hair has grooves where tiny algae grow, turning the fur greenish."
+     },
+     "src": [
+      "nzoo-sloth"
+     ]
+    },
+    {
+     "title": {
+      "en": "Moth hotel"
+     },
+     "text": {
+      "en": "Some moths live only on sloth fur!"
+     },
+     "src": [
+      "nzoo-sloth"
+     ]
+    },
+    {
+     "title": {
+      "en": "Lowest energy"
+     },
+     "text": {
+      "en": "Three-toed sloths use less energy than any other mammal ever measured."
+     },
+     "src": [
+      "uwm-sloth"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Weekly toilet trip"
+     },
+     "text": {
+      "en": "A sloth climbs down about once a week to poop."
+     },
+     "src": [
+      "nzoo-sloth"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Big drop"
+     },
+     "text": {
+      "en": "In one toilet trip a sloth can lose up to a third of its weight!"
+     },
+     "src": [
+      "ifaw-sloth"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Full tummy"
+     },
+     "text": {
+      "en": "A sloth's stomach can make up 37% of its body weight."
+     },
+     "src": [
+      "wwf-sloth"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real three-toed sloths are awake in the daytime, so a sloth could really hear Pip sing. But it would probably keep on hanging very, very slowly."
+   },
+   "storyVsRealSrc": [
+    "mf-sloth"
+   ]
+  },
+  {
+   "id": "macaws",
+   "role": "supporting",
+   "colour": "lilac",
+   "name": {
+    "en": "The other parrots"
+   },
+   "animal": {
+    "en": "Scarlet macaws and friends"
+   },
+   "image": "macaws.jpg",
+   "job": {
+    "en": "The loud parrots who learn to listen"
+   },
+   "superpower": {
+    "en": "Eat clay to stay healthy"
+   },
+   "lineup": {
+    "weight": {
+     "en": "about 1 kg"
+    },
+    "grams": 1000,
+    "like": {
+     "en": "a bag of sugar"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "81–96 cm, half of it tail"
+     },
+     "src": [
+      "birdfact-macaw",
+      "dw-macaw"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "900–1,500 g"
+     },
+     "src": [
+      "birdfact-macaw"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "40–50 years in the wild"
+     },
+     "src": [
+      "hamilton-macaw"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Fruit, seeds, nuts and even clay"
+     },
+     "src": [
+      "adw-macaw"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Rainforests of Central and South America"
+     },
+     "src": [
+      "wiki-macaw"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Pairs stay together for life"
+     },
+     "src": [
+      "hamilton-macaw"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Clay snacks"
+     },
+     "text": {
+      "en": "Macaws eat clay from riverbanks. It may help with harsh chemicals in unripe fruit."
+     },
+     "src": [
+      "adw-macaw"
+     ]
+    },
+    {
+     "title": {
+      "en": "Noisy honks"
+     },
+     "text": {
+      "en": "Scarlet macaws talk mostly in loud, raucous honks."
+     },
+     "src": [
+      "wiki-macaw"
+     ]
+    },
+    {
+     "title": {
+      "en": "Hundreds together"
+     },
+     "text": {
+      "en": "Hundreds may gather on one clay cliff at the same time."
+     },
+     "src": [
+      "strange-macaw"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Long life"
+     },
+     "text": {
+      "en": "A scarlet macaw can live 40–50 years in the wild."
+     },
+     "src": [
+      "hamilton-macaw"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Copycats"
+     },
+     "text": {
+      "en": "Macaws kept by people can learn to copy words."
+     },
+     "src": [
+      "wiki-macaw"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Half tail"
+     },
+     "text": {
+      "en": "About half of a scarlet macaw's length is its tail."
+     },
+     "src": [
+      "dw-macaw"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "The noisy flock in the book has scarlet, blue and green macaws. We picked the scarlet macaw to tell you about. Real macaws really do talk in loud, raucous honks."
+   },
+   "storyVsRealSrc": [
+    "wiki-macaw"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "title": {
+    "en": "Find your voice"
+   },
+   "text": {
+    "en": "Say 'hello' in a whisper, then a normal voice, then a big brave voice. Which felt the bravest?"
+   }
+  },
+  {
+   "title": {
+    "en": "Sloth slow-mo"
+   },
+   "text": {
+    "en": "Walk across the room as slowly as a sloth. Can you take a whole minute?"
+   }
+  },
+  {
+   "title": {
+    "en": "Toucan beak"
+   },
+   "text": {
+    "en": "Measure 19 cm on a ruler. That's how long a toco toucan's beak is!"
+   }
+  },
+  {
+   "title": {
+    "en": "Bird call echo"
+   },
+   "text": {
+    "en": "One person makes a bird call; everyone copies it. Take turns being the leader."
+   }
+  },
+  {
+   "title": {
+    "en": "Find Guyana"
+   },
+   "text": {
+    "en": "Find South America on a map, then look at the top for Guyana."
+   }
+  }
+ ],
+ "faq": [
+  {
+   "q": {
+    "en": "Is Pip a real kind of parrot?"
+   },
+   "a": {
+    "en": "Yes. Pip looks like a sun conure, a golden parrot from Guyana and northern Brazil."
+   },
+   "src": [
+    "seaworld"
+   ]
+  },
+  {
+   "q": {
+    "en": "Are sun conures endangered?"
+   },
+   "a": {
+    "en": "Yes. Only about 1,000–2,500 grown-ups are left in the wild."
+   },
+   "src": [
+    "wpt"
+   ]
+  },
+  {
+   "q": {
+    "en": "Why are sloths green?"
+   },
+   "a": {
+    "en": "Tiny algae grow in grooves in their fur."
+   },
+   "src": [
+    "nzoo-sloth"
+   ]
+  },
+  {
+   "q": {
+    "en": "Why is a toucan's beak so big?"
+   },
+   "a": {
+    "en": "It helps the toucan reach fruit and lets off body heat to keep cool."
+   },
+   "src": [
+    "smith-toucan",
+    "wa-toucan"
+   ]
+  }
+ ],
+ "sources": {
+  "seaworld": {
+   "name": "SeaWorld",
+   "title": "Sun conure fact sheet",
+   "url": "https://seaworld.org/animals/facts/birds/sun-conure/"
+  },
+  "wpt": {
+   "name": "World Parrot Trust",
+   "title": "Sun conure",
+   "url": "https://parrots.org/encyclopedia/sun-conure"
+  },
+  "lafeber": {
+   "name": "Lafeber",
+   "title": "Sun parakeets in the wild",
+   "url": "https://lafeber.com/pet-birds/?p=39016"
+  },
+  "northern": {
+   "name": "Northern Parrots (Rosemary Low)",
+   "title": "Sun conure fact sheet",
+   "url": "https://www.northernparrots.com/blog/sun-conure-fact-sheet/"
+  },
+  "pango": {
+   "name": "PangoVet",
+   "title": "Sun conure",
+   "url": "https://petcorner.pangovet.com/pet-breeds/birds/sun-conure-parrot"
+  },
+  "pethelper": {
+   "name": "Pet Care Helper",
+   "title": "Sun conure",
+   "url": "https://petcarehelperai.netlify.app/breeds/birds/sun-conure"
+  },
+  "chewy": {
+   "name": "Chewy",
+   "title": "Facts about sun conures",
+   "url": "https://be.chewy.com/?p=10835"
+  },
+  "pe": {
+   "name": "Parrot Essentials",
+   "title": "Sun conure profile",
+   "url": "https://parrotessentials.co.uk/blog/sun-conure"
+  },
+  "wiki-tanager": {
+   "name": "Wikipedia",
+   "title": "Blue-gray tanager",
+   "url": "https://Www.Wikipedia.org/wiki/Blue-gray_tanager"
+  },
+  "pbai-tanager": {
+   "name": "Picture Bird",
+   "title": "Blue-grey tanager",
+   "url": "https://picturebirdai.com/wiki/Thraupis_episcopus.html"
+  },
+  "az-tanager": {
+   "name": "A-Z Animals",
+   "title": "Blue-grey tanager",
+   "url": "https://a-z-animals.com/animals/blue-tanager-blue-grey-tanager/"
+  },
+  "wni-tanager": {
+   "name": "Wild Nature Images",
+   "title": "Blue-gray tanager",
+   "url": "https://wildnatureimages.org/Birds/Passerines/Thraupidae/Thraupis%20episcopus.html"
+  },
+  "wikiwand-tanager": {
+   "name": "Wikiwand",
+   "title": "Blue-gray tanager",
+   "url": "https://www.wikiwand.com/en/articles/Thraupis_episcopus"
+  },
+  "animalia-tanager": {
+   "name": "Animalia",
+   "title": "Blue-gray tanager",
+   "url": "https://animalia.bio/blue-gray-tanager"
+  },
+  "wa-toucan": {
+   "name": "WorldAtlas",
+   "title": "Toco toucan facts",
+   "url": "https://www.worldatlas.com/articles/toco-toucan-facts-animals-of-south-america.html"
+  },
+  "taf-toucan": {
+   "name": "The Animal Facts",
+   "title": "Toco toucan",
+   "url": "https://www.theanimalfacts.com/birds/toco-toucan"
+  },
+  "smith-toucan": {
+   "name": "Smithsonian Magazine",
+   "title": "Oversized beak keeps toucan cool",
+   "url": "https://www.smithsonianmag.com/science-nature/oversized-beak-keeps-toucan-cool-15023806/"
+  },
+  "sfzoo-toucan": {
+   "name": "San Francisco Zoo",
+   "title": "Toco toucan",
+   "url": "https://www.sfzoo.org/toco-toucan/"
+  },
+  "louisville-toucan": {
+   "name": "Louisville Zoo",
+   "title": "Toco toucan",
+   "url": "https://louisvillezoo.org/animalsandplants/toucan-toco/"
+  },
+  "birdorable": {
+   "name": "Birdorable",
+   "title": "A remarkable bill",
+   "url": "https://birdorable.com/blog/a-remarkable-bill"
+  },
+  "wiki-toucan": {
+   "name": "Wikipedia",
+   "title": "Toucan",
+   "url": "https://Www.Wikipedia.org/wiki/Toucan"
+  },
+  "ifaw-sloth": {
+   "name": "IFAW",
+   "title": "Sloths",
+   "url": "https://www.ifaw.org/animals/sloths"
+  },
+  "ifaw-sloth-uk": {
+   "name": "IFAW",
+   "title": "Sloths: how big are they?",
+   "url": "https://www.ifaw.org/uk/animals/sloths"
+  },
+  "ngk-sloth": {
+   "name": "National Geographic Kids",
+   "title": "Three-toed sloths",
+   "url": "https://kids.nationalgeographic.com/animals/sloth/"
+  },
+  "nzoo-sloth": {
+   "name": "Smithsonian's National Zoo",
+   "title": "Why are sloths so slow?",
+   "url": "https://www.nationalzoo.si.edu/node/11358"
+  },
+  "uwm-sloth": {
+   "name": "University of Wisconsin–Madison",
+   "title": "Five things everyone should know about sloths",
+   "url": "https://news.cals.wisc.edu/2017/07/06/five-things-everyone-should-know-about-sloths"
+  },
+  "mf-sloth": {
+   "name": "Mental Floss",
+   "title": "Facts about sloths",
+   "url": "https://www.mentalfloss.com/animals/facts-about-sloths"
+  },
+  "wwf-sloth": {
+   "name": "WWF UK",
+   "title": "Top 10 facts about sloths",
+   "url": "https://www.wwf.org.uk/node/44966"
+  },
+  "wiki-macaw": {
+   "name": "Wikipedia",
+   "title": "Scarlet macaw",
+   "url": "https://en.wikipedia.org/wiki/Scarlet_macaw"
+  },
+  "birdfact-macaw": {
+   "name": "Birdfact",
+   "title": "Scarlet macaw",
+   "url": "https://birdfact.com/birds/scarlet-macaw"
+  },
+  "hamilton-macaw": {
+   "name": "Hamilton Zoo",
+   "title": "Scarlet macaw",
+   "url": "https://hamiltonzoo.co.nz/our-animals/birds/scarlet-macaw"
+  },
+  "adw-macaw": {
+   "name": "Animal Diversity Web, University of Michigan",
+   "title": "Ara macao",
+   "url": "https://animaldiversity.org/accounts/Ara_macao/"
+  },
+  "strange-macaw": {
+   "name": "Strange Animals",
+   "title": "Scarlet macaw",
+   "url": "https://strangeanimals.info/birds/parrots/scarlet-macaw"
+  },
+  "dw-macaw": {
+   "name": "BBC Wildlife (Discover Wildlife)",
+   "title": "Scarlet macaw facts",
+   "url": "https://www.discoverwildlife.com/animal-facts/birds/scarlet-macaw-facts"
+  },
+  "wiki-kaieteur": {
+   "name": "Wikipedia",
+   "title": "Kaieteur Falls",
+   "url": "https://en.wikipedia.org/wiki/Kaieteur_Falls"
+  },
+  "np-kaieteur": {
+   "name": "National-Parks.org",
+   "title": "Kaieteur National Park",
+   "url": "https://national-parks.org/?p=5107"
+  },
+  "geo-kaieteur": {
+   "name": "Geography Worlds",
+   "title": "Kaieteur Falls: Guyana's hidden giant",
+   "url": "https://geographyworlds.com/blog/kaieteur-falls-waterfall/"
+  },
+  "wiki-kaieteur2": {
+   "name": "Wikipedia (mirror)",
+   "title": "Kaieteur Falls: name and tourism",
+   "url": "https://bafybeiaysi4s6lnjev27ln5icwm6tueaw2vdykrtjkwiphwekaywqhcjze.ipfs.ipfs.hypha.coop/wiki/Kaieteur_Falls"
+  },
+  "wiki-kaieteur3": {
+   "name": "Wikipedia (mirror)",
+   "title": "Kaieteur Falls: compared with Niagara",
+   "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Kaieteur_Falls.html"
+  }
+ }
+}

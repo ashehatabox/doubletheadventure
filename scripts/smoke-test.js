@@ -35,6 +35,7 @@ const checks = [
   ['/heroes/knot-by-knot', 200, 'Wadi Darbat'],
   ['/heroes/the-beetle-who-knew-the-stars', 200, 'Qubbet el-Hawa'],
   ['/heroes/the-old-path-song', 200, 'Kakum National Park'],
+  ['/heroes/the-littlest-guardian', 200, 'Mason Bay'],
   ['/fr/heroes', 200, 'Encyclopédie des héros'],
   ['/fr/parents/articles', 200, 'Articles pour les parents'],
   ['/parents/articles/why-every-story-starts-from-one-value', 404, ''],

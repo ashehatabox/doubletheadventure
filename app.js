@@ -12,6 +12,7 @@ const catalog = require('./data/books');
 const play = require('./data/play');
 const mapPoints = require('./data/map-points.json');
 const articles = require('./lib/articles');
+const heroes = require('./lib/heroes');
 const guides = require('./lib/guides');
 const shareImage = require('./lib/share');
 const search = require('./lib/search');
@@ -148,6 +149,42 @@ router.get('/books/:slug', (req, res, next) => {
       map: !!(b.culture && mapPoints.points[b.culture])
     },
     seo: { title: view.displayTitle, description: h.pick(b.blurb) || h.pick(b.subtitle) || h.t('meta.siteDescription'), image: shareImage('book', b.slug, view.cover) }
+  });
+});
+
+// Heroes Encyclopedia: the real animals behind each book (data/heroes/<slug>.json). Drafts show only with SHOW_DRAFTS=1.
+const heroVisible = (g) => g && (!g.draft || process.env.SHOW_DRAFTS === '1');
+router.get('/heroes', (req, res) => {
+  const h = req.h;
+  const list = heroes.list().filter((g) => heroVisible(g) && catalog.get(g.book)).map((g) => ({ guide: g, book: bookView(catalog.get(g.book), h, req) }));
+  page(req, res, 'heroes', { extraCss: 'heroes', list, seo: { title: h.t('heroes.title'), description: h.t('heroes.lead') } });
+});
+router.get('/heroes/:slug', (req, res, next) => {
+  const g = heroes.get(req.params.slug);
+  const b = catalog.get(req.params.slug);
+  if (!heroVisible(g) || !b) return next();
+  const h = req.h;
+  const book = bookView(b, h, req);
+  const img = (f) => heroes.image(g.book, f);
+  const lineup = g.cast.slice().sort((x, y) => x.lineup.grams - y.lineup.grams);
+  const lo = Math.log10(lineup[0].lineup.grams), hi = Math.log10(lineup[lineup.length - 1].lineup.grams);
+  const size = (grams) => Math.round(64 + ((Math.log10(grams) - lo) / Math.max(hi - lo, 1)) * 112);
+  const url = SITE_URL + h.url('/heroes/' + g.book);
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      { '@type': 'Article', headline: h.pick(g.seoTitle || g.title), description: h.pick(g.description), inLanguage: h.lang, dateModified: g.updated, mainEntityOfPage: url,
+        about: g.cast.map((c) => ({ '@type': 'Thing', name: h.pick(c.animal) })),
+        author: { '@type': 'Organization', name: 'A² Publishing', url: SITE_URL } },
+      { '@type': 'BreadcrumbList', itemListElement: [
+        { '@type': 'ListItem', position: 1, name: h.t('heroes.title'), item: SITE_URL + h.url('/heroes') },
+        { '@type': 'ListItem', position: 2, name: book.displayTitle, item: url } ] }
+    ].concat((g.faq || []).length ? [{ '@type': 'FAQPage', mainEntity: g.faq.map((f) => ({ '@type': 'Question', name: h.pick(f.q), acceptedAnswer: { '@type': 'Answer', text: h.pick(f.a) } })) }] : [])
+  };
+  page(req, res, 'hero-guide', {
+    extraCss: 'heroes',
+    guide: g, book, img, lineup, size, jsonLd,
+    seo: { title: h.pick(g.seoTitle || g.title), description: h.pick(g.description), image: book.cover, noindex: g.draft, type: 'article' }
   });
 });
 
@@ -525,6 +562,7 @@ app.get('/sitemap.xml', (req, res) => {
     .concat(catalog.books.map((b) => '/books/' + b.slug))
     .concat(['/parents/articles'])
     .concat(articles.published().map((s) => '/parents/articles/' + s))
+    .concat(heroes.published().length ? ['/heroes'] : [], heroes.published().map((s) => '/heroes/' + s))
     .concat(['/play/memory'])
     .concat(play.coloring.map((s) => '/play/color/' + s))
     .concat(play.jigsaw.map((s) => '/play/jigsaw/' + s));

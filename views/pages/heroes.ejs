@@ -1,0 +1,24 @@
+<%- include('../partials/top') %>
+<section class="hg-hero" lang="<%= lang %>">
+  <div class="wrap stack-sm hg-index-head">
+    <h1 class="h1"><%= t('heroes.title') %></h1>
+    <p class="lead"><%= t('heroes.lead') %></p>
+  </div>
+</section>
+<section class="section tight" lang="<%= lang %>">
+  <div class="wrap">
+    <% if (!list.length) { %><p class="lead"><%= t('heroes.none') %></p><% } %>
+    <ul class="hg-index" role="list">
+      <% list.forEach(function (x) { %>
+      <li>
+        <a class="hg-index-card" href="<%= url('/heroes/' + x.guide.book) %>">
+          <% if (x.book.cover) { %><img src="<%= x.book.coverSmall || x.book.cover %>" alt="" loading="lazy" width="360" height="576"><% } %>
+          <span class="hg-cast-name"><%= pick(x.guide.title) %></span>
+          <span class="hg-cast-animal"><%= x.guide.cast.map(function (c) { return pick(c.animal); }).join(', ') %></span>
+        </a>
+      </li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

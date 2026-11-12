@@ -493,6 +493,21 @@ module.exports = {
       ]
     }
   },
+  heroes: {
+    title: 'Encyclopédie des héros',
+    lead: 'Les vrais animaux derrière chaque histoire : comment ils vivent, ce qu\'ils mangent et les secrets bien réels des livres. Chaque fait renvoie à sa source.',
+    meet: 'Rencontrer les héros', seeBook: 'Voir le livre', cast: 'Les personnages', castLead: 'Chaque personnage du livre est un vrai animal. Touchez-en un pour lire sa fiche.',
+    roles: { hero: 'Héros', friend: 'Meilleur ami', supporting: 'Personnages secondaires' },
+    place: 'Où se passe l\'histoire', theFile: 'Fiche du héros', superpower: 'Superpouvoir', inTheStory: 'Dans l\'histoire',
+    kinds: { wow: 'Waouh !', ha: 'Ha ha !', uhoh: 'Oh là là !', hidden: 'Fait caché', rescue: 'Le sauvetage' },
+    storyVsReal: 'Dans l\'histoire et dans la vraie vie', source: 'Source', sources: 'Sources',
+    lineup: 'Du plus léger au plus lourd', lineupLead: 'Les cercles grandissent avec le poids, sans être à l\'échelle.',
+    as: 'à peu près le poids de', lives: 'Vit', babies: 'Petits par portée',
+    awake: { day: 'Actif le jour', night: 'Actif la nuit', dawn: 'Actif à l\'aube et au crépuscule' },
+    tryHome: 'À essayer à la maison', faq: 'Questions des parents', allSources: 'Toutes nos sources',
+    checked: 'Faits vérifiés', draft: 'Brouillon : pas encore public', culturalReader: 'En attente d\'un lecteur culturel',
+    readBook: 'Lire l\'histoire', otherGuides: 'Autres fiches de héros', none: 'Des fiches de héros arrivent pour chaque livre.'
+  },
   footer: {
     tagline: 'Sagesse ancienne, petits héros. De 3 à 7 ans, en cinq langues.',
     booksTitle: 'Livres', familiesTitle: 'Familles', educatorsTitle: 'Éducateurs', partnersTitle: 'Partenaires',

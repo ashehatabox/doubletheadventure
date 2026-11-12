@@ -23,6 +23,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700;800&display=swap">
 <link rel="stylesheet" href="/css/site.css">
+<% if (typeof extraCss !== 'undefined' && extraCss) { %><link rel="stylesheet" href="/css/<%= extraCss %>.css"><% } %>
 <% if (typeof playMode !== 'undefined' && playMode) { %><link rel="stylesheet" href="/css/play.css"><% } %>
 <% if (typeof jsonLd !== 'undefined' && jsonLd) { %><script type="application/ld+json"><%- JSON.stringify(jsonLd).replace(/</g, '\\u003c') %></script><% } %>
 <script src="/js/site.js" defer></script>

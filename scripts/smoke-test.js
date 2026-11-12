@@ -28,6 +28,8 @@ const checks = [
   ['/values-map', 200, 'Kaitiakitanga'],
   ['/fr/values-map', 200, 'La carte des valeurs'],
   ['/parents/articles', 200, 'Articles for parents'],
+  ['/heroes', 200, 'Heroes Encyclopedia'],
+  ['/fr/heroes', 200, 'Encyclopédie des héros'],
   ['/fr/parents/articles', 200, 'Articles pour les parents'],
   ['/parents/articles/why-every-story-starts-from-one-value', 404, ''],
   ['/sw.js', 200, 'play-v3'],

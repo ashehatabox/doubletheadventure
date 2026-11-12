@@ -1,0 +1,191 @@
+<%- include('../partials/top') %>
+<%
+  const g = guide;
+  const P = pick;
+  const fallback = (f) => isFallback(f) ? 'lang="en"' : '';
+  // Small "Source:" line under a fact, linking each source it names.
+  const srcLine = (ids) => {
+    if (!ids || !ids.length) return '';
+    const links = ids.map((id) => g.sources[id]).filter(Boolean)
+      .map((s) => `<a href="${s.url}" rel="noopener" target="_blank">${s.name}</a>`);
+    return `<p class="hg-src">${links.length > 1 ? t('heroes.sources') : t('heroes.source')}: ${links.join(', ')}</p>`;
+  };
+  const portrait = (c, cls) => {
+    const src = img(c.image);
+    return src
+      ? `<img class="${cls}" src="${src}" alt="${P(c.name)}, ${P(c.animal)}" loading="lazy" width="480" height="480">`
+      : `<span class="${cls} hg-ph" aria-hidden="true">${P(c.name).replace(/^The /, '').charAt(0)}</span>`;
+  };
+%>
+<article class="hg" lang="<%= lang %>">
+
+  <header class="hg-hero">
+    <div class="wrap hg-hero-grid">
+      <div class="stack hg-hero-text">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="<%= url('/heroes') %>"><%= t('heroes.title') %></a> › <a href="<%= book.href %>"><%= book.displayTitle %></a></nav>
+        <h1 class="h1" <%- fallback(g.title) %>><%= P(g.title) %></h1>
+        <p class="lead" <%- fallback(g.intro) %>><%= P(g.intro) %></p>
+        <div class="row">
+          <a class="btn btn-primary" href="#cast"><%= t('heroes.meet') %></a>
+          <a class="btn btn-ghost" href="<%= book.href %>"><%= t('heroes.seeBook') %></a>
+        </div>
+        <% if (g.draft) { %><p class="hg-status"><%= t('heroes.draft') %><% if (!g.review.culturalReader) { %>. <%= t('heroes.culturalReader') %>.<% } %></p><% } %>
+      </div>
+      <% if (book.cover) { %>
+      <a class="hg-cover" href="<%= book.href %>"><img src="<%= book.cover %>" alt="<%= book.displayTitle %>" width="900" height="1440"></a>
+      <% } %>
+    </div>
+  </header>
+
+  <section id="cast" class="section tight" aria-labelledby="cast-h">
+    <div class="wrap stack">
+      <h2 class="h2" id="cast-h"><%= t('heroes.cast') %></h2>
+      <ul class="hg-cast" role="list">
+        <% g.cast.forEach(function (c) { %>
+        <li>
+          <a class="hg-cast-card hg-c-<%= c.colour %>" href="#<%= c.id %>">
+            <%- portrait(c, 'hg-cast-img') %>
+            <span class="hg-cast-role"><%= t('heroes.roles')[c.role] %></span>
+            <span class="hg-cast-name" <%- fallback(c.name) %>><%= P(c.name) %></span>
+            <span class="hg-cast-animal" <%- fallback(c.animal) %>><%= P(c.animal) %></span>
+          </a>
+        </li>
+        <% }) %>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section tight hg-place" aria-labelledby="place-h">
+    <div class="wrap hg-place-grid">
+      <div class="stack-sm">
+        <h2 class="h2" id="place-h"><%= t('heroes.place') %></h2>
+        <p class="h3 hg-place-name" <%- fallback(g.place.name) %>><%= P(g.place.name) %></p>
+        <p class="lead" <%- fallback(g.place.intro) %>><%= P(g.place.intro) %></p>
+        <%- srcLine(g.place.introSrc) %>
+      </div>
+      <% if (img(g.place.image)) { %><img class="hg-place-img" src="<%= img(g.place.image) %>" alt="" loading="lazy" width="900" height="510"><% } %>
+    </div>
+    <div class="wrap">
+      <ul class="hg-facts hg-facts-place" role="list">
+        <% g.place.facts.forEach(function (f) { %>
+        <li class="hg-fact hg-k-<%= f.kind %>">
+          <p class="hg-kind"><%= t('heroes.kinds')[f.kind] %></p>
+          <h3 class="hg-fact-title" <%- fallback(f.title) %>><%= P(f.title) %></h3>
+          <p <%- fallback(f.text) %>><%= P(f.text) %></p>
+          <%- srcLine(f.src) %>
+        </li>
+        <% }) %>
+      </ul>
+    </div>
+  </section>
+
+  <% g.cast.forEach(function (c, i) { %>
+  <section id="<%= c.id %>" class="section hg-file hg-c-<%= c.colour %>" aria-labelledby="<%= c.id %>-h">
+    <div class="wrap hg-file-grid">
+      <aside class="hg-id">
+        <%- portrait(c, 'hg-id-img') %>
+        <p class="hg-id-role"><%= t('heroes.roles')[c.role] %></p>
+        <h2 class="h2" id="<%= c.id %>-h" <%- fallback(c.name) %>><%= P(c.name) %></h2>
+        <p class="hg-id-animal" <%- fallback(c.animal) %>><%= P(c.animal) %></p>
+        <dl class="hg-card">
+          <div><dt><%= t('heroes.inTheStory') %></dt><dd <%- fallback(c.job) %>><%= P(c.job) %></dd></div>
+          <div><dt><%= t('heroes.superpower') %></dt><dd <%- fallback(c.superpower) %>><%= P(c.superpower) %></dd></div>
+          <% c.card.forEach(function (r) { %>
+          <div<%- r.flag ? ' class="hg-flag"' : '' %>><dt <%- fallback(r.label) %>><%= P(r.label) %></dt><dd <%- fallback(r.value) %>><%= P(r.value) %><% if (r.src && r.src.length) { %> <a class="hg-card-src" href="<%= g.sources[r.src[0]].url %>" rel="noopener" target="_blank" aria-label="<%= t('heroes.source') %>: <%= g.sources[r.src[0]].name %>">[<%= t('heroes.source').toLowerCase() %>]</a><% } %></dd></div>
+          <% }) %>
+        </dl>
+      </aside>
+      <div class="hg-main stack">
+        <div class="hg-life">
+          <% c.life.forEach(function (l) { %>
+          <div class="hg-life-item">
+            <h3 class="h3" <%- fallback(l.title) %>><%= P(l.title) %></h3>
+            <p <%- fallback(l.text) %>><%= P(l.text) %></p>
+            <%- srcLine(l.src) %>
+          </div>
+          <% }) %>
+        </div>
+        <ul class="hg-facts" role="list">
+          <% c.facts.forEach(function (f) { %>
+          <li class="hg-fact hg-k-<%= f.kind %>">
+            <p class="hg-kind"><%= t('heroes.kinds')[f.kind] %></p>
+            <h3 class="hg-fact-title" <%- fallback(f.title) %>><%= P(f.title) %></h3>
+            <p <%- fallback(f.text) %>><%= P(f.text) %></p>
+            <%- srcLine(f.src) %>
+          </li>
+          <% }) %>
+        </ul>
+        <div class="hg-svr">
+          <p class="hg-kind"><%= t('heroes.storyVsReal') %></p>
+          <p <%- fallback(c.storyVsReal) %>><%= P(c.storyVsReal) %></p>
+          <%- srcLine(c.storyVsRealSrc) %>
+        </div>
+      </div>
+    </div>
+  </section>
+  <% }) %>
+
+  <section class="section tight hg-lineup-band" aria-labelledby="lineup-h">
+    <div class="wrap stack">
+      <div class="stack-sm">
+        <h2 class="h2" id="lineup-h"><%= t('heroes.lineup') %></h2>
+        <p class="lead"><%= t('heroes.lineupLead') %></p>
+      </div>
+      <ol class="hg-lineup">
+        <% lineup.forEach(function (c) { %>
+        <li class="hg-c-<%= c.colour %>">
+          <span class="hg-dot-box"><span class="hg-dot" style="--s:<%= size(c.lineup.grams) %>px"><%- portrait(c, 'hg-dot-img') %></span></span>
+          <span class="hg-lu-name" <%- fallback(c.name) %>><% const nm = P(c.name).replace(/^The /, ''); %><%= nm.charAt(0).toUpperCase() + nm.slice(1) %></span>
+          <span class="hg-lu-weight"><%= P(c.lineup.weight) %></span>
+          <span class="hg-lu-like"><%= t('heroes.as') %> <%= P(c.lineup.like) %></span>
+          <span class="hg-lu-meta"><%= t('heroes.awake')[c.lineup.awake] %></span>
+        </li>
+        <% }) %>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section tight" aria-labelledby="try-h">
+    <div class="wrap stack">
+      <h2 class="h2" id="try-h"><%= t('heroes.tryHome') %></h2>
+      <ol class="hg-try">
+        <% g.activities.forEach(function (a) { %>
+        <li><h3 class="hg-fact-title" <%- fallback(a.title) %>><%= P(a.title) %></h3><p <%- fallback(a.text) %>><%= P(a.text) %></p></li>
+        <% }) %>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section tight band-sun" aria-labelledby="faq-h">
+    <div class="wrap hg-faq-grid">
+      <div class="stack-sm">
+        <h2 class="h2" id="faq-h"><%= t('heroes.faq') %></h2>
+        <a class="btn btn-primary" href="<%= book.href %>"><%= t('heroes.readBook') %></a>
+      </div>
+      <div class="hg-faq">
+        <% g.faq.forEach(function (f) { %>
+        <details>
+          <summary <%- fallback(f.q) %>><%= P(f.q) %></summary>
+          <p <%- fallback(f.a) %>><%= P(f.a) %></p>
+          <%- srcLine(f.src) %>
+        </details>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tight" aria-labelledby="src-h">
+    <div class="wrap">
+      <details class="hg-all-src">
+        <summary><h2 class="h3" id="src-h"><%= t('heroes.allSources') %> (<%= Object.keys(g.sources).length %>)</h2></summary>
+        <ol>
+          <% Object.values(g.sources).forEach(function (s) { %>
+          <li><a href="<%= s.url %>" rel="noopener" target="_blank"><%= s.title %></a>, <%= s.name %></li>
+          <% }) %>
+        </ol>
+        <p class="hg-src"><%= t('heroes.checked') %>: <%= g.review.factsChecked %></p>
+      </details>
+    </div>
+  </section>
+</article>
+<%- include('../partials/bottom') %>

@@ -493,6 +493,21 @@ module.exports = {
       ]
     }
   },
+  heroes: {
+    title: 'Heroes Encyclopedia',
+    lead: 'The real animals behind every story: how they live, what they eat, and the true secrets the books are built on. Every fact links to where we found it.',
+    meet: 'Meet the cast', seeBook: 'See the book', cast: 'The cast', castLead: 'Every character in the book is a real animal. Tap one to read its file.',
+    roles: { hero: 'Hero', friend: 'Best friend', supporting: 'Supporting cast' },
+    place: 'Where the story happens', theFile: 'Hero file', superpower: 'Superpower', inTheStory: 'In the story',
+    kinds: { wow: 'Wow!', ha: 'Ha!', uhoh: 'Uh-oh!', hidden: 'Hidden fact', rescue: 'The rescue' },
+    storyVsReal: 'In the story vs. real life', source: 'Source', sources: 'Sources',
+    lineup: 'The size line-up', lineupLead: 'From lightest to heaviest. Circles grow with weight, but not to scale.',
+    as: 'about as heavy as', lives: 'Lives', babies: 'Babies at a time',
+    awake: { day: 'Awake in the day', night: 'Awake at night', dawn: 'Awake at dawn and dusk' },
+    tryHome: 'Try it at home', faq: 'Questions parents ask', allSources: 'Every source we used',
+    checked: 'Facts checked', draft: 'Draft: not public yet', culturalReader: 'Waiting for a cultural reader',
+    readBook: 'Read the story', otherGuides: 'More hero guides', none: 'Hero guides are coming for every book.'
+  },
   footer: {
     tagline: 'Old wisdom, little heroes. Ages 3–7, in five languages.',
     booksTitle: 'Books', familiesTitle: 'Families', educatorsTitle: 'Educators', partnersTitle: 'Partners',

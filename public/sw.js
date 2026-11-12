@@ -1,7 +1,7 @@
 /* Play area offline: games a child has opened once keep working without internet
    (in the car, on a plane). Only Play pages, their scripts, styles and pictures are kept.
    Nothing about the child is stored. Bump VERSION when the game files change. */
-var VERSION = 'play-v3';
+var VERSION = 'play-v4';
 var CORE = ['/play', '/fr/play', '/css/site.css', '/css/play.css', '/js/site.js', '/js/play/common.js', '/js/play/color.js', '/js/play/jigsaw.js', '/js/play/memory.js', '/images/brand/mark.png', '/images/brand/logo.png'];
 
 self.addEventListener('install', function (e) {

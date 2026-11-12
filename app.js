@@ -4,6 +4,7 @@
 require('dotenv').config();
 
 const path = require('path');
+const fs = require('fs');
 const express = require('express');
 const compression = require('compression');
 
@@ -46,6 +47,16 @@ app.use((req, res, next) => {
   }
   next();
 });
+
+// Asset addresses carry a fingerprint of the file (/css/site.css?v=ab12cd34), so a deploy never meets a stale copy
+// in the browser cache or the Play area's service worker.
+const assetHashes = {};
+app.locals.asset = (p) => {
+  if (!(p in assetHashes)) {
+    try { assetHashes[p] = require('crypto').createHash('md5').update(fs.readFileSync(path.join(__dirname, 'public', p))).digest('hex').slice(0, 8); } catch (e) { assetHashes[p] = ''; }
+  }
+  return assetHashes[p] ? `${p}?v=${assetHashes[p]}` : p;
+};
 
 app.use(express.static(path.join(__dirname, 'public'), {
   maxAge: '7d',

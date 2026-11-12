@@ -7,4 +7,7 @@
 // YouTube videos must be Public or Unlisted to play on the site (Private videos won't play).
 // Nothing loads from YouTube until a visitor presses play (children's privacy).
 module.exports = {
+  'becoming-a-tree': {
+    en: {youtube: 'xadUnTLixnY'}
+  }
 };

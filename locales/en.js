@@ -531,6 +531,12 @@ module.exports = {
       'Abdallah saw it right away: a gentle animal hero, one value, and a problem the hero solves by their own choice. No lecture at the end, no adult who fixes everything. The child reading lives the value alongside the hero.',
       'Together they brought the idea to life. Amr brings the father\'s question. Abdallah brings the story.'
     ],
+    nameEyebrow: 'Our name',
+    nameTitle: 'A² Publishing: Double the Adventure',
+    names: [
+      { mark: 'A²', title: 'Two A\'s, one team', text: 'Amr and Abdallah. A times A: two friends, two gifts, one shared idea. A father\'s question and a storyteller\'s answer.' },
+      { mark: '×2', title: 'Double the Adventure', text: 'Every book is two things at once: pure fun, and a value to carry. Entertainment and education at the same time, so children laugh, learn and remember.' }
+    ],
     communityEyebrow: 'Our community',
     communityTitle: 'Every book starts with someone\'s wish',
     communityLead: 'Soon the people around them joined in. Parents, grandparents, teachers and friends began sharing the everyday values they wish children understood.',
@@ -539,7 +545,7 @@ module.exports = {
       { title: 'We find its roots', text: 'We look for where that value lives in an old culture: a saying, a custom or a tale that has carried it for generations.' },
       { title: 'A new hero is born', text: 'A little animal faces a real problem and chooses the value for themselves. A reader from that culture checks the book before it\'s published.' }
     ],
-    communityClose: 'With each inspiration, a new book comes to life. That\'s how one father\'s question has grown into {count} stories, and counting.',
+    communityClose: 'With each inspiration, a new book comes to life. That\'s how one father\'s question keeps growing, one value and one book at a time.',
     visionEyebrow: 'Our vision',
     visionTitle: 'Values children carry with them',
     vision: [

@@ -531,6 +531,12 @@ module.exports = {
       'Abdallah l\'a tout de suite vue : un doux héros animal, une seule valeur, et un problème que le héros résout par son propre choix. Pas de leçon à la fin, pas d\'adulte qui arrange tout. L\'enfant qui lit vit la valeur aux côtés du héros.',
       'Ensemble, ils ont donné vie à l\'idée. Amr apporte la question du père. Abdallah apporte l\'histoire.'
     ],
+    nameEyebrow: 'Notre nom',
+    nameTitle: 'A² Publishing : Double the Adventure',
+    names: [
+      { mark: 'A²', title: 'Deux A, une équipe', text: 'Amr et Abdallah. A fois A : deux amis, deux talents, une idée partagée. La question d\'un père et la réponse d\'un conteur.' },
+      { mark: '×2', title: 'Double the Adventure', text: 'Chaque livre est deux choses à la fois : du pur plaisir et une valeur à garder. Divertir et éduquer en même temps, pour que les enfants rient, apprennent et se souviennent.' }
+    ],
     communityEyebrow: 'Notre communauté',
     communityTitle: 'Chaque livre commence par le souhait de quelqu\'un',
     communityLead: 'Bientôt, les gens autour d\'eux s\'y sont mis. Parents, grands-parents, enseignants et amis ont commencé à partager les valeurs du quotidien qu\'ils souhaitent voir comprises par les enfants.',
@@ -539,7 +545,7 @@ module.exports = {
       { title: 'Nous cherchons ses racines', text: 'Nous cherchons où cette valeur vit dans une culture ancienne : un dicton, une coutume ou un conte qui la porte depuis des générations.' },
       { title: 'Un nouveau héros naît', text: 'Un petit animal fait face à un vrai problème et choisit la valeur par lui-même. Un lecteur de cette culture relit le livre avant sa publication.' }
     ],
-    communityClose: 'Avec chaque inspiration, un nouveau livre prend vie. C\'est ainsi que la question d\'un père est devenue {count} histoires, et ce n\'est pas fini.',
+    communityClose: 'Avec chaque inspiration, un nouveau livre prend vie. C\'est ainsi que la question d\'un père continue de grandir, une valeur et un livre à la fois.',
     visionEyebrow: 'Notre vision',
     visionTitle: 'Des valeurs que les enfants gardent avec eux',
     vision: [

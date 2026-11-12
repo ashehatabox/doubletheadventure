@@ -1,5 +1,4 @@
 <%- include('../partials/top') %>
-<% var bookCount = allBooks.length; %>
 <section class="section tight">
   <div class="wrap grid-2" style="align-items:center">
     <div class="stack">
@@ -27,6 +26,24 @@
   </div>
 </section>
 
+<section class="section tight band-sky" aria-labelledby="name-title">
+  <div class="wrap stack" style="gap:24px">
+    <div class="stack-sm" style="max-width:720px">
+      <p class="eyebrow"><%= t('about.nameEyebrow') %></p>
+      <h2 id="name-title" class="h2" style="font-size:clamp(26px,3.4vw,36px)"><%= t('about.nameTitle') %></h2>
+    </div>
+    <div class="grid-cards" style="grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr))">
+      <% t('about.names').forEach(function (n) { %>
+      <div class="card card-pad stack-sm">
+        <span aria-hidden="true" style="font-family:var(--serif);font-weight:700;font-size:44px;line-height:1;color:var(--coral-dark)"><%= n.mark %></span>
+        <h3 class="h3" style="font-size:22px"><%= n.title %></h3>
+        <p class="muted" style="margin:0"><%= n.text %></p>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
 <section class="section band-sunpale" aria-labelledby="community-title">
   <div class="wrap stack" style="gap:28px">
     <div class="stack-sm" style="max-width:720px">
@@ -43,7 +60,7 @@
       </li>
       <% }) %>
     </ol>
-    <p style="margin:0;font-weight:700;max-width:720px"><%= t('about.communityClose').replace('{count}', bookCount) %></p>
+    <p style="margin:0;font-weight:700;max-width:720px"><%= t('about.communityClose') %></p>
   </div>
 </section>
 
@@ -64,7 +81,7 @@
   </div>
 </section>
 
-<section class="section tight band-sky" aria-labelledby="authors-title">
+<section class="section tight band-mint" aria-labelledby="authors-title">
   <div class="wrap grid-2" style="gap:40px;align-items:start">
     <div class="stack">
       <h2 id="authors-title" class="h2" style="font-size:clamp(26px,3.4vw,36px)"><%= t('about.authorsTitle') %></h2>

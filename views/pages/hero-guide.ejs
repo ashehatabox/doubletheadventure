@@ -69,10 +69,10 @@
          const earth = `https://earth.google.com/web/@${m.lat},${m.lon},4000a,25000d,35y,0h,65t,0r`;
          const gmap = `https://www.google.com/maps/@?api=1&map_action=map&center=${m.lat},${m.lon}&zoom=${m.zoom || 11}&basemap=satellite`; %>
     <div class="wrap">
-      <div class="hg-map">
+      <div class="hg-map<%= m.aspect > 1 ? ' hg-map-wide' : '' %>">
         <a class="hg-map-stage" href="<%= earth %>" rel="noopener" target="_blank" style="aspect-ratio:<%= m.aspect %>" aria-label="<%= t('heroes.flyEarth') %>: <%= P(m.label) %>">
           <img src="<%= img('map.svg') %>" alt="" width="800" height="<%= Math.round(800 / m.aspect) %>">
-          <span class="hg-pin" style="left:<%= m.pin[0] %>%;top:<%= m.pin[1] %>%"><span class="hg-pin-dot"></span><span class="hg-pin-label" <%- fallback(m.label) %>><%= P(m.label) %></span></span>
+          <span class="hg-pin<%= m.pin[0] > 55 ? ' hg-pin-left' : '' %>" style="left:<%= m.pin[0] %>%;top:<%= m.pin[1] %>%"><span class="hg-pin-dot"></span><span class="hg-pin-label" <%- fallback(m.label) %>><%= P(m.label) %></span></span>
         </a>
         <div class="stack-sm hg-map-text">
           <h3 class="h3"><%= t('heroes.visit') %></h3>
@@ -161,7 +161,7 @@
           <span class="hg-lu-name" <%- fallback(c.name) %>><% const nm = P(c.name).replace(/^The /, ''); %><%= nm.charAt(0).toUpperCase() + nm.slice(1) %></span>
           <span class="hg-lu-weight"><%= P(c.lineup.weight) %></span>
           <span class="hg-lu-like"><%= t('heroes.as') %> <%= P(c.lineup.like) %></span>
-          <span class="hg-lu-meta"><%= t('heroes.awake')[c.lineup.awake] %></span>
+          <% if (c.lineup.awake) { %><span class="hg-lu-meta"><%= t('heroes.awake')[c.lineup.awake] %></span><% } %>
         </li>
         <% }) %>
       </ol>

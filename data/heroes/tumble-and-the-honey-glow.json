@@ -1,0 +1,1474 @@
+{
+  "book": "tumble-and-the-honey-glow",
+  "draft": true,
+  "updated": "2026-11-12",
+  "review": {
+    "factsChecked": "2026-11-12",
+    "culturalReader": true
+  },
+  "title": {
+    "en": "Heroes of the Autumn Forest"
+  },
+  "seoTitle": {
+    "en": "Heroes of the Autumn Forest: the real animals behind Tumble and the Honey Glow"
+  },
+  "description": {
+    "en": "Bears that sleep for months without a single bathroom break, 2 million flowers for one jar of honey, and hares that box. Real forest animal facts for kids."
+  },
+  "intro": {
+    "en": "Every animal in Tumble and the Honey Glow is real. Here is how they eat, sleep and get ready for winter, and the true secrets behind the story."
+  },
+  "place": {
+    "name": {
+      "en": "An old oak forest in the mountains of Europe"
+    },
+    "image": "place.jpg",
+    "intro": {
+      "en": "The book never names its forest, so we picked a real one where every animal in it lives together: the Carpathian Mountains of Romania, home to the biggest brown bear population in Europe outside Russia."
+    },
+    "introSrc": [
+      "popescu"
+    ],
+    "facts": [
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Bear country"
+        },
+        "text": {
+          "en": "Romania's Carpathian Mountains have more wild brown bears than anywhere else in Europe outside Russia, and some of Europe's biggest old-growth forests."
+        },
+        "src": [
+          "popescu"
+        ]
+      },
+      {
+        "kind": "wow",
+        "title": {
+          "en": "The tree that feeds a city"
+        },
+        "text": {
+          "en": "In Britain, scientists counted 2,300 kinds of living things that use oak trees, and 326 that can't live without them. Some oaks live more than 1,000 years."
+        },
+        "src": [
+          "woodland-oak"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "Bears really do sleep in trees"
+        },
+        "text": {
+          "en": "Tumble's den is inside a giant oak. That's real bear behaviour: in the Great Smoky Mountains, many bears den high up inside standing hollow trees."
+        },
+        "src": [
+          "nps-smokies"
+        ]
+      },
+      {
+        "kind": "ha",
+        "title": {
+          "en": "Squirrels plant forests by accident"
+        },
+        "text": {
+          "en": "Red squirrels bury seeds for winter, then forget some of them. The forgotten ones can grow into new trees."
+        },
+        "src": [
+          "mammal-squirrel"
+        ]
+      }
+    ],
+    "map": {
+      "lat": 45.477,
+      "lon": 25.258,
+      "zoom": 11,
+      "region": [
+        -11,
+        35,
+        42,
+        62
+      ],
+      "highlight": [
+        642
+      ],
+      "label": {
+        "en": "Piatra Craiului, Romania"
+      },
+      "text": {
+        "en": "A national park in the Carpathian Mountains with old, wild forests. Brown bears, wolves and lynx live here, and visitors watch the bears from hides."
+      },
+      "src": [
+        "wiki-piatra",
+        "rri-piatra"
+      ],
+      "areaNote": {
+        "en": "Yellow: Romania."
+      },
+      "pin": [
+        68.41,
+        67.31
+      ],
+      "aspect": 1.2559
+    }
+  },
+  "cast": [
+    {
+      "id": "tumble",
+      "role": "hero",
+      "colour": "peach",
+      "name": {
+        "en": "Tumble"
+      },
+      "animal": {
+        "en": "Brown bear cub"
+      },
+      "image": "tumble.jpg",
+      "job": {
+        "en": "The bouncy cub who thinks resting is losing"
+      },
+      "superpower": {
+        "en": "Born in a snowy den, already sleeping through winter"
+      },
+      "lineup": {
+        "weight": {
+          "en": "340–680 g at birth"
+        },
+        "grams": 500,
+        "like": {
+          "en": "a block of butter"
+        }
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Born"
+          },
+          "value": {
+            "en": "January to March, inside Mom's winter den"
+          },
+          "src": [
+            "adw-bear"
+          ]
+        },
+        {
+          "label": {
+            "en": "Birth weight"
+          },
+          "value": {
+            "en": "340–680 g, about a block of butter"
+          },
+          "src": [
+            "adw-bear"
+          ]
+        },
+        {
+          "label": {
+            "en": "Brothers and sisters"
+          },
+          "value": {
+            "en": "Usually 1 or 2, sometimes 3"
+          },
+          "src": [
+            "adw-bear"
+          ]
+        },
+        {
+          "label": {
+            "en": "Drinks"
+          },
+          "value": {
+            "en": "Mom's milk for 18–30 months"
+          },
+          "src": [
+            "adw-bear"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "With Mom until age 2 or 3"
+          },
+          "src": [
+            "adw-bear",
+            "doi-katmai"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the wild"
+          },
+          "value": {
+            "en": "Brown bears are doing well in Romania"
+          },
+          "src": [
+            "popescu"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Born tiny, in the dark"
+          },
+          "text": {
+            "en": "Tumble started life in the middle of winter, inside Mom's den: blind, without fur, and smaller than a block of butter. While Mom slept, he snuggled in and drank her milk."
+          },
+          "src": [
+            "adw-bear",
+            "nps-yose"
+          ]
+        },
+        {
+          "title": {
+            "en": "A long time with Mom"
+          },
+          "text": {
+            "en": "Bear cubs stay with their mothers for two to three years, and drink milk for up to two and a half. That's a lot of bedtime stories."
+          },
+          "src": [
+            "adw-bear",
+            "doi-katmai"
+          ]
+        },
+        {
+          "title": {
+            "en": "No dad around"
+          },
+          "text": {
+            "en": "Brown bears mostly live alone. The only lasting family bond is between a mother and her cubs, so Mama Bear raises Tumble by herself."
+          },
+          "src": [
+            "adw-bear"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Born while Mom is asleep"
+          },
+          "text": {
+            "en": "A mother bear gives birth during her winter sleep and nurses her cubs without leaving the den, eating or drinking."
+          },
+          "src": [
+            "nps-glac",
+            "nps-yose"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Pooh was half right"
+          },
+          "text": {
+            "en": "Wild bears do raid beehives and love honey. But what they really want is the baby bees inside, which are full of protein. Bad news for Zuzu's family!"
+          },
+          "src": [
+            "mentalfloss"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "A big nose for a small bear"
+          },
+          "text": {
+            "en": "Bears have human-like hearing and poor eyesight, but a super nose: they can follow a smell for more than three kilometres."
+          },
+          "src": [
+            "adw-bear"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "In autumn a real cub Tumble's age would be eating everything in sight to get ready for his winter sleep, and by first snow he'd be heading into the den with Mom, not off to the games."
+      },
+      "storyVsRealSrc": [
+        "doi-katmai",
+        "nps-katm-hib"
+      ]
+    },
+    {
+      "id": "zuzu",
+      "role": "friend",
+      "colour": "sun",
+      "name": {
+        "en": "Zuzu"
+      },
+      "animal": {
+        "en": "Honeybee"
+      },
+      "image": "zuzu.jpg",
+      "job": {
+        "en": "The tiny friend who notices first when Tumble isn't well"
+      },
+      "superpower": {
+        "en": "Turns flowers into honey"
+      },
+      "lineup": {
+        "weight": {
+          "en": "100 mg"
+        },
+        "grams": 0.1,
+        "like": {
+          "en": "four grains of rice"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "12–15 mm"
+          },
+          "src": [
+            "pbs-bee"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "About 100 mg"
+          },
+          "src": [
+            "pbs-bee"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "15–38 days in summer; up to 11 months if she lives through winter"
+          },
+          "src": [
+            "pbs-bee",
+            "adw-bee"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Nectar and pollen from flowers, and honey"
+          },
+          "src": [
+            "adw-bee"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "A hive of wax combs, with 20,000 to 60,000 sisters"
+          },
+          "src": [
+            "adw-bee",
+            "nasa-bee"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "One queen, thousands of worker girls, a few boy drones"
+          },
+          "src": [
+            "adw-bee"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Every worker is a girl"
+          },
+          "text": {
+            "en": "In a hive, the queen lays the eggs, the boys (drones) don't work, and every single worker bee is a female. So Zuzu really is a she."
+          },
+          "src": [
+            "adw-bee"
+          ]
+        },
+        {
+          "title": {
+            "en": "How honey is made"
+          },
+          "text": {
+            "en": "Zuzu sips nectar into a special honey stomach, flies home and hands it to younger bees. They add enzymes and fan it with their wings until the water dries away and it turns thick and sweet."
+          },
+          "src": [
+            "adw-bee",
+            "smithsonian-honey"
+          ]
+        },
+        {
+          "title": {
+            "en": "Dance directions"
+          },
+          "text": {
+            "en": "Found great flowers? A bee does a waggle dance on the comb that shows her sisters which way to fly and how far."
+          },
+          "src": [
+            "adw-bee"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Two million flowers per jar"
+          },
+          "text": {
+            "en": "To make one pound of honey, bees visit about 2 million flowers. One bee makes only about 1/12 of a teaspoon in her whole life."
+          },
+          "src": [
+            "ucanr",
+            "nasa-bee"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "A winter group hug"
+          },
+          "text": {
+            "en": "Honeybees don't sleep through winter. They squeeze into a ball around the queen and shiver their flight muscles to keep the middle warm, even when it's freezing outside."
+          },
+          "src": [
+            "adw-bee",
+            "psu-winter"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Honey almost never goes bad"
+          },
+          "text": {
+            "en": "Honey has so little water and so much acid that germs can't grow in it. Keep the lid on and it lasts for years and years."
+          },
+          "src": [
+            "smithsonian-honey"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "An old, old soother"
+          },
+          "text": {
+            "en": "People have used honey for thousands of years: on ancient Sumerian clay tablets, it shows up in about a third of the written remedies."
+          },
+          "src": [
+            "smithsonian-honey"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real honeybees stay home when it's cold or raining: they fly out to forage when it's warmer than about 16 °C and dry. So Zuzu flying through cold rain is her being an extra-brave friend."
+      },
+      "storyVsRealSrc": [
+        "psu-seasons"
+      ]
+    },
+    {
+      "id": "mama-bear",
+      "role": "supporting",
+      "colour": "mint",
+      "name": {
+        "en": "Mama Bear"
+      },
+      "animal": {
+        "en": "Brown bear"
+      },
+      "image": "mama-bear.jpg",
+      "job": {
+        "en": "Asks one question instead of giving orders"
+      },
+      "superpower": {
+        "en": "Goes all winter without eating, drinking or a bathroom break"
+      },
+      "lineup": {
+        "weight": {
+          "en": "80 to 600+ kg"
+        },
+        "grams": 150000,
+        "like": {
+          "en": "two grown-ups, or more"
+        }
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "1 to 2.8 m, head to rump"
+          },
+          "src": [
+            "adw-bear"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "80 to over 600 kg; mothers are smaller than big males"
+          },
+          "src": [
+            "adw-bear"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "20–30 years in the wild"
+          },
+          "src": [
+            "adw-bear"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Almost everything: plants, berries, insects, fish, meat"
+          },
+          "src": [
+            "adw-bear"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Large home ranges that overlap with other bears'"
+          },
+          "src": [
+            "adw-bear"
+          ]
+        },
+        {
+          "label": {
+            "en": "Winter"
+          },
+          "value": {
+            "en": "Sleeps in a den from about Oct–Dec to Mar–May"
+          },
+          "src": [
+            "adw-bear"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "The great autumn feast"
+          },
+          "text": {
+            "en": "In autumn, bears enter hyperphagia: their body switches off the feeling of being full, so they eat non-stop. Some gain up to 4 pounds (almost 2 kg) in a single day!"
+          },
+          "src": [
+            "doi-katmai"
+          ]
+        },
+        {
+          "title": {
+            "en": "The longest nap"
+          },
+          "text": {
+            "en": "All winter, a bear lives on the fat she stored. She doesn't eat, drink, pee or poop, sometimes for months, and wakes up in spring thin and hungry."
+          },
+          "src": [
+            "nps-katm-hib",
+            "doi-katmai"
+          ]
+        },
+        {
+          "title": {
+            "en": "A light sleeper"
+          },
+          "text": {
+            "en": "It isn't a deep, cold hibernation: a bear's body cools only a few degrees, so she can wake up quickly if something disturbs her den."
+          },
+          "src": [
+            "adw-bear"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Muscles that grow in bed"
+          },
+          "text": {
+            "en": "Hibernating bears recycle the waste from their bodies back into protein, so they can even gain muscle over the winter."
+          },
+          "src": [
+            "nps-glac"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "A fat bear is a happy bear"
+          },
+          "text": {
+            "en": "In Alaska's Katmai National Park, people vote every autumn for the fattest bear in Fat Bear Week. For a bear, fat means a safe winter."
+          },
+          "src": [
+            "doi-katmai"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Waking up hungry"
+          },
+          "text": {
+            "en": "After months without food, a bear leaves the den in spring skinny and hungry, and takes a few weeks to get her body working normally again."
+          },
+          "src": [
+            "nps-glac",
+            "doi-katmai"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real mother bears don't stir honey into warm milk, but they really do raise their cubs alone and care for them for years."
+      },
+      "storyVsRealSrc": [
+        "adw-bear"
+      ]
+    },
+    {
+      "id": "hedgehog",
+      "role": "supporting",
+      "colour": "lilac",
+      "name": {
+        "en": "The hedgehog cub"
+      },
+      "animal": {
+        "en": "European hedgehog"
+      },
+      "image": "hedgehog.jpg",
+      "job": {
+        "en": "The little friend in the acorn hat"
+      },
+      "superpower": {
+        "en": "Around 5,000 spines that pop up all at once"
+      },
+      "lineup": {
+        "weight": {
+          "en": "0.8–1.2 kg"
+        },
+        "grams": 1000,
+        "like": {
+          "en": "a bag of sugar"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Body"
+          },
+          "value": {
+            "en": "15–30 cm, with a tiny 1–2 cm tail"
+          },
+          "src": [
+            "mammal-hog"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "800–1,200 g, about a bag of sugar"
+          },
+          "src": [
+            "adw-hog"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "2–3 years on average"
+          },
+          "src": [
+            "mammal-hog"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Beetles, worms, slugs, caterpillars"
+          },
+          "src": [
+            "mammal-hog"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "A nest of leaves, grass and twigs"
+          },
+          "src": [
+            "adw-hog"
+          ]
+        },
+        {
+          "label": {
+            "en": "Awake"
+          },
+          "value": {
+            "en": "At night"
+          },
+          "src": [
+            "adw-hog"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "The night walker"
+          },
+          "text": {
+            "en": "Hedgehogs sleep all day in a leafy nest, then trundle out at night, travelling one to two kilometres to find beetles, worms and slugs."
+          },
+          "src": [
+            "adw-hog",
+            "ptes-hog"
+          ]
+        },
+        {
+          "title": {
+            "en": "A loner"
+          },
+          "text": {
+            "en": "Hedgehogs live alone and don't fight over territory. They mostly meet only to find a mate."
+          },
+          "src": [
+            "adw-hog"
+          ]
+        },
+        {
+          "title": {
+            "en": "Hoglets"
+          },
+          "text": {
+            "en": "Babies are called hoglets, usually four or five at a time. Their spines are hidden under soft skin at birth and pop out within a day."
+          },
+          "src": [
+            "mammal-hog",
+            "adw-hog"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "5,000 spines, one muscle"
+          },
+          "text": {
+            "en": "When scared, a hedgehog rolls into a ball and a special muscle makes all of its spines stand up at once."
+          },
+          "src": [
+            "adw-hog"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Too thin to sleep"
+          },
+          "text": {
+            "en": "A hedgehog needs to weigh at least 450 g before winter. Lighter than that, it doesn't have enough fat to survive hibernation."
+          },
+          "src": [
+            "ptes-sheet"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Winter wake-ups"
+          },
+          "text": {
+            "en": "Hedgehogs hibernate from about October to April, but they wake every week or two for a day or so, sometimes to build a new nest."
+          },
+          "src": [
+            "adw-hog",
+            "mammal-hog"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "By first snow, a real hedgehog would be curled up asleep in his winter nest. And no acorn hats, sadly."
+      },
+      "storyVsRealSrc": [
+        "mammal-hog"
+      ]
+    },
+    {
+      "id": "hare",
+      "role": "supporting",
+      "colour": "sky",
+      "name": {
+        "en": "The hare"
+      },
+      "animal": {
+        "en": "European brown hare"
+      },
+      "image": "hare.jpg",
+      "job": {
+        "en": "The speedy friend with the blue ribbon"
+      },
+      "superpower": {
+        "en": "Runs at up to 60 km/h"
+      },
+      "lineup": {
+        "weight": {
+          "en": "3–5 kg"
+        },
+        "grams": 4000,
+        "like": {
+          "en": "a big house cat"
+        },
+        "awake": "dawn"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "60–75 cm, with ears about 10 cm long"
+          },
+          "src": [
+            "adw-hare"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "3–5 kg"
+          },
+          "src": [
+            "adw-hare"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Typically 2–3 years"
+          },
+          "src": [
+            "suffolk-hare"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Grasses and herbs; twigs, buds and bark in winter"
+          },
+          "src": [
+            "adw-hare"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "No burrow: a shallow dip in the grass called a form"
+          },
+          "src": [
+            "adw-hare",
+            "wwt-hare"
+          ]
+        },
+        {
+          "label": {
+            "en": "Awake"
+          },
+          "value": {
+            "en": "Mostly dusk and night"
+          },
+          "src": [
+            "adw-hare"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "No house at all"
+          },
+          "text": {
+            "en": "Unlike rabbits, hares never dig burrows. They spend the day lying flat and still in a form, a shallow dip in the grass, and trust their speed."
+          },
+          "src": [
+            "wwt-hare"
+          ]
+        },
+        {
+          "title": {
+            "en": "Babies born ready to run"
+          },
+          "text": {
+            "en": "Baby hares, called leverets, are born above ground with fur on and eyes open. Rabbit babies are born bald and blind!"
+          },
+          "src": [
+            "wwt-hare",
+            "ypte-hare"
+          ]
+        },
+        {
+          "title": {
+            "en": "Dinner once a day"
+          },
+          "text": {
+            "en": "Mom hides each leveret in its own spot and visits just once a day, at dusk, for a few minutes of milk, so predators don't find them."
+          },
+          "src": [
+            "ypte-hare",
+            "discover-hare"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Zoom!"
+          },
+          "text": {
+            "en": "Brown hares have been clocked at up to 60 km/h in a straight line, as fast as a car in town."
+          },
+          "src": [
+            "adw-hare"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "The girls do the boxing"
+          },
+          "text": {
+            "en": "People used to think boxing hares were two boys fighting. Usually it's a girl hare punching away a boy who won't leave her alone!"
+          },
+          "src": [
+            "wwt-hare",
+            "ywt-hare"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Eyes in the sky"
+          },
+          "text": {
+            "en": "Foxes, wild cats, big hawks and owls all hunt hares, which is why they freeze flat in their form and then run like the wind."
+          },
+          "src": [
+            "adw-hare"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real brown hares like open fields more than thick forest, and they don't play in groups. And no ribbons."
+      },
+      "storyVsRealSrc": [
+        "ypte-hare-print",
+        "adw-hare"
+      ]
+    },
+    {
+      "id": "squirrel",
+      "role": "supporting",
+      "colour": "peach",
+      "name": {
+        "en": "The squirrel"
+      },
+      "animal": {
+        "en": "Red squirrel"
+      },
+      "image": "squirrel.jpg",
+      "job": {
+        "en": "The busy friend with the satchel"
+      },
+      "superpower": {
+        "en": "Smells a buried nut under a foot of snow"
+      },
+      "lineup": {
+        "weight": {
+          "en": "280–350 g"
+        },
+        "grams": 315,
+        "like": {
+          "en": "a can of soup"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Body"
+          },
+          "value": {
+            "en": "About 20 cm, plus an 18 cm tail"
+          },
+          "src": [
+            "swt-squirrel"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "280–350 g, about a can of soup"
+          },
+          "src": [
+            "swt-squirrel"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About 3 years on average"
+          },
+          "src": [
+            "swt-squirrel"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Seeds, nuts, acorns, pine cones, fungi"
+          },
+          "src": [
+            "mammal-squirrel"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "A drey: a ball of twigs high in a tree"
+          },
+          "src": [
+            "mammal-squirrel",
+            "swt-squirrel"
+          ]
+        },
+        {
+          "label": {
+            "en": "Awake"
+          },
+          "value": {
+            "en": "Day, busiest morning and late afternoon"
+          },
+          "src": [
+            "adw-squirrel"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Winter pantry"
+          },
+          "text": {
+            "en": "Red squirrels don't hibernate. In autumn they bury nuts and seeds and hide mushrooms in trees to dry, so there's food when snow comes."
+          },
+          "src": [
+            "woodland-squirrel",
+            "cairngorms"
+          ]
+        },
+        {
+          "title": {
+            "en": "A house with spare rooms"
+          },
+          "text": {
+            "en": "A squirrel builds more than one drey, in case one gets damaged or to confuse predators. It even moves out if one gets too full of fleas!"
+          },
+          "src": [
+            "countryfile-squirrel"
+          ]
+        },
+        {
+          "title": {
+            "en": "Babies"
+          },
+          "text": {
+            "en": "Kittens are born blind and hairless, open their eyes at about 30 days and leave home at 10 to 12 weeks."
+          },
+          "src": [
+            "adw-squirrel",
+            "roydennis"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "A nose for snow"
+          },
+          "text": {
+            "en": "Red squirrels can sniff out buried food under a foot of snow, and can tell a rotten nut without opening it."
+          },
+          "src": [
+            "countryfile-squirrel"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Winter ear tufts"
+          },
+          "text": {
+            "en": "Red squirrels grow big fluffy ear tufts in winter, which disappear by summer. A seasonal hairstyle!"
+          },
+          "src": [
+            "mammal-squirrel"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Watch the skies"
+          },
+          "text": {
+            "en": "Big birds of prey and pine martens hunt red squirrels, so they spend most of their time up in the trees."
+          },
+          "src": [
+            "adw-squirrel",
+            "mammal-squirrel"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Red squirrels really are awake all winter, so this squirrel joining the very last game in the snow is true to life. The satchel isn't."
+      },
+      "storyVsRealSrc": [
+        "woodland-squirrel"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "title": {
+        "en": "Listen to your body"
+      },
+      "text": {
+        "en": "Ask Mama Bear's question at home: what does your body need right now? Warm, rest, a snack, a hug?"
+      }
+    },
+    {
+      "title": {
+        "en": "The bee dance"
+      },
+      "text": {
+        "en": "Hide a toy, then waggle-dance in its direction. Can your family follow your directions?"
+      }
+    },
+    {
+      "title": {
+        "en": "Winter pantry"
+      },
+      "text": {
+        "en": "Hide ten nuts or blocks around the room. Tomorrow, how many can you find? The rest become 'trees'!"
+      }
+    },
+    {
+      "title": {
+        "en": "Hedgehog ball"
+      },
+      "text": {
+        "en": "Curl up tight like a hedgehog, then spring open. How fast can you go from ball to star?"
+      }
+    },
+    {
+      "title": {
+        "en": "Spot the change"
+      },
+      "text": {
+        "en": "Flip through the book: which animals would really be asleep by first snow?"
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are the animals in Tumble and the Honey Glow real?"
+      },
+      "a": {
+        "en": "Yes. Brown bears, honeybees, European hedgehogs, brown hares and red squirrels all live together in the forests of Europe. We changed a few things for the story, and each hero tells you what."
+      }
+    },
+    {
+      "q": {
+        "en": "Can I give my baby honey for a cough?"
+      },
+      "a": {
+        "en": "Not before their first birthday. The CDC and the American Academy of Pediatrics say never to give honey to babies under 12 months, because of the risk of infant botulism. For older children with a cough that lasts, or any trouble breathing, talk to your doctor."
+      },
+      "src": [
+        "ufl-botulism"
+      ]
+    },
+    {
+      "q": {
+        "en": "Do bears really hibernate?"
+      },
+      "a": {
+        "en": "Yes, in their own way. Bears sleep in a den for months without eating, drinking or going to the bathroom, but their body cools only a few degrees, so they can wake quickly."
+      },
+      "src": [
+        "nps-katm-hib",
+        "adw-bear"
+      ]
+    },
+    {
+      "q": {
+        "en": "Do bears really love honey?"
+      },
+      "a": {
+        "en": "They do raid beehives and eat honey, but they're mostly after the baby bees inside, which are full of protein."
+      },
+      "src": [
+        "mentalfloss"
+      ]
+    }
+  ],
+  "sources": {
+    "adw-bear": {
+      "name": "Animal Diversity Web",
+      "title": "Ursus arctos",
+      "url": "https://animaldiversity.org/accounts/Ursus_arctos/"
+    },
+    "adw-hog": {
+      "name": "Animal Diversity Web",
+      "title": "Erinaceus europaeus",
+      "url": "https://animaldiversity.org/accounts/Erinaceus_europaeus/"
+    },
+    "adw-hare": {
+      "name": "Animal Diversity Web",
+      "title": "Lepus europaeus",
+      "url": "https://animaldiversity.org/accounts/Lepus_europaeus/"
+    },
+    "adw-squirrel": {
+      "name": "Animal Diversity Web",
+      "title": "Sciurus vulgaris",
+      "url": "https://animaldiversity.org/accounts/Sciurus_vulgaris/"
+    },
+    "adw-bee": {
+      "name": "Animal Diversity Web",
+      "title": "Apis mellifera",
+      "url": "https://animaldiversity.org/accounts/Apis_mellifera/"
+    },
+    "pbs-bee": {
+      "name": "PBS Nature",
+      "title": "Honeybee animal guide",
+      "url": "https://www.pbs.org/wnet/nature/animal-guide-honeybee/499"
+    },
+    "nasa-bee": {
+      "name": "NASA HoneyBeeNet",
+      "title": "Honey bee basics",
+      "url": "https://honeybeenet.gsfc.nasa.gov/Honeybees/Basics.htm"
+    },
+    "ucanr": {
+      "name": "University of California ANR",
+      "title": "Bees and honey facts (Eric Mussen, UC Davis)",
+      "url": "https://ccfruitandnuts.ucanr.edu/node/154564"
+    },
+    "psu-winter": {
+      "name": "Penn State Entomology",
+      "title": "Winterizing hives at the Arboretum",
+      "url": "https://ento.psu.edu/news/winterizing-hives-at-the-arboretum-at-penn-state"
+    },
+    "psu-seasons": {
+      "name": "Penn State Center for Pollinator Research",
+      "title": "Honey Bee Management Throughout the Seasons",
+      "url": "https://pollinators.psu.edu/assets/uploads/documents/Honey-Bee-Management-Throughout-the-Seasons.pdf"
+    },
+    "smithsonian-honey": {
+      "name": "Smithsonian Magazine",
+      "title": "The Science Behind Honey's Eternal Shelf Life",
+      "url": "https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/"
+    },
+    "ufl-botulism": {
+      "name": "University of Florida IFAS Extension",
+      "title": "Infant Botulism and Honey",
+      "url": "https://edis.ifas.ufl.edu/publication/AA142"
+    },
+    "mentalfloss": {
+      "name": "Mental Floss (quoting Alaska Fish & Wildlife News)",
+      "title": "Do Bears Really Love Honey?",
+      "url": "https://www.mentalfloss.com/animals/do-bears-really-love-honey"
+    },
+    "doi-katmai": {
+      "name": "U.S. Department of the Interior",
+      "title": "Everything You Want to Know About Katmai National Park's Fat Bears",
+      "url": "https://doi.gov/blog/everything-you-want-know-about-katmai-national-parks-fat-bears"
+    },
+    "nps-katm-hib": {
+      "name": "National Park Service, Katmai",
+      "title": "Hibernation in Bears",
+      "url": "https://www.nps.gov/katm/blogs/Hibernation-in-Bears.htm"
+    },
+    "nps-glac": {
+      "name": "National Park Service, Glacier",
+      "title": "Hibernation-Migration-Fascination",
+      "url": "https://www.nps.gov/glac/learn/education/hibernation-migration-fascination-narrative.htm"
+    },
+    "nps-yose": {
+      "name": "National Park Service, Yosemite",
+      "title": "Where Do Bears Go in Winter?",
+      "url": "https://www.nps.gov/yose/blogs/where-do-bears-go-in-winter.htm"
+    },
+    "nps-smokies": {
+      "name": "National Park Service, Great Smoky Mountains",
+      "title": "Black Bears",
+      "url": "https://www.nps.gov/grsm/learn/nature/black-bears.htm"
+    },
+    "popescu": {
+      "name": "Ecology and Evolution",
+      "title": "Brown bear density in the Romanian Carpathians (Popescu et al. 2017)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5606905"
+    },
+    "woodland-oak": {
+      "name": "Woodland Trust",
+      "title": "Oak tree wildlife",
+      "url": "https://woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/oak-tree-wildlife/"
+    },
+    "woodland-squirrel": {
+      "name": "Woodland Trust",
+      "title": "Red squirrel facts",
+      "url": "https://www.woodlandtrust.org.uk/blog/2026/04/red-squirrel-facts/"
+    },
+    "mammal-squirrel": {
+      "name": "The Mammal Society",
+      "title": "Red squirrel",
+      "url": "https://mammal.org.uk/british-mammals/red-squirrel"
+    },
+    "mammal-hog": {
+      "name": "The Mammal Society",
+      "title": "Hedgehog fact sheet",
+      "url": "https://www.mammal.org.uk/wp-content/uploads/2022/07/Hedgehog-Fact-Sheet-v2.pdf"
+    },
+    "ptes-hog": {
+      "name": "People's Trust for Endangered Species",
+      "title": "Hedgehog facts and figures",
+      "url": "https://ptes.org/get-informed/facts-figures/hedgehog/"
+    },
+    "ptes-sheet": {
+      "name": "People's Trust for Endangered Species",
+      "title": "European hedgehog species info sheet",
+      "url": "https://ptes.org/wp-content/uploads/2024/05/European-Hedgehog-Species-Info-Sheet-PTES.pdf"
+    },
+    "swt-squirrel": {
+      "name": "Scottish Wildlife Trust",
+      "title": "Red squirrel",
+      "url": "https://scottishwildlifetrust.org.uk/?p=445"
+    },
+    "cairngorms": {
+      "name": "Cairngorms National Park",
+      "title": "Red squirrel",
+      "url": "https://cairngorms.co.uk/wildlife/red-squirrel"
+    },
+    "countryfile-squirrel": {
+      "name": "Countryfile",
+      "title": "Red squirrel guide",
+      "url": "https://www.countryfile.com/wildlife/mammals/red-squirrel-guide-how-to-identify-and-where-to-see-in-britain"
+    },
+    "roydennis": {
+      "name": "Roy Dennis Wildlife Foundation",
+      "title": "Red Squirrel",
+      "url": "https://www.roydennis.org/?p=1281"
+    },
+    "wwt-hare": {
+      "name": "Wildfowl & Wetlands Trust",
+      "title": "The hare-raising antics of the brown hare",
+      "url": "https://www.wwt.org.uk/news/2020/07/08/the-hare-raising-antics-of-the-brown-hare/19063"
+    },
+    "ywt-hare": {
+      "name": "Yorkshire Wildlife Trust",
+      "title": "Brown hares",
+      "url": "https://ywt.org.uk/node/4573"
+    },
+    "ypte-hare": {
+      "name": "Young People's Trust for the Environment",
+      "title": "Brown hare: breeding",
+      "url": "https://ypte.org.uk/factsheets/hare-brown/breeding"
+    },
+    "ypte-hare-print": {
+      "name": "Young People's Trust for the Environment",
+      "title": "Brown hare factsheet",
+      "url": "https://ypte.org.uk/factsheets/hare-brown/print"
+    },
+    "discover-hare": {
+      "name": "Discover Wildlife",
+      "title": "Understand mammal behaviour: hares",
+      "url": "https://discoverwildlife.com/uncategorized/new-series-understand-mammal-behaviour-part-1-hares"
+    },
+    "suffolk-hare": {
+      "name": "Suffolk Biodiversity Information Service",
+      "title": "The Brown hare",
+      "url": "https://vev.suffolkbis.org.uk/03-mar-2022--brown-hare"
+    },
+    "wiki-piatra": {
+      "name": "Wikipedia",
+      "title": "Piatra Craiului National Park",
+      "url": "https://en.wikipedia.org/wiki/Piatra_Craiului_National_Park"
+    },
+    "rri-piatra": {
+      "name": "Radio Romania International",
+      "title": "The Piatra Craiului National Park",
+      "url": "https://www.rri.ro/en?p=148474"
+    }
+  }
+}

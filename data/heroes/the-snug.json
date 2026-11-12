@@ -1,1508 +1,1513 @@
 {
- "book": "the-snug",
- "draft": true,
- "updated": "2026-11-12",
- "review": {
-  "factsChecked": "2026-11-12",
-  "culturalReader": true
- },
- "title": {
-  "en": "Heroes of the Snug"
- },
- "seoTitle": {
-  "en": "Heroes of the Snug: the real animals behind The Snug"
- },
- "description": {
-  "en": "A porcupine with 35 cm quills, a badger that eats 200 worms a night, and a mole that digs 20 m a day. Real facts for kids about the animals in The Snug."
- },
- "intro": {
-  "en": "Every animal in The Snug is real. A porcupine, a badger, a squirrel, a mouse, a mole and rabbits: here is how they really live, dig and share."
- },
- "place": {
-  "name": {
-   "en": "Casentino Forests, Italy"
+  "book": "the-snug",
+  "draft": true,
+  "updated": "2026-11-12",
+  "review": {
+    "factsChecked": "2026-11-12",
+    "culturalReader": true
   },
-  "image": "place.jpg",
+  "title": {
+    "en": "Heroes of the Snug"
+  },
+  "seoTitle": {
+    "en": "Heroes of the Snug: the real animals behind The Snug"
+  },
+  "description": {
+    "en": "A porcupine with 35 cm quills, a badger that eats 200 worms a night, and a mole that digs 20 m a day. Real facts for kids about the animals in The Snug."
+  },
   "intro": {
-   "en": "Bramble Hollow is made up, so we picked a real place where crested porcupines, badgers, red squirrels and moles all live: the Casentino Forests National Park in Italy. It's one of the few places in Europe where you can meet a porcupine!"
+    "en": "Every animal in The Snug is real. A porcupine, a badger, a squirrel, a mouse, a mole and rabbits: here is how they really live, dig and share."
   },
-  "introSrc": [
-   "wti",
-   "wiki-porc"
-  ],
-  "facts": [
-   {
-    "kind": "wow",
-    "title": {
-     "en": "Italy's leafiest park"
+  "place": {
+    "name": {
+      "en": "Casentino Forests, Italy"
     },
-    "text": {
-     "en": "About 85% of the park is covered in trees. It's the most wooded national park in Italy."
+    "image": "place.jpg",
+    "intro": {
+      "en": "Bramble Hollow is made up, so we picked a real place where crested porcupines, badgers, red squirrels and moles all live: the Casentino Forests National Park in Italy. It's one of the few places in Europe where you can meet a porcupine!"
     },
-    "src": [
-     "ecobnb"
-    ]
-   },
-   {
-    "kind": "hidden",
-    "title": {
-     "en": "Very old beeches"
-    },
-    "text": {
-     "en": "Some beech trees here are more than 500 years old. Part of the forest is a UNESCO World Heritage Site."
-    },
-    "src": [
-     "faggete",
-     "wiki-park"
-    ]
-   },
-   {
-    "kind": "wow",
-    "title": {
-     "en": "Where a river begins"
-    },
-    "text": {
-     "en": "The Arno, the river that flows through Florence, starts as a spring on Monte Falterona in the park."
-    },
-    "src": [
-     "wiki-park2"
-    ]
-   },
-   {
-    "kind": "hidden",
-    "title": {
-     "en": "Keep out, forest only"
-    },
-    "text": {
-     "en": "Sasso Fratino became Italy's first strict nature reserve in 1959. Visitors can't go in, so the forest grows wild."
-    },
-    "src": [
-     "wiki-park2"
-    ]
-   },
-   {
-    "kind": "ha",
-    "title": {
-     "en": "Monks in the woods"
-    },
-    "text": {
-     "en": "Monks at Camaldoli and La Verna cared for these forests for hundreds of years."
-    },
-    "src": [
-     "npo"
-    ]
-   }
-  ],
-  "map": {
-   "lat": 43.795,
-   "lon": 11.82,
-   "zoom": 10,
-   "region": [
-    0,
-    36,
-    16,
-    48
-   ],
-   "highlight": [
-    380
-   ],
-   "label": {
-    "en": "Casentino Forests, Italy"
-   },
-   "text": {
-    "en": "A huge mountain forest in the Apennines between Tuscany and Emilia-Romagna, about an hour's drive east of Florence."
-   },
-   "src": [
-    "wiki-park",
-    "npo"
-   ],
-   "areaNote": {
-    "en": "Yellow: Italy."
-   }
-  }
- },
- "cast": [
-  {
-   "id": "quilla",
-   "role": "hero",
-   "colour": "peach",
-   "name": {
-    "en": "Quilla"
-   },
-   "animal": {
-    "en": "Crested porcupine"
-   },
-   "image": "quilla.jpg",
-   "job": {
-    "en": "The new girl who builds a place with room for everyone"
-   },
-   "superpower": {
-    "en": "Quills up to 35 cm long"
-   },
-   "lineup": {
-    "weight": {
-     "en": "10–30 kg"
-    },
-    "grams": 20000,
-    "like": {
-     "en": "a big dog"
-    },
-    "awake": "night"
-   },
-   "card": [
-    {
-     "label": {
-      "en": "Length"
-     },
-     "value": {
-      "en": "60–93 cm, plus a short tail"
-     },
-     "src": [
-      "awf",
-      "adw-porc2"
-     ]
-    },
-    {
-     "label": {
-      "en": "Weight"
-     },
-     "value": {
-      "en": "10–30 kg"
-     },
-     "src": [
-      "awf"
-     ]
-    },
-    {
-     "label": {
-      "en": "Lives"
-     },
-     "value": {
-      "en": "About 15 years in the wild"
-     },
-     "src": [
-      "awf"
-     ]
-    },
-    {
-     "label": {
-      "en": "Eats"
-     },
-     "value": {
-      "en": "Roots, bulbs, bark and fallen fruit"
-     },
-     "src": [
-      "adw-porc"
-     ]
-    },
-    {
-     "label": {
-      "en": "Home"
-     },
-     "value": {
-      "en": "Burrows, caves and rocky holes in Italy and Africa"
-     },
-     "src": [
-      "sdz-porc",
+    "introSrc": [
+      "wti",
       "wiki-porc"
-     ]
-    },
-    {
-     "label": {
-      "en": "Family"
-     },
-     "value": {
-      "en": "Mom and dad stay together and look after their young for a long time"
-     },
-     "src": [
-      "adw-porc2"
-     ]
+    ],
+    "facts": [
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Italy's leafiest park"
+        },
+        "text": {
+          "en": "About 85% of the park is covered in trees. It's the most wooded national park in Italy."
+        },
+        "src": [
+          "ecobnb"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "Very old beeches"
+        },
+        "text": {
+          "en": "Some beech trees here are more than 500 years old. Part of the forest is a UNESCO World Heritage Site."
+        },
+        "src": [
+          "faggete",
+          "wiki-park"
+        ]
+      },
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Where a river begins"
+        },
+        "text": {
+          "en": "The Arno, the river that flows through Florence, starts as a spring on Monte Falterona in the park."
+        },
+        "src": [
+          "wiki-park2"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "Keep out, forest only"
+        },
+        "text": {
+          "en": "Sasso Fratino became Italy's first strict nature reserve in 1959. Visitors can't go in, so the forest grows wild."
+        },
+        "src": [
+          "wiki-park2"
+        ]
+      },
+      {
+        "kind": "ha",
+        "title": {
+          "en": "Monks in the woods"
+        },
+        "text": {
+          "en": "Monks at Camaldoli and La Verna cared for these forests for hundreds of years."
+        },
+        "src": [
+          "npo"
+        ]
+      }
+    ],
+    "map": {
+      "lat": 43.795,
+      "lon": 11.82,
+      "zoom": 10,
+      "region": [
+        0,
+        36,
+        16,
+        48
+      ],
+      "highlight": [
+        380
+      ],
+      "label": {
+        "en": "Casentino Forests, Italy"
+      },
+      "text": {
+        "en": "A huge mountain forest in the Apennines between Tuscany and Emilia-Romagna, about an hour's drive east of Florence."
+      },
+      "src": [
+        "wiki-park",
+        "npo"
+      ],
+      "areaNote": {
+        "en": "Yellow: Italy."
+      },
+      "pin": [
+        73.88,
+        37.28
+      ],
+      "aspect": 0.9864
     }
-   ],
-   "life": [
-    {
-     "title": {
-      "en": "Europe's only porcupine"
-     },
-     "text": {
-      "en": "The crested porcupine is the only porcupine that lives in Europe, and in Europe you'll only find it in Italy."
-     },
-     "src": [
-      "wiki-porc",
-      "adw-porc"
-     ]
-    },
-    {
-     "title": {
-      "en": "Big and puffy"
-     },
-     "text": {
-      "en": "When it feels scared, a porcupine raises and fans out its quills to look much bigger than it really is."
-     },
-     "src": [
-      "adw-porc"
-     ]
-    },
-    {
-     "title": {
-      "en": "Backwards charge"
-     },
-     "text": {
-      "en": "If a pest won't go away, it stamps its feet, rattles its quills and runs at them backwards, bottom first!"
-     },
-     "src": [
-      "adw-porc2",
-      "awf"
-     ]
-    },
-    {
-     "title": {
-      "en": "Rattle tail"
-     },
-     "text": {
-      "en": "Special hollow quills on its tail rattle when it shakes them, like a warning maraca."
-     },
-     "src": [
-      "adw-porc",
-      "awf"
-     ]
-    }
-   ],
-   "facts": [
-    {
-     "kind": "ha",
-     "title": {
-      "en": "No throwing!"
-     },
-     "text": {
-      "en": "Porcupines can't shoot or throw their quills. They only come loose when something touches them."
-     },
-     "src": [
-      "southwicks"
-     ]
-    },
-    {
-     "kind": "hidden",
-     "title": {
-      "en": "Quills fall out"
-     },
-     "text": {
-      "en": "Quills are a kind of hair, and like all hair they fall out and grow back."
-     },
-     "src": [
-      "sdz-porc",
-      "awf"
-     ]
-    },
-    {
-     "kind": "ha",
-     "title": {
-      "en": "A prickle of porcupines"
-     },
-     "text": {
-      "en": "A family of porcupines is called a prickle. Really!"
-     },
-     "src": [
-      "sdz-porc"
-     ]
-    },
-    {
-     "kind": "wow",
-     "title": {
-      "en": "Bone collectors"
-     },
-     "text": {
-      "en": "Crested porcupines gather old bones and keep them in their dens, probably to gnaw on."
-     },
-     "src": [
-      "wiki-porc"
-     ]
-    },
-    {
-     "kind": "hidden",
-     "title": {
-      "en": "Protected"
-     },
-     "text": {
-      "en": "In Italy, crested porcupines have been protected by law since 1974."
-     },
-     "src": [
-      "adw-porc"
-     ]
-    }
-   ],
-   "storyVsReal": {
-    "en": "Real crested porcupines live on the ground and don't climb trees like Quilla does. They are also much bigger than a badger! But badgers and porcupines in Italy really do share homes."
-   },
-   "storyVsRealSrc": [
-    "sdz-porc",
-    "coppola"
-   ]
   },
-  {
-   "id": "bodie",
-   "role": "friend",
-   "colour": "sky",
-   "name": {
-    "en": "Bodie"
-   },
-   "animal": {
-    "en": "European badger"
-   },
-   "image": "bodie.jpg",
-   "job": {
-    "en": "The first friend to cross the meadow"
-   },
-   "superpower": {
-    "en": "Digs huge underground homes"
-   },
-   "lineup": {
-    "weight": {
-     "en": "8–12 kg"
-    },
-    "grams": 10000,
-    "like": {
-     "en": "a big watermelon"
-    },
-    "awake": "night"
-   },
-   "card": [
+  "cast": [
     {
-     "label": {
-      "en": "Length"
-     },
-     "value": {
-      "en": "75–100 cm, plus a 15 cm tail"
-     },
-     "src": [
-      "mammal-badger"
-     ]
+      "id": "quilla",
+      "role": "hero",
+      "colour": "peach",
+      "name": {
+        "en": "Quilla"
+      },
+      "animal": {
+        "en": "Crested porcupine"
+      },
+      "image": "quilla.jpg",
+      "job": {
+        "en": "The new girl who builds a place with room for everyone"
+      },
+      "superpower": {
+        "en": "Quills up to 35 cm long"
+      },
+      "lineup": {
+        "weight": {
+          "en": "10–30 kg"
+        },
+        "grams": 20000,
+        "like": {
+          "en": "a big dog"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "60–93 cm, plus a short tail"
+          },
+          "src": [
+            "awf",
+            "adw-porc2"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "10–30 kg"
+          },
+          "src": [
+            "awf"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About 15 years in the wild"
+          },
+          "src": [
+            "awf"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Roots, bulbs, bark and fallen fruit"
+          },
+          "src": [
+            "adw-porc"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Burrows, caves and rocky holes in Italy and Africa"
+          },
+          "src": [
+            "sdz-porc",
+            "wiki-porc"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Mom and dad stay together and look after their young for a long time"
+          },
+          "src": [
+            "adw-porc2"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Europe's only porcupine"
+          },
+          "text": {
+            "en": "The crested porcupine is the only porcupine that lives in Europe, and in Europe you'll only find it in Italy."
+          },
+          "src": [
+            "wiki-porc",
+            "adw-porc"
+          ]
+        },
+        {
+          "title": {
+            "en": "Big and puffy"
+          },
+          "text": {
+            "en": "When it feels scared, a porcupine raises and fans out its quills to look much bigger than it really is."
+          },
+          "src": [
+            "adw-porc"
+          ]
+        },
+        {
+          "title": {
+            "en": "Backwards charge"
+          },
+          "text": {
+            "en": "If a pest won't go away, it stamps its feet, rattles its quills and runs at them backwards, bottom first!"
+          },
+          "src": [
+            "adw-porc2",
+            "awf"
+          ]
+        },
+        {
+          "title": {
+            "en": "Rattle tail"
+          },
+          "text": {
+            "en": "Special hollow quills on its tail rattle when it shakes them, like a warning maraca."
+          },
+          "src": [
+            "adw-porc",
+            "awf"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "ha",
+          "title": {
+            "en": "No throwing!"
+          },
+          "text": {
+            "en": "Porcupines can't shoot or throw their quills. They only come loose when something touches them."
+          },
+          "src": [
+            "southwicks"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Quills fall out"
+          },
+          "text": {
+            "en": "Quills are a kind of hair, and like all hair they fall out and grow back."
+          },
+          "src": [
+            "sdz-porc",
+            "awf"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "A prickle of porcupines"
+          },
+          "text": {
+            "en": "A family of porcupines is called a prickle. Really!"
+          },
+          "src": [
+            "sdz-porc"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Bone collectors"
+          },
+          "text": {
+            "en": "Crested porcupines gather old bones and keep them in their dens, probably to gnaw on."
+          },
+          "src": [
+            "wiki-porc"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Protected"
+          },
+          "text": {
+            "en": "In Italy, crested porcupines have been protected by law since 1974."
+          },
+          "src": [
+            "adw-porc"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real crested porcupines live on the ground and don't climb trees like Quilla does. They are also much bigger than a badger! But badgers and porcupines in Italy really do share homes."
+      },
+      "storyVsRealSrc": [
+        "sdz-porc",
+        "coppola"
+      ]
     },
     {
-     "label": {
-      "en": "Weight"
-     },
-     "value": {
-      "en": "8–12 kg, heavier in autumn"
-     },
-     "src": [
-      "mammal-badger",
-      "tfl-badger"
-     ]
+      "id": "bodie",
+      "role": "friend",
+      "colour": "sky",
+      "name": {
+        "en": "Bodie"
+      },
+      "animal": {
+        "en": "European badger"
+      },
+      "image": "bodie.jpg",
+      "job": {
+        "en": "The first friend to cross the meadow"
+      },
+      "superpower": {
+        "en": "Digs huge underground homes"
+      },
+      "lineup": {
+        "weight": {
+          "en": "8–12 kg"
+        },
+        "grams": 10000,
+        "like": {
+          "en": "a big watermelon"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "75–100 cm, plus a 15 cm tail"
+          },
+          "src": [
+            "mammal-badger"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "8–12 kg, heavier in autumn"
+          },
+          "src": [
+            "mammal-badger",
+            "tfl-badger"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About 5–8 years"
+          },
+          "src": [
+            "mammal-badger"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Mostly earthworms, plus fruit, nuts, roots and bugs"
+          },
+          "src": [
+            "mammal-badger"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "A sett: a big system of tunnels and rooms"
+          },
+          "src": [
+            "mammal-badger-sheet"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Groups of about 6, with 2–3 cubs born in late winter"
+          },
+          "src": [
+            "mammal-badger-sheet"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Worm feast"
+          },
+          "text": {
+            "en": "A badger can eat more than 200 earthworms in one night!"
+          },
+          "src": [
+            "mammal-badger"
+          ]
+        },
+        {
+          "title": {
+            "en": "Fresh sheets"
+          },
+          "text": {
+            "en": "Badgers line their beds with moss, grass and leaves, and swap in fresh bedding often."
+          },
+          "src": [
+            "badgerland"
+          ]
+        },
+        {
+          "title": {
+            "en": "Winter naps"
+          },
+          "text": {
+            "en": "Badgers don't truly hibernate. In the coldest weeks they sleep a lot in the sett and live off their fat."
+          },
+          "src": [
+            "tfl-badger"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Room for guests"
+          },
+          "text": {
+            "en": "In Italy, cameras have filmed badgers, porcupines and foxes using the very same burrows."
+          },
+          "src": [
+            "coppola",
+            "acta"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Happy purrs"
+          },
+          "text": {
+            "en": "Grown-up badgers growl or bark as a warning, but they purr when they're pleased."
+          },
+          "src": [
+            "badgerland"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Badger toilets"
+          },
+          "text": {
+            "en": "Badgers dig little pits called latrines at the edge of their land to use as toilets."
+          },
+          "src": [
+            "mammal-badger-sheet"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Out at eight weeks"
+          },
+          "text": {
+            "en": "Cubs open their eyes at 4–5 weeks and first come out of the sett at about eight weeks."
+          },
+          "src": [
+            "tfl-badger"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real badgers really are amazing diggers, just like Bodie. The blue knitted hat is our artist's idea!"
+      },
+      "storyVsRealSrc": [
+        "mammal-badger-sheet"
+      ]
     },
     {
-     "label": {
-      "en": "Lives"
-     },
-     "value": {
-      "en": "About 5–8 years"
-     },
-     "src": [
-      "mammal-badger"
-     ]
+      "id": "hazel",
+      "role": "supporting",
+      "colour": "sun",
+      "name": {
+        "en": "Hazel"
+      },
+      "animal": {
+        "en": "Red squirrel"
+      },
+      "image": "hazel.jpg",
+      "job": {
+        "en": "Piles soft moss on the roof"
+      },
+      "superpower": {
+        "en": "Jumps more than 2 metres"
+      },
+      "lineup": {
+        "weight": {
+          "en": "250–350 g"
+        },
+        "grams": 300,
+        "like": {
+          "en": "a can of soup"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "18–24 cm, plus a 15–20 cm tail"
+          },
+          "src": [
+            "wa-squirrel"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "250–350 g"
+          },
+          "src": [
+            "wa-squirrel"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About 3 years, sometimes up to 7"
+          },
+          "src": [
+            "dw-squirrel"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Tree seeds, hazelnuts, acorns, fungi and bark"
+          },
+          "src": [
+            "wt-squirrel"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Forests, in nests called dreys"
+          },
+          "src": [
+            "wa-squirrel"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Lives alone, but many squirrels share feeding spots"
+          },
+          "src": [
+            "animalia-squirrel"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Winter ear tufts"
+          },
+          "text": {
+            "en": "Red squirrels grow long fluffy ear tufts in the colder months."
+          },
+          "src": [
+            "wt-squirrel",
+            "dw-squirrel2"
+          ]
+        },
+        {
+          "title": {
+            "en": "Hidden snacks"
+          },
+          "text": {
+            "en": "In autumn they bury food in secret stores to dig up when food is hard to find."
+          },
+          "src": [
+            "wt-squirrel"
+          ]
+        },
+        {
+          "title": {
+            "en": "Forest planters"
+          },
+          "text": {
+            "en": "Forgotten nuts can sprout into new trees, so squirrels help plant the forest."
+          },
+          "src": [
+            "animalia-squirrel"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Cone champion"
+          },
+          "text": {
+            "en": "One red squirrel may eat the seeds from up to 20,000 pine cones in a year."
+          },
+          "src": [
+            "dw-squirrel2"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "No winter sleep"
+          },
+          "text": {
+            "en": "Red squirrels don't hibernate. They stay busy all winter."
+          },
+          "src": [
+            "wt-squirrel"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Grey newcomers"
+          },
+          "text": {
+            "en": "In Italy, red squirrels are in trouble where people brought in grey squirrels from America."
+          },
+          "src": [
+            "critter-squirrel"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real red squirrels love moss for their nests, so Hazel's roof job fits! Her acorn-cup cap is our artist's idea."
+      },
+      "storyVsRealSrc": [
+        "wa-squirrel"
+      ]
     },
     {
-     "label": {
-      "en": "Eats"
-     },
-     "value": {
-      "en": "Mostly earthworms, plus fruit, nuts, roots and bugs"
-     },
-     "src": [
-      "mammal-badger"
-     ]
+      "id": "thimble",
+      "role": "supporting",
+      "colour": "mint",
+      "name": {
+        "en": "Thimble"
+      },
+      "animal": {
+        "en": "Wood mouse"
+      },
+      "image": "thimble.jpg",
+      "job": {
+        "en": "Ties every vine with tiny knots"
+      },
+      "superpower": {
+        "en": "Leaps high in the air"
+      },
+      "lineup": {
+        "weight": {
+          "en": "13–27 g"
+        },
+        "grams": 20,
+        "like": {
+          "en": "two grapes"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "8–10 cm, plus a 7–9.5 cm tail"
+          },
+          "src": [
+            "mammal-mouse"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "13–27 g"
+          },
+          "src": [
+            "mammal-mouse"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About a year"
+          },
+          "src": [
+            "mammal-mouse"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Seeds, nuts, berries, fungi and little bugs"
+          },
+          "src": [
+            "bwc-mouse"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Underground burrows with a nest and food stores"
+          },
+          "src": [
+            "bwc-mouse"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "4–7 babies at a time, several times a year"
+          },
+          "src": [
+            "mammal-mouse"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Also called a field mouse"
+          },
+          "text": {
+            "en": "Its other name is the long-tailed field mouse, because its tail is almost as long as its body."
+          },
+          "src": [
+            "vwt-mouse"
+          ]
+        },
+        {
+          "title": {
+            "en": "A pantry underground"
+          },
+          "text": {
+            "en": "Wood mice keep stores of seeds and nuts in their burrows for later."
+          },
+          "src": [
+            "bwc-mouse"
+          ]
+        },
+        {
+          "title": {
+            "en": "Big eyes, big ears"
+          },
+          "text": {
+            "en": "Its big eyes and ears help it find its way at night."
+          },
+          "src": [
+            "vwt-mouse"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Boing!"
+          },
+          "text": {
+            "en": "When something scares it, a wood mouse can leap high in the air."
+          },
+          "src": [
+            "bwc-mouse"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Accidental gardener"
+          },
+          "text": {
+            "en": "Many trees and bushes grow from wood mouse food stores that were never eaten."
+          },
+          "src": [
+            "mammal-mouse"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Owl food"
+          },
+          "text": {
+            "en": "Tawny owls eat so many wood mice that they may not nest in years when mice are scarce."
+          },
+          "src": [
+            "worcs-mouse"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real wood mice are great climbers with nimble paws, but they don't tie knots. The thimble hat is our artist's idea."
+      },
+      "storyVsRealSrc": [
+        "bwc-mouse"
+      ]
     },
     {
-     "label": {
-      "en": "Home"
-     },
-     "value": {
-      "en": "A sett: a big system of tunnels and rooms"
-     },
-     "src": [
-      "mammal-badger-sheet"
-     ]
+      "id": "mossy",
+      "role": "supporting",
+      "colour": "lilac",
+      "name": {
+        "en": "Mossy"
+      },
+      "animal": {
+        "en": "European mole"
+      },
+      "image": "mossy.jpg",
+      "job": {
+        "en": "Pops up and smooths the floor"
+      },
+      "superpower": {
+        "en": "Digs up to 20 m of tunnel a day"
+      },
+      "lineup": {
+        "weight": {
+          "en": "about 100–150 g"
+        },
+        "grams": 110,
+        "like": {
+          "en": "a bar of soap"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "About 15 cm"
+          },
+          "src": [
+            "uksafari-mole"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "About 100–150 g"
+          },
+          "src": [
+            "uksafari-mole"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "3–5 years"
+          },
+          "src": [
+            "wiki-mole"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Mostly earthworms, plus insect grubs"
+          },
+          "src": [
+            "mammal-mole"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "A tunnel system it keeps making bigger"
+          },
+          "src": [
+            "wlo-mole"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Lives alone in its own tunnels"
+          },
+          "src": [
+            "wlo-mole"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Tunnel machine"
+          },
+          "text": {
+            "en": "A mole can dig up to 20 metres of new tunnel in a single day."
+          },
+          "src": [
+            "wlo-mole"
+          ]
+        },
+        {
+          "title": {
+            "en": "Big appetite"
+          },
+          "text": {
+            "en": "A mole eats about half its own weight in food every day."
+          },
+          "src": [
+            "wiki-mole"
+          ]
+        },
+        {
+          "title": {
+            "en": "Not blind"
+          },
+          "text": {
+            "en": "Moles can see. Their tiny eyes are very good at telling light from dark."
+          },
+          "src": [
+            "ptw-mole"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "The worm larder"
+          },
+          "text": {
+            "en": "Moles store spare earthworms in an underground larder, biting them so they can't crawl away."
+          },
+          "src": [
+            "uksafari-mole"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "No winter sleep"
+          },
+          "text": {
+            "en": "Moles can't store fat, so they can't hibernate. They keep digging all winter."
+          },
+          "src": [
+            "wlo-mole"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Many colours"
+          },
+          "text": {
+            "en": "Most moles are velvety black, but white, grey and tan moles have been found too."
+          },
+          "src": [
+            "wiki-mole"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real moles really are expert diggers who come up through the floor! The tiny spectacles are our artist's idea, though moles do have small eyes."
+      },
+      "storyVsRealSrc": [
+        "wlo-mole",
+        "ptw-mole"
+      ]
     },
     {
-     "label": {
-      "en": "Family"
-     },
-     "value": {
-      "en": "Groups of about 6, with 2–3 cubs born in late winter"
-     },
-     "src": [
-      "mammal-badger-sheet"
-     ]
+      "id": "twins",
+      "role": "supporting",
+      "colour": "sky",
+      "name": {
+        "en": "Fern and Fig"
+      },
+      "animal": {
+        "en": "European rabbits"
+      },
+      "image": "twins.jpg",
+      "job": {
+        "en": "The twins who scooted, then said sorry"
+      },
+      "superpower": {
+        "en": "Thump to warn their friends"
+      },
+      "lineup": {
+        "weight": {
+          "en": "1.2–2 kg"
+        },
+        "grams": 1600,
+        "like": {
+          "en": "a bag of sugar"
+        },
+        "awake": "dawn"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "Up to 40 cm"
+          },
+          "src": [
+            "mammal-rabbit"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "1.2–2 kg"
+          },
+          "src": [
+            "mammal-rabbit"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Usually up to 3 years in the wild"
+          },
+          "src": [
+            "mammal-rabbit"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Grasses, herbs and leaves"
+          },
+          "src": [
+            "afn-rabbit"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "A warren: a maze of burrows with many doors"
+          },
+          "src": [
+            "taf-rabbit"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Big groups that live together in the warren"
+          },
+          "src": [
+            "taf-rabbit"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Thump thump!"
+          },
+          "text": {
+            "en": "When danger comes near, rabbits thump their back feet to warn the others."
+          },
+          "src": [
+            "taf-rabbit",
+            "afn-rabbit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Eyes all round"
+          },
+          "text": {
+            "en": "A rabbit's eyes sit high on its head, so it can see almost all the way around."
+          },
+          "src": [
+            "taf-rabbit"
+          ]
+        },
+        {
+          "title": {
+            "en": "Grandparent of pets"
+          },
+          "text": {
+            "en": "The wild European rabbit is the ancestor of every pet rabbit."
+          },
+          "src": [
+            "afn-rabbit"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Speedy"
+          },
+          "text": {
+            "en": "A European rabbit can run up to 56 km/h."
+          },
+          "src": [
+            "afn-rabbit"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Hundreds of doors"
+          },
+          "text": {
+            "en": "A big rabbit warren can have hundreds of entrances."
+          },
+          "src": [
+            "taf-rabbit"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Bucks and does"
+          },
+          "text": {
+            "en": "Boy rabbits are called bucks and girl rabbits are called does."
+          },
+          "src": [
+            "taf-rabbit"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Wild rabbits first came from Spain, Portugal and France. In the Casentino forests you're more likely to meet a hare, the rabbit's bigger cousin. The daisy and scarf are our artist's ideas."
+      },
+      "storyVsRealSrc": [
+        "wildwood-rabbit",
+        "wti"
+      ]
     }
-   ],
-   "life": [
+  ],
+  "activities": [
     {
-     "title": {
-      "en": "Worm feast"
-     },
-     "text": {
-      "en": "A badger can eat more than 200 earthworms in one night!"
-     },
-     "src": [
-      "mammal-badger"
-     ]
+      "title": {
+        "en": "Build a snug"
+      },
+      "text": {
+        "en": "Make a cosy den with cushions and blankets. Who will you invite in?"
+      }
     },
     {
-     "title": {
-      "en": "Fresh sheets"
-     },
-     "text": {
-      "en": "Badgers line their beds with moss, grass and leaves, and swap in fresh bedding often."
-     },
-     "src": [
-      "badgerland"
-     ]
+      "title": {
+        "en": "Badger bedding"
+      },
+      "text": {
+        "en": "Badgers change their bedding often. Help a grown-up shake out a blanket and make a fresh bed."
+      }
     },
     {
-     "title": {
-      "en": "Winter naps"
-     },
-     "text": {
-      "en": "Badgers don't truly hibernate. In the coldest weeks they sleep a lot in the sett and live off their fat."
-     },
-     "src": [
-      "tfl-badger"
-     ]
+      "title": {
+        "en": "Thump warning"
+      },
+      "text": {
+        "en": "Play rabbits: when the 'fox' comes, thump your foot and everyone freezes!"
+      }
+    },
+    {
+      "title": {
+        "en": "Measure a quill"
+      },
+      "text": {
+        "en": "Cut a 35 cm strip of paper. That's as long as a porcupine's longest quill!"
+      }
+    },
+    {
+      "title": {
+        "en": "Find Italy"
+      },
+      "text": {
+        "en": "Find Italy on a map. Can you see the boot? The Casentino Forests are near Florence."
+      }
     }
-   ],
-   "facts": [
+  ],
+  "faq": [
     {
-     "kind": "wow",
-     "title": {
-      "en": "Room for guests"
-     },
-     "text": {
-      "en": "In Italy, cameras have filmed badgers, porcupines and foxes using the very same burrows."
-     },
-     "src": [
-      "coppola",
-      "acta"
-     ]
+      "q": {
+        "en": "Are the animals in The Snug real?"
+      },
+      "a": {
+        "en": "Yes. Crested porcupines, European badgers, red squirrels, wood mice, moles and rabbits are all real. Each hero file tells you what we changed for the story."
+      }
     },
     {
-     "kind": "ha",
-     "title": {
-      "en": "Happy purrs"
-     },
-     "text": {
-      "en": "Grown-up badgers growl or bark as a warning, but they purr when they're pleased."
-     },
-     "src": [
-      "badgerland"
-     ]
+      "q": {
+        "en": "Do badgers and porcupines really share homes?"
+      },
+      "a": {
+        "en": "Yes. In Italy, cameras have filmed porcupines and badgers using the same burrows."
+      },
+      "src": [
+        "coppola"
+      ]
     },
     {
-     "kind": "hidden",
-     "title": {
-      "en": "Badger toilets"
-     },
-     "text": {
-      "en": "Badgers dig little pits called latrines at the edge of their land to use as toilets."
-     },
-     "src": [
-      "mammal-badger-sheet"
-     ]
+      "q": {
+        "en": "Can porcupines throw their quills?"
+      },
+      "a": {
+        "en": "No. The quills only come out when something touches them."
+      },
+      "src": [
+        "southwicks"
+      ]
     },
     {
-     "kind": "wow",
-     "title": {
-      "en": "Out at eight weeks"
-     },
-     "text": {
-      "en": "Cubs open their eyes at 4–5 weeks and first come out of the sett at about eight weeks."
-     },
-     "src": [
-      "tfl-badger"
-     ]
+      "q": {
+        "en": "Where do porcupines live in Europe?"
+      },
+      "a": {
+        "en": "Only in Italy. The crested porcupine is the only porcupine in Europe."
+      },
+      "src": [
+        "wiki-porc"
+      ]
     }
-   ],
-   "storyVsReal": {
-    "en": "Real badgers really are amazing diggers, just like Bodie. The blue knitted hat is our artist's idea!"
-   },
-   "storyVsRealSrc": [
-    "mammal-badger-sheet"
-   ]
-  },
-  {
-   "id": "hazel",
-   "role": "supporting",
-   "colour": "sun",
-   "name": {
-    "en": "Hazel"
-   },
-   "animal": {
-    "en": "Red squirrel"
-   },
-   "image": "hazel.jpg",
-   "job": {
-    "en": "Piles soft moss on the roof"
-   },
-   "superpower": {
-    "en": "Jumps more than 2 metres"
-   },
-   "lineup": {
-    "weight": {
-     "en": "250–350 g"
+  ],
+  "sources": {
+    "wiki-porc": {
+      "name": "Wikipedia",
+      "title": "Crested porcupine",
+      "url": "https://en.wikipedia.org/wiki/Crested_porcupine"
     },
-    "grams": 300,
-    "like": {
-     "en": "a can of soup"
+    "adw-porc": {
+      "name": "Animal Diversity Web, University of Michigan",
+      "title": "Hystrix cristata (crested porcupine)",
+      "url": "https://animaldiversity.org/accounts/Hystrix_cristata/"
     },
-    "awake": "day"
-   },
-   "card": [
-    {
-     "label": {
-      "en": "Length"
-     },
-     "value": {
-      "en": "18–24 cm, plus a 15–20 cm tail"
-     },
-     "src": [
-      "wa-squirrel"
-     ]
+    "adw-porc2": {
+      "name": "Animal Diversity Web, University of Michigan",
+      "title": "Hystrix cristata: description and behaviour",
+      "url": "https://animaldiversity.org/site/accounts/information/Hystrix_cristata.html"
     },
-    {
-     "label": {
-      "en": "Weight"
-     },
-     "value": {
-      "en": "250–350 g"
-     },
-     "src": [
-      "wa-squirrel"
-     ]
+    "awf": {
+      "name": "African Wildlife Foundation",
+      "title": "What is a porcupine?",
+      "url": "https://www.awf.org/node/5160"
     },
-    {
-     "label": {
-      "en": "Lives"
-     },
-     "value": {
-      "en": "About 3 years, sometimes up to 7"
-     },
-     "src": [
-      "dw-squirrel"
-     ]
+    "southwicks": {
+      "name": "Southwick's Zoo",
+      "title": "Crested porcupine",
+      "url": "https://southwickszoo.com/?p=49093"
     },
-    {
-     "label": {
-      "en": "Eats"
-     },
-     "value": {
-      "en": "Tree seeds, hazelnuts, acorns, fungi and bark"
-     },
-     "src": [
-      "wt-squirrel"
-     ]
+    "sdz-porc": {
+      "name": "San Diego Zoo Wildlife Alliance",
+      "title": "Porcupine",
+      "url": "https://animals.sandiegozoo.org/node/206"
     },
-    {
-     "label": {
-      "en": "Home"
-     },
-     "value": {
-      "en": "Forests, in nests called dreys"
-     },
-     "src": [
-      "wa-squirrel"
-     ]
+    "coppola": {
+      "name": "Current Science (University of Pisa study)",
+      "title": "Cohabitation of settlements among crested porcupine, red fox and European badger",
+      "url": "https://i-scholar.in/index.php/CURS/article/download/205774/191771"
     },
-    {
-     "label": {
-      "en": "Family"
-     },
-     "value": {
-      "en": "Lives alone, but many squirrels share feeding spots"
-     },
-     "src": [
-      "animalia-squirrel"
-     ]
+    "acta": {
+      "name": "Acta Ethologica (2015)",
+      "title": "Interspecific den sharing: a study on European badger setts using camera traps",
+      "url": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_journals_1683342793"
+    },
+    "mammal-badger": {
+      "name": "The Mammal Society",
+      "title": "Badger",
+      "url": "https://mammal.org.uk/british-mammals/badger"
+    },
+    "mammal-badger-sheet": {
+      "name": "The Mammal Society",
+      "title": "Badger fact sheet",
+      "url": "https://www.mammal.org.uk/wp-content/uploads/2022/07/Badger-Fact-Sheet-v2.pdf"
+    },
+    "tfl-badger": {
+      "name": "Trees for Life",
+      "title": "European badger",
+      "url": "https://treesforlife.org.uk/forest/species-profiles/european-badger/"
+    },
+    "badgerland": {
+      "name": "Badgerland",
+      "title": "Introduction to badgers",
+      "url": "https://badgerland.co.uk/animals/introduction.html"
+    },
+    "wt-squirrel": {
+      "name": "Woodland Trust",
+      "title": "Red squirrel facts",
+      "url": "https://www.woodlandtrust.org.uk/blog/2026/04/red-squirrel-facts/"
+    },
+    "wa-squirrel": {
+      "name": "Wildlife Aid Foundation",
+      "title": "Red squirrel facts",
+      "url": "https://wildlifeaid.org.uk/red-squirrel-facts/"
+    },
+    "dw-squirrel": {
+      "name": "BBC Wildlife (Discover Wildlife)",
+      "title": "Red squirrel guide",
+      "url": "https://www.discoverwildlife.com/wildlife/mammals/facts-about-red-squirrels"
+    },
+    "dw-squirrel2": {
+      "name": "BBC Wildlife (Discover Wildlife)",
+      "title": "Facts about red squirrels",
+      "url": "https://www.discoverwildlife.com/animal-facts/mammals/facts-about-red-squirrels"
+    },
+    "animalia-squirrel": {
+      "name": "Animalia",
+      "title": "Eurasian red squirrel",
+      "url": "https://www.animalia.bio/red-squirrel"
+    },
+    "critter-squirrel": {
+      "name": "Critter Facts",
+      "title": "Eurasian red squirrel",
+      "url": "https://critterfacts.com/eurasianredsquirrel/"
+    },
+    "mammal-mouse": {
+      "name": "The Mammal Society",
+      "title": "Wood mouse fact sheet",
+      "url": "https://www.mammal.org.uk/wp-content/uploads/2022/07/Wood-Mouse-Fact-Sheet-v2.pdf"
+    },
+    "bwc-mouse": {
+      "name": "British Wildlife Centre",
+      "title": "Wood mouse",
+      "url": "https://britishwildlifecentre.co.uk/animal-facts/wood-mouse/"
+    },
+    "worcs-mouse": {
+      "name": "Worcestershire Wildlife Trust",
+      "title": "Wood mouse",
+      "url": "https://worcswildlifetrust.co.uk/wildlife-explorer/mammals/wood-mouse"
+    },
+    "vwt-mouse": {
+      "name": "Vincent Wildlife Trust",
+      "title": "Wood mouse",
+      "url": "https://www.vincentwildlife.ie/species/wood-mouse"
+    },
+    "wiki-mole": {
+      "name": "Wikipedia",
+      "title": "European mole",
+      "url": "https://en.wikipedia.org/wiki/European_mole"
+    },
+    "mammal-mole": {
+      "name": "The Mammal Society",
+      "title": "European mole",
+      "url": "https://mammal.org.uk/british-mammals/mole"
+    },
+    "wlo-mole": {
+      "name": "Wildlife Online",
+      "title": "European mole",
+      "url": "https://www.wildlifeonline.me.uk/animals/species/european-mole"
+    },
+    "uksafari-mole": {
+      "name": "UK Safari",
+      "title": "Moles",
+      "url": "https://prod.uksafari.com/moles.htm"
+    },
+    "ptw-mole": {
+      "name": "Protect the Wild",
+      "title": "Facts about the European mole",
+      "url": "https://protectthewild.org.uk/?p=151"
+    },
+    "mammal-rabbit": {
+      "name": "The Mammal Society",
+      "title": "European rabbit",
+      "url": "https://mammal.org.uk/british-mammals/european-rabbit"
+    },
+    "wildwood-rabbit": {
+      "name": "Wildwood Trust",
+      "title": "Rabbit",
+      "url": "https://kent.wildwoodtrust.org/explore/animals/rabbit"
+    },
+    "taf-rabbit": {
+      "name": "The Animal Facts",
+      "title": "European rabbit",
+      "url": "https://www.theanimalfacts.com/mammals/european-rabbit"
+    },
+    "afn-rabbit": {
+      "name": "Animal Fun Facts",
+      "title": "European rabbit",
+      "url": "https://www.animalfunfacts.net/rabbits/1590-european-rabbit.html"
+    },
+    "wiki-park": {
+      "name": "Wikipedia",
+      "title": "Foreste Casentinesi, Monte Falterona, Campigna National Park",
+      "url": "https://Www.Wikipedia.org/wiki/Foreste_Casentinesi,_Monte_Falterona,_Campigna_National_Park"
+    },
+    "wiki-park2": {
+      "name": "Wikipedia (mirror)",
+      "title": "Foreste Casentinesi National Park: wildlife and reserves",
+      "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Foreste_Casentinesi%2C_Monte_Falterona%2C_Campigna_National_Park.html"
+    },
+    "ecobnb": {
+      "name": "Ecobnb",
+      "title": "Woods and hermitages of the Foreste Casentinesi National Park",
+      "url": "https://ecobnb.com/blog/2021/07/woods-hermitages-foreste-casentinesi-monte-falterona-campigna-national-park/"
+    },
+    "wti": {
+      "name": "We the Italians",
+      "title": "National Park of the Casentino Forests",
+      "url": "https://mail.wetheitalians.com/default/italian-gardens-national-park-casentino-forests"
+    },
+    "faggete": {
+      "name": "Faggete Vetuste (Italy's old beech forests)",
+      "title": "Foreste Casentinesi, Monte Falterona and Campigna National Park",
+      "url": "https://faggetevetuste.it/en/?p=1588"
+    },
+    "npo": {
+      "name": "National-Parks.org",
+      "title": "Foreste Casentinesi, Monte Falterona e Campigna National Park",
+      "url": "https://national-parks.org/?p=12513"
     }
-   ],
-   "life": [
-    {
-     "title": {
-      "en": "Winter ear tufts"
-     },
-     "text": {
-      "en": "Red squirrels grow long fluffy ear tufts in the colder months."
-     },
-     "src": [
-      "wt-squirrel",
-      "dw-squirrel2"
-     ]
-    },
-    {
-     "title": {
-      "en": "Hidden snacks"
-     },
-     "text": {
-      "en": "In autumn they bury food in secret stores to dig up when food is hard to find."
-     },
-     "src": [
-      "wt-squirrel"
-     ]
-    },
-    {
-     "title": {
-      "en": "Forest planters"
-     },
-     "text": {
-      "en": "Forgotten nuts can sprout into new trees, so squirrels help plant the forest."
-     },
-     "src": [
-      "animalia-squirrel"
-     ]
-    }
-   ],
-   "facts": [
-    {
-     "kind": "wow",
-     "title": {
-      "en": "Cone champion"
-     },
-     "text": {
-      "en": "One red squirrel may eat the seeds from up to 20,000 pine cones in a year."
-     },
-     "src": [
-      "dw-squirrel2"
-     ]
-    },
-    {
-     "kind": "hidden",
-     "title": {
-      "en": "No winter sleep"
-     },
-     "text": {
-      "en": "Red squirrels don't hibernate. They stay busy all winter."
-     },
-     "src": [
-      "wt-squirrel"
-     ]
-    },
-    {
-     "kind": "uhoh",
-     "title": {
-      "en": "Grey newcomers"
-     },
-     "text": {
-      "en": "In Italy, red squirrels are in trouble where people brought in grey squirrels from America."
-     },
-     "src": [
-      "critter-squirrel"
-     ]
-    }
-   ],
-   "storyVsReal": {
-    "en": "Real red squirrels love moss for their nests, so Hazel's roof job fits! Her acorn-cup cap is our artist's idea."
-   },
-   "storyVsRealSrc": [
-    "wa-squirrel"
-   ]
-  },
-  {
-   "id": "thimble",
-   "role": "supporting",
-   "colour": "mint",
-   "name": {
-    "en": "Thimble"
-   },
-   "animal": {
-    "en": "Wood mouse"
-   },
-   "image": "thimble.jpg",
-   "job": {
-    "en": "Ties every vine with tiny knots"
-   },
-   "superpower": {
-    "en": "Leaps high in the air"
-   },
-   "lineup": {
-    "weight": {
-     "en": "13–27 g"
-    },
-    "grams": 20,
-    "like": {
-     "en": "two grapes"
-    },
-    "awake": "night"
-   },
-   "card": [
-    {
-     "label": {
-      "en": "Length"
-     },
-     "value": {
-      "en": "8–10 cm, plus a 7–9.5 cm tail"
-     },
-     "src": [
-      "mammal-mouse"
-     ]
-    },
-    {
-     "label": {
-      "en": "Weight"
-     },
-     "value": {
-      "en": "13–27 g"
-     },
-     "src": [
-      "mammal-mouse"
-     ]
-    },
-    {
-     "label": {
-      "en": "Lives"
-     },
-     "value": {
-      "en": "About a year"
-     },
-     "src": [
-      "mammal-mouse"
-     ]
-    },
-    {
-     "label": {
-      "en": "Eats"
-     },
-     "value": {
-      "en": "Seeds, nuts, berries, fungi and little bugs"
-     },
-     "src": [
-      "bwc-mouse"
-     ]
-    },
-    {
-     "label": {
-      "en": "Home"
-     },
-     "value": {
-      "en": "Underground burrows with a nest and food stores"
-     },
-     "src": [
-      "bwc-mouse"
-     ]
-    },
-    {
-     "label": {
-      "en": "Family"
-     },
-     "value": {
-      "en": "4–7 babies at a time, several times a year"
-     },
-     "src": [
-      "mammal-mouse"
-     ]
-    }
-   ],
-   "life": [
-    {
-     "title": {
-      "en": "Also called a field mouse"
-     },
-     "text": {
-      "en": "Its other name is the long-tailed field mouse, because its tail is almost as long as its body."
-     },
-     "src": [
-      "vwt-mouse"
-     ]
-    },
-    {
-     "title": {
-      "en": "A pantry underground"
-     },
-     "text": {
-      "en": "Wood mice keep stores of seeds and nuts in their burrows for later."
-     },
-     "src": [
-      "bwc-mouse"
-     ]
-    },
-    {
-     "title": {
-      "en": "Big eyes, big ears"
-     },
-     "text": {
-      "en": "Its big eyes and ears help it find its way at night."
-     },
-     "src": [
-      "vwt-mouse"
-     ]
-    }
-   ],
-   "facts": [
-    {
-     "kind": "ha",
-     "title": {
-      "en": "Boing!"
-     },
-     "text": {
-      "en": "When something scares it, a wood mouse can leap high in the air."
-     },
-     "src": [
-      "bwc-mouse"
-     ]
-    },
-    {
-     "kind": "hidden",
-     "title": {
-      "en": "Accidental gardener"
-     },
-     "text": {
-      "en": "Many trees and bushes grow from wood mouse food stores that were never eaten."
-     },
-     "src": [
-      "mammal-mouse"
-     ]
-    },
-    {
-     "kind": "uhoh",
-     "title": {
-      "en": "Owl food"
-     },
-     "text": {
-      "en": "Tawny owls eat so many wood mice that they may not nest in years when mice are scarce."
-     },
-     "src": [
-      "worcs-mouse"
-     ]
-    }
-   ],
-   "storyVsReal": {
-    "en": "Real wood mice are great climbers with nimble paws, but they don't tie knots. The thimble hat is our artist's idea."
-   },
-   "storyVsRealSrc": [
-    "bwc-mouse"
-   ]
-  },
-  {
-   "id": "mossy",
-   "role": "supporting",
-   "colour": "lilac",
-   "name": {
-    "en": "Mossy"
-   },
-   "animal": {
-    "en": "European mole"
-   },
-   "image": "mossy.jpg",
-   "job": {
-    "en": "Pops up and smooths the floor"
-   },
-   "superpower": {
-    "en": "Digs up to 20 m of tunnel a day"
-   },
-   "lineup": {
-    "weight": {
-     "en": "about 100–150 g"
-    },
-    "grams": 110,
-    "like": {
-     "en": "a bar of soap"
-    },
-    "awake": "day"
-   },
-   "card": [
-    {
-     "label": {
-      "en": "Length"
-     },
-     "value": {
-      "en": "About 15 cm"
-     },
-     "src": [
-      "uksafari-mole"
-     ]
-    },
-    {
-     "label": {
-      "en": "Weight"
-     },
-     "value": {
-      "en": "About 100–150 g"
-     },
-     "src": [
-      "uksafari-mole"
-     ]
-    },
-    {
-     "label": {
-      "en": "Lives"
-     },
-     "value": {
-      "en": "3–5 years"
-     },
-     "src": [
-      "wiki-mole"
-     ]
-    },
-    {
-     "label": {
-      "en": "Eats"
-     },
-     "value": {
-      "en": "Mostly earthworms, plus insect grubs"
-     },
-     "src": [
-      "mammal-mole"
-     ]
-    },
-    {
-     "label": {
-      "en": "Home"
-     },
-     "value": {
-      "en": "A tunnel system it keeps making bigger"
-     },
-     "src": [
-      "wlo-mole"
-     ]
-    },
-    {
-     "label": {
-      "en": "Family"
-     },
-     "value": {
-      "en": "Lives alone in its own tunnels"
-     },
-     "src": [
-      "wlo-mole"
-     ]
-    }
-   ],
-   "life": [
-    {
-     "title": {
-      "en": "Tunnel machine"
-     },
-     "text": {
-      "en": "A mole can dig up to 20 metres of new tunnel in a single day."
-     },
-     "src": [
-      "wlo-mole"
-     ]
-    },
-    {
-     "title": {
-      "en": "Big appetite"
-     },
-     "text": {
-      "en": "A mole eats about half its own weight in food every day."
-     },
-     "src": [
-      "wiki-mole"
-     ]
-    },
-    {
-     "title": {
-      "en": "Not blind"
-     },
-     "text": {
-      "en": "Moles can see. Their tiny eyes are very good at telling light from dark."
-     },
-     "src": [
-      "ptw-mole"
-     ]
-    }
-   ],
-   "facts": [
-    {
-     "kind": "uhoh",
-     "title": {
-      "en": "The worm larder"
-     },
-     "text": {
-      "en": "Moles store spare earthworms in an underground larder, biting them so they can't crawl away."
-     },
-     "src": [
-      "uksafari-mole"
-     ]
-    },
-    {
-     "kind": "hidden",
-     "title": {
-      "en": "No winter sleep"
-     },
-     "text": {
-      "en": "Moles can't store fat, so they can't hibernate. They keep digging all winter."
-     },
-     "src": [
-      "wlo-mole"
-     ]
-    },
-    {
-     "kind": "ha",
-     "title": {
-      "en": "Many colours"
-     },
-     "text": {
-      "en": "Most moles are velvety black, but white, grey and tan moles have been found too."
-     },
-     "src": [
-      "wiki-mole"
-     ]
-    }
-   ],
-   "storyVsReal": {
-    "en": "Real moles really are expert diggers who come up through the floor! The tiny spectacles are our artist's idea, though moles do have small eyes."
-   },
-   "storyVsRealSrc": [
-    "wlo-mole",
-    "ptw-mole"
-   ]
-  },
-  {
-   "id": "twins",
-   "role": "supporting",
-   "colour": "sky",
-   "name": {
-    "en": "Fern and Fig"
-   },
-   "animal": {
-    "en": "European rabbits"
-   },
-   "image": "twins.jpg",
-   "job": {
-    "en": "The twins who scooted, then said sorry"
-   },
-   "superpower": {
-    "en": "Thump to warn their friends"
-   },
-   "lineup": {
-    "weight": {
-     "en": "1.2–2 kg"
-    },
-    "grams": 1600,
-    "like": {
-     "en": "a bag of sugar"
-    },
-    "awake": "dawn"
-   },
-   "card": [
-    {
-     "label": {
-      "en": "Length"
-     },
-     "value": {
-      "en": "Up to 40 cm"
-     },
-     "src": [
-      "mammal-rabbit"
-     ]
-    },
-    {
-     "label": {
-      "en": "Weight"
-     },
-     "value": {
-      "en": "1.2–2 kg"
-     },
-     "src": [
-      "mammal-rabbit"
-     ]
-    },
-    {
-     "label": {
-      "en": "Lives"
-     },
-     "value": {
-      "en": "Usually up to 3 years in the wild"
-     },
-     "src": [
-      "mammal-rabbit"
-     ]
-    },
-    {
-     "label": {
-      "en": "Eats"
-     },
-     "value": {
-      "en": "Grasses, herbs and leaves"
-     },
-     "src": [
-      "afn-rabbit"
-     ]
-    },
-    {
-     "label": {
-      "en": "Home"
-     },
-     "value": {
-      "en": "A warren: a maze of burrows with many doors"
-     },
-     "src": [
-      "taf-rabbit"
-     ]
-    },
-    {
-     "label": {
-      "en": "Family"
-     },
-     "value": {
-      "en": "Big groups that live together in the warren"
-     },
-     "src": [
-      "taf-rabbit"
-     ]
-    }
-   ],
-   "life": [
-    {
-     "title": {
-      "en": "Thump thump!"
-     },
-     "text": {
-      "en": "When danger comes near, rabbits thump their back feet to warn the others."
-     },
-     "src": [
-      "taf-rabbit",
-      "afn-rabbit"
-     ]
-    },
-    {
-     "title": {
-      "en": "Eyes all round"
-     },
-     "text": {
-      "en": "A rabbit's eyes sit high on its head, so it can see almost all the way around."
-     },
-     "src": [
-      "taf-rabbit"
-     ]
-    },
-    {
-     "title": {
-      "en": "Grandparent of pets"
-     },
-     "text": {
-      "en": "The wild European rabbit is the ancestor of every pet rabbit."
-     },
-     "src": [
-      "afn-rabbit"
-     ]
-    }
-   ],
-   "facts": [
-    {
-     "kind": "wow",
-     "title": {
-      "en": "Speedy"
-     },
-     "text": {
-      "en": "A European rabbit can run up to 56 km/h."
-     },
-     "src": [
-      "afn-rabbit"
-     ]
-    },
-    {
-     "kind": "hidden",
-     "title": {
-      "en": "Hundreds of doors"
-     },
-     "text": {
-      "en": "A big rabbit warren can have hundreds of entrances."
-     },
-     "src": [
-      "taf-rabbit"
-     ]
-    },
-    {
-     "kind": "ha",
-     "title": {
-      "en": "Bucks and does"
-     },
-     "text": {
-      "en": "Boy rabbits are called bucks and girl rabbits are called does."
-     },
-     "src": [
-      "taf-rabbit"
-     ]
-    }
-   ],
-   "storyVsReal": {
-    "en": "Wild rabbits first came from Spain, Portugal and France. In the Casentino forests you're more likely to meet a hare, the rabbit's bigger cousin. The daisy and scarf are our artist's ideas."
-   },
-   "storyVsRealSrc": [
-    "wildwood-rabbit",
-    "wti"
-   ]
   }
- ],
- "activities": [
-  {
-   "title": {
-    "en": "Build a snug"
-   },
-   "text": {
-    "en": "Make a cosy den with cushions and blankets. Who will you invite in?"
-   }
-  },
-  {
-   "title": {
-    "en": "Badger bedding"
-   },
-   "text": {
-    "en": "Badgers change their bedding often. Help a grown-up shake out a blanket and make a fresh bed."
-   }
-  },
-  {
-   "title": {
-    "en": "Thump warning"
-   },
-   "text": {
-    "en": "Play rabbits: when the 'fox' comes, thump your foot and everyone freezes!"
-   }
-  },
-  {
-   "title": {
-    "en": "Measure a quill"
-   },
-   "text": {
-    "en": "Cut a 35 cm strip of paper. That's as long as a porcupine's longest quill!"
-   }
-  },
-  {
-   "title": {
-    "en": "Find Italy"
-   },
-   "text": {
-    "en": "Find Italy on a map. Can you see the boot? The Casentino Forests are near Florence."
-   }
-  }
- ],
- "faq": [
-  {
-   "q": {
-    "en": "Are the animals in The Snug real?"
-   },
-   "a": {
-    "en": "Yes. Crested porcupines, European badgers, red squirrels, wood mice, moles and rabbits are all real. Each hero file tells you what we changed for the story."
-   }
-  },
-  {
-   "q": {
-    "en": "Do badgers and porcupines really share homes?"
-   },
-   "a": {
-    "en": "Yes. In Italy, cameras have filmed porcupines and badgers using the same burrows."
-   },
-   "src": [
-    "coppola"
-   ]
-  },
-  {
-   "q": {
-    "en": "Can porcupines throw their quills?"
-   },
-   "a": {
-    "en": "No. The quills only come out when something touches them."
-   },
-   "src": [
-    "southwicks"
-   ]
-  },
-  {
-   "q": {
-    "en": "Where do porcupines live in Europe?"
-   },
-   "a": {
-    "en": "Only in Italy. The crested porcupine is the only porcupine in Europe."
-   },
-   "src": [
-    "wiki-porc"
-   ]
-  }
- ],
- "sources": {
-  "wiki-porc": {
-   "name": "Wikipedia",
-   "title": "Crested porcupine",
-   "url": "https://en.wikipedia.org/wiki/Crested_porcupine"
-  },
-  "adw-porc": {
-   "name": "Animal Diversity Web, University of Michigan",
-   "title": "Hystrix cristata (crested porcupine)",
-   "url": "https://animaldiversity.org/accounts/Hystrix_cristata/"
-  },
-  "adw-porc2": {
-   "name": "Animal Diversity Web, University of Michigan",
-   "title": "Hystrix cristata: description and behaviour",
-   "url": "https://animaldiversity.org/site/accounts/information/Hystrix_cristata.html"
-  },
-  "awf": {
-   "name": "African Wildlife Foundation",
-   "title": "What is a porcupine?",
-   "url": "https://www.awf.org/node/5160"
-  },
-  "southwicks": {
-   "name": "Southwick's Zoo",
-   "title": "Crested porcupine",
-   "url": "https://southwickszoo.com/?p=49093"
-  },
-  "sdz-porc": {
-   "name": "San Diego Zoo Wildlife Alliance",
-   "title": "Porcupine",
-   "url": "https://animals.sandiegozoo.org/node/206"
-  },
-  "coppola": {
-   "name": "Current Science (University of Pisa study)",
-   "title": "Cohabitation of settlements among crested porcupine, red fox and European badger",
-   "url": "https://i-scholar.in/index.php/CURS/article/download/205774/191771"
-  },
-  "acta": {
-   "name": "Acta Ethologica (2015)",
-   "title": "Interspecific den sharing: a study on European badger setts using camera traps",
-   "url": "https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_proquest_journals_1683342793"
-  },
-  "mammal-badger": {
-   "name": "The Mammal Society",
-   "title": "Badger",
-   "url": "https://mammal.org.uk/british-mammals/badger"
-  },
-  "mammal-badger-sheet": {
-   "name": "The Mammal Society",
-   "title": "Badger fact sheet",
-   "url": "https://www.mammal.org.uk/wp-content/uploads/2022/07/Badger-Fact-Sheet-v2.pdf"
-  },
-  "tfl-badger": {
-   "name": "Trees for Life",
-   "title": "European badger",
-   "url": "https://treesforlife.org.uk/forest/species-profiles/european-badger/"
-  },
-  "badgerland": {
-   "name": "Badgerland",
-   "title": "Introduction to badgers",
-   "url": "https://badgerland.co.uk/animals/introduction.html"
-  },
-  "wt-squirrel": {
-   "name": "Woodland Trust",
-   "title": "Red squirrel facts",
-   "url": "https://www.woodlandtrust.org.uk/blog/2026/04/red-squirrel-facts/"
-  },
-  "wa-squirrel": {
-   "name": "Wildlife Aid Foundation",
-   "title": "Red squirrel facts",
-   "url": "https://wildlifeaid.org.uk/red-squirrel-facts/"
-  },
-  "dw-squirrel": {
-   "name": "BBC Wildlife (Discover Wildlife)",
-   "title": "Red squirrel guide",
-   "url": "https://www.discoverwildlife.com/wildlife/mammals/facts-about-red-squirrels"
-  },
-  "dw-squirrel2": {
-   "name": "BBC Wildlife (Discover Wildlife)",
-   "title": "Facts about red squirrels",
-   "url": "https://www.discoverwildlife.com/animal-facts/mammals/facts-about-red-squirrels"
-  },
-  "animalia-squirrel": {
-   "name": "Animalia",
-   "title": "Eurasian red squirrel",
-   "url": "https://www.animalia.bio/red-squirrel"
-  },
-  "critter-squirrel": {
-   "name": "Critter Facts",
-   "title": "Eurasian red squirrel",
-   "url": "https://critterfacts.com/eurasianredsquirrel/"
-  },
-  "mammal-mouse": {
-   "name": "The Mammal Society",
-   "title": "Wood mouse fact sheet",
-   "url": "https://www.mammal.org.uk/wp-content/uploads/2022/07/Wood-Mouse-Fact-Sheet-v2.pdf"
-  },
-  "bwc-mouse": {
-   "name": "British Wildlife Centre",
-   "title": "Wood mouse",
-   "url": "https://britishwildlifecentre.co.uk/animal-facts/wood-mouse/"
-  },
-  "worcs-mouse": {
-   "name": "Worcestershire Wildlife Trust",
-   "title": "Wood mouse",
-   "url": "https://worcswildlifetrust.co.uk/wildlife-explorer/mammals/wood-mouse"
-  },
-  "vwt-mouse": {
-   "name": "Vincent Wildlife Trust",
-   "title": "Wood mouse",
-   "url": "https://www.vincentwildlife.ie/species/wood-mouse"
-  },
-  "wiki-mole": {
-   "name": "Wikipedia",
-   "title": "European mole",
-   "url": "https://en.wikipedia.org/wiki/European_mole"
-  },
-  "mammal-mole": {
-   "name": "The Mammal Society",
-   "title": "European mole",
-   "url": "https://mammal.org.uk/british-mammals/mole"
-  },
-  "wlo-mole": {
-   "name": "Wildlife Online",
-   "title": "European mole",
-   "url": "https://www.wildlifeonline.me.uk/animals/species/european-mole"
-  },
-  "uksafari-mole": {
-   "name": "UK Safari",
-   "title": "Moles",
-   "url": "https://prod.uksafari.com/moles.htm"
-  },
-  "ptw-mole": {
-   "name": "Protect the Wild",
-   "title": "Facts about the European mole",
-   "url": "https://protectthewild.org.uk/?p=151"
-  },
-  "mammal-rabbit": {
-   "name": "The Mammal Society",
-   "title": "European rabbit",
-   "url": "https://mammal.org.uk/british-mammals/european-rabbit"
-  },
-  "wildwood-rabbit": {
-   "name": "Wildwood Trust",
-   "title": "Rabbit",
-   "url": "https://kent.wildwoodtrust.org/explore/animals/rabbit"
-  },
-  "taf-rabbit": {
-   "name": "The Animal Facts",
-   "title": "European rabbit",
-   "url": "https://www.theanimalfacts.com/mammals/european-rabbit"
-  },
-  "afn-rabbit": {
-   "name": "Animal Fun Facts",
-   "title": "European rabbit",
-   "url": "https://www.animalfunfacts.net/rabbits/1590-european-rabbit.html"
-  },
-  "wiki-park": {
-   "name": "Wikipedia",
-   "title": "Foreste Casentinesi, Monte Falterona, Campigna National Park",
-   "url": "https://Www.Wikipedia.org/wiki/Foreste_Casentinesi,_Monte_Falterona,_Campigna_National_Park"
-  },
-  "wiki-park2": {
-   "name": "Wikipedia (mirror)",
-   "title": "Foreste Casentinesi National Park: wildlife and reserves",
-   "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Foreste_Casentinesi%2C_Monte_Falterona%2C_Campigna_National_Park.html"
-  },
-  "ecobnb": {
-   "name": "Ecobnb",
-   "title": "Woods and hermitages of the Foreste Casentinesi National Park",
-   "url": "https://ecobnb.com/blog/2021/07/woods-hermitages-foreste-casentinesi-monte-falterona-campigna-national-park/"
-  },
-  "wti": {
-   "name": "We the Italians",
-   "title": "National Park of the Casentino Forests",
-   "url": "https://mail.wetheitalians.com/default/italian-gardens-national-park-casentino-forests"
-  },
-  "faggete": {
-   "name": "Faggete Vetuste (Italy's old beech forests)",
-   "title": "Foreste Casentinesi, Monte Falterona and Campigna National Park",
-   "url": "https://faggetevetuste.it/en/?p=1588"
-  },
-  "npo": {
-   "name": "National-Parks.org",
-   "title": "Foreste Casentinesi, Monte Falterona e Campigna National Park",
-   "url": "https://national-parks.org/?p=12513"
-  }
- }
 }

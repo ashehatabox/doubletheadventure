@@ -38,6 +38,7 @@ const checks = [
   ['/heroes/the-littlest-guardian', 200, 'Mason Bay'],
   ['/heroes/eight-times-up', 200, 'Kamikochi'],
   ['/heroes/the-view-from-down-low', 200, 'Tswalu'],
+  ['/heroes/the-snug', 200, 'Casentino'],
   ['/fr/heroes', 200, 'Encyclopédie des héros'],
   ['/fr/parents/articles', 200, 'Articles pour les parents'],
   ['/parents/articles/why-every-story-starts-from-one-value', 404, ''],

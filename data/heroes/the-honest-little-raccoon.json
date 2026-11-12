@@ -1,0 +1,837 @@
+{
+  "book": "the-honest-little-raccoon",
+  "draft": true,
+  "updated": "2026-11-12",
+  "review": {
+    "factsChecked": "2026-11-12",
+    "culturalReader": true
+  },
+  "title": {
+    "en": "Heroes of the City Park"
+  },
+  "seoTitle": {
+    "en": "Heroes of the City Park: the real animals behind The Honest Little Raccoon"
+  },
+  "description": {
+    "en": "Raccoons with hands that feel like fingers and pigeons that always find their way home. Real facts for kids about the animals behind The Honest Little Raccoon."
+  },
+  "intro": {
+    "en": "Riley, Benny and Maggie live where the city meets the trees. Real raccoons and pigeons live like that too. Here's how."
+  },
+  "place": {
+    "name": {
+      "en": "Central Park, New York City"
+    },
+    "image": "place.jpg",
+    "intro": {
+      "en": "The book's city has no name, so we picked Central Park in New York City. Raccoons and pigeons both live there, right in the middle of a big city."
+    },
+    "introSrc": [
+      "cbs-cp",
+      "se-cp"
+    ],
+    "facts": [
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Bigger than a country"
+        },
+        "text": {
+          "en": "Central Park covers 843 acres. That's bigger than the whole country of Monaco!"
+        },
+        "src": [
+          "ut-cp"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "A slice of Manhattan"
+        },
+        "text": {
+          "en": "The park takes up about 6% of the island of Manhattan."
+        },
+        "src": [
+          "cporg"
+        ]
+      },
+      {
+        "kind": "ha",
+        "title": {
+          "en": "Real New Yorkers"
+        },
+        "text": {
+          "en": "Raccoons lived around New York long before the city was built. They're native here."
+        },
+        "src": [
+          "se-cp"
+        ]
+      },
+      {
+        "kind": "wow",
+        "title": {
+          "en": "More than squirrels"
+        },
+        "text": {
+          "en": "Beyond squirrels and ducks, the park is home to all kinds of wildlife."
+        },
+        "src": [
+          "cpc"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "Bat hotel"
+        },
+        "text": {
+          "en": "The park's meadows, woods and ponds help the bats that live in New York."
+        },
+        "src": [
+          "cpc-winter"
+        ]
+      }
+    ],
+    "map": {
+      "lat": 40.78,
+      "lon": -73.97,
+      "zoom": 12,
+      "region": [
+        -80,
+        37,
+        -70,
+        45
+      ],
+      "highlight": [
+        840
+      ],
+      "label": {
+        "en": "Central Park"
+      },
+      "text": {
+        "en": "A big green park in the middle of Manhattan, in New York City, on the east coast of the United States."
+      },
+      "src": [
+        "cporg"
+      ],
+      "areaNote": {
+        "en": "The United States."
+      },
+      "pin": [
+        60.3,
+        54.24
+      ],
+      "aspect": 0.9412
+    }
+  },
+  "cast": [
+    {
+      "id": "riley",
+      "role": "hero",
+      "colour": "sky",
+      "name": {
+        "en": "Riley"
+      },
+      "animal": {
+        "en": "Raccoon"
+      },
+      "image": "riley.jpg",
+      "job": {
+        "en": "A young raccoon learning that telling the truth is brave"
+      },
+      "superpower": {
+        "en": "Hands that can feel almost anything"
+      },
+      "lineup": {
+        "weight": {
+          "en": "3.6–10.4 kg"
+        },
+        "grams": 7000,
+        "like": {
+          "en": "a big house cat"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "61–97 cm, tail included"
+          },
+          "src": [
+            "zg-rac"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "3.6–10.4 kg"
+          },
+          "src": [
+            "zg-rac"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "3–5 years in the wild"
+          },
+          "src": [
+            "tce-rac"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Fruit, nuts, insects, small animals and our leftovers"
+          },
+          "src": [
+            "zg-rac"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Forests, wetlands and cities"
+          },
+          "src": [
+            "tce-rac"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Young females stay near Mom; young males move far away"
+          },
+          "src": [
+            "tce-rac"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Five little fingers"
+          },
+          "text": {
+            "en": "A raccoon's front paws work like five little fingers. They can grab food, jars and even doorknobs."
+          },
+          "src": [
+            "pbs-rac2"
+          ]
+        },
+        {
+          "title": {
+            "en": "Feeling, not washing"
+          },
+          "text": {
+            "en": "Raccoons dunk their food in water, but not to clean it. Wet paws feel things better."
+          },
+          "src": [
+            "tce-rac",
+            "rwn-rac"
+          ]
+        },
+        {
+          "title": {
+            "en": "Night shift"
+          },
+          "text": {
+            "en": "Raccoons are nocturnal, so they find most of their food at night."
+          },
+          "src": [
+            "pbs-rac"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Wash-bear"
+          },
+          "text": {
+            "en": "In parts of Europe and Asia, people call the raccoon a 'wash-bear'."
+          },
+          "src": [
+            "tce-rac"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Mask and rings"
+          },
+          "text": {
+            "en": "Its black mask and ringed tail are its best-known marks. A tail can have four to ten black rings."
+          },
+          "src": [
+            "eol-rac"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Scratches with its hands"
+          },
+          "text": {
+            "en": "The word raccoon comes from a Powhatan word meaning an animal that scratches with its hands."
+          },
+          "src": [
+            "rwn-rac"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real raccoons can't talk or make promises, but they really are curious and clever with their hands, which is why they get into everything."
+      },
+      "storyVsRealSrc": [
+        "pbs-rac2"
+      ]
+    },
+    {
+      "id": "benny",
+      "role": "friend",
+      "colour": "peach",
+      "name": {
+        "en": "Benny"
+      },
+      "animal": {
+        "en": "Raccoon"
+      },
+      "image": "benny.jpg",
+      "job": {
+        "en": "Riley's friend"
+      },
+      "superpower": {
+        "en": "Climbs down trees head first"
+      },
+      "lineup": {
+        "weight": {
+          "en": "3.6–10.4 kg"
+        },
+        "grams": 6000,
+        "like": {
+          "en": "a big house cat"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Speed"
+          },
+          "value": {
+            "en": "Up to 24 km/h"
+          },
+          "src": [
+            "zg-rac"
+          ]
+        },
+        {
+          "label": {
+            "en": "Height"
+          },
+          "value": {
+            "en": "23–30 cm at the shoulder"
+          },
+          "src": [
+            "zg-rac"
+          ]
+        },
+        {
+          "label": {
+            "en": "City range"
+          },
+          "value": {
+            "en": "About 1.6 km from its den"
+          },
+          "src": [
+            "pbs-rac"
+          ]
+        },
+        {
+          "label": {
+            "en": "Toes"
+          },
+          "value": {
+            "en": "Five on every paw"
+          },
+          "src": [
+            "eol-rac"
+          ]
+        },
+        {
+          "label": {
+            "en": "Senses"
+          },
+          "value": {
+            "en": "Great hearing and night vision"
+          },
+          "src": [
+            "eol-rac"
+          ]
+        },
+        {
+          "label": {
+            "en": "Status"
+          },
+          "value": {
+            "en": "Least Concern, doing well near people"
+          },
+          "src": [
+            "ctr-rac"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Head-first climber"
+          },
+          "text": {
+            "en": "Raccoons can turn their back feet around, so they can climb down a tree head first."
+          },
+          "src": [
+            "zg-rac"
+          ]
+        },
+        {
+          "title": {
+            "en": "City raccoons"
+          },
+          "text": {
+            "en": "The first raccoons seen living in a city were in Cincinnati in the 1920s."
+          },
+          "src": [
+            "pbs-rac"
+          ]
+        },
+        {
+          "title": {
+            "en": "Stay close to home"
+          },
+          "text": {
+            "en": "City raccoons don't wander far. Their home area is usually about a mile across."
+          },
+          "src": [
+            "pbs-rac"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Flat feet"
+          },
+          "text": {
+            "en": "Raccoons walk on flat feet, just like we do."
+          },
+          "src": [
+            "tce-rac"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "No thumbs"
+          },
+          "text": {
+            "en": "Raccoon hands look like ours, but they don't have thumbs that bend across."
+          },
+          "src": [
+            "tce-rac"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Look, don't touch"
+          },
+          "text": {
+            "en": "Raccoons can carry diseases, so watch them from a distance and never pet one."
+          },
+          "src": [
+            "pbs-rac"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Grown-up raccoons mostly live alone, so best friends are a story idea. Young raccoons do stay with their mother and brothers and sisters for a while."
+      },
+      "storyVsRealSrc": [
+        "ctr-rac",
+        "tce-rac"
+      ]
+    },
+    {
+      "id": "maggie",
+      "role": "supporting",
+      "colour": "lilac",
+      "name": {
+        "en": "Maggie"
+      },
+      "animal": {
+        "en": "Rock pigeon"
+      },
+      "image": "maggie.jpg",
+      "job": {
+        "en": "The wise old pigeon"
+      },
+      "superpower": {
+        "en": "Always finds the way home"
+      },
+      "lineup": {
+        "weight": {
+          "en": "255–370 g"
+        },
+        "grams": 310,
+        "like": {
+          "en": "a can of soup"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "28–38 cm"
+          },
+          "src": [
+            "nw-pig"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "255–370 g"
+          },
+          "src": [
+            "pbs-pig"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "3–5 years in the wild, up to 20 in care"
+          },
+          "src": [
+            "nw-pig"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Seeds, plus popcorn and other food people drop"
+          },
+          "src": [
+            "nw-pig"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Cliffs, farms, parks and cities"
+          },
+          "src": [
+            "nw-pig"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Mom and Dad both sit on the eggs and feed the chicks"
+          },
+          "src": [
+            "nw-pig"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Homing hero"
+          },
+          "text": {
+            "en": "Pigeons can find their way home from places they've never been, using the sun, Earth's magnetism and landmarks."
+          },
+          "src": [
+            "pbs-pig"
+          ]
+        },
+        {
+          "title": {
+            "en": "Pigeon milk"
+          },
+          "text": {
+            "en": "Both parents make 'pigeon milk' in a pouch in their throat called the crop, to feed their babies."
+          },
+          "src": [
+            "nw-pig"
+          ]
+        },
+        {
+          "title": {
+            "en": "City cliffs"
+          },
+          "text": {
+            "en": "In cities, pigeons nest on window ledges, roofs and under bridges, like the cliffs they came from."
+          },
+          "src": [
+            "nw-pig"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Super flyers"
+          },
+          "text": {
+            "en": "Homing pigeons have flown over 480 km in one day, at about 70 km/h."
+          },
+          "src": [
+            "wbu-pig"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "First pet bird"
+          },
+          "text": {
+            "en": "The rock pigeon may have been the first bird people ever tamed, more than 6,000 years ago."
+          },
+          "src": [
+            "wbu-pig"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Stay-at-home"
+          },
+          "text": {
+            "en": "Even with their homing skill, wild pigeons rarely leave their own neighbourhood."
+          },
+          "src": [
+            "nw-pig"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "A pigeon that lives to old age in a city has seen a lot! Wild pigeons usually live 3 to 5 years, but some live much longer."
+      },
+      "storyVsRealSrc": [
+        "nw-pig",
+        "bf-pig"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "title": {
+        "en": "Truth jar"
+      },
+      "text": {
+        "en": "Each time someone tells a hard truth, drop a button in a jar. Count them at the end of the week."
+      }
+    },
+    {
+      "title": {
+        "en": "Mystery bag"
+      },
+      "text": {
+        "en": "Put a few things in a bag. Can you tell what they are just by feeling, like a raccoon?"
+      }
+    },
+    {
+      "title": {
+        "en": "Find your way home"
+      },
+      "text": {
+        "en": "Draw a map from your bed to the kitchen. Can someone follow it, like a homing pigeon?"
+      }
+    },
+    {
+      "title": {
+        "en": "Mask maker"
+      },
+      "text": {
+        "en": "Make a raccoon mask from paper, with a black band across the eyes."
+      }
+    },
+    {
+      "title": {
+        "en": "Find Central Park"
+      },
+      "text": {
+        "en": "Find New York City on a map, then the long green rectangle in the middle of Manhattan."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Do raccoons really wash their food?"
+      },
+      "a": {
+        "en": "Not really. They dunk and rub food in water because wet paws feel things better."
+      },
+      "src": [
+        "tce-rac"
+      ]
+    },
+    {
+      "q": {
+        "en": "Why do raccoons live in cities?"
+      },
+      "a": {
+        "en": "Cities have lots of food, few predators and no hunting, so raccoons do well there."
+      },
+      "src": [
+        "pbs-rac"
+      ]
+    },
+    {
+      "q": {
+        "en": "How do pigeons find their way home?"
+      },
+      "a": {
+        "en": "Scientists think they use the sun, Earth's magnetism and landmarks."
+      },
+      "src": [
+        "pbs-pig"
+      ]
+    },
+    {
+      "q": {
+        "en": "Do baby pigeons drink milk?"
+      },
+      "a": {
+        "en": "Yes, a kind! Both parents make 'pigeon milk' in their crop."
+      },
+      "src": [
+        "nw-pig"
+      ]
+    }
+  ],
+  "sources": {
+    "eol-rac": {
+      "name": "Encyclopedia of Life",
+      "title": "Raccoon: articles",
+      "url": "https://www.eol.org/pages/328598/articles"
+    },
+    "tce-rac": {
+      "name": "The Canadian Encyclopedia",
+      "title": "Raccoon",
+      "url": "https://thecanadianencyclopedia.ca/en/article/raccoon"
+    },
+    "pbs-rac": {
+      "name": "PBS Nature",
+      "title": "Raccoon Nation: raccoon fact sheet",
+      "url": "https://www.pbs.org/wnet/nature/raccoon-nation-raccoon-fact-sheet/"
+    },
+    "pbs-rac2": {
+      "name": "PBS Nature",
+      "title": "Raccoon Nation: raccoon paws",
+      "url": "https://www.pbs.org/wnet/nature/raccoon-nation-raccoon-fact-sheet/7553"
+    },
+    "zg-rac": {
+      "name": "Zoo Guide",
+      "title": "Raccoon",
+      "url": "https://zoo-guide.com/?p=24710"
+    },
+    "rwn-rac": {
+      "name": "Forest Preserve District of Will County",
+      "title": "Five fast facts about those rascally raccoons",
+      "url": "https://www.reconnectwithnature.org/headlines/news/five-fun-facts-about-raccoons"
+    },
+    "ctr-rac": {
+      "name": "Carolina Tiger Rescue",
+      "title": "Raccoon",
+      "url": "https://carolinatigerrescue.org/?p=39377"
+    },
+    "pbs-pig": {
+      "name": "PBS Nature",
+      "title": "Pigeon fact sheet",
+      "url": "https://pbs.org/wnet/nature/blog/pigeon-fact-sheet"
+    },
+    "nw-pig": {
+      "name": "NatureWorks, New Hampshire PBS",
+      "title": "Rock pigeon",
+      "url": "https://natureworks.nhpbs.org/?p=14346"
+    },
+    "bf-pig": {
+      "name": "Birdfact",
+      "title": "Rock dove",
+      "url": "https://birdfact.com/birds/rock-dove"
+    },
+    "wbu-pig": {
+      "name": "Wild Birds Unlimited Riverside",
+      "title": "Fun facts about pigeons",
+      "url": "https://riverside.wbu.com/pigeons"
+    },
+    "cpc": {
+      "name": "Central Park Conservancy",
+      "title": "Beyond squirrels: a guide to Central Park's lesser-known wildlife",
+      "url": "https://www.centralparknyc.org/activities/guides/beyond-squirrels-a-guide-to-central-parks-lesser-known-wildlife"
+    },
+    "cpc-winter": {
+      "name": "Central Park Conservancy",
+      "title": "Winter stories: wildlife",
+      "url": "https://www.centralparknyc.org/blog/winter-stories-wildlife"
+    },
+    "smith-cp": {
+      "name": "Smithsonian Magazine",
+      "title": "12 secrets of New York's Central Park",
+      "url": "https://www.smithsonianmag.com/travel/12-secrets-new-yorks-central-park-180957937/"
+    },
+    "ut-cp": {
+      "name": "Untapped New York",
+      "title": "10 fun facts about NYC's Central Park",
+      "url": "https://www.untappedcities.com/10-fun-facts-about-nycs-central-park/"
+    },
+    "cporg": {
+      "name": "CentralPark.org",
+      "title": "About Central Park",
+      "url": "https://centralpark.org/?p=1633"
+    },
+    "cbs-cp": {
+      "name": "CBS New York",
+      "title": "Raccoons take up residence in Central Park",
+      "url": "https://www.cbsnews.com/newyork/news/central-park-raccoons"
+    },
+    "se-cp": {
+      "name": "StreetEasy",
+      "title": "Raccoons in NYC",
+      "url": "https://streeteasy.com/blog/raccoons-in-nyc/"
+    }
+  }
+}

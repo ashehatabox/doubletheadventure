@@ -33,6 +33,7 @@ const checks = [
   ['/books/the-circle-of-paws', 200, 'Meet the real animals'],
   ['/heroes/tumble-and-the-honey-glow', 200, 'Piatra Craiului'],
   ['/heroes/knot-by-knot', 200, 'Wadi Darbat'],
+  ['/heroes/the-beetle-who-knew-the-stars', 200, 'Qubbet el-Hawa'],
   ['/fr/heroes', 200, 'Encyclopédie des héros'],
   ['/fr/parents/articles', 200, 'Articles pour les parents'],
   ['/parents/articles/why-every-story-starts-from-one-value', 404, ''],

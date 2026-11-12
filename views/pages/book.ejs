@@ -31,6 +31,7 @@
         <a class="btn btn-primary" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyAmazon') %></a>
         <a class="btn btn-ghost" href="<%= url('/shop') %>"><%= t('common.giftSet') %></a>
       </div>
+      <% if (readHref) { %><a class="btn btn-ghost" style="align-self:flex-start" href="<%= readHref %>"><%= readOpen ? t('reader.open') : t('reader.peek') %></a><% } %>
       <details class="stores">
         <summary><%= t('common.otherStores') %></summary>
         <ul><% b.amazonStores.forEach(function (s) { %><li><a class="chip" href="<%= s.href %>" rel="noopener"><%= s.label %></a></li><% }) %></ul>

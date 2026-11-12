@@ -1,0 +1,15 @@
+<%- include('../partials/top') %>
+<section class="section">
+  <div class="wrap grid-2">
+    <img src="<%= book.cover %>" alt="<%= book.displayTitle %>" width="900" height="1440" style="max-width:320px;border-radius:12px;justify-self:center">
+    <div class="stack">
+      <h1 class="h2"><%= t('reader.unlockedTitle') %></h1>
+      <p class="lead"><%= t('reader.unlockedText') %></p>
+      <p><%= t('reader.unlockedCode') %></p>
+      <p class="h3" style="font-family:var(--sans);letter-spacing:.04em;user-select:all"><%= code %></p>
+      <p class="muted"><%= t('reader.unlockedKeep') %></p>
+      <div class="row"><a class="btn btn-primary" href="<%= readHref %>"><%= t('reader.startReading') %></a></div>
+    </div>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

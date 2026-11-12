@@ -562,8 +562,8 @@ module.exports = {
     authorsTitle: 'The authors',
     authors: 'Amr Mohamed & Abdallah Shehata',
     people: [
-      { name: 'Amr Mohamed', text: 'Father of Yousef, and the one who asked the first question. He keeps every book close to real family life.' },
-      { name: 'Abdallah Shehata', text: 'Storyteller. He turns each value into a hero, a problem worth solving and a refrain children love to say along.' }
+      { name: 'Amr Mohamed', avatar: 'author-parrot', alt: 'Cartoon watercolour portrait of Amr Mohamed', text: 'Father of Yousef, and the one who asked the first question. He keeps every book close to real family life.' },
+      { name: 'Abdallah Shehata', avatar: 'author-glasses', alt: 'Cartoon watercolour portrait of Abdallah Shehata', text: 'Storyteller. He turns each value into a hero, a problem worth solving and a refrain children love to say along.' }
     ],
     shareTitle: 'Share a value with us',
     shareLead: 'Is there a value you wish your child, or every child, understood? Tell us. Your wish could become the next book.',

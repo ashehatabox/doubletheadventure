@@ -86,9 +86,12 @@
     <div class="stack">
       <h2 id="authors-title" class="h2" style="font-size:clamp(26px,3.4vw,36px)"><%= t('about.authorsTitle') %></h2>
       <% t('about.people').forEach(function (p) { %>
-      <div class="card card-pad stack-sm">
-        <h3 class="h3" style="font-size:21px"><%= p.name %></h3>
-        <p class="muted" style="margin:0"><%= p.text %></p>
+      <div class="card card-pad" style="display:flex;gap:20px;align-items:center">
+        <img src="/images/brand/<%= p.avatar %>.webp" alt="<%= p.alt %>" width="128" height="128" loading="lazy" style="width:128px;height:128px;border-radius:50%;flex-shrink:0;object-fit:cover">
+        <div class="stack-sm">
+          <h3 class="h3" style="font-size:21px"><%= p.name %></h3>
+          <p class="muted" style="margin:0"><%= p.text %></p>
+        </div>
       </div>
       <% }) %>
       <div class="row"><a class="btn btn-primary" href="<%= url('/books') %>"><%= t('common.exploreBooks') %></a></div>

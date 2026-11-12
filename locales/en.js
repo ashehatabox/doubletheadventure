@@ -206,8 +206,8 @@ module.exports = {
   valuesMap: {
     title: 'The values map',
     lead: 'Each new book carries one value that shaped stories somewhere in the world. Tap a hero on the map to see where its value comes from.',
-    explore: 'Explore the full map',
-    exploreHint: 'Every book, zoom in and wander.',
+    explore: 'Explore every book on the map',
+    learn: 'Where the values come from',
     fullTitle: 'Every book on the map',
     fullHint: 'Tap a pin to see its book. Pinch or scroll to zoom, drag to explore.',
     legendCulture: 'where the value comes from', legendStory: 'where the story\'s animals live',

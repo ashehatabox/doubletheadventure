@@ -206,8 +206,8 @@ module.exports = {
   valuesMap: {
     title: 'La carte des valeurs',
     lead: 'Chaque nouveau livre porte une valeur qui a façonné des histoires quelque part dans le monde. Touchez un héros sur la carte pour voir d\'où vient sa valeur.',
-    explore: 'Explorer toute la carte',
-    exploreHint: 'Tous les livres, zoomez et promenez-vous.',
+    explore: 'Explorer tous les livres sur la carte',
+    learn: 'D\'où viennent les valeurs',
     fullTitle: 'Tous les livres sur la carte',
     fullHint: 'Touchez une épingle pour voir son livre. Pincez ou faites défiler pour zoomer, glissez pour explorer.',
     legendCulture: 'd\'où vient la valeur', legendStory: 'où vivent les animaux de l\'histoire',

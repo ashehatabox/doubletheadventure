@@ -26,5 +26,5 @@
 </div>
 <div class="vmap-more">
   <a class="btn btn-primary" href="<%= url('/values-map') %>#explore" data-fmap-open><%= t('valuesMap.explore') %></a>
-  <span class="muted"><%= t('valuesMap.exploreHint') %></span>
+  <% if (typeof onMapPage === 'undefined') { %><a class="btn btn-ghost" href="<%= url('/values-map') %>"><%= t('valuesMap.learn') %></a><% } %>
 </div>

@@ -1,0 +1,1309 @@
+{
+ "book": "finn-and-coral",
+ "draft": true,
+ "updated": "2026-11-12",
+ "review": {
+  "factsChecked": "2026-11-12",
+  "culturalReader": true
+ },
+ "title": {
+  "en": "Heroes of the Coral Reef"
+ },
+ "seoTitle": {
+  "en": "Heroes of the Coral Reef: the real animals behind Finn & Coral"
+ },
+ "description": {
+  "en": "Fish that turn from yellow to blue, a dolphin with a whistle name, an octopus with three hearts and seahorse dads who have the babies. Real facts for kids."
+ },
+ "intro": {
+  "en": "Finn and Coral live on a coral reef full of real animals. Here is how a reef really works, and who lives there."
+ },
+ "place": {
+  "name": {
+   "en": "Bonaire, Caribbean Sea"
+  },
+  "image": "place.jpg",
+  "intro": {
+   "en": "The book's reef has no name, so we picked Bonaire in the Caribbean. Its reefs are home to blue tangs, sea turtles, octopuses and seahorses."
+  },
+  "introSrc": [
+   "mex-tang",
+   "np-bnmp",
+   "padi-bnmp"
+  ],
+  "facts": [
+   {
+    "kind": "wow",
+    "title": {
+     "en": "First underwater park"
+    },
+    "text": {
+     "en": "Bonaire National Marine Park, started in 1979, is often called the world's first underwater park."
+    },
+    "src": [
+     "bi-bnmp"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "Shore to 60 m"
+    },
+    "text": {
+     "en": "The whole coast is protected, from the high-tide line down to 60 m deep."
+    },
+    "src": [
+     "bi-bnmp"
+    ]
+   },
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Turtle visitors"
+    },
+    "text": {
+     "en": "Green, hawksbill and loggerhead sea turtles visit, and some nest on the beaches."
+    },
+    "src": [
+     "np-bnmp"
+    ]
+   },
+   {
+    "kind": "ha",
+    "title": {
+     "en": "Fish nursery"
+    },
+    "text": {
+     "en": "Seagrass beds in the park are a nursery for baby reef fish."
+    },
+    "src": [
+     "wiki-bnmp"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "Paid by visitors"
+    },
+    "text": {
+     "en": "The park pays for itself with fees from visitors, with no government money."
+    },
+    "src": [
+     "wiki-bnmp"
+    ]
+   }
+  ],
+  "map": {
+   "lat": 12.17,
+   "lon": -68.29,
+   "zoom": 10,
+   "region": [
+    -78,
+    6,
+    -63,
+    18
+   ],
+   "highlight": [
+    535
+   ],
+   "label": {
+    "en": "Bonaire"
+   },
+   "text": {
+    "en": "A small island in the southern Caribbean Sea, north of Venezuela, with its little sister island Klein Bonaire."
+   },
+   "src": [
+    "wiki-bnmp"
+   ],
+   "areaNote": {
+    "en": "The island of Bonaire."
+   },
+   "pin": [
+    64.73,
+    49.11
+   ],
+   "aspect": 1.2195
+  }
+ },
+ "cast": [
+  {
+   "id": "finncoral",
+   "role": "hero",
+   "colour": "sun",
+   "name": {
+    "en": "Finn and Coral"
+   },
+   "animal": {
+    "en": "Blue tangs (our pick)"
+   },
+   "image": "finncoral.jpg",
+   "job": {
+    "en": "A little brother learning to trust his big sister again"
+   },
+   "superpower": {
+    "en": "They change colour as they grow up"
+   },
+   "lineup": {
+    "weight": {
+     "en": "not well recorded"
+    },
+    "grams": 300,
+    "like": {
+     "en": "a can of soup (our guess)"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "Up to 39 cm"
+     },
+     "src": [
+      "adw-tang"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Not well recorded"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Not well recorded"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Algae, grazed off the reef"
+     },
+     "src": [
+      "reef-tang"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Shallow reefs of the Caribbean and western Atlantic"
+     },
+     "src": [
+      "adw-tang"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Young ones sometimes school together"
+     },
+     "src": [
+      "jd-tang"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Yellow to blue"
+     },
+     "text": {
+      "en": "Young blue tangs are bright lemon yellow. As they grow, they turn deep blue!"
+     },
+     "src": [
+      "reef-tang",
+      "naturalis-tang"
+     ]
+    },
+    {
+     "title": {
+      "en": "Reef gardeners"
+     },
+     "text": {
+      "en": "By eating algae, blue tangs stop the corals from being overgrown."
+     },
+     "src": [
+      "reef-tang"
+     ]
+    },
+    {
+     "title": {
+      "en": "In-between look"
+     },
+     "text": {
+      "en": "On the way to blue, a young tang has a blue body and a yellow tail."
+     },
+     "src": [
+      "naturalis-tang",
+      "mex-tang"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "A built-in scalpel"
+     },
+     "text": {
+      "en": "Blue tangs have a sharp spine by the tail, like a surgeon's scalpel. That's why they're called surgeonfish."
+     },
+     "src": [
+      "naturalis-tang"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Not Dory"
+     },
+     "text": {
+      "en": "Dory from Finding Dory is a different fish, the Pacific blue tang."
+     },
+     "src": [
+      "reeflings"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Size isn't everything"
+     },
+     "text": {
+      "en": "Sometimes a yellow youngster is bigger than a blue grown-up! The colour change doesn't depend on size."
+     },
+     "src": [
+      "naturalis-tang2"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Sky blue"
+     },
+     "text": {
+      "en": "Their scientific name, coeruleus, is Latin for 'sky blue' or 'dark blue'."
+     },
+     "src": [
+      "reef-tang"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "The book doesn't name Finn and Coral's kind of fish, so we picked the blue tang: young ones are yellow-orange like Finn, and grown-ups are blue like Coral. Real brothers and sisters don't stay together, though. Fish families are a story idea."
+   },
+   "storyVsRealSrc": [
+    "reef-tang"
+   ]
+  },
+  {
+   "id": "dolphin",
+   "role": "friend",
+   "colour": "sky",
+   "name": {
+    "en": "The dolphin"
+   },
+   "animal": {
+    "en": "Common bottlenose dolphin"
+   },
+   "image": "dolphin.jpg",
+   "job": {
+    "en": "The kind stranger who helps Finn stay calm"
+   },
+   "superpower": {
+    "en": "A whistle that works like a name"
+   },
+   "lineup": {
+    "weight": {
+     "en": "220–270 kg"
+    },
+    "grams": 245000,
+    "like": {
+     "en": "a piano"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "2–2.7 m"
+     },
+     "src": [
+      "ga-dolphin"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "220–270 kg"
+     },
+     "src": [
+      "ga-dolphin"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "40–60 years"
+     },
+     "src": [
+      "oceana-dolphin"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Fish, squid and crustaceans"
+     },
+     "src": [
+      "oi-dolphin"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Coasts, bays and open ocean around the world"
+     },
+     "src": [
+      "oc-dolphin"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Moms have one calf every 3–6 years"
+     },
+     "src": [
+      "oceana-dolphin"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "A whistle name"
+     },
+     "text": {
+      "en": "Each dolphin makes up its own signature whistle soon after it's born, and uses it like a name."
+     },
+     "src": [
+      "ngk-dolphin",
+      "ga-dolphin"
+     ]
+    },
+    {
+     "title": {
+      "en": "Seeing with sound"
+     },
+     "text": {
+      "en": "Dolphins send out clicks and listen to the echoes to find food, even in murky water."
+     },
+     "src": [
+      "ga-dolphin"
+     ]
+    },
+    {
+     "title": {
+      "en": "Click, click, click"
+     },
+     "text": {
+      "en": "A dolphin can make up to 1,000 clicks every second."
+     },
+     "src": [
+      "ng-dolphin"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "New skin, again"
+     },
+     "text": {
+      "en": "Bottlenose dolphins shed their outer skin about every 2 hours!"
+     },
+     "src": [
+      "ga-dolphin"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Half asleep"
+     },
+     "text": {
+      "en": "Dolphins sleep with one eye open so they remember to breathe."
+     },
+     "src": [
+      "oi-dolphin"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Lifelong friends"
+     },
+     "text": {
+      "en": "Bottlenose dolphins often make friendships that last for life."
+     },
+     "src": [
+      "oi-dolphin"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real dolphins can't talk to fish, of course. But they are smart, social and curious, so a friendly dolphin is a good fit."
+   },
+   "storyVsRealSrc": [
+    "oi-dolphin"
+   ]
+  },
+  {
+   "id": "turtle",
+   "role": "supporting",
+   "colour": "mint",
+   "name": {
+    "en": "The sea turtle"
+   },
+   "animal": {
+    "en": "Green sea turtle"
+   },
+   "image": "turtle.jpg",
+   "job": {
+    "en": "Glides by the reef"
+   },
+   "superpower": {
+    "en": "Holds its breath for hours"
+   },
+   "lineup": {
+    "weight": {
+     "en": "68–181 kg"
+    },
+    "grams": 130000,
+    "like": {
+     "en": "a big fridge... a small one"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "Up to about 1.2 m"
+     },
+     "src": [
+      "wow-turtle"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "68–181 kg"
+     },
+     "src": [
+      "zg-turtle"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Up to 80 years"
+     },
+     "src": [
+      "tnc-turtle"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Mostly seagrass and algae"
+     },
+     "src": [
+      "ga-turtle"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Warm seas worldwide; nests on sandy beaches"
+     },
+     "src": [
+      "wow-turtle"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "A mom lays up to 110 eggs in each nest"
+     },
+     "src": [
+      "wow-turtle"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Green inside!"
+     },
+     "text": {
+      "en": "It's named for the greenish colour of its fat, not its shell."
+     },
+     "src": [
+      "wwf-turtle",
+      "ga-turtle"
+     ]
+    },
+    {
+     "title": {
+      "en": "Ocean gardener"
+     },
+     "text": {
+      "en": "Grazing on seagrass keeps seagrass meadows healthy."
+     },
+     "src": [
+      "wow-turtle"
+     ]
+    },
+    {
+     "title": {
+      "en": "Biggest hard shell"
+     },
+     "text": {
+      "en": "It's the largest sea turtle with a hard shell."
+     },
+     "src": [
+      "ga-turtle"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Long nap"
+     },
+     "text": {
+      "en": "Green turtles can hold their breath for hours, even sleeping underwater."
+     },
+     "src": [
+      "oi-turtle"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Tiny odds"
+     },
+     "text": {
+      "en": "Only about 1 in 1,000 to 1 in 10,000 baby sea turtles grows up."
+     },
+     "src": [
+      "pbs-turtle"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Can't hide"
+     },
+     "text": {
+      "en": "A green turtle can't pull its head into its shell."
+     },
+     "src": [
+      "oi-turtle"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Green turtles really do swim over Caribbean reefs. In Bonaire they graze on the seagrass beds."
+   },
+   "storyVsRealSrc": [
+    "ip-bnmp"
+   ]
+  },
+  {
+   "id": "octopus",
+   "role": "supporting",
+   "colour": "peach",
+   "name": {
+    "en": "The octopus"
+   },
+   "animal": {
+    "en": "Caribbean reef octopus"
+   },
+   "image": "octopus.jpg",
+   "job": {
+    "en": "Rests on the reef"
+   },
+   "superpower": {
+    "en": "Three hearts and blue blood"
+   },
+   "lineup": {
+    "weight": {
+     "en": "1–1.5 kg"
+    },
+    "grams": 1250,
+    "like": {
+     "en": "a pineapple"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Arm length"
+     },
+     "value": {
+      "en": "50–60 cm"
+     },
+     "src": [
+      "dim-octo"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "1–1.5 kg"
+     },
+     "src": [
+      "dim-octo"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "About 10–12 months"
+     },
+     "src": [
+      "dim-octo"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Crabs, shrimp and small fish"
+     },
+     "src": [
+      "dim-octo"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Hidden dens on reefs and grassy seabeds"
+     },
+     "src": [
+      "angari"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Lives alone"
+     },
+     "src": [
+      "eo-octo"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Master of disguise"
+     },
+     "text": {
+      "en": "It can change the colour and texture of its skin to match almost anything."
+     },
+     "src": [
+      "angari"
+     ]
+    },
+    {
+     "title": {
+      "en": "Night hunter"
+     },
+     "text": {
+      "en": "It mostly comes out at night to feed."
+     },
+     "src": [
+      "eo-octo"
+     ]
+    },
+    {
+     "title": {
+      "en": "Net arms"
+     },
+     "text": {
+      "en": "It spreads its webbed arms like a canopy to trap prey."
+     },
+     "src": [
+      "eo-octo"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Three hearts"
+     },
+     "text": {
+      "en": "Octopuses have three hearts and blue blood."
+     },
+     "src": [
+      "kw-octo"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "No bones at all"
+     },
+     "text": {
+      "en": "An octopus has no bones, so it can squeeze into tiny cracks."
+     },
+     "src": [
+      "angari"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Colour-blind camouflage"
+     },
+     "text": {
+      "en": "Even though it's colour-blind, it can match its background perfectly."
+     },
+     "src": [
+      "angari"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "The octopus in the book is orange. Real Caribbean reef octopuses are often blue-green with brown markings, but they can change colour in a flash!"
+   },
+   "storyVsRealSrc": [
+    "angari2"
+   ]
+  },
+  {
+   "id": "seahorse",
+   "role": "supporting",
+   "colour": "lilac",
+   "name": {
+    "en": "The seahorse"
+   },
+   "animal": {
+    "en": "Longsnout seahorse"
+   },
+   "image": "seahorse.jpg",
+   "job": {
+    "en": "Holds on to the coral nearby"
+   },
+   "superpower": {
+    "en": "Dads have the babies"
+   },
+   "lineup": {
+    "weight": {
+     "en": "about 5–50 g"
+    },
+    "grams": 15,
+    "like": {
+     "en": "three sugar cubes"
+    },
+    "awake": "day"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "Up to 18 cm with tail stretched out"
+     },
+     "src": [
+      "rsg-sea"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "About 5–50 g"
+     },
+     "src": [
+      "snap-sea"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Up to 4 years"
+     },
+     "src": [
+      "rsg-sea"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Tiny plankton, shrimp and small crustaceans"
+     },
+     "src": [
+      "rsg-sea"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Seagrass, coral and sponges in the Caribbean"
+     },
+     "src": [
+      "rsg-sea",
+      "rsg-sea2"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Dad carries up to 1,500 eggs in his pouch"
+     },
+     "src": [
+      "rsg-sea"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Daddy pregnancy"
+     },
+     "text": {
+      "en": "Mom puts her eggs in Dad's pouch, and he carries them for about 14 days."
+     },
+     "src": [
+      "rsg-sea"
+     ]
+    },
+    {
+     "title": {
+      "en": "Tail grip"
+     },
+     "text": {
+      "en": "Seahorses curl their tails around seagrass and coral to hold on."
+     },
+     "src": [
+      "rsg-sea"
+     ]
+    },
+    {
+     "title": {
+      "en": "Look both ways"
+     },
+     "text": {
+      "en": "Their eyes can move separately, so they see almost all around."
+     },
+     "src": [
+      "aas-sea"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Bent horse"
+     },
+     "text": {
+      "en": "Its scientific name, Hippocampus, is Greek for 'bent horse'."
+     },
+     "src": [
+      "sw-sea"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Always hungry"
+     },
+     "text": {
+      "en": "Seahorses must eat almost all the time to survive."
+     },
+     "src": [
+      "aas-sea"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "A fish in armour"
+     },
+     "text": {
+      "en": "A seahorse is a fish, covered in bony rings instead of scales."
+     },
+     "src": [
+      "sw-sea"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real longsnout seahorses really do live on Caribbean reefs and can change colour to hide. They're near threatened, so divers are asked not to touch them."
+   },
+   "storyVsRealSrc": [
+    "rsg-sea2",
+    "snap-sea"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "title": {
+    "en": "Stay close game"
+   },
+   "text": {
+    "en": "Walk together holding a ribbon between you. Can you stay connected all the way across the room?"
+   }
+  },
+  {
+   "title": {
+    "en": "Make a promise"
+   },
+   "text": {
+    "en": "Make one small promise today, like 'I'll wait for you', and keep it. How did it feel?"
+   }
+  },
+  {
+   "title": {
+    "en": "Whistle names"
+   },
+   "text": {
+    "en": "Make up your own whistle name, like a dolphin. Can your family guess who's whistling?"
+   }
+  },
+  {
+   "title": {
+    "en": "Colour change"
+   },
+   "text": {
+    "en": "Draw a fish yellow, then colour it blue as it grows up, like a blue tang."
+   }
+  },
+  {
+   "title": {
+    "en": "Find Bonaire"
+   },
+   "text": {
+    "en": "Find the Caribbean Sea on a map, then the small island of Bonaire near Venezuela."
+   }
+  }
+ ],
+ "faq": [
+  {
+   "q": {
+    "en": "What kind of fish are Finn and Coral?"
+   },
+   "a": {
+    "en": "The book doesn't say. We think they look like blue tangs: yellow when young, blue when grown up."
+   },
+   "src": [
+    "reef-tang"
+   ]
+  },
+  {
+   "q": {
+    "en": "Do dolphins really have names?"
+   },
+   "a": {
+    "en": "Yes, sort of. Each dolphin has its own signature whistle that works like a name."
+   },
+   "src": [
+    "ngk-dolphin"
+   ]
+  },
+  {
+   "q": {
+    "en": "Why are green sea turtles called green?"
+   },
+   "a": {
+    "en": "Because their fat is greenish, from eating seagrass, not because of their shells."
+   },
+   "src": [
+    "wwf-turtle"
+   ]
+  },
+  {
+   "q": {
+    "en": "Do seahorse dads really have babies?"
+   },
+   "a": {
+    "en": "Yes. The male carries the eggs in a pouch until they hatch."
+   },
+   "src": [
+    "rsg-sea"
+   ]
+  }
+ ],
+ "sources": {
+  "reef-tang": {
+   "name": "REEF",
+   "title": "Fish of the Month: Blue tang",
+   "url": "https://www.reef.org/node/19157"
+  },
+  "naturalis-tang": {
+   "name": "Naturalis, Caribbean Diving Guide",
+   "title": "Acanthurus coeruleus",
+   "url": "https://caribbean-diving.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?id=6574"
+  },
+  "naturalis-tang2": {
+   "name": "Naturalis, Caribbean Diving Guide",
+   "title": "Blue tang: colour phases",
+   "url": "https://caribbean-diving.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?id=6574"
+  },
+  "adw-tang": {
+   "name": "Animal Diversity Web, University of Michigan",
+   "title": "Acanthurus coeruleus",
+   "url": "https://animaldiversity.org/accounts/Acanthurus_coeruleus"
+  },
+  "jd-tang": {
+   "name": "JungleDragon",
+   "title": "Blue tang",
+   "url": "https://www.jungledragon.com/specie/6749/blue-tang.html"
+  },
+  "ga-tang": {
+   "name": "Georgia Aquarium",
+   "title": "Blue tang surgeonfish",
+   "url": "https://www.georgiaaquarium.org/animal/blue-tang-surgeonfish/"
+  },
+  "mex-tang": {
+   "name": "Mexican Fish",
+   "title": "Blue tang",
+   "url": "https://mexican-fish.com/blue-tang/"
+  },
+  "kw-tang": {
+   "name": "Key West Aquarium",
+   "title": "Blue tang fish",
+   "url": "https://www.keywestaquarium.com/blue-tang"
+  },
+  "reeflings": {
+   "name": "Reeflings",
+   "title": "Acanthurus coeruleus",
+   "url": "https://reeflings.com/species/acanthurus-coeruleus"
+  },
+  "ga-dolphin": {
+   "name": "Georgia Aquarium",
+   "title": "Common bottlenose dolphin",
+   "url": "https://www.georgiaaquarium.org/?p=864"
+  },
+  "oceana-dolphin": {
+   "name": "Oceana",
+   "title": "Common bottlenose dolphin",
+   "url": "https://oceana.org/?p=16355"
+  },
+  "ngk-dolphin": {
+   "name": "National Geographic Kids",
+   "title": "Bottlenose dolphin",
+   "url": "https://kids.nationalgeographic.com/animals/mammals/bottlenose-dolphin/"
+  },
+  "ng-dolphin": {
+   "name": "National Geographic",
+   "title": "Common bottlenose dolphin",
+   "url": "https://www.nationalgeographic.com/animals/mammals/facts/bottlenose-dolphin"
+  },
+  "oi-dolphin": {
+   "name": "OceanInfo",
+   "title": "Bottlenose dolphin",
+   "url": "https://oceaninfo.com/animals/bottlenose-dolphin/"
+  },
+  "oc-dolphin": {
+   "name": "Ocean Conservancy",
+   "title": "Bottlenose dolphin",
+   "url": "https://oceanconservancy.org/wildlife-factsheet/bottlenose-dolphin"
+  },
+  "wow-turtle": {
+   "name": "Wonders of Wildlife",
+   "title": "Green sea turtle",
+   "url": "https://wondersofwildlife.org/animals/green-sea-turtle/"
+  },
+  "ga-turtle": {
+   "name": "Georgia Aquarium",
+   "title": "Green sea turtle",
+   "url": "https://www.georgiaaquarium.org/?p=1518"
+  },
+  "wwf-turtle": {
+   "name": "WWF",
+   "title": "Green turtle",
+   "url": "https://worldwildlife.org/species/green-turtle"
+  },
+  "tnc-turtle": {
+   "name": "The Nature Conservancy",
+   "title": "Green sea turtle fast facts",
+   "url": "https://www.nature.org/en-us/explore/animals-we-protect/green-sea-turtle/"
+  },
+  "oi-turtle": {
+   "name": "OceanInfo",
+   "title": "Green turtle",
+   "url": "https://oceaninfo.com/animals/green-turtle/"
+  },
+  "pbs-turtle": {
+   "name": "PBS Nature",
+   "title": "Sea turtle fact sheet",
+   "url": "https://www.pbs.org/wnet/nature/blog/sea-turtle-fact-sheet"
+  },
+  "zg-turtle": {
+   "name": "Zoo Guide",
+   "title": "Green sea turtle",
+   "url": "https://zoo-guide.com/?p=20257"
+  },
+  "dim-octo": {
+   "name": "Dimensions",
+   "title": "Caribbean reef octopus",
+   "url": "https://www.dimensions.com/element/caribbean-reef-octopus-octopus-briareus"
+  },
+  "angari": {
+   "name": "ANGARI Foundation",
+   "title": "Caribbean reef octopus deep dive",
+   "url": "https://angari.org/caribbean-reef-octopus-deep-dive/"
+  },
+  "angari2": {
+   "name": "ANGARI Foundation",
+   "title": "Caribbean reef octopus: colour and defence",
+   "url": "https://angari.org/?p=36128"
+  },
+  "kw-octo": {
+   "name": "Key West Aquarium",
+   "title": "Caribbean reef octopus",
+   "url": "https://keywestaquarium.com/?p=1657"
+  },
+  "ls-octo": {
+   "name": "Live Science",
+   "title": "Octopuses: facts about the 8-armed geniuses of the sea",
+   "url": "https://livescience.com/55478-octopus-facts.html"
+  },
+  "ssi-octo": {
+   "name": "SSI",
+   "title": "Octopuses: 20 amazing facts",
+   "url": "https://www.divessi.com/blog/octopuses-20-amazing-facts-1244"
+  },
+  "eo-octo": {
+   "name": "Everything Octopus",
+   "title": "Caribbean reef octopus",
+   "url": "https://dcmpx.remotevs.com/com/blogspot/everythingoctopus/PL/search/label/Caribbean%20Reef%20Octopus"
+  },
+  "rsg-sea": {
+   "name": "Reef Smart Guides",
+   "title": "Longsnout seahorse",
+   "url": "https://reefsmartguides.com/longsnout-seahorse/"
+  },
+  "rsg-sea2": {
+   "name": "Reef Smart Guides",
+   "title": "Longsnout seahorse: status",
+   "url": "https://reefsmartguides.com/?p=22889"
+  },
+  "sw-sea": {
+   "name": "SeaWorld",
+   "title": "Seahorses",
+   "url": "https://seaworld.org/animals/facts/bony-fish/seahorses"
+  },
+  "snap-sea": {
+   "name": "Snappit",
+   "title": "Slender seahorse",
+   "url": "https://www.snappit.app/explore/slender-seahorse"
+  },
+  "aas-sea": {
+   "name": "All At Sea",
+   "title": "Seahorses",
+   "url": "https://www.allatsea.net/?p=3339"
+  },
+  "naus-sea": {
+   "name": "Nausicaá",
+   "title": "Longsnout seahorse",
+   "url": "https://www.nausicaa.fr/en/my-visit/animals/longsnout-seahorse"
+  },
+  "wiki-bnmp": {
+   "name": "Wikipedia",
+   "title": "Bonaire National Marine Park",
+   "url": "https://en.wikipedia.org/wiki/Bonaire_National_Marine_Park"
+  },
+  "bi-bnmp": {
+   "name": "Bonaire Island",
+   "title": "How the Bonaire National Marine Park became the world's first underwater park",
+   "url": "https://nature.bonaireisland.com/blog/bonaire-national-marine-park-first-underwater-park-1979/"
+  },
+  "np-bnmp": {
+   "name": "National-Parks.org",
+   "title": "Bonaire National Marine Park",
+   "url": "https://national-parks.org/?p=12556"
+  },
+  "ip-bnmp": {
+   "name": "International Parks",
+   "title": "Bonaire National Marine Park",
+   "url": "https://www.internationalparks.org/bonaire/Bonaire"
+  },
+  "padi-bnmp": {
+   "name": "PADI",
+   "title": "Your guide to Bonaire diving",
+   "url": "https://blog.padi.com/?p=482628"
+  }
+ }
+}

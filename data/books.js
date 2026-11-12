@@ -11,20 +11,25 @@
 
 const FIVE = ['en', 'fr', 'es', 'de', 'it'];
 
+// Amazon links for one ASIN in every store (paperback ASINs, checked on the KDP Bookshelf Nov 12, 2026).
+const HOSTS = { ca: 'ca', com: 'com', uk: 'co.uk', fr: 'fr', de: 'de', es: 'es', it: 'it' };
+const az = (asin) => Object.fromEntries(Object.entries(HOSTS).map(([st, h]) => [st, `https://www.amazon.${h}/dp/${asin}`]));
+
 const books = [
-  { n: 1, slug: 'secret-hero', title: { en: 'Secret Hero' }, value: 'kindness', moments: ['kindness'], status: 'live', languages: ['en'], color: '#FFB3B3' },
-  { n: 2, slug: 'becoming-a-tree', title: { en: 'Becoming a Tree' }, value: 'patience', moments: ['patience'], status: 'live', languages: ['en'], color: '#A8DDA8' },
-  { n: 3, slug: 'friendship-bridge', title: { en: 'Friendship Bridge' }, value: 'teamwork', moments: ['friendship'], status: 'live', languages: ['en'], color: '#9FD3F0' },
-  { n: 4, slug: 'the-fox-mistake', title: { en: 'The Fox Mistake' }, value: 'forgiveness', moments: ['sorry', 'friendship'], status: 'live', languages: ['en'], color: '#FFC59E' },
-  { n: 5, slug: 'rainy-day-shiny-things', title: { en: 'Rainy Day, Shiny Things' }, value: 'gratitude', moments: ['thankful'], status: 'live', languages: ['en'], color: '#CDB8F2' },
-  { n: 6, slug: 'the-desert-buzz', title: { en: 'The Desert Buzz' }, value: 'anger', moments: ['big-feelings'], status: 'live', languages: ['en'], color: '#FFE08A' },
-  { n: 7, slug: 'the-honest-little-raccoon', title: { en: 'The Honest Little Raccoon' }, value: 'truth', moments: ['honesty'], status: 'live', languages: ['en'], color: '#9FD3F0' },
-  { n: 8, slug: 'finn-and-coral', title: { en: 'Finn & Coral' }, value: 'trust', moments: ['friendship'], status: 'live', languages: ['en'], color: '#A8DDA8' },
+  { n: 1, slug: 'secret-hero', title: { en: 'Secret Hero' }, value: 'kindness', moments: ['kindness'], status: 'live', languages: ['en'], amazon: az('B0DVLJ6HBQ'), color: '#FFB3B3' },
+  { n: 2, slug: 'becoming-a-tree', title: { en: 'Becoming a Tree' }, value: 'patience', moments: ['patience'], status: 'live', languages: ['en'], amazon: az('B0FGJHLLFB'), color: '#A8DDA8' },
+  { n: 3, slug: 'friendship-bridge', title: { en: 'Friendship Bridge' }, value: 'teamwork', moments: ['friendship'], status: 'live', languages: ['en'], amazon: az('B0FHB9MLYG'), color: '#9FD3F0' },
+  { n: 4, slug: 'the-fox-mistake', title: { en: 'The Fox Mistake' }, value: 'forgiveness', moments: ['sorry', 'friendship'], status: 'live', languages: ['en'], amazon: az('B0FHB5J4BQ'), color: '#FFC59E' },
+  { n: 5, slug: 'rainy-day-shiny-things', title: { en: 'Rainy Day, Shiny Things' }, value: 'gratitude', moments: ['thankful'], status: 'live', languages: ['en'], amazon: az('B0FHBM6NWF'), color: '#CDB8F2' },
+  { n: 6, slug: 'the-desert-buzz', title: { en: 'The Desert Buzz' }, value: 'anger', moments: ['big-feelings'], status: 'live', languages: ['en'], amazon: az('B0FHDSFQ16'), color: '#FFE08A' },
+  { n: 7, slug: 'the-honest-little-raccoon', title: { en: 'The Honest Little Raccoon' }, value: 'truth', moments: ['honesty'], status: 'live', languages: ['en'], amazon: az('B0FHKS3W3B'), color: '#9FD3F0' },
+  { n: 8, slug: 'finn-and-coral', title: { en: 'Finn & Coral' }, value: 'trust', moments: ['friendship'], status: 'soon', languages: ['en'], color: '#A8DDA8' },
   {
     n: 9, slug: 'pip-the-brave-parrot',
     title: { en: 'Pip the Brave Parrot' },
     subtitle: { en: 'A Story About Courage and Finding Your Voice' },
     value: 'courage', moments: ['brave'], status: 'live', languages: FIVE, color: '#A8DDA8',
+    amazon: az('B0HMJXN1YG'),
     hero: { en: 'Pip, a young parrot with a very small voice' },
     blurb: { en: 'Pip hums softly in the trees but never sings when others are around. Then a baby bird falls from its nest, and the only way to bring help is to call out, loud and clear.' },
     themeLine: { en: 'Your voice doesn\'t have to be loud to be strong. It just has to be truly yours.' }
@@ -51,7 +56,9 @@ const books = [
     n: 12, slug: 'the-pebbles-inside',
     title: { en: 'The Pebbles Inside', fr: 'Les cailloux de Tavi' },
     subtitle: { en: 'A Story About Sharing Our Feelings and the Friends Who Listen', fr: 'Une histoire sur le partage de nos émotions et les amis qui écoutent' },
-    value: 'feelings', moments: ['big-feelings', 'friendship'], status: 'soon', languages: FIVE, color: '#FFB3B3',
+    value: 'feelings', moments: ['big-feelings', 'friendship'], status: 'live', languages: FIVE, color: '#FFB3B3',
+    // Live Nov 2026: paperback B0HQXRK4Y1, Kindle B0HQXZJXKY.
+    amazon: az('B0HQXRK4Y1'),
     hero: { en: 'Tavi, a little turtle with a big, quiet heart' },
     blurb: { en: 'Tavi says "I\'m fine" and tucks each hurt inside like a little pebble. Pebble by pebble her shell grows heavy, until her best friend Fern sits down beside her and simply stays.' },
     themeLine: { en: 'Feelings kept inside grow heavy. Feelings we share become a path.' }

@@ -5,7 +5,7 @@ module.exports = {
   },
   topbar: { newBook: 'New:', newBookLine: 'a story about belonging you build yourself' },
   nav: {
-    readWatch: 'Read & watch', animals: 'Real animals', books: 'Books', shop: 'Shop', play: 'Play', parents: 'Parents', educators: 'Educators', partners: 'Partners',
+    stories: 'Stories', heroes: 'Heroes', readWatch: 'Read & watch', animals: 'Real animals', books: 'Books', shop: 'Shop', play: 'Play', parents: 'Parents', educators: 'Educators', partners: 'Partners',
     freePage: 'Free coloring page', menu: 'Menu', main: 'Main', language: 'Language', skip: 'Skip to content'
   },
   common: {
@@ -354,7 +354,7 @@ module.exports = {
     startReading: 'Start reading'
   },
   readwatch: {
-    title: 'Read & watch',
+    title: 'Stories',
     lead: 'Open a book and read it right here, page by page, or press play and listen to it read aloud. Made for snuggling up together.',
     readTitle: 'Read it online',
     readLead: 'The first pages of every book are free to read here. Turn the pages yourself, or press Read to me.',
@@ -686,7 +686,7 @@ module.exports = {
     booksTitle: 'Books', familiesTitle: 'Families', educatorsTitle: 'Educators', partnersTitle: 'Partners',
     values: 'Values',
     start: 'Which book first?',
-    allBooks: 'All books', reviewTeam: 'Review team', about: 'Our story', contact: 'Contact', faq: 'Questions',
+    aboutUs: 'About us', allBooks: 'All books', reviewTeam: 'Review team', about: 'Our story', contact: 'Contact', faq: 'Questions',
     privacy: 'Privacy', terms: 'Terms', shipping: 'Shipping'
   },
   notFound: { title: 'This page wandered off', text: 'Let\'s find you a story instead.' }

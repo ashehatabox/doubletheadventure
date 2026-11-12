@@ -5,7 +5,7 @@ module.exports = {
   },
   topbar: { newBook: 'Nouveau :', newBookLine: 'une histoire sur l\'appartenance qu\'on construit soi-même' },
   nav: {
-    readWatch: 'Lire et regarder', animals: 'Vrais animaux', books: 'Livres', shop: 'Boutique', play: 'Jouer', parents: 'Parents', educators: 'Éducateurs', partners: 'Partenaires',
+    stories: 'Histoires', heroes: 'Héros', readWatch: 'Lire et regarder', animals: 'Vrais animaux', books: 'Livres', shop: 'Boutique', play: 'Jouer', parents: 'Parents', educators: 'Éducateurs', partners: 'Partenaires',
     freePage: 'Coloriage gratuit', menu: 'Menu', main: 'Principal', language: 'Langue', skip: 'Aller au contenu'
   },
   common: {
@@ -354,7 +354,7 @@ module.exports = {
     startReading: 'Commencer la lecture'
   },
   readwatch: {
-    title: 'Lire et regarder',
+    title: 'Histoires',
     lead: 'Ouvrez un livre et lisez-le ici, page après page, ou appuyez sur lecture et écoutez-le lu à voix haute. Parfait pour un câlin.',
     readTitle: 'Le lire en ligne',
     readLead: 'Les premières pages de chaque livre se lisent gratuitement ici. Tournez les pages vous-même, ou appuyez sur Lis-moi l\'histoire.',
@@ -686,7 +686,7 @@ module.exports = {
     booksTitle: 'Livres', familiesTitle: 'Familles', educatorsTitle: 'Éducateurs', partnersTitle: 'Partenaires',
     values: 'Les valeurs',
     start: 'Quel livre d\'abord ?',
-    allBooks: 'Tous les livres', reviewTeam: 'Équipe de lecteurs', about: 'Notre histoire', contact: 'Nous écrire', faq: 'Questions',
+    aboutUs: 'À propos', allBooks: 'Tous les livres', reviewTeam: 'Équipe de lecteurs', about: 'Notre histoire', contact: 'Nous écrire', faq: 'Questions',
     privacy: 'Confidentialité', terms: 'Conditions', shipping: 'Livraison'
   },
   notFound: { title: 'Cette page s\'est égarée', text: 'Trouvons-vous plutôt une histoire.' }

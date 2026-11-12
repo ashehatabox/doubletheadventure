@@ -31,6 +31,7 @@
       <nav class="footer-col" aria-label="<%= t('footer.partnersTitle') %>">
         <strong><%= t('footer.partnersTitle') %></strong>
         <% t('partners.cards').forEach(function (c) { %><a href="<%= url('/partners/' + c.key) %>"><%= c.title %></a><% }) %>
+        <a href="<%= url('/about') %>"><%= t('footer.aboutUs') %></a>
       </nav>
     </div>
     <div class="footer-bottom">

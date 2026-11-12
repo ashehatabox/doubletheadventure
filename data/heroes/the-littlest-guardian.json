@@ -1,0 +1,953 @@
+{
+  "book": "the-littlest-guardian",
+  "draft": true,
+  "updated": "2026-11-12",
+  "review": {
+    "factsChecked": "2026-11-12",
+    "culturalReader": false
+  },
+  "title": {
+    "en": "Heroes of the Glowing Shore"
+  },
+  "seoTitle": {
+    "en": "Heroes of the Glowing Shore: the real animals behind The Littlest Guardian"
+  },
+  "description": {
+    "en": "The world's smallest penguin, a kiwi that smells with the tip of its beak, and an island of glowing skies. Real, checked facts for kids."
+  },
+  "intro": {
+    "en": "Every animal in The Littlest Guardian is real, and they share the beaches of New Zealand. Here is how they eat, grow and find their way home."
+  },
+  "place": {
+    "name": {
+      "en": "Stewart Island / Rakiura, New Zealand"
+    },
+    "image": "place.jpg",
+    "intro": {
+      "en": "The book's beach has no name, so we picked one where little penguins live and kiwi really walk on the sand: Stewart Island / Rakiura, at the bottom of New Zealand."
+    },
+    "introSrc": [
+      "nzcom-rakiura",
+      "doc-tokoeka"
+    ],
+    "facts": [
+      {
+        "kind": "wow",
+        "title": {
+          "en": "The land of glowing skies"
+        },
+        "text": {
+          "en": "Rakiura means \"glowing skies\", after the southern lights, the aurora australis, that shine over the island."
+        },
+        "src": [
+          "teara",
+          "nasa"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "A park on most of the island"
+        },
+        "text": {
+          "en": "Rakiura National Park covers about 85% of the island. There are only 28 km of road but 280 km of walking tracks."
+        },
+        "src": [
+          "teara",
+          "nzcom-rakiura"
+        ]
+      },
+      {
+        "kind": "ha",
+        "title": {
+          "en": "More kiwi than people"
+        },
+        "text": {
+          "en": "Brown kiwi outnumber people on Stewart Island! Only about 400 people live there."
+        },
+        "src": [
+          "nzcom-rakiura",
+          "darksky"
+        ]
+      },
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Super-dark skies"
+        },
+        "text": {
+          "en": "In 2019 the island became an International Dark Sky Sanctuary, a place protected for its starry nights."
+        },
+        "src": [
+          "darksky"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "The rainbow shell"
+        },
+        "text": {
+          "en": "The rainbow shell in the story looks like pāua, a big sea snail found only in New Zealand. Its scientific name means \"rainbow ear-shell\", and its blood is light blue!"
+        },
+        "src": [
+          "niwa-paua",
+          "paua-org"
+        ]
+      }
+    ],
+    "map": {
+      "lat": -46.917,
+      "lon": 167.8,
+      "zoom": 11,
+      "region": [
+        156,
+        -49,
+        179.5,
+        -33
+      ],
+      "highlight": [
+        554
+      ],
+      "label": {
+        "en": "Mason Bay, Rakiura"
+      },
+      "text": {
+        "en": "A long wild beach on the west coast of Stewart Island / Rakiura, where scientists have studied tokoeka families for decades."
+      },
+      "src": [
+        "robertson2022"
+      ],
+      "areaNote": {
+        "en": "Yellow: New Zealand."
+      },
+      "pin": [
+        50.21,
+        85.41
+      ],
+      "aspect": 1.0989
+    }
+  },
+  "cast": [
+    {
+      "id": "tama",
+      "role": "hero",
+      "colour": "sky",
+      "name": {
+        "en": "Tama"
+      },
+      "animal": {
+        "en": "Little penguin (kororā)"
+      },
+      "image": "tama.jpg",
+      "job": {
+        "en": "The littlest guardian of the path home"
+      },
+      "superpower": {
+        "en": "'Flies' underwater with his flippers"
+      },
+      "lineup": {
+        "weight": {
+          "en": "about 1 kg"
+        },
+        "grams": 1000,
+        "like": {
+          "en": "two blocks of butter"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Height"
+          },
+          "value": {
+            "en": "About 25–33 cm, the smallest penguin in the world"
+          },
+          "src": [
+            "doc-korora",
+            "trc"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "About 1 kg, like two blocks of butter"
+          },
+          "src": [
+            "doc-blog"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About 7 years on average; the oldest known reached 25"
+          },
+          "src": [
+            "bluepenguins",
+            "nzbo-penguin"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Small fish, squid, octopus and crustaceans"
+          },
+          "src": [
+            "trc"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Burrows, rock cracks, under bushes, logs, even under houses"
+          },
+          "src": [
+            "nzbo-penguin"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Couples share the eggs and the chicks"
+          },
+          "src": [
+            "nzbo-penguin"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the wild"
+          },
+          "value": {
+            "en": "At Risk: Declining in New Zealand"
+          },
+          "src": [
+            "doc-korora"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "A good little diver"
+          },
+          "text": {
+            "en": "Their scientific name, Eudyptula, means \"good little diver\". They chase fish underwater, usually in water less than 50 m deep."
+          },
+          "src": [
+            "nzbo-penguin"
+          ]
+        },
+        {
+          "title": {
+            "en": "Home after dark"
+          },
+          "text": {
+            "en": "Little penguins come ashore only under the cover of darkness. They gather in small groups offshore at dusk, called rafts, and waddle home together, usually with the same friends each night."
+          },
+          "src": [
+            "nzbo-penguin",
+            "trc"
+          ]
+        },
+        {
+          "title": {
+            "en": "A whole new coat"
+          },
+          "text": {
+            "en": "Once a year they stay on land for about two weeks to replace all their feathers at once. Until the new coat grows in, they can't swim, so they can't eat!"
+          },
+          "src": [
+            "doc-korora",
+            "nzbo-penguin"
+          ]
+        },
+        {
+          "title": {
+            "en": "Noisy neighbours"
+          },
+          "text": {
+            "en": "At their nests they bray, squeal and growl. Colonies are loudest just after dusk."
+          },
+          "src": [
+            "nzbo-penguin",
+            "rarespecies"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Flippers like wings"
+          },
+          "text": {
+            "en": "Little penguins use their paddle-like flippers to 'fly' through the water at up to 6 km/h."
+          },
+          "src": [
+            "doc-blog"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Eat your own weight"
+          },
+          "text": {
+            "en": "A little penguin can eat about its own body weight in food every day."
+          },
+          "src": [
+            "vic-penguin"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Built-in raincoat"
+          },
+          "text": {
+            "en": "They squeeze oil from a gland near the tail and rub it through their feathers to stay waterproof."
+          },
+          "src": [
+            "vic-penguin"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "Danger on the path"
+          },
+          "text": {
+            "en": "Dogs are the biggest threat to little penguins. Cats, ferrets, stoats and cars on coastal roads kill them too. Keeping dogs on a lead near beaches helps."
+          },
+          "src": [
+            "doc-korora",
+            "doc-blog"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real little penguins really do walk the same path home every night, all in a group. But a penguin with baby fluff on its head would still be a chick waiting at the nest, not out on the beach. And penguins don't tidy paths: people do that job for them."
+      },
+      "storyVsRealSrc": [
+        "nzbo-penguin",
+        "vic-penguin"
+      ]
+    },
+    {
+      "id": "aroha",
+      "role": "friend",
+      "colour": "peach",
+      "name": {
+        "en": "Aroha"
+      },
+      "animal": {
+        "en": "Rakiura tokoeka (Stewart Island kiwi)"
+      },
+      "image": "aroha.jpg",
+      "job": {
+        "en": "Tama's strong-legged best friend"
+      },
+      "superpower": {
+        "en": "Nostrils on the tip of her beak"
+      },
+      "lineup": {
+        "weight": {
+          "en": "2.4–3.1 kg"
+        },
+        "grams": 2750,
+        "like": {
+          "en": "a big pineapple"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "About 45 cm"
+          },
+          "src": [
+            "nzbo-kiwi"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "Males about 2.4 kg, females about 3.1 kg"
+          },
+          "src": [
+            "nzbo-kiwi"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Expected to live about 26 years"
+          },
+          "src": [
+            "nzbo-kiwi"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Earthworms, grubs, insects and fallen fruit"
+          },
+          "src": [
+            "livescience-kiwi",
+            "sciencelearn"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Forest, scrub and dunes of Stewart Island/Rakiura"
+          },
+          "src": [
+            "robertson2022",
+            "doc-tokoeka"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Family groups with big brothers and sisters as helpers"
+          },
+          "src": [
+            "doc-tokoeka",
+            "stk-tokoeka"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the wild"
+          },
+          "value": {
+            "en": "At Risk: Naturally Uncommon; about 13,000–15,000 birds"
+          },
+          "src": [
+            "nzbo-kiwi",
+            "stk-tokoeka"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Out in daylight"
+          },
+          "text": {
+            "en": "Most kiwi only come out at night. Rakiura tokoeka are unusual: they're often active in the daytime too, and some even hunt for food on the beach."
+          },
+          "src": [
+            "doc-tokoeka",
+            "nzcom-rakiura"
+          ]
+        },
+        {
+          "title": {
+            "en": "A beak that smells and feels"
+          },
+          "text": {
+            "en": "Kiwi are the only birds with nostrils at the tip of the beak. Tiny sensing pits there can feel worms wriggling underground, up to 3 cm deep."
+          },
+          "src": [
+            "stk-beak",
+            "pfnz"
+          ]
+        },
+        {
+          "title": {
+            "en": "Big brothers babysit"
+          },
+          "text": {
+            "en": "Young Rakiura tokoeka can stay with their family for up to seven years and help sit on Mom and Dad's eggs, up to a fifth of the time."
+          },
+          "src": [
+            "stk-tokoeka",
+            "doc-tokoeka"
+          ]
+        },
+        {
+          "title": {
+            "en": "A whisker face"
+          },
+          "text": {
+            "en": "Kiwi can't see well. They feel their way with cat-like whiskers and find food mostly by smell and touch."
+          },
+          "src": [
+            "nzcom-kiwi",
+            "stk-night"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "A giant egg"
+          },
+          "text": {
+            "en": "A kiwi egg is about 20% of its mother's weight, and six times bigger than normal for a bird its size. The tokoeka's egg is pale green and about 13 cm long."
+          },
+          "src": [
+            "stk-egg",
+            "nzbo-kiwi"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "The kiwi headstand"
+          },
+          "text": {
+            "en": "To push its beak deep into the soil, a kiwi sometimes kicks its legs up and leans its whole weight on its beak: a kiwi headstand!"
+          },
+          "src": [
+            "pfnz"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Tiny wings with a claw"
+          },
+          "text": {
+            "en": "Kiwi have wings, only about 3 cm long, hidden in their feathers. Each one has a little claw on the tip."
+          },
+          "src": [
+            "livescience-kiwi"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "A walking stick bird"
+          },
+          "text": {
+            "en": "Tokoeka means \"weka with a walking stick\" in the Ngāi Tahu dialect, after its long beak."
+          },
+          "src": [
+            "doc-tokoeka"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "A 70-day wait"
+          },
+          "text": {
+            "en": "Tokoeka eggs take 70 to 80 days to hatch, and both parents take turns keeping them warm."
+          },
+          "src": [
+            "nzbo-kiwi2"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Rakiura tokoeka really do walk on beaches, sometimes in daylight. But real kiwi don't carry shells. Aroha's rainbow shell looks just like a pāua shell, a real New Zealand sea snail."
+      },
+      "storyVsRealSrc": [
+        "doc-tokoeka",
+        "paua-org"
+      ]
+    },
+    {
+      "id": "chicks",
+      "role": "supporting",
+      "colour": "lilac",
+      "name": {
+        "en": "The three chicks"
+      },
+      "animal": {
+        "en": "Little penguin chicks"
+      },
+      "image": "chicks.jpg",
+      "job": {
+        "en": "The next little guardians"
+      },
+      "superpower": {
+        "en": "From egg to sea in about 3 months"
+      },
+      "lineup": {
+        "weight": {
+          "en": "not well recorded"
+        },
+        "grams": 500,
+        "like": {
+          "en": "a loaf of bread (our guess)"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Eggs"
+          },
+          "value": {
+            "en": "Usually two"
+          },
+          "src": [
+            "nzbo-penguin"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the egg"
+          },
+          "value": {
+            "en": "30–39 days, kept warm by both parents"
+          },
+          "src": [
+            "nzbo-penguin"
+          ]
+        },
+        {
+          "label": {
+            "en": "Brooded"
+          },
+          "value": {
+            "en": "18–38 days with a parent on the nest"
+          },
+          "src": [
+            "nzbo-penguin"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Food brought up from the parent's tummy"
+          },
+          "src": [
+            "vic-penguin",
+            "hanzab"
+          ]
+        },
+        {
+          "label": {
+            "en": "First swim"
+          },
+          "value": {
+            "en": "At about 7–8 weeks old"
+          },
+          "src": [
+            "nzbo-penguin"
+          ]
+        },
+        {
+          "label": {
+            "en": "Own babies"
+          },
+          "value": {
+            "en": "Usually at 2–3 years old"
+          },
+          "src": [
+            "nzbo-penguin"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Home alone (almost)"
+          },
+          "text": {
+            "en": "From about 5 weeks old, chicks wait outside the burrow on their own while both parents fish at sea all day."
+          },
+          "src": [
+            "vic-penguin"
+          ]
+        },
+        {
+          "title": {
+            "en": "Fluffy to sleek"
+          },
+          "text": {
+            "en": "Chicks hatch covered in soft down. Their waterproof feathers grow in before their first trip to sea."
+          },
+          "src": [
+            "hanzab",
+            "doc-korora"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Big adventurers"
+          },
+          "text": {
+            "en": "In its first year, a young little penguin can travel more than 1,000 km."
+          },
+          "src": [
+            "vic-penguin"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Napping on the waves"
+          },
+          "text": {
+            "en": "Little penguins can doze while floating on the sea."
+          },
+          "src": [
+            "vic-penguin"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real chicks stay hidden near the nest until they're ready for the sea. They wouldn't carry sticks along the path. The white feather on one chick's chest is our artist's idea."
+      },
+      "storyVsRealSrc": [
+        "vic-penguin"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "title": {
+        "en": "Start little"
+      },
+      "text": {
+        "en": "Pick up three pieces of litter on your next walk, with a grown-up and gloves. Little things add up!"
+      }
+    },
+    {
+      "title": {
+        "en": "Penguin waddle"
+      },
+      "text": {
+        "en": "Keep your arms by your sides like flippers and waddle across the room. Can you do it in a line, like a raft of penguins coming home?"
+      }
+    },
+    {
+      "title": {
+        "en": "Sniff like a kiwi"
+      },
+      "text": {
+        "en": "Hide something smelly, like an orange peel, under a cup. Can you find it with your nose and eyes closed?"
+      }
+    },
+    {
+      "title": {
+        "en": "Egg giant"
+      },
+      "text": {
+        "en": "A kiwi egg is about 20% of its mom's weight. Ask a grown-up to work out how heavy an egg that big would be for you!"
+      }
+    },
+    {
+      "title": {
+        "en": "Find Rakiura"
+      },
+      "text": {
+        "en": "Find New Zealand on a map, then the little island at the very bottom: Stewart Island / Rakiura."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are the animals in The Littlest Guardian real?"
+      },
+      "a": {
+        "en": "Yes. Little penguins and kiwi both live in New Zealand, and on Stewart Island / Rakiura kiwi even walk on beaches. Each hero file tells you what we changed for the story."
+      }
+    },
+    {
+      "q": {
+        "en": "Do kiwi really go on the beach?"
+      },
+      "a": {
+        "en": "The Rakiura tokoeka does. It's often active in daytime too, which is rare for a kiwi."
+      },
+      "src": [
+        "doc-tokoeka",
+        "nzcom-rakiura"
+      ]
+    },
+    {
+      "q": {
+        "en": "How can I help little penguins?"
+      },
+      "a": {
+        "en": "Keep dogs on a lead near beaches, especially around dusk and dawn, drive slowly on coastal roads, and leave burrows alone."
+      },
+      "src": [
+        "doc-korora",
+        "doc-blog"
+      ]
+    },
+    {
+      "q": {
+        "en": "Why do penguins come ashore at night?"
+      },
+      "a": {
+        "en": "Coming ashore in the dark helps them avoid some of their natural predators."
+      },
+      "src": [
+        "bluepenguins"
+      ]
+    }
+  ],
+  "sources": {
+    "doc-korora": {
+      "name": "Department of Conservation (DOC), New Zealand",
+      "title": "Little penguin/kororā",
+      "url": "https://doc.govt.nz/korora"
+    },
+    "nzbo-penguin": {
+      "name": "New Zealand Birds Online (Te Papa / DOC)",
+      "title": "Little penguin | kororā",
+      "url": "https://www.nzbirdsonline.org.nz/species/little-penguin"
+    },
+    "doc-blog": {
+      "name": "Department of Conservation blog",
+      "title": "Big blue whales and little blue penguins/kororā",
+      "url": "https://blog.doc.govt.nz/2020/03/03/world-wildlife-day-big-blue-whales-and-little-blue-penguins-korora/"
+    },
+    "trc": {
+      "name": "Taranaki Regional Council",
+      "title": "Little blue penguin kororā fact sheet",
+      "url": "https://www.trc.govt.nz/assets/Documents/Guidelines/Biodiversity-infosheets/Updated-and-new-info-sheets-2025/Biodiversity-Penguin-Korora-Fact-sheet-FINAL-2025-04-11.pdf"
+    },
+    "bluepenguins": {
+      "name": "Pukekura Trust, Pilots Beach",
+      "title": "Kororā: about little penguins",
+      "url": "https://bluepenguins.co.nz/blue-penguins"
+    },
+    "vic-penguin": {
+      "name": "Victoria State Government (Wildlife)",
+      "title": "Little Penguin fact sheet",
+      "url": "https://www.wildlife.vic.gov.au/__data/assets/pdf_file/0023/91391/Little-Penguin.pdf"
+    },
+    "rarespecies": {
+      "name": "NZ Forest Owners Association: Rare Species",
+      "title": "Blue penguin",
+      "url": "https://rarespecies.nzfoa.org.nz/species/blue-penguin/"
+    },
+    "hanzab": {
+      "name": "Handbook of Australian, New Zealand & Antarctic Birds (via NZ Birds Online)",
+      "title": "Penguins family account",
+      "url": "https://www.nzbirdsonline.org.nz/assets/95597/1691727712-051_little-20penguin.pdf"
+    },
+    "nzbo-kiwi": {
+      "name": "New Zealand Birds Online (Te Papa / DOC)",
+      "title": "Southern brown kiwi | tokoeka",
+      "url": "https://nzbirdsonline.org.nz/species/southern-brown-kiwi"
+    },
+    "nzbo-kiwi2": {
+      "name": "New Zealand Birds Online (Te Papa / DOC)",
+      "title": "Southern brown kiwi | tokoeka: breeding",
+      "url": "https://nzbirdsonline.org.nz/node/49"
+    },
+    "doc-tokoeka": {
+      "name": "Department of Conservation (DOC), New Zealand",
+      "title": "Tokoeka",
+      "url": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kiwi/tokoeka/"
+    },
+    "stk-tokoeka": {
+      "name": "Save the Kiwi",
+      "title": "Tokoeka",
+      "url": "https://savethekiwi.nz/?p=1365"
+    },
+    "stk-beak": {
+      "name": "Save the Kiwi",
+      "title": "An unusual beak",
+      "url": "https://savethekiwi.nz/?p=616"
+    },
+    "stk-egg": {
+      "name": "Save the Kiwi",
+      "title": "Enormous egg",
+      "url": "https://savethekiwi.nz/?p=622"
+    },
+    "stk-night": {
+      "name": "Save the Kiwi",
+      "title": "Bird of the night",
+      "url": "https://savethekiwi.nz/about-kiwi/kiwi-facts/nocturnal-bird/"
+    },
+    "pfnz": {
+      "name": "Predator Free NZ",
+      "title": "How well do we really know our kiwi?",
+      "url": "https://predatorfreenz.org/research/how-well-do-you-really-know-our-kiwi/"
+    },
+    "livescience-kiwi": {
+      "name": "Live Science",
+      "title": "Facts about kiwis",
+      "url": "https://www.livescience.com/57813-kiwi-facts.html"
+    },
+    "nzcom-kiwi": {
+      "name": "New Zealand Tourism (newzealand.com)",
+      "title": "Five surprising kiwi facts",
+      "url": "https://www.newzealand.com/uk/feature/five-surprising-kiwi-facts/"
+    },
+    "sciencelearn": {
+      "name": "Science Learning Hub, University of Waikato",
+      "title": "Conserving our native kiwi",
+      "url": "https://www.sciencelearn.org.nz/resources/2784-conserving-our-native-kiwi"
+    },
+    "robertson2022": {
+      "name": "Robertson & Colbourne, Notornis (2022)",
+      "title": "Rakiura tokoeka at Mason Bay, Stewart Island/Rakiura",
+      "url": "https://www.birdsnz.org.nz/wp-content/uploads/2022/09/RoberstonColbourne_69_147-157.v3.pdf"
+    },
+    "teara": {
+      "name": "Te Ara: The Encyclopedia of New Zealand",
+      "title": "Stewart Island",
+      "url": "https://teara.govt.nz/mi/node/219561"
+    },
+    "nzcom-rakiura": {
+      "name": "New Zealand Tourism (newzealand.com)",
+      "title": "Stewart Island / Rakiura",
+      "url": "https://newzealand.com/uk/stewart-island-rakiura"
+    },
+    "darksky": {
+      "name": "DarkSky International",
+      "title": "Stewart Island / Rakiura Dark Sky Sanctuary",
+      "url": "https://darksky.org/places/stewart-island-rakiura-dark-sky-sanctuary/"
+    },
+    "nasa": {
+      "name": "NASA Earth Observatory",
+      "title": "New Zealand's southern wilderness",
+      "url": "https://science.nasa.gov/earth/earth-observatory/new-zealands-southern-wilderness/"
+    },
+    "niwa-paua": {
+      "name": "NIWA (Earth Sciences New Zealand)",
+      "title": "Pāua: shellfish royalty",
+      "url": "https://niwa.co.nz/node/82022"
+    },
+    "paua-org": {
+      "name": "Pāua Industry Council",
+      "title": "About pāua",
+      "url": "https://www.paua.org.nz/about-pāua"
+    }
+  }
+}

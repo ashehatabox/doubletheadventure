@@ -1,0 +1,928 @@
+{
+  "book": "eight-times-up",
+  "draft": true,
+  "updated": "2026-11-12",
+  "review": {
+    "factsChecked": "2026-11-12",
+    "culturalReader": true
+  },
+  "title": {
+    "en": "Heroes of the Snowy Alps"
+  },
+  "seoTitle": {
+    "en": "Heroes of the Snowy Alps: the real animals behind Eight Times Up"
+  },
+  "description": {
+    "en": "A goat-antelope saved by law, snow monkeys that go fishing, and a 'thunder bird' that turns white in winter. Real, checked facts for kids."
+  },
+  "intro": {
+    "en": "Every animal in Eight Times Up is real, and they all live in the snowy mountains of central Japan. Here is how they eat, grow and survive the winter."
+  },
+  "place": {
+    "name": {
+      "en": "Kamikochi, the Japanese Alps"
+    },
+    "image": "place.jpg",
+    "intro": {
+      "en": "The book's mountains have no name, so we picked one valley where serows, snow monkeys and rock ptarmigans all live: Kamikochi, in Chubusangaku National Park."
+    },
+    "introSrc": [
+      "chubu-env",
+      "triptojapan"
+    ],
+    "facts": [
+      {
+        "kind": "wow",
+        "title": {
+          "en": "One of Japan's first parks"
+        },
+        "text": {
+          "en": "Chubusangaku National Park was created in 1934 and covers most of the Northern Alps."
+        },
+        "src": [
+          "chubu-env"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "High valley"
+        },
+        "text": {
+          "en": "Kamikochi sits about 1,500 metres above sea level, and private cars aren't allowed in, to protect it."
+        },
+        "src": [
+          "triptojapan",
+          "kamikochi-org"
+        ]
+      },
+      {
+        "kind": "ha",
+        "title": {
+          "en": "Named by an Englishman"
+        },
+        "text": {
+          "en": "The name \"Japanese Alps\" was given by William Gowland, an English mining engineer, in the 1800s."
+        },
+        "src": [
+          "chubu-env"
+        ]
+      },
+      {
+        "kind": "wow",
+        "title": {
+          "en": "140 kinds of birds"
+        },
+        "text": {
+          "en": "Around 140 bird species have been recorded around Kamikochi, including the raichō."
+        },
+        "src": [
+          "triptojapan"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "Warm streams in winter"
+        },
+        "text": {
+          "en": "Groundwater-fed streams in Kamikochi stay about 5 °C all winter, which is why snow monkeys can go fishing there."
+        },
+        "src": [
+          "newswise"
+        ]
+      }
+    ],
+    "map": {
+      "lat": 36.25,
+      "lon": 137.64,
+      "zoom": 11,
+      "region": [
+        124,
+        30,
+        146,
+        46
+      ],
+      "highlight": [
+        392
+      ],
+      "label": {
+        "en": "Kamikochi, Japan"
+      },
+      "text": {
+        "en": "A mountain valley along the Azusa River in Chubusangaku National Park, home to serows, snow monkeys and, higher up, raichō."
+      },
+      "src": [
+        "kamikochi-org",
+        "takenaka2022",
+        "chubusangaku"
+      ],
+      "areaNote": {
+        "en": "Yellow: Japan."
+      },
+      "pin": [
+        62,
+        63.46
+      ],
+      "aspect": 1.0753
+    }
+  },
+  "cast": [
+    {
+      "id": "yuki",
+      "role": "hero",
+      "colour": "sky",
+      "name": {
+        "en": "Yuki"
+      },
+      "animal": {
+        "en": "Japanese serow"
+      },
+      "image": "yuki.jpg",
+      "job": {
+        "en": "A young climber who learns from every fall"
+      },
+      "superpower": {
+        "en": "Sure-footed on snowy cliffs"
+      },
+      "lineup": {
+        "weight": {
+          "en": "30–45 kg"
+        },
+        "grams": 37000,
+        "like": {
+          "en": "a big dog"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Height"
+          },
+          "value": {
+            "en": "About 65–80 cm at the shoulder"
+          },
+          "src": [
+            "adw-serow",
+            "hmw-serow"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "30–45 kg, about as heavy as a big dog"
+          },
+          "src": [
+            "adw-serow",
+            "britannica-serow"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Up to 20–22 years in the wild"
+          },
+          "src": [
+            "adw-serow"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Buds and leaves of trees, conifer needles and fallen acorns"
+          },
+          "src": [
+            "adw-serow"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Mountain forests of Honshu, Shikoku and Kyushu, and nowhere else"
+          },
+          "src": [
+            "britannica-serow"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Lives alone in its own territory; a mom has one kid a year"
+          },
+          "src": [
+            "adw-serow"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the wild"
+          },
+          "value": {
+            "en": "Protected as a Special Natural Monument since 1955"
+          },
+          "src": [
+            "britannica-serow"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Not a goat, not a deer"
+          },
+          "text": {
+            "en": "Its Japanese name, kamoshika, has the word for deer in it, but the serow is really a goat-antelope, a cousin of goats."
+          },
+          "src": [
+            "chubusangaku"
+          ]
+        },
+        {
+          "title": {
+            "en": "Kids follow Mom"
+          },
+          "text": {
+            "en": "A baby is born in May or June and follows its mother for about a year. It may stay in her territory for 2 to 4 years."
+          },
+          "src": [
+            "adw-serow"
+          ]
+        },
+        {
+          "title": {
+            "en": "Sweet-sour signposts"
+          },
+          "text": {
+            "en": "Serows have glands under their eyes that make a sweet-sour smell. They rub it on trees to say \"this is my patch\"."
+          },
+          "src": [
+            "fad-serow",
+            "adw-serow"
+          ]
+        },
+        {
+          "title": {
+            "en": "Winter diet"
+          },
+          "text": {
+            "en": "In winter they browse twigs and evergreen leaves poking out of the snow. Older moms can lose about a fifth of their weight by spring."
+          },
+          "src": [
+            "hmw-serow"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "rescue",
+          "title": {
+            "en": "Saved by law"
+          },
+          "text": {
+            "en": "Serows were hunted almost to extinction by the mid-1900s. Japan made them a Special Natural Monument in 1955, and now there are many again."
+          },
+          "src": [
+            "britannica-serow"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Horns that never stop"
+          },
+          "text": {
+            "en": "Both boys and girls have short horns, 12 to 16 cm long, that keep growing their whole life."
+          },
+          "src": [
+            "adw-serow",
+            "hmw-serow"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Night walkers too"
+          },
+          "text": {
+            "en": "Serows are counted as daytime animals, but a radio-collar study found they're almost as busy at night!"
+          },
+          "src": [
+            "adw-serow"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real serows are great climbers on steep, snowy slopes. But they live alone, not in a herd of big goats racing to Cloud Rock, and Yuki's white star is our artist's idea."
+      },
+      "storyVsRealSrc": [
+        "adw-serow"
+      ]
+    },
+    {
+      "id": "taro",
+      "role": "friend",
+      "colour": "peach",
+      "name": {
+        "en": "Taro"
+      },
+      "animal": {
+        "en": "Japanese macaque (snow monkey)"
+      },
+      "image": "taro.jpg",
+      "job": {
+        "en": "Yuki's cheerful friend with the pop-up toy"
+      },
+      "superpower": {
+        "en": "The most northern monkey in the world"
+      },
+      "lineup": {
+        "weight": {
+          "en": "8.4–11.3 kg (average)"
+        },
+        "grams": 10000,
+        "like": {
+          "en": "a big bag of potatoes"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Height"
+          },
+          "value": {
+            "en": "About 52–57 cm on average"
+          },
+          "src": [
+            "adw-macaque"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "Females about 8.4 kg, males about 11.3 kg"
+          },
+          "src": [
+            "adw-macaque"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "The oldest known wild female reached 32"
+          },
+          "src": [
+            "adw-macaque"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Leaves, bamboo shoots, nuts and insects; bark in winter"
+          },
+          "src": [
+            "chubusangaku",
+            "takenaka2022"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Forests across Japan, up to high in the mountains"
+          },
+          "src": [
+            "adw-macaque"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Troops; daughters stay home for life, sons leave when grown up"
+          },
+          "src": [
+            "adw-macaque"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Monkeys in the snow"
+          },
+          "text": {
+            "en": "Japanese macaques live farther north than any other monkey or ape except people. A thick fur coat keeps them warm, because they don't hibernate."
+          },
+          "src": [
+            "adw-macaque"
+          ]
+        },
+        {
+          "title": {
+            "en": "Piggyback babies"
+          },
+          "text": {
+            "en": "Babies ride on Mom's tummy for the first four weeks, then on her tummy or back until about one year old."
+          },
+          "src": [
+            "adw-macaque"
+          ]
+        },
+        {
+          "title": {
+            "en": "Lots of chatter"
+          },
+          "text": {
+            "en": "They have six groups of calls. More than half are calm, friendly sounds; one loud holler warns of danger."
+          },
+          "src": [
+            "adw-macaque"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Fishing monkeys"
+          },
+          "text": {
+            "en": "In Kamikochi's snowy winters, scientists filmed snow monkeys turning over rocks in warm spring-fed streams to catch fish and water insects. It was the first proof of Japanese macaques eating river fish!"
+          },
+          "src": [
+            "takenaka2022",
+            "milner2021"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "A hot bath, please"
+          },
+          "text": {
+            "en": "At Shiga Heights, one troop started bathing in warm volcanic hot springs, probably to warm up."
+          },
+          "src": [
+            "adw-macaque"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Potato washers"
+          },
+          "text": {
+            "en": "On one island, a young female started washing sweet potatoes in the sea. Soon others in her troop copied her. Monkeys can learn from each other!"
+          },
+          "src": [
+            "adw-macaque"
+          ]
+        },
+        {
+          "kind": "uhoh",
+          "title": {
+            "en": "A hard winter"
+          },
+          "text": {
+            "en": "In winter, more than 70% of their foraging in Kamikochi is for tree bark and bamboo leaves sticking out of the snow."
+          },
+          "src": [
+            "takenaka2022"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real snow monkeys do play with stones and snow. But the little red roly-poly toy is from Japanese folk tradition, not the forest, and a real macaque has a short stumpy tail."
+      },
+      "storyVsRealSrc": [
+        "adw-macaque"
+      ]
+    },
+    {
+      "id": "hina",
+      "role": "supporting",
+      "colour": "mint",
+      "name": {
+        "en": "Hina"
+      },
+      "animal": {
+        "en": "Japanese rock ptarmigan (raichō) chick"
+      },
+      "image": "hina.jpg",
+      "job": {
+        "en": "The littlest climber who learns from Yuki"
+      },
+      "superpower": {
+        "en": "Changes clothes three times a year"
+      },
+      "lineup": {
+        "weight": {
+          "en": "adults about 500 g"
+        },
+        "grams": 500,
+        "like": {
+          "en": "a loaf of bread"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "Adults about 37 cm"
+          },
+          "src": [
+            "canon-raicho"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "Adults about 500 g"
+          },
+          "src": [
+            "japantimes-raicho"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Not known"
+          },
+          "plain": true
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Alpine plants; in winter, birch and alder buds"
+          },
+          "src": [
+            "japanalps-what",
+            "japanalps-seasons"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "High alpine slopes of the Japanese Alps"
+          },
+          "src": [
+            "nippon-raicho",
+            "norikura"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Chicks walk with Mom from the day they hatch"
+          },
+          "src": [
+            "japanalps-what",
+            "nippon-raicho"
+          ]
+        },
+        {
+          "label": {
+            "en": "In the wild"
+          },
+          "value": {
+            "en": "Endangered in Japan since 2012"
+          },
+          "src": [
+            "nippon-raicho"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Out of the nest on day one"
+          },
+          "text": {
+            "en": "Ptarmigan chicks can leave the nest a day after hatching and travel with their parents. They never go back to the nest."
+          },
+          "src": [
+            "japanalps-what"
+          ]
+        },
+        {
+          "title": {
+            "en": "Mom's feather blanket"
+          },
+          "text": {
+            "en": "For about a month the chicks can't keep themselves warm, so they snuggle under their mother's belly."
+          },
+          "src": [
+            "norikura"
+          ]
+        },
+        {
+          "title": {
+            "en": "Three outfits a year"
+          },
+          "text": {
+            "en": "Raichō change feathers three times a year. In winter both males and females turn completely white, hidden against the snow."
+          },
+          "src": [
+            "japanalps-what",
+            "norikura"
+          ]
+        },
+        {
+          "title": {
+            "en": "Snow beds"
+          },
+          "text": {
+            "en": "In the coldest weather, ptarmigan sometimes dive into the snow to stay out of the wind."
+          },
+          "src": [
+            "japanalps-seasons"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Tummy helpers"
+          },
+          "text": {
+            "en": "Many alpine plants are a bit poisonous. Chicks eat their mother's droppings soon after hatching to get the special tummy bacteria that help them digest them."
+          },
+          "src": [
+            "japanalps-what"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "The thunder bird"
+          },
+          "text": {
+            "en": "Raichō means \"thunder bird\". Legend says they come out during thunderstorms and protect against lightning and fire."
+          },
+          "src": [
+            "mlit-raicho"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Southernmost in the world"
+          },
+          "text": {
+            "en": "Japan's rock ptarmigans are the southernmost rock ptarmigans anywhere on Earth, survivors from the Ice Age."
+          },
+          "src": [
+            "norikura",
+            "japantravel-chubu"
+          ]
+        },
+        {
+          "kind": "rescue",
+          "title": {
+            "en": "Bringing them back"
+          },
+          "text": {
+            "en": "Japan's government named the raichō an endangered species in 2012 and started a big rescue programme, including protecting chicks in cages at night."
+          },
+          "src": [
+            "nippon-raicho"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real raichō chicks stay close to their mother all summer. Hina is a little white chick in winter snow, but real chicks hatch in late June and are brown and mottled for their first months."
+      },
+      "storyVsRealSrc": [
+        "nippon-raicho",
+        "norikura"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "title": {
+        "en": "Fall and rise"
+      },
+      "text": {
+        "en": "Try balancing on one foot. Wobble? Fall? Count how many times you get back up!"
+      }
+    },
+    {
+      "title": {
+        "en": "Make a roly-poly"
+      },
+      "text": {
+        "en": "Put a little clay in the bottom of a plastic egg. Push it over. Does it pop back up?"
+      }
+    },
+    {
+      "title": {
+        "en": "Snow camouflage"
+      },
+      "text": {
+        "en": "Draw a ptarmigan on white paper in winter colours, and another on brown paper in summer colours. Which hides best?"
+      }
+    },
+    {
+      "title": {
+        "en": "Monkey troop"
+      },
+      "text": {
+        "en": "Play follow-the-leader. In a macaque troop the girls stay together for life!"
+      }
+    },
+    {
+      "title": {
+        "en": "Find the Alps"
+      },
+      "text": {
+        "en": "Find Japan on a map, then the big island of Honshu where the Japanese Alps are."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "Are the animals in Eight Times Up real?"
+      },
+      "a": {
+        "en": "Yes. Japanese serows, Japanese macaques and rock ptarmigans all live in the Japanese Alps. Each hero file tells you what we changed for the story."
+      }
+    },
+    {
+      "q": {
+        "en": "Is a serow a goat?"
+      },
+      "a": {
+        "en": "Not quite. It's a goat-antelope, a close cousin of goats, found only in Japan."
+      },
+      "src": [
+        "chubusangaku",
+        "britannica-serow"
+      ]
+    },
+    {
+      "q": {
+        "en": "Why are they called snow monkeys?"
+      },
+      "a": {
+        "en": "Japanese macaques live farther north than any other monkey, in places with deep snow every winter."
+      },
+      "src": [
+        "adw-macaque"
+      ]
+    },
+    {
+      "q": {
+        "en": "Can I see a raichō?"
+      },
+      "a": {
+        "en": "Yes, high in the Japanese Alps in summer. Watch quietly, keep your distance and never chase them."
+      },
+      "src": [
+        "norikura"
+      ]
+    }
+  ],
+  "sources": {
+    "adw-serow": {
+      "name": "Animal Diversity Web, University of Michigan",
+      "title": "Capricornis crispus (Japanese serow)",
+      "url": "https://animaldiversity.org/accounts/Capricornis_crispus"
+    },
+    "britannica-serow": {
+      "name": "Encyclopaedia Britannica",
+      "title": "Serow",
+      "url": "https://www.Britannica.Com/animal/serow"
+    },
+    "hmw-serow": {
+      "name": "Handbook of the Mammals of the World (via Zenodo)",
+      "title": "Capricornis crispus",
+      "url": "https://doi.org/10.5281/zenodo.6773138"
+    },
+    "fad-serow": {
+      "name": "Facts and Details",
+      "title": "Japanese serow",
+      "url": "https://factsanddetails.com/japan/cat26/sub164/entry-9199.html"
+    },
+    "chubu-env": {
+      "name": "Ministry of the Environment, Japan",
+      "title": "Chubusangaku National Park: highlights",
+      "url": "https://www.env.go.jp/en/nature/nps/park/chubu/point/index.html"
+    },
+    "chubusangaku": {
+      "name": "Chubusangaku National Park (official)",
+      "title": "Plants and animals",
+      "url": "https://chubusangaku.jp/?p=2680"
+    },
+    "japantravel-chubu": {
+      "name": "Japan National Tourism Organization",
+      "title": "Chubusangaku National Park: plants and animals",
+      "url": "https://www.japan.travel/national-parks/parks/chubusangaku/plants-and-animals"
+    },
+    "adw-macaque": {
+      "name": "Animal Diversity Web, University of Michigan",
+      "title": "Macaca fuscata (Japanese macaque)",
+      "url": "https://animaldiversity.org/accounts/Macaca_fuscata/"
+    },
+    "takenaka2022": {
+      "name": "Takenaka et al., Scientific Reports (2022)",
+      "title": "Behavior of snow monkeys hunting fish to survive winter",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9709167/"
+    },
+    "milner2021": {
+      "name": "Milner et al., Scientific Reports (2021)",
+      "title": "Winter diet of Japanese macaques incorporates freshwater biota",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8629975"
+    },
+    "newswise": {
+      "name": "University of Birmingham (via Newswise)",
+      "title": "Snow monkeys go fishing to survive harsh Japanese winters",
+      "url": "https://www.newswise.com/articles/snow-monkeys-go-fishing-to-survive-harsh-japanese-winters-study"
+    },
+    "nippon-raicho": {
+      "name": "Nippon.com",
+      "title": "Rescuing the raichō: hope for Japan's iconic rock ptarmigan",
+      "url": "https://www.nippon.com/en/articles/-/16089"
+    },
+    "norikura": {
+      "name": "Norikura Highlands Tourism Association",
+      "title": "30 facts about the raichō",
+      "url": "https://norikura.gr.jp/en/2022/08/30-raicho/"
+    },
+    "japanalps-what": {
+      "name": "The Japan Alps (Toyama, Gifu, Nagano tourism)",
+      "title": "What kind of animal is a rock ptarmigan?",
+      "url": "https://thejapanalps.com/en/?p=33725"
+    },
+    "japanalps-seasons": {
+      "name": "The Japan Alps (Toyama, Gifu, Nagano tourism)",
+      "title": "Rock ptarmigan seasons",
+      "url": "https://thejapanalps.com/en/?p=33717"
+    },
+    "mlit-raicho": {
+      "name": "Japan Tourism Agency (MLIT multilingual database)",
+      "title": "Raicho: the rock ptarmigan",
+      "url": "https://www.mlit.go.jp/tagengo-db/en/R1-02317.html"
+    },
+    "japantimes-raicho": {
+      "name": "The Japan Times",
+      "title": "Rock ptarmigan",
+      "url": "https://www.japantimes.co.jp/life/2004/12/23/environment/rock-ptarmigan"
+    },
+    "canon-raicho": {
+      "name": "Canon Bird Branch Project",
+      "title": "Raicho",
+      "url": "https://global.canon/en/environment/bird-branch/photo-gallery/raicho/index.html"
+    },
+    "kamikochi-org": {
+      "name": "Kamikochi official site",
+      "title": "Nature & wildlife",
+      "url": "https://www.kamikochi.org/?p=5270"
+    },
+    "triptojapan": {
+      "name": "Trip to Japan",
+      "title": "Experience Kamikochi: the heart of the Japanese Alps",
+      "url": "https://www.triptojapan.com/blog/experience-kamikochi-the-heart-of-the-japanese-alps"
+    },
+    "fad-alps": {
+      "name": "Facts and Details",
+      "title": "Japan Alps area: Kamikochi, Tateyama",
+      "url": "https://factsanddetails.com/japan/cat25/sub170/item965.html"
+    }
+  }
+}

@@ -576,9 +576,9 @@ module.exports = {
     question: 'How do you give a child a value that stays with them?',
     beginTitle: 'A father\'s question',
     begin: [
-      'Amr is the father of Yousef, a curious six-year-old. Like every parent, he wanted to pass on the things that matter: honesty, patience, kindness, courage.',
+      'Amr is the father of Yusuf, a curious six-year-old. Like every parent, he wanted to pass on the things that matter: honesty, patience, kindness, courage.',
       'He noticed that reminders don\'t last. "Be patient" is forgotten by dinnertime. A story is different. A child remembers the little hero who waited, and when their own moment comes, the story comes back with it.',
-      'So Amr began to wonder: could a story tie a value to a memory, and give Yousef the chance to embrace it and live it himself?'
+      'So Amr began to wonder: could a story tie a value to a memory, and give Yusuf the chance to embrace it and live it himself?'
     ],
     friendTitle: 'A friend who tells stories',
     friend: [
@@ -617,7 +617,7 @@ module.exports = {
     authorsTitle: 'The authors',
     authors: 'Amr Mohamed & Abdallah Shehata',
     people: [
-      { name: 'Amr Mohamed', avatar: 'author-glasses', alt: 'Cartoon watercolour portrait of Amr Mohamed', text: 'Father of Yousef, and the one who asked the first question. He keeps every book close to real family life.' },
+      { name: 'Amr Mohamed', avatar: 'author-glasses', alt: 'Cartoon watercolour portrait of Amr Mohamed', text: 'Father of Yusuf, and the one who asked the first question. He keeps every book close to real family life.' },
       { name: 'Abdallah Shehata', avatar: 'author-parrot', alt: 'Cartoon watercolour portrait of Abdallah Shehata', text: 'Storyteller. He turns each value into a hero, a problem worth solving and a refrain children love to say along.' }
     ],
     shareTitle: 'Share a value with us',

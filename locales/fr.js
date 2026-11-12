@@ -576,9 +576,9 @@ module.exports = {
     question: 'Comment transmettre à un enfant une valeur qui reste avec lui ?',
     beginTitle: 'La question d\'un père',
     begin: [
-      'Amr est le père de Yousef, un petit garçon curieux de six ans. Comme tous les parents, il voulait lui transmettre ce qui compte : l\'honnêteté, la patience, la gentillesse, le courage.',
+      'Amr est le père de Yusuf, un petit garçon curieux de six ans. Comme tous les parents, il voulait lui transmettre ce qui compte : l\'honnêteté, la patience, la gentillesse, le courage.',
       'Il a remarqué que les rappels ne durent pas. « Sois patient » est oublié avant le souper. Une histoire, c\'est différent. L\'enfant se souvient du petit héros qui a su attendre, et quand son propre moment arrive, l\'histoire revient avec lui.',
-      'Alors Amr s\'est demandé : une histoire pourrait-elle relier une valeur à un souvenir, et donner à Yousef la chance de l\'adopter et de la vivre lui-même ?'
+      'Alors Amr s\'est demandé : une histoire pourrait-elle relier une valeur à un souvenir, et donner à Yusuf la chance de l\'adopter et de la vivre lui-même ?'
     ],
     friendTitle: 'Un ami qui raconte des histoires',
     friend: [
@@ -617,7 +617,7 @@ module.exports = {
     authorsTitle: 'Les auteurs',
     authors: 'Amr Mohamed et Abdallah Shehata',
     people: [
-      { name: 'Amr Mohamed', avatar: 'author-glasses', alt: 'Portrait d\'Amr Mohamed en aquarelle, style dessin animé', text: 'Père de Yousef, et celui qui a posé la première question. Il garde chaque livre proche de la vraie vie de famille.' },
+      { name: 'Amr Mohamed', avatar: 'author-glasses', alt: 'Portrait d\'Amr Mohamed en aquarelle, style dessin animé', text: 'Père de Yusuf, et celui qui a posé la première question. Il garde chaque livre proche de la vraie vie de famille.' },
       { name: 'Abdallah Shehata', avatar: 'author-parrot', alt: 'Portrait d\'Abdallah Shehata en aquarelle, style dessin animé', text: 'Conteur. Il transforme chaque valeur en un héros, un problème à résoudre et un refrain que les enfants adorent répéter.' }
     ],
     shareTitle: 'Partagez une valeur avec nous',

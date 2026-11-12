@@ -1,0 +1,1286 @@
+{
+  "book": "becoming-a-tree",
+  "draft": true,
+  "updated": "2026-11-12",
+  "review": {
+    "factsChecked": "2026-11-12",
+    "culturalReader": true
+  },
+  "title": {
+    "en": "Heroes of the Oak Forest"
+  },
+  "seoTitle": {
+    "en": "Heroes of the Oak Forest: the real animals behind Becoming a Tree"
+  },
+  "description": {
+    "en": "A worm that breathes through its skin, a deer that jumps 3 metres and a bluebird that isn't really blue. Real facts for kids about the animals behind Becoming a Tree."
+  },
+  "intro": {
+    "en": "Oakie is an acorn, a seed, so he isn't in our animal line-up. But the animals he meets while he grows are all real. And real oaks are amazing too: see the place facts below."
+  },
+  "place": {
+    "name": {
+      "en": "Shenandoah National Park, Virginia"
+    },
+    "image": "place.jpg",
+    "intro": {
+      "en": "The book's forest has no name, so we picked Shenandoah National Park, in the Blue Ridge Mountains. Its woods are mostly oak and hickory, and deer are everywhere."
+    },
+    "introSrc": [
+      "abc-shen"
+    ],
+    "facts": [
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Oak country"
+        },
+        "text": {
+          "en": "Red oak and chestnut oak are the most common trees in the park."
+        },
+        "src": [
+          "ip-shen"
+        ]
+      },
+      {
+        "kind": "hidden",
+        "title": {
+          "en": "Patience, Oakie!"
+        },
+        "text": {
+          "en": "An oak can take 20 years or more before it makes its first acorns."
+        },
+        "src": [
+          "rwn-oak"
+        ]
+      },
+      {
+        "kind": "uhoh",
+        "title": {
+          "en": "One in a thousand"
+        },
+        "text": {
+          "en": "Only about 1 in 1,000 acorns grows into a new oak tree."
+        },
+        "src": [
+          "rwn-oak"
+        ]
+      },
+      {
+        "kind": "ha",
+        "title": {
+          "en": "Deer everywhere"
+        },
+        "text": {
+          "en": "Hunting isn't allowed in the park, so visitors see lots of white-tailed deer."
+        },
+        "src": [
+          "tc-shen"
+        ]
+      },
+      {
+        "kind": "wow",
+        "title": {
+          "en": "Skyline Drive"
+        },
+        "text": {
+          "en": "A 105-mile road runs along the top of the mountains, with 75 lookout spots."
+        },
+        "src": [
+          "gw-shen"
+        ]
+      }
+    ],
+    "map": {
+      "lat": 38.53,
+      "lon": -78.35,
+      "zoom": 8,
+      "region": [
+        -88,
+        33,
+        -74,
+        43
+      ],
+      "highlight": [
+        840
+      ],
+      "label": {
+        "en": "Shenandoah National Park"
+      },
+      "text": {
+        "en": "A long, thin park along the Blue Ridge Mountains in Virginia, in the eastern United States. It opened in 1935."
+      },
+      "src": [
+        "ngt-shen"
+      ],
+      "areaNote": {
+        "en": "The United States."
+      },
+      "pin": [
+        68.93,
+        46.42
+      ],
+      "aspect": 1.1004
+    }
+  },
+  "cast": [
+    {
+      "id": "worm",
+      "role": "friend",
+      "colour": "mint",
+      "name": {
+        "en": "The kind worm"
+      },
+      "animal": {
+        "en": "Earthworm (our pick)"
+      },
+      "image": "worm.jpg",
+      "job": {
+        "en": "Tells Oakie to be patient"
+      },
+      "superpower": {
+        "en": "Breathes through its skin"
+      },
+      "lineup": {
+        "weight": {
+          "en": "not well recorded"
+        },
+        "grams": 3,
+        "like": {
+          "en": "a paperclip or two (our guess)"
+        },
+        "awake": "night"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "About 2–30 cm, depending on the kind"
+          },
+          "src": [
+            "ved-ew"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "Not well recorded"
+          },
+          "plain": true
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About a year in nature; some kinds live longer"
+          },
+          "src": [
+            "uj-ew",
+            "ved-ew"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Soil and rotting leaves"
+          },
+          "src": [
+            "jn-ew"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Damp soil almost everywhere"
+          },
+          "src": [
+            "fa-ew"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Babies hatch from eggs as tiny thread-like worms"
+          },
+          "src": [
+            "kg-ew"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Skin breather"
+          },
+          "text": {
+            "en": "Earthworms have no lungs. They breathe through their skin, which must stay damp."
+          },
+          "src": [
+            "kg-ew"
+          ]
+        },
+        {
+          "title": {
+            "en": "No eyes, but..."
+          },
+          "text": {
+            "en": "They have no eyes, but a patch of skin feels light, so they can hide from the drying sun."
+          },
+          "src": [
+            "kg-ew"
+          ]
+        },
+        {
+          "title": {
+            "en": "Ring by ring"
+          },
+          "text": {
+            "en": "An earthworm's body has 100 or more little rings called segments."
+          },
+          "src": [
+            "kg-ew"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Giant worm"
+          },
+          "text": {
+            "en": "A huge earthworm found in South Africa in 1967 was 6.7 metres long!"
+          },
+          "src": [
+            "fa-ew"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Strong pusher"
+          },
+          "text": {
+            "en": "An earthworm can push 10 times its own body weight."
+          },
+          "src": [
+            "fa-ew"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Soil helpers"
+          },
+          "text": {
+            "en": "Their tunnels and droppings make soil better for plants, like oak trees."
+          },
+          "src": [
+            "ved-ew"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "The book's worm is green and striped. Real earthworms are usually pink, brown or reddish, but they really do live right next to seeds in the soil."
+      },
+      "storyVsRealSrc": [
+        "ved-ew"
+      ]
+    },
+    {
+      "id": "sparrow",
+      "role": "supporting",
+      "colour": "peach",
+      "name": {
+        "en": "The passing bird"
+      },
+      "animal": {
+        "en": "Song sparrow (our pick)"
+      },
+      "image": "sparrow.jpg",
+      "job": {
+        "en": "Tells Oakie about sunlight and wind"
+      },
+      "superpower": {
+        "en": "Knows up to 20 different songs"
+      },
+      "lineup": {
+        "weight": {
+          "en": "about 24 g"
+        },
+        "grams": 24,
+        "like": {
+          "en": "five grapes"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "12–17 cm"
+          },
+          "src": [
+            "bf-ss"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "About 24 g on average"
+          },
+          "src": [
+            "wbu-ss"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "2–4 years"
+          },
+          "src": [
+            "bf-ss"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Seeds, insects and berries"
+          },
+          "src": [
+            "md-ss"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Bushy places and marshes across Canada and the US"
+          },
+          "src": [
+            "wiki-ss"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Mom builds the nest; Dad sings to guard their home"
+          },
+          "src": [
+            "wbu-ss"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Singer"
+          },
+          "text": {
+            "en": "A male song sparrow sings 6 to 20 different tunes, each a twist on its basic song."
+          },
+          "src": [
+            "wbu-ss"
+          ]
+        },
+        {
+          "title": {
+            "en": "Ground nester"
+          },
+          "text": {
+            "en": "It builds its nest on the ground or low in a bush."
+          },
+          "src": [
+            "bf-ss"
+          ]
+        },
+        {
+          "title": {
+            "en": "Streaky coat"
+          },
+          "text": {
+            "en": "It's brown and streaky, often with a dark spot in the middle of its chest."
+          },
+          "src": [
+            "wiki-ss"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Busy heart"
+          },
+          "text": {
+            "en": "A song sparrow's heart beats about 450 times a minute."
+          },
+          "src": [
+            "wbu-ss"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Many looks"
+          },
+          "text": {
+            "en": "There are 31 kinds of song sparrow, more than any other North American bird."
+          },
+          "src": [
+            "wbu-ss"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Snack weight"
+          },
+          "text": {
+            "en": "Its weight can change by up to a fifth in just one day."
+          },
+          "src": [
+            "wbu-ss"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "The book doesn't name the passing bird, so we picked the song sparrow, a common brown bird of North America. It really does sing about everything!"
+      },
+      "storyVsRealSrc": [
+        "wiki-ss"
+      ]
+    },
+    {
+      "id": "deer",
+      "role": "supporting",
+      "colour": "sun",
+      "name": {
+        "en": "The hungry deer"
+      },
+      "animal": {
+        "en": "White-tailed deer (our pick)"
+      },
+      "image": "deer.jpg",
+      "job": {
+        "en": "Nibbles Oakie's leaves, and is later forgiven"
+      },
+      "superpower": {
+        "en": "Jumps up to 3 metres high"
+      },
+      "lineup": {
+        "weight": {
+          "en": "50–136 kg"
+        },
+        "grams": 80000,
+        "like": {
+          "en": "a grown-up person"
+        },
+        "awake": "dawn"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "1.8–2.4 m"
+          },
+          "src": [
+            "ngt-wtd"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "50–136 kg"
+          },
+          "src": [
+            "ngt-wtd"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "Often only 2–3 years in the wild"
+          },
+          "src": [
+            "sl-wtd"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Plants: it's a herbivore"
+          },
+          "src": [
+            "ngt-wtd"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Southern Canada and all across the US"
+          },
+          "src": [
+            "fr-wtd"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Moms have 1 to 3 spotted fawns in May or June"
+          },
+          "src": [
+            "ngt-wtd"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Spotty babies"
+          },
+          "text": {
+            "en": "Fawns have white spots to hide in the forest. They lose them at 3 to 5 months old."
+          },
+          "src": [
+            "mdc-wtd"
+          ]
+        },
+        {
+          "title": {
+            "en": "New antlers every year"
+          },
+          "text": {
+            "en": "Male deer grow antlers and shed them every year."
+          },
+          "src": [
+            "ngt-wtd"
+          ]
+        },
+        {
+          "title": {
+            "en": "Fast-growing antlers"
+          },
+          "text": {
+            "en": "Antlers can grow about 6 mm in a single day!"
+          },
+          "src": [
+            "uf-wtd"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Super jumper"
+          },
+          "text": {
+            "en": "A white-tailed deer can leap 3 metres high and 9 metres in one bound."
+          },
+          "src": [
+            "bz-wtd"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "White flag"
+          },
+          "text": {
+            "en": "When it's scared, it raises its tail to flash the white underneath."
+          },
+          "src": [
+            "az-wtd"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Hollow tooth"
+          },
+          "text": {
+            "en": "Its scientific name, Odocoileus, means 'hollow tooth'."
+          },
+          "src": [
+            "uf-wtd"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Fast runner"
+          },
+          "text": {
+            "en": "It can run about 56 km/h."
+          },
+          "src": [
+            "mf-wtd"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Real deer do love to nibble young plants and leaves, so a hungry deer and a little sprout is very true to life!"
+      },
+      "storyVsRealSrc": [
+        "ngt-wtd"
+      ]
+    },
+    {
+      "id": "squirrel",
+      "role": "supporting",
+      "colour": "lilac",
+      "name": {
+        "en": "The squirrel"
+      },
+      "animal": {
+        "en": "American red squirrel (our pick)"
+      },
+      "image": "squirrel.jpg",
+      "job": {
+        "en": "Lives in the grown-up tree"
+      },
+      "superpower": {
+        "en": "Picks cones while they're still green"
+      },
+      "lineup": {
+        "weight": {
+          "en": "141–312 g"
+        },
+        "grams": 230,
+        "like": {
+          "en": "an apple"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "About 30 cm, tail included"
+          },
+          "src": [
+            "yk-rs"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "141–312 g"
+          },
+          "src": [
+            "uwsp-rs"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "About 5 years"
+          },
+          "src": [
+            "bk-rs"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Mostly seeds from tree cones, and mushrooms"
+          },
+          "src": [
+            "esf-rs",
+            "wiki-rs"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Forests across North America"
+          },
+          "src": [
+            "wiki-rs"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "Lives alone, except moms with babies"
+          },
+          "src": [
+            "ua-rs"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Green-cone picker"
+          },
+          "text": {
+            "en": "It cuts cones while they're green, so the seeds are still inside."
+          },
+          "src": [
+            "esf-rs"
+          ]
+        },
+        {
+          "title": {
+            "en": "Mushroom eater"
+          },
+          "text": {
+            "en": "Red squirrels eat many kinds of mushrooms, even ones that are poisonous to people."
+          },
+          "src": [
+            "wiki-rs"
+          ]
+        },
+        {
+          "title": {
+            "en": "Day worker"
+          },
+          "text": {
+            "en": "Red squirrels are mostly busy in the daytime."
+          },
+          "src": [
+            "bk-rs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Noisy neighbour"
+          },
+          "text": {
+            "en": "Its loud chatter warns other squirrels to stay away."
+          },
+          "src": [
+            "ua-rs"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "Winter stash"
+          },
+          "text": {
+            "en": "It stores thousands of cones in a pile called a midden."
+          },
+          "src": [
+            "yk-rs"
+          ]
+        },
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Red and white"
+          },
+          "text": {
+            "en": "It has red fur on top and a white belly."
+          },
+          "src": [
+            "wiki-rs"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Lots of squirrels live in oak forests. The book's squirrel is bright orange, so we picked the red squirrel."
+      },
+      "storyVsRealSrc": [
+        "wiki-rs"
+      ]
+    },
+    {
+      "id": "bluebird",
+      "role": "supporting",
+      "colour": "sky",
+      "name": {
+        "en": "The little blue bird"
+      },
+      "animal": {
+        "en": "Eastern bluebird (our pick)"
+      },
+      "image": "bluebird.jpg",
+      "job": {
+        "en": "Visits Oakie when he's a tree"
+      },
+      "superpower": {
+        "en": "Blue without any blue colour"
+      },
+      "lineup": {
+        "weight": {
+          "en": "27–34 g"
+        },
+        "grams": 30,
+        "like": {
+          "en": "six grapes"
+        },
+        "awake": "day"
+      },
+      "card": [
+        {
+          "label": {
+            "en": "Length"
+          },
+          "value": {
+            "en": "16–21 cm"
+          },
+          "src": [
+            "bf-eb"
+          ]
+        },
+        {
+          "label": {
+            "en": "Weight"
+          },
+          "value": {
+            "en": "27–34 g"
+          },
+          "src": [
+            "bf-eb"
+          ]
+        },
+        {
+          "label": {
+            "en": "Lives"
+          },
+          "value": {
+            "en": "6–10 years"
+          },
+          "src": [
+            "bf-eb"
+          ]
+        },
+        {
+          "label": {
+            "en": "Eats"
+          },
+          "value": {
+            "en": "Insects, spotted from up to 18 m away"
+          },
+          "src": [
+            "bf-eb"
+          ]
+        },
+        {
+          "label": {
+            "en": "Home"
+          },
+          "value": {
+            "en": "Tree holes, old woodpecker holes and nest boxes"
+          },
+          "src": [
+            "bf-eb"
+          ]
+        },
+        {
+          "label": {
+            "en": "Family"
+          },
+          "value": {
+            "en": "3–7 pale blue eggs; older chicks may help with the next batch"
+          },
+          "src": [
+            "bf-eb",
+            "az-eb"
+          ]
+        }
+      ],
+      "life": [
+        {
+          "title": {
+            "en": "Not really blue"
+          },
+          "text": {
+            "en": "Bluebird feathers have no blue colour in them. Tiny cells bounce back only blue light, so they look blue."
+          },
+          "src": [
+            "wbu-eb"
+          ]
+        },
+        {
+          "title": {
+            "en": "Saved by boxes"
+          },
+          "text": {
+            "en": "People put up special nest boxes, and that helped bluebirds come back."
+          },
+          "src": [
+            "mdc-eb"
+          ]
+        },
+        {
+          "title": {
+            "en": "Treehouse homes"
+          },
+          "text": {
+            "en": "Bluebirds nest inside holes in trees, or in boxes people build."
+          },
+          "src": [
+            "bf-eb"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "kind": "hidden",
+          "title": {
+            "en": "Matching eggs"
+          },
+          "text": {
+            "en": "All the eggs from one mother bluebird are the same colour."
+          },
+          "src": [
+            "wb-eb"
+          ]
+        },
+        {
+          "kind": "ha",
+          "title": {
+            "en": "Bird trails"
+          },
+          "text": {
+            "en": "The first 'bluebird trail' of nest boxes was set up in Illinois in 1934."
+          },
+          "src": [
+            "wbu-eb2"
+          ]
+        },
+        {
+          "kind": "wow",
+          "title": {
+            "en": "State bird"
+          },
+          "text": {
+            "en": "The eastern bluebird is the state bird of New York."
+          },
+          "src": [
+            "mdc-eb"
+          ]
+        }
+      ],
+      "storyVsReal": {
+        "en": "Bluebirds really do nest in holes in big old trees, so a grown-up oak is just the kind of home they like."
+      },
+      "storyVsRealSrc": [
+        "bf-eb"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "title": {
+        "en": "Plant a seed"
+      },
+      "text": {
+        "en": "Plant a bean in a cup of soil. Water it and watch it grow. How many days until you see a sprout?"
+      }
+    },
+    {
+      "title": {
+        "en": "Patience timer"
+      },
+      "text": {
+        "en": "Set a timer for one minute and sit very still, like a seed waiting underground. How did it feel?"
+      }
+    },
+    {
+      "title": {
+        "en": "Acorn hunt"
+      },
+      "text": {
+        "en": "In autumn, look for acorns under oak trees. Can you find one with its little cap?"
+      }
+    },
+    {
+      "title": {
+        "en": "Worm watch"
+      },
+      "text": {
+        "en": "After it rains, look for earthworms on the ground. Gently help one back to the soil."
+      }
+    },
+    {
+      "title": {
+        "en": "Find Shenandoah"
+      },
+      "text": {
+        "en": "Find Virginia on a map of the United States, then the long park in the mountains."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "q": {
+        "en": "How long does it take an acorn to become an oak?"
+      },
+      "a": {
+        "en": "A long time! An oak can take 20 years or more just to make its own first acorns."
+      },
+      "src": [
+        "rwn-oak"
+      ]
+    },
+    {
+      "q": {
+        "en": "How do worms breathe?"
+      },
+      "a": {
+        "en": "Through their skin, which has to stay damp. They have no lungs."
+      },
+      "src": [
+        "kg-ew"
+      ]
+    },
+    {
+      "q": {
+        "en": "Why do baby deer have spots?"
+      },
+      "a": {
+        "en": "The spots help fawns hide in the forest. They fade at 3 to 5 months."
+      },
+      "src": [
+        "mdc-wtd"
+      ]
+    },
+    {
+      "q": {
+        "en": "Are bluebirds really blue?"
+      },
+      "a": {
+        "en": "Their feathers have no blue colour. Tiny cells reflect blue light, so they look blue."
+      },
+      "src": [
+        "wbu-eb"
+      ]
+    }
+  ],
+  "sources": {
+    "kg-ew": {
+      "name": "KidsGardening",
+      "title": "Earthworms: the good, the bad and the bizarre",
+      "url": "https://kidsgardening.org/digging-deeper-earthworms"
+    },
+    "ved-ew": {
+      "name": "Vedantu",
+      "title": "Earthworm",
+      "url": "https://www.vedantu.com/animal/earthworm"
+    },
+    "jn-ew": {
+      "name": "Journey North (archive)",
+      "title": "Worm life",
+      "url": "https://archive.journeynorth.org/jnorth/tm/worm/WormLife.html"
+    },
+    "fa-ew": {
+      "name": "Fact Animal",
+      "title": "Earthworm facts",
+      "url": "https://factanimal.com/?p=4058"
+    },
+    "uj-ew": {
+      "name": "Uncle Jim's Worm Farm",
+      "title": "Facts about worms",
+      "url": "https://unclejimswormfarm.com/?p=490"
+    },
+    "ss-ew": {
+      "name": "Science Sparks",
+      "title": "Earthworm facts for kids",
+      "url": "https://www.science-sparks.com/worms/"
+    },
+    "bf-ss": {
+      "name": "Birdfact",
+      "title": "Song sparrow",
+      "url": "https://www.birdfact.com/birds/song-sparrow"
+    },
+    "wbu-ss": {
+      "name": "Wild Birds Unlimited Avon",
+      "title": "Fun facts about native sparrows",
+      "url": "https://avonct.wbu.com/content_section/show/156577"
+    },
+    "md-ss": {
+      "name": "Matt Dunbar Wildlife Index",
+      "title": "Song sparrow",
+      "url": "https://mattdunbarphotography-wildlife-index.netlify.app/species/song-sparrow"
+    },
+    "wiki-ss": {
+      "name": "Wikipedia",
+      "title": "Song sparrow",
+      "url": "https://en.wikipedia.org/wiki/Song_sparrow"
+    },
+    "ngt-wtd": {
+      "name": "National Geographic",
+      "title": "White-tailed deer",
+      "url": "https://www.nationalgeographic.com/animals/mammals/facts/white-tailed-deer"
+    },
+    "sl-wtd": {
+      "name": "City of Sugar Land",
+      "title": "White-tailed deer",
+      "url": "https://sugarlandtx.gov/383/White-Tailed-Deer"
+    },
+    "fr-wtd": {
+      "name": "Fossil Rim Wildlife Center",
+      "title": "White-tailed deer",
+      "url": "https://fossilrim.org/?p=15533"
+    },
+    "mdc-wtd": {
+      "name": "Missouri Department of Conservation",
+      "title": "White-tailed deer",
+      "url": "https://huntfish.mdc.Mo.gov/species/white-tailed-deer"
+    },
+    "uf-wtd": {
+      "name": "University of Florida IFAS",
+      "title": "White-tailed deer",
+      "url": "https://ask.ifas.ufl.edu/publication/UW445"
+    },
+    "mf-wtd": {
+      "name": "Mental Floss",
+      "title": "15 fun facts about deer",
+      "url": "https://mentalfloss.com/posts/deer-facts"
+    },
+    "bz-wtd": {
+      "name": "Connecticut's Beardsley Zoo",
+      "title": "White-tailed deer",
+      "url": "https://www.beardsleyzoo.org/white-tailed-deer.html"
+    },
+    "az-wtd": {
+      "name": "A-Z Animals",
+      "title": "White-tailed deer",
+      "url": "https://a-z-animals.com/animals/white-tailed-deer/"
+    },
+    "yk-rs": {
+      "name": "Government of Yukon",
+      "title": "Red squirrel",
+      "url": "https://yukon.ca/en/red-squirrel"
+    },
+    "uwsp-rs": {
+      "name": "University of Wisconsin-Stevens Point",
+      "title": "Red squirrel",
+      "url": "https://www.uwsp.edu/biology/VertebrateCollection/Pages/Vertebrates/Mammals%20of%20Wisconsin/Tamiasciurus%20hudsonicus/Tamiasciurus%20hudsonicus.aspx"
+    },
+    "bk-rs": {
+      "name": "BioKIDS, University of Michigan",
+      "title": "Red squirrel",
+      "url": "https://www.biokids.umich.edu/critters/Tamiasciurus_hudsonicus"
+    },
+    "esf-rs": {
+      "name": "SUNY ESF",
+      "title": "Red squirrel",
+      "url": "https://www.esf.edu/aec/adks/mammals/redsquirrel.htm"
+    },
+    "ua-rs": {
+      "name": "University of Arizona",
+      "title": "Red squirrel natural history",
+      "url": "https://conservation.arizona.edu/content/natural-history.html"
+    },
+    "wiki-rs": {
+      "name": "Wikipedia",
+      "title": "American red squirrel",
+      "url": "https://en.wikipedia.org/wiki/American_red_squirrel"
+    },
+    "bf-eb": {
+      "name": "Birdfact",
+      "title": "Eastern bluebird",
+      "url": "https://birdfact.com/birds/eastern-bluebird"
+    },
+    "wbu-eb": {
+      "name": "Wild Birds Unlimited Hickory",
+      "title": "Bluebird facts",
+      "url": "https://hickory.wbu.com/bluebird-facts"
+    },
+    "wbu-eb2": {
+      "name": "Wild Birds Unlimited Granger",
+      "title": "Fun facts about bluebirds",
+      "url": "https://granger.wbu.com/bluebird-fun-facts-2023mch"
+    },
+    "az-eb": {
+      "name": "A-Z Animals",
+      "title": "Eastern bluebird",
+      "url": "https://a-z-animals.com/animals/eastern-bluebird"
+    },
+    "mdc-eb": {
+      "name": "Missouri Department of Conservation",
+      "title": "Eastern bluebird",
+      "url": "https://mdc.mo.gov/node/219135"
+    },
+    "wb-eb": {
+      "name": "World Birds",
+      "title": "Eastern bluebird facts",
+      "url": "https://worldbirds.com/eastern-bluebird-facts/"
+    },
+    "rwn-oak": {
+      "name": "Forest Preserve District of Will County",
+      "title": "Mighty oak trees have a long and storied history",
+      "url": "https://www.reconnectwithnature.org/headlines/news/celebrate-oak-trees-for-oaktober"
+    },
+    "abc-shen": {
+      "name": "ABC News",
+      "title": "Weekend window: Shenandoah National Park",
+      "url": "https://abcnews.go.com/GMA/story?id=3310795"
+    },
+    "ip-shen": {
+      "name": "International Parks",
+      "title": "Shenandoah",
+      "url": "https://www.internationalparks.org/united-states/Shenandoah"
+    },
+    "ngt-shen": {
+      "name": "National Geographic",
+      "title": "Everything to know about Shenandoah National Park",
+      "url": "https://travel.nationalgeographic.com/travel/national-parks/shenandoah-map/"
+    },
+    "tc-shen": {
+      "name": "Travel Channel",
+      "title": "Shenandoah National Park, Virginia",
+      "url": "https://www.travelchannel.com/interests/national-parks/articles/shenandoah-national-park-virginia"
+    },
+    "gw-shen": {
+      "name": "Geography Worlds",
+      "title": "Shenandoah National Park: Virginia's Blue Ridge paradise",
+      "url": "https://geographyworlds.com/blog/shenandoah-national-park-guide/"
+    }
+  }
+}

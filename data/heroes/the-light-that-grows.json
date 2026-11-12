@@ -1,1275 +1,1275 @@
 {
-  "book": "the-light-that-grows",
-  "draft": true,
-  "updated": "2026-11-12",
-  "review": {
-    "factsChecked": "2026-11-12",
-    "culturalReader": true
+ "book": "the-light-that-grows",
+ "draft": false,
+ "updated": "2026-11-12",
+ "review": {
+  "factsChecked": "2026-11-12",
+  "culturalReader": true
+ },
+ "title": {
+  "en": "Heroes of the Glowing Meadow"
+ },
+ "seoTitle": {
+  "en": "Heroes of the Glowing Meadow: the real animals behind The Light That Grows"
+ },
+ "description": {
+  "en": "A firefly that flashes once a second, a moon moth with 10 cm wings, a glow-worm that hunts snails, and a cricket with ears on its legs. Real facts for kids."
+ },
+ "intro": {
+  "en": "The glowing creatures in The Light That Grows are real! Here is how fireflies, glow-worms, moths, crickets and mice really live at night."
+ },
+ "place": {
+  "name": {
+   "en": "Sierra de Guadarrama, Spain"
   },
-  "title": {
-    "en": "Heroes of the Glowing Meadow"
-  },
-  "seoTitle": {
-    "en": "Heroes of the Glowing Meadow: the real animals behind The Light That Grows"
-  },
-  "description": {
-    "en": "A firefly that flashes once a second, a moon moth with 10 cm wings, a glow-worm that hunts snails, and a cricket with ears on its legs. Real facts for kids."
-  },
+  "image": "place.jpg",
   "intro": {
-    "en": "The glowing creatures in The Light That Grows are real! Here is how fireflies, glow-worms, moths, crickets and mice really live at night."
+   "en": "The meadow in the book has no name, so we picked the Sierra de Guadarrama mountains near Madrid. The Spanish moon moth, our pick for Moss, was first discovered here, and fireflies and glow-worms light up summer nights across Spain."
   },
-  "place": {
-    "name": {
-      "en": "Sierra de Guadarrama, Spain"
-    },
-    "image": "place.jpg",
-    "intro": {
-      "en": "The meadow in the book has no name, so we picked the Sierra de Guadarrama mountains near Madrid. The Spanish moon moth, our pick for Moss, was first discovered here, and fireflies and glow-worms light up summer nights across Spain."
-    },
-    "introSrc": [
-      "pittaway",
-      "aot"
-    ],
-    "facts": [
-      {
-        "kind": "wow",
-        "title": {
-          "en": "Spain's newest park"
-        },
-        "text": {
-          "en": "The Sierra de Guadarrama became a national park in 2013."
-        },
-        "src": [
-          "wiki-guad"
-        ]
-      },
-      {
-        "kind": "hidden",
-        "title": {
-          "en": "A 100-year wish"
-        },
-        "text": {
-          "en": "People first asked for a national park here back in the 1920s."
-        },
-        "src": [
-          "mori"
-        ]
-      },
-      {
-        "kind": "wow",
-        "title": {
-          "en": "So many animals"
-        },
-        "text": {
-          "en": "About 45% of Spain's wild animal species live in this park."
-        },
-        "src": [
-          "mori"
-        ]
-      },
-      {
-        "kind": "ha",
-        "title": {
-          "en": "Close to the city"
-        },
-        "text": {
-          "en": "It's only about 45 km from the middle of Madrid."
-        },
-        "src": [
-          "ip-guad"
-        ]
-      },
-      {
-        "kind": "hidden",
-        "title": {
-          "en": "Moon moth home"
-        },
-        "text": {
-          "en": "Spanish moon moths live in the park's pine woods, for example near Cercedilla."
-        },
-        "src": [
-          "miteco-moon"
-        ]
-      }
-    ],
-    "map": {
-      "lat": 40.783,
-      "lon": -3.983,
-      "zoom": 10,
-      "region": [
-        -14,
-        35,
-        2,
-        45
-      ],
-      "highlight": [
-        724
-      ],
-      "label": {
-        "en": "Guadarrama, Spain"
-      },
-      "text": {
-        "en": "A mountain range of pine forests and meadows between Madrid and Segovia, covering nearly 34,000 hectares."
-      },
-      "src": [
-        "wiki-guad",
-        "ngeo"
-      ],
-      "areaNote": {
-        "en": "Yellow: Spain."
-      },
-      "pin": [
-        62.61,
-        43.96
-      ],
-      "aspect": 1.2214
-    }
-  },
-  "cast": [
-    {
-      "id": "lumi",
-      "role": "hero",
-      "colour": "sun",
-      "name": {
-        "en": "Lumi"
-      },
-      "animal": {
-        "en": "Portuguese firefly"
-      },
-      "image": "lumi.jpg",
-      "job": {
-        "en": "The smallest firefly, who learns her light grows when she shares it"
-      },
-      "superpower": {
-        "en": "Flashes about once a second as she flies"
-      },
-      "lineup": {
-        "weight": {
-          "en": "not well recorded"
-        },
-        "grams": 0.03,
-        "like": {
-          "en": "a grain of rice (our guess)"
-        },
-        "awake": "night"
-      },
-      "card": [
-        {
-          "label": {
-            "en": "Size"
-          },
-          "value": {
-            "en": "Not well recorded"
-          },
-          "plain": true
-        },
-        {
-          "label": {
-            "en": "Light"
-          },
-          "value": {
-            "en": "Short yellow flashes, about one every second"
-          },
-          "src": [
-            "gaia"
-          ]
-        },
-        {
-          "label": {
-            "en": "Lives"
-          },
-          "value": {
-            "en": "Glowing adults live only a few days"
-          },
-          "src": [
-            "elind"
-          ]
-        },
-        {
-          "label": {
-            "en": "Eats"
-          },
-          "value": {
-            "en": "Larvae hunt slugs, snails and worms"
-          },
-          "src": [
-            "starlight"
-          ]
-        },
-        {
-          "label": {
-            "en": "Home"
-          },
-          "value": {
-            "en": "Southern Europe, especially Portugal and western Spain"
-          },
-          "src": [
-            "aot",
-            "luciola"
-          ]
-        },
-        {
-          "label": {
-            "en": "Family"
-          },
-          "value": {
-            "en": "Females are plumper, with shorter wings"
-          },
-          "src": [
-            "gaia"
-          ]
-        }
-      ],
-      "life": [
-        {
-          "title": {
-            "en": "Flashing in flight"
-          },
-          "text": {
-            "en": "Males flash while they fly. Very few fireflies in Europe do this."
-          },
-          "src": [
-            "aot"
-          ]
-        },
-        {
-          "title": {
-            "en": "Cold slows the light"
-          },
-          "text": {
-            "en": "On cold nights the flashes get longer, with longer gaps in between."
-          },
-          "src": [
-            "gaia"
-          ]
-        },
-        {
-          "title": {
-            "en": "Life underground"
-          },
-          "text": {
-            "en": "Most of a firefly's life is spent as a larva, out of sight."
-          },
-          "src": [
-            "elind"
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "kind": "wow",
-          "title": {
-            "en": "Light without heat"
-          },
-          "text": {
-            "en": "Fireflies turn chemical energy into 'cold' light, losing almost none as heat."
-          },
-          "src": [
-            "starlight"
-          ]
-        },
-        {
-          "kind": "hidden",
-          "title": {
-            "en": "Flash talk"
-          },
-          "text": {
-            "en": "Females answer the males' flashes with flashes of their own."
-          },
-          "src": [
-            "aot"
-          ]
-        },
-        {
-          "kind": "uhoh",
-          "title": {
-            "en": "Too much light"
-          },
-          "text": {
-            "en": "Street lights can confuse fireflies so they can't find each other."
-          },
-          "src": [
-            "starlight"
-          ]
-        },
-        {
-          "kind": "ha",
-          "title": {
-            "en": "Not a fly!"
-          },
-          "text": {
-            "en": "Fireflies are really beetles."
-          },
-          "src": [
-            "elind"
-          ]
-        }
-      ],
-      "storyVsReal": {
-        "en": "Real fireflies can't run out of light by sharing it, and they can't save it under a leaf either. Lumi's leaf hat is our artist's idea."
-      },
-      "storyVsRealSrc": [
-        "starlight"
-      ]
-    },
-    {
-      "id": "moss",
-      "role": "friend",
-      "colour": "mint",
-      "name": {
-        "en": "Moss"
-      },
-      "animal": {
-        "en": "Spanish moon moth (our pick)"
-      },
-      "image": "moss.jpg",
-      "job": {
-        "en": "The best friend who can't glow but loves Lumi's light"
-      },
-      "superpower": {
-        "en": "Wings up to 10 cm across"
-      },
-      "lineup": {
-        "weight": {
-          "en": "not well recorded"
-        },
-        "grams": 1,
-        "like": {
-          "en": "a paper clip (our guess)"
-        },
-        "awake": "night"
-      },
-      "card": [
-        {
-          "label": {
-            "en": "Wingspan"
-          },
-          "value": {
-            "en": "6.5–10 cm"
-          },
-          "src": [
-            "silkmoths"
-          ]
-        },
-        {
-          "label": {
-            "en": "Weight"
-          },
-          "value": {
-            "en": "Not well recorded"
-          },
-          "plain": true
-        },
-        {
-          "label": {
-            "en": "Lives"
-          },
-          "value": {
-            "en": "One flight season each spring"
-          },
-          "src": [
-            "silkmoths"
-          ]
-        },
-        {
-          "label": {
-            "en": "Eats"
-          },
-          "value": {
-            "en": "Caterpillars eat pine needles"
-          },
-          "src": [
-            "wiki-moon"
-          ]
-        },
-        {
-          "label": {
-            "en": "Home"
-          },
-          "value": {
-            "en": "Mountain pine forests in Spain and France"
-          },
-          "src": [
-            "wiki-moon2",
-            "breeding"
-          ]
-        },
-        {
-          "label": {
-            "en": "Family"
-          },
-          "value": {
-            "en": "Close cousin of the American luna moth"
-          },
-          "src": [
-            "peigler"
-          ]
-        }
-      ],
-      "life": [
-        {
-          "title": {
-            "en": "Pine-needle snacks"
-          },
-          "text": {
-            "en": "Its caterpillars eat only pine needles, mostly from Scots pine and black pine."
-          },
-          "src": [
-            "breeding",
-            "torres"
-          ]
-        },
-        {
-          "title": {
-            "en": "Winter in a cocoon"
-          },
-          "text": {
-            "en": "It spends the winter as a cocoon and flies in spring."
-          },
-          "src": [
-            "silkmoths"
-          ]
-        },
-        {
-          "title": {
-            "en": "Stained glass"
-          },
-          "text": {
-            "en": "It's also called the stained-glass moth, and many say it's Europe's most beautiful moth."
-          },
-          "src": [
-            "breeding"
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "kind": "hidden",
-          "title": {
-            "en": "Found in Guadarrama"
-          },
-          "text": {
-            "en": "Scientists first described it from the Sierra de Guadarrama near Madrid in 1849."
-          },
-          "src": [
-            "pittaway",
-            "torres"
-          ]
-        },
-        {
-          "kind": "wow",
-          "title": {
-            "en": "A moon moth family"
-          },
-          "text": {
-            "en": "Its closest relatives are moon moths from Asia and the Americas."
-          },
-          "src": [
-            "pittaway",
-            "peigler"
-          ]
-        },
-        {
-          "kind": "hidden",
-          "title": {
-            "en": "Protected"
-          },
-          "text": {
-            "en": "Spanish law protects it from collectors."
-          },
-          "src": [
-            "peigler"
-          ]
-        }
-      ],
-      "storyVsReal": {
-        "en": "The book just calls Moss 'the moth'. We picked the Spanish moon moth because it's pale green and fluffy, just like him. Real moths can't glow, so that part is true!"
-      },
-      "storyVsRealSrc": [
-        "breeding"
-      ]
-    },
-    {
-      "id": "oldglow",
-      "role": "supporting",
-      "colour": "lilac",
-      "name": {
-        "en": "Old Glow"
-      },
-      "animal": {
-        "en": "Common glow-worm"
-      },
-      "image": "oldglow.jpg",
-      "job": {
-        "en": "The wise glowworm who calls the meadow together"
-      },
-      "superpower": {
-        "en": "A steady yellow-green glow"
-      },
-      "lineup": {
-        "weight": {
-          "en": "not well recorded"
-        },
-        "grams": 0.1,
-        "like": {
-          "en": "a few grains of rice (our guess)"
-        },
-        "awake": "night"
-      },
-      "card": [
-        {
-          "label": {
-            "en": "Length"
-          },
-          "value": {
-            "en": "Up to 25 mm"
-          },
-          "src": [
-            "ukgw"
-          ]
-        },
-        {
-          "label": {
-            "en": "Weight"
-          },
-          "value": {
-            "en": "Not well recorded"
-          },
-          "plain": true
-        },
-        {
-          "label": {
-            "en": "Lives"
-          },
-          "value": {
-            "en": "1–2 summers as a larva, then only 2–3 weeks as an adult"
-          },
-          "src": [
-            "ukgw",
-            "ll-gw"
-          ]
-        },
-        {
-          "label": {
-            "en": "Eats"
-          },
-          "value": {
-            "en": "Larvae eat small slugs and snails; adults don't eat"
-          },
-          "src": [
-            "buglife"
-          ]
-        },
-        {
-          "label": {
-            "en": "Home"
-          },
-          "value": {
-            "en": "Grassy banks, hedges and heaths across Europe"
-          },
-          "src": [
-            "ww-gw",
-            "nhm-gw2"
-          ]
-        },
-        {
-          "label": {
-            "en": "Family"
-          },
-          "value": {
-            "en": "A mother lays 50–200 eggs, then dies"
-          },
-          "src": [
-            "buglife"
-          ]
-        }
-      ],
-      "life": [
-        {
-          "title": {
-            "en": "Not a worm"
-          },
-          "text": {
-            "en": "A glow-worm is really a beetle. The glowing female has no wings and looks like a larva."
-          },
-          "src": [
-            "buglife"
-          ]
-        },
-        {
-          "title": {
-            "en": "Light on a stem"
-          },
-          "text": {
-            "en": "At night the female climbs a grass stem and points her glowing tail upward."
-          },
-          "src": [
-            "nhm-gw"
-          ]
-        },
-        {
-          "title": {
-            "en": "Glowing eggs"
-          },
-          "text": {
-            "en": "Even the eggs and the larvae can glow, a little."
-          },
-          "src": [
-            "ww-gw"
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "kind": "uhoh",
-          "title": {
-            "en": "Snail hunters"
-          },
-          "text": {
-            "en": "Larvae paralyse small snails and then eat them, sometimes riding on the snail's back!"
-          },
-          "src": [
-            "buglife",
-            "ww-gw"
-          ]
-        },
-        {
-          "kind": "hidden",
-          "title": {
-            "en": "1% grown-up"
-          },
-          "text": {
-            "en": "Only about 1% of a glow-worm's life is spent as an adult."
-          },
-          "src": [
-            "ukgw2"
-          ]
-        },
-        {
-          "kind": "uhoh",
-          "title": {
-            "en": "Lights out"
-          },
-          "text": {
-            "en": "Even a little light pollution can stop males finding the glowing females."
-          },
-          "src": [
-            "nhm-gw2"
-          ]
-        }
-      ],
-      "storyVsReal": {
-        "en": "A real glowing glow-worm only lives for a few weeks, so she could never be 'old' like Old Glow. And real glow-worms don't wear glasses or a shawl!"
-      },
-      "storyVsRealSrc": [
-        "ll-gw"
-      ]
-    },
-    {
-      "id": "cricket",
-      "role": "supporting",
-      "colour": "sky",
-      "name": {
-        "en": "The cricket"
-      },
-      "animal": {
-        "en": "Great green bush-cricket"
-      },
-      "image": "cricket.jpg",
-      "job": {
-        "en": "Teaches everyone his song"
-      },
-      "superpower": {
-        "en": "Ears on its front legs"
-      },
-      "lineup": {
-        "weight": {
-          "en": "not well recorded"
-        },
-        "grams": 2,
-        "like": {
-          "en": "a coin (our guess)"
-        },
-        "awake": "night"
-      },
-      "card": [
-        {
-          "label": {
-            "en": "Length"
-          },
-          "value": {
-            "en": "40–55 mm"
-          },
-          "src": [
-            "orth-ggbc"
-          ]
-        },
-        {
-          "label": {
-            "en": "Weight"
-          },
-          "value": {
-            "en": "Not well recorded"
-          },
-          "plain": true
-        },
-        {
-          "label": {
-            "en": "Lives"
-          },
-          "value": {
-            "en": "Up to about 10 months"
-          },
-          "src": [
-            "uks-ggbc"
-          ]
-        },
-        {
-          "label": {
-            "en": "Eats"
-          },
-          "value": {
-            "en": "Plants and small insects"
-          },
-          "src": [
-            "orth-ggbc2"
-          ]
-        },
-        {
-          "label": {
-            "en": "Home"
-          },
-          "value": {
-            "en": "Hedges, brambles, scrub and long grass"
-          },
-          "src": [
-            "orth-ggbc2"
-          ]
-        },
-        {
-          "label": {
-            "en": "Family"
-          },
-          "value": {
-            "en": "Eggs are laid in the ground and wait through winter"
-          },
-          "src": [
-            "orth-ggbc2"
-          ]
-        }
-      ],
-      "life": [
-        {
-          "title": {
-            "en": "Sewing-machine song"
-          },
-          "text": {
-            "en": "Males sing by rubbing their wings together. It sounds like a sewing machine!"
-          },
-          "src": [
-            "ww-ggbc",
-            "uks-ggbc"
-          ]
-        },
-        {
-          "title": {
-            "en": "Afternoon to night"
-          },
-          "text": {
-            "en": "They start singing in the afternoon and carry on through the night."
-          },
-          "src": [
-            "uks-ggbc"
-          ]
-        },
-        {
-          "title": {
-            "en": "Super antennae"
-          },
-          "text": {
-            "en": "Its thin antennae can be up to 5 cm long."
-          },
-          "src": [
-            "uks-ggbc"
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "kind": "ha",
-          "title": {
-            "en": "Ears on its knees"
-          },
-          "text": {
-            "en": "Bush-crickets hear with 'ears' on their front legs!"
-          },
-          "src": [
-            "snap-ggbc"
-          ]
-        },
-        {
-          "kind": "uhoh",
-          "title": {
-            "en": "Watch your fingers"
-          },
-          "text": {
-            "en": "It can give a painful nip, so it's best left alone."
-          },
-          "src": [
-            "ww-ggbc"
-          ]
-        },
-        {
-          "kind": "wow",
-          "title": {
-            "en": "Big and green"
-          },
-          "text": {
-            "en": "It's one of the largest bush-crickets in Europe."
-          },
-          "src": [
-            "karits-ggbc"
-          ]
-        }
-      ],
-      "storyVsReal": {
-        "en": "Our cricket is bright green, so we matched him to the great green bush-cricket. Real ones really do sing all evening, but they wouldn't teach anyone their song!"
-      },
-      "storyVsRealSrc": [
-        "uks-ggbc"
-      ]
-    },
-    {
-      "id": "mice",
-      "role": "supporting",
-      "colour": "peach",
-      "name": {
-        "en": "The mouse family"
-      },
-      "animal": {
-        "en": "Wood mice"
-      },
-      "image": "mice.jpg",
-      "job": {
-        "en": "Find their way home by the lights"
-      },
-      "superpower": {
-        "en": "Big eyes for the dark"
-      },
-      "lineup": {
-        "weight": {
-          "en": "13–27 g"
-        },
-        "grams": 20,
-        "like": {
-          "en": "two grapes"
-        },
-        "awake": "night"
-      },
-      "card": [
-        {
-          "label": {
-            "en": "Length"
-          },
-          "value": {
-            "en": "8–10 cm, plus a 7–9.5 cm tail"
-          },
-          "src": [
-            "mammal-mouse"
-          ]
-        },
-        {
-          "label": {
-            "en": "Weight"
-          },
-          "value": {
-            "en": "13–27 g"
-          },
-          "src": [
-            "mammal-mouse"
-          ]
-        },
-        {
-          "label": {
-            "en": "Lives"
-          },
-          "value": {
-            "en": "About a year"
-          },
-          "src": [
-            "mammal-mouse"
-          ]
-        },
-        {
-          "label": {
-            "en": "Eats"
-          },
-          "value": {
-            "en": "Seeds, nuts, berries, fungi and little bugs"
-          },
-          "src": [
-            "bwc-mouse"
-          ]
-        },
-        {
-          "label": {
-            "en": "Home"
-          },
-          "value": {
-            "en": "Underground burrows with nests and food stores"
-          },
-          "src": [
-            "bwc-mouse"
-          ]
-        },
-        {
-          "label": {
-            "en": "Family"
-          },
-          "value": {
-            "en": "4–7 babies at a time, several times a year"
-          },
-          "src": [
-            "mammal-mouse"
-          ]
-        }
-      ],
-      "life": [
-        {
-          "title": {
-            "en": "Night explorers"
-          },
-          "text": {
-            "en": "Wood mice are mostly out at night."
-          },
-          "src": [
-            "mammal-mouse"
-          ]
-        },
-        {
-          "title": {
-            "en": "Big eyes and ears"
-          },
-          "text": {
-            "en": "Their large eyes and ears help them in the dark."
-          },
-          "src": [
-            "vwt-mouse"
-          ]
-        },
-        {
-          "title": {
-            "en": "Good climbers"
-          },
-          "text": {
-            "en": "Wood mice are agile climbers."
-          },
-          "src": [
-            "ww-mouse"
-          ]
-        }
-      ],
-      "facts": [
-        {
-          "kind": "ha",
-          "title": {
-            "en": "Boing!"
-          },
-          "text": {
-            "en": "When something scares it, a wood mouse can leap high in the air."
-          },
-          "src": [
-            "bwc-mouse"
-          ]
-        },
-        {
-          "kind": "hidden",
-          "title": {
-            "en": "Accidental gardener"
-          },
-          "text": {
-            "en": "Forgotten food stores can sprout into new trees and bushes."
-          },
-          "src": [
-            "mammal-mouse"
-          ]
-        },
-        {
-          "kind": "wow",
-          "title": {
-            "en": "Also a field mouse"
-          },
-          "text": {
-            "en": "Its other name is the long-tailed field mouse."
-          },
-          "src": [
-            "vwt-mouse"
-          ]
-        }
-      ],
-      "storyVsReal": {
-        "en": "Real wood mice are night animals, so walking home in the dark is just right. Holding paws on the path is story magic."
-      },
-      "storyVsRealSrc": [
-        "mammal-mouse"
-      ]
-    }
+  "introSrc": [
+   "pittaway",
+   "aot"
   ],
-  "activities": [
-    {
-      "title": {
-        "en": "Firefly flash"
-      },
-      "text": {
-        "en": "In a dark room, flash a torch once a second, like a firefly. Can someone flash back?"
-      }
+  "facts": [
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Spain's newest park"
     },
-    {
-      "title": {
-        "en": "Share the light"
-      },
-      "text": {
-        "en": "Light one candle with a grown-up, then use it to light another. Did the first flame get smaller?"
-      }
+    "text": {
+     "en": "The Sierra de Guadarrama became a national park in 2013."
     },
-    {
-      "title": {
-        "en": "Night sounds"
-      },
-      "text": {
-        "en": "On a summer evening, listen outside. Can you hear a cricket's song?"
-      }
+    "src": [
+     "wiki-guad"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "A 100-year wish"
     },
-    {
-      "title": {
-        "en": "Moth wings"
-      },
-      "text": {
-        "en": "Cut two paper wings 10 cm across and colour them pale green, like a moon moth."
-      }
+    "text": {
+     "en": "People first asked for a national park here back in the 1920s."
     },
-    {
-      "title": {
-        "en": "Find Spain"
-      },
-      "text": {
-        "en": "Find Spain on a map, then Madrid in the middle. The mountains are just above it."
-      }
-    }
+    "src": [
+     "mori"
+    ]
+   },
+   {
+    "kind": "wow",
+    "title": {
+     "en": "So many animals"
+    },
+    "text": {
+     "en": "About 45% of Spain's wild animal species live in this park."
+    },
+    "src": [
+     "mori"
+    ]
+   },
+   {
+    "kind": "ha",
+    "title": {
+     "en": "Close to the city"
+    },
+    "text": {
+     "en": "It's only about 45 km from the middle of Madrid."
+    },
+    "src": [
+     "ip-guad"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "Moon moth home"
+    },
+    "text": {
+     "en": "Spanish moon moths live in the park's pine woods, for example near Cercedilla."
+    },
+    "src": [
+     "miteco-moon"
+    ]
+   }
   ],
-  "faq": [
-    {
-      "q": {
-        "en": "Are the animals in The Light That Grows real?"
-      },
-      "a": {
-        "en": "Yes. Fireflies, glow-worms, moths, bush-crickets and wood mice all live in Europe. Each hero file tells you what we changed for the story."
-      }
-    },
-    {
-      "q": {
-        "en": "Is a glow-worm a worm?"
-      },
-      "a": {
-        "en": "No, it's a beetle. The glowing female just has no wings."
-      },
-      "src": [
-        "buglife"
-      ]
-    },
-    {
-      "q": {
-        "en": "Why do fireflies glow?"
-      },
-      "a": {
-        "en": "To find each other at night. Males flash, and females flash back."
-      },
-      "src": [
-        "aot"
-      ]
-    },
-    {
-      "q": {
-        "en": "How can I help fireflies?"
-      },
-      "a": {
-        "en": "Turn off outdoor lights at night. Bright lights make it hard for fireflies to find each other."
-      },
-      "src": [
-        "starlight"
-      ]
-    }
-  ],
-  "sources": {
-    "gaia": {
-      "name": "Parque Biológico de Gaia",
-      "title": "Portuguese firefly (Luciola lusitanica)",
-      "url": "https://ifs2020gaia.parquebiologico.pt/fireflies-glowworms/portuguese-firefly"
-    },
-    "aot": {
-      "name": "Animal of Things",
-      "title": "5 types of fireflies in Europe",
-      "url": "https://animalofthings.com/types-of-fireflies-in-europe/"
-    },
-    "luciola": {
-      "name": "Wikipedia (mirror)",
-      "title": "Luciola",
-      "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Luciola"
-    },
-    "starlight": {
-      "name": "Fundación Starlight",
-      "title": "Biodiversidad: luciérnagas",
-      "url": "https://fundacionstarlight.org/docs/files/363_triptico-biodiversidad-luciernagas.pdf"
-    },
-    "elind": {
-      "name": "El Independiente",
-      "title": "Photinus signaticollis, la luciérnaga que avanza por Europa",
-      "url": "https://www.elindependiente.com/futuro/animales/2022/02/09/photinus-signaticollis-la-luciernaga-sudamericana-que-avanza-por-europa/"
-    },
-    "wiki-moon": {
-      "name": "Wikipedia",
-      "title": "Graellsia isabellae (Spanish moon moth)",
-      "url": "https://en.wikipedia.org/wiki/Graellsia_isabellae"
-    },
-    "wiki-moon2": {
-      "name": "Wikipedia (mirror)",
-      "title": "Graellsia isabellae",
-      "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Graellsia_isabelae.html"
-    },
-    "silkmoths": {
-      "name": "Silkmoths and More",
-      "title": "Graellsia isabellae",
-      "url": "https://www.silkmothsandmore.com/species/saturniidae/graellsia/graellsia-isabellae"
-    },
-    "torres": {
-      "name": "Torres",
-      "title": "The Spanish moon moth",
-      "url": "https://www.torres.es/en/blog/spanish-moon-moth"
-    },
-    "pittaway": {
-      "name": "Tony Pittaway, Saturniidae of the Western Palaearctic",
-      "title": "Actias isabellae: Spanish moon moth",
-      "url": "https://tpittaway.neocities.org/g_isa.htm"
-    },
-    "peigler": {
-      "name": "Journal of the Lepidopterists' Society (1998)",
-      "title": "Review: the Spanish moon moth",
-      "url": "https://images.peabody.yale.edu/lepsoc/jls/1990s/1998/1998-52(3)343-Peigler.pdf"
-    },
-    "breeding": {
-      "name": "Breeding Butterflies",
-      "title": "Graellsia isabellae: Spanish moon moth",
-      "url": "https://breedingbutterflies.com/graellsia-isabellae-spanish-moon-moth/"
-    },
-    "buglife": {
-      "name": "Buglife",
-      "title": "Common glow-worm",
-      "url": "https://www.buglife.org.uk/bugs/bug-directory/common-glow-worm/"
-    },
-    "ukgw": {
-      "name": "UK Glow Worm Survey",
-      "title": "About glow worms",
-      "url": "https://glowworms.org.uk/"
-    },
-    "ukgw2": {
-      "name": "UK Glow Worm Survey",
-      "title": "Key glow worm facts",
-      "url": "https://www.glowworms.org.uk/indexwithnewadsense.html"
-    },
-    "ww-gw": {
-      "name": "Wildlife Watch (The Wildlife Trusts)",
-      "title": "Glow-worm",
-      "url": "https://www.wildlifewatch.org.uk/wildlife-explorer/invertebrates/beetles/glow-worm"
-    },
-    "nhm-gw": {
-      "name": "Natural History Museum, London",
-      "title": "The glimmering world of glow-worms",
-      "url": "https://www.nhm.ac.uk/discover/the-glimmering-world-of-glow-worms.html"
-    },
-    "nhm-gw2": {
-      "name": "Natural History Museum, London",
-      "title": "What is a glow-worm?",
-      "url": "https://wifi.nhm.ac.uk/discover/the-glimmering-world-of-glow-worms.html"
-    },
-    "ll-gw": {
-      "name": "Living Levels",
-      "title": "Glow-worm (Lampyris noctiluca)",
-      "url": "https://livinglevels.org.uk/june-glow-worm"
-    },
-    "orth-ggbc": {
-      "name": "Orthoptera and Allied Insects",
-      "title": "Great green bush cricket",
-      "url": "https://orthoptera.org.uk/node/3414"
-    },
-    "orth-ggbc2": {
-      "name": "Orthoptera and Allied Insects",
-      "title": "Great green bush cricket: song and habitat",
-      "url": "https://orthoptera.org.uk/index.php/node/3414"
-    },
-    "ww-ggbc": {
-      "name": "Wildlife Watch (The Wildlife Trusts)",
-      "title": "Great green bush-cricket",
-      "url": "https://wildlifewatch.org.uk/cy/wildlife-explorer/invertebrates/grasshoppers-and-crickets/great-green-bush-cricket"
-    },
-    "uks-ggbc": {
-      "name": "UK Safari",
-      "title": "Great green bush-crickets",
-      "url": "https://uksafari.com/great_green_bush_crickets.htm"
-    },
-    "snap-ggbc": {
-      "name": "Snappit",
-      "title": "Great green bush-cricket",
-      "url": "https://www.snappit.app/explore/great-green-bush-cricket"
-    },
-    "karits-ggbc": {
-      "name": "Karits Nature",
-      "title": "Great green bush cricket",
-      "url": "https://karits.eu/?p=8503"
-    },
-    "mammal-mouse": {
-      "name": "The Mammal Society",
-      "title": "Wood mouse fact sheet",
-      "url": "https://www.mammal.org.uk/wp-content/uploads/2022/07/Wood-Mouse-Fact-Sheet-v2.pdf"
-    },
-    "bwc-mouse": {
-      "name": "British Wildlife Centre",
-      "title": "Wood mouse",
-      "url": "https://britishwildlifecentre.co.uk/animal-facts/wood-mouse/"
-    },
-    "vwt-mouse": {
-      "name": "Vincent Wildlife Trust",
-      "title": "Wood mouse",
-      "url": "https://www.vincentwildlife.ie/species/wood-mouse"
-    },
-    "ww-mouse": {
-      "name": "Wildlife Watch (The Wildlife Trusts)",
-      "title": "Wood mouse",
-      "url": "https://www.wildlifewatch.org.uk/wildlife-explorer/mammals/wood-mouse"
-    },
-    "wiki-guad": {
-      "name": "Wikipedia",
-      "title": "Guadarrama National Park",
-      "url": "https://Www.Wikipedia.org/wiki/Guadarrama_National_Park"
-    },
-    "ip-guad": {
-      "name": "International Parks",
-      "title": "Guadarrama",
-      "url": "https://www.internationalparks.org/spain/Guadarrama"
-    },
-    "mori": {
-      "name": "Mori Atlas",
-      "title": "Sierra de Guadarrama National Park",
-      "url": "https://www.moriatlas.com/park/guadarrama-national-park"
-    },
-    "ngeo": {
-      "name": "National Geographic",
-      "title": "Where kings and dragons take their rest",
-      "url": "https://www.nationalgeographic.com/travel/article/paid-content-where-kings-and-dragons-take-their-rest"
-    },
-    "miteco-moon": {
-      "name": "Spanish Ministry for the Ecological Transition",
-      "title": "Graellsia isabellae: known sites",
-      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/publicaciones/GRAELLSIAISABELAE_tcm30-194909.pdf"
-    }
+  "map": {
+   "lat": 40.783,
+   "lon": -3.983,
+   "zoom": 10,
+   "region": [
+    -14,
+    35,
+    2,
+    45
+   ],
+   "highlight": [
+    724
+   ],
+   "label": {
+    "en": "Guadarrama, Spain"
+   },
+   "text": {
+    "en": "A mountain range of pine forests and meadows between Madrid and Segovia, covering nearly 34,000 hectares."
+   },
+   "src": [
+    "wiki-guad",
+    "ngeo"
+   ],
+   "areaNote": {
+    "en": "Yellow: Spain."
+   },
+   "pin": [
+    62.61,
+    43.96
+   ],
+   "aspect": 1.2214
   }
+ },
+ "cast": [
+  {
+   "id": "lumi",
+   "role": "hero",
+   "colour": "sun",
+   "name": {
+    "en": "Lumi"
+   },
+   "animal": {
+    "en": "Portuguese firefly"
+   },
+   "image": "lumi.jpg",
+   "job": {
+    "en": "The smallest firefly, who learns her light grows when she shares it"
+   },
+   "superpower": {
+    "en": "Flashes about once a second as she flies"
+   },
+   "lineup": {
+    "weight": {
+     "en": "not well recorded"
+    },
+    "grams": 0.03,
+    "like": {
+     "en": "a grain of rice (our guess)"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Size"
+     },
+     "value": {
+      "en": "Not well recorded"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Light"
+     },
+     "value": {
+      "en": "Short yellow flashes, about one every second"
+     },
+     "src": [
+      "gaia"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Glowing adults live only a few days"
+     },
+     "src": [
+      "elind"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Larvae hunt slugs, snails and worms"
+     },
+     "src": [
+      "starlight"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Southern Europe, especially Portugal and western Spain"
+     },
+     "src": [
+      "aot",
+      "luciola"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Females are plumper, with shorter wings"
+     },
+     "src": [
+      "gaia"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Flashing in flight"
+     },
+     "text": {
+      "en": "Males flash while they fly. Very few fireflies in Europe do this."
+     },
+     "src": [
+      "aot"
+     ]
+    },
+    {
+     "title": {
+      "en": "Cold slows the light"
+     },
+     "text": {
+      "en": "On cold nights the flashes get longer, with longer gaps in between."
+     },
+     "src": [
+      "gaia"
+     ]
+    },
+    {
+     "title": {
+      "en": "Life underground"
+     },
+     "text": {
+      "en": "Most of a firefly's life is spent as a larva, out of sight."
+     },
+     "src": [
+      "elind"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Light without heat"
+     },
+     "text": {
+      "en": "Fireflies turn chemical energy into 'cold' light, losing almost none as heat."
+     },
+     "src": [
+      "starlight"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Flash talk"
+     },
+     "text": {
+      "en": "Females answer the males' flashes with flashes of their own."
+     },
+     "src": [
+      "aot"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Too much light"
+     },
+     "text": {
+      "en": "Street lights can confuse fireflies so they can't find each other."
+     },
+     "src": [
+      "starlight"
+     ]
+    },
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Not a fly!"
+     },
+     "text": {
+      "en": "Fireflies are really beetles."
+     },
+     "src": [
+      "elind"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real fireflies can't run out of light by sharing it, and they can't save it under a leaf either. Lumi's leaf hat is our artist's idea."
+   },
+   "storyVsRealSrc": [
+    "starlight"
+   ]
+  },
+  {
+   "id": "moss",
+   "role": "friend",
+   "colour": "mint",
+   "name": {
+    "en": "Moss"
+   },
+   "animal": {
+    "en": "Spanish moon moth (our pick)"
+   },
+   "image": "moss.jpg",
+   "job": {
+    "en": "The best friend who can't glow but loves Lumi's light"
+   },
+   "superpower": {
+    "en": "Wings up to 10 cm across"
+   },
+   "lineup": {
+    "weight": {
+     "en": "not well recorded"
+    },
+    "grams": 1,
+    "like": {
+     "en": "a paper clip (our guess)"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Wingspan"
+     },
+     "value": {
+      "en": "6.5–10 cm"
+     },
+     "src": [
+      "silkmoths"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Not well recorded"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "One flight season each spring"
+     },
+     "src": [
+      "silkmoths"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Caterpillars eat pine needles"
+     },
+     "src": [
+      "wiki-moon"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Mountain pine forests in Spain and France"
+     },
+     "src": [
+      "wiki-moon2",
+      "breeding"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Close cousin of the American luna moth"
+     },
+     "src": [
+      "peigler"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Pine-needle snacks"
+     },
+     "text": {
+      "en": "Its caterpillars eat only pine needles, mostly from Scots pine and black pine."
+     },
+     "src": [
+      "breeding",
+      "torres"
+     ]
+    },
+    {
+     "title": {
+      "en": "Winter in a cocoon"
+     },
+     "text": {
+      "en": "It spends the winter as a cocoon and flies in spring."
+     },
+     "src": [
+      "silkmoths"
+     ]
+    },
+    {
+     "title": {
+      "en": "Stained glass"
+     },
+     "text": {
+      "en": "It's also called the stained-glass moth, and many say it's Europe's most beautiful moth."
+     },
+     "src": [
+      "breeding"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Found in Guadarrama"
+     },
+     "text": {
+      "en": "Scientists first described it from the Sierra de Guadarrama near Madrid in 1849."
+     },
+     "src": [
+      "pittaway",
+      "torres"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "A moon moth family"
+     },
+     "text": {
+      "en": "Its closest relatives are moon moths from Asia and the Americas."
+     },
+     "src": [
+      "pittaway",
+      "peigler"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Protected"
+     },
+     "text": {
+      "en": "Spanish law protects it from collectors."
+     },
+     "src": [
+      "peigler"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "The book just calls Moss 'the moth'. We picked the Spanish moon moth because it's pale green and fluffy, just like him. Real moths can't glow, so that part is true!"
+   },
+   "storyVsRealSrc": [
+    "breeding"
+   ]
+  },
+  {
+   "id": "oldglow",
+   "role": "supporting",
+   "colour": "lilac",
+   "name": {
+    "en": "Old Glow"
+   },
+   "animal": {
+    "en": "Common glow-worm"
+   },
+   "image": "oldglow.jpg",
+   "job": {
+    "en": "The wise glowworm who calls the meadow together"
+   },
+   "superpower": {
+    "en": "A steady yellow-green glow"
+   },
+   "lineup": {
+    "weight": {
+     "en": "not well recorded"
+    },
+    "grams": 0.1,
+    "like": {
+     "en": "a few grains of rice (our guess)"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "Up to 25 mm"
+     },
+     "src": [
+      "ukgw"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Not well recorded"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "1–2 summers as a larva, then only 2–3 weeks as an adult"
+     },
+     "src": [
+      "ukgw",
+      "ll-gw"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Larvae eat small slugs and snails; adults don't eat"
+     },
+     "src": [
+      "buglife"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Grassy banks, hedges and heaths across Europe"
+     },
+     "src": [
+      "ww-gw",
+      "nhm-gw2"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "A mother lays 50–200 eggs, then dies"
+     },
+     "src": [
+      "buglife"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Not a worm"
+     },
+     "text": {
+      "en": "A glow-worm is really a beetle. The glowing female has no wings and looks like a larva."
+     },
+     "src": [
+      "buglife"
+     ]
+    },
+    {
+     "title": {
+      "en": "Light on a stem"
+     },
+     "text": {
+      "en": "At night the female climbs a grass stem and points her glowing tail upward."
+     },
+     "src": [
+      "nhm-gw"
+     ]
+    },
+    {
+     "title": {
+      "en": "Glowing eggs"
+     },
+     "text": {
+      "en": "Even the eggs and the larvae can glow, a little."
+     },
+     "src": [
+      "ww-gw"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Snail hunters"
+     },
+     "text": {
+      "en": "Larvae paralyse small snails and then eat them, sometimes riding on the snail's back!"
+     },
+     "src": [
+      "buglife",
+      "ww-gw"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "1% grown-up"
+     },
+     "text": {
+      "en": "Only about 1% of a glow-worm's life is spent as an adult."
+     },
+     "src": [
+      "ukgw2"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Lights out"
+     },
+     "text": {
+      "en": "Even a little light pollution can stop males finding the glowing females."
+     },
+     "src": [
+      "nhm-gw2"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "A real glowing glow-worm only lives for a few weeks, so she could never be 'old' like Old Glow. And real glow-worms don't wear glasses or a shawl!"
+   },
+   "storyVsRealSrc": [
+    "ll-gw"
+   ]
+  },
+  {
+   "id": "cricket",
+   "role": "supporting",
+   "colour": "sky",
+   "name": {
+    "en": "The cricket"
+   },
+   "animal": {
+    "en": "Great green bush-cricket"
+   },
+   "image": "cricket.jpg",
+   "job": {
+    "en": "Teaches everyone his song"
+   },
+   "superpower": {
+    "en": "Ears on its front legs"
+   },
+   "lineup": {
+    "weight": {
+     "en": "not well recorded"
+    },
+    "grams": 2,
+    "like": {
+     "en": "a coin (our guess)"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "40–55 mm"
+     },
+     "src": [
+      "orth-ggbc"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "Not well recorded"
+     },
+     "plain": true
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "Up to about 10 months"
+     },
+     "src": [
+      "uks-ggbc"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Plants and small insects"
+     },
+     "src": [
+      "orth-ggbc2"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Hedges, brambles, scrub and long grass"
+     },
+     "src": [
+      "orth-ggbc2"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Eggs are laid in the ground and wait through winter"
+     },
+     "src": [
+      "orth-ggbc2"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Sewing-machine song"
+     },
+     "text": {
+      "en": "Males sing by rubbing their wings together. It sounds like a sewing machine!"
+     },
+     "src": [
+      "ww-ggbc",
+      "uks-ggbc"
+     ]
+    },
+    {
+     "title": {
+      "en": "Afternoon to night"
+     },
+     "text": {
+      "en": "They start singing in the afternoon and carry on through the night."
+     },
+     "src": [
+      "uks-ggbc"
+     ]
+    },
+    {
+     "title": {
+      "en": "Super antennae"
+     },
+     "text": {
+      "en": "Its thin antennae can be up to 5 cm long."
+     },
+     "src": [
+      "uks-ggbc"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Ears on its knees"
+     },
+     "text": {
+      "en": "Bush-crickets hear with 'ears' on their front legs!"
+     },
+     "src": [
+      "snap-ggbc"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Watch your fingers"
+     },
+     "text": {
+      "en": "It can give a painful nip, so it's best left alone."
+     },
+     "src": [
+      "ww-ggbc"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Big and green"
+     },
+     "text": {
+      "en": "It's one of the largest bush-crickets in Europe."
+     },
+     "src": [
+      "karits-ggbc"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Our cricket is bright green, so we matched him to the great green bush-cricket. Real ones really do sing all evening, but they wouldn't teach anyone their song!"
+   },
+   "storyVsRealSrc": [
+    "uks-ggbc"
+   ]
+  },
+  {
+   "id": "mice",
+   "role": "supporting",
+   "colour": "peach",
+   "name": {
+    "en": "The mouse family"
+   },
+   "animal": {
+    "en": "Wood mice"
+   },
+   "image": "mice.jpg",
+   "job": {
+    "en": "Find their way home by the lights"
+   },
+   "superpower": {
+    "en": "Big eyes for the dark"
+   },
+   "lineup": {
+    "weight": {
+     "en": "13–27 g"
+    },
+    "grams": 20,
+    "like": {
+     "en": "two grapes"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "8–10 cm, plus a 7–9.5 cm tail"
+     },
+     "src": [
+      "mammal-mouse"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "13–27 g"
+     },
+     "src": [
+      "mammal-mouse"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "About a year"
+     },
+     "src": [
+      "mammal-mouse"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Seeds, nuts, berries, fungi and little bugs"
+     },
+     "src": [
+      "bwc-mouse"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Underground burrows with nests and food stores"
+     },
+     "src": [
+      "bwc-mouse"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "4–7 babies at a time, several times a year"
+     },
+     "src": [
+      "mammal-mouse"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Night explorers"
+     },
+     "text": {
+      "en": "Wood mice are mostly out at night."
+     },
+     "src": [
+      "mammal-mouse"
+     ]
+    },
+    {
+     "title": {
+      "en": "Big eyes and ears"
+     },
+     "text": {
+      "en": "Their large eyes and ears help them in the dark."
+     },
+     "src": [
+      "vwt-mouse"
+     ]
+    },
+    {
+     "title": {
+      "en": "Good climbers"
+     },
+     "text": {
+      "en": "Wood mice are agile climbers."
+     },
+     "src": [
+      "ww-mouse"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "Boing!"
+     },
+     "text": {
+      "en": "When something scares it, a wood mouse can leap high in the air."
+     },
+     "src": [
+      "bwc-mouse"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Accidental gardener"
+     },
+     "text": {
+      "en": "Forgotten food stores can sprout into new trees and bushes."
+     },
+     "src": [
+      "mammal-mouse"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Also a field mouse"
+     },
+     "text": {
+      "en": "Its other name is the long-tailed field mouse."
+     },
+     "src": [
+      "vwt-mouse"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real wood mice are night animals, so walking home in the dark is just right. Holding paws on the path is story magic."
+   },
+   "storyVsRealSrc": [
+    "mammal-mouse"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "title": {
+    "en": "Firefly flash"
+   },
+   "text": {
+    "en": "In a dark room, flash a torch once a second, like a firefly. Can someone flash back?"
+   }
+  },
+  {
+   "title": {
+    "en": "Share the light"
+   },
+   "text": {
+    "en": "Light one candle with a grown-up, then use it to light another. Did the first flame get smaller?"
+   }
+  },
+  {
+   "title": {
+    "en": "Night sounds"
+   },
+   "text": {
+    "en": "On a summer evening, listen outside. Can you hear a cricket's song?"
+   }
+  },
+  {
+   "title": {
+    "en": "Moth wings"
+   },
+   "text": {
+    "en": "Cut two paper wings 10 cm across and colour them pale green, like a moon moth."
+   }
+  },
+  {
+   "title": {
+    "en": "Find Spain"
+   },
+   "text": {
+    "en": "Find Spain on a map, then Madrid in the middle. The mountains are just above it."
+   }
+  }
+ ],
+ "faq": [
+  {
+   "q": {
+    "en": "Are the animals in The Light That Grows real?"
+   },
+   "a": {
+    "en": "Yes. Fireflies, glow-worms, moths, bush-crickets and wood mice all live in Europe. Each hero file tells you what we changed for the story."
+   }
+  },
+  {
+   "q": {
+    "en": "Is a glow-worm a worm?"
+   },
+   "a": {
+    "en": "No, it's a beetle. The glowing female just has no wings."
+   },
+   "src": [
+    "buglife"
+   ]
+  },
+  {
+   "q": {
+    "en": "Why do fireflies glow?"
+   },
+   "a": {
+    "en": "To find each other at night. Males flash, and females flash back."
+   },
+   "src": [
+    "aot"
+   ]
+  },
+  {
+   "q": {
+    "en": "How can I help fireflies?"
+   },
+   "a": {
+    "en": "Turn off outdoor lights at night. Bright lights make it hard for fireflies to find each other."
+   },
+   "src": [
+    "starlight"
+   ]
+  }
+ ],
+ "sources": {
+  "gaia": {
+   "name": "Parque Biológico de Gaia",
+   "title": "Portuguese firefly (Luciola lusitanica)",
+   "url": "https://ifs2020gaia.parquebiologico.pt/fireflies-glowworms/portuguese-firefly"
+  },
+  "aot": {
+   "name": "Animal of Things",
+   "title": "5 types of fireflies in Europe",
+   "url": "https://animalofthings.com/types-of-fireflies-in-europe/"
+  },
+  "luciola": {
+   "name": "Wikipedia (mirror)",
+   "title": "Luciola",
+   "url": "https://kiwix.lema.org/wikipedia_en_all_mini_2024-02/A/Luciola"
+  },
+  "starlight": {
+   "name": "Fundación Starlight",
+   "title": "Biodiversidad: luciérnagas",
+   "url": "https://fundacionstarlight.org/docs/files/363_triptico-biodiversidad-luciernagas.pdf"
+  },
+  "elind": {
+   "name": "El Independiente",
+   "title": "Photinus signaticollis, la luciérnaga que avanza por Europa",
+   "url": "https://www.elindependiente.com/futuro/animales/2022/02/09/photinus-signaticollis-la-luciernaga-sudamericana-que-avanza-por-europa/"
+  },
+  "wiki-moon": {
+   "name": "Wikipedia",
+   "title": "Graellsia isabellae (Spanish moon moth)",
+   "url": "https://en.wikipedia.org/wiki/Graellsia_isabellae"
+  },
+  "wiki-moon2": {
+   "name": "Wikipedia (mirror)",
+   "title": "Graellsia isabellae",
+   "url": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Graellsia_isabelae.html"
+  },
+  "silkmoths": {
+   "name": "Silkmoths and More",
+   "title": "Graellsia isabellae",
+   "url": "https://www.silkmothsandmore.com/species/saturniidae/graellsia/graellsia-isabellae"
+  },
+  "torres": {
+   "name": "Torres",
+   "title": "The Spanish moon moth",
+   "url": "https://www.torres.es/en/blog/spanish-moon-moth"
+  },
+  "pittaway": {
+   "name": "Tony Pittaway, Saturniidae of the Western Palaearctic",
+   "title": "Actias isabellae: Spanish moon moth",
+   "url": "https://tpittaway.neocities.org/g_isa.htm"
+  },
+  "peigler": {
+   "name": "Journal of the Lepidopterists' Society (1998)",
+   "title": "Review: the Spanish moon moth",
+   "url": "https://images.peabody.yale.edu/lepsoc/jls/1990s/1998/1998-52(3)343-Peigler.pdf"
+  },
+  "breeding": {
+   "name": "Breeding Butterflies",
+   "title": "Graellsia isabellae: Spanish moon moth",
+   "url": "https://breedingbutterflies.com/graellsia-isabellae-spanish-moon-moth/"
+  },
+  "buglife": {
+   "name": "Buglife",
+   "title": "Common glow-worm",
+   "url": "https://www.buglife.org.uk/bugs/bug-directory/common-glow-worm/"
+  },
+  "ukgw": {
+   "name": "UK Glow Worm Survey",
+   "title": "About glow worms",
+   "url": "https://glowworms.org.uk/"
+  },
+  "ukgw2": {
+   "name": "UK Glow Worm Survey",
+   "title": "Key glow worm facts",
+   "url": "https://www.glowworms.org.uk/indexwithnewadsense.html"
+  },
+  "ww-gw": {
+   "name": "Wildlife Watch (The Wildlife Trusts)",
+   "title": "Glow-worm",
+   "url": "https://www.wildlifewatch.org.uk/wildlife-explorer/invertebrates/beetles/glow-worm"
+  },
+  "nhm-gw": {
+   "name": "Natural History Museum, London",
+   "title": "The glimmering world of glow-worms",
+   "url": "https://www.nhm.ac.uk/discover/the-glimmering-world-of-glow-worms.html"
+  },
+  "nhm-gw2": {
+   "name": "Natural History Museum, London",
+   "title": "What is a glow-worm?",
+   "url": "https://wifi.nhm.ac.uk/discover/the-glimmering-world-of-glow-worms.html"
+  },
+  "ll-gw": {
+   "name": "Living Levels",
+   "title": "Glow-worm (Lampyris noctiluca)",
+   "url": "https://livinglevels.org.uk/june-glow-worm"
+  },
+  "orth-ggbc": {
+   "name": "Orthoptera and Allied Insects",
+   "title": "Great green bush cricket",
+   "url": "https://orthoptera.org.uk/node/3414"
+  },
+  "orth-ggbc2": {
+   "name": "Orthoptera and Allied Insects",
+   "title": "Great green bush cricket: song and habitat",
+   "url": "https://orthoptera.org.uk/index.php/node/3414"
+  },
+  "ww-ggbc": {
+   "name": "Wildlife Watch (The Wildlife Trusts)",
+   "title": "Great green bush-cricket",
+   "url": "https://wildlifewatch.org.uk/cy/wildlife-explorer/invertebrates/grasshoppers-and-crickets/great-green-bush-cricket"
+  },
+  "uks-ggbc": {
+   "name": "UK Safari",
+   "title": "Great green bush-crickets",
+   "url": "https://uksafari.com/great_green_bush_crickets.htm"
+  },
+  "snap-ggbc": {
+   "name": "Snappit",
+   "title": "Great green bush-cricket",
+   "url": "https://www.snappit.app/explore/great-green-bush-cricket"
+  },
+  "karits-ggbc": {
+   "name": "Karits Nature",
+   "title": "Great green bush cricket",
+   "url": "https://karits.eu/?p=8503"
+  },
+  "mammal-mouse": {
+   "name": "The Mammal Society",
+   "title": "Wood mouse fact sheet",
+   "url": "https://www.mammal.org.uk/wp-content/uploads/2022/07/Wood-Mouse-Fact-Sheet-v2.pdf"
+  },
+  "bwc-mouse": {
+   "name": "British Wildlife Centre",
+   "title": "Wood mouse",
+   "url": "https://britishwildlifecentre.co.uk/animal-facts/wood-mouse/"
+  },
+  "vwt-mouse": {
+   "name": "Vincent Wildlife Trust",
+   "title": "Wood mouse",
+   "url": "https://www.vincentwildlife.ie/species/wood-mouse"
+  },
+  "ww-mouse": {
+   "name": "Wildlife Watch (The Wildlife Trusts)",
+   "title": "Wood mouse",
+   "url": "https://www.wildlifewatch.org.uk/wildlife-explorer/mammals/wood-mouse"
+  },
+  "wiki-guad": {
+   "name": "Wikipedia",
+   "title": "Guadarrama National Park",
+   "url": "https://Www.Wikipedia.org/wiki/Guadarrama_National_Park"
+  },
+  "ip-guad": {
+   "name": "International Parks",
+   "title": "Guadarrama",
+   "url": "https://www.internationalparks.org/spain/Guadarrama"
+  },
+  "mori": {
+   "name": "Mori Atlas",
+   "title": "Sierra de Guadarrama National Park",
+   "url": "https://www.moriatlas.com/park/guadarrama-national-park"
+  },
+  "ngeo": {
+   "name": "National Geographic",
+   "title": "Where kings and dragons take their rest",
+   "url": "https://www.nationalgeographic.com/travel/article/paid-content-where-kings-and-dragons-take-their-rest"
+  },
+  "miteco-moon": {
+   "name": "Spanish Ministry for the Ecological Transition",
+   "title": "Graellsia isabellae: known sites",
+   "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/publicaciones/GRAELLSIAISABELAE_tcm30-194909.pdf"
+  }
+ }
 }

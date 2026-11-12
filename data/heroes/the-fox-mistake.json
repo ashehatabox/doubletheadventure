@@ -1,0 +1,662 @@
+{
+ "book": "the-fox-mistake",
+ "draft": true,
+ "updated": "2026-11-12",
+ "review": {
+  "factsChecked": "2026-11-12",
+  "culturalReader": true
+ },
+ "title": {
+  "en": "Heroes of the Forest"
+ },
+ "seoTitle": {
+  "en": "Heroes of the Forest: the real foxes behind The Fox Mistake"
+ },
+ "description": {
+  "en": "A red fox that pounces with the help of Earth's magnetism and a gray fox that climbs trees. Real facts for kids about the foxes behind The Fox Mistake."
+ },
+ "intro": {
+  "en": "Felix is a red fox and Finn is a gray fox. They're two different kinds of fox, each with its own superpower. Here's how real ones live."
+ },
+ "place": {
+  "name": {
+   "en": "Great Smoky Mountains National Park, USA"
+  },
+  "image": "place.jpg",
+  "intro": {
+   "en": "The book's forest has no name, so we picked the Great Smoky Mountains. Red foxes and gray foxes both live there."
+  },
+  "introSrc": [
+   "ip-gsm",
+   "sm-gsm"
+  ],
+  "facts": [
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Most visited"
+    },
+    "text": {
+     "en": "It's the most visited national park in the United States."
+    },
+    "src": [
+     "wa-gsm"
+    ]
+   },
+   {
+    "kind": "ha",
+    "title": {
+     "en": "Smoke that isn't"
+    },
+    "text": {
+     "en": "The mountains look smoky, but the 'smoke' is really water vapour hanging in the air."
+    },
+    "src": [
+     "hist-gsm"
+    ]
+   },
+   {
+    "kind": "wow",
+    "title": {
+     "en": "Salamander capital"
+    },
+    "text": {
+     "en": "The park has 31 kinds of salamanders and is called the Salamander Capital of the World."
+    },
+    "src": [
+     "npt-gsm"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "Bear country"
+    },
+    "text": {
+     "en": "About 1,500 black bears live in the park."
+    },
+    "src": [
+     "ip-gsm"
+    ]
+   },
+   {
+    "kind": "hidden",
+    "title": {
+     "en": "Two states"
+    },
+    "text": {
+     "en": "The park sits on the border of Tennessee and North Carolina, and opened in 1934."
+    },
+    "src": [
+     "wa-gsm"
+    ]
+   }
+  ],
+  "map": {
+   "lat": 35.6,
+   "lon": -83.5,
+   "zoom": 9,
+   "region": [
+    -92,
+    30,
+    -80,
+    40
+   ],
+   "highlight": [
+    840
+   ],
+   "label": {
+    "en": "Great Smoky Mountains"
+   },
+   "text": {
+    "en": "Old, rounded mountains on the border of Tennessee and North Carolina, in the eastern United States. The park covers about 520,000 acres."
+   },
+   "src": [
+    "wa-gsm",
+    "mf-gsm"
+   ],
+   "areaNote": {
+    "en": "The United States."
+   },
+   "pin": [
+    70.83,
+    45.52
+   ],
+   "aspect": 0.9804
+  }
+ },
+ "cast": [
+  {
+   "id": "felix",
+   "role": "hero",
+   "colour": "peach",
+   "name": {
+    "en": "Felix"
+   },
+   "animal": {
+    "en": "Red fox"
+   },
+   "image": "felix.jpg",
+   "job": {
+    "en": "A fox who makes a mistake and learns to say sorry"
+   },
+   "superpower": {
+    "en": "Hears a mouse squeak 100 metres away"
+   },
+   "lineup": {
+    "weight": {
+     "en": "2–10 kg"
+    },
+    "grams": 6000,
+    "like": {
+     "en": "a big watermelon"
+    },
+    "awake": "dawn"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "46–86 cm, plus a 30–55 cm tail"
+     },
+     "src": [
+      "ngk-rf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "2–10 kg"
+     },
+     "src": [
+      "aff-rf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "2–4 years in the wild"
+     },
+     "src": [
+      "ngk-rf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Small animals and fruit"
+     },
+     "src": [
+      "aff-rf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Forests, grasslands, mountains, farms and even towns"
+     },
+     "src": [
+      "cs-rf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Mom and Dad both look after the kits"
+     },
+     "src": [
+      "ngk-rf"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Magnet pounce"
+     },
+     "text": {
+      "en": "Red foxes seem to use Earth's magnetic field to aim their high pounce onto mice under snow or grass."
+     },
+     "src": [
+      "mf-rf"
+     ]
+    },
+    {
+     "title": {
+      "en": "Big ears"
+     },
+     "text": {
+      "en": "They can hear a mouse squeak from 100 metres away."
+     },
+     "src": [
+      "aff-rf"
+     ]
+    },
+    {
+     "title": {
+      "en": "Fox school"
+     },
+     "text": {
+      "en": "Kits stay with their parents for about seven months, learning to hunt."
+     },
+     "src": [
+      "ngk-rf"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "ha",
+     "title": {
+      "en": "A skulk of foxes"
+     },
+     "text": {
+      "en": "A group of foxes is called a skulk or a leash."
+     },
+     "src": [
+      "ngk-rf"
+     ]
+    },
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Chatterbox"
+     },
+     "text": {
+      "en": "Red foxes make more than 20 different calls."
+     },
+     "src": [
+      "ngk-rf"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Cool ears"
+     },
+     "text": {
+      "en": "Foxes can lose heat through their big ears to cool down."
+     },
+     "src": [
+      "rwn-rf"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Real red foxes hunt alone, like cats, but they're also caring parents. A red fox and a gray fox being best friends is a story idea."
+   },
+   "storyVsRealSrc": [
+    "ngk-rf"
+   ]
+  },
+  {
+   "id": "finn",
+   "role": "friend",
+   "colour": "lilac",
+   "name": {
+    "en": "Finn"
+   },
+   "animal": {
+    "en": "Gray fox"
+   },
+   "image": "finn.jpg",
+   "job": {
+    "en": "Felix's friend, who chooses to forgive"
+   },
+   "superpower": {
+    "en": "Climbs trees like a cat"
+   },
+   "lineup": {
+    "weight": {
+     "en": "3.2–6.4 kg"
+    },
+    "grams": 4800,
+    "like": {
+     "en": "a big bag of potatoes"
+    },
+    "awake": "night"
+   },
+   "card": [
+    {
+     "label": {
+      "en": "Length"
+     },
+     "value": {
+      "en": "79–112 cm, tail included"
+     },
+     "src": [
+      "nh-gf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Weight"
+     },
+     "value": {
+      "en": "3.2–6.4 kg"
+     },
+     "src": [
+      "nh-gf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Lives"
+     },
+     "value": {
+      "en": "6–8 years"
+     },
+     "src": [
+      "nh-gf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Eats"
+     },
+     "value": {
+      "en": "Small mammals, birds, insects, eggs, fruit and seeds"
+     },
+     "src": [
+      "uc-gf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Home"
+     },
+     "value": {
+      "en": "Woods from southern Canada to northern South America"
+     },
+     "src": [
+      "uc-gf"
+     ]
+    },
+    {
+     "label": {
+      "en": "Family"
+     },
+     "value": {
+      "en": "Usually 4–5 kits, up to 7"
+     },
+     "src": [
+      "nh-gf"
+     ]
+    }
+   ],
+   "life": [
+    {
+     "title": {
+      "en": "Tree climber"
+     },
+     "text": {
+      "en": "Gray foxes have turning wrists and hooked claws, so they can climb trees to rest, find food or escape."
+     },
+     "src": [
+      "cpw-gf"
+     ]
+    },
+    {
+     "title": {
+      "en": "Treehouse dens"
+     },
+     "text": {
+      "en": "Some gray foxes even make their dens up in trees."
+     },
+     "src": [
+      "az-gf"
+     ]
+    },
+    {
+     "title": {
+      "en": "Rest in the branches"
+     },
+     "text": {
+      "en": "A gray fox may simply climb a tree to take a rest."
+     },
+     "src": [
+      "il-gf"
+     ]
+    }
+   ],
+   "facts": [
+    {
+     "kind": "wow",
+     "title": {
+      "en": "Oldest of its family"
+     },
+     "text": {
+      "en": "The gray fox may be the oldest kind of wild dog alive, going back at least 3.6 million years."
+     },
+     "src": [
+      "nh-gf"
+     ]
+    },
+    {
+     "kind": "uhoh",
+     "title": {
+      "en": "Going down is hard"
+     },
+     "text": {
+      "en": "Gray foxes are better at climbing up than down, and can get hurt on the way down."
+     },
+     "src": [
+      "cpw-gf"
+     ]
+    },
+    {
+     "kind": "hidden",
+     "title": {
+      "en": "Rare skill"
+     },
+     "text": {
+      "en": "Only one other member of the dog family can climb trees: the raccoon dog of East Asia."
+     },
+     "src": [
+      "pp-gf"
+     ]
+    }
+   ],
+   "storyVsReal": {
+    "en": "Gray foxes really are a different kind of fox from red foxes. Their closest relative is the tiny island fox of California."
+   },
+   "storyVsRealSrc": [
+    "aw-gf"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "title": {
+    "en": "Sorry steps"
+   },
+   "text": {
+    "en": "Practise a real sorry: say what happened, how the other person felt, and how you'll fix it."
+   }
+  },
+  {
+   "title": {
+    "en": "Fox pounce"
+   },
+   "text": {
+    "en": "Hide a soft toy under a blanket. Listen for a 'squeak', then jump and pounce like a fox!"
+   }
+  },
+  {
+   "title": {
+    "en": "Spot the difference"
+   },
+   "text": {
+    "en": "Draw a red fox and a gray fox side by side. What's different about them?"
+   }
+  },
+  {
+   "title": {
+    "en": "Big ears"
+   },
+   "text": {
+    "en": "Cup your hands behind your ears. Can you hear quiet sounds better, like a fox?"
+   }
+  },
+  {
+   "title": {
+    "en": "Find the Smokies"
+   },
+   "text": {
+    "en": "Find Tennessee and North Carolina on a map of the United States. The park is on the line between them."
+   }
+  }
+ ],
+ "faq": [
+  {
+   "q": {
+    "en": "What's the difference between red and gray foxes?"
+   },
+   "a": {
+    "en": "They're different species. Gray foxes are smaller and can climb trees; red foxes are the most common fox in the world."
+   },
+   "src": [
+    "mf-rf",
+    "cpw-gf"
+   ]
+  },
+  {
+   "q": {
+    "en": "Can foxes really climb trees?"
+   },
+   "a": {
+    "en": "Gray foxes can, using their turning wrists and hooked claws. Red foxes can't."
+   },
+   "src": [
+    "cpw-gf",
+    "pp-gf"
+   ]
+  },
+  {
+   "q": {
+    "en": "How do foxes catch mice under snow?"
+   },
+   "a": {
+    "en": "They listen hard, then do a high pounce, and may use Earth's magnetic field to aim."
+   },
+   "src": [
+    "mf-rf"
+   ]
+  },
+  {
+   "q": {
+    "en": "Do fox dads help with the babies?"
+   },
+   "a": {
+    "en": "Yes. Red fox parents take turns hunting and bringing food to the kits."
+   },
+   "src": [
+    "ngk-rf"
+   ]
+  }
+ ],
+ "sources": {
+  "ngk-rf": {
+   "name": "National Geographic Kids",
+   "title": "Red fox",
+   "url": "https://kids.nationalgeographic.com/animals/mammals/facts/red-fox"
+  },
+  "aff-rf": {
+   "name": "Animal Fun Facts",
+   "title": "Red fox",
+   "url": "https://animalfunfacts.net/carnivores/123-red-fox.html"
+  },
+  "cs-rf": {
+   "name": "Critter Science",
+   "title": "The crafty red fox",
+   "url": "https://critter.science/the-crafty-red-fox/"
+  },
+  "mf-rf": {
+   "name": "Mental Floss",
+   "title": "25 fascinating facts about foxes",
+   "url": "https://www.mentalfloss.com/animals/14-fascinating-facts-about-foxes"
+  },
+  "rwn-rf": {
+   "name": "Forest Preserve District of Will County",
+   "title": "Five fast facts about resourceful red foxes",
+   "url": "https://www.reconnectwithnature.org/headlines/news/five-fascinating-facts-about-red-fox"
+  },
+  "nh-gf": {
+   "name": "Squam Lakes Natural Science Center",
+   "title": "Gray fox",
+   "url": "https://nhnature.org/visit/animal_info_sheets/gray_fox.php"
+  },
+  "uc-gf": {
+   "name": "University of Cincinnati",
+   "title": "Gray fox",
+   "url": "https://homepages.uc.edu/~kassinwm/gray_fox.shtml"
+  },
+  "cpw-gf": {
+   "name": "Colorado Parks and Wildlife",
+   "title": "Gray fox",
+   "url": "https://cpw.state.co.us/species/gray-fox"
+  },
+  "az-gf": {
+   "name": "A-Z Animals",
+   "title": "Gray fox",
+   "url": "https://a-z-animals.com/animals/gray-fox"
+  },
+  "il-gf": {
+   "name": "Illinois DNR",
+   "title": "Kids conservation: gray fox",
+   "url": "https://dnr.illinois.gov/outreach/kidsconservation/archive/2018/archivenov2018.html"
+  },
+  "pp-gf": {
+   "name": "Paso Pacífico",
+   "title": "Meet the tree-loving gray fox",
+   "url": "https://pasopacifico.org/meet-the-tree-loving-gray-fox/"
+  },
+  "aw-gf": {
+   "name": "Active Wild",
+   "title": "Gray fox",
+   "url": "https://www.activewild.com/gray-fox/"
+  },
+  "wa-gsm": {
+   "name": "WorldAtlas",
+   "title": "Great Smoky Mountains National Park",
+   "url": "https://www.worldatlas.com/articles/great-smoky-mountains-national-park-unique-places-around-the-world.html"
+  },
+  "npt-gsm": {
+   "name": "National Parks Traveler",
+   "title": "Exploring the salamander capital of the world",
+   "url": "https://www.nationalparkstraveler.org/2025/03/exploring-salamander-capital-world"
+  },
+  "ip-gsm": {
+   "name": "International Parks",
+   "title": "Great Smoky Mountains",
+   "url": "https://www.internationalparks.org/united-states/Great%20Smoky%20Mountains"
+  },
+  "hist-gsm": {
+   "name": "History.com",
+   "title": "8 surprising facts about Great Smoky Mountains National Park",
+   "url": "https://www.history.com/articles/great-smoky-mountains-national-park-facts"
+  },
+  "mf-gsm": {
+   "name": "Mental Floss",
+   "title": "11 facts about Great Smoky Mountains National Park",
+   "url": "https://www.mentalfloss.com/article/72944/11-clear-facts-about-great-smoky-mountains-national-park"
+  },
+  "sm-gsm": {
+   "name": "SmokyMountains.com",
+   "title": "Wildlife of the Smokies",
+   "url": "https://smokymountains.com/park/blog/wildlife-smokies-lies-within-mountains"
+  }
+ }
+}

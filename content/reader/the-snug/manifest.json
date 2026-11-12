@@ -1,5 +1,5 @@
 {
-  "note": "Reader pages for The Snug. Page images live in <lang>/pNN.webp (never in public/: the server decides who may see each page). Narration: <lang>/audio/sNN.mp3, one clip per spread; until those exist, Read to me uses the text below with the device's voice.",
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
   "spreads": [
     [
       "cover"

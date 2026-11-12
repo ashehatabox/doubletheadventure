@@ -1,0 +1,86 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To everyone who asks before they tell. A story about asking instead of telling.",
+        "p03": "On the green banks of the Nile River lived Kemi, a young hoopoe with a fancy orange crest and stripy black-and-white wings.",
+        "p04": "Kemi knew lots of things, and she loved to tell them. Whenever she said, \"I know!\" her crest popped up like a fan. Pop!",
+        "p05": "She told the kingfisher how to fish. She told the jerboas how to dig. She told the frogs how to croak. \"I know! I know!\"",
+        "p06": "But she never asked them anything. Little by little, her friends stopped talking when Kemi came near. There wasn't any room for their words.",
+        "p07": "One evening at the desert's edge, Kemi met Sabu, a little beetle rolling a big ball. He kept stopping to look up at the sky.",
+        "p08": "\"Roll, roll, look up!\" sang Sabu. Kemi's crest popped. \"I know! You should push it from the front!\" She never asked why he looked up.",
+        "p09": "The next day, Kemi flew over the desert. \"I know the desert better than anyone!\" she said. She flew and flew, past dune after dune.",
+        "p10": "When the sun went down, every dune looked the same. Which way was home? For the first time ever, Kemi didn't know. Her crest drooped.",
+        "p11": "Then she heard a small song under the stars: \"Roll, roll, look up!\" It was Sabu! Kemi's crest began to pop. \"I kn…\"",
+        "p12": "Kemi stopped. She didn't know. So, for the very first time, she asked a question instead. \"Sabu, how do you find your way at night?\"",
+        "p13": "Sabu's eyes sparkled. Nobody had ever asked him that! \"Look up,\" he said. \"See the river of stars? It shows me the way.\"",
+        "p14": "A soft river of stars stretched across the sky. \"Where does it lead?\" asked Kemi. \"All the way to the great river,\" said Sabu.",
+        "p15": "Kemi asked another question, and another. Each one opened like a little door. Behind each door was something she had never known.",
+        "p16": "Beetles roll backward, standing on their heads! Sabu's grandma taught him the star song! And Sabu asked questions too: \"What's it like to fly?\"",
+        "p17": "So they set off together, following the river of stars. Kemi hopped beside Sabu, and they sang all the way. \"Roll, roll, look up!\"",
+        "p18": "Then a thin cloud slid over the stars. This time, Kemi didn't guess. She thought, \"Who could I ask?\"",
+        "p19": "Nearby, a jerboa family peeked out of their burrow. Kemi didn't tell them how to dig. She asked, \"Which way to the great river, please?\"",
+        "p20": "The jerboas' ears shot up. They loved being asked! \"We know a shortcut!\" they squeaked, and bounced ahead through the dunes. Boing, boing!",
+        "p21": "At the top of the last dune, the cloud slid away. The river of stars sparkled overhead, and below, the great river shone like silver.",
+        "p22": "\"I didn't know the way,\" said Kemi. \"But I asked, and asking took me farther than all my telling ever did.\" Pop! went her crest.",
+        "p23": "Back home, Kemi still knew many things. But now she asked first. \"How do you fish?\" \"How do you dig?\" Her friends talked and talked.",
+        "p24": "Whenever she learned something new, even from a beetle, pop! went her crest. Telling shows what you know. Asking helps you grow. The End",
+        "cover": "The Beetle Who Knew the Stars. A Story About Asking Instead of Telling"
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To everyone who looks after the place they love: you can start with one small stick. A story about looking after the place you love. In Aotearoa New Zealand, Māori speak of kaitiakitanga: being a guardian of the land and the sea. We look after them the way those before us did, so that those who come after us can love them too.",
+        "p03": "On a beach by the big blue sea lived Tama, the littlest of the little blue penguins, with a fluffy tuft still on his head.",
+        "p04": "Every evening, the penguins swam home and waddled up the sandy path to their burrows under the bushes. Pitter-pat, pitter-pat, all the way home.",
+        "p05": "In the bushes above the beach lived Tama's best friend, Aroha, a young kiwi who carried a shiny rainbow shell everywhere she went.",
+        "p06": "Every night, they raced up and down the sandy path together. \"This is the best beach in the whole wide world!\" said Tama.",
+        "p07": "Then one night, a big storm blew. In the morning, the path was covered with tangled seaweed, driftwood, sticks and a lost flip-flop.",
+        "p08": "That evening, the penguins tripped and stumbled all the way home. \"Oof! Ouch! Who made this mess?\" they grumbled. \"Someone should clean it up!\"",
+        "p09": "But nobody did. And every day, the sea washed up a little more. \"It's not my mess,\" said Tama, and he hopped right over it.",
+        "p10": "Then one evening, a tiny chick got stuck behind a big piece of driftwood. Tama helped her over. \"Thank you,\" she peeped, and waddled home.",
+        "p11": "That night, Tama couldn't sleep. His grandma's grandma had walked this path. One day, that tiny chick's chicks would walk it too.",
+        "p12": "\"It doesn't matter whose mess it is,\" said Tama. \"Every day, this path brings us home. Now I'm going to look after it.\"",
+        "p13": "Aroha giggled. \"But you're the littlest penguin in the world!\" \"Then I'll start little,\" said Tama. And he picked up one small stick.",
+        "p14": "The next day, he moved two sticks. Then a ball of seaweed. Then a bottle cap. Pitterpat, pitter-pat, up and down the path.",
+        "p15": "Aroha watched him for a while. Then she put down her rainbow shell and pushed the big driftwood away with her strong legs.",
+        "p16": "Together they rolled away the seaweed and carried the lost flip-flop far up the beach. Nobody else even noticed. But Tama didn't mind one bit.",
+        "p17": "Every single day, Tama checked his path. When the sea brought new things, he just smiled and cleared them away. Pitter-pat, pitter-pat.",
+        "p18": "He lined the edges with smooth white shells that glowed in the moonlight, so everyone could find their way home in the dark.",
+        "p19": "One morning, three little chicks peeked out of their burrow. \"What are you doing?\" they asked. \"Looking after our path,\" said Tama.",
+        "p20": "\"Can we help too?\" they asked. Tama smiled and showed them how to carry one small stick each. \"Start little,\" he said.",
+        "p21": "That night, the whole colony swam home under a big silver moon. The white shells glowed. Pitter-pat, pitter-pat, pitter-pat!",
+        "p22": "Nobody tripped at all. Behind everyone came the three little chicks, each carrying one small stick. Tama's heart felt as big as the sea.",
+        "p23": "Every day after that, Tama and his little helpers looked after the path, and the path brought everyone safely home.",
+        "p24": "Pitter-pat, pitter-pat. One day, those chicks will teach their own chicks too. Look after the world, the way it looks after you. The End",
+        "cover": "The Littlest Guardian. A Story About Looking After the Place You Love"
+      }
+    }
+  }
+}

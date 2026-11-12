@@ -1,0 +1,86 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "For every little one brave enough to rest. A story about listening to your body.",
+        "p03": "In golden autumn, little bear Tumble tumbled everywhere: down hills, through leaves, over logs.",
+        "p04": "The forest was getting ready for the Last Leaf Games!",
+        "p05": "Then, deep in his throat, something went tickle, tickle, hack-hack!",
+        "p06": "\"A Tickle Monster is inside me!\" gasped Tumble. \"I must fight it!\"",
+        "p07": "Tumble roared at his shadow. He raced the wind and climbed the tallest rock.",
+        "p08": "Hack-hack! Fighting looked so strong. Didn't it?",
+        "p09": "By afternoon, Tumble felt tired and sniffly.",
+        "p10": "Zuzu the bee buzzed around his nose. \"Maybe the monster loves it when you race,\" she said.",
+        "p11": "Mama Bear did not say what to do. She only asked, \"Tumble, what does your body need right now?\"",
+        "p12": "He had never asked it before.",
+        "p13": "In the cozy den, Tumble listened. His body whispered, \"Warm… slow…\"",
+        "p14": "So he chose soup, sweet berries, and a soft blanket.",
+        "p15": "Zuzu flew in with a gift from the hive. Mama stirred honey into warm milk.",
+        "p16": "\"Thank you, bees!\" Warm, slow, honeyglow.",
+        "p17": "Outside, the games began. Tumble wanted to go so much!",
+        "p18": "But he stayed in, and he coughed into his elbow to keep his friends well.",
+        "p19": "At night, under the moon, Mama whispered, \"Your body is the brave one.",
+        "p20": "It is fighting while you sleep. You are helping it.\"",
+        "p21": "In the morning, the cough was soft and Tumble felt warm and strong.",
+        "p22": "He had not beaten a monster. He had taken care of himself.",
+        "p23": "First snow fell, and Tumble joined the very last game. When a friend coughed, he shared his honey cup.",
+        "p24": "Warm, slow, honey-glow. The strongest bears are gentle with themselves. The End",
+        "cover": "Tumble and the Honey Glow. A Story About Listening to Your Body"
+      }
+    }
+  }
+}

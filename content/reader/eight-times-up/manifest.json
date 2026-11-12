@@ -1,0 +1,86 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To everyone who has ever fallen down: you can always get up again. In Japan there is an old saying: nana korobi ya oki, \"fall down seven times, get up eight.\" Little roly-poly dolls that always pop back up have carried that saying for hundreds of years. Falling is how we learn. Getting up is up to us.",
+        "p03": "High in the snowy mountains lived Yuki, a little mountain goat with fluffy gray fur and a white star on her forehead.",
+        "p04": "Every morning, the big goats leaped up to Cloud Rock to watch the sunrise. \"One day,\" said Yuki, \"I'll climb up there too.\"",
+        "p05": "Her best friend was Taro, a snow monkey who loved warm springs and his little red roly-poly toy.",
+        "p06": "Whenever it tipped over, it rocked, and rolled, and popped right back up. Wobble, wobble... POP! \"It never stays down,\" said Taro proudly.",
+        "p07": "One snowy day, Yuki began to climb. Hop, hop, hop... onto a shiny rock. Whoosh! Her hooves slipped, and down she tumbled.",
+        "p08": "She landed in a soft pile of snow. The big goats leaped right past her. Yuki's cheeks felt hot. \"Maybe I'm just not a climber.\"",
+        "p09": "Taro tipped over his toy. Wobble, wobble... POP! Yuki looked back at the shiny rock. \"Shiny rocks are slippery,\" she said slowly.",
+        "p10": "So she got up and tried again, stepping on crunchy snow instead. Up she went... until a little stone rolled. Bump! Down again.",
+        "p11": "And again. And again. By sunset, Yuki had fallen four times. She sat in the pink snow, tired and wobbly, and rested for a while.",
+        "p12": "Then she thought about each fall. Shiny rocks slip. Little stones roll. Rushing trips. Big jumps miss. \"Every fall taught me something!\"",
+        "p13": "Day after day, Yuki practiced. Crunchy snow. Big stones. Slow steps. Small jumps. When she fell, she shook off the snow and got up.",
+        "p14": "Fall number five. Fall number six. Wobble, wobble... POP! Each time she got up, Yuki climbed a little higher than before.",
+        "p15": "One foggy morning, Yuki found Hina, a little snow bird, crying at the bottom of the hill. \"I fell,\" she sniffed. \"I can't do it.\"",
+        "p16": "Yuki sat down beside her. \"I've fallen six times,\" she said. \"Falling just teaches you things. Want to know what I learned?\" Hina nodded.",
+        "p17": "Before sunrise, Yuki set off for Cloud Rock, with Taro and Hina cheering below. Up and up she climbed, until the top was almost there.",
+        "p18": "Then a gust of wind blew. Whoosh! Yuki slid all the way down the steep, snowy slope. Fall number seven, the biggest of all.",
+        "p19": "Yuki lay in the snow. The top looked so far away now. Then she heard it: wobble, wobble... POP! Taro was holding up his toy.",
+        "p20": "Yuki got up. Crunchy snow. Big stones. Slow steps. Small jumps. And when the wind blew, she leaned in close to the mountain.",
+        "p21": "Step by step, she climbed onto Cloud Rock as the sun came up. Below her, a sea of soft clouds stretched far, far away.",
+        "p22": "\"Seven falls,\" Yuki laughed, \"and eight times up!\" Then she called down to Hina, \"Crunchy snow! Big stones! Slow steps! You can do it too!\"",
+        "p23": "By spring, Hina and all the little ones could climb Cloud Rock too. Yuki still fell sometimes. But now she just laughed, and got up.",
+        "p24": "Wobble, wobble... POP! went the little red toy, rolling right back up. Fall seven times, get up eight. The End",
+        "cover": "Eight Times Up. A Story About Falling Down and Getting Up Again"
+      }
+    }
+  }
+}

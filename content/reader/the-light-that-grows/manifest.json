@@ -1,0 +1,110 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ],
+    [
+      "p25",
+      "p26"
+    ],
+    [
+      "p27",
+      "p28"
+    ],
+    [
+      "p29",
+      "p30"
+    ],
+    [
+      "p31",
+      "p32"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To those who light up others, just like Lumi. A story about kindness and the gifts that grow when we share them.",
+        "p03": "When the summer sun went down, the fireflies came out to dance. Blink! Blink! Blink!",
+        "p04": "The smallest was Lumi, with the warmest glow. Her best friend, Moss the moth, couldn't glow at all, but he loved her light.",
+        "p05": "One evening, Old Glow the glowworm called the whole meadow together.",
+        "p06": "\"The Night of No Moon is coming,\" she said. \"It is the darkest night of all, and we will need every light.\"",
+        "p07": "As the nights grew cooler, some fireflies' lights began to flicker… and fade.",
+        "p08": "Lumi looked at her own glow and shivered. \"What if my light runs out too?\"",
+        "p09": "So Lumi made a plan. She crawled into a hollow log and tucked her glow under a leaf.",
+        "p10": "\"Lumi, aren't you coming to dance?\" Moss called. \"Not tonight,\" she said. \"I'm saving my light.\"",
+        "p11": "Night after night, the meadow grew darker. Bump! The mouse family tripped over a stone.",
+        "p12": "The snail lost the path home. Without the lights, everyone felt a little bit lost.",
+        "p13": "Inside the log, Lumi's light was safe. But it was small, and it felt cold.",
+        "p14": "All she could see was her own little glow, and the dark all around it.",
+        "p15": "Then came the Night of No Moon. Moss flew out into the dark to look for his friend.",
+        "p16": "But it was so dark that he flew in circles, and soon he was tangled in the brambles.",
+        "p17": "\"Lumi! Where are you?\" His tiny voice drifted through the night.",
+        "p18": "Lumi heard him. To help, she would have to go out and use her light. Her wings trembled.",
+        "p19": "Lumi took a deep breath. She pulled off the leaf and flew out, shining.",
+        "p20": "She found Moss in the brambles and lit the way, twig by twig, until he was free.",
+        "p21": "Nearby, a little firefly sat alone. His light had gone out. \"Can you help me?\" he whispered.",
+        "p22": "Lumi was afraid of losing more. But she gently touched her glow to his.",
+        "p23": "Flicker… FLASH! His light bloomed, bright and golden.",
+        "p24": "And Lumi's light didn't get smaller. It grew bigger and brighter than ever before!",
+        "p25": "Together they lit another firefly, and another, and another.",
+        "p26": "Soon a river of lights flowed across the whole meadow, like stars come down to play.",
+        "p27": "Now the mouse family could see the stones. The snail found the path home.",
+        "p28": "The lost duckling found her mother, and the hedgehog found his cozy nest.",
+        "p29": "Old Glow smiled. \"A light that is shared is never less. It is always more.\"",
+        "p30": "So the cricket taught everyone his song, the hedgehog shared his nest with the chilly mice, and Old Glow told stories to the little ones.",
+        "p31": "As the sun came up, Lumi and Moss rested on a dandelion, watching the lights blink off one by one.",
+        "p32": "Some gifts grow bigger every time you give them away. The End",
+        "cover": "The Light That Grows. A Story About Kindness and the Gifts That Grow When We Share Them"
+      }
+    }
+  }
+}

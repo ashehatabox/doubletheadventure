@@ -1,0 +1,110 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ],
+    [
+      "p25",
+      "p26"
+    ],
+    [
+      "p27",
+      "p28"
+    ],
+    [
+      "p29",
+      "p30"
+    ],
+    [
+      "p31",
+      "p32"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To those who let their gifts flow, just like Nura. A story about generosity and the gifts we pass on.",
+        "p03": "High on the mountain, the snow began to melt. Drip… drip… drip.",
+        "p04": "And from the drips, a tiny spring bubbled up into the sunlight. Her name was Nura.",
+        "p05": "Beside Nura grew a young willow named Willo. Every day, she gave him cool water to drink.",
+        "p06": "Willo gave her shade on hot days, and his birds sang her to sleep at night.",
+        "p07": "\"Where does all my water go?\" Nura asked one evening. \"Down to everything,\" said Willo.",
+        "p08": "Nura looked at the huge valley below. \"If I run all the way down there, I'll spread out thin and disappear.\"",
+        "p09": "Then one spring night, a storm came. Crash! Rumble! Rocks tumbled across Nura's little stream.",
+        "p10": "Nura could have pushed her way through. But she thought, \"Now I can keep all of me.\"",
+        "p11": "Nura grew and grew into a big, round pond. She held the whole sky inside her.",
+        "p12": "\"Look how much I have!\" she said proudly. \"And all of it is mine.\"",
+        "p13": "But day after day, Nura didn't move. She grew still… and quiet… and very, very heavy.",
+        "p14": "Leaves sank. Her sparkle faded to a murky green. One by one, the frogs hopped away.",
+        "p15": "Far below, the stream bed dried up. The meadow turned crunchy and brown.",
+        "p16": "The otters searched for a swimming hole. The bees buzzed from dry flower to dry flower.",
+        "p17": "Just below the rocks, Willo began to droop. His leaves turned yellow and fell.",
+        "p18": "His birds flew away to find water. \"Willo?\" whispered Nura. But he was too thirsty to answer.",
+        "p19": "Nura had more water than ever before. So why did she feel so empty?",
+        "p20": "She was full, but she was lonely. She was big, but she felt very small.",
+        "p21": "That night, Grandmother Cloud drifted down and rested on the mountain beside her.",
+        "p22": "\"You were never only yours, little one. You were snow we gave the mountain. Gifts are meant to keep moving.\"",
+        "p23": "Nura took a deep breath. She gathered all her water… and spilled over the wall! Whoosh!",
+        "p24": "Down she tumbled, sparkling in the sun again. Willo drank and drank, and his leaves lifted up.",
+        "p25": "Splash! The otter kits leaped in. The bees sipped. The meadow turned green again.",
+        "p26": "Flowers opened. The field mice filled their buckets for their gardens. The whole valley came alive.",
+        "p27": "Nura flowed on, past the mill and through the orchard. Other little streams joined her along the way.",
+        "p28": "She wasn't getting smaller. She was becoming a river, and a part of everything she touched.",
+        "p29": "At last she reached the sea. The warm sun lifted her up, up, up into the sky.",
+        "p30": "Now she was a little cloud beside Grandmother Cloud, looking down at the green valley she had helped.",
+        "p31": "One quiet winter night, she fell as soft snow on her very own mountain.",
+        "p32": "In spring, she bubbled up fresh and new, beside a blossoming Willo. Water that is held grows still. Water that is shared stays alive. The End",
+        "cover": "The Spring That Wanted to Stay. A Story About Generosity and the Gifts We Pass On"
+      }
+    }
+  }
+}

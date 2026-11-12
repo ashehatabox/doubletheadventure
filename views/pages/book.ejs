@@ -50,6 +50,7 @@
         <p class="notify-note"><%= b.status === 'soon' ? t('book.soonNote') : t('book.comingNote') %></p>
         <%- include('../partials/signup', { formId: 'notify-form', list: 'waitlist', book: b.slug, source: 'book-waitlist', button: t('common.notifyMe') }) %>
       </div>
+      <% if (readHref) { %><a class="btn btn-ghost" style="align-self:flex-start" href="<%= readHref %>"><%= readOpen ? t('reader.open') : t('reader.peek') %></a><% } %>
       <% } %>
     </div>
   </div>

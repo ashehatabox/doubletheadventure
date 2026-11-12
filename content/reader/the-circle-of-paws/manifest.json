@@ -1,0 +1,86 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To everyone who has ever said, \"I can do it myself.\" The circle is wider than you think. A story about asking for help and letting others give.",
+        "p03": "High in the mountains, where clouds come to rest, lived Killa, a little chinchilla with silver fur and the fastest feet on the slope.",
+        "p04": "On Killa's mountain, everybody helped everybody. When one family needed something, the others came running. Paw to paw, round and round!",
+        "p05": "And Killa always came first. She carried seeds for the viscachas and soft grass for the guinea pigs, all in her little striped bag.",
+        "p06": "But when anyone tried to help Killa back, she just laughed and shook her head. \"No, thank you! I can do it myself!\"",
+        "p07": "Her best friend Sami, a young vicuña, offered to carry her heavy bag. \"No, thank you,\" said Killa. \"I'm fine!\"",
+        "p08": "Sami's ears drooped a little, but Killa didn't notice. She was already racing off to help tiny Kinti the hummingbird.",
+        "p09": "Then one evening, while Killa was out helping the guinea pigs, a hailstorm came rattling over the mountain. When it stopped, she hurried home.",
+        "p10": "Her wall had tumbled, and her burrow was full of hail. Her friends came running, but Killa shook her head. \"I can do it myself.\"",
+        "p11": "All night Killa pushed and pulled, but the stones were too heavy. At sunrise, Sami sat beside her. \"Helping is like playing catch,\" he said.",
+        "p12": "\"You throw and throw, but you never let anyone throw back.\" Asking felt harder than lifting any stone. But Killa asked, \"Will you help me?\"",
+        "p13": "\"Yes!\" everyone cheered. The viscachas rolled stones. The guinea pigs carried grass. Sami lifted the biggest rocks. Paw to paw, round and round!",
+        "p14": "Being helped felt strange at first, like wearing somebody else's warm sweater. Then it didn't feel strange at all. It just felt warm.",
+        "p15": "By evening, Killa's burrow was cozier than ever, with a strong new wall and a soft grass bed from the guinea pigs.",
+        "p16": "\"Thank you,\" said Killa. \"Thank YOU,\" the viscachas beamed, \"for letting us!\" Killa blinked. Letting them help had made them happy too!",
+        "p17": "Deep in the cold season came the biggest snow of all. By morning, burrows all over the mountain were buried, with little noses peeking out.",
+        "p18": "This time, Killa didn't try to dig alone. She ran from burrow to burrow, asking, \"Who needs help? And who can help?\"",
+        "p19": "But Kinti the hummingbird stayed on her branch, all fluffed up. \"I can't help anybody,\" she peeped. \"I'm too small. So I can't ask.\"",
+        "p20": "\"Everyone has something to give,\" said Killa. \"You can fly up high and see what we can't!\" Kinti zoomed up. \"Over there! And there!\"",
+        "p21": "All day they went around the mountain, burrow by burrow, everyone digging for everyone, with Kinti calling the way. Paw to paw, round and round!",
+        "p22": "At sunset, every burrow was open, even Kinti's snowy rock nook. Everyone had given, and everyone had received. Killa felt warm down to her toes.",
+        "p23": "From then on, Killa still helped everyone. But when friends offered help, she said, \"Yes, please!\" And when she needed something, she asked.",
+        "p24": "Paw to paw, round and round, the help kept flowing all over the mountain. Help is a circle. Let it come back around. The End",
+        "cover": "The Circle of Paws. A Story About Asking for Help and Letting Others Give"
+      }
+    }
+  }
+}

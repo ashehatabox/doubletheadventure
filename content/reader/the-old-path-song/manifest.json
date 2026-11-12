@@ -1,0 +1,86 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To everyone who ever rushed ahead: the old paths still have songs to teach. A story about learning from those who came before.",
+        "p03": "In a green forest lived Ama, a young pangolin with shiny scales like a pinecone and one golden scale on the tip of her tail.",
+        "p04": "Ama loved new things best of all: new paths, new games, new ways through the trees. \"Look!\" she'd shout. \"I found a new way!\"",
+        "p05": "Every evening, Nana tapped her tail on a hollow log by the old silk-cotton tree. Katum, ka-tum. And she sang her old song:",
+        "p06": "\"Three round stones, then the bent old palm, down the dry stream to the fig tree's arms.\" Ama yawned. \"Old songs are boring, Nana!\"",
+        "p07": "And off she ran with her best friend Kwesi, a bushbaby with big round eyes. Together they made new paths all over the forest.",
+        "p08": "\"This is the swinging way!\" said Kwesi. \"This is the tunnel way!\" said Ama. Every day they found something new, and it was wonderful.",
+        "p09": "Then the dry, dusty wind came. The leaves fell. The fruit was gone. All through the forest, tummies rumbled and the animals grew quiet.",
+        "p10": "Ama tried every new path she knew. Nothing. \"Didn't the old ones know a place?\" asked Kwesi. Ama frowned. \"Three round stones... and... I forget.\"",
+        "p11": "Ama's cheeks felt hot. Nana had sung that song every single evening, and she had never really listened. She could keep looking for new paths...",
+        "p12": "\"No,\" said Ama. \"I'm going back to fetch it.\" She ran all the way home to the old silkcotton tree. Ka-tum, ka-tum went her heart.",
+        "p13": "\"Nana,\" Ama panted, \"please sing me the old path song again. This time, I'll really listen.\" Nana smiled and tapped her tail. Ka-tum, ka-tum.",
+        "p14": "Ama closed her eyes and listened to every word. \"My Nana sang it to me,\" said Nana softly, \"and her Nana sang it to her.\"",
+        "p15": "Ama hurried back to the hungry animals. \"Follow me!\" Three round stones: there they were! Then the bent old palm, just like the song said.",
+        "p16": "Down the dry stream they went. But the dust grew so thick that the animals behind her couldn't see where she was going.",
+        "p17": "Then Ama had a new idea. She tapped her tail against her hard scales. Ka-tum, katum! \"Follow the beat!\" she called.",
+        "p18": "Through the dusty air, everyone followed the sound: the hornbill, the little antelopes, the monkeys, and Kwesi hopping close behind. Ka-tum, ka-tum!",
+        "p19": "At the end of the dry stream, Ama couldn't see the fig tree anywhere. So she climbed a tall tree, up, up, into the treetops.",
+        "p20": "Above the dust, she looked all around. There it was: a giant fig tree with wide, wide arms. \"This way!\" she called. Ka-tum, ka-tum!",
+        "p21": "Under the wide evening sky stood the old fig tree, heavy with sweet figs. There was plenty for everyone, and busy ants for Ama too.",
+        "p22": "Everyone ate and ate until their tummies were round. \"The old song was right!\" said Kwesi. \"Yes,\" said Ama, \"and it's still right now.\"",
+        "p23": "Back home, Ama turned the old song into a brand-new clapping game, and all the little ones learned it. Nana tapped along. Ka-tum, ka-tum.",
+        "p24": "Old songs and new games went together now. It's never too late to go back for what you left behind. The End",
+        "cover": "The Old Path Song. A Story About Learning From Those Who Came Before"
+      }
+    }
+  }
+}

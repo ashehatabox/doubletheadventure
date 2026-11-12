@@ -1,0 +1,110 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ],
+    [
+      "p25",
+      "p26"
+    ],
+    [
+      "p27",
+      "p28"
+    ],
+    [
+      "p29",
+      "p30"
+    ],
+    [
+      "p31",
+      "p32"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To those who keep their promises like Carol A Story about Buliding Trust",
+        "p03": "Deep in the shimmering blue sea, lived a young fish named Finn who admired his big sister, Coral.",
+        "p04": "Carol knew all the best hiding spots in the coral reef,",
+        "p05": "and Finn loved following her on exciting underwater adventures.",
+        "p06": "Coral was strong and fast, while Finn was still learning how to swim through the ocean currents.",
+        "p07": "But he always trusted his sister to guide him.",
+        "p08": "One sunny morning, Coral promised to stay close while they explored a new part of the reef.",
+        "p09": "“Stick with me, Finn,” she said. “We’ll have fun together.”",
+        "p10": "But as they swam, Coral got excited and sped ahead, leaving Finn behind.",
+        "p11": "Finn called out, “Wait for me!” but Coral was too far to hear.",
+        "p12": "Suddenly, a big shadow passed over Finn. A curious dolphin swam by, and Finn felt scared all alone.",
+        "p13": "The dolphin noticed Finn’s worried eyes and asked, “Hey there, little fish! What are you doing all alone in the wild sea?”",
+        "p14": "Finn gulped. “I was swimming with my sister, but she swam too far ahead. Now I’m lost.”",
+        "p15": "The dolphin smiled kindly. “The sea can feel big and scary alone, but don’t worry. Your sister will find you soon. Just stay calm.”",
+        "p16": "When Coral finally noticed, she rushed back. “Finn, are you okay?” she asked,",
+        "p17": "But Finn shook his fins. “You said you’d stay close. I don’t trust you anymore!”",
+        "p18": "Coral felt awful. She didn’t mean to leave Finn behind,",
+        "p19": "But she knew she had broken her promise.",
+        "p20": "For days, Finn swam quietly, keeping his distance.",
+        "p21": "Coral missed their fun adventures and wanted to make things right.",
+        "p22": "One day, their mother called them both to help her.",
+        "p23": "They shall go to gather seashells near the reef’s edge.",
+        "p24": "Coral hesitated but swam over to Finn.",
+        "p25": "“Want to collect shells together?” she asked with a hopeful smile.",
+        "p26": "Finn looked at his sister. “How can I trust you won’t leave me again?” he asked angrily.",
+        "p27": "Coral smiled gently. “Let’s try again. I’ll stay by your side this time —I promise.”",
+        "p28": "Day by day, Finn saw that Coral kept her promise.",
+        "p29": "Slowly, he began to trust her again.",
+        "p30": "From that day on, Finn and Coral knew that trust wasn’t just about promises",
+        "p31": "It was about showing up for each other, no matter what.",
+        "p32": "The End",
+        "cover": "Finn & Coral."
+      }
+    }
+  }
+}

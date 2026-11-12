@@ -1,0 +1,86 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To everyone who has ever felt unseen: may a friend always bend down to listen. A story about empathy and seeing through a friend's eyes.",
+        "p03": "On the wide golden plain lived Langa, the tallest young giraffe of all. From way up high, he could see hills and the rising sun.",
+        "p04": "Every morning he raced to the waterhole to meet his friends. Clomp, clomp, clomp! went his big hooves. \"Good morning, everyone!\"",
+        "p05": "Down by his hooves, Themba the meerkat sneezed. Langa's running had kicked up a big cloud of dust, right under his little grass hat.",
+        "p06": "\"Achoo!\" But Langa didn't hear. His head was way up in the breeze. \"What a beautiful day!\" he called. \"Everything looks fine from up here!\"",
+        "p07": "At lunchtime, Langa nibbled the sweetest pods from the very top of the acacia tree. Down below, the little animals looked up, tummies rumbling.",
+        "p08": "\"Why don't you just stretch?\" Langa asked kindly. Themba stretched on his tiptoes. The tortoise stretched his neck. But the pods stayed far, far away.",
+        "p09": "In the afternoon they played Follow-theLeader. Clomp, clomp, clomp! Langa took giant steps over the bushes. Nobody else could keep up.",
+        "p10": "Langa looked down at all the droopy faces. \"Why is everyone so grumpy?\" Themba sighed. \"You can't see it from up there.\"",
+        "p11": "That night, under a big round moon, Langa found Themba by the old baobab. Bending down felt wobbly and silly. But Langa wanted to know.",
+        "p12": "He spread his front legs wide, wider, WIDEST, and lowered his long neck all the way down to Themba. \"Show me,\" he said.",
+        "p13": "Next morning, Themba led him into the grass. Down low, it was a tall, tickly forest. When warthogs trotted by, dust puffed into Langa's eyes.",
+        "p14": "\"Now you know how it feels,\" said Themba gently. Langa blinked. His own big hooves had been making dust clouds every single day.",
+        "p15": "Langa stayed down low and listened. The tortoise said the bank was too steep to reach the water. The guinea-fowl chicks said grass hid everything.",
+        "p16": "And everyone said the sweetest pods grew much too high. Langa felt it deep inside, right under his heart-shaped spot. \"I never knew,\" he whispered.",
+        "p17": "So Langa got busy. He pressed his big hooves into the muddy bank, making little steps, one, two, three, down to the water.",
+        "p18": "He bent the acacia branches gently down. And now he walked softly, clomp... clomp... clomp... so no dust puffed into anyone's eyes.",
+        "p19": "One evening, everyone gathered on the hill to watch the sun go down. Langa noticed Themba at the very back, standing on his tiptoes.",
+        "p20": "Themba wasn't saying a word. But Langa knew that feeling now. He bent his long neck down low. \"Climb up,\" he said. \"Come and see.\"",
+        "p21": "Themba climbed up Langa's long neck and stood between his two little horns. The sky glowed pink and purple, all the way to the hills.",
+        "p22": "\"So this is what you see!\" Themba gasped. Langa smiled. \"And now,\" he said softly, \"I can see what you see, too.\"",
+        "p23": "From that day on, Langa looked down as often as he looked up. Whenever a friend went quiet, he bent his neck low to listen.",
+        "p24": "After the first rain, the plain turned green. Clomp... clomp... went Langa's gentle steps. When we truly see each other, we all grow taller. The End",
+        "cover": "The View From Down Low. A Story About Empathy and Seeing Through a Friend's Eyes"
+      }
+    }
+  }
+}

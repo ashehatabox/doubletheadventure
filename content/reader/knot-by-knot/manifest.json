@@ -1,0 +1,86 @@
+{
+  "note": "Reader pages. Images: <lang>/pNN.webp (never in public/). Narration: <lang>/audio/sNN.mp3, one clip per spread. Made with scripts/add-reader-book.py.",
+  "spreads": [
+    [
+      "cover"
+    ],
+    [
+      "p01",
+      "p02"
+    ],
+    [
+      "p03",
+      "p04"
+    ],
+    [
+      "p05",
+      "p06"
+    ],
+    [
+      "p07",
+      "p08"
+    ],
+    [
+      "p09",
+      "p10"
+    ],
+    [
+      "p11",
+      "p12"
+    ],
+    [
+      "p13",
+      "p14"
+    ],
+    [
+      "p15",
+      "p16"
+    ],
+    [
+      "p17",
+      "p18"
+    ],
+    [
+      "p19",
+      "p20"
+    ],
+    [
+      "p21",
+      "p22"
+    ],
+    [
+      "p23",
+      "p24"
+    ]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "p01": "To everyone tying knots, one loop at a time: take your time, then finish. A story about doing things well and getting them done.",
+        "p03": "In the misty green mountains by the sea lived Zayn, a little weaver bird with bright yellow feathers and the fastest beak around.",
+        "p04": "Weaver birds weave their homes from grass, knot by knot. But Zayn never waited. Zip, zip, done! He was always finished first.",
+        "p05": "\"The big wind is coming,\" said the weavers. \"Every nest must be ready!\" Zayn needed a nest for himself and his little sister, Rima.",
+        "p06": "Zip, zip, done! By lunchtime, his nest was hanging from the branch. Hana the chameleon peered at it. \"Is it done, or done well?\"",
+        "p07": "Zayn just laughed. But that evening, the first misty drizzle came. His nest sagged. Bits of grass popped out, and a hole opened.",
+        "p08": "Zayn stuffed in a little grass. \"Good enough!\" he chirped. Rima peeked out through the hole and blinked. \"Are you sure?\"",
+        "p09": "The next day, a gusty wind blew up the valley. The nest swung, and wobbled, and slipped, and splash! It fell into the pool below.",
+        "p10": "Zayn and Rima were safe on the branch, but their home was gone. Zayn's feathers drooped. Fast wasn't the same as good.",
+        "p11": "Hana stepped slowly along the branch. She gripped, she tested, and only then did she step. Grip, test, step. Nothing ever slipped.",
+        "p12": "Zayn took a breath. \"This time,\" he said, \"I'll do it well.\" He chose strong green grass and tied his first knot. Loop, pull, tug!",
+        "p13": "Loop, pull, tug! Each knot was tight and strong. Weaving slowly felt different, like humming a song instead of shouting it.",
+        "p14": "Then Zayn spotted a crooked knot. He untied it and tied it again. Then another. And another. \"It has to be perfect,\" he muttered.",
+        "p15": "Days went by. Zayn tied and untied, tied and untied. The other weavers were finished, but Zayn's nest was still only half a nest.",
+        "p16": "Rima waited under a leaf, shivering a little in the mist. Over the sea, big gray clouds were rolling in. The big wind was coming.",
+        "p17": "\"My knots aren't perfect!\" cried Zayn. Hana tested a twig, then stepped onto it. \"If I waited for a perfect branch, I'd never get anywhere.\"",
+        "p18": "Zayn looked at his nest. It was strong and snug, with a few crooked knots. \"It's good,\" he said. \"Now let's finish it!\"",
+        "p19": "Loop, pull, tug! He wove the round roof. Loop, pull, tug! He wove the little doorway. Then Zayn tied the very last knot.",
+        "p20": "\"Loop, pull, tug… and done!\" he sang, just as the first big gust came rushing up the valley. \"Rima, come inside!\" Whoosh! In she zoomed.",
+        "p21": "All night the big wind blew. Branches swayed and leaves flew. Zayn's nest swung back and forth, back and forth, but every knot held tight.",
+        "p22": "Inside, Zayn and Rima were warm and dry. Rima snuggled close. \"Our nest is just right,\" she whispered, \"crooked knots and all.\"",
+        "p23": "When the wind was gone, the young weavers asked Zayn to teach them. \"Loop, pull, tug,\" he showed them. \"Do your best… and then finish!\"",
+        "p24": "Loop, pull, tug… and done! Not too fast, not too slow. Do it well, and get it done. The End",
+        "cover": "Knot by Knot. A Story About Doing Things Well and Getting Them Done"
+      }
+    }
+  }
+}

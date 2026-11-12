@@ -20,6 +20,7 @@ const shop = require('./lib/shop');
 const shopData = require('./data/shop');
 const welcome = require('./lib/welcome');
 const readalouds = require('./lib/readalouds');
+const reader = require('./lib/reader');
 const { helpers, bookImage, coverSmall, LANGS } = require('./lib/i18n');
 const amazon = require('./lib/amazon');
 const { insert } = require('./lib/supabase');
@@ -142,6 +143,8 @@ router.get('/books/:slug', (req, res, next) => {
     related,
     bookArticles: articles.forBook(b.slug, h.lang).slice(0, 6),
     readAloud: readalouds.forBook(b.slug, h.lang),
+    readHref: reader.has(b.slug) ? h.url('/books/' + b.slug + '/read') : '',
+    readOpen: reader.isOpen(b.slug),
     bookPlay: {
       color: play.pages(b.slug).length > 0,
       jigsaw: play.hasCover(b.slug) && play.jigsaw.includes(b.slug),
@@ -288,6 +291,84 @@ router.post('/shop/checkout', async (req, res) => {
     if (url) return res.redirect(303, url);
   } catch (err) { console.error('Checkout failed:', err.message); }
   res.redirect(303, (b.lang === 'fr' ? '/fr' : '') + '/shop');
+});
+// ---------- Book reader: /books/<slug>/read ----------
+// Pages come from content/reader/<slug>/ through /reader/... and only for the spreads this visitor may see
+// (lib/reader.js). Sample mode while the books are in KDP Select; see data/reader.js.
+const readerSales = () => !!shop.stripe();
+function readerLang(req, slug) {
+  const m = reader.manifest(slug);
+  const want = String(req.query.lang || req.h.lang);
+  return m.langs.includes(want) ? want : (m.langs.includes(req.h.lang) ? req.h.lang : m.langs[0]);
+}
+router.get('/books/:slug/read', (req, res, next) => {
+  const b = catalog.get(req.params.slug);
+  if (!b || !reader.has(b.slug)) return next();
+  const h = req.h;
+  const book = bookView(b, h, req);
+  const lang = readerLang(req, b.slug);
+  const v = reader.view(req, b.slug, lang, book.cover);
+  const m = reader.manifest(b.slug);
+  page(req, res, 'reader', {
+    readerMode: true,
+    book, readLang: lang,
+    readLangs: m.langs.map((l) => ({ code: l, name: ({ en: 'English', fr: 'Français', es: 'Español', de: 'Deutsch', it: 'Italiano' })[l] || l.toUpperCase(), href: h.url('/books/' + b.slug + '/read') + '?lang=' + l })),
+    config: {
+      slug: b.slug, lang, spreads: v.spreads, total: v.total, totalPages: v.totalPages, locked: v.locked, open: v.open, unlocked: v.unlocked,
+      bookHref: book.href, amazon: book.amazonMain,
+      voice: lang, sales: v.open && readerSales(), price: (reader.settings.priceCents / 100).toFixed(2)
+    },
+    codeState: String(req.query.code || ''),
+    codeHint: reader.prefixFor(b.slug),
+    seo: { title: h.t('reader.title') + ': ' + book.displayTitle, description: h.pick(b.blurb) || h.pick(b.subtitle) || '', image: book.cover, noindex: true }
+  });
+});
+router.post('/books/:slug/read/code', (req, res, next) => {
+  const b = catalog.get(req.params.slug);
+  if (!b || !reader.has(b.slug)) return next();
+  const back = req.h.url('/books/' + b.slug + '/read');
+  if (!reader.isOpen(b.slug)) return res.redirect(303, back);
+  if (reader.tooMany(req.ip)) return res.redirect(303, back + '?code=wait#gate');
+  const r = reader.redeem((req.body || {}).code);
+  if (!r || (r.slug && r.slug !== b.slug && !r.all)) return res.redirect(303, back + '?code=bad#gate');
+  reader.writeCookie(req, res, r);
+  res.redirect(303, back + '?code=ok');
+});
+router.post('/books/:slug/read/buy', async (req, res, next) => {
+  const b = catalog.get(req.params.slug);
+  if (!b || !reader.has(b.slug)) return next();
+  const h = req.h;
+  const back = h.url('/books/' + b.slug + '/read');
+  if (!reader.isOpen(b.slug) || !readerSales()) return res.redirect(303, back);
+  try {
+    const session = await shop.stripe().checkout.sessions.create({
+      mode: 'payment',
+      line_items: [{ quantity: 1, price_data: { currency: reader.settings.currency, unit_amount: reader.settings.priceCents,
+        product_data: { name: (h.lang === 'fr' ? 'Lire en ligne : ' : 'Read online: ') + h.bookTitle(b) } } }],
+      success_url: `${SITE_URL}${back}/unlocked?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${SITE_URL}${back}#gate`,
+      locale: h.lang === 'fr' ? 'fr-CA' : 'en',
+      metadata: { reader: b.slug, lang: h.lang }
+    });
+    return res.redirect(303, session.url);
+  } catch (err) { console.error('Reader checkout failed:', err.message); }
+  res.redirect(303, back + '#gate');
+});
+// After payment: Stripe's own record says whether it was paid (never the address alone). Gives a code for other devices.
+router.get('/books/:slug/read/unlocked', async (req, res, next) => {
+  const b = catalog.get(req.params.slug);
+  if (!b || !reader.has(b.slug) || !readerSales()) return next();
+  const back = req.h.url('/books/' + b.slug + '/read');
+  try {
+    const s = await shop.stripe().checkout.sessions.retrieve(String(req.query.session_id || '').slice(0, 200));
+    if (s && s.payment_status === 'paid' && s.metadata && s.metadata.reader === b.slug) {
+      reader.writeCookie(req, res, { slug: b.slug });
+      const serial = 'P' + require('crypto').createHash('sha256').update(s.id).digest('hex').slice(0, 6).toUpperCase();
+      const code = reader.makeCode(reader.prefixFor(b.slug), serial);
+      return page(req, res, 'reader-unlocked', { book: bookView(b, req.h, req), code, readHref: back, seo: { title: req.h.t('reader.unlockedTitle'), noindex: true } });
+    }
+  } catch (err) { console.error('Reader unlock check failed:', err.message); }
+  res.redirect(303, back + '#gate');
 });
 // Unsubscribe: the link in every email opens a page with one button (so mail scanners can't unsubscribe people by accident).
 router.get('/unsubscribe', (req, res) => {
@@ -577,6 +658,15 @@ app.get('/sitemap.xml', (req, res) => {
   res.type('application/xml').send(
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls.join('')}</urlset>`
   );
+});
+
+// Reader files: page images and narration, only for spreads the visitor may see. Never cached by shared caches.
+app.get('/reader/:slug/:lang/:name', (req, res) => {
+  const f = reader.file(req, req.params.slug, req.params.lang, req.params.name);
+  if (!f) return res.status(403).type('text/plain').send('Locked');
+  res.set('Cache-Control', 'private, max-age=86400');
+  res.set('X-Robots-Tag', 'noindex');
+  res.sendFile(f);
 });
 
 app.get('/healthz', (req, res) => res.type('text/plain').send('ok'));

@@ -1,0 +1,91 @@
+<%- include('../partials/top') %>
+<%# The book reader. reader.js turns the pages; without JavaScript the open pages show one under another. %>
+<div class="rd" id="reader" data-config="<%= JSON.stringify(config) %>" data-text="<%= JSON.stringify({ pageOf: t('reader.pageOf'), pause: t('reader.pause'), readToMe: t('reader.readToMe'), fullscreen: t('reader.fullscreen'), exitFullscreen: t('reader.exitFullscreen') }) %>">
+  <header class="rd-bar">
+    <a class="rd-btn rd-back" href="<%= book.href %>">
+      <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+      <span class="rd-hide-sm"><%= t('reader.back') %></span>
+    </a>
+    <h1 class="rd-title" <%- book.titleIsFallback ? 'lang="en"' : '' %>><%= book.displayTitle %></h1>
+    <div class="rd-tools">
+      <div class="rd-mode" role="group" aria-label="<%= t('reader.title') %>">
+        <button type="button" class="rd-btn is-on" data-mode="self" aria-pressed="true"><%= t('reader.readMyself') %></button>
+        <button type="button" class="rd-btn" data-mode="auto" aria-pressed="false">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/></svg>
+          <span data-auto-label><%= t('reader.readToMe') %></span>
+        </button>
+      </div>
+      <% if (readLangs.length > 1) { %>
+      <nav class="rd-langs" aria-label="<%= t('reader.language') %>">
+        <% readLangs.forEach(function (l) { %><a class="rd-btn" href="<%= l.href %>" hreflang="<%= l.code %>" lang="<%= l.code %>" <%- l.code === readLang ? 'aria-current="true"' : '' %>><%= l.name %></a><% }) %>
+      </nav>
+      <% } %>
+      <button type="button" class="rd-btn rd-icon" data-sound aria-pressed="true" aria-label="<%= t('reader.sound') %>" title="<%= t('reader.sound') %>">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h9l5 5v11H5z"/><path d="M14 4v5h5"/></svg>
+      </button>
+      <button type="button" class="rd-btn rd-icon" data-full hidden aria-label="<%= t('reader.fullscreen') %>" title="<%= t('reader.fullscreen') %>">
+        <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="rd-stage" id="rd-stage" aria-live="polite">
+    <p class="rd-loading"><%= t('reader.loading') %></p>
+    <noscript>
+      <div class="rd-plain">
+        <p><%= t('reader.noscript') %></p>
+        <% config.spreads.forEach(function (sp) { sp.pages.forEach(function (p) { %><img src="<%= p.src %>" alt="<%= p.text %>" loading="lazy"><% }) }) %>
+      </div>
+    </noscript>
+  </div>
+
+  <footer class="rd-foot">
+    <button type="button" class="rd-btn rd-turn" data-prev aria-label="<%= t('reader.prev') %>">
+      <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <p class="rd-count" data-count></p>
+    <button type="button" class="rd-btn rd-turn" data-next aria-label="<%= t('reader.next') %>">
+      <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </footer>
+  <p class="rd-voice-note" data-voice-note hidden><%= t('reader.deviceVoice') %></p>
+
+  <%# The last page: what comes after the open pages. reader.js places it in the book. %>
+  <template id="rd-gate">
+    <section class="rd-gate" id="gate" aria-labelledby="gate-title">
+      <img class="rd-gate-cover" src="<%= book.coverSmall || book.cover %>" alt="" width="360" height="576">
+      <% if (!config.locked) { %>
+        <h2 id="gate-title"><%= t('reader.theEnd') %></h2>
+        <div class="rd-gate-actions">
+          <button type="button" class="rd-cta" data-again><%= t('reader.again') %></button>
+          <a class="rd-cta rd-cta-ghost" href="<%= config.amazon %>" rel="noopener"><%= t('reader.amazon') %></a>
+        </div>
+      <% } else if (!config.open) { %>
+        <h2 id="gate-title"><%= t('reader.sampleTitle') %></h2>
+        <p><%= t('reader.sampleText') %></p>
+        <div class="rd-gate-actions">
+          <a class="rd-cta" href="<%= config.amazon %>" rel="noopener"><%= t('reader.amazon') %></a>
+          <a class="rd-cta rd-cta-ghost" href="<%= book.href %>"><%= t('reader.back') %></a>
+        </div>
+      <% } else { %>
+        <h2 id="gate-title"><%= t('reader.gateTitle') %></h2>
+        <p><%= t('reader.gateText') %></p>
+        <form class="rd-code" method="post" action="<%= url('/books/' + book.slug + '/read/code') %>">
+          <label for="rd-code-in"><%= t('reader.codeLabel') %></label>
+          <input id="rd-code-in" name="code" autocomplete="off" autocapitalize="characters" spellcheck="false" inputmode="text" placeholder="<%= codeHint %>-0000-XXXXXX" required maxlength="40" aria-describedby="rd-code-help">
+          <p id="rd-code-help" class="rd-small<%= codeState === 'bad' || codeState === 'wait' ? ' rd-error' : '' %>"><%= codeState === 'bad' ? t('reader.codeBad') : codeState === 'wait' ? t('reader.codeWait') : t('reader.codeHelp') %></p>
+          <button class="rd-cta" type="submit"><%= t('reader.codeButton') %></button>
+        </form>
+        <% if (config.sales) { %>
+        <form method="post" action="<%= url('/books/' + book.slug + '/read/buy') %>" class="rd-buy">
+          <button class="rd-cta rd-cta-sun" type="submit"><%= t('reader.buy').replace('{price}', config.price) %></button>
+          <p class="rd-small"><%= t('reader.buyNote') %></p>
+        </form>
+        <% } %>
+        <a class="rd-link" href="<%= config.amazon %>" rel="noopener"><%= t('reader.amazon') %></a>
+      <% } %>
+    </section>
+  </template>
+  <% if (codeState === 'ok') { %><p class="rd-toast" role="status" data-toast><%= t('reader.codeOk') %></p><% } %>
+</div>
+<%- include('../partials/bottom') %>

@@ -25,11 +25,14 @@
 <link rel="stylesheet" href="/css/site.css">
 <% if (typeof extraCss !== 'undefined' && extraCss) { %><link rel="stylesheet" href="/css/<%= extraCss %>.css"><% } %>
 <% if (typeof playMode !== 'undefined' && playMode) { %><link rel="stylesheet" href="/css/play.css"><% } %>
+<% const isReader = typeof readerMode !== 'undefined' && readerMode; if (isReader) { %><link rel="stylesheet" href="/css/reader.css"><script src="/js/reader.js" defer></script><% } %>
 <% if (typeof jsonLd !== 'undefined' && jsonLd) { %><script type="application/ld+json"><%- JSON.stringify(jsonLd).replace(/</g, '\\u003c') %></script><% } %>
 <script src="/js/site.js" defer></script>
 <% if (typeof gameScript !== 'undefined' && gameScript) { %><script src="/js/play/common.js" defer></script><script src="/js/play/<%= gameScript %>.js" defer></script><% } %>
 </head>
-<% if (typeof playMode !== 'undefined' && playMode) { %><body class="play-mode">
+<% if (isReader) { %><body class="reader-mode">
+<main id="main">
+<% } else if (typeof playMode !== 'undefined' && playMode) { %><body class="play-mode">
 <main id="main">
 <% } else { %><body>
 <a class="skip" href="#main"><%= t('nav.skip') %></a>

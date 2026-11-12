@@ -1,0 +1,48 @@
+{
+  "note": "Reader pages for The Snug. Page images live in <lang>/pNN.webp (never in public/: the server decides who may see each page). Narration: <lang>/audio/sNN.mp3, one clip per spread; until those exist, Read to me uses the text below with the device's voice.",
+  "spreads": [
+    ["cover"],
+    ["p01", "p03"],
+    ["p04", "p05"],
+    ["p06", "p07"],
+    ["p08", "p09"],
+    ["p10", "p11"],
+    ["p12", "p13"],
+    ["p14", "p15"],
+    ["p16", "p17"],
+    ["p18", "p19"],
+    ["p20", "p21"],
+    ["p22", "p23"],
+    ["p24", "p25"]
+  ],
+  "languages": {
+    "en": {
+      "text": {
+        "cover": "The Snug. A story about belonging and making room for everyone.",
+        "p01": "To everyone still waiting at the edge of the meadow: you can build a place of your own.",
+        "p04": "In Bramble Hollow, when the first cold wind blew, all the animals squeezed together under the Big Oak, warm and giggling.",
+        "p05": "Bodie the badger loved it best of all. He pulled on his blue hat, wiggled in close, and sighed, \"Snug!\"",
+        "p06": "One misty evening, a little cart creaked down the lane. A new family was moving into the empty burrow by the hill.",
+        "p07": "Out stepped Quilla, a young porcupine in a yellow neckerchief. When she felt shy, her quills stood straight up.",
+        "p08": "The next day, Quilla walked to the Big Oak. \"Hello,\" she said softly. \"May I squeeze in too?\"",
+        "p09": "But everyone scooted away. \"Too prickly!\" whispered the rabbit twins. So Quilla sat all alone at the edge of the meadow.",
+        "p10": "Bodie saw her sitting there. He wanted to go over, but his tummy did a flip-flop. What if they scooted away from him, too?",
+        "p11": "He took a deep breath, walked all the way across the meadow, and sat right down beside her. \"Hello,\" said Bodie.",
+        "p12": "They sat for a long time, watching the others under the oak. Then Quilla said, \"I'm done waiting to be asked.\"",
+        "p13": "\"Let's make a warm place of our own. Right here.\" Bodie grinned. \"I can dig!\" \"And I can climb!\" said Quilla.",
+        "p14": "Bodie scooped a round, deep hollow. Quilla climbed high and tugged down long, bendy vines. \"Scoop, loop, snug!\" they sang.",
+        "p15": "They looped the vines into walls. A loose quill fell out, like a baby tooth. \"A pin!\" said Quilla, and pinned them tight.",
+        "p16": "Hazel the squirrel hopped by. \"What are you making?\" \"A snug!\" said Bodie. \"Ooh! Can I help?\" asked Hazel.",
+        "p17": "Hazel piled soft moss on the roof. Thimble the mouse tied every vine with tiny, tidy knots. Scoop, loop, snug!",
+        "p18": "Mossy the mole popped up right in the middle of the floor. \"Did somebody say dig?\" He smoothed it flat and cozy.",
+        "p19": "Scoop, loop, snug! Five friends, one snug. When the cold wind came whooshing, the walls didn't wobble one bit.",
+        "p20": "At last it was done. They hung acorn-cup lanterns by the door. \"It's beautiful,\" whispered Quilla. \"Who is it for?\" asked Hazel.",
+        "p21": "Quilla thought about the Big Oak, and all the scooting away. Then she smiled her biggest smile. \"Everyone,\" she said. \"It's for everyone.\"",
+        "p22": "That evening, the first snowflakes fell. Bodie called across the meadow, \"The Snug is open! Everyone is welcome!\" And everyone came.",
+        "p23": "The rabbit twins stopped at the door, ears drooping. \"We're sorry we scooted,\" said Fern. \"Is there room for us?\"",
+        "p24": "Quilla held the door open wide. \"Lots of room,\" she said. \"Come in, come in!\" And they all squeezed in together.",
+        "p25": "Outside, the snow fell softly. Inside, Bodie sighed, \"Snug.\" If there's no room for you, build a place with room for everyone. The End."
+      }
+    }
+  }
+}

@@ -20,6 +20,15 @@
     </div>
   </div>
 </section>
+<section class="section">
+  <div class="wrap stack" style="gap:28px">
+    <div class="stack-sm" style="max-width:720px">
+      <h2 class="h2"><%= t('parents.insideTitle') %></h2>
+      <p class="lead"><%= t('parents.insideLead') %></p>
+    </div>
+    <%- include('../partials/inside', { sc: showcase, k: 'parents' }) %>
+  </div>
+</section>
 <section class="section tight">
   <div class="wrap stack" style="gap:24px">
     <div class="row" style="justify-content:space-between;align-items:flex-end">
@@ -48,12 +57,11 @@
   </div>
 </section>
 <section class="section tight" style="padding-top:0">
-  <div class="wrap grid-2" style="align-items:start">
-    <div class="stack-sm">
-      <h2 class="h2" style="font-size:32px"><%= t('parents.homeschoolTitle') %></h2>
-      <p class="lead"><%= t('parents.homeschoolText') %></p>
-    </div>
-    <%- include('../partials/enquiry', { kind: 'quote', showOrg: false, button: t('parents.quoteButton') }) %>
+  <div class="wrap">
+    <details class="card card-pad hs-details">
+      <summary><span class="h3"><%= t('parents.homeschoolTitle') %></span> <span class="muted"><%= t('parents.homeschoolText') %></span></summary>
+      <div style="margin-top:20px;max-width:640px"><%- include('../partials/enquiry', { kind: 'quote', showOrg: false, button: t('parents.quoteButton') }) %></div>
+    </details>
   </div>
 </section>
 <%- include('../partials/bottom') %>

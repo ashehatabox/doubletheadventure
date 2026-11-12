@@ -32,10 +32,11 @@
 
   // Catalog filter: switch moments without reloading the page.
   var filter = document.querySelector('[data-filter]');
-  var grid = document.querySelector('[data-books]');
-  if (filter && grid && window.history && history.replaceState) {
+  var grids = Array.prototype.slice.call(document.querySelectorAll('[data-books]'));
+  if (filter && grids.length && window.history && history.replaceState) {
     var none = document.querySelector('[data-none]');
-    var cards = Array.prototype.slice.call(grid.children);
+    var cards = [];
+    grids.forEach(function (g) { cards = cards.concat(Array.prototype.slice.call(g.children)); });
     filter.addEventListener('click', function (e) {
       var pill = e.target.closest('[data-moment]');
       if (!pill) return;
@@ -49,6 +50,10 @@
       });
       filter.querySelectorAll('[data-moment]').forEach(function (p) { p.setAttribute('aria-current', p === pill ? 'true' : 'false'); });
       if (none) none.hidden = shown > 0;
+      grids.forEach(function (g) {
+        var group = g.closest('[data-group]');
+        if (group) group.hidden = !Array.prototype.some.call(g.children, function (c) { return !c.hidden; });
+      });
       history.replaceState(null, '', pill.getAttribute('href'));
     });
   }

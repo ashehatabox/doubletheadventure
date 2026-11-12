@@ -50,7 +50,7 @@
     <a class="logo" href="<%= url('/') %>">
       <img class="logo-img" src="/images/brand/logo.png" alt="A² Publishing, Double the Adventure" width="720" height="180">
     </a>
-    <% const navItems = [['/books', 'nav.books'], ['/shop', 'nav.shop'], ['/play', 'nav.play'], ['/parents', 'nav.parents'], ['/educators', 'nav.educators'], ['/partners', 'nav.partners']]; %>
+    <% const navItems = [['/books', 'nav.books'], ['/stories', 'nav.readWatch'], ['/heroes', 'nav.animals'], ['/play', 'nav.play'], ['/parents', 'nav.parents'], ['/educators', 'nav.educators']]; %>
     <nav class="nav" aria-label="<%= t('nav.main') %>">
       <% navItems.forEach(function (n) { const on = basePath === n[0] || basePath.startsWith(n[0] + '/'); %>
       <a href="<%= url(n[0]) %>" <%- on ? 'aria-current="page"' : '' %>><%= t(n[1]) %></a>

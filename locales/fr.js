@@ -5,7 +5,7 @@ module.exports = {
   },
   topbar: { newBook: 'Nouveau :', newBookLine: 'une histoire sur l\'appartenance qu\'on construit soi-même' },
   nav: {
-    books: 'Livres', shop: 'Boutique', play: 'Jouer', parents: 'Parents', educators: 'Éducateurs', partners: 'Partenaires',
+    readWatch: 'Lire et regarder', animals: 'Vrais animaux', books: 'Livres', shop: 'Boutique', play: 'Jouer', parents: 'Parents', educators: 'Éducateurs', partners: 'Partenaires',
     freePage: 'Coloriage gratuit', menu: 'Menu', main: 'Principal', language: 'Langue', skip: 'Aller au contenu'
   },
   common: {
@@ -36,6 +36,12 @@ module.exports = {
     coverOf: 'Couverture de'
   },
   home: {
+    insideTitle: 'Dans chaque livre',
+    insideLead: 'Chaque histoire offre plus à faire ensemble : la lire en ligne, l\'écouter lue à voix haute, rencontrer les vrais animaux et jouer.',
+    insideRead: 'Le lire en ligne', insideReadText: '{n} livres à ouvrir et lire ici, page après page.',
+    insideWatch: 'L\'écouter lu à voix haute', insideWatchText: '{n} vidéos lues à voix haute, en anglais et dans d\'autres langues.',
+    insideAnimals: 'Les vrais animaux', insideAnimalsText: '{n} vrais animaux derrière les histoires, avec de vrais faits.',
+    insidePlay: 'Colorier et jouer', insidePlayText: 'Des coloriages de {n} livres, des casse-têtes et des jeux de mémoire.',
     title: 'La sagesse ancienne du monde entier, dans des histoires où de {{petits héros}} choisissent de bien faire.',
     lead: 'Des albums qui portent chacun une valeur d\'une culture, racontée pour les enfants d\'aujourd\'hui. En français, anglais, espagnol, allemand et italien.',
     doorsTitle: 'Qui lit aujourd\'hui ?',
@@ -78,6 +84,7 @@ module.exports = {
     aboutCta: 'Lire notre histoire'
   },
   books: {
+    readOnline: 'À lire en ligne', liveTitle: 'Sur Amazon maintenant', soonTitle: 'Bientôt sur Amazon', exRead: 'Lire un extrait', exWatch: 'Vidéo', exAnimals: 'Vrais animaux', exPlay: 'Jeux',
     title: 'Tous les livres',
     lead: 'Vingt petits héros, chacun porteur d\'une valeur d\'une culture. Choisissez selon ce que vit votre enfant, ou parcourez-les tous.',
     filterLabel: 'Trouver un livre selon le moment',
@@ -261,6 +268,12 @@ module.exports = {
     matched: 'Les livres que tu as trouvés'
   },
   parents: {
+    insideTitle: 'Plus qu\'un livre au coucher',
+    insideLead: 'Chaque histoire continue après la dernière page. Voici ce que vous pouvez faire ensemble.',
+    insideRead: 'Le lire ensemble sur un écran', insideReadText: '{n} livres à ouvrir ici, page après page. Lis-moi l\'histoire pour les soirs chargés.',
+    insideWatch: 'Vidéos de l\'heure du conte', insideWatchText: '{n} vidéos lues à voix haute, certaines en français, espagnol et allemand.',
+    insideAnimals: 'Pour les curieux', insideAnimalsText: '{n} vrais animaux tirés des histoires, avec de vrais faits.',
+    insidePlay: 'Des écrans qui mènent au livre', insidePlayText: 'Coloriages de {n} livres, casse-têtes et jeux de mémoire. Sans pub, sans compte.',
     articlesTitle: 'Articles : les idées derrière les histoires',
     articlesLead: 'D\'où vient chaque valeur, et comment en parler avec votre enfant.',
     title: 'Coin des parents',
@@ -324,6 +337,13 @@ module.exports = {
     unlockedCode: 'Pour le lire sur un autre téléphone ou une tablette, utilisez ce code :',
     unlockedKeep: 'Gardez-le précieusement. Il fonctionne pour ce livre seulement.',
     startReading: 'Commencer la lecture'
+  },
+  readwatch: {
+    title: 'Lire et regarder',
+    lead: 'Ouvrez un livre et lisez-le ici, page après page, ou appuyez sur lecture et écoutez-le lu à voix haute. Parfait pour un câlin.',
+    readTitle: 'Le lire en ligne',
+    readLead: 'Les premières pages de chaque livre se lisent gratuitement ici. Tournez les pages vous-même, ou appuyez sur Lis-moi l\'histoire.',
+    watchTitle: 'L\'écouter lu à voix haute'
   },
   readaloud: {
     title: 'L\'heure du conte : histoires lues à voix haute',
@@ -409,6 +429,13 @@ module.exports = {
     foot: 'Libre de copie pour usage en classe'
   },
   educators: {
+    guideCount: '{n} guides, un par livre', guideFree: 'Gratuits à imprimer et partager',
+    insideTitle: 'Prêt pour votre classe',
+    insideLead: 'Utilisez les livres au tableau, à l\'heure du cercle et en sciences de la nature.',
+    insideRead: 'Le lire au tableau', insideReadText: '{n} livres à ouvrir sur un projecteur ou un TBI, page après page.',
+    insideWatch: 'Vidéos pour l\'heure du cercle', insideWatchText: '{n} vidéos lues à voix haute, utiles en immersion et en francisation.',
+    insideAnimals: 'Sciences et nature', insideAnimalsText: '{n} vrais animaux avec faits sourcés, cartes et activités.',
+    insidePlay: 'Ateliers et élèves en avance', insidePlayText: 'Coloriages de {n} livres, casse-têtes et jeux de mémoire. Sans pub, sans connexion.',
     title: 'Coin des éducateurs',
     lead: 'Chaque livre enseigne une valeur grâce à un enfant qui choisit d\'agir. Guides, ensembles et visites pour les classes, garderies, bibliothèques et programmes pour nouveaux arrivants.',
     cards: [
@@ -610,6 +637,7 @@ module.exports = {
     }
   },
   heroes: {
+    countAnimals: '{n} vrais animaux', countBooks: 'dans {n} livres', spotTitle: 'L\'animal du jour', readFile: 'Lire la fiche de {name}', openGuide: 'Ouvrir le guide',
     title: 'Encyclopédie des héros',
     lead: 'Les vrais animaux derrière chaque histoire : comment ils vivent, ce qu\'ils mangent et les secrets bien réels des livres. Chaque fait renvoie à sa source.',
     meet: 'Rencontrer les héros', seeBook: 'Voir le livre', cast: 'Les personnages', castLead: 'Chaque personnage du livre est un vrai animal. Touchez-en un pour lire sa fiche.',

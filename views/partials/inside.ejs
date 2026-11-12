@@ -1,0 +1,31 @@
+<%# Picture cards: read online, watch, real animals, play. Needs sc (showcaseData) and k (locale block for the texts). %>
+    <div class="inside-grid">
+      <% if (sc.read && sc.read.preview) { %>
+      <a class="inside-card inside-sky" href="<%= sc.read.href %>">
+        <span class="inside-art inside-spread"><% sc.read.preview.pages.forEach(function (p) { %><img src="<%= p %>" alt="" loading="lazy" width="1000" height="1000"><% }) %></span>
+        <span class="inside-title"><%= t(k + '.insideRead') %></span>
+        <span class="inside-text"><%= t(k + '.insideReadText').replace('{n}', sc.read.count) %></span>
+      </a>
+      <% } %>
+      <% if (sc.watch) { %>
+      <a class="inside-card inside-rose" href="<%= url('/stories') %>">
+        <span class="inside-art inside-video"><img src="<%= sc.watch.book.cover %>" alt="" loading="lazy" width="900" height="1440"><span class="inside-play" aria-hidden="true">▶</span></span>
+        <span class="inside-title"><%= t(k + '.insideWatch') %></span>
+        <span class="inside-text"><%= t(k + '.insideWatchText').replace('{n}', sc.watch.count) %></span>
+      </a>
+      <% } %>
+      <% if (sc.animals.strip.length) { %>
+      <a class="inside-card inside-mint" href="<%= url('/heroes') %>">
+        <span class="inside-art inside-animals"><% sc.animals.strip.slice(0, 6).forEach(function (a) { %><img src="<%= a.image %>" alt="<%= a.name %>, <%= a.animal %>" loading="lazy" width="960" height="960"><% }) %></span>
+        <span class="inside-title"><%= t(k + '.insideAnimals') %></span>
+        <span class="inside-text"><%= t(k + '.insideAnimalsText').replace('{n}', sc.animals.count) %></span>
+      </a>
+      <% } %>
+      <% if (sc.color.pages.length) { %>
+      <a class="inside-card inside-sun" href="<%= url('/play') %>">
+        <span class="inside-art inside-color"><% sc.color.pages.forEach(function (p) { %><img src="<%= p %>" alt="" loading="lazy" width="600" height="600"><% }) %></span>
+        <span class="inside-title"><%= t(k + '.insidePlay') %></span>
+        <span class="inside-text"><%= t(k + '.insidePlayText').replace('{n}', sc.color.count) %></span>
+      </a>
+      <% } %>
+    </div>

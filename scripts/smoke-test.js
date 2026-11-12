@@ -16,8 +16,8 @@ const catalog = require('../data/books');
 const base = `http://localhost:${process.env.PORT}`;
 
 const checks = [
-  ['/', 200, 'Who&#39;s reading today?'],
-  ['/fr/', 200, 'Qui lit aujourd&#39;hui ?'],
+  ['/', 200, 'Inside every book'],
+  ['/fr/', 200, 'Dans chaque livre'],
   ['/books', 200, 'All the books'],
   ['/books?moment=left-out', 200, 'The Snug'],
   ['/fr/books', 200, 'Tous les livres'],
@@ -65,7 +65,7 @@ const checks = [
   ['/parents', 200, 'dialogic reading'],
   ['/educators', 200, 'Educator corner'],
   ['/educators/teachers', 200, 'SEL pack per book'],
-  ['/stories', 200, 'read-aloud videos'],
+  ['/stories', 200, 'Read it online'],
   ['/fr/stories', 200, 'heure du conte'],
   ['/start', 200, 'What does your child need right now'],
   ['/start/big-feelings', 200, 'Start with this one'],

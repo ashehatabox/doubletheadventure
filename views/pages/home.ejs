@@ -37,21 +37,6 @@
   </div>
 </section>
 
-<section class="section tight" aria-labelledby="doors-title" style="padding-top:0">
-  <div class="wrap stack" style="gap:32px">
-    <h2 id="doors-title" class="h2" style="text-align:center"><%= t('home.doorsTitle') %></h2>
-    <div class="grid-cards">
-      <% t('home.doors').forEach(function (d) { %>
-      <a class="door <%= d.key %>" href="<%= url('/' + d.key) %>">
-        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="#0E7C7B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><%- icons[d.key] %></svg>
-        <span class="door-title"><%= d.title %></span>
-        <span class="door-text"><%= d.text %></span>
-      </a>
-      <% }) %>
-    </div>
-  </div>
-</section>
-
 <section class="section band-sun" aria-labelledby="featured-title">
   <div class="wrap grid-2">
     <% if (featured.spread) { %>
@@ -78,6 +63,16 @@
         <a class="btn btn-ghost" href="<%= featured.href %>"><%= t('common.readMore') %></a>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="inside-title">
+  <div class="wrap stack" style="gap:32px">
+    <div class="stack-sm" style="max-width:720px">
+      <h2 id="inside-title" class="h2"><%= t('home.insideTitle') %></h2>
+      <p class="lead"><%= t('home.insideLead') %></p>
+    </div>
+    <%- include('../partials/inside', { sc: showcase, k: 'home' }) %>
   </div>
 </section>
 
@@ -117,8 +112,9 @@
       <div class="row"><a class="btn btn-sun" href="<%= url('/play') %>"><%= t('home.playCta') %></a></div>
     </div>
     <div class="play-tiles">
-      <% t('home.playTiles').forEach(function (name, i) { const bg = ['#FFFFFF', '#9FD3F0', '#FFC59E'][i]; %>
-      <div class="play-tile"><div class="art" style="background:<%= bg %>"><svg aria-hidden="true" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#4A3426" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><%- [icons.play, '<path d="M4 4h7v4a2 2 0 1 0 0 4v8H4z"/><path d="M11 4h9v7h-4a2 2 0 1 0-4 0"/>', '<rect x="3" y="4" width="8" height="11" rx="2"/><rect x="13" y="9" width="8" height="11" rx="2"/>'][i] %></svg></div><span><%= name %></span></div>
+      <% const pt = t('home.playTiles'); const cv = function (sl) { const b = allBooks.find(function (x) { return x.slug === sl; }); return b && b.cover; }; const pics = [showcase.snugPage || showcase.color.pages[0], cv('the-littlest-guardian') || featured.cover, cv('the-pebbles-inside') || featured.cover]; %>
+      <% pt.forEach(function (name, i) { const bg = ['#FFFFFF', '#9FD3F0', '#FFC59E'][i]; %>
+      <div class="play-tile"><div class="art play-art-<%= i %>" style="background:<%= bg %>"><% if (pics[i]) { %><img src="<%= pics[i] %>" alt="" loading="lazy"><% } %></div><span><%= name %></span></div>
       <% }) %>
     </div>
   </div>

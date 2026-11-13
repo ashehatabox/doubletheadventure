@@ -1,0 +1,141 @@
+{
+ "book": "the-snug",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["BC", "SRWB", "PSI", "DLMB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a big blanket or sheet, string or ribbon, clothes pegs, paper lanterns",
+  "summary": "Quilla, a shy young porcupine, moves to Bramble Hollow just as the cold wind comes. The animals keep warm by squeezing together under the Big Oak, but when Quilla asks to join, they scoot away: ‘Too prickly!’ Bodie the badger is nervous, but he crosses the meadow and sits beside her. Quilla decides she is done waiting to be asked. Together they build a warm hut of their own, using her loose quills as pins, and a squirrel, a mouse and a mole join in. When someone asks who the Snug is for, Quilla says, ‘Everyone.’",
+  "bigIdea": "If there’s no room for you, you can make a place, and then make room for everyone, even those who left you out.",
+  "theme": "If there’s no room for you, build a place with room for everyone.",
+  "refrain": "Scoop, loop, snug!",
+  "origin": "This story doesn’t come from one culture. Many traditions have words for the warm feeling of belonging that grows from small kind acts, like jeong in Korea, and for a community that makes room for every family.",
+  "words": [
+   {"word": "snug", "meaning": "warm, cosy and comfortable", "cue": "hug yourself and smile"},
+   {"word": "shy", "meaning": "a bit scared to talk or join in", "cue": "hide behind your hands"},
+   {"word": "meadow", "meaning": "a big field of grass and flowers", "cue": "sweep your hand flat and wide"},
+   {"word": "vine", "meaning": "a long, bendy plant that climbs", "cue": "wiggle your arm upward"},
+   {"word": "welcome", "meaning": "happy to have someone come in", "cue": "open your arms wide"}
+  ],
+  "before": [
+   "Show the cover. Ask: What are the animals doing? How do they look?",
+   "Ask: Have you ever been new somewhere, like a new class or a new home? How did it feel? Take a few answers gently.",
+   "Teach the refrain with actions: scoop (dig with your hands), loop (circle your arm), snug (hug yourself). ‘Scoop, loop, snug!’"
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Quilla arrives; her quills stand up when she is shy.", "ask": "How do you think Quilla feels being new?", "listen": "shy, nervous, scared, excited"},
+   {"spread": 4, "moment": "Everyone scoots away; Quilla sits alone.", "ask": "How do you think Quilla felt sitting at the edge of the meadow?", "listen": "sad, lonely, left out, cold"},
+   {"spread": 5, "moment": "Bodie’s tummy flip-flops, but he crosses the meadow.", "ask": "Why was it brave for Bodie to walk over and sit with her?", "listen": "he was scared the others would leave him too"},
+   {"spread": 6, "moment": "Quilla: ‘I’m done waiting to be asked.’", "ask": "What did Quilla decide to do instead of waiting?", "listen": "build their own warm place"},
+   {"spread": 7, "moment": "A loose quill becomes a pin.", "ask": "What were Quilla’s quills good for?", "listen": "pins to hold the walls"},
+   {"spread": 8, "moment": "Hazel asks, ‘Can I help?’", "ask": "Why do you think the others wanted to join?", "listen": "it looked fun, they wanted to help"},
+   {"spread": 10, "moment": "‘Who is it for?’ ‘Everyone.’", "ask": "Why do you think Quilla said the Snug was for everyone?", "listen": "she remembered being left out, she didn’t want anyone to feel that way"},
+   {"spread": 11, "moment": "The rabbit twins say sorry.", "ask": "How do you think the twins feel at the door?", "listen": "sorry, worried, hopeful"}
+  ],
+  "after": [
+   {"q": "How do you think Quilla felt sitting at the edge of the meadow?", "a": "Lonely, sad, cold, left out. Accept any feeling word."},
+   {"q": "Why was it brave for Bodie to walk over and sit with her?", "a": "He was nervous the others might scoot away from him too."},
+   {"q": "What did Quilla decide to do instead of waiting?", "a": "Build a warm place of her own with Bodie."},
+   {"q": "Why do you think she said the Snug was for everyone?", "a": "She knew how it felt to be left out."},
+   {"q": "Is there someone who might like you to sit with them?", "a": "Any answer. Invite children to try it at lunch or play."}
+  ],
+  "activities": [
+   {"title": "Build a class Snug", "time": "20 minutes", "group": "Whole class", "materials": "A big sheet, chairs, string, clothes pegs", "steps": "Build a hut together over chairs, using pegs as ‘quills’. Everyone has a job: scoop (make the floor), loop (tie the string), snug (make it cosy). Make a sign for the door: ‘For everyone.’"},
+   {"title": "Who’s at the edge?", "time": "10 minutes", "group": "Whole class", "materials": "None", "steps": "Talk about how you can tell when someone feels left out (sitting alone, looking down). Practise what Bodie did: walk over, sit down, say ‘Hello.’"},
+   {"title": "Acorn lanterns", "time": "15 minutes", "group": "Individual", "materials": "Paper, crayons, string", "steps": "Make a small paper lantern and write or draw one way you can make room for someone new. Hang them by the class door."}
+  ],
+  "science": {
+   "text": "Porcupine quills are special stiff hairs. Porcupines can’t shoot them, but loose quills come out easily. Some porcupines, like the North American porcupine that lives in Canada, are good tree climbers. European badgers live in family groups in underground homes with lots of tunnels and rooms, called setts. Moles live almost all their lives underground and dig with wide front paws.",
+   "link": "/heroes/the-snug",
+   "linkText": "Meet the real woodland animals"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Teach ‘Hello’, ‘Can I help?’ and ‘Come in!’ with gestures. The refrain has three action words, so everyone can join."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 4, 6 and 10). Act out ‘scooting away’ and ‘sitting beside’ with puppets."},
+   {"who": "Newcomer children", "how": "This story fits a new school or a move. Pair a newcomer with a buddy, and let both be builders in the class Snug."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Invites someone to join in, or sits with a child who is alone."},
+   {"frame": "SRWB", "text": "Names how it feels to be left out and to be welcomed."},
+   {"frame": "PSI", "text": "Helps plan and build a shared space with others."},
+   {"frame": "DLMB", "text": "Uses shapes and materials (round, loop, tie) to build."}
+  ],
+  "care": [
+   "Some children in your class may be the ones at the edge. Read gently and never point anyone out.",
+   "The rabbits’ sorry is a kind repair, not the reason they are let in. The door was already open to everyone.",
+   "Nobody is welcomed because they turn out to be useful. Quilla belongs because she is Quilla."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), une grande couverture ou un drap, de la ficelle ou du ruban, des pinces à linge, des lanternes en papier",
+  "summary": "Quilla, une jeune porc-épic timide, arrive à Bramble Hollow juste quand le vent froid se lève. Les animaux se tiennent chaud serrés sous le Grand Chêne, mais quand Quilla demande à les rejoindre, ils s’écartent : « Trop piquante ! » Bodie le blaireau a peur, mais il traverse la prairie et s’assoit à côté d’elle. Quilla décide d’arrêter d’attendre qu’on l’invite. Ensemble, ils construisent leur propre cabane bien chaude, avec ses piquants tombés comme épingles, et un écureuil, une souris et une taupe les rejoignent. Quand quelqu’un demande pour qui est le Cocon, Quilla répond : « Pour tout le monde. »",
+  "bigIdea": "S’il n’y a pas de place pour toi, tu peux créer un lieu, puis y faire de la place pour tout le monde, même pour ceux qui t’ont laissé de côté.",
+  "theme": "S’il n’y a pas de place pour toi, construis un lieu avec de la place pour tous.",
+  "refrain": "Creuse, boucle, cocon !",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Beaucoup de traditions ont des mots pour la chaleur d’appartenir qui naît de petits gestes gentils, comme le jeong en Corée, et pour une communauté qui fait de la place à chaque famille.",
+  "words": [
+   {"word": "douillet", "meaning": "chaud, confortable et agréable", "cue": "serrez-vous dans vos bras en souriant"},
+   {"word": "timide", "meaning": "un peu effrayé de parler ou de participer", "cue": "cachez-vous derrière vos mains"},
+   {"word": "prairie", "meaning": "un grand champ d’herbe et de fleurs", "cue": "balayez la main à plat et largement"},
+   {"word": "liane", "meaning": "une longue plante souple qui grimpe", "cue": "faites onduler votre bras vers le haut"},
+   {"word": "bienvenue", "meaning": "content qu’une personne entre", "cue": "ouvrez grand les bras"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Que font les animaux ? Comment ont-ils l’air ?",
+   "Demandez : As-tu déjà été nouveau quelque part, dans une nouvelle classe ou une nouvelle maison ? Qu’as-tu ressenti ? Prenez quelques réponses avec douceur.",
+   "Apprenez le refrain avec des gestes : creuse (creusez avec les mains), boucle (faites un cercle avec le bras), cocon (serrez-vous dans vos bras). « Creuse, boucle, cocon ! »"
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Quilla arrive ; ses piquants se dressent quand elle est timide.", "ask": "Comment se sent Quilla, à ton avis, en étant nouvelle ?", "listen": "timide, nerveuse, effrayée, excitée"},
+   {"spread": 4, "moment": "Tout le monde s’écarte ; Quilla s’assoit seule.", "ask": "Comment Quilla s’est-elle sentie au bord de la prairie ?", "listen": "triste, seule, mise de côté, froid"},
+   {"spread": 5, "moment": "Le ventre de Bodie fait des bonds, mais il traverse la prairie.", "ask": "Pourquoi était-ce courageux pour Bodie d’aller s’asseoir avec elle ?", "listen": "il avait peur que les autres l’évitent lui aussi"},
+   {"spread": 6, "moment": "Quilla : elle en a assez d’attendre qu’on l’invite.", "ask": "Qu’a décidé Quilla au lieu d’attendre ?", "listen": "construire leur propre lieu bien chaud"},
+   {"spread": 7, "moment": "Un piquant tombé devient une épingle.", "ask": "À quoi servaient les piquants de Quilla ?", "listen": "d’épingles pour tenir les murs"},
+   {"spread": 8, "moment": "Hazel demande si elle peut aider.", "ask": "Pourquoi les autres voulaient-ils participer, à ton avis ?", "listen": "ça avait l’air amusant, ils voulaient aider"},
+   {"spread": 10, "moment": "« C’est pour qui ? » « Pour tout le monde. »", "ask": "Pourquoi Quilla a-t-elle dit que le Cocon était pour tout le monde ?", "listen": "elle se souvenait d’avoir été mise de côté, elle ne voulait pas que d’autres le vivent"},
+   {"spread": 11, "moment": "Les jumeaux lapins s’excusent.", "ask": "Comment se sentent les jumeaux devant la porte ?", "listen": "désolés, inquiets, pleins d’espoir"}
+  ],
+  "after": [
+   {"q": "Comment Quilla s’est-elle sentie au bord de la prairie ?", "a": "Seule, triste, froid, mise de côté. Acceptez tous les mots d’émotion."},
+   {"q": "Pourquoi était-ce courageux pour Bodie d’aller s’asseoir avec elle ?", "a": "Il avait peur que les autres s’écartent de lui aussi."},
+   {"q": "Qu’a décidé Quilla au lieu d’attendre ?", "a": "Construire son propre lieu chaud avec Bodie."},
+   {"q": "Pourquoi a-t-elle dit que le Cocon était pour tout le monde ?", "a": "Elle savait ce que ça fait d’être mise de côté."},
+   {"q": "Y a-t-il quelqu’un qui aimerait que tu t’assoies avec lui ?", "a": "Toutes les réponses. Invitez les enfants à essayer au dîner ou à la récréation."}
+  ],
+  "activities": [
+   {"title": "Construire un Cocon de classe", "time": "20 minutes", "group": "Toute la classe", "materials": "Un grand drap, des chaises, de la ficelle, des pinces à linge", "steps": "Construisez une cabane sur des chaises, avec les pinces comme « piquants ». Chacun a une tâche : creuse (faire le sol), boucle (attacher la ficelle), cocon (rendre l’intérieur douillet). Faites une pancarte pour la porte : « Pour tout le monde. »"},
+   {"title": "Qui est au bord ?", "time": "10 minutes", "group": "Toute la classe", "materials": "Aucun", "steps": "Parlez des signes qu’un enfant se sent mis de côté (assis seul, tête baissée). Pratiquez ce qu’a fait Bodie : marcher vers lui, s’asseoir, dire « Bonjour »."},
+   {"title": "Lanternes glands", "time": "15 minutes", "group": "Individuel", "materials": "Du papier, des crayons, de la ficelle", "steps": "Fabriquez une petite lanterne en papier et écrivez ou dessinez une façon de faire de la place à un nouveau. Accrochez-les près de la porte de la classe."}
+  ],
+  "science": {
+   "text": "Les piquants du porc-épic sont des poils spéciaux et raides. Le porc-épic ne peut pas les lancer, mais les piquants se détachent facilement. Certains porcs-épics, comme le porc-épic d’Amérique qui vit au Canada, grimpent très bien aux arbres. Les blaireaux européens vivent en famille dans des terriers souterrains pleins de tunnels et de chambres. Les taupes passent presque toute leur vie sous terre et creusent avec leurs larges pattes avant.",
+   "link": "/heroes/the-snug",
+   "linkText": "Découvrir les vrais animaux des bois"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Enseignez « Bonjour », « Je peux aider ? » et « Entre ! » avec des gestes. Le refrain a trois mots d’action : tout le monde peut le dire."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 4, 6 et 10). Jouez « s’écarter » et « s’asseoir à côté » avec des marionnettes."},
+   {"who": "Enfants nouvellement arrivés", "how": "Cette histoire convient à une nouvelle école ou un déménagement. Associez un nouvel élève à un camarade, et faites-les construire ensemble le Cocon de classe."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Invite quelqu’un à participer, ou s’assoit avec un enfant seul."},
+   {"frame": "SRWB", "text": "Nomme ce qu’on ressent quand on est mis de côté et quand on est accueilli."},
+   {"frame": "PSI", "text": "Aide à planifier et construire un espace partagé avec d’autres."},
+   {"frame": "DLMB", "text": "Utilise des formes et des matériaux (rond, boucle, nouer) pour construire."}
+  ],
+  "care": [
+   "Certains enfants de votre classe sont peut-être ceux du bord de la prairie. Lisez avec douceur et ne désignez jamais personne.",
+   "Les excuses des lapins sont une belle réparation, pas la raison pour laquelle ils entrent. La porte était déjà ouverte à tous.",
+   "Personne n’est accueilli parce qu’il se révèle utile. Quilla a sa place parce qu’elle est Quilla."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The Snug, a story about belonging. Quilla the porcupine is left out, so she builds a warm place of her own, and makes it open to everyone. At home, talk with your child about a time they felt new or left out, and about one way they could make room for someone else. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Le Cocon, une histoire sur le sentiment d’appartenance. Quilla la porc-épic est mise de côté, alors elle construit son propre lieu bien chaud, ouvert à tout le monde. À la maison, parlez avec votre enfant d’une fois où il s’est senti nouveau ou mis de côté, et d’une façon de faire de la place à quelqu’un d’autre. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre sentirse parte de un grupo. A Quilla, la puercoespín, la dejan de lado, así que construye su propio lugar cálido y lo abre para todos. En casa, hablen de una vez en que su hijo o hija se sintió nuevo o excluido, y de una forma de hacer lugar a otra persona. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über das Dazugehören gelesen. Das Stachelschwein Quilla wird ausgeschlossen, also baut es sich einen eigenen warmen Ort und öffnet ihn für alle. Sprechen Sie zu Hause mit Ihrem Kind über ein Mal, als es neu war oder sich ausgeschlossen fühlte, und darüber, wie es selbst Platz für andere machen kann. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sul sentirsi parte di un gruppo. Quilla, la piccola istrice, viene lasciata da parte, così costruisce un posto caldo tutto suo e lo apre a tutti. A casa, parlate con vostro figlio o vostra figlia di una volta in cui si è sentito nuovo o escluso, e di un modo per fare spazio a qualcun altro. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

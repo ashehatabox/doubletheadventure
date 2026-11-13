@@ -1,0 +1,141 @@
+{
+ "book": "the-littlest-guardian",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["BC", "SRWB", "DLMB", "PSI"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), small sticks or paper strips, white paper shells, a tape path on the floor",
+  "summary": "Tama is the littlest of the little blue penguins on a beach in New Zealand. After a storm covers the colony’s path home with seaweed and driftwood, everyone grumbles but nobody cleans it, and Tama says, ‘It’s not my mess.’ Then he helps a tiny chick over a log and lies awake thinking of the grandmothers who walked this path and the chicks who will walk it one day. He decides to look after it, starting little: one stick, then two. His kiwi friend Aroha helps, three chicks join in, and under the moon the whole colony walks home and nobody trips.",
+  "bigIdea": "Look after the places that look after you, a little every day, even if the mess isn’t yours.",
+  "theme": "Look after the world, the way it looks after you.",
+  "refrain": "Pitter-pat, pitter-pat.",
+  "origin": "In Aotearoa New Zealand, Māori speak of kaitiakitanga: being a guardian of the land, the sea and living things, looking after them as those before us did, so those who come after can love them too.",
+  "words": [
+   {"word": "path", "meaning": "a little track you walk along", "cue": "walk two fingers across your arm"},
+   {"word": "storm", "meaning": "strong wind and rain", "cue": "wave your arms like wind"},
+   {"word": "driftwood", "meaning": "wood the sea brings onto the beach", "cue": "hold your arms out like a log"},
+   {"word": "colony", "meaning": "a big group of animals that live together", "cue": "wave your arms to show lots of friends"},
+   {"word": "look after", "meaning": "to take care of something", "cue": "hug your arms around something"}
+  ],
+  "before": [
+   "Show the cover. Ask: What kind of bird is this? Have you ever seen a penguin this small? Where do you think it lives?",
+   "Ask: What is a place you love? Who looks after it? Take a few answers.",
+   "Teach the refrain: pat your knees softly like little penguin feet. ‘Pitter-pat, pitter-pat.’"
+  ],
+  "pauses": [
+   {"spread": 2, "moment": "The penguins waddle home up the sandy path.", "ask": "Why is the path important to the penguins?", "listen": "it takes them home, to their burrows"},
+   {"spread": 4, "moment": "A storm covers the path; everyone grumbles.", "ask": "Who should clean it up?", "listen": "someone, everyone, the penguins"},
+   {"spread": 5, "moment": "Tama says ‘It’s not my mess’, then helps a stuck chick.", "ask": "Why did Tama say ‘It’s not my mess’?", "listen": "he didn’t make it, it’s not his job"},
+   {"spread": 6, "moment": "Tama lies awake thinking of grandmothers and chicks.", "ask": "What changed Tama’s mind?", "listen": "the chick, his grandma walked here, future chicks", "probe": "Does it matter whose mess it is?"},
+   {"spread": 7, "moment": "‘Then I’ll start little.’", "ask": "How can someone very small make a big difference?", "listen": "a little at a time, one stick, every day"},
+   {"spread": 8, "moment": "Aroha helps; nobody else notices.", "ask": "Why did Tama keep going when nobody noticed?", "listen": "he cared about the path, not about praise"},
+   {"spread": 10, "moment": "Three chicks ask to help.", "ask": "What did Tama teach the chicks?", "listen": "start little, one stick each"},
+   {"spread": 11, "moment": "The colony walks home; nobody trips.", "ask": "How do you think Tama feels?", "listen": "proud, happy, his heart is as big as the sea"}
+  ],
+  "after": [
+   {"q": "Why did Tama say ‘It’s not my mess’ at first?", "a": "He didn’t make it, so he didn’t think it was his job."},
+   {"q": "What made him change his mind?", "a": "Helping the chick and thinking about those who came before and after."},
+   {"q": "How can someone very small make a big difference?", "a": "By starting little and doing a bit every day."},
+   {"q": "Why did Tama keep going even when nobody noticed?", "a": "Because he cared about the path and everyone who uses it."},
+   {"q": "What place do you love that you could look after?", "a": "Any answer. Make a class list of places to care for."}
+  ],
+  "activities": [
+   {"title": "Our classroom path", "time": "10 minutes", "group": "Whole class", "materials": "A tape path, soft paper ‘sticks’ and ‘seaweed’", "steps": "Scatter soft paper pieces on a tape path. Each child picks up one piece at a time, saying ‘start little’, until the path is clear. Then waddle along it saying ‘pitter-pat’."},
+   {"title": "Glowing shell edges", "time": "15 minutes", "group": "Individual", "materials": "White paper, scissors, a dark display board", "steps": "Cut and decorate white shells. Line the edges of a paper path on the board so ‘everyone can find their way home’."},
+   {"title": "Little guardians job", "time": "5 minutes a day for a week", "group": "Whole class", "materials": "A chart", "steps": "Choose one small place in the classroom or yard to look after every day (the book corner, a planter). Tick the chart each day. Talk about how it looks at the end of the week."}
+  ],
+  "science": {
+   "text": "Little blue penguins, called kororā in Māori, are the smallest penguins in the world, about 30 cm tall. They live around New Zealand and southern Australia, fish at sea during the day, and come ashore after dark, walking in groups to their burrows. Dogs, cats and traffic near beaches can harm them. Kiwi are birds found only in New Zealand; they can’t fly, come out at night and have nostrils at the very tip of their long beaks.",
+   "link": "/heroes/the-littlest-guardian",
+   "linkText": "Meet the real penguins and kiwi"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Teach the phrase ‘start little’ with a gesture (pinch your fingers). The refrain is a sound, so everyone can join in."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 4, 6 and 11). Act out the tidy path with real objects before reading."},
+   {"who": "Mixed ages and older children", "how": "Older children make a ‘before and after’ drawing of a place they looked after, and teach a younger buddy how to start little."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Helps look after a shared space, even if they didn’t make the mess."},
+   {"frame": "SRWB", "text": "Keeps up a small job over several days."},
+   {"frame": "DLMB", "text": "Tells one real fact about little blue penguins or kiwi."},
+   {"frame": "PSI", "text": "Explains how small actions every day add up."}
+  ],
+  "care": [
+   "Safety first for any tidy-up outdoors: gloves, a grown-up, and never touch anything sharp, glass, needles or fishing line.",
+   "Don’t blame people for the mess or lecture about pollution. In the story, the mess comes from a storm.",
+   "Kaitiakitanga is a Māori idea. Share it as their word and value, simply and respectfully, and invite Māori families to share if they wish."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), des petits bâtons ou des bandes de papier, des coquillages en papier blanc, un chemin de ruban adhésif au sol",
+  "summary": "Tama est le plus petit des manchots bleus d’une plage de Nouvelle-Zélande. Après une tempête qui couvre le chemin de la colonie d’algues et de bois flotté, tout le monde ronchonne mais personne ne nettoie, et Tama dit : « Ce n’est pas mon désordre. » Puis il aide un petit poussin à passer un tronc, et il reste éveillé en pensant aux grands-mères qui ont marché sur ce chemin et aux poussins qui y marcheront un jour. Il décide d’en prendre soin, en commençant petit : un bâton, puis deux. Son amie Aroha la kiwi l’aide, trois poussins s’y mettent, et sous la lune toute la colonie rentre sans que personne ne trébuche.",
+  "bigIdea": "Prends soin des lieux qui prennent soin de toi, un peu chaque jour, même si le désordre n’est pas le tien.",
+  "theme": "Prends soin du monde, comme il prend soin de toi.",
+  "refrain": "Tapi-tapa, tapi-tapa.",
+  "origin": "En Aotearoa Nouvelle-Zélande, les Māori parlent de kaitiakitanga : être gardien de la terre, de la mer et des êtres vivants, en prendre soin comme l’ont fait ceux d’avant, pour que ceux d’après puissent les aimer aussi.",
+  "words": [
+   {"word": "chemin", "meaning": "une petite piste sur laquelle on marche", "cue": "faites marcher deux doigts sur votre bras"},
+   {"word": "tempête", "meaning": "un vent fort avec de la pluie", "cue": "agitez les bras comme le vent"},
+   {"word": "bois flotté", "meaning": "du bois que la mer apporte sur la plage", "cue": "tendez les bras comme un tronc"},
+   {"word": "colonie", "meaning": "un grand groupe d’animaux qui vivent ensemble", "cue": "agitez les bras pour montrer beaucoup d’amis"},
+   {"word": "prendre soin", "meaning": "s’occuper de quelque chose avec attention", "cue": "serrez quelque chose dans vos bras"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Quel est cet oiseau ? As-tu déjà vu un manchot aussi petit ? Où vit-il, à ton avis ?",
+   "Demandez : Quel est un endroit que tu aimes ? Qui en prend soin ? Prenez quelques réponses.",
+   "Apprenez le refrain : tapotez doucement vos genoux comme de petites pattes de manchot. « Tapi-tapa, tapi-tapa. »"
+  ],
+  "pauses": [
+   {"spread": 2, "moment": "Les manchots remontent le chemin de sable.", "ask": "Pourquoi le chemin est-il important pour les manchots ?", "listen": "il les ramène à la maison, à leurs terriers"},
+   {"spread": 4, "moment": "Une tempête couvre le chemin ; tout le monde ronchonne.", "ask": "Qui devrait nettoyer ?", "listen": "quelqu’un, tout le monde, les manchots"},
+   {"spread": 5, "moment": "Tama dit que ce n’est pas son désordre, puis aide un poussin.", "ask": "Pourquoi Tama dit-il que ce n’est pas son désordre ?", "listen": "ce n’est pas lui qui l’a fait, ce n’est pas son travail"},
+   {"spread": 6, "moment": "Tama pense aux grands-mères et aux poussins.", "ask": "Qu’est-ce qui a fait changer d’avis Tama ?", "listen": "le poussin, sa grand-mère est passée ici, les futurs poussins", "probe": "Est-ce important de savoir à qui est le désordre ?"},
+   {"spread": 7, "moment": "« Alors je commencerai petit. »", "ask": "Comment quelqu’un de très petit peut-il faire une grande différence ?", "listen": "petit à petit, un bâton, chaque jour"},
+   {"spread": 8, "moment": "Aroha aide ; personne d’autre ne remarque.", "ask": "Pourquoi Tama continue-t-il même si personne ne le remarque ?", "listen": "il tient au chemin, pas aux compliments"},
+   {"spread": 10, "moment": "Trois poussins veulent aider.", "ask": "Qu’apprend Tama aux poussins ?", "listen": "commencer petit, un bâton chacun"},
+   {"spread": 11, "moment": "La colonie rentre ; personne ne trébuche.", "ask": "Comment se sent Tama, à ton avis ?", "listen": "fier, heureux, son cœur est grand comme la mer"}
+  ],
+  "after": [
+   {"q": "Pourquoi Tama disait-il d’abord que ce n’était pas son désordre ?", "a": "Ce n’était pas lui qui l’avait fait, alors il ne pensait pas que c’était son travail."},
+   {"q": "Qu’est-ce qui l’a fait changer d’avis ?", "a": "Aider le poussin et penser à ceux d’avant et d’après."},
+   {"q": "Comment quelqu’un de très petit peut-il faire une grande différence ?", "a": "En commençant petit et en faisant un peu chaque jour."},
+   {"q": "Pourquoi Tama a-t-il continué même si personne ne le remarquait ?", "a": "Parce qu’il tenait au chemin et à tous ceux qui l’utilisent."},
+   {"q": "Quel endroit que tu aimes pourrais-tu protéger ?", "a": "Toutes les réponses. Faites une liste de classe."}
+  ],
+  "activities": [
+   {"title": "Le chemin de la classe", "time": "10 minutes", "group": "Toute la classe", "materials": "Un chemin de ruban adhésif, des « bâtons » et des « algues » en papier", "steps": "Éparpillez des morceaux de papier sur le chemin. Chaque enfant ramasse un morceau à la fois en disant « commence petit », jusqu’à ce que le chemin soit propre. Puis marchez dessus en disant « tapi-tapa »."},
+   {"title": "Des coquillages qui brillent", "time": "15 minutes", "group": "Individuel", "materials": "Papier blanc, ciseaux, un tableau d’affichage sombre", "steps": "Découpez et décorez des coquillages blancs. Bordez un chemin en papier sur le tableau pour que « tout le monde retrouve son chemin »."},
+   {"title": "Petits gardiens", "time": "5 minutes par jour pendant une semaine", "group": "Toute la classe", "materials": "Une affiche", "steps": "Choisissez un petit coin de la classe ou de la cour à soigner chaque jour (le coin lecture, une jardinière). Cochez l’affiche chaque jour. Parlez du résultat à la fin de la semaine."}
+  ],
+  "science": {
+   "text": "Les manchots bleus, appelés kororā en māori, sont les plus petits manchots du monde, environ 30 cm. Ils vivent autour de la Nouvelle-Zélande et du sud de l’Australie, pêchent en mer le jour et reviennent à terre après la tombée de la nuit, en marchant en groupe vers leurs terriers. Les chiens, les chats et la circulation près des plages peuvent leur faire du mal. Les kiwis sont des oiseaux qu’on ne trouve qu’en Nouvelle-Zélande : ils ne volent pas, sortent la nuit et ont les narines au bout de leur long bec.",
+   "link": "/heroes/the-littlest-guardian",
+   "linkText": "Découvrir les vrais manchots et kiwis"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Enseignez « commence petit » avec un geste (pincez les doigts). Le refrain est un son : tout le monde peut le dire."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 4, 6 et 11). Jouez le nettoyage du chemin avec de vrais objets avant la lecture."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands dessinent un « avant / après » d’un lieu qu’ils ont soigné, et apprennent à un plus petit à commencer petit."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Aide à prendre soin d’un espace partagé, même s’il n’a pas fait le désordre."},
+   {"frame": "SRWB", "text": "Tient une petite tâche pendant plusieurs jours."},
+   {"frame": "DLMB", "text": "Donne un vrai fait sur les manchots bleus ou les kiwis."},
+   {"frame": "PSI", "text": "Explique comment de petites actions chaque jour s’additionnent."}
+  ],
+  "care": [
+   "Sécurité d’abord pour tout nettoyage dehors : des gants, un adulte, et ne jamais toucher d’objets coupants, de verre, d’aiguilles ou de fil de pêche.",
+   "Ne blâmez personne pour le désordre et ne faites pas la morale sur la pollution. Dans l’histoire, le désordre vient d’une tempête.",
+   "La kaitiakitanga est une idée māori. Présentez-la comme leur mot et leur valeur, simplement et avec respect, et invitez les familles māori à partager si elles le souhaitent."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The Littlest Guardian, a story about looking after the places we love. Tama, the littlest blue penguin, clears his colony’s path one stick at a time, even though it isn’t his mess. At home, choose one small place to look after together this week, like a plant or a shelf, and start little. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Le Plus Petit Gardien, une histoire sur le soin des lieux que l’on aime. Tama, le plus petit des manchots bleus, dégage le chemin de sa colonie un bâton à la fois, même si ce n’est pas son désordre. À la maison, choisissez ensemble un petit endroit à soigner cette semaine, comme une plante ou une étagère, et commencez petit. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre cuidar los lugares que amamos. Tama, el pingüino azul más pequeño, despeja el camino de su colonia palito a palito, aunque el desorden no sea suyo. En casa, elijan juntos un lugar pequeño para cuidar esta semana, como una planta o un estante, y empiecen poco a poco. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte darüber gelesen, auf die Orte aufzupassen, die wir lieben. Tama, der kleinste Zwergpinguin, räumt den Weg seiner Kolonie Stöckchen für Stöckchen frei, obwohl die Unordnung nicht von ihm ist. Suchen Sie sich zu Hause diese Woche gemeinsam einen kleinen Ort zum Pflegen aus, etwa eine Pflanze oder ein Regal, und fangen Sie klein an. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sul prendersi cura dei luoghi che amiamo. Tama, il più piccolo dei pinguini blu, libera il sentiero della sua colonia un rametto alla volta, anche se il disordine non è suo. A casa, scegliete insieme un piccolo posto da curare questa settimana, come una pianta o uno scaffale, e cominciate in piccolo. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

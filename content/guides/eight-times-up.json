@@ -1,0 +1,141 @@
+{
+ "book": "eight-times-up",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["SRWB", "PSI", "BC", "DLMB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a roly-poly toy or a ball of clay with a weight in the bottom, cushions, a chart for counting",
+  "summary": "Yuki, a little mountain goat in the snowy mountains of Japan, dreams of climbing Cloud Rock to watch the sunrise. Her friend Taro the snow monkey has a little red toy that always pops back up. Yuki falls on her first try and wonders if she is a climber at all. But each fall teaches her something: shiny rocks slip, little stones roll, rushing trips. She rests, practises, shares what she has learned with Hina the snow bird, and after her seventh and biggest fall, she gets up an eighth time and reaches the top as the sun rises.",
+  "bigIdea": "Every fall teaches you something, and getting up again is up to you. Resting is allowed.",
+  "theme": "Fall seven times, get up eight.",
+  "refrain": "Wobble, wobble… POP!",
+  "origin": "In Japan there is an old saying, nana korobi ya oki: fall down seven times, get up eight. Little roly-poly dolls that always pop back up, like the Daruma and the okiagari-koboshi of Aizu, have carried that saying for hundreds of years.",
+  "words": [
+   {"word": "climb", "meaning": "to go up using your hands and feet", "cue": "move your hands up like a ladder"},
+   {"word": "slip", "meaning": "to slide and lose your balance", "cue": "slide one hand off the other"},
+   {"word": "practise", "meaning": "to do something again and again to get better", "cue": "tap your fist three times"},
+   {"word": "rest", "meaning": "to stop and be still for a while", "cue": "lay your head on your hands"},
+   {"word": "sunrise", "meaning": "when the sun comes up in the morning", "cue": "raise one hand slowly like the sun"}
+  ],
+  "before": [
+   "Show the cover. Ask: Where is Yuki? What do you think she wants to do?",
+   "Ask: What is something that was hard at first but you can do now? How many tries did it take? Take a few answers.",
+   "Teach the refrain: rock side to side, then pop up tall. ‘Wobble, wobble… POP!’"
+  ],
+  "pauses": [
+   {"spread": 2, "moment": "Yuki watches the big goats on Cloud Rock.", "ask": "What does Yuki dream of doing?", "listen": "climbing to the top, watching the sunrise"},
+   {"spread": 4, "moment": "Yuki slips and says ‘Maybe I’m just not a climber.’", "ask": "How does Yuki feel after her first fall?", "listen": "sad, embarrassed, hot cheeks, wants to give up"},
+   {"spread": 5, "moment": "Yuki says ‘Shiny rocks are slippery.’", "ask": "What did the first fall teach her?", "listen": "shiny rocks slip, step on crunchy snow"},
+   {"spread": 6, "moment": "After four falls, Yuki rests.", "ask": "Why do you think she rested before trying again?", "listen": "she was tired, resting helps you think"},
+   {"spread": 8, "moment": "Yuki sits beside Hina, who is crying.", "ask": "How does Yuki help Hina?", "listen": "she sits with her, tells her what she learned"},
+   {"spread": 9, "moment": "Fall number seven, the biggest of all.", "ask": "What do you think Yuki will do now?", "listen": "get up, try again, use what she learned"},
+   {"spread": 10, "moment": "The toy pops up; Yuki leans in to the mountain.", "ask": "What helped Yuki get up this time?", "listen": "the toy, Taro, everything she learned"},
+   {"spread": 12, "moment": "Yuki still falls sometimes, and laughs.", "ask": "Why does Yuki laugh now when she falls?", "listen": "she knows falling teaches her, it is okay"}
+  ],
+  "after": [
+   {"q": "How did Yuki feel after her first fall?", "a": "Sad, hot-cheeked, unsure. Accept any feeling word."},
+   {"q": "What did each fall teach her?", "a": "Shiny rocks slip, little stones roll, rushing trips, big jumps miss."},
+   {"q": "Why do you think she rested before trying again?", "a": "She was tired, and resting gave her time to think."},
+   {"q": "How did Yuki help Hina?", "a": "She sat with her and shared what she had learned."},
+   {"q": "What is something you are learning that makes you fall sometimes?", "a": "Any answer: riding a bike, writing a name, tying shoes."}
+  ],
+  "activities": [
+   {"title": "Make a roly-poly", "time": "20 minutes", "group": "Individual", "materials": "Half a plastic egg or a paper cup, play dough or a coin, paper and crayons", "steps": "Put a little weight in the round bottom and decorate it. Tip it over and watch it pop back up. Say ‘Wobble, wobble… POP!’ together."},
+   {"title": "What did the fall teach me?", "time": "10 minutes", "group": "Whole class", "materials": "Chart paper", "steps": "Make a chart like Yuki’s list. Children share one thing they tried, what went wrong, and what it taught them. Write each lesson as a short tip."},
+   {"title": "Cloud Rock climb", "time": "15 minutes", "group": "Small groups", "materials": "Cushions, a low bench, a soft mat", "steps": "Set up a safe obstacle path. Children try it, notice what made them wobble, and try again using a ‘tip’ (slow steps, small jumps). Celebrate every try, not only reaching the end."}
+  ],
+  "science": {
+   "text": "Japanese serows are goat-like animals found only in the mountain forests of Japan, and they are protected there as a special natural treasure. Snow monkeys, or Japanese macaques, live farther north than any other monkey, and some groups bathe in warm hot springs in winter. Rock ptarmigans are birds that turn white in winter; in Japan they live only in the high mountains and are endangered.",
+   "link": "/heroes/eight-times-up",
+   "linkText": "Meet the real animals of the Japanese mountains"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Count the falls together on fingers (one to eight). The refrain has a big action, so everyone can join in."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 4, 6 and 11). Show the roly-poly toy before reading so the idea of ‘popping back up’ is clear."},
+   {"who": "Children who get frustrated easily", "how": "Practise saying ‘What did that teach me?’ after small mistakes. Remind them that Yuki rested, and resting is allowed."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Tries again after a mistake, or takes a rest and then tries."},
+   {"frame": "PSI", "text": "Names one thing a mistake taught them."},
+   {"frame": "BC", "text": "Encourages a friend who is having a hard time."},
+   {"frame": "DLMB", "text": "Counts the falls to eight and back."}
+  ],
+  "care": [
+   "Getting up again doesn’t mean pushing through pain. Nobody is hurt in the story, and Yuki always lands in soft snow.",
+   "Some children feel big frustration when they fail. Keep the focus on what each try teaches, not on ‘never giving up’.",
+   "The saying and the dolls come from Japan. Share them simply, and invite Japanese families to bring a Daruma or tell the saying in Japanese if they wish."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), un culbuto ou une boule de pâte à modeler lestée, des coussins, une affiche pour compter",
+  "summary": "Yuki, une petite chèvre des montagnes enneigées du Japon, rêve de grimper sur le Rocher des Nuages pour voir le lever du soleil. Son ami Taro le macaque a un petit culbuto rouge qui se relève toujours. Yuki tombe au premier essai et se demande si elle sait vraiment grimper. Mais chaque chute lui apprend quelque chose : les rochers brillants glissent, les petites pierres roulent, se dépêcher fait trébucher. Elle se repose, s’entraîne, partage ce qu’elle a appris avec Hina le lagopède, et après sa septième chute, la plus grosse, elle se relève une huitième fois et arrive au sommet au lever du soleil.",
+  "bigIdea": "Chaque chute t’apprend quelque chose, et se relever, c’est à toi de choisir. On a le droit de se reposer.",
+  "theme": "Tombe sept fois, relève-toi huit.",
+  "refrain": "Dodo, dodo… POP !",
+  "origin": "Au Japon, un vieux proverbe dit nana korobi ya oki : tombe sept fois, relève-toi huit. De petites poupées culbutos qui se relèvent toujours, comme le Daruma et l’okiagari-koboshi d’Aizu, portent ce proverbe depuis des centaines d’années.",
+  "words": [
+   {"word": "grimper", "meaning": "monter en s’aidant des mains et des pieds", "cue": "montez les mains comme sur une échelle"},
+   {"word": "glisser", "meaning": "partir en glissade et perdre l’équilibre", "cue": "faites glisser une main sur l’autre"},
+   {"word": "s’entraîner", "meaning": "refaire encore et encore pour progresser", "cue": "tapez trois fois du poing"},
+   {"word": "se reposer", "meaning": "s’arrêter et rester calme un moment", "cue": "posez la tête sur vos mains"},
+   {"word": "lever du soleil", "meaning": "quand le soleil apparaît le matin", "cue": "levez une main lentement comme le soleil"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Où est Yuki ? Que veut-elle faire, à ton avis ?",
+   "Demandez : Qu’est-ce qui était difficile au début, mais que tu sais faire maintenant ? Combien d’essais t’a-t-il fallu ? Prenez quelques réponses.",
+   "Apprenez le refrain : balancez-vous de gauche à droite, puis levez-vous bien droit. « Dodo, dodo… POP ! »"
+  ],
+  "pauses": [
+   {"spread": 2, "moment": "Yuki regarde les grandes chèvres sur le Rocher des Nuages.", "ask": "De quoi rêve Yuki ?", "listen": "grimper en haut, voir le lever du soleil"},
+   {"spread": 4, "moment": "Yuki glisse et doute d’elle.", "ask": "Comment se sent Yuki après sa première chute ?", "listen": "triste, gênée, les joues chaudes, veut abandonner"},
+   {"spread": 5, "moment": "Yuki dit que les rochers brillants glissent.", "ask": "Qu’est-ce que la première chute lui a appris ?", "listen": "les rochers brillants glissent, marcher sur la neige qui craque"},
+   {"spread": 6, "moment": "Après quatre chutes, Yuki se repose.", "ask": "Pourquoi s’est-elle reposée avant de réessayer, à ton avis ?", "listen": "elle était fatiguée, se reposer aide à réfléchir"},
+   {"spread": 8, "moment": "Yuki s’assoit à côté de Hina qui pleure.", "ask": "Comment Yuki aide-t-elle Hina ?", "listen": "elle s’assoit avec elle, lui dit ce qu’elle a appris"},
+   {"spread": 9, "moment": "La septième chute, la plus grosse.", "ask": "Que va faire Yuki maintenant, à ton avis ?", "listen": "se relever, réessayer, utiliser ce qu’elle a appris"},
+   {"spread": 10, "moment": "Le culbuto se relève ; Yuki se colle à la montagne.", "ask": "Qu’est-ce qui a aidé Yuki à se relever cette fois ?", "listen": "le culbuto, Taro, tout ce qu’elle a appris"},
+   {"spread": 12, "moment": "Yuki tombe encore parfois, et elle rit.", "ask": "Pourquoi Yuki rit-elle maintenant quand elle tombe ?", "listen": "elle sait que tomber lui apprend, ce n’est pas grave"}
+  ],
+  "after": [
+   {"q": "Comment Yuki s’est-elle sentie après sa première chute ?", "a": "Triste, les joues chaudes, pas sûre d’elle. Acceptez tous les mots d’émotion."},
+   {"q": "Qu’est-ce que chaque chute lui a appris ?", "a": "Les rochers brillants glissent, les petites pierres roulent, se dépêcher fait trébucher, les grands sauts ratent."},
+   {"q": "Pourquoi s’est-elle reposée avant de réessayer ?", "a": "Elle était fatiguée, et se reposer lui a donné le temps de réfléchir."},
+   {"q": "Comment Yuki a-t-elle aidé Hina ?", "a": "Elle s’est assise avec elle et lui a dit ce qu’elle avait appris."},
+   {"q": "Qu’apprends-tu en ce moment qui te fait tomber parfois ?", "a": "Toutes les réponses : le vélo, écrire son prénom, faire ses lacets."}
+  ],
+  "activities": [
+   {"title": "Fabriquer un culbuto", "time": "20 minutes", "group": "Individuel", "materials": "Une moitié d’œuf en plastique ou un gobelet, de la pâte à modeler ou une pièce, du papier et des crayons", "steps": "Mettez un petit poids dans le fond arrondi et décorez. Faites-le basculer et regardez-le se relever. Dites ensemble « Dodo, dodo… POP ! »"},
+   {"title": "Qu’est-ce que la chute m’a appris ?", "time": "10 minutes", "group": "Toute la classe", "materials": "Une grande feuille", "steps": "Faites une liste comme celle de Yuki. Les enfants partagent une chose qu’ils ont essayée, ce qui n’a pas marché et ce que ça leur a appris. Écrivez chaque leçon sous forme d’astuce."},
+   {"title": "L’ascension du Rocher des Nuages", "time": "15 minutes", "group": "Petits groupes", "materials": "Des coussins, un banc bas, un tapis", "steps": "Installez un petit parcours sûr. Les enfants l’essaient, remarquent ce qui les a fait vaciller, puis réessaient avec une « astuce » (pas lents, petits sauts). Félicitez chaque essai, pas seulement l’arrivée."}
+  ],
+  "science": {
+   "text": "Les serows du Japon sont des animaux proches des chèvres qui vivent seulement dans les forêts de montagne du Japon, où ils sont protégés comme un trésor naturel. Les macaques japonais vivent plus au nord que tous les autres singes, et certains groupes se baignent dans des sources chaudes en hiver. Les lagopèdes alpins sont des oiseaux qui deviennent blancs en hiver ; au Japon, ils vivent seulement en haute montagne et sont menacés.",
+   "link": "/heroes/eight-times-up",
+   "linkText": "Découvrir les vrais animaux des montagnes du Japon"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Comptez les chutes ensemble sur les doigts (de un à huit). Le refrain a un grand geste : tout le monde peut le faire."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 4, 6 et 11). Montrez le culbuto avant la lecture pour que l’idée de « se relever » soit claire."},
+   {"who": "Enfants qui se découragent vite", "how": "Pratiquez la phrase « Qu’est-ce que ça m’a appris ? » après de petites erreurs. Rappelez que Yuki s’est reposée, et qu’on a le droit de se reposer."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Réessaie après une erreur, ou se repose puis réessaie."},
+   {"frame": "PSI", "text": "Nomme une chose qu’une erreur lui a apprise."},
+   {"frame": "BC", "text": "Encourage un ami qui a du mal."},
+   {"frame": "DLMB", "text": "Compte les chutes jusqu’à huit et à rebours."}
+  ],
+  "care": [
+   "Se relever ne veut pas dire continuer malgré la douleur. Personne n’est blessé dans l’histoire, et Yuki tombe toujours dans la neige douce.",
+   "Certains enfants ressentent une grande frustration quand ils échouent. Mettez l’accent sur ce que chaque essai apprend, pas sur « ne jamais abandonner ».",
+   "Le proverbe et les poupées viennent du Japon. Présentez-les simplement, et invitez les familles japonaises à apporter un Daruma ou à dire le proverbe en japonais si elles le souhaitent."
+  ]
+ },
+ "letter": {
+  "en": "Today we read Eight Times Up, a story about falling and getting up again. Yuki the mountain goat falls seven times on her way to the top, and each fall teaches her something new. At home, when something goes wrong, ask your child, ‘What did that teach you?’ and remind them that resting is allowed too. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Huit fois debout, une histoire sur les chutes et l’art de se relever. Yuki la chèvre tombe sept fois en montant vers le sommet, et chaque chute lui apprend quelque chose. À la maison, quand quelque chose ne marche pas, demandez à votre enfant : « Qu’est-ce que ça t’a appris ? » et rappelez-lui qu’on a aussi le droit de se reposer. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre caerse y volver a levantarse. Yuki, la cabrita de montaña, se cae siete veces camino a la cima, y cada caída le enseña algo nuevo. En casa, cuando algo salga mal, pregunte a su hijo o hija: «¿Qué te enseñó eso?» y recuérdele que también está bien descansar. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über das Hinfallen und Wiederaufstehen gelesen. Die kleine Bergziege Yuki fällt auf dem Weg zum Gipfel sieben Mal hin, und jeder Sturz bringt ihr etwas Neues bei. Wenn zu Hause etwas schiefgeht, fragen Sie Ihr Kind: ‚Was hast du dabei gelernt?‘ und erinnern Sie es daran, dass Ausruhen auch erlaubt ist. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sul cadere e rialzarsi. Yuki, la capretta di montagna, cade sette volte salendo verso la cima, e ogni caduta le insegna qualcosa di nuovo. A casa, quando qualcosa va storto, chiedete a vostro figlio o vostra figlia: «Che cosa ti ha insegnato?» e ricordategli che anche riposarsi va bene. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

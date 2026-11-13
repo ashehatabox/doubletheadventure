@@ -1,0 +1,141 @@
+{
+ "book": "the-view-from-down-low",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["BC", "SRWB", "PSI", "DLMB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a step stool or chair, a tape measure, paper and crayons",
+  "summary": "Langa is the tallest young giraffe on a golden plain in Southern Africa, and from up high everything looks fine. He doesn’t notice the dust he kicks into his friend Themba the meerkat’s face, or that the little animals can’t reach the pods or keep up with his game. When Themba says, ‘You can’t see it from up there,’ Langa does a wobbly giraffe bow and asks, ‘Show me.’ Down low, he sees the world the way his friends do, listens to each of them, and helps. Later, he notices Themba quietly straining to see the sunset and lifts him up, so they share each other’s view.",
+  "bigIdea": "To understand a friend, go to where they are and see what they see. Listen first, then help.",
+  "theme": "When we truly see each other, we all grow taller.",
+  "refrain": "Clomp, clomp, clomp!",
+  "origin": "In Southern Africa, the Zulu, Xhosa and other Nguni peoples speak of Ubuntu: a person is a person through other people. The everyday Zulu greeting Sawubona means ‘we see you’, and the answer, Ngikhona, means ‘I am here’.",
+  "words": [
+   {"word": "tall", "meaning": "very high from top to bottom", "cue": "stretch your hand up high"},
+   {"word": "bend", "meaning": "to lean your body down", "cue": "bend over and touch your knees"},
+   {"word": "notice", "meaning": "to see or feel something you didn’t see before", "cue": "point to your eyes"},
+   {"word": "listen", "meaning": "to pay attention to what someone says", "cue": "cup your hand behind your ear"},
+   {"word": "view", "meaning": "what you can see from where you are", "cue": "make binoculars with your hands"}
+  ],
+  "before": [
+   "Show the cover. Ask: Who is tall and who is small? What do you think each of them can see?",
+   "Ask: Is there anything you can’t reach or see because you are small? Take a few answers.",
+   "Teach the refrain: stomp your feet loudly, ‘Clomp, clomp, clomp!’ Then practise it softly, on tiptoe. Listen for which one Langa uses."
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Themba sneezes in the dust; Langa says everything looks fine.", "ask": "Why doesn’t Langa notice Themba sneezing?", "listen": "his head is too high, he can’t hear or see down there"},
+   {"spread": 4, "moment": "‘Why don’t you just stretch?’", "ask": "Can the little animals reach the pods by stretching?", "listen": "no, they are too small"},
+   {"spread": 5, "moment": "‘You can’t see it from up there.’", "ask": "What does Themba mean?", "listen": "Langa can’t see how they feel from so high"},
+   {"spread": 6, "moment": "Langa does the wobbly bow: ‘Show me.’", "ask": "How did it feel for Langa to bend all the way down?", "listen": "wobbly, silly, hard, brave"},
+   {"spread": 7, "moment": "Dust puffs into Langa’s eyes.", "ask": "What did Langa learn down low?", "listen": "dust stings, the grass is a forest"},
+   {"spread": 8, "moment": "Langa listens to each friend.", "ask": "What problems did each friend have?", "listen": "steep bank, grass hides everything, pods too high"},
+   {"spread": 9, "moment": "Langa makes mud steps and walks softly.", "ask": "How did Langa help?", "listen": "steps, bent branches, soft steps"},
+   {"spread": 10, "moment": "Themba says nothing, but Langa notices.", "ask": "How did Langa know Themba wanted to see, even though he said nothing?", "listen": "he was on tiptoes, Langa knew the feeling now"}
+  ],
+  "after": [
+   {"q": "Why didn’t Langa notice that his friends were unhappy?", "a": "He was so tall that he couldn’t see or hear what was happening down low."},
+   {"q": "How did it feel for Langa to bend all the way down?", "a": "Wobbly and silly, but he wanted to know."},
+   {"q": "What did he learn when he was down low?", "a": "How dust, tall grass and the steep bank felt for his friends."},
+   {"q": "How did he know Themba wanted to see the sunset?", "a": "He saw Themba on tiptoe and remembered the feeling."},
+   {"q": "When could you ‘bend down’ to see how a friend feels?", "a": "Any answer: when a friend is quiet, sad, or left behind."}
+  ],
+  "activities": [
+   {"title": "Down-low walk", "time": "10 minutes", "group": "Whole class", "materials": "None", "steps": "Crawl around the classroom at meerkat height. What can you see? What can’t you reach? Then stand on a step stool (with a grown-up) and look down. Talk about how the room looked different."},
+   {"title": "Two views drawing", "time": "15 minutes", "group": "Pairs", "materials": "Paper folded in half, crayons", "steps": "On one half, draw what Langa sees from up high. On the other half, draw what Themba sees down low. Share with a partner."},
+   {"title": "We see you", "time": "5 minutes", "group": "Whole class", "materials": "None", "steps": "In circle, each child looks at the next child and says ‘I see you.’ The friend answers ‘I am here.’ Pass it around."}
+  ],
+  "science": {
+   "text": "Giraffes are the tallest land animals. They eat acacia leaves with long tongues, and to drink they must spread their front legs wide and bend their necks all the way down. Their two horn-like bumps are called ossicones. Meerkats are small mongooses that live in groups in the dry lands of southern Africa, and they take turns standing tall on guard. Leopard tortoises, guineafowl and warthogs share the same savanna.",
+   "link": "/heroes/the-view-from-down-low",
+   "linkText": "Meet the real animals of the savanna"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Use your body to show tall, small, up and down. The refrain is a sound, loud and soft, so everyone can join."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 5, 7 and 11). Do the down-low walk before reading so the idea is clear."},
+   {"who": "Mixed ages and older children", "how": "Older children pair with younger buddies and ‘bend down’ to read with them, asking what they see in the pictures."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Notices when a friend is quiet or left out, and checks in."},
+   {"frame": "SRWB", "text": "Listens to a friend before trying to help."},
+   {"frame": "PSI", "text": "Explains how Langa’s view and Themba’s view were different."},
+   {"frame": "DLMB", "text": "Compares heights using words like taller, shorter, higher, lower."}
+  ],
+  "care": [
+   "Langa is kind, not a bully. Keep the message that we all miss things until we look from someone else’s place.",
+   "Some children are smaller or use mobility aids. Keep the focus on seeing each other, never on any child’s size or body.",
+   "Ubuntu belongs to the peoples of Southern Africa. Share it simply and respectfully, and invite families from the region to share the greeting if they wish."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), un marchepied ou une chaise, un mètre ruban, du papier et des crayons",
+  "summary": "Langa est la plus grande jeune girafe d’une plaine dorée d’Afrique australe, et de là-haut, tout a l’air d’aller. Il ne remarque pas la poussière qu’il envoie dans la figure de son ami Themba le suricate, ni que les petits animaux n’atteignent pas les gousses et ne suivent pas son jeu. Quand Themba lui dit qu’il ne peut pas voir ça de là-haut, Langa fait une révérence de girafe toute tremblante et demande : « Montre-moi. » En bas, il voit le monde comme ses amis, les écoute un par un, puis les aide. Plus tard, il remarque Themba qui se hisse en silence pour voir le coucher du soleil, et il le soulève : chacun partage la vue de l’autre.",
+  "bigIdea": "Pour comprendre un ami, va là où il est et regarde ce qu’il voit. Écoute d’abord, puis aide.",
+  "theme": "Quand on se voit vraiment, on grandit tous.",
+  "refrain": "Pataclop, pataclop, pataclop !",
+  "origin": "En Afrique australe, les Zoulous, les Xhosas et d’autres peuples nguni parlent d’Ubuntu : une personne est une personne grâce aux autres. La salutation zouloue de tous les jours, Sawubona, veut dire « nous te voyons », et la réponse, Ngikhona, veut dire « je suis là ».",
+  "words": [
+   {"word": "grand", "meaning": "très haut, du haut jusqu’en bas", "cue": "tendez la main très haut"},
+   {"word": "se pencher", "meaning": "baisser son corps vers le bas", "cue": "penchez-vous et touchez vos genoux"},
+   {"word": "remarquer", "meaning": "voir ou sentir quelque chose qu’on n’avait pas vu", "cue": "montrez vos yeux"},
+   {"word": "écouter", "meaning": "faire attention à ce que quelqu’un dit", "cue": "mettez la main derrière l’oreille"},
+   {"word": "la vue", "meaning": "ce qu’on peut voir de là où on est", "cue": "faites des jumelles avec vos mains"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Qui est grand et qui est petit ? Que peut voir chacun, à ton avis ?",
+   "Demandez : Y a-t-il des choses que tu ne peux pas atteindre ou voir parce que tu es petit ? Prenez quelques réponses.",
+   "Apprenez le refrain : tapez fort des pieds, « Pataclop, pataclop, pataclop ! » Puis doucement, sur la pointe des pieds. Écoutez lequel Langa utilise."
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Themba éternue dans la poussière ; Langa dit que tout va bien.", "ask": "Pourquoi Langa ne remarque-t-il pas que Themba éternue ?", "listen": "sa tête est trop haute, il ne voit ni n’entend en bas"},
+   {"spread": 4, "moment": "Langa leur dit de s’étirer.", "ask": "Les petits animaux peuvent-ils atteindre les gousses en s’étirant ?", "listen": "non, ils sont trop petits"},
+   {"spread": 5, "moment": "Themba : « Tu ne peux pas le voir de là-haut. »", "ask": "Que veut dire Themba ?", "listen": "de si haut, Langa ne voit pas ce qu’ils ressentent"},
+   {"spread": 6, "moment": "La révérence tremblante : « Montre-moi. »", "ask": "Qu’a ressenti Langa en se penchant jusqu’en bas ?", "listen": "tremblant, ridicule, difficile, courageux"},
+   {"spread": 7, "moment": "La poussière entre dans les yeux de Langa.", "ask": "Qu’a appris Langa en bas ?", "listen": "la poussière pique, l’herbe est une forêt"},
+   {"spread": 8, "moment": "Langa écoute chaque ami.", "ask": "Quels problèmes avait chaque ami ?", "listen": "la berge trop raide, l’herbe cache tout, les gousses trop hautes"},
+   {"spread": 9, "moment": "Langa fait des marches dans la boue et marche doucement.", "ask": "Comment Langa a-t-il aidé ?", "listen": "des marches, des branches pliées, des pas doux"},
+   {"spread": 10, "moment": "Themba ne dit rien, mais Langa remarque.", "ask": "Comment Langa a-t-il su que Themba voulait voir, alors qu’il ne disait rien ?", "listen": "il était sur la pointe des pieds, Langa connaissait ce sentiment"}
+  ],
+  "after": [
+   {"q": "Pourquoi Langa ne remarquait-il pas que ses amis étaient malheureux ?", "a": "Il était si grand qu’il ne voyait pas et n’entendait pas ce qui se passait en bas."},
+   {"q": "Qu’a ressenti Langa en se penchant jusqu’en bas ?", "a": "C’était tremblant et un peu ridicule, mais il voulait savoir."},
+   {"q": "Qu’a-t-il appris en bas ?", "a": "Ce que la poussière, les hautes herbes et la berge raide faisaient à ses amis."},
+   {"q": "Comment a-t-il su que Themba voulait voir le coucher du soleil ?", "a": "Il a vu Themba sur la pointe des pieds et s’est souvenu de ce sentiment."},
+   {"q": "Quand pourrais-tu « te pencher » pour voir ce que ressent un ami ?", "a": "Toutes les réponses : quand un ami est silencieux, triste ou laissé derrière."}
+  ],
+  "activities": [
+   {"title": "La promenade d’en bas", "time": "10 minutes", "group": "Toute la classe", "materials": "Aucun", "steps": "Marchez à quatre pattes dans la classe, à hauteur de suricate. Que vois-tu ? Qu’est-ce que tu ne peux pas atteindre ? Puis montez sur un marchepied (avec un adulte) et regardez en bas. Parlez de la différence."},
+   {"title": "Dessin des deux vues", "time": "15 minutes", "group": "En duo", "materials": "Une feuille pliée en deux, des crayons", "steps": "D’un côté, dessinez ce que Langa voit de là-haut. De l’autre, ce que Themba voit d’en bas. Partagez avec un partenaire."},
+   {"title": "Nous te voyons", "time": "5 minutes", "group": "Toute la classe", "materials": "Aucun", "steps": "En cercle, chaque enfant regarde son voisin et dit « Je te vois. » Le voisin répond « Je suis là. » Faites le tour du cercle."}
+  ],
+  "science": {
+   "text": "Les girafes sont les plus grands animaux terrestres. Elles mangent les feuilles d’acacia avec leur longue langue et, pour boire, elles doivent écarter les pattes avant et baisser le cou jusqu’en bas. Leurs deux petites bosses en forme de cornes s’appellent des ossicônes. Les suricates sont de petites mangoustes qui vivent en groupe dans les terres sèches d’Afrique australe, et ils montent la garde chacun leur tour, debout bien droits. Les tortues léopards, les pintades et les phacochères partagent la même savane.",
+   "link": "/heroes/the-view-from-down-low",
+   "linkText": "Découvrir les vrais animaux de la savane"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Montrez avec le corps grand, petit, en haut, en bas. Le refrain est un son, fort ou doux : tout le monde peut le faire."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 5, 7 et 11). Faites la promenade d’en bas avant la lecture pour que l’idée soit claire."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands s’associent à un plus petit et « se penchent » pour lire avec lui, en lui demandant ce qu’il voit dans les images."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Remarque quand un ami est silencieux ou mis de côté, et va le voir."},
+   {"frame": "SRWB", "text": "Écoute un ami avant d’essayer de l’aider."},
+   {"frame": "PSI", "text": "Explique en quoi la vue de Langa et celle de Themba étaient différentes."},
+   {"frame": "DLMB", "text": "Compare des hauteurs avec des mots comme plus grand, plus petit, plus haut, plus bas."}
+  ],
+  "care": [
+   "Langa est gentil, ce n’est pas une brute. Le message : on rate tous des choses tant qu’on ne regarde pas depuis la place de l’autre.",
+   "Certains enfants sont plus petits ou utilisent une aide à la mobilité. Restez centré sur le fait de se voir les uns les autres, jamais sur la taille ou le corps d’un enfant.",
+   "L’Ubuntu appartient aux peuples d’Afrique australe. Présentez-le simplement et avec respect, et invitez les familles de la région à partager la salutation si elles le souhaitent."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The View From Down Low, a story about empathy. Langa the giraffe bends all the way down to see the world through his small friend’s eyes, and learns to listen before he helps. At home, try getting down to your child’s height together and talk about what looks different from there. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Le Point de vue d’en bas, une histoire sur l’empathie. Langa la girafe se penche jusqu’en bas pour voir le monde avec les yeux de son petit ami, et apprend à écouter avant d’aider. À la maison, mettez-vous à la hauteur de votre enfant et parlez ensemble de ce qui paraît différent d’en bas. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre la empatía. Langa, la jirafa, se agacha hasta abajo para ver el mundo con los ojos de su pequeño amigo, y aprende a escuchar antes de ayudar. En casa, pónganse a la altura de su hijo o hija y hablen de lo que se ve distinto desde ahí. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über Einfühlungsvermögen gelesen. Die Giraffe Langa beugt sich ganz nach unten, um die Welt mit den Augen ihres kleinen Freundes zu sehen, und lernt, zuerst zuzuhören und dann zu helfen. Gehen Sie zu Hause gemeinsam auf die Augenhöhe Ihres Kindes und sprechen Sie darüber, was von dort anders aussieht. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sull’empatia. Langa, la giraffa, si piega fino in basso per vedere il mondo con gli occhi del suo piccolo amico, e impara ad ascoltare prima di aiutare. A casa, mettetevi all’altezza di vostro figlio o vostra figlia e parlate di ciò che da lì sembra diverso. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

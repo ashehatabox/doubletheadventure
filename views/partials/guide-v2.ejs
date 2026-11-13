@@ -1,96 +1,135 @@
-<% const L = g2.fallback && lang !== 'en' ? ' lang="en"' : ''; const fr = t('guides2.frameNames'); const LANGS = { en: 'English', fr: 'Français', es: 'Español', de: 'Deutsch', it: 'Italiano' }; %>
-<section class="section tight">
-  <div class="wrap guide" style="max-width:820px">
+<% const L = g2.fallback && lang !== 'en' ? ' lang="en"' : ''; const fr = t('guides2.frameNames'); const LANGS = { en: 'English', fr: 'Français', es: 'Español', de: 'Deutsch', it: 'Italiano' }; const P = t('guides2.parts'); %>
+<div class="wrap g2">
+  <nav class="g2-nav no-print" aria-label="<%= t('guides2.navLabel') %>">
+    <a href="#prepare"><%= P.prepare %></a>
+    <a href="#before"><%= t('guides2.navBefore') %></a>
+    <a href="#during"><%= t('guides2.navDuring') %></a>
+    <a href="#after"><%= t('guides2.navAfter') %></a>
+    <a href="#activities"><%= t('guides2.activitiesTitle') %></a>
+    <a href="#every-child"><%= t('guides2.diffTitle') %></a>
+    <a href="#families"><%= t('guides2.letterTitle') %></a>
+  </nav>
 
-    <div class="g2-glance card card-pad">
-      <h2 class="h3" style="margin:0 0 12px"><%= t('guides2.glanceTitle') %></h2>
-      <dl class="g2-dl"<%- L %>>
-        <dt><%= t('common.value') %></dt><dd><%= book.valueText %></dd>
-        <dt><%= t('book.ageLabel') %></dt><dd><%= site.ages %></dd>
-        <dt><%= t('guides2.timeLabel') %></dt><dd><%= g2.time %></dd>
-        <dt><%= t('guides2.materialsLabel') %></dt><dd><%= g2.materials %></dd>
-        <dt><%= t('guides2.framesLabel') %></dt><dd><%= g2.frames.map(function (f) { return fr[f]; }).join('; ') %></dd>
-        <dt><%= t('guides2.languagesLabel') %></dt><dd><%= t('guides2.languages') %></dd>
-      </dl>
-      <p class="g2-links no-print">
-        <a href="<%= url('/books/' + book.slug + '/read') %>"><%= t('educators.bookRead') %></a>
-        <% if (hasVideo) { %><a href="<%= url('/books/' + book.slug) %>#read-aloud"><%= t('guides2.watch') %></a><% } %>
-        <% if (hasColor) { %><a href="<%= url('/play/color/' + book.slug) %>"><%= t('book.playColor') %></a><% } %>
-        <% if (hasHeroes) { %><a href="<%= url('/heroes/' + book.slug) %>"><%= t('guides2.heroes') %></a><% } %>
-      </p>
-    </div>
-
-    <h2 class="h2"><%= t('guides.aboutTitle') %></h2>
-    <div<%- L %>>
-      <p><%= g2.summary %></p>
-      <p><strong><%= t('guides.bigIdea') %>:</strong> <%= g2.bigIdea %></p>
-      <p class="quote">“<%= g2.theme %>”</p>
-      <p><strong><%= t('guides2.refrainLabel') %>:</strong> <%= g2.refrain %></p>
-    </div>
-
-    <h2 class="h2"><%= t('guides2.originTitle') %></h2>
-    <p<%- L %>><%= g2.origin %></p>
-
-    <h2 class="h2"><%= t('guides2.wordsTitle') %></h2>
-    <table class="g2-table"<%- L %>>
-      <thead><tr><th scope="col"><%= t('guides2.word') %></th><th scope="col"><%= t('guides2.meaning') %></th><th scope="col"><%= t('guides2.gesture') %></th></tr></thead>
-      <tbody><% g2.words.forEach(function (w) { %><tr><td><strong><%= w.word %></strong></td><td><%= w.meaning %></td><td><%= w.cue %></td></tr><% }) %></tbody>
-    </table>
-
-    <h2 class="h2"><%= t('guides.beforeTitle') %></h2>
-    <ul<%- L %>><% g2.before.forEach(function (x) { %><li><%= x %></li><% }) %></ul>
-
-    <h2 class="h2"><%= t('guides.duringTitle') %></h2>
-    <p><%= t('guides2.duringText') %></p>
-    <ol class="g2-pauses"<%- L %>>
-      <% g2.pauses.forEach(function (p) { %>
-      <li>
-        <p class="g2-spread"><%= t('guides2.spread').replace('{n}', p.spread) %></p>
-        <p style="margin:0"><%= p.moment %></p>
-        <p style="margin:0"><strong><%= t('guides2.ask') %>:</strong> <%= p.ask %></p>
-        <p class="muted" style="margin:0"><%= t('guides2.listen') %>: <%= p.listen %></p>
-        <% if (p.probe) { %><p class="muted" style="margin:0"><%= t('guides2.probe') %>: <%= p.probe %></p><% } %>
-      </li>
-      <% }) %>
-    </ol>
-
-    <h2 class="h2"><%= t('guides.afterTitle') %></h2>
-    <ol<%- L %>><% g2.after.forEach(function (q) { %><li><strong><%= q.q %></strong><br><span class="muted"><%= t('guides2.lookFor') %>: <%= q.a %></span></li><% }) %></ol>
-
-    <h2 class="h2"><%= t('guides2.activitiesTitle') %></h2>
-    <div class="guide-acts"<%- L %>>
-      <% g2.activities.forEach(function (a) { %>
-      <div class="card card-pad stack-sm">
-        <h3 class="h3" style="margin:0"><%= a.title %></h3>
-        <p class="muted" style="margin:0"><%= a.time %>. <%= a.group %>. <%= t('guides2.materialsLabel') %>: <%= a.materials %>.</p>
-        <p style="margin:0"><%= a.steps %></p>
+  <div class="g2-main guide">
+    <!-- 1. Prepare -->
+    <section class="g2-part" id="prepare" aria-labelledby="prepare-h">
+      <p class="g2-step"><span class="g2-num">1</span><span id="prepare-h"><%= P.prepare %></span></p>
+      <div class="g2-glance">
+        <dl class="g2-dl"<%- L %>>
+          <div><dt><%= t('guides2.timeLabel') %></dt><dd><%= g2.time %></dd></div>
+          <div><dt><%= t('book.ageLabel') %></dt><dd><%= site.ages %></dd></div>
+          <div class="g2-wide"><dt><%= t('guides2.materialsLabel') %></dt><dd><%= g2.materials %></dd></div>
+          <div class="g2-wide"><dt><%= t('guides2.framesLabel') %></dt><dd><%= g2.frames.map(function (f) { return fr[f]; }).join(', ') %></dd></div>
+          <div class="g2-wide"><dt><%= t('guides2.languagesLabel') %></dt><dd><%= t('guides2.languages') %></dd></div>
+        </dl>
+        <p class="g2-links no-print">
+          <a class="btn btn-primary" href="<%= url('/books/' + book.slug + '/read') %>"><%= t('educators.bookRead') %></a>
+          <% if (hasVideo) { %><a class="btn btn-ghost" href="<%= url('/books/' + book.slug) %>#read-aloud"><%= t('guides2.watch') %></a><% } %>
+          <% if (hasColor) { %><a class="btn btn-ghost" href="<%= url('/play/color/' + book.slug) %>"><%= t('book.playColor') %></a><% } %>
+        </p>
       </div>
-      <% }) %>
-    </div>
 
-    <h2 class="h2"><%= t('guides2.scienceTitle') %></h2>
-    <p<%- L %>><%= g2.science.text %></p>
-    <% if (hasHeroes) { %><p class="no-print"><a href="<%= url(g2.science.link) %>" style="font-weight:800"><%= g2.science.linkText %></a></p><% } %>
+      <h2 class="h2"><%= t('guides.aboutTitle') %></h2>
+      <div<%- L %>>
+        <p><%= g2.summary %></p>
+        <p class="g2-idea"><strong><%= t('guides.bigIdea') %></strong><br><%= g2.bigIdea %></p>
+        <blockquote class="g2-theme"><p class="quote">“<%= g2.theme %>”</p><p class="g2-refrain"><%= t('guides2.refrainLabel') %>: <strong><%= g2.refrain %></strong></p></blockquote>
+      </div>
 
-    <h2 class="h2"><%= t('guides2.diffTitle') %></h2>
-    <ul<%- L %>><% g2.differentiation.forEach(function (d) { %><li><strong><%= d.who %>:</strong> <%= d.how %></li><% }) %></ul>
+      <h2 class="h2"><%= t('guides2.originTitle') %></h2>
+      <p<%- L %>><%= g2.origin %></p>
 
-    <h2 class="h2"><%= t('guides2.lookForsTitle') %></h2>
-    <p><%= t('guides2.lookForsText') %></p>
-    <ul class="g2-checks"<%- L %>><% g2.lookFors.forEach(function (x) { %><li><span class="g2-box" aria-hidden="true"></span><span><%= x.text %> <span class="muted">(<%= fr[x.frame] %>)</span></span></li><% }) %></ul>
+      <h2 class="h2"><%= t('guides2.wordsTitle') %></h2>
+      <ul class="g2-words"<%- L %>>
+        <% g2.words.forEach(function (w) { %>
+        <li><strong class="g2-word"><%= w.word %></strong><span><%= w.meaning %></span><span class="g2-cue"><%= t('guides2.gesture') %>: <%= w.cue %></span></li>
+        <% }) %>
+      </ul>
+    </section>
 
-    <h2 class="h2"><%= t('guides2.careTitle') %></h2>
-    <ul<%- L %>><% g2.care.forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+    <!-- 2. Read -->
+    <section class="g2-part g2-band" aria-labelledby="read-h">
+      <p class="g2-step"><span class="g2-num">2</span><span id="read-h"><%= P.read %></span></p>
 
-    <div class="g2-letter card card-pad stack-sm">
-      <h2 class="h3" style="margin:0"><%= t('guides2.letterTitle') %></h2>
-      <p class="muted no-print" style="margin:0"><%= t('guides2.letterText') %></p>
+      <h2 class="h2" id="before"><%= t('guides.beforeTitle') %></h2>
+      <ul<%- L %>><% g2.before.forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+
+      <h2 class="h2" id="during"><%= t('guides.duringTitle') %></h2>
+      <p><%= t('guides2.duringText') %></p>
+      <ol class="g2-pauses"<%- L %>>
+        <% g2.pauses.forEach(function (p) { %>
+        <li>
+          <span class="g2-badge" aria-label="<%= t('guides2.spread').replace('{n}', p.spread) %>"><%= p.spread %></span>
+          <div class="g2-pause">
+            <p class="g2-moment"><%= p.moment %></p>
+            <p class="g2-ask"><%= p.ask %></p>
+            <p class="g2-hint"><%= t('guides2.listen') %>: <%= p.listen %></p>
+            <% if (p.probe) { %><p class="g2-hint"><%= t('guides2.probe') %>: <%= p.probe %></p><% } %>
+          </div>
+        </li>
+        <% }) %>
+      </ol>
+      <p class="g2-note"><%= t('guides2.spreadNote') %></p>
+
+      <h2 class="h2" id="after"><%= t('guides.afterTitle') %></h2>
+      <ol class="g2-after"<%- L %>><% g2.after.forEach(function (q) { %><li><p class="g2-ask"><%= q.q %></p><p class="g2-hint"><%= t('guides2.lookFor') %>: <%= q.a %></p></li><% }) %></ol>
+    </section>
+
+    <!-- 3. Extend -->
+    <section class="g2-part" aria-labelledby="extend-h">
+      <p class="g2-step"><span class="g2-num">3</span><span id="extend-h"><%= P.extend %></span></p>
+
+      <h2 class="h2" id="activities"><%= t('guides2.activitiesTitle') %></h2>
+      <div class="g2-acts"<%- L %>>
+        <% g2.activities.forEach(function (a) { %>
+        <article class="g2-act">
+          <h3 class="h3"><%= a.title %></h3>
+          <ul class="g2-chips"><li><%= a.time %></li><li><%= a.group %></li><li><%= t('guides2.materialsLabel') %>: <%= a.materials %></li></ul>
+          <p><%= a.steps %></p>
+        </article>
+        <% }) %>
+      </div>
+
+      <h2 class="h2"><%= t('guides2.scienceTitle') %></h2>
+      <div class="g2-science">
+        <div class="stack-sm">
+          <p<%- L %> style="margin:0"><%= g2.science.text %></p>
+          <% if (hasHeroes) { %><p class="no-print" style="margin:0"><a href="<%= url(g2.science.link) %>" style="font-weight:800"><%= g2.science.linkText %></a></p><% } %>
+        </div>
+        <% if (heroPics.length) { %>
+        <div class="g2-pics no-print">
+          <% heroPics.forEach(function (p) { %><figure><img src="<%= p.image %>" alt="<%= p.name %>" loading="lazy" width="320" height="240"><figcaption><%= p.name %></figcaption></figure><% }) %>
+        </div>
+        <% } %>
+      </div>
+
+      <h2 class="h2" id="every-child"><%= t('guides2.diffTitle') %></h2>
+      <div class="g2-diff"<%- L %>>
+        <% g2.differentiation.forEach(function (d) { %><div><h3 class="h3"><%= d.who %></h3><p><%= d.how %></p></div><% }) %>
+      </div>
+
+      <h2 class="h2"><%= t('guides2.lookForsTitle') %></h2>
+      <p><%= t('guides2.lookForsText') %></p>
+      <ul class="g2-checks"<%- L %>><% g2.lookFors.forEach(function (x) { %><li><span class="g2-box" aria-hidden="true"></span><span><%= x.text %><br><span class="g2-frame"><%= fr[x.frame] %></span></span></li><% }) %></ul>
+
+      <div class="g2-care">
+        <h2 class="h3"><%= t('guides2.careTitle') %></h2>
+        <ul<%- L %>><% g2.care.forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+      </div>
+    </section>
+
+    <!-- 4. Families -->
+    <section class="g2-letter" id="families" aria-labelledby="families-h">
+      <h2 class="h2" id="families-h"><%= t('guides2.letterTitle') %></h2>
+      <p class="g2-hint no-print"><%= t('guides2.letterText') %></p>
       <% const first = g2.letter[lang] ? lang : 'en'; %>
-      <p lang="<%= first %>" style="margin:0"><%= g2.letter[first] %></p>
-      <% Object.keys(g2.letter).filter(function (k) { return k !== first; }).forEach(function (k) { %>
-      <details class="no-print"><summary><%= LANGS[k] || k %></summary><p lang="<%= k %>" style="margin:8px 0 0"><%= g2.letter[k] %></p></details>
-      <% }) %>
-    </div>
+      <p class="g2-letter-text" lang="<%= first %>"><%= g2.letter[first] %></p>
+      <div class="g2-langs no-print">
+        <% Object.keys(g2.letter).filter(function (k) { return k !== first; }).forEach(function (k) { %>
+        <details><summary><%= LANGS[k] || k %></summary><p lang="<%= k %>"><%= g2.letter[k] %></p></details>
+        <% }) %>
+      </div>
+    </section>
 
     <h2 class="h2"><%= t('guides.linksTitle') %></h2>
     <ul><% t('guides2.links').forEach(function (x) { %><li><%= x %></li><% }) %></ul>
@@ -102,4 +141,4 @@
     <% } %>
     <p class="muted guide-foot"><%= t('guides2.licence') %> A² Publishing, <%= seo.canonical %></p>
   </div>
-</section>
+</div>

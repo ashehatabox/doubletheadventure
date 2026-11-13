@@ -617,7 +617,8 @@ router.get('/educators/guides/:slug', (req, res, next) => {
     book: view, g, guideArticles: arts,
     g2: guide2.get(b.slug, h.lang),
     hasVideo: readalouds.slugs().includes(b.slug),
-    hasHeroes: fs.existsSync(path.join(__dirname, 'data', 'heroes', b.slug + '.json')),
+    hasHeroes: heroVisible(heroes.get(b.slug)),
+    heroPics: (() => { const hg = heroVisible(heroes.get(b.slug)) ? heroes.get(b.slug) : null; if (!hg) return []; return [{ image: heroes.image(b.slug, hg.place && hg.place.image), name: h.pick(hg.place.name) }].concat((hg.cast || []).slice(0, 2).map((c) => ({ image: heroes.image(b.slug, c.image), name: h.pick(c.animal) || h.pick(c.name) }))).filter((p) => p.image); })(),
     hasColor: play.pages(b.slug).length > 0,
     hasJigsaw: play.jigsaw.includes(b.slug),
     seo: { title: h.t('guides.pageTitle').replace('{title}', view.displayTitle), description: h.t('guides.lead'), image: view.cover }

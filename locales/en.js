@@ -445,6 +445,9 @@ module.exports = {
   },
   guides2: {
     print: 'Print or save as PDF',
+    parts: { prepare: 'Prepare', read: 'Read together', extend: 'After the story' },
+    navLabel: 'In this guide', navBefore: 'Before reading', navDuring: 'During reading', navAfter: 'Talk together',
+    spreadNote: 'The numbers are the spreads in the reader on the class screen.',
     glanceTitle: 'At a glance',
     timeLabel: 'Time', materialsLabel: 'Materials', framesLabel: 'Ontario Kindergarten frames', languagesLabel: 'Book languages',
     languages: 'English, French, Spanish, German, Italian',
@@ -453,7 +456,7 @@ module.exports = {
     originTitle: 'Where this value comes from',
     wordsTitle: 'Words to know',
     word: 'Word', meaning: 'What it means', gesture: 'Gesture',
-    duringText: 'Pause at these spreads (page numbers as in the reader on the class screen). Ask, listen, then read on. You do not need every stop.',
+    duringText: 'Stop at these spreads, ask, listen, then read on. You do not need every stop.',
     spread: 'Spread {n}', ask: 'Ask', listen: 'Listen for', probe: 'Go further', lookFor: 'Look for',
     activitiesTitle: 'Activities',
     scienceTitle: 'Science and nature corner',

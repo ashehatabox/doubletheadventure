@@ -445,6 +445,9 @@ module.exports = {
   },
   guides2: {
     print: 'Imprimer ou enregistrer en PDF',
+    parts: { prepare: 'Se préparer', read: 'Lire ensemble', extend: 'Après l\'histoire' },
+    navLabel: 'Dans ce guide', navBefore: 'Avant la lecture', navDuring: 'Pendant la lecture', navAfter: 'En parler',
+    spreadNote: 'Les numéros sont ceux des doubles pages dans la liseuse au tableau.',
     glanceTitle: 'En un coup d\'œil',
     timeLabel: 'Durée', materialsLabel: 'Matériel', framesLabel: 'Domaines du programme de maternelle de l\'Ontario', languagesLabel: 'Langues du livre',
     languages: 'français, anglais, espagnol, allemand, italien',
@@ -453,7 +456,7 @@ module.exports = {
     originTitle: 'D\'où vient cette valeur',
     wordsTitle: 'Mots à connaître',
     word: 'Mot', meaning: 'Ce que ça veut dire', gesture: 'Geste',
-    duringText: 'Arrêtez-vous à ces doubles pages (numéros comme dans la liseuse au tableau). Demandez, écoutez, puis continuez. Pas besoin de faire tous les arrêts.',
+    duringText: 'Arrêtez-vous à ces doubles pages, demandez, écoutez, puis continuez. Pas besoin de faire tous les arrêts.',
     spread: 'Double page {n}', ask: 'Demandez', listen: 'Réponses possibles', probe: 'Pour aller plus loin', lookFor: 'Repérez',
     activitiesTitle: 'Activités',
     scienceTitle: 'Coin sciences et nature',

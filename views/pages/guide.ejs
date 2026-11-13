@@ -6,7 +6,7 @@
     <div class="stack-sm">
       <p class="eyebrow"><a href="<%= url('/educators/guides') %>"><%= t('guides.title') %></a></p>
       <h1 class="h1" style="font-size:clamp(30px,4.2vw,46px)"><%= t('guides.pageTitle').replace('{title}', book.displayTitle) %></h1>
-      <p class="muted"><%= t('common.value') %>: <strong><%= book.valueText %></strong> · <%= t('book.ageLabel') %>: <%= site.ages %> · <%= g2 ? g2.time : t('guides.time') %></p>
+      <% if (g2) { %><p class="muted"><%= t('common.value') %>: <strong><%= book.valueText %></strong></p><% } else { %><p class="muted"><%= t('common.value') %>: <strong><%= book.valueText %></strong> · <%= t('book.ageLabel') %>: <%= site.ages %> · <%= t('guides.time') %></p><% } %>
       <div class="row no-print">
         <button type="button" class="btn btn-primary" data-print><%= g2 ? t('guides2.print') : t('guides.print') %></button>
         <a class="btn btn-ghost" href="<%= url('/books/' + book.slug) %>"><%= t('guides.bookPage') %></a>

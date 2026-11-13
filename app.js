@@ -666,6 +666,65 @@ router.get('/educators/guides/:slug', (req, res, next) => {
     seo: { title: h.t('guides.pageTitle').replace('{title}', view.displayTitle), description: h.t('meta.guideDesc').replace('{title}', view.displayTitle).replace('{value}', (view.valueText || '').toLowerCase()), image: view.cover }
   });
 });
+// ---------- Classroom tools: book finder, big-screen story time, printables ----------
+const QRCode = require('qrcode');
+// A year of values, September to June. Every book appears once.
+const VALUE_YEAR = [
+  ['the-snug', 'the-circle-of-paws'],
+  ['friendship-bridge', 'the-view-from-down-low'],
+  ['rainy-day-shiny-things', 'the-desert-buzz'],
+  ['the-light-that-grows', 'secret-hero', 'tumble-and-the-honey-glow'],
+  ['eight-times-up', 'knot-by-knot'],
+  ['the-pebbles-inside', 'finn-and-coral'],
+  ['the-fox-mistake', 'the-honest-little-raccoon'],
+  ['becoming-a-tree', 'the-spring-that-wanted-to-stay'],
+  ['the-littlest-guardian', 'the-old-path-song'],
+  ['pip-the-brave-parrot', 'the-beetle-who-knew-the-stars']
+];
+function classroomBooks(req) {
+  const h = req.h;
+  const videos = readalouds.slugs();
+  return guideBooks().map((b) => {
+    const g = guide2.get(b.slug, h.lang) || {};
+    const hasVideo = videos.includes(b.slug);
+    const readHref = h.url('/books/' + b.slug + '/read');
+    const scanPath = hasVideo ? h.url('/books/' + b.slug) + '#read-aloud' : (reader.has(b.slug) ? readHref : h.url('/books/' + b.slug));
+    return { ...bookView(b, h, req), hasVideo, hasReader: reader.has(b.slug), readHref, theme: g.theme || h.pick(b.themeLine) || '', refrain: g.refrain || '', scanUrl: SITE_URL + scanPath };
+  });
+}
+router.get('/educators/classroom', (req, res) => {
+  const h = req.h;
+  const list = classroomBooks(req);
+  const bySlug = Object.fromEntries(list.map((b) => [b.slug, b]));
+  const moment = catalog.moments[req.query.moment] ? req.query.moment : '';
+  const moments = [...new Set(list.flatMap((b) => b.moments || []))].filter((m) => catalog.moments[m]);
+  const months = h.t('classroom.months');
+  page(req, res, 'classroom', {
+    list, moment, moments,
+    year: VALUE_YEAR.map((slugs, i) => ({ month: months[i], books: slugs.map((s) => bySlug[s]).filter(Boolean) })),
+    seo: { title: h.t('classroom.title'), description: h.t('classroom.lead') }
+  });
+});
+router.get('/educators/classroom/cards', async (req, res, next) => {
+  try {
+    const list = classroomBooks(req);
+    const pick = list.find((b) => b.slug === req.query.book);
+    const cards = await Promise.all((pick ? [pick] : list).map(async (b) => ({ ...b, qr: await QRCode.toString(b.scanUrl, { type: 'svg', margin: 0, errorCorrectionLevel: 'M' }) })));
+    page(req, res, 'classroom-cards', { cards, seo: { title: req.h.t('classroom.cardsTitle'), description: req.h.t('classroom.cardsLead') } });
+  } catch (e) { next(e); }
+});
+router.get('/educators/classroom/posters', (req, res) => {
+  const list = classroomBooks(req);
+  const pick = list.find((b) => b.slug === req.query.book);
+  page(req, res, 'classroom-posters', { posters: pick ? [pick] : list, single: !!pick, seo: { title: req.h.t('classroom.postersTitle'), description: req.h.t('classroom.postersLead') } });
+});
+router.get('/educators/libraries/one-sheet', async (req, res, next) => {
+  try {
+    const list = classroomBooks(req);
+    const qr = await QRCode.toString(SITE_URL + req.h.url('/educators'), { type: 'svg', margin: 0 });
+    page(req, res, 'one-sheet', { list, qr, sets: shopData.products.filter((p) => p.educator && Number.isInteger(p.priceCents)).map((p) => ({ title: p.title[req.h.lang] || p.title.en, price: (p.priceCents / 100).toFixed(2) })), seo: { title: req.h.t('oneSheet.title'), description: req.h.t('oneSheet.lead') } });
+  } catch (e) { next(e); }
+});
 router.get('/educators/:page', (req, res, next) => {
   if (!EDUCATOR_PAGES.includes(req.params.page)) return next();
   const content = req.h.t('educatorPages.' + req.params.page);
@@ -827,7 +886,7 @@ app.get('/llms.txt', (req, res) => {
 app.get('/sitemap.xml', (req, res) => {
   const paths = ['/', '/stories', '/start', '/values', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
     .concat(EDUCATOR_PAGES.map((p) => '/educators/' + p))
-    .concat(startMoments().map((m) => '/start/' + m), hubValues().map((v) => '/values/' + v), ['/educators/guides'], guideBooks().map((b) => '/educators/guides/' + b.slug))
+    .concat(startMoments().map((m) => '/start/' + m), hubValues().map((v) => '/values/' + v), ['/educators/guides', '/educators/classroom', '/educators/classroom/cards', '/educators/classroom/posters', '/educators/libraries/one-sheet'], guideBooks().map((b) => '/educators/guides/' + b.slug))
     .concat(PARTNER_PAGES.map((p) => '/partners/' + p))
     .concat(POLICY_PAGES.map((p) => '/policies/' + p))
     .concat(catalog.books.map((b) => '/books/' + b.slug))

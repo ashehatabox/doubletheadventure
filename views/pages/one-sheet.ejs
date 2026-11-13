@@ -1,0 +1,41 @@
+<%- include('../partials/top') %>
+<section class="section tight os-page">
+  <div class="wrap one-sheet">
+    <div class="row no-print" style="gap:12px;flex-wrap:wrap;margin-bottom:20px">
+      <a class="muted" href="<%= url('/educators/libraries') %>"><%= t('nav.educators') %></a>
+      <button class="btn btn-primary" type="button" data-print><%= t('oneSheet.print') %></button>
+    </div>
+    <div class="os-head">
+      <div class="stack-sm">
+        <h1 class="os-title">Double the Adventure</h1>
+        <p class="os-lead"><%= t('oneSheet.lead') %></p>
+        <p class="os-meta"><%= t('oneSheet.age') %></p>
+      </div>
+      <div class="os-qr"><div role="img" aria-label="<%= t('oneSheet.scan') %>"><%- qr %></div><p><%= t('oneSheet.scan') %></p></div>
+    </div>
+    <p class="os-about"><%= t('oneSheet.about') %></p>
+    <table class="os-table">
+      <thead><tr><th scope="col"><%= t('oneSheet.colNum') %></th><th scope="col"><%= t('oneSheet.colTitle') %></th><th scope="col"><%= t('oneSheet.colValue') %></th><th scope="col"><%= t('oneSheet.colLang') %></th></tr></thead>
+      <tbody>
+        <% list.forEach(function (b) { %>
+        <tr><td><%= b.n %></td><td><%= b.displayTitle %></td><td><%= b.valueText %></td><td><%= (b.languages || []).map(function (l) { return l.toUpperCase(); }).join(", ") %></td></tr>
+        <% }) %>
+      </tbody>
+    </table>
+    <div class="os-foot">
+      <div>
+        <h2 class="os-h2"><%= t('oneSheet.free') %></h2>
+        <ul><% t('oneSheet.freeList').forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+      </div>
+      <% if (sets.length) { %>
+      <div>
+        <h2 class="os-h2"><%= t('oneSheet.order') %></h2>
+        <ul><% sets.forEach(function (s) { %><li><%= s.title %>: <strong>$<%= s.price %></strong></li><% }) %></ul>
+        <p class="os-small"><%= t('oneSheet.orderNote') %></p>
+      </div>
+      <% } %>
+    </div>
+    <p class="os-small">A² Publishing · doubleadventure.ca</p>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

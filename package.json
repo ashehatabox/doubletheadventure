@@ -1,7 +1,7 @@
 {
   "name": "doubletheadventure",
   "version": "1.0.0",
-  "description": "A\u00b2 Publishing \u2014 the Double the Adventure picture books: catalog, corners for parents and educators, partners, sign-ups.",
+  "description": "A² Publishing — the Double the Adventure picture books: catalog, corners for parents and educators, partners, sign-ups.",
   "main": "app.js",
   "private": true,
   "scripts": {
@@ -23,6 +23,7 @@
     "express": "^5.3.0",
     "marked": "^14.1.4",
     "nodemailer": "^10.1.2",
+    "qrcode": "^1.5.4",
     "stripe": "^23.1.0"
   }
 }

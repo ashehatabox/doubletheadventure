@@ -1,0 +1,141 @@
+{
+ "book": "the-light-that-grows",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["BC", "SRWB", "PSI", "DLMB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a flashlight or battery tea-lights, yellow paper, a dark corner or blanket",
+  "summary": "Lumi is the smallest firefly in the meadow, with the warmest glow. Her best friend Moss the moth can’t glow at all, but he loves her light. When Old Glow warns that the Night of No Moon is coming, and some fireflies’ lights begin to fade, Lumi is afraid hers will run out too, so she hides in a log. The meadow grows dark. On the darkest night, Moss gets lost looking for her. Trembling, Lumi flies out and lights his way, then shares her glow with a firefly whose light has gone out. Her light doesn’t shrink. It grows, and soon a river of lights fills the meadow.",
+  "bigIdea": "Kindness is a light you can share, and sharing it doesn’t use it up. It makes more.",
+  "theme": "Some gifts grow bigger every time you give them away.",
+  "refrain": "Blink! Blink! Blink!",
+  "origin": "This story doesn’t come from one culture. In Japan an old saying teaches that kindness to others goes around and comes back to you, and many traditions share the same idea: kindness that is given grows.",
+  "words": [
+   {"word": "glow", "meaning": "a soft, warm light", "cue": "open and close your hands like a little light"},
+   {"word": "firefly", "meaning": "a small beetle that makes its own light", "cue": "flutter your fingers and blink your hands"},
+   {"word": "fade", "meaning": "to slowly get dimmer and dimmer", "cue": "close your hands slowly"},
+   {"word": "hide", "meaning": "to put something where no one can see it", "cue": "cover your hands"},
+   {"word": "share", "meaning": "to give some to someone else", "cue": "move your hands from your chest to a friend"}
+  ],
+  "before": [
+   "Show the cover. Ask: What is the little bug doing? Have you ever seen a firefly?",
+   "Ask: What is something kind you can give a friend that doesn’t cost anything? (A smile, a hug, a turn.) Take a few answers.",
+   "Teach the sound: open and close your hands like blinking lights. ‘Blink! Blink! Blink!’"
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Old Glow: ‘We will need every light.’", "ask": "Why will the meadow need every light?", "listen": "it will be very dark, no moon"},
+   {"spread": 5, "moment": "Lumi hides her glow under a leaf.", "ask": "Why did Lumi hide her light?", "listen": "she was scared it would run out"},
+   {"spread": 6, "moment": "The mice trip; the snail gets lost.", "ask": "How did the meadow change when the fireflies stopped shining?", "listen": "dark, everyone lost, tripping"},
+   {"spread": 7, "moment": "Lumi’s light feels small and cold.", "ask": "Lumi’s light was safe. Why did it feel cold?", "listen": "she was alone, she wasn’t sharing"},
+   {"spread": 9, "moment": "Moss calls for Lumi; her wings tremble.", "ask": "What will Lumi have to do to help Moss?", "listen": "go out, use her light, be brave"},
+   {"spread": 11, "moment": "A little firefly’s light has gone out.", "ask": "Lumi is still afraid. What do you think she will do?", "listen": "share her light, help him"},
+   {"spread": 12, "moment": "Flicker… FLASH! Lumi’s light grows bigger.", "ask": "What happened to Lumi’s light when she shared it? Were you surprised?", "listen": "it got bigger, not smaller"},
+   {"spread": 15, "moment": "Everyone starts sharing what they have.", "ask": "What did the other animals share?", "listen": "a song, a nest, stories"}
+  ],
+  "after": [
+   {"q": "Why did Lumi hide her light?", "a": "She was afraid it would run out like the others."},
+   {"q": "How did the meadow change when the fireflies stopped shining?", "a": "It got dark; the mice tripped and the snail got lost."},
+   {"q": "What made Lumi brave enough to come out of the log?", "a": "Hearing Moss call for help."},
+   {"q": "What happened to Lumi’s light when she shared it?", "a": "It grew bigger and brighter."},
+   {"q": "What is a ‘light’ you have that you could share with someone?", "a": "Any answer: a smile, a game, help, a kind word."}
+  ],
+  "activities": [
+   {"title": "Pass the light", "time": "10 minutes", "group": "Whole class", "materials": "Paper fireflies, a dim room", "steps": "Sit in a circle. One child holds a paper ‘glow’ and says one kind thing to the next child, then gives them a new glow from the basket. Keep going until everyone is holding a light. Notice: the first child still has theirs."},
+   {"title": "Kindness meadow", "time": "15 minutes", "group": "Individual, then whole class", "materials": "Yellow paper circles, a dark paper meadow", "steps": "Each child draws a kind act on a yellow glow and sticks it on the meadow. Add more glows all week as children notice kindness. Watch the meadow fill up."},
+   {"title": "Light and dark", "time": "10 minutes", "group": "Small groups", "materials": "A flashlight, a blanket", "steps": "Under a blanket, find a toy in the dark, then with the flashlight. Talk about how the animals felt in the dark meadow, and how the light helped."}
+  ],
+  "science": {
+   "text": "Fireflies are beetles, not flies. They make their own light inside their bodies with a special mix of chemicals, and they flash to find each other. In the story Lumi shares her glow, but real fireflies can’t pass their light to each other, and it doesn’t run out like a battery: that part is make-believe. Moths fly at night but don’t glow. Fireflies need dark nights, damp grass and leaves to live, so outdoor lights left on can make life hard for them.",
+   "link": "/heroes/the-light-that-grows",
+   "linkText": "Meet the real fireflies and moths"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Use a real flashlight for light, dark, glow and fade. ‘Blink! Blink! Blink!’ is easy for everyone to join."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 5, 10 and 12). This book has 16 spreads; you can read it over two sittings, stopping after spread 9."},
+   {"who": "Mixed ages and older children", "how": "Older children keep a ‘light log’ for a week: one kind act given and one received each day, and notice how it grows."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Shares something kind with a friend without being asked."},
+   {"frame": "SRWB", "text": "Names a time they felt scared and did something brave."},
+   {"frame": "PSI", "text": "Explains why Lumi’s light grew when she shared it."},
+   {"frame": "DLMB", "text": "Counts the glows on the kindness meadow as they grow."}
+  ],
+  "care": [
+   "Some children worry about the dark. Keep the lights on during the dark-meadow pages if needed, and remind them the sun comes up at the end.",
+   "Lumi is never shamed for being afraid. Keep that tone: being scared is okay, and she is brave anyway.",
+   "Kindness is not giving until you are empty. Lumi’s light grows; nobody has to give away everything they need."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), une lampe de poche ou des bougies à piles, du papier jaune, un coin sombre ou une couverture",
+  "summary": "Lumi est la plus petite luciole du pré, avec la lueur la plus chaude. Son meilleur ami Moss, un papillon de nuit, ne brille pas du tout, mais il adore sa lumière. Quand on annonce l’arrivée de la Nuit sans Lune et que la lumière de certaines lucioles commence à faiblir, Lumi a peur que la sienne s’épuise aussi, alors elle se cache dans un tronc. Le pré devient sombre. La nuit la plus noire, Moss se perd en la cherchant. Tremblante, Lumi sort et éclaire son chemin, puis partage sa lueur avec une luciole qui s’est éteinte. Sa lumière ne diminue pas : elle grandit, et bientôt une rivière de lumières remplit le pré.",
+  "bigIdea": "La gentillesse est une lumière qu’on peut partager, et la partager ne l’use pas. Elle en fait davantage.",
+  "theme": "Certains cadeaux grandissent chaque fois qu’on les offre.",
+  "refrain": "Clignote ! Clignote ! Clignote !",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Au Japon, un vieux proverbe enseigne que la gentillesse envers les autres fait le tour et revient vers soi, et beaucoup de traditions partagent la même idée : la gentillesse donnée grandit.",
+  "words": [
+   {"word": "lueur", "meaning": "une lumière douce et chaude", "cue": "ouvrez et fermez les mains comme une petite lumière"},
+   {"word": "luciole", "meaning": "un petit scarabée qui fait sa propre lumière", "cue": "faites voleter vos doigts en clignant des mains"},
+   {"word": "faiblir", "meaning": "devenir de moins en moins fort", "cue": "fermez lentement les mains"},
+   {"word": "cacher", "meaning": "mettre quelque chose là où personne ne le voit", "cue": "couvrez vos mains"},
+   {"word": "partager", "meaning": "donner une part à quelqu’un", "cue": "allez de votre poitrine vers un ami avec les mains"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Que fait le petit insecte ? As-tu déjà vu une luciole ?",
+   "Demandez : Quelle chose gentille peux-tu donner à un ami sans que ça coûte rien ? (Un sourire, un câlin, son tour.) Prenez quelques réponses.",
+   "Apprenez le son : ouvrez et fermez les mains comme des lumières qui clignotent. « Clignote ! Clignote ! Clignote ! »"
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "On annonce qu’il faudra toutes les lumières.", "ask": "Pourquoi le pré aura-t-il besoin de toutes les lumières ?", "listen": "il fera très noir, pas de lune"},
+   {"spread": 5, "moment": "Lumi cache sa lueur sous une feuille.", "ask": "Pourquoi Lumi a-t-elle caché sa lumière ?", "listen": "elle avait peur qu’elle s’épuise"},
+   {"spread": 6, "moment": "Les souris trébuchent ; l’escargot se perd.", "ask": "Comment le pré a-t-il changé quand les lucioles ont arrêté de briller ?", "listen": "sombre, tout le monde perdu, on trébuche"},
+   {"spread": 7, "moment": "La lumière de Lumi semble petite et froide.", "ask": "La lumière de Lumi était à l’abri. Pourquoi semblait-elle froide ?", "listen": "elle était seule, elle ne partageait pas"},
+   {"spread": 9, "moment": "Moss appelle Lumi ; ses ailes tremblent.", "ask": "Que devra faire Lumi pour aider Moss ?", "listen": "sortir, utiliser sa lumière, être courageuse"},
+   {"spread": 11, "moment": "Une petite luciole s’est éteinte.", "ask": "Lumi a encore peur. Que va-t-elle faire, à ton avis ?", "listen": "partager sa lumière, l’aider"},
+   {"spread": 12, "moment": "La lumière de Lumi grandit.", "ask": "Qu’est-il arrivé à la lumière de Lumi quand elle l’a partagée ? As-tu été surpris ?", "listen": "elle a grandi, elle n’a pas diminué"},
+   {"spread": 15, "moment": "Tout le monde partage ce qu’il a.", "ask": "Qu’ont partagé les autres animaux ?", "listen": "une chanson, un nid, des histoires"}
+  ],
+  "after": [
+   {"q": "Pourquoi Lumi a-t-elle caché sa lumière ?", "a": "Elle avait peur qu’elle s’épuise comme celle des autres."},
+   {"q": "Comment le pré a-t-il changé quand les lucioles ne brillaient plus ?", "a": "Il faisait noir ; les souris trébuchaient et l’escargot s’est perdu."},
+   {"q": "Qu’est-ce qui a rendu Lumi assez courageuse pour sortir ?", "a": "Entendre Moss appeler à l’aide."},
+   {"q": "Qu’est-il arrivé à sa lumière quand elle l’a partagée ?", "a": "Elle est devenue plus grande et plus brillante."},
+   {"q": "Quelle « lumière » as-tu à partager avec quelqu’un ?", "a": "Toutes les réponses : un sourire, un jeu, de l’aide, un mot gentil."}
+  ],
+  "activities": [
+   {"title": "Passe la lumière", "time": "10 minutes", "group": "Toute la classe", "materials": "Des lucioles en papier, une pièce un peu sombre", "steps": "Asseyez-vous en cercle. Un enfant tient une « lueur » en papier, dit une chose gentille à son voisin et lui donne une nouvelle lueur du panier. Continuez jusqu’à ce que tout le monde tienne une lumière. Remarquez : le premier a toujours la sienne."},
+   {"title": "Le pré de la gentillesse", "time": "15 minutes", "group": "Individuel, puis toute la classe", "materials": "Des ronds de papier jaune, un pré en papier sombre", "steps": "Chaque enfant dessine un geste gentil sur une lueur jaune et la colle sur le pré. Ajoutez-en toute la semaine quand les enfants remarquent de la gentillesse. Regardez le pré se remplir."},
+   {"title": "Lumière et obscurité", "time": "10 minutes", "group": "Petits groupes", "materials": "Une lampe de poche, une couverture", "steps": "Sous une couverture, cherchez un jouet dans le noir, puis avec la lampe. Parlez de ce que ressentaient les animaux dans le pré sombre, et de l’aide qu’apportait la lumière."}
+  ],
+  "science": {
+   "text": "Les lucioles sont des scarabées, pas des mouches. Elles fabriquent leur propre lumière à l’intérieur de leur corps grâce à un mélange spécial de produits chimiques, et elles clignotent pour se trouver. Dans l’histoire, Lumi partage sa lueur, mais les vraies lucioles ne peuvent pas se passer leur lumière, et elle ne s’épuise pas comme une pile : cette partie est imaginaire. Les papillons de nuit volent la nuit mais ne brillent pas. Les lucioles ont besoin de nuits noires, d’herbe humide et de feuilles mortes ; les lumières extérieures allumées peuvent leur rendre la vie difficile.",
+   "link": "/heroes/the-light-that-grows",
+   "linkText": "Découvrir les vraies lucioles et papillons de nuit"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Utilisez une vraie lampe pour lumière, noir, lueur et faiblir. « Clignote ! Clignote ! Clignote ! » est facile pour tout le monde."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 5, 10 et 12). Ce livre a 16 doubles pages ; vous pouvez le lire en deux fois, en vous arrêtant après la double page 9."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands tiennent un « carnet de lumière » pendant une semaine : chaque jour, un geste gentil donné et un reçu, et ils voient comment ça grandit."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Partage quelque chose de gentil avec un ami sans qu’on le lui demande."},
+   {"frame": "SRWB", "text": "Nomme une fois où il a eu peur et a fait quelque chose de courageux."},
+   {"frame": "PSI", "text": "Explique pourquoi la lumière de Lumi a grandi quand elle l’a partagée."},
+   {"frame": "DLMB", "text": "Compte les lueurs du pré de la gentillesse à mesure qu’elles augmentent."}
+  ],
+  "care": [
+   "Certains enfants ont peur du noir. Laissez la lumière allumée pendant les pages sombres si besoin, et rappelez que le soleil se lève à la fin.",
+   "Lumi n’est jamais critiquée parce qu’elle a peur. Gardez ce ton : avoir peur, c’est normal, et elle est courageuse quand même.",
+   "La gentillesse, ce n’est pas donner jusqu’à n’avoir plus rien. La lumière de Lumi grandit ; personne n’a à donner tout ce dont il a besoin."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The Light That Grows, a story about kindness. Lumi the firefly is afraid her light will run out, but when she shares it with friends who need it, her light grows bigger than ever. At home, ask your child about one kind thing they gave and one they received today. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu La lumière qui grandit, une histoire sur la gentillesse. Lumi la luciole a peur que sa lumière s’épuise, mais quand elle la partage avec des amis qui en ont besoin, elle devient plus grande que jamais. À la maison, demandez à votre enfant une chose gentille qu’il a donnée et une qu’il a reçue aujourd’hui. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre la bondad. Lumi, la luciérnaga, tiene miedo de que su luz se acabe, pero cuando la comparte con amigos que la necesitan, su luz crece más que nunca. En casa, pregunte a su hijo o hija por algo amable que dio y algo que recibió hoy. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über Freundlichkeit gelesen. Das Glühwürmchen Lumi hat Angst, dass sein Licht ausgeht, doch als es sein Licht mit Freunden teilt, die es brauchen, wird es heller als je zuvor. Fragen Sie Ihr Kind zu Hause nach einer freundlichen Sache, die es heute gegeben, und einer, die es bekommen hat. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sulla gentilezza. Lumi, la lucciola, ha paura che la sua luce finisca, ma quando la condivide con gli amici che ne hanno bisogno, la sua luce diventa più grande che mai. A casa, chiedete a vostro figlio o vostra figlia una cosa gentile che ha dato e una che ha ricevuto oggi. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

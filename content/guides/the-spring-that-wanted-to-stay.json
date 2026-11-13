@@ -1,0 +1,141 @@
+{
+ "book": "the-spring-that-wanted-to-stay",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["BC", "DLMB", "PSI", "SRWB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a clear jar of water, a tray, small stones, a watering can, a cup of ice",
+  "summary": "High on a mountain, melting snow becomes a tiny spring named Nura. She gives water to her friend Willo the willow, and he gives her shade and birdsong. When she learns her water flows down to the whole valley, she is afraid she will spread out and disappear, so when a storm blocks her stream, she keeps all of herself. She becomes a big, proud pond, but grows still, murky and lonely, while the valley and Willo dry out. Grandmother Cloud reminds her that gifts are meant to keep moving. Nura spills over the rocks, the valley comes back to life, and she becomes a river, reaches the sea, rises as a cloud and falls again as snow.",
+  "bigIdea": "When we share what we have, it doesn’t run out. It keeps life flowing, for others and for us.",
+  "theme": "Water that is held grows still. Water that is shared stays alive.",
+  "refrain": "Drip… drip… drip.",
+  "origin": "This story doesn’t come from one culture. The ancient Greeks carved short sayings at Delphi, and one of them is simply ‘Give what you have.’ Many traditions teach the same thing in their own words.",
+  "words": [
+   {"word": "spring", "meaning": "a place where water bubbles up out of the ground", "cue": "wiggle your fingers upward like bubbles"},
+   {"word": "pond", "meaning": "a small pool of still water", "cue": "make a round shape with your arms"},
+   {"word": "flow", "meaning": "to move along like water in a stream", "cue": "wave your hand forward"},
+   {"word": "still", "meaning": "not moving at all", "cue": "freeze like a statue"},
+   {"word": "valley", "meaning": "low land between hills or mountains", "cue": "make a V shape with your arms"}
+  ],
+  "before": [
+   "Show the cover. Ask: Where does water come from? Where do you think it goes?",
+   "Ask: Is it ever hard to share something you love? Why? Take a few answers kindly.",
+   "Teach the sound: tap one finger on your palm, slowly. ‘Drip… drip… drip.’"
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Nura and Willo look after each other.", "ask": "What do Nura and Willo give each other?", "listen": "water, shade, birdsong"},
+   {"spread": 4, "moment": "Nura is afraid she will disappear.", "ask": "Why is Nura scared to flow down to the valley?", "listen": "she thinks she will spread out thin and vanish"},
+   {"spread": 5, "moment": "The storm blocks her stream; ‘Now I can keep all of me.’", "ask": "Why did Nura want to keep all her water?", "listen": "she was scared, she wanted it all for herself"},
+   {"spread": 7, "moment": "The pond grows still and murky; the frogs leave.", "ask": "What is happening to Nura now?", "listen": "she is still, heavy, murky, the frogs left"},
+   {"spread": 9, "moment": "Willo droops; his birds fly away.", "ask": "What happened to the valley and to Willo when Nura stopped flowing?", "listen": "dry, brown, thirsty, the animals struggled"},
+   {"spread": 10, "moment": "Full, but lonely.", "ask": "Why do you think Nura felt empty even though she was so full?", "listen": "she was alone, nobody was with her, she wasn’t helping"},
+   {"spread": 12, "moment": "Whoosh! Nura spills over the wall.", "ask": "How do you think Nura feels now?", "listen": "free, happy, sparkly, alive"},
+   {"spread": 14, "moment": "She becomes a river.", "ask": "Did Nura get smaller when she shared?", "listen": "no, she got bigger, she became a river"}
+  ],
+  "after": [
+   {"q": "Why did Nura want to keep all her water?", "a": "She was afraid she would spread out and disappear."},
+   {"q": "What happened to the valley and to Willo when Nura stopped flowing?", "a": "The valley dried up, the animals struggled, and Willo drooped."},
+   {"q": "Why do you think Nura felt empty even though she was so full?", "a": "She was alone, and nothing around her was alive."},
+   {"q": "What happened to Nura after she shared? Did she get smaller?", "a": "She became a river, then a cloud, then snow, and came back fresh."},
+   {"q": "What is something you have that you could share? How might it come back to you?", "a": "Any answer: toys, time, a song, a smile."}
+  ],
+  "activities": [
+   {"title": "The water cycle in a bag", "time": "15 minutes, then watch over a few days", "group": "Whole class", "materials": "A zip bag, a little water with blue food colour, tape, a sunny window", "steps": "Draw a sun, a cloud and a mountain on the bag. Pour in a little water, seal it and tape it to a sunny window. Over the next days, watch drops form at the top and ‘rain’ down. Retell Nura’s journey with it."},
+   {"title": "Stuck pond, flowing stream", "time": "10 minutes", "group": "Small groups", "materials": "A tray, stones, a watering can, leaves", "steps": "Build a stream on a tilted tray and pour water. Then block it with stones and pour again. Add leaves to the still water. Talk about which water stays fresh."},
+   {"title": "Share and pass on", "time": "10 minutes", "group": "Whole class", "materials": "A cup of water and small cups", "steps": "Pour water from one cup into everyone’s cup, then pour it all into a plant pot. Ask: Where did the water go? Did it disappear, or did it help?"}
+  ],
+  "science": {
+   "text": "Snow on mountains melts and soaks into the ground, then bubbles up as springs and flows into streams. Streams join to make rivers that flow to the sea. The sun warms the water and lifts it into the air, where it forms clouds and falls again as rain or snow. This is the water cycle. Willows love water and grow along streams; their roots help hold riverbanks in place. Otters need clean rivers with plenty of fish.",
+   "link": "/heroes/the-spring-that-wanted-to-stay",
+   "linkText": "Meet the real willows and otters"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Use real water, a jar and ice to show spring, pond, still and flow. ‘Drip… drip… drip’ is easy for everyone."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 5, 10 and 14). This book has 16 spreads; you can read it over two sittings, stopping after spread 9."},
+   {"who": "Mixed ages and older children", "how": "Older children draw the water cycle as a circle with arrows and label each stage with Nura’s journey: snow, spring, river, sea, cloud."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Shares something with a friend and notices how it feels."},
+   {"frame": "DLMB", "text": "Retells the water cycle in order: snow, spring, river, sea, cloud, snow."},
+   {"frame": "PSI", "text": "Explains why the still pond lost its life and the flowing stream didn’t."},
+   {"frame": "SRWB", "text": "Talks about a time it was hard to share."}
+  ],
+  "care": [
+   "Wanting to keep things is normal. Never shame a child for it; Nura is scared, not bad.",
+   "Sharing doesn’t mean giving away everything until nothing is left. Nura becomes more, not less.",
+   "Keep water play safe: small amounts, a towel ready, and a grown-up close by."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), un bocal d’eau transparent, un plateau, des petites pierres, un arrosoir, un verre de glaçons",
+  "summary": "Tout en haut d’une montagne, la neige qui fond devient une toute petite source nommée Nura. Elle donne de l’eau à son ami Willo le saule, et lui offre de l’ombre et des chants d’oiseaux. Quand elle apprend que son eau descend vers toute la vallée, elle a peur de s’étaler et de disparaître ; alors, quand un orage bloque son ruisseau, elle se garde tout entière. Elle devient un grand étang fier, mais immobile, trouble et seul, pendant que la vallée et Willo se dessèchent. Grand-mère Nuage lui rappelle que les dons sont faits pour circuler. Nura déborde, la vallée revit, et elle devient rivière, rejoint la mer, monte en nuage et retombe en neige.",
+  "bigIdea": "Quand on partage ce qu’on a, ça ne s’épuise pas. Ça garde la vie en mouvement, pour les autres et pour nous.",
+  "theme": "L’eau retenue devient immobile. L’eau partagée reste vivante.",
+  "refrain": "Plic… plic… plic.",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Les Grecs anciens gravaient de courtes maximes à Delphes, et l’une d’elles dit simplement : « Donne ce que tu as. » Beaucoup de traditions enseignent la même chose avec leurs mots.",
+  "words": [
+   {"word": "source", "meaning": "un endroit où l’eau sort de la terre", "cue": "faites monter vos doigts comme des bulles"},
+   {"word": "étang", "meaning": "un petit bassin d’eau calme", "cue": "faites un rond avec vos bras"},
+   {"word": "couler", "meaning": "avancer comme l’eau d’un ruisseau", "cue": "faites onduler la main vers l’avant"},
+   {"word": "immobile", "meaning": "qui ne bouge pas du tout", "cue": "figez-vous comme une statue"},
+   {"word": "vallée", "meaning": "une terre basse entre des collines ou des montagnes", "cue": "faites un V avec vos bras"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : D’où vient l’eau ? Où va-t-elle, à ton avis ?",
+   "Demandez : Est-ce parfois difficile de partager quelque chose qu’on aime ? Pourquoi ? Prenez quelques réponses avec douceur.",
+   "Apprenez le son : tapotez un doigt sur votre paume, lentement. « Plic… plic… plic. »"
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Nura et Willo prennent soin l’un de l’autre.", "ask": "Que se donnent Nura et Willo ?", "listen": "de l’eau, de l’ombre, des chants d’oiseaux"},
+   {"spread": 4, "moment": "Nura a peur de disparaître.", "ask": "Pourquoi Nura a-t-elle peur de descendre vers la vallée ?", "listen": "elle croit qu’elle va s’étaler et disparaître"},
+   {"spread": 5, "moment": "L’orage bloque son ruisseau ; elle veut se garder tout entière.", "ask": "Pourquoi Nura voulait-elle garder toute son eau ?", "listen": "elle avait peur, elle voulait tout pour elle"},
+   {"spread": 7, "moment": "L’étang devient immobile et trouble ; les grenouilles partent.", "ask": "Que se passe-t-il pour Nura maintenant ?", "listen": "elle est immobile, lourde, trouble, les grenouilles sont parties"},
+   {"spread": 9, "moment": "Willo se fane ; ses oiseaux s’envolent.", "ask": "Qu’est-il arrivé à la vallée et à Willo quand Nura a arrêté de couler ?", "listen": "sec, brun, assoiffé, les animaux ont souffert"},
+   {"spread": 10, "moment": "Pleine, mais seule.", "ask": "Pourquoi Nura se sentait-elle vide alors qu’elle était si pleine ?", "listen": "elle était seule, personne avec elle, elle n’aidait personne"},
+   {"spread": 12, "moment": "Nura déborde par-dessus le mur.", "ask": "Comment se sent Nura maintenant, à ton avis ?", "listen": "libre, heureuse, pétillante, vivante"},
+   {"spread": 14, "moment": "Elle devient une rivière.", "ask": "Nura est-elle devenue plus petite en partageant ?", "listen": "non, plus grande, elle est devenue une rivière"}
+  ],
+  "after": [
+   {"q": "Pourquoi Nura voulait-elle garder toute son eau ?", "a": "Elle avait peur de s’étaler et de disparaître."},
+   {"q": "Qu’est-il arrivé à la vallée et à Willo quand Nura s’est arrêtée ?", "a": "La vallée s’est desséchée, les animaux ont souffert et Willo s’est fané."},
+   {"q": "Pourquoi Nura se sentait-elle vide alors qu’elle était si pleine ?", "a": "Elle était seule, et plus rien n’était vivant autour d’elle."},
+   {"q": "Qu’est devenue Nura après avoir partagé ? A-t-elle rapetissé ?", "a": "Elle est devenue rivière, puis nuage, puis neige, et elle est revenue toute fraîche."},
+   {"q": "Que pourrais-tu partager ? Comment cela pourrait-il te revenir ?", "a": "Toutes les réponses : des jouets, du temps, une chanson, un sourire."}
+  ],
+  "activities": [
+   {"title": "Le cycle de l’eau dans un sac", "time": "15 minutes, puis observation pendant quelques jours", "group": "Toute la classe", "materials": "Un sac à fermeture, un peu d’eau colorée en bleu, du ruban adhésif, une fenêtre ensoleillée", "steps": "Dessinez un soleil, un nuage et une montagne sur le sac. Versez un peu d’eau, fermez et collez-le sur une fenêtre au soleil. Les jours suivants, regardez les gouttes se former en haut et « pleuvoir ». Racontez le voyage de Nura avec."},
+   {"title": "Étang bloqué, ruisseau qui coule", "time": "10 minutes", "group": "Petits groupes", "materials": "Un plateau, des pierres, un arrosoir, des feuilles", "steps": "Faites un ruisseau sur un plateau incliné et versez de l’eau. Puis bloquez-le avec des pierres et versez encore. Ajoutez des feuilles dans l’eau immobile. Parlez de l’eau qui reste fraîche."},
+   {"title": "Partager et transmettre", "time": "10 minutes", "group": "Toute la classe", "materials": "Un verre d’eau et des petits gobelets", "steps": "Versez l’eau d’un verre dans le gobelet de chacun, puis tout dans un pot de fleurs. Demandez : Où est allée l’eau ? A-t-elle disparu, ou a-t-elle aidé ?"}
+  ],
+  "science": {
+   "text": "La neige des montagnes fond et s’infiltre dans le sol, puis ressort en sources et coule en ruisseaux. Les ruisseaux se rejoignent en rivières qui coulent vers la mer. Le soleil réchauffe l’eau et la fait monter dans l’air, où elle forme des nuages et retombe en pluie ou en neige. C’est le cycle de l’eau. Les saules adorent l’eau et poussent au bord des ruisseaux ; leurs racines aident à tenir les berges. Les loutres ont besoin de rivières propres et riches en poissons.",
+   "link": "/heroes/the-spring-that-wanted-to-stay",
+   "linkText": "Découvrir les vrais saules et loutres"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Utilisez de l’eau, un bocal et des glaçons pour montrer source, étang, immobile et couler. « Plic… plic… plic » est facile pour tout le monde."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 5, 10 et 14). Ce livre a 16 doubles pages ; vous pouvez le lire en deux fois, en vous arrêtant après la double page 9."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands dessinent le cycle de l’eau en cercle avec des flèches et nomment chaque étape du voyage de Nura : neige, source, rivière, mer, nuage."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Partage quelque chose avec un ami et remarque ce qu’il ressent."},
+   {"frame": "DLMB", "text": "Raconte le cycle de l’eau dans l’ordre : neige, source, rivière, mer, nuage, neige."},
+   {"frame": "PSI", "text": "Explique pourquoi l’étang immobile a perdu sa vie et pas le ruisseau qui coule."},
+   {"frame": "SRWB", "text": "Parle d’une fois où partager était difficile."}
+  ],
+  "care": [
+   "Vouloir garder les choses, c’est normal. Ne faites jamais honte à un enfant ; Nura a peur, elle n’est pas méchante.",
+   "Partager ne veut pas dire tout donner jusqu’à n’avoir plus rien. Nura devient plus, pas moins.",
+   "Jeux d’eau en sécurité : petites quantités, une serviette prête et un adulte à côté."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The Spring That Wanted to Stay, a story about sharing. Nura the little spring tries to keep all her water, but she only comes alive again when she lets it flow to the whole valley. At home, watch water together, in a bath, a puddle or the rain, and talk about where it goes next. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu La source qui voulait rester, une histoire sur le partage. Nura, la petite source, essaie de garder toute son eau, mais elle ne revit que lorsqu’elle la laisse couler vers toute la vallée. À la maison, observez l’eau ensemble, dans le bain, une flaque ou la pluie, et parlez de l’endroit où elle va ensuite. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre compartir. Nura, el pequeño manantial, intenta guardar toda su agua, pero solo vuelve a la vida cuando la deja fluir hacia todo el valle. En casa, observen el agua juntos, en el baño, un charco o la lluvia, y hablen de adónde va después. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über das Teilen gelesen. Die kleine Quelle Nura versucht, ihr ganzes Wasser zu behalten, doch erst als sie es ins ganze Tal fließen lässt, wird sie wieder lebendig. Beobachten Sie zu Hause gemeinsam Wasser, in der Badewanne, einer Pfütze oder im Regen, und sprechen Sie darüber, wohin es als Nächstes fließt. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sulla condivisione. Nura, la piccola sorgente, cerca di tenere tutta la sua acqua, ma torna a vivere solo quando la lascia scorrere verso tutta la valle. A casa, osservate insieme l’acqua, nella vasca, in una pozzanghera o sotto la pioggia, e parlate di dove andrà dopo. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

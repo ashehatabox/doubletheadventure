@@ -1,0 +1,141 @@
+{
+ "book": "pip-the-brave-parrot",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["SRWB", "BC", "PSI", "DLMB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a soft toy bird, a small basket for a nest, simple instruments or shakers",
+  "summary": "Pip is a young parrot with shiny feathers, strong wings and a small, quiet voice. He hums when he is alone, but stays silent around others because he remembers being laughed at. One afternoon he finds a baby bird that has fallen from its nest. He tries to lift it, but it is too heavy, and he realises the only way to help is to call out loudly. His heart pounds, his voice wobbles, but he keeps going until the whole jungle hears. The mother bird comes, the baby gets home, and the chick sings a tiny copy of Pip’s song.",
+  "bigIdea": "Being brave doesn’t mean not feeling scared. It means using your voice when it matters, even if it shakes.",
+  "theme": "Your voice doesn’t have to be loud to be strong. It just has to be truly yours.",
+  "refrain": "",
+  "origin": "This story doesn’t come from one culture. In ancient China, Confucius said that seeing what is right and not doing it is a lack of courage. In a very old Egyptian story, a poor farmer finds his voice and speaks up again and again until he is heard.",
+  "words": [
+   {"word": "brave", "meaning": "doing something even when you feel scared", "cue": "stand tall and put your hands on your hips"},
+   {"word": "quiet", "meaning": "making very little sound", "cue": "put a finger to your lips"},
+   {"word": "voice", "meaning": "the sound you make when you talk or sing", "cue": "touch your throat"},
+   {"word": "wobble", "meaning": "to shake a little", "cue": "wobble your hand"},
+   {"word": "nest", "meaning": "a home that birds build for their babies", "cue": "cup your hands into a bowl"}
+  ],
+  "before": [
+   "Show the cover. Ask: What kind of bird is this? How do you think he feels?",
+   "Ask: Have you ever wanted to say something but felt too shy? It’s okay to just think about it.",
+   "Practise voices: whisper ‘hello’, say it in a normal voice, then a strong voice. Notice that all of them are your voice."
+  ],
+  "pauses": [
+   {"spread": 4, "moment": "Pip hums alone but stays silent around others.", "ask": "Why was Pip quiet when other birds were around?", "listen": "shy, scared they would laugh"},
+   {"spread": 5, "moment": "Pip remembers being laughed at.", "ask": "How do you think it felt for Pip when others laughed?", "listen": "sad, embarrassed, hurt"},
+   {"spread": 7, "moment": "Pip finds the baby bird; his heart pounds.", "ask": "What does the baby bird need?", "listen": "help, to get back to the nest, its mother"},
+   {"spread": 8, "moment": "Pip tries to lift the baby, but it is too heavy.", "ask": "What else could Pip do?", "listen": "call for help, find a grown-up bird"},
+   {"spread": 9, "moment": "‘That means I have to call out. Loudly.’", "ask": "What made Pip decide to sing out loud?", "listen": "someone needed him, the baby needed help"},
+   {"spread": 10, "moment": "His voice wobbles, but he keeps going.", "ask": "How do you think Pip felt when his voice wobbled? Why did he keep going?", "listen": "scared, nervous; the baby needed him"},
+   {"spread": 14, "moment": "The baby sings a tiny version of Pip’s song.", "ask": "How do you think Pip feels now?", "listen": "proud, happy, surprised"},
+   {"spread": 15, "moment": "No one laughs; they listen.", "ask": "What changed for Pip?", "listen": "others listen, he sings when happy or brave"}
+  ],
+  "after": [
+   {"q": "Why was Pip quiet when other birds were around?", "a": "He remembered being laughed at for his soft voice."},
+   {"q": "What made Pip decide to sing out loud?", "a": "The baby bird needed help, and calling out was the only way."},
+   {"q": "How do you think Pip felt when his voice wobbled? Why did he keep going?", "a": "Scared and nervous, but someone needed him."},
+   {"q": "How did it feel when others laughed? And later when they listened?", "a": "Hurt and small at first; happy and strong later."},
+   {"q": "When is it important to use your voice, even if you feel shy?", "a": "Any answer: when someone needs help, when you need help, when something is not fair."}
+  ],
+  "activities": [
+   {"title": "Call for help", "time": "10 minutes", "group": "Whole class", "materials": "A soft toy bird", "steps": "Hide the toy bird somewhere ‘fallen’. The child who finds it practises a strong, clear call: ‘I need help!’ Talk about who the grown-ups are that children can call in real life."},
+   {"title": "Pass Pip’s song", "time": "10 minutes", "group": "Whole class", "materials": "Shakers or clapping", "steps": "One child makes a short, simple tune or rhythm. The next child copies it, like the baby bird copying Pip. Pass it all around the circle. Every voice, soft or loud, counts."},
+   {"title": "My voice picture", "time": "15 minutes", "group": "Individual", "materials": "Paper, crayons", "steps": "Children draw a time they used their voice to help or to say something important, and tell a partner about it."}
+  ],
+  "science": {
+   "text": "Parrots live mostly in warm tropical forests. Many are very social and call to each other to stay in touch with their flock, and many nest in holes in trees, just like Pip’s home in the oldest tree. Some parrots can copy sounds. In real life, a baby bird on the ground is often a fledgling learning to fly, and its parents are usually close by. If you find one, don’t pick it up: tell a grown-up.",
+   "link": "/heroes/pip-the-brave-parrot",
+   "linkText": "Meet the real parrots"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Teach ‘I need help!’ and ‘Help, please!’ with a hand-up gesture. Children can sing a tune without words."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 5, 9 and 15). This book has 17 spreads, with short text on each, so it reads quickly."},
+   {"who": "Shy or quiet children", "how": "Never make a child perform. Let them whisper, use a puppet, or play a shaker. Pip found his voice his own way, and so can they."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Uses their voice to ask for help or to say something important."},
+   {"frame": "BC", "text": "Listens kindly to a quiet friend without laughing."},
+   {"frame": "PSI", "text": "Explains why calling out was the best way to help the baby bird."},
+   {"frame": "DLMB", "text": "Copies and repeats a simple rhythm or tune."}
+  ],
+  "care": [
+   "Being shy is not a problem to fix. The message is that your voice is yours, quiet or loud.",
+   "Real-life safety: children should never pick up a baby bird. Teach them to tell a grown-up.",
+   "If a child shares that they were laughed at, thank them and follow up kindly."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), un oiseau en peluche, un petit panier comme nid, des instruments simples ou des maracas",
+  "summary": "Pip est un jeune perroquet aux plumes brillantes, aux ailes fortes et à la toute petite voix. Il fredonne quand il est seul, mais se tait devant les autres, car il se souvient qu’on s’est moqué de lui. Un après-midi, il trouve un bébé oiseau tombé de son nid. Il essaie de le soulever, mais c’est trop lourd, et il comprend que le seul moyen d’aider, c’est d’appeler très fort. Son cœur bat, sa voix tremble, mais il continue jusqu’à ce que toute la jungle l’entende. La maman oiseau arrive, le bébé rentre au nid, et le petit chante une minuscule version de la chanson de Pip.",
+  "bigIdea": "Être courageux, ce n’est pas ne pas avoir peur. C’est utiliser sa voix quand ça compte, même si elle tremble.",
+  "theme": "Ta voix n’a pas besoin d’être forte pour être puissante. Elle doit juste être vraiment la tienne.",
+  "refrain": "",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Dans la Chine ancienne, Confucius disait que voir ce qui est juste sans le faire, c’est manquer de courage. Dans un très vieux conte égyptien, un pauvre paysan trouve sa voix et prend la parole encore et encore jusqu’à ce qu’on l’entende.",
+  "words": [
+   {"word": "courageux", "meaning": "qui fait quelque chose même quand il a peur", "cue": "tenez-vous droit, les mains sur les hanches"},
+   {"word": "silencieux", "meaning": "qui fait très peu de bruit", "cue": "mettez un doigt sur la bouche"},
+   {"word": "voix", "meaning": "le son qu’on fait quand on parle ou qu’on chante", "cue": "touchez votre gorge"},
+   {"word": "trembler", "meaning": "bouger un peu, vaciller", "cue": "faites trembler votre main"},
+   {"word": "nid", "meaning": "la maison que les oiseaux construisent pour leurs petits", "cue": "faites un bol avec vos mains"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Quel est cet oiseau ? Comment se sent-il, à ton avis ?",
+   "Demandez : As-tu déjà voulu dire quelque chose mais te sentir trop timide ? Tu peux juste y penser.",
+   "Jouez avec la voix : chuchotez « bonjour », dites-le normalement, puis d’une voix forte. Remarquez que c’est toujours votre voix."
+  ],
+  "pauses": [
+   {"spread": 4, "moment": "Pip fredonne seul mais se tait devant les autres.", "ask": "Pourquoi Pip se taisait-il devant les autres oiseaux ?", "listen": "timide, peur qu’on se moque"},
+   {"spread": 5, "moment": "Pip se souvient qu’on s’est moqué de lui.", "ask": "Qu’a ressenti Pip quand les autres se moquaient, à ton avis ?", "listen": "triste, gêné, blessé"},
+   {"spread": 7, "moment": "Pip trouve le bébé ; son cœur bat fort.", "ask": "De quoi a besoin le bébé oiseau ?", "listen": "d’aide, de retourner au nid, de sa maman"},
+   {"spread": 8, "moment": "Pip essaie de le soulever, mais il est trop lourd.", "ask": "Que pourrait faire Pip d’autre ?", "listen": "appeler à l’aide, trouver un oiseau adulte"},
+   {"spread": 9, "moment": "Il comprend qu’il doit appeler très fort.", "ask": "Qu’est-ce qui a décidé Pip à chanter fort ?", "listen": "quelqu’un avait besoin de lui, le bébé avait besoin d’aide"},
+   {"spread": 10, "moment": "Sa voix tremble, mais il continue.", "ask": "Qu’a ressenti Pip quand sa voix tremblait ? Pourquoi a-t-il continué ?", "listen": "peur, nervosité ; le bébé avait besoin de lui"},
+   {"spread": 14, "moment": "Le bébé chante une petite version de la chanson de Pip.", "ask": "Comment se sent Pip maintenant, à ton avis ?", "listen": "fier, heureux, surpris"},
+   {"spread": 15, "moment": "Personne ne rit ; on écoute.", "ask": "Qu’est-ce qui a changé pour Pip ?", "listen": "les autres écoutent, il chante quand il est heureux ou courageux"}
+  ],
+  "after": [
+   {"q": "Pourquoi Pip se taisait-il devant les autres oiseaux ?", "a": "Il se souvenait qu’on s’était moqué de sa petite voix."},
+   {"q": "Qu’est-ce qui a décidé Pip à chanter fort ?", "a": "Le bébé oiseau avait besoin d’aide, et appeler était le seul moyen."},
+   {"q": "Qu’a ressenti Pip quand sa voix tremblait ? Pourquoi a-t-il continué ?", "a": "Il avait peur, mais quelqu’un avait besoin de lui."},
+   {"q": "Qu’a-t-il ressenti quand on se moquait ? Et plus tard, quand on l’écoutait ?", "a": "Blessé et tout petit au début ; heureux et fort ensuite."},
+   {"q": "Quand est-il important d’utiliser ta voix, même si tu es timide ?", "a": "Toutes les réponses : quand quelqu’un a besoin d’aide, quand tu as besoin d’aide, quand ce n’est pas juste."}
+  ],
+  "activities": [
+   {"title": "Appeler à l’aide", "time": "10 minutes", "group": "Toute la classe", "materials": "Un oiseau en peluche", "steps": "Cachez l’oiseau quelque part, « tombé ». L’enfant qui le trouve s’entraîne à appeler d’une voix claire et forte : « J’ai besoin d’aide ! » Parlez des adultes que les enfants peuvent appeler dans la vraie vie."},
+   {"title": "Passe la chanson de Pip", "time": "10 minutes", "group": "Toute la classe", "materials": "Des maracas ou des claquements de mains", "steps": "Un enfant invente un petit air ou un rythme simple. Le suivant le copie, comme le bébé oiseau copie Pip. Faites le tour du cercle. Chaque voix, douce ou forte, compte."},
+   {"title": "Le dessin de ma voix", "time": "15 minutes", "group": "Individuel", "materials": "Du papier, des crayons", "steps": "Les enfants dessinent une fois où ils ont utilisé leur voix pour aider ou dire quelque chose d’important, et la racontent à un partenaire."}
+  ],
+  "science": {
+   "text": "Les perroquets vivent surtout dans les forêts tropicales chaudes. Beaucoup sont très sociables et s’appellent pour rester en contact avec leur groupe, et beaucoup nichent dans des trous d’arbres, comme la maison de Pip dans le plus vieil arbre. Certains perroquets savent imiter les sons. Dans la vraie vie, un bébé oiseau au sol est souvent un jeune qui apprend à voler, et ses parents sont généralement tout près. Si tu en trouves un, ne le ramasse pas : préviens un adulte.",
+   "link": "/heroes/pip-the-brave-parrot",
+   "linkText": "Découvrir les vrais perroquets"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Enseignez « J’ai besoin d’aide ! » et « À l’aide, s’il te plaît ! » avec la main levée. Les enfants peuvent chanter un air sans paroles."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 5, 9 et 15). Ce livre a 17 doubles pages, avec peu de texte sur chacune : il se lit vite."},
+   {"who": "Enfants timides ou discrets", "how": "N’obligez jamais un enfant à se donner en spectacle. Laissez-le chuchoter, utiliser une marionnette ou jouer des maracas. Pip a trouvé sa voix à sa façon, et eux aussi le peuvent."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Utilise sa voix pour demander de l’aide ou dire quelque chose d’important."},
+   {"frame": "BC", "text": "Écoute avec gentillesse un ami discret, sans se moquer."},
+   {"frame": "PSI", "text": "Explique pourquoi appeler était la meilleure façon d’aider le bébé oiseau."},
+   {"frame": "DLMB", "text": "Copie et répète un rythme ou un air simple."}
+  ],
+  "care": [
+   "Être timide n’est pas un problème à régler. Le message : ta voix est la tienne, douce ou forte.",
+   "Sécurité dans la vraie vie : les enfants ne doivent jamais ramasser un bébé oiseau. Apprenez-leur à prévenir un adulte.",
+   "Si un enfant raconte qu’on s’est moqué de lui, remerciez-le et faites un suivi avec douceur."
+  ]
+ },
+ "letter": {
+  "en": "Today we read Pip the Brave Parrot, a story about courage and finding your voice. Pip is a shy parrot with a small voice, but when a baby bird needs help, he sings out loud, even though his voice shakes. At home, talk with your child about who they can call when they need help, and practise saying ‘I need help!’ in a clear voice. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu une histoire sur le courage et sur l’art de trouver sa voix : Pip, un perroquet timide à la petite voix, chante très fort quand un bébé oiseau a besoin d’aide, même si sa voix tremble. À la maison, parlez avec votre enfant des personnes qu’il peut appeler quand il a besoin d’aide, et entraînez-vous à dire « J’ai besoin d’aide ! » d’une voix claire. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre la valentía y sobre encontrar la propia voz: Pip, un loro tímido de voz pequeña, canta muy fuerte cuando un pajarito necesita ayuda, aunque le tiemble la voz. En casa, hablen de a quién puede llamar su hijo o hija cuando necesite ayuda, y practiquen decir «¡Necesito ayuda!» con voz clara. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über Mut gelesen und darüber, die eigene Stimme zu finden: Pip, ein schüchterner Papagei mit leiser Stimme, singt laut, als ein Vogelbaby Hilfe braucht, auch wenn seine Stimme zittert. Sprechen Sie zu Hause mit Ihrem Kind darüber, wen es rufen kann, wenn es Hilfe braucht, und üben Sie, ‚Ich brauche Hilfe!‘ mit klarer Stimme zu sagen. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sul coraggio e sul trovare la propria voce: Pip, un pappagallo timido con una vocina, canta forte quando un uccellino ha bisogno di aiuto, anche se la voce gli trema. A casa, parlate con vostro figlio o vostra figlia di chi può chiamare quando ha bisogno di aiuto, ed esercitatevi a dire «Ho bisogno di aiuto!» con voce chiara. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

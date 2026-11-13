@@ -1,0 +1,141 @@
+{
+ "book": "the-pebbles-inside",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["SRWB", "BC", "PSI", "DLMB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), paper pebbles in many colours (or large smooth stones for children over 3, with a grown-up), a small backpack, crayons",
+  "summary": "Tavi is a little turtle with a big, quiet heart. When the frogs tease her, she says ‘I’m fine’ and tucks the hurt inside like a pebble. She does the same with a worry, a ‘no, thank you’, a game idea, and even telling her friend Fern the hare that she is her best friend. Pebble by pebble, her shell grows so heavy she can’t climb or play. Fern sits beside her, asks gently, and when Tavi says ‘I’m fine’ again, Fern simply stays. Under the stars, Tavi shares one feeling, then another, and together the friends turn the colourful pebbles into a path of stepping stones across the brook.",
+  "bigIdea": "Feelings we keep inside can feel heavy. Telling someone we trust makes them lighter, and good friends listen.",
+  "theme": "Feelings kept inside grow heavy. Feelings we share become a path.",
+  "refrain": "‘I’m fine.’ Click.",
+  "origin": "This story doesn’t come from one culture. An old Norse poem says that worry eats the heart if you can’t tell a friend all your thoughts, and an ancient Egyptian tale says how happy is the one who can tell what they went through, once the bad time has passed.",
+  "words": [
+   {"word": "pebble", "meaning": "a small, smooth stone", "cue": "pinch a tiny pebble between your fingers"},
+   {"word": "heavy", "meaning": "hard to lift or carry", "cue": "pretend to lift something with both arms"},
+   {"word": "feeling", "meaning": "what happens in your heart, like happy, sad or scared", "cue": "put your hand on your heart"},
+   {"word": "share", "meaning": "to give some to someone else, or tell them", "cue": "move your hands from your chest to a friend"},
+   {"word": "listen", "meaning": "to pay attention to what someone says", "cue": "cup your hand behind your ear"}
+  ],
+  "before": [
+   "Show the cover. Ask: What is the turtle carrying? How do you think she feels?",
+   "Ask: Have you ever said ‘I’m fine’ when you weren’t? It’s okay to say yes or just think about it.",
+   "Teach the sound: every time Tavi tucks a feeling away, tap your shoulder and say ‘Click.’"
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "The frogs laugh; Tavi says ‘I’m fine.’", "ask": "Why did Tavi say ‘I’m fine’ when she wasn’t?", "listen": "she didn’t want them to laugh more, she was scared, embarrassed"},
+   {"spread": 4, "moment": "Click, click, click: a worry, a no, an idea.", "ask": "Why did keeping quiet feel safe to Tavi?", "listen": "no one could laugh, say no, or say she was wrong"},
+   {"spread": 5, "moment": "Tavi’s shell grows heavy.", "ask": "What happened to Tavi’s shell as she kept more feelings inside?", "listen": "it got heavy, she got slow, she couldn’t climb or play"},
+   {"spread": 7, "moment": "Fern doesn’t push; she just stays.", "ask": "What did Fern do that helped Tavi feel safe?", "listen": "asked softly, didn’t push, stayed, said ‘I’m here’"},
+   {"spread": 8, "moment": "Tavi shares the first pebble.", "ask": "What did Fern say when Tavi told her?", "listen": "thank you for telling me, that would hurt me too"},
+   {"spread": 9, "moment": "The biggest pebble: ‘You’re my best friend.’", "ask": "Were all Tavi’s pebbles sad feelings?", "listen": "no, an idea, a happy feeling, ‘you’re my best friend’"},
+   {"spread": 11, "moment": "The frog says sorry.", "ask": "Why do you think the frog laughed at Tavi?", "listen": "he was scared they would laugh at him"},
+   {"spread": 12, "moment": "The pebbles become a path.", "ask": "What did the shared feelings become?", "listen": "a path, stepping stones for everyone"}
+  ],
+  "after": [
+   {"q": "Why did Tavi say ‘I’m fine’ when she wasn’t?", "a": "She was afraid of being laughed at, being wrong, or hearing no."},
+   {"q": "What happened to Tavi’s shell as she kept more feelings inside?", "a": "It got heavier and heavier until she couldn’t climb or play."},
+   {"q": "What did Fern do that helped Tavi feel safe to talk?", "a": "She asked gently, didn’t push, stayed, and didn’t laugh."},
+   {"q": "Why do you think the frog laughed at Tavi? What did he do later?", "a": "He was scared of being laughed at himself. He said sorry."},
+   {"q": "Who could you tell when you have a ‘pebble’ inside?", "a": "Any answer: a grown-up at home, a teacher, a friend."}
+  ],
+  "activities": [
+   {"title": "The heavy backpack", "time": "10 minutes", "group": "Whole class", "materials": "A small backpack, soft objects", "steps": "A volunteer wears the backpack. Each time the class names a feeling someone might hide, add one soft object. Ask: Is it getting heavy? Then take them out one by one as the class names who you could tell."},
+   {"title": "Pebble path", "time": "15 minutes", "group": "Individual, then whole class", "materials": "Paper pebbles, crayons", "steps": "Each child colours a paper pebble and draws or writes a feeling they would like to share (happy ones count too). Lay them together on the floor or wall as a path across a paper brook."},
+   {"title": "Listener practice", "time": "10 minutes", "group": "Pairs", "materials": "None", "steps": "Practise being Fern: one partner says a small feeling, the other listens, doesn’t laugh, and says ‘Thank you for telling me.’ Swap."}
+  ],
+  "science": {
+   "text": "Freshwater turtles live in ponds, slow streams and marshes. They bask on logs and stones and pull their head and legs into their shell to stay safe. They are slow on land but good swimmers. Hares are bigger than rabbits, with longer ears and legs, and they are very fast runners. In the story, the pebbles in Tavi’s shell are make-believe: real turtles don’t carry stones.",
+   "link": "/heroes/the-pebbles-inside",
+   "linkText": "Meet the real turtles and hares"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Use feeling cards with faces (happy, sad, scared, excited) so children can point instead of talk. ‘Click’ is easy for everyone to join."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 3, 7 and 12). Hold a real (large) stone or a paper pebble while reading so the idea is easy to see."},
+   {"who": "Quiet children", "how": "Never force anyone to share. Let children draw their pebble, whisper it to you, or keep it in their pocket. Being a quiet listener is a gift too."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Names a feeling with a word or a picture."},
+   {"frame": "BC", "text": "Listens kindly when a friend shares a feeling, without laughing."},
+   {"frame": "PSI", "text": "Explains why the shell got heavy and then lighter."},
+   {"frame": "DLMB", "text": "Sorts pebbles by colour or size while building the path."}
+  ],
+  "care": [
+   "No child should be made to share. The story shows Fern waiting kindly, and the classroom should too.",
+   "This guide is not therapy. If a child seems withdrawn or worried for a long time, talk with their family and your school team.",
+   "Real stones can be a choking hazard for under-3s. Use paper pebbles or very large stones with a grown-up close by."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), des cailloux en papier de toutes les couleurs (ou de gros galets lisses pour les plus de 3 ans, avec un adulte), un petit sac à dos, des crayons",
+  "summary": "Tavi est une petite tortue au grand cœur tranquille. Quand les grenouilles se moquent d’elle, elle dit « Ça va » et range la peine à l’intérieur, comme un petit caillou. Elle fait pareil avec une peur, un « non, merci », une idée de jeu, et même l’envie de dire à son amie Fern la lièvre qu’elle est sa meilleure amie. Caillou après caillou, sa carapace devient si lourde qu’elle ne peut plus grimper ni jouer. Fern s’assoit à côté d’elle et demande doucement ; quand Tavi répond encore « Ça va », Fern reste là, simplement. Sous les étoiles, Tavi partage une émotion, puis une autre, et les deux amies font des cailloux colorés un chemin de pierres pour traverser le ruisseau.",
+  "bigIdea": "Les émotions gardées à l’intérieur peuvent peser lourd. Les dire à quelqu’un de confiance les rend plus légères, et les vrais amis écoutent.",
+  "theme": "Les émotions gardées à l’intérieur deviennent lourdes. Les émotions partagées deviennent un chemin.",
+  "refrain": "« Ça va. » Clic.",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Un vieux poème nordique dit que le souci ronge le cœur si l’on ne peut pas confier ses pensées à un ami, et un conte de l’Égypte ancienne dit combien est heureux celui qui peut raconter ce qu’il a vécu, une fois le mauvais moment passé.",
+  "words": [
+   {"word": "caillou", "meaning": "une petite pierre lisse", "cue": "pincez un petit caillou entre vos doigts"},
+   {"word": "lourd", "meaning": "difficile à soulever ou à porter", "cue": "faites semblant de soulever quelque chose à deux bras"},
+   {"word": "émotion", "meaning": "ce qui se passe dans ton cœur, comme la joie, la peine ou la peur", "cue": "posez la main sur le cœur"},
+   {"word": "partager", "meaning": "donner une part à quelqu’un, ou lui raconter", "cue": "allez de votre poitrine vers un ami avec les mains"},
+   {"word": "écouter", "meaning": "faire attention à ce que quelqu’un dit", "cue": "mettez la main derrière l’oreille"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Que porte la tortue ? Comment se sent-elle, à ton avis ?",
+   "Demandez : As-tu déjà dit « Ça va » alors que ça n’allait pas ? Tu peux répondre oui, ou juste y penser.",
+   "Apprenez le son : chaque fois que Tavi range une émotion, tapez votre épaule en disant « Clic »."
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Les grenouilles rient ; Tavi dit « Ça va ».", "ask": "Pourquoi Tavi dit-elle « Ça va » alors que ça ne va pas ?", "listen": "elle ne voulait pas qu’ils rient plus, elle avait peur, honte"},
+   {"spread": 4, "moment": "Clic, clic, clic : une peur, un non, une idée.", "ask": "Pourquoi se taire semblait-il plus sûr à Tavi ?", "listen": "personne ne pouvait rire, dire non, ou dire qu’elle avait tort"},
+   {"spread": 5, "moment": "La carapace de Tavi devient lourde.", "ask": "Qu’est-il arrivé à sa carapace à mesure qu’elle gardait ses émotions ?", "listen": "elle est devenue lourde, Tavi est devenue lente, elle ne pouvait plus grimper ni jouer"},
+   {"spread": 7, "moment": "Fern n’insiste pas ; elle reste.", "ask": "Qu’a fait Fern pour que Tavi se sente en confiance ?", "listen": "elle a demandé doucement, n’a pas insisté, est restée, a dit « Je suis là »"},
+   {"spread": 8, "moment": "Tavi partage le premier caillou.", "ask": "Qu’a dit Fern quand Tavi lui a raconté ?", "listen": "merci de me l’avoir dit, ça m’aurait fait mal aussi"},
+   {"spread": 9, "moment": "Le plus gros caillou : « Tu es ma meilleure amie. »", "ask": "Les cailloux de Tavi étaient-ils tous des émotions tristes ?", "listen": "non, une idée, une émotion joyeuse, « tu es ma meilleure amie »"},
+   {"spread": 11, "moment": "La grenouille s’excuse.", "ask": "Pourquoi la grenouille s’est-elle moquée de Tavi, à ton avis ?", "listen": "elle avait peur qu’on se moque d’elle"},
+   {"spread": 12, "moment": "Les cailloux deviennent un chemin.", "ask": "Que sont devenues les émotions partagées ?", "listen": "un chemin, des pierres pour tout le monde"}
+  ],
+  "after": [
+   {"q": "Pourquoi Tavi disait-elle « Ça va » alors que ça n’allait pas ?", "a": "Elle avait peur qu’on se moque d’elle, de se tromper, ou d’entendre non."},
+   {"q": "Qu’est-il arrivé à sa carapace ?", "a": "Elle est devenue de plus en plus lourde, jusqu’à l’empêcher de grimper et de jouer."},
+   {"q": "Qu’a fait Fern pour aider Tavi à parler ?", "a": "Elle a demandé doucement, n’a pas insisté, est restée et ne s’est pas moquée."},
+   {"q": "Pourquoi la grenouille s’est-elle moquée ? Qu’a-t-elle fait ensuite ?", "a": "Elle avait peur qu’on se moque d’elle. Elle s’est excusée."},
+   {"q": "À qui pourrais-tu parler quand tu as un « caillou » à l’intérieur ?", "a": "Toutes les réponses : un adulte à la maison, un enseignant, un ami."}
+  ],
+  "activities": [
+   {"title": "Le sac à dos lourd", "time": "10 minutes", "group": "Toute la classe", "materials": "Un petit sac à dos, des objets doux", "steps": "Un volontaire porte le sac. Chaque fois que la classe nomme une émotion qu’on pourrait cacher, ajoutez un objet doux. Demandez : Est-ce que ça devient lourd ? Puis retirez-les un par un en nommant à qui on pourrait parler."},
+   {"title": "Le chemin de cailloux", "time": "15 minutes", "group": "Individuel, puis toute la classe", "materials": "Des cailloux en papier, des crayons", "steps": "Chaque enfant colorie un caillou et dessine ou écrit une émotion qu’il aimerait partager (les joyeuses comptent aussi). Posez-les ensemble au sol ou au mur pour former un chemin au-dessus d’un ruisseau en papier."},
+   {"title": "S’entraîner à écouter", "time": "10 minutes", "group": "En duo", "materials": "Aucun", "steps": "Jouez à être Fern : un partenaire dit une petite émotion, l’autre écoute, ne rit pas, et dit « Merci de me l’avoir dit. » Échangez."}
+  ],
+  "science": {
+   "text": "Les tortues d’eau douce vivent dans les étangs, les ruisseaux calmes et les marais. Elles se réchauffent au soleil sur des troncs et des pierres, et rentrent la tête et les pattes dans leur carapace pour se protéger. Elles sont lentes sur terre mais nagent bien. Les lièvres sont plus grands que les lapins, avec des oreilles et des pattes plus longues, et ils courent très vite. Dans l’histoire, les cailloux dans la carapace de Tavi sont imaginaires : les vraies tortues ne portent pas de pierres.",
+   "link": "/heroes/the-pebbles-inside",
+   "linkText": "Découvrir les vraies tortues et les vrais lièvres"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Utilisez des cartes d’émotions avec des visages (joie, peine, peur, excitation) pour que les enfants puissent montrer au lieu de parler. « Clic » est facile pour tout le monde."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 3, 7 et 12). Tenez un vrai (gros) galet ou un caillou en papier pendant la lecture pour rendre l’idée visible."},
+   {"who": "Enfants discrets", "how": "N’obligez jamais personne à partager. Laissez les enfants dessiner leur caillou, vous le chuchoter, ou le garder dans leur poche. Être un auditeur tranquille, c’est aussi un cadeau."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Nomme une émotion avec un mot ou une image."},
+   {"frame": "BC", "text": "Écoute avec gentillesse quand un ami partage une émotion, sans se moquer."},
+   {"frame": "PSI", "text": "Explique pourquoi la carapace est devenue lourde, puis plus légère."},
+   {"frame": "DLMB", "text": "Trie les cailloux par couleur ou par taille en construisant le chemin."}
+  ],
+  "care": [
+   "Aucun enfant ne doit être forcé à partager. L’histoire montre Fern qui attend avec douceur, et la classe doit faire de même.",
+   "Ce guide n’est pas une thérapie. Si un enfant semble renfermé ou inquiet longtemps, parlez-en avec sa famille et l’équipe de l’école.",
+   "Les vrais cailloux peuvent présenter un risque d’étouffement avant 3 ans. Utilisez des cailloux en papier ou de très gros galets avec un adulte à proximité."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The Pebbles Inside, a story about sharing our feelings. Tavi the turtle keeps every feeling inside until her shell is too heavy to carry, and her friend Fern helps by simply listening. At home, ask your child, ‘Is there a pebble you’d like to share today?’ Happy pebbles count too. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Les cailloux de Tavi, une histoire sur le partage des émotions. Tavi la tortue garde tout à l’intérieur jusqu’à ce que sa carapace soit trop lourde, et son amie Fern l’aide simplement en l’écoutant. À la maison, demandez à votre enfant : « As-tu un caillou à partager aujourd’hui ? » Les cailloux joyeux comptent aussi. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre compartir lo que sentimos. Tavi, la tortuga, guarda cada sentimiento hasta que su caparazón pesa demasiado, y su amiga Fern la ayuda simplemente escuchándola. En casa, pregunte a su hijo o hija: «¿Hay alguna piedrita que quieras compartir hoy?» Las piedritas felices también cuentan. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte darüber gelesen, Gefühle zu teilen. Die Schildkröte Tavi behält jedes Gefühl für sich, bis ihr Panzer zu schwer wird, und ihre Freundin Fern hilft, indem sie einfach zuhört. Fragen Sie Ihr Kind zu Hause: ‚Gibt es heute einen Kieselstein, den du teilen möchtest?‘ Fröhliche Kiesel zählen auch. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sul condividere le emozioni. Tavi, la tartaruga, tiene ogni emozione dentro di sé finché il guscio diventa troppo pesante, e la sua amica Fern la aiuta semplicemente ascoltandola. A casa, chiedete a vostro figlio o vostra figlia: «C’è un sassolino che vuoi condividere oggi?» Anche i sassolini felici contano. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

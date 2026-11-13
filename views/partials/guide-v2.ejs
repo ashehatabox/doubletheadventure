@@ -33,7 +33,7 @@
       <div<%- L %>>
         <p><%= g2.summary %></p>
         <p class="g2-idea"><strong><%= t('guides.bigIdea') %></strong><br><%= g2.bigIdea %></p>
-        <blockquote class="g2-theme"><p class="quote">“<%= g2.theme %>”</p><p class="g2-refrain"><%= t('guides2.refrainLabel') %>: <strong><%= g2.refrain %></strong></p></blockquote>
+        <blockquote class="g2-theme"><p class="quote">“<%= g2.theme %>”</p><% if (g2.refrain) { %><p class="g2-refrain"><%= t('guides2.refrainLabel') %>: <strong><%= g2.refrain %></strong></p><% } %></blockquote>
       </div>
 
       <h2 class="h2"><%= t('guides2.originTitle') %></h2>

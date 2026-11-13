@@ -104,16 +104,55 @@ function bookView(b, h, req) {
   };
 }
 
+// ---------- SEO helpers ----------
+// Fallback share picture for pages that have none of their own.
+const DEFAULT_SHARE = fs.existsSync(path.join(__dirname, 'public', 'images', 'share', 'site.png')) ? '/images/share/site.png' : '/images/brand/logo.png';
+
+// Cut a description to a search-friendly length, at a sentence end if possible, else at a word.
+function seoTrim(text, max) {
+  const t = String(text || '').replace(/\s+/g, ' ').trim();
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max);
+  const stop = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('! '), cut.lastIndexOf('? '));
+  if (stop > max * 0.5) return cut.slice(0, stop + 1);
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:–—-]+$/, '') + '…';
+}
+
+// Structured data on every page: who we are, the site, this page and where it sits, plus any page-specific items.
+function baseJsonLd(h, req, seo, fullTitle, canonical, extra) {
+  const home = SITE_URL + h.url('/');
+  const org = { '@type': 'Organization', '@id': SITE_URL + '/#org', name: 'A² Publishing', alternateName: 'Double the Adventure', url: SITE_URL + '/',
+    logo: { '@type': 'ImageObject', url: SITE_URL + '/images/brand/logo.png' }, sameAs: ['https://www.facebook.com/A2Publishing'],
+    description: h.t('meta.siteDescription') };
+  const web = { '@type': 'WebSite', '@id': SITE_URL + '/#site', name: 'Double the Adventure', url: home, inLanguage: h.lang, publisher: { '@id': SITE_URL + '/#org' },
+    potentialAction: { '@type': 'SearchAction', target: home.replace(/\/$/, '') + '/search?q={q}', 'query-input': 'required name=q' } };
+  const parts = req.basePath.split('/').filter(Boolean);
+  const crumbs = [{ '@type': 'ListItem', position: 1, name: 'Double the Adventure', item: home }];
+  parts.forEach((p, i) => crumbs.push({ '@type': 'ListItem', position: i + 2, name: i === parts.length - 1 && seo.title ? seo.title : p.replace(/-/g, ' ').replace(/^./, (c) => c.toUpperCase()), item: SITE_URL + h.url('/' + parts.slice(0, i + 1).join('/')) }));
+  const webPage = { '@type': 'WebPage', '@id': canonical + '#page', url: canonical, name: fullTitle, description: seo.description, inLanguage: h.lang,
+    isPartOf: { '@id': SITE_URL + '/#site' }, primaryImageOfPage: seo.image ? SITE_URL + seo.image : undefined,
+    breadcrumb: parts.length ? { '@type': 'BreadcrumbList', itemListElement: crumbs } : undefined };
+  const graph = [org, web, webPage];
+  const list = extra ? [].concat(extra) : [];
+  list.forEach((x) => { if (x['@graph']) graph.push(...x['@graph']); else { const { '@context': _c, ...rest } = x; graph.push(rest); } });
+  return { '@context': 'https://schema.org', '@graph': graph };
+}
+
 function page(req, res, view, data = {}, status = 200) {
   const h = req.h;
   const seo = Object.assign({ title: '', description: h.t('meta.siteDescription') }, data.seo || {});
-  const fullTitle = seo.title ? `${seo.title} | A² Publishing` : (h.lang === 'fr' ? 'A² Publishing | Albums Double the Adventure pour enfants' : 'A² Publishing | Double the Adventure picture books');
+  seo.description = seoTrim(seo.description || h.t('meta.siteDescription'), 160);
+  if (!seo.image) seo.image = DEFAULT_SHARE;
+  const branded = seo.title ? `${seo.title} | A² Publishing` : '';
+  const fullTitle = seo.title ? (branded.length <= 62 ? branded : seo.title) : (h.lang === 'fr' ? 'A² Publishing | Albums Double the Adventure pour enfants' : 'A² Publishing | Double the Adventure picture books');
+  const canonical = SITE_URL + h.url(req.basePath);
+  data = { ...data, jsonLd: baseJsonLd(h, req, seo, fullTitle, canonical, data.jsonLd) };
   const alternates = LANGS.map((l) => ({ lang: l, href: SITE_URL + (l === 'en' ? req.basePath : '/' + l + (req.basePath === '/' ? '/' : req.basePath)) }));
   res.status(status).render('pages/' + view, {
     ...h,
     site,
     catalog,
-    seo: { ...seo, fullTitle, canonical: SITE_URL + h.url(req.basePath) },
+    seo: { ...seo, fullTitle, canonical },
     alternates,
     storiesLive: readalouds.slugs().length > 0,
     basePath: req.basePath,
@@ -124,7 +163,7 @@ function page(req, res, view, data = {}, status = 200) {
     bookView: (b) => bookView(b, h, req),
     mapPoints,
     ...data,
-    seo: { ...seo, fullTitle, canonical: SITE_URL + h.url(req.basePath) }
+    seo: { ...seo, fullTitle, canonical }
   });
 }
 
@@ -214,7 +253,7 @@ router.get('/books/:slug', (req, res, next) => {
       map: !!(b.culture && mapPoints.points[b.culture]),
       heroes: heroVisible(heroes.get(b.slug))
     },
-    seo: { title: view.displayTitle, description: h.pick(b.blurb) || h.pick(b.subtitle) || h.t('meta.siteDescription'), image: shareImage('book', b.slug, view.cover) }
+    seo: { title: view.displayTitle, description: h.pick(b.blurb) || h.pick(b.subtitle) || h.t('meta.bookDesc').replace('{title}', view.displayTitle).replace('{value}', (view.valueText || '').toLowerCase()), image: shareImage('book', b.slug, view.cover) }
   });
 });
 
@@ -262,7 +301,7 @@ router.get('/heroes/:slug', (req, res, next) => {
   page(req, res, 'hero-guide', {
     extraCss: 'heroes',
     guide: g, book, img, lineup, size, jsonLd,
-    seo: { title: h.pick(g.seoTitle || g.title), description: h.pick(g.description), image: book.cover, noindex: g.draft, type: 'article' }
+    seo: { title: (() => { const t = h.pick(g.seoTitle || g.title); const b = book.displayTitle; return t.length <= 62 ? t : (h.lang === 'fr' ? 'Les vrais animaux de ' + b : 'The real animals behind ' + b); })(), description: h.pick(g.description), image: book.cover, noindex: g.draft, type: 'article' }
   });
 });
 
@@ -485,6 +524,7 @@ router.get('/play', (req, res) => {
 function gamePage(req, res, game, book, config, title) {
   const h = req.h;
   const view = book ? bookView(book, h, req) : null;
+  const gameDesc = view && (game === 'color' || game === 'jigsaw') ? h.t('meta.' + game + 'Desc').replace('{title}', view.displayTitle) : h.t('play.lead');
   page(req, res, 'play-game', {
     playMode: true,
     gameScript: game,
@@ -498,7 +538,7 @@ function gamePage(req, res, game, book, config, title) {
       playHref: h.url('/play'),
       ...config
     },
-    seo: { title, description: h.t('play.lead'), image: view ? view.cover : '' }
+    seo: { title, description: gameDesc, image: view ? view.cover : '' }
   });
 }
 
@@ -618,7 +658,7 @@ router.get('/educators/guides/:slug', (req, res, next) => {
     book: view, g, guideArticles: arts,
     hasColor: play.pages(b.slug).length > 0,
     hasJigsaw: play.jigsaw.includes(b.slug),
-    seo: { title: h.t('guides.pageTitle').replace('{title}', view.displayTitle), description: h.t('guides.lead'), image: view.cover }
+    seo: { title: h.t('guides.pageTitle').replace('{title}', view.displayTitle), description: h.t('meta.guideDesc').replace('{title}', view.displayTitle).replace('{value}', (view.valueText || '').toLowerCase()), image: view.cover }
   });
 });
 router.get('/educators/:page', (req, res, next) => {
@@ -739,6 +779,45 @@ app.post('/api/enquire', async (req, res) => {
 
 // ---------- SEO files ----------
 app.get('/robots.txt', (req, res) => res.type('text/plain').send(`User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`));
+
+// A plain summary of the site for AI answer engines (llmstxt.org format).
+app.get('/llms.txt', (req, res) => {
+  const h = helpers('en');
+  const books = catalog.books.filter((b) => b.status !== 'coming').map((b) => {
+    const blurb = h.pick(b.blurb) || h.pick(b.subtitle) || '';
+    return `- [${h.bookTitle(b)}](${SITE_URL}/books/${b.slug}): value: ${h.valueLabel(b)}${h.cultureLabel(b) ? '; tradition: ' + h.cultureLabel(b) : ''}. ${seoTrim(blurb, 220)}`;
+  });
+  const arts = articles.list('en').filter((a) => !a.draft && !a.isFallback).slice(0, 40).map((a) => `- [${a.title}](${SITE_URL}/parents/articles/${a.slug}): ${seoTrim(a.description || '', 180)}`);
+  const guidesList = heroes.published().map((s) => { const b = catalog.get(s); return b ? `- [Real animals behind ${h.bookTitle(b)}](${SITE_URL}/heroes/${s})` : ''; }).filter(Boolean);
+  const body = [
+    '# A² Publishing: Double the Adventure picture books',
+    '',
+    '> ' + h.t('meta.siteDescription'),
+    '',
+    'A² Publishing (Amr Mohamed and Abdallah Shehata, Canada) makes the Double the Adventure series: picture books for children aged 3 to 7. Each book takes one old value from a culture\'s traditional stories (for example Ubuntu, Sankofa, kaitiakitanga, ayni) and tells it through animal heroes, with no religious content. Books are sold on Amazon in paperback and Kindle, with free coloring pages, games, teacher guides, read-aloud videos and articles for parents on this site. The site is in English and French (/fr/).',
+    '',
+    '## Main pages',
+    `- [Books](${SITE_URL}/books): the full catalog`,
+    `- [Read and watch](${SITE_URL}/stories): read-aloud videos and the online book reader`,
+    `- [Values](${SITE_URL}/values): books, games and guides grouped by value (courage, kindness, honesty...)`,
+    `- [Parents](${SITE_URL}/parents) and [articles for parents](${SITE_URL}/parents/articles)`,
+    `- [Educators](${SITE_URL}/educators) and [free teacher guides](${SITE_URL}/educators/guides)`,
+    `- [Play](${SITE_URL}/play): free coloring, jigsaw and memory games`,
+    `- [Shop](${SITE_URL}/shop): Amazon links and classroom sets`,
+    `- [About](${SITE_URL}/about) · [FAQ](${SITE_URL}/faq) · [Contact](${SITE_URL}/contact)`,
+    '',
+    '## Books',
+    ...books,
+    '',
+    guidesList.length ? '## Hero and location guides (real animal facts, with sources)' : '',
+    ...guidesList,
+    '',
+    '## Articles for parents and teachers',
+    ...arts,
+    ''
+  ].join('\n');
+  res.type('text/plain; charset=utf-8').send(body);
+});
 
 app.get('/sitemap.xml', (req, res) => {
   const paths = ['/', '/stories', '/start', '/values', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']

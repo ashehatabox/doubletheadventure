@@ -1,6 +1,10 @@
 // English text for the site. fr.js has the same keys.
 module.exports = {
   meta: {
+    bookDesc: '{title}, a picture book for ages 3–7 about {value}. Paperback and Kindle on Amazon, plus free coloring pages, games and a teacher guide.',
+    colorDesc: 'Free coloring pages from {title}, a picture book for ages 3–7. Color on a tablet, phone or computer, or print the pages at home or in class.',
+    jigsawDesc: 'A free online jigsaw puzzle made from the cover of {title}, a picture book for ages 3–7. Pick the number of pieces and play on any tablet or phone.',
+    guideDesc: 'Free teacher guide for {title}: discussion questions, activities and a lesson plan for ages 3–7, built around the value of {value}.',
     siteDescription: 'Double the Adventure picture books for ages 3–7: old wisdom from around the world, in stories where little heroes choose to do the right thing. In English, French, Spanish, German and Italian.'
   },
   topbar: { newBook: 'New:', newBookLine: 'a story about belonging you build yourself' },

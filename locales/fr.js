@@ -1,6 +1,10 @@
 // Texte français du site. Mêmes clés que en.js. À relire par une personne de langue maternelle française.
 module.exports = {
   meta: {
+    bookDesc: '{title}, un album pour les 3 à 7 ans sur la valeur {value}. En broché et Kindle sur Amazon, avec coloriages, jeux et guide pédagogique gratuits.',
+    colorDesc: 'Coloriages gratuits tirés de {title}, un album pour les 3 à 7 ans. À colorier sur tablette, téléphone ou ordinateur, ou à imprimer à la maison ou en classe.',
+    jigsawDesc: 'Un puzzle en ligne gratuit fait avec la couverture de {title}, un album pour les 3 à 7 ans. Choisissez le nombre de pièces et jouez sur tablette ou téléphone.',
+    guideDesc: 'Guide pédagogique gratuit pour {title} : questions, activités et plan de leçon pour les 3 à 7 ans, autour de la valeur {value}.',
     siteDescription: 'Les albums Double the Adventure pour les 3 à 7 ans : la sagesse ancienne du monde entier, dans des histoires où de petits héros choisissent de bien faire. En français, anglais, espagnol, allemand et italien.'
   },
   topbar: { newBook: 'Nouveau :', newBookLine: 'une histoire sur l\'appartenance qu\'on construit soi-même' },
@@ -408,7 +412,7 @@ module.exports = {
   valueHub: {
     indexTitle: 'Les valeurs de nos histoires',
     indexLead: 'Chaque livre Double the Adventure repose sur une valeur que l\'enfant peut pratiquer : gentillesse, patience, courage et bien d\'autres. Choisissez une valeur pour voir ses livres, jeux, guides et articles.',
-    pageTitle: 'Enseigner la valeur « {value} » aux enfants : livres, jeux et guides',
+    pageTitle: '« {value} » pour les enfants : livres, jeux et guides',
     pageLead: 'Albums, jeux gratuits, guides pour enseignants et longs articles pour aider les enfants de 3 à 7 ans à comprendre et à pratiquer : {value}.',
     booksTitle: 'Livres sur cette valeur',
     aboutBook: 'À propos du livre',

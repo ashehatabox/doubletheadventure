@@ -455,6 +455,36 @@ module.exports = {
     moreTitle: 'Pour la classe',
     foot: 'Libre de copie pour usage en classe'
   },
+  guides2: {
+    print: 'Imprimer ou enregistrer en PDF',
+    parts: { prepare: 'Se préparer', read: 'Lire ensemble', extend: 'Après l\'histoire' },
+    navLabel: 'Dans ce guide', navBefore: 'Avant la lecture', navDuring: 'Pendant la lecture', navAfter: 'En parler',
+    spreadNote: 'Les numéros sont ceux des doubles pages dans la liseuse au tableau.',
+    glanceTitle: 'En un coup d\'œil',
+    timeLabel: 'Durée', materialsLabel: 'Matériel', framesLabel: 'Domaines du programme de maternelle de l\'Ontario', languagesLabel: 'Langues du livre',
+    languages: 'français, anglais, espagnol, allemand, italien',
+    watch: 'Voir la lecture à voix haute', heroes: 'Découvrir les vrais animaux',
+    refrainLabel: 'Refrain à chanter ensemble',
+    originTitle: 'D\'où vient cette valeur',
+    wordsTitle: 'Mots à connaître',
+    word: 'Mot', meaning: 'Ce que ça veut dire', gesture: 'Geste',
+    duringText: 'Arrêtez-vous à ces doubles pages, demandez, écoutez, puis continuez. Pas besoin de faire tous les arrêts.',
+    spread: 'Double page {n}', ask: 'Demandez', listen: 'Réponses possibles', probe: 'Pour aller plus loin', lookFor: 'Repérez',
+    activitiesTitle: 'Activités',
+    scienceTitle: 'Coin sciences et nature',
+    diffTitle: 'Pour chaque enfant',
+    lookForsTitle: 'Ce qu\'on observe',
+    lookForsText: 'Cochez ce que vous remarquez pendant la semaine. Chaque ligne indique le domaine du programme de l\'Ontario.',
+    careTitle: 'Points d\'attention',
+    letterTitle: 'Mot pour les familles',
+    letterText: 'Copiez-le dans votre bulletin ou envoyez-le à la maison. Il existe aussi dans d\'autres langues.',
+    links: [
+      'Programme de la maternelle et du jardin d\'enfants de l\'Ontario (2016) : autorégulation et bien-être ; appartenance et contribution ; manifestation des comportements en littératie et en mathématiques ; résolution de problèmes et innovation.',
+      'Comment apprend-on ? : appartenance, bien-être, engagement et expression.'
+    ],
+    frameNames: { BC: 'Appartenance et contribution', SRWB: 'Autorégulation et bien-être', DLMB: 'Comportements en littératie et en mathématiques', PSI: 'Résolution de problèmes et innovation' },
+    licence: 'Libre de copier et de partager pour la classe et tout usage non commercial.'
+  },
   educators: {
     guideCount: '{n} guides, un par livre', guideFree: 'Gratuits à imprimer et partager',
     insideTitle: 'Prêt pour votre classe',

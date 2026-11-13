@@ -455,6 +455,36 @@ module.exports = {
     moreTitle: 'More for the classroom',
     foot: 'Free to copy for classroom use'
   },
+  guides2: {
+    print: 'Print or save as PDF',
+    parts: { prepare: 'Prepare', read: 'Read together', extend: 'After the story' },
+    navLabel: 'In this guide', navBefore: 'Before reading', navDuring: 'During reading', navAfter: 'Talk together',
+    spreadNote: 'The numbers are the spreads in the reader on the class screen.',
+    glanceTitle: 'At a glance',
+    timeLabel: 'Time', materialsLabel: 'Materials', framesLabel: 'Ontario Kindergarten frames', languagesLabel: 'Book languages',
+    languages: 'English, French, Spanish, German, Italian',
+    watch: 'Watch the read-aloud', heroes: 'Meet the real animals',
+    refrainLabel: 'Refrain to sing together',
+    originTitle: 'Where this value comes from',
+    wordsTitle: 'Words to know',
+    word: 'Word', meaning: 'What it means', gesture: 'Gesture',
+    duringText: 'Stop at these spreads, ask, listen, then read on. You do not need every stop.',
+    spread: 'Spread {n}', ask: 'Ask', listen: 'Listen for', probe: 'Go further', lookFor: 'Look for',
+    activitiesTitle: 'Activities',
+    scienceTitle: 'Science and nature corner',
+    diffTitle: 'For every child',
+    lookForsTitle: 'What to look for',
+    lookForsText: 'Tick what you notice during the week. Each line names the Ontario frame it shows.',
+    careTitle: 'Handle with care',
+    letterTitle: 'Note for families',
+    letterText: 'Copy it into your newsletter or send it home. It is also here in other languages.',
+    links: [
+      'Ontario Kindergarten Program (2016): Self-Regulation and Well-Being; Belonging and Contributing; Demonstrating Literacy and Mathematics Behaviours; Problem Solving and Innovating.',
+      'How Does Learning Happen?: belonging, well-being, engagement and expression.'
+    ],
+    frameNames: { BC: 'Belonging and Contributing', SRWB: 'Self-Regulation and Well-Being', DLMB: 'Demonstrating Literacy and Mathematics Behaviours', PSI: 'Problem Solving and Innovating' },
+    licence: 'Free to copy and share for classroom and non-commercial use.'
+  },
   educators: {
     guideCount: '{n} guides, one per book', guideFree: 'Free to print and share',
     insideTitle: 'Ready for your classroom',

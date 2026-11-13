@@ -1,0 +1,417 @@
+{
+ "book": "tumble-and-the-honey-glow",
+ "version": 2,
+ "updated": "2026-11-12",
+ "review": {
+  "owner": false
+ },
+ "frames": [
+  "SRWB",
+  "BC",
+  "DLMB",
+  "PSI"
+ ],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), chart paper, a soft blanket or scarf, crayons",
+  "summary": "Tumble, a bouncy bear cub, gets a tickly cough just before the forest's Last Leaf Games. He decides a 'Tickle Monster' is inside him and tries to fight it by racing and climbing, and only gets more tired. Mama Bear asks him one question: 'What does your body need right now?' Tumble listens, rests, coughs into his elbow, and by the first snow he is well enough to join the very last game.",
+  "bigIdea": "Listening to your body means stopping to ask what it needs. Resting when you're unwell is a strong thing to do, not a weak one.",
+  "theme": "The strongest bears are gentle with themselves.",
+  "refrain": "Warm, slow, honey-glow.",
+  "origin": "Many families, in many places, care for a cough the same old way: warmth, rest, soup and a spoon of honey in something warm. The book takes that shared home wisdom and adds one idea children can use anywhere: strength is not pushing through, it is noticing what your body needs and asking for care.",
+  "words": [
+   {
+    "word": "tumble",
+    "meaning": "to roll and fall over and over, like Tumble down a hill",
+    "cue": "roll your hands over each other"
+   },
+   {
+    "word": "tickle",
+    "meaning": "a little scratchy, itchy feeling",
+    "cue": "touch your throat gently"
+   },
+   {
+    "word": "sniffly",
+    "meaning": "when your nose is runny and you keep sniffing",
+    "cue": "a pretend sniff"
+   },
+   {
+    "word": "den",
+    "meaning": "a bear's cozy, safe home",
+    "cue": "make a roof with your arms"
+   },
+   {
+    "word": "rest",
+    "meaning": "to be still and quiet so your body can feel better",
+    "cue": "hands together under your cheek"
+   }
+  ],
+  "before": [
+   "Show the cover. Ask: What is the bear doing? How do you think he feels? What do you notice about the bee?",
+   "Say: This story is about listening to your body. Can your body tell you things? (When you're hungry, sleepy, cold, sore.) Take three or four answers.",
+   "Teach the refrain with a slow, sleepy voice and hands that rock like a cradle: 'Warm, slow, honey-glow.' Ask the children to join in every time they hear it."
+  ],
+  "pauses": [
+   {
+    "spread": 2,
+    "moment": "Tumble tumbles through the golden autumn forest.",
+    "ask": "What do you like to do when you have lots of energy?",
+    "listen": "running, jumping, rolling, playing with friends"
+   },
+   {
+    "spread": 3,
+    "moment": "The tickly cough starts and Tumble decides a Tickle Monster is inside him.",
+    "ask": "Is there really a monster? What do you think the tickle is?",
+    "listen": "it's a cough, he's getting sick, it's pretend",
+    "probe": "Why might Tumble want to fight it?"
+   },
+   {
+    "spread": 4,
+    "moment": "He roars, races and climbs to fight it.",
+    "ask": "Does fighting look like it's working? How can you tell?",
+    "listen": "no, he's still coughing, he looks tired"
+   },
+   {
+    "spread": 5,
+    "moment": "Zuzu wonders if racing is helping.",
+    "ask": "What would you say to Tumble right now?",
+    "listen": "stop, have a rest, tell your mom"
+   },
+   {
+    "spread": 6,
+    "moment": "Mama Bear asks what his body needs.",
+    "ask": "Close your eyes and ask your body: what do you need right now? What did it say?",
+    "listen": "water, a snack, a hug, to move, to sit",
+    "probe": "Mama didn't tell him what to do. Why do you think she asked instead?"
+   },
+   {
+    "spread": 7,
+    "moment": "In the den Tumble chooses soup, berries and a blanket.",
+    "ask": "What helps you feel better when you're sick?",
+    "listen": "sleeping, soup, a cuddle, a favourite toy"
+   },
+   {
+    "spread": 9,
+    "moment": "The games start; Tumble stays in and coughs into his elbow.",
+    "ask": "Why does he cough into his elbow? Let's all try it.",
+    "listen": "so friends don't get sick, to keep germs in"
+   },
+   {
+    "spread": 10,
+    "moment": "Mama says his body is the brave one.",
+    "ask": "How can sleeping be brave?",
+    "listen": "your body is working, it's fixing you while you sleep"
+   },
+   {
+    "spread": 12,
+    "moment": "Tumble joins the last game and shares his honey cup.",
+    "ask": "How did resting help Tumble in the end?",
+    "listen": "he got better, he could play, he wasn't too tired"
+   }
+  ],
+  "after": [
+   {
+    "q": "Why did Tumble think he had to fight the Tickle Monster?",
+    "a": "He thought stopping meant being weak, or missing the games."
+   },
+   {
+    "q": "What happened when he raced and climbed?",
+    "a": "He got more tired and sniffly. His body needed rest, not more running."
+   },
+   {
+    "q": "What question did Mama Bear ask? What would your body say right now?",
+    "a": "Any answer is right. Accept 'I'm fine' too."
+   },
+   {
+    "q": "Why did Tumble cough into his elbow?",
+    "a": "To keep his friends well. Caring for yourself can be caring for others."
+   },
+   {
+    "q": "Was resting brave? Why?",
+    "a": "it was hard to stay in; his body did the healing; he still got to play."
+   }
+  ],
+  "activities": [
+   {
+    "title": "Body check-in",
+    "time": "5 minutes",
+    "group": "Whole class, then daily",
+    "materials": "None",
+    "steps": "Sit in a circle, eyes closed. Ask together: 'What does my body need right now?' Each child answers with one word or a gesture (water, move, rest, hug, snack). Use it after recess as a daily calm-down routine."
+   },
+   {
+    "title": "Warm, slow, honey-glow",
+    "time": "5 minutes",
+    "group": "Whole class",
+    "materials": "A soft scarf or blanket",
+    "steps": "Play bouncy Tumble music or clap fast: children tumble and jump. When you say the refrain, everyone slows down, wraps up in a pretend blanket and breathes slowly three times. Repeat, getting a little slower each time."
+   },
+   {
+    "title": "My cozy den",
+    "time": "20 minutes",
+    "group": "Small groups",
+    "materials": "Paper, crayons",
+    "steps": "Each child draws the cozy den they would rest in when they feel unwell, and the three things inside it that help them (soup, a toy, a person). Write their words under the picture."
+   },
+   {
+    "title": "Elbow power",
+    "time": "5 minutes",
+    "group": "Whole class",
+    "materials": "None",
+    "steps": "Practise coughing and sneezing into the elbow like Tumble. Make it a game: when you call 'Tickle!', everyone does an elbow cough. Hang a picture of Tumble by the sink as a reminder."
+   }
+  ],
+  "science": {
+   "text": "Real bears eat a lot in autumn and then rest for much of the winter in a den, sometimes inside a hollow tree like Tumble's. Honeybees make honey from flower nectar and store it to feed the hive through winter.",
+   "link": "/heroes/tumble-and-the-honey-glow",
+   "linkText": "Meet the real animals of the autumn forest"
+  },
+  "differentiation": [
+   {
+    "who": "English and French learners",
+    "how": "Show the read-aloud video first, or read the book in the child's home language if we publish it. Teach the five words with their gestures before reading. Accept answers in any language or with gestures."
+   },
+   {
+    "who": "Children who need more support",
+    "how": "Use fewer pause points (spreads 3, 6 and 9). Offer choices: 'Does your body need water or a rest?' Let children point to pictures instead of answering out loud."
+   },
+   {
+    "who": "Mixed ages and older children",
+    "how": "Ask older children to retell the story in three parts (fighting, listening, getting better), or to make a 'What my body needs' chart for the class."
+   }
+  ],
+  "lookFors": [
+   {
+    "frame": "SRWB",
+    "text": "Notices and names a body feeling (tired, hungry, thirsty, sore)."
+   },
+   {
+    "frame": "SRWB",
+    "text": "Uses the refrain or slow breathing to calm their body."
+   },
+   {
+    "frame": "BC",
+    "text": "Explains why we cough into our elbow: to keep friends well."
+   },
+   {
+    "frame": "DLMB",
+    "text": "Retells the story in order: the tickle, the fighting, the question, the rest, the last game."
+   },
+   {
+    "frame": "PSI",
+    "text": "Suggests a better plan for Tumble than fighting the cough."
+   }
+  ],
+  "care": [
+   "Some children are often unwell or have a sick family member. Keep it light: the story is about noticing and resting, not about illness.",
+   "Never give honey to babies under one year old. If you share a warm drink in class, use separate cups, check for allergies, and keep it warm, not hot.",
+   "The Tickle Monster is only Tumble's idea, never a real creature. If a child is scared, say so.",
+   "In the book Tumble shares his honey cup. In class, talk about it: we can share kindness, but we each use our own cup."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), du papier grand format, une couverture douce ou un foulard, des crayons de cire",
+  "summary": "Tumble, un ourson plein d'énergie, attrape une petite toux juste avant les Jeux de la Dernière Feuille. Il décide qu'un « Monstre Chatouille » est en lui et essaie de le combattre en courant et en grimpant, mais il se fatigue encore plus. Maman Ours lui pose une seule question : « De quoi ton corps a-t-il besoin maintenant ? » Tumble écoute, se repose, tousse dans son coude et, à la première neige, il va assez bien pour jouer au tout dernier jeu.",
+  "bigIdea": "Écouter son corps, c'est s'arrêter pour se demander de quoi il a besoin. Se reposer quand on est malade, c'est être fort, pas faible.",
+  "theme": "Les ours les plus forts sont doux avec eux-mêmes.",
+  "refrain": "Au chaud, tout doux, lueur de miel.",
+  "origin": "Dans beaucoup de familles, un peu partout, on soigne la toux de la même façon depuis longtemps : de la chaleur, du repos, de la soupe et une cuillère de miel dans quelque chose de chaud. Le livre reprend cette sagesse partagée et y ajoute une idée que l'enfant peut utiliser partout : être fort, ce n'est pas forcer, c'est remarquer ce dont son corps a besoin et accepter qu'on prenne soin de lui.",
+  "words": [
+   {
+    "word": "culbuter",
+    "meaning": "rouler et tomber encore et encore, comme Tumble en bas de la colline",
+    "cue": "faites rouler vos mains l'une sur l'autre"
+   },
+   {
+    "word": "chatouille",
+    "meaning": "une petite sensation qui gratte",
+    "cue": "touchez doucement votre gorge"
+   },
+   {
+    "word": "enrhumé",
+    "meaning": "quand le nez coule et qu'on renifle",
+    "cue": "faites semblant de renifler"
+   },
+   {
+    "word": "tanière",
+    "meaning": "la maison douillette et sûre de l'ours",
+    "cue": "faites un toit avec vos bras"
+   },
+   {
+    "word": "se reposer",
+    "meaning": "rester calme et tranquille pour que le corps aille mieux",
+    "cue": "mains jointes sous la joue"
+   }
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Que fait l'ourson ? Comment se sent-il, à ton avis ? Que remarques-tu sur l'abeille ?",
+   "Dites : Cette histoire parle d'écouter son corps. Ton corps peut-il te dire des choses ? (Quand tu as faim, sommeil, froid, mal.) Prenez trois ou quatre réponses.",
+   "Apprenez le refrain d'une voix lente et endormie, en berçant les mains : « Au chaud, tout doux, lueur de miel. » Demandez aux enfants de le dire avec vous chaque fois qu'ils l'entendent."
+  ],
+  "pauses": [
+   {
+    "spread": 2,
+    "moment": "Tumble culbute dans la forêt dorée d'automne.",
+    "ask": "Qu'aimes-tu faire quand tu as beaucoup d'énergie ?",
+    "listen": "courir, sauter, rouler, jouer avec des amis"
+   },
+   {
+    "spread": 3,
+    "moment": "La toux commence et Tumble décide qu'un Monstre Chatouille est en lui.",
+    "ask": "Y a-t-il vraiment un monstre ? C'est quoi, la chatouille, à ton avis ?",
+    "listen": "c'est une toux, il tombe malade, c'est pour faire semblant",
+    "probe": "Pourquoi Tumble veut-il le combattre ?"
+   },
+   {
+    "spread": 4,
+    "moment": "Il rugit, court et grimpe pour le combattre.",
+    "ask": "Est-ce que se battre a l'air de marcher ? Comment le sais-tu ?",
+    "listen": "non, il tousse encore, il a l'air fatigué"
+   },
+   {
+    "spread": 5,
+    "moment": "Zuzu se demande si courir aide vraiment.",
+    "ask": "Que dirais-tu à Tumble maintenant ?",
+    "listen": "arrête, repose-toi, dis-le à ta maman"
+   },
+   {
+    "spread": 6,
+    "moment": "Maman Ours demande de quoi son corps a besoin.",
+    "ask": "Ferme les yeux et demande à ton corps : de quoi as-tu besoin maintenant ? Qu'a-t-il répondu ?",
+    "listen": "de l'eau, une collation, un câlin, bouger, m'asseoir",
+    "probe": "Maman ne lui dit pas quoi faire. Pourquoi pose-t-elle une question ?"
+   },
+   {
+    "spread": 7,
+    "moment": "Dans la tanière, Tumble choisit la soupe, les baies et la couverture.",
+    "ask": "Qu'est-ce qui t'aide à aller mieux quand tu es malade ?",
+    "listen": "dormir, la soupe, un câlin, un jouet préféré"
+   },
+   {
+    "spread": 9,
+    "moment": "Les jeux commencent ; Tumble reste à l'intérieur et tousse dans son coude.",
+    "ask": "Pourquoi tousse-t-il dans son coude ? Essayons tous.",
+    "listen": "pour que ses amis ne tombent pas malades, pour garder les microbes"
+   },
+   {
+    "spread": 10,
+    "moment": "Maman dit que son corps est le plus courageux.",
+    "ask": "Comment dormir peut-il être courageux ?",
+    "listen": "le corps travaille, il répare pendant qu'on dort"
+   },
+   {
+    "spread": 12,
+    "moment": "Tumble joue au dernier jeu et partage sa tasse de miel.",
+    "ask": "Comment le repos a-t-il aidé Tumble à la fin ?",
+    "listen": "il est guéri, il a pu jouer, il n'était plus fatigué"
+   }
+  ],
+  "after": [
+   {
+    "q": "Pourquoi Tumble croyait-il qu'il devait combattre le Monstre Chatouille ?",
+    "a": "Il pensait que s'arrêter voulait dire être faible, ou rater les jeux."
+   },
+   {
+    "q": "Que s'est-il passé quand il a couru et grimpé ?",
+    "a": "Il était encore plus fatigué et enrhumé. Son corps avait besoin de repos, pas de courir."
+   },
+   {
+    "q": "Quelle question Maman Ours a-t-elle posée ? Que dirait ton corps maintenant ?",
+    "a": "Toutes les réponses sont bonnes, même « ça va »."
+   },
+   {
+    "q": "Pourquoi Tumble a-t-il toussé dans son coude ?",
+    "a": "Pour protéger ses amis. Prendre soin de soi, c'est aussi prendre soin des autres."
+   },
+   {
+    "q": "Se reposer, était-ce courageux ? Pourquoi ?",
+    "a": "c'était difficile de rester à l'intérieur ; son corps a fait la guérison ; il a quand même pu jouer."
+   }
+  ],
+  "activities": [
+   {
+    "title": "J'écoute mon corps",
+    "time": "5 minutes",
+    "group": "Toute la classe, puis chaque jour",
+    "materials": "Aucun",
+    "steps": "Assis en cercle, les yeux fermés, demandez ensemble : « De quoi mon corps a-t-il besoin maintenant ? » Chaque enfant répond par un mot ou un geste (de l'eau, bouger, me reposer, un câlin, une collation). Utilisez-le après la récréation comme routine pour se calmer."
+   },
+   {
+    "title": "Au chaud, tout doux, lueur de miel",
+    "time": "5 minutes",
+    "group": "Toute la classe",
+    "materials": "Un foulard ou une couverture douce",
+    "steps": "Mettez une musique rapide ou tapez vite des mains : les enfants culbutent et sautent. Quand vous dites le refrain, tout le monde ralentit, s'enroule dans une couverture imaginaire et respire lentement trois fois. Recommencez, un peu plus lentement chaque fois."
+   },
+   {
+    "title": "Ma tanière douillette",
+    "time": "20 minutes",
+    "group": "Petits groupes",
+    "materials": "Papier, crayons de cire",
+    "steps": "Chaque enfant dessine la tanière où il se reposerait quand il ne se sent pas bien, et les trois choses à l'intérieur qui l'aident (soupe, jouet, une personne). Écrivez ses mots sous le dessin."
+   },
+   {
+    "title": "Le pouvoir du coude",
+    "time": "5 minutes",
+    "group": "Toute la classe",
+    "materials": "Aucun",
+    "steps": "Exercez-vous à tousser et à éternuer dans le coude comme Tumble. Faites-en un jeu : quand vous dites « Chatouille ! », tout le monde tousse dans son coude. Affichez une image de Tumble près de l'évier."
+   }
+  ],
+  "science": {
+   "text": "Les vrais ours mangent beaucoup à l'automne puis se reposent une grande partie de l'hiver dans une tanière, parfois dans un arbre creux comme celle de Tumble. Les abeilles font le miel avec le nectar des fleurs et le gardent pour nourrir la ruche pendant l'hiver.",
+   "link": "/heroes/tumble-and-the-honey-glow",
+   "linkText": "Découvrir les vrais animaux de la forêt d'automne"
+  },
+  "differentiation": [
+   {
+    "who": "Élèves qui apprennent le français ou l'anglais",
+    "how": "Montrez d'abord la vidéo de lecture, ou lisez le livre dans la langue de l'enfant si nous la publions. Enseignez les cinq mots avec leurs gestes avant la lecture. Acceptez les réponses dans toutes les langues ou par gestes."
+   },
+   {
+    "who": "Enfants qui ont besoin de plus de soutien",
+    "how": "Faites moins d'arrêts (doubles pages 3, 6 et 9). Proposez des choix : « Ton corps a-t-il besoin d'eau ou de repos ? » Laissez les enfants montrer des images au lieu de répondre à voix haute."
+   },
+   {
+    "who": "Groupes multiâges et enfants plus grands",
+    "how": "Demandez aux plus grands de raconter l'histoire en trois parties (combattre, écouter, guérir) ou de faire une affiche « Ce dont mon corps a besoin » pour la classe."
+   }
+  ],
+  "lookFors": [
+   {
+    "frame": "SRWB",
+    "text": "Remarque et nomme une sensation du corps (fatigue, faim, soif, douleur)."
+   },
+   {
+    "frame": "SRWB",
+    "text": "Utilise le refrain ou une respiration lente pour se calmer."
+   },
+   {
+    "frame": "BC",
+    "text": "Explique pourquoi on tousse dans son coude : pour protéger ses amis."
+   },
+   {
+    "frame": "DLMB",
+    "text": "Raconte l'histoire dans l'ordre : la chatouille, le combat, la question, le repos, le dernier jeu."
+   },
+   {
+    "frame": "PSI",
+    "text": "Propose à Tumble un meilleur plan que de combattre la toux."
+   }
+  ],
+  "care": [
+   "Certains enfants sont souvent malades ou ont un proche malade. Restez léger : l'histoire parle de remarquer et de se reposer, pas de maladie.",
+   "Ne donnez jamais de miel à un bébé de moins d'un an. Si vous partagez une boisson chaude en classe, utilisez des tasses séparées, vérifiez les allergies, et servez-la tiède, pas brûlante.",
+   "Le Monstre Chatouille n'est qu'une idée de Tumble, jamais une vraie créature. Si un enfant a peur, dites-le-lui.",
+   "Dans le livre, Tumble partage sa tasse de miel. En classe, parlez-en : on peut partager sa gentillesse, mais chacun utilise sa propre tasse."
+  ]
+ },
+ "letter": {
+  "en": "Today we read Tumble and the Honey Glow, a story about listening to your body. Tumble the bear cub learns that resting when he's unwell is brave, not weak. At home, try asking your child: \"What does your body need right now?\" You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd'hui, nous avons lu une histoire sur l'écoute de son corps : l'ourson apprend que se reposer quand on est malade, c'est courageux, pas faible. À la maison, demandez à votre enfant : « De quoi ton corps a-t-il besoin maintenant ? » Vous pouvez lire ou regarder l'histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre escuchar a nuestro cuerpo: el osito aprende que descansar cuando está enfermo es valiente, no débil. En casa, pregúntele a su hijo o hija: «¿Qué necesita tu cuerpo ahora mismo?». Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über das Hören auf den eigenen Körper gelesen: Der kleine Bär lernt, dass Ausruhen, wenn man krank ist, mutig ist und nicht schwach. Fragen Sie Ihr Kind zu Hause: „Was braucht dein Körper gerade?“ Die Geschichte gibt es kostenlos zum Lesen und Anschauen auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sull'ascoltare il proprio corpo: l'orsetto impara che riposare quando si sta male è coraggioso, non debole. A casa, chiedete a vostro figlio o vostra figlia: «Di che cosa ha bisogno il tuo corpo adesso?». Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

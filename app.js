@@ -22,6 +22,7 @@ const shop = require('./lib/shop');
 const shopData = require('./data/shop');
 const welcome = require('./lib/welcome');
 const readalouds = require('./lib/readalouds');
+const guide2 = require('./lib/guide2');
 const reader = require('./lib/reader');
 const { helpers, bookImage, coverSmall, LANGS } = require('./lib/i18n');
 const amazon = require('./lib/amazon');
@@ -614,6 +615,9 @@ router.get('/educators/guides/:slug', (req, res, next) => {
   const arts = articles.forBook(b.slug, h.lang).filter((a) => ['classroom', 'activities', 'reading'].includes(a.topic)).slice(0, 3);
   page(req, res, 'guide', {
     book: view, g, guideArticles: arts,
+    g2: guide2.get(b.slug, h.lang),
+    hasVideo: readalouds.slugs().includes(b.slug),
+    hasHeroes: fs.existsSync(path.join(__dirname, 'data', 'heroes', b.slug + '.json')),
     hasColor: play.pages(b.slug).length > 0,
     hasJigsaw: play.jigsaw.includes(b.slug),
     seo: { title: h.t('guides.pageTitle').replace('{title}', view.displayTitle), description: h.t('guides.lead'), image: view.cover }

@@ -544,3 +544,22 @@ a.cast-card:hover { color: var(--ink); transform: translateY(-3px); box-shadow: 
 .edu-links { margin: 2px 0 0; display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 15px; font-weight: 800; }
 .edu-links a:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; border-radius: 4px; }
 @media (prefers-reduced-motion: reduce) { .edu-cover:hover img { transform: none; } }
+
+/* Guide 2.0 */
+.g2-glance { background: var(--white); }
+.g2-dl { display: grid; grid-template-columns: minmax(0, 15em) minmax(0, 1fr); gap: 6px 18px; margin: 0; }
+.g2-dl dt { font-weight: 800; }
+.g2-dl dd { margin: 0; }
+.g2-links { margin: 14px 0 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-weight: 800; }
+.g2-links a:focus-visible, .g2-letter summary:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; border-radius: 4px; }
+.g2-table { width: 100%; border-collapse: collapse; font-size: 16px; }
+.g2-table th, .g2-table td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+.g2-table th { font-weight: 800; text-transform: none; letter-spacing: 0; font-size: 16px; }
+.g2-pauses li { display: grid; gap: 4px; }
+.g2-spread { margin: 0; font-weight: 800; color: var(--teal-dark); }
+.g2-checks { list-style: none; padding-left: 0 !important; }
+.g2-checks li { display: flex; gap: 10px; align-items: flex-start; }
+.g2-box { flex: 0 0 18px; width: 18px; height: 18px; margin-top: 4px; border: 2px solid var(--ink); border-radius: 4px; }
+.g2-letter { margin-top: 28px; background: var(--sun-pale); }
+.g2-letter summary { cursor: pointer; font-weight: 800; }
+@media print { .g2-letter { break-before: page; background: none; } .g2-glance { box-shadow: none; } }

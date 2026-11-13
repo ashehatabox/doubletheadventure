@@ -1,0 +1,105 @@
+<% const L = g2.fallback && lang !== 'en' ? ' lang="en"' : ''; const fr = t('guides2.frameNames'); const LANGS = { en: 'English', fr: 'Français', es: 'Español', de: 'Deutsch', it: 'Italiano' }; %>
+<section class="section tight">
+  <div class="wrap guide" style="max-width:820px">
+
+    <div class="g2-glance card card-pad">
+      <h2 class="h3" style="margin:0 0 12px"><%= t('guides2.glanceTitle') %></h2>
+      <dl class="g2-dl"<%- L %>>
+        <dt><%= t('common.value') %></dt><dd><%= book.valueText %></dd>
+        <dt><%= t('book.ageLabel') %></dt><dd><%= site.ages %></dd>
+        <dt><%= t('guides2.timeLabel') %></dt><dd><%= g2.time %></dd>
+        <dt><%= t('guides2.materialsLabel') %></dt><dd><%= g2.materials %></dd>
+        <dt><%= t('guides2.framesLabel') %></dt><dd><%= g2.frames.map(function (f) { return fr[f]; }).join('; ') %></dd>
+        <dt><%= t('guides2.languagesLabel') %></dt><dd><%= t('guides2.languages') %></dd>
+      </dl>
+      <p class="g2-links no-print">
+        <a href="<%= url('/books/' + book.slug + '/read') %>"><%= t('educators.bookRead') %></a>
+        <% if (hasVideo) { %><a href="<%= url('/books/' + book.slug) %>#read-aloud"><%= t('guides2.watch') %></a><% } %>
+        <% if (hasColor) { %><a href="<%= url('/play/color/' + book.slug) %>"><%= t('book.playColor') %></a><% } %>
+        <% if (hasHeroes) { %><a href="<%= url('/heroes/' + book.slug) %>"><%= t('guides2.heroes') %></a><% } %>
+      </p>
+    </div>
+
+    <h2 class="h2"><%= t('guides.aboutTitle') %></h2>
+    <div<%- L %>>
+      <p><%= g2.summary %></p>
+      <p><strong><%= t('guides.bigIdea') %>:</strong> <%= g2.bigIdea %></p>
+      <p class="quote">“<%= g2.theme %>”</p>
+      <p><strong><%= t('guides2.refrainLabel') %>:</strong> <%= g2.refrain %></p>
+    </div>
+
+    <h2 class="h2"><%= t('guides2.originTitle') %></h2>
+    <p<%- L %>><%= g2.origin %></p>
+
+    <h2 class="h2"><%= t('guides2.wordsTitle') %></h2>
+    <table class="g2-table"<%- L %>>
+      <thead><tr><th scope="col"><%= t('guides2.word') %></th><th scope="col"><%= t('guides2.meaning') %></th><th scope="col"><%= t('guides2.gesture') %></th></tr></thead>
+      <tbody><% g2.words.forEach(function (w) { %><tr><td><strong><%= w.word %></strong></td><td><%= w.meaning %></td><td><%= w.cue %></td></tr><% }) %></tbody>
+    </table>
+
+    <h2 class="h2"><%= t('guides.beforeTitle') %></h2>
+    <ul<%- L %>><% g2.before.forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+
+    <h2 class="h2"><%= t('guides.duringTitle') %></h2>
+    <p><%= t('guides2.duringText') %></p>
+    <ol class="g2-pauses"<%- L %>>
+      <% g2.pauses.forEach(function (p) { %>
+      <li>
+        <p class="g2-spread"><%= t('guides2.spread').replace('{n}', p.spread) %></p>
+        <p style="margin:0"><%= p.moment %></p>
+        <p style="margin:0"><strong><%= t('guides2.ask') %>:</strong> <%= p.ask %></p>
+        <p class="muted" style="margin:0"><%= t('guides2.listen') %>: <%= p.listen %></p>
+        <% if (p.probe) { %><p class="muted" style="margin:0"><%= t('guides2.probe') %>: <%= p.probe %></p><% } %>
+      </li>
+      <% }) %>
+    </ol>
+
+    <h2 class="h2"><%= t('guides.afterTitle') %></h2>
+    <ol<%- L %>><% g2.after.forEach(function (q) { %><li><strong><%= q.q %></strong><br><span class="muted"><%= t('guides2.lookFor') %>: <%= q.a %></span></li><% }) %></ol>
+
+    <h2 class="h2"><%= t('guides2.activitiesTitle') %></h2>
+    <div class="guide-acts"<%- L %>>
+      <% g2.activities.forEach(function (a) { %>
+      <div class="card card-pad stack-sm">
+        <h3 class="h3" style="margin:0"><%= a.title %></h3>
+        <p class="muted" style="margin:0"><%= a.time %>. <%= a.group %>. <%= t('guides2.materialsLabel') %>: <%= a.materials %>.</p>
+        <p style="margin:0"><%= a.steps %></p>
+      </div>
+      <% }) %>
+    </div>
+
+    <h2 class="h2"><%= t('guides2.scienceTitle') %></h2>
+    <p<%- L %>><%= g2.science.text %></p>
+    <% if (hasHeroes) { %><p class="no-print"><a href="<%= url(g2.science.link) %>" style="font-weight:800"><%= g2.science.linkText %></a></p><% } %>
+
+    <h2 class="h2"><%= t('guides2.diffTitle') %></h2>
+    <ul<%- L %>><% g2.differentiation.forEach(function (d) { %><li><strong><%= d.who %>:</strong> <%= d.how %></li><% }) %></ul>
+
+    <h2 class="h2"><%= t('guides2.lookForsTitle') %></h2>
+    <p><%= t('guides2.lookForsText') %></p>
+    <ul class="g2-checks"<%- L %>><% g2.lookFors.forEach(function (x) { %><li><span class="g2-box" aria-hidden="true"></span><span><%= x.text %> <span class="muted">(<%= fr[x.frame] %>)</span></span></li><% }) %></ul>
+
+    <h2 class="h2"><%= t('guides2.careTitle') %></h2>
+    <ul<%- L %>><% g2.care.forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+
+    <div class="g2-letter card card-pad stack-sm">
+      <h2 class="h3" style="margin:0"><%= t('guides2.letterTitle') %></h2>
+      <p class="muted no-print" style="margin:0"><%= t('guides2.letterText') %></p>
+      <% const first = g2.letter[lang] ? lang : 'en'; %>
+      <p lang="<%= first %>" style="margin:0"><%= g2.letter[first] %></p>
+      <% Object.keys(g2.letter).filter(function (k) { return k !== first; }).forEach(function (k) { %>
+      <details class="no-print"><summary><%= LANGS[k] || k %></summary><p lang="<%= k %>" style="margin:8px 0 0"><%= g2.letter[k] %></p></details>
+      <% }) %>
+    </div>
+
+    <h2 class="h2"><%= t('guides.linksTitle') %></h2>
+    <ul><% t('guides2.links').forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+
+    <% if (hasJigsaw || guideArticles.length) { %>
+    <h2 class="h2 no-print"><%= t('guides.moreTitle') %></h2>
+    <% if (hasJigsaw) { %><div class="row no-print"><a class="btn btn-ghost" href="<%= url('/play/jigsaw/' + book.slug) %>"><%= t('book.playJigsaw') %></a></div><% } %>
+    <% if (guideArticles.length) { %><div class="acards no-print"><% guideArticles.forEach(function (a) { %><%- include('article-card', { a: a }) %><% }) %></div><% } %>
+    <% } %>
+    <p class="muted guide-foot"><%= t('guides2.licence') %> A² Publishing, <%= seo.canonical %></p>
+  </div>
+</section>

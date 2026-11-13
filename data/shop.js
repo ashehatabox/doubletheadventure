@@ -12,7 +12,7 @@ module.exports = {
       title: { en: 'Three-book set', fr: 'Ensemble de trois livres' },
       text: { en: 'Three paperbacks around one value, shipped together. Shipping included.', fr: 'Trois livres brochés sur une même valeur, expédiés ensemble. Livraison incluse.' },
       books: 3, choose: true,
-      priceCents: 3999
+      priceCents: 3699
     },
     {
       id: 'signed-copy',
@@ -29,7 +29,7 @@ module.exports = {
       title: { en: 'English and French set', fr: 'Ensemble anglais et français' },
       text: { en: 'The same story in English and in French. Shipping included.', fr: 'La même histoire en anglais et en français. Livraison incluse.' },
       books: 2, choose: true,
-      priceCents: 2999
+      priceCents: 2799
     },
     {
       id: 'classroom-set-5',
@@ -47,7 +47,7 @@ module.exports = {
       title: { en: 'Classroom set: 10 books', fr: 'Ensemble de classe : 10 livres' },
       text: { en: 'Ten paperbacks you choose, with the SEL pack for each book and a classroom licence. Shipping included.', fr: 'Dix livres brochés au choix, avec la trousse SEL de chaque livre et une licence de classe. Livraison incluse.' },
       books: 10, choose: true,
-      priceCents: 11499
+      priceCents: 10999
     },
     {
       id: 'full-library',
@@ -56,7 +56,7 @@ module.exports = {
       title: { en: 'The whole library: 21 books', fr: 'Toute la collection : 21 livres' },
       text: { en: 'All 21 books in one language, all the SEL packs and a classroom licence. Shipping included.', fr: 'Les 21 livres dans une langue, toutes les trousses SEL et une licence de classe. Livraison incluse.' },
       books: 21, choose: true,
-      priceCents: 23999
+      priceCents: 22999
     }
   ]
 };

@@ -2,9 +2,63 @@
 <section class="section tight">
   <div class="wrap stack" style="gap:32px">
     <div class="stack-sm" style="max-width:760px">
-      <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= shopOpen ? t('shop.openTitle') : t('shop.title') %></h1>
-      <p class="lead"><%= shopOpen ? t('shop.openLead') : t('shop.lead') %></p>
-      <div class="row"><a class="btn btn-primary" href="<%= url('/books') %>"><%= t('common.exploreBooks') %></a></div>
+      <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('shop.openTitle') %></h1>
+      <p class="lead"><%= shopOpen ? t('shop.openLead') : t('shop.pageLead') %></p>
+      <div class="row"><a class="pill" href="#on-amazon"><%= t('shop.liveTitle') %> (<%= liveBooks.length %>)</a><% if (soonBooks.length) { %><a class="pill" href="#coming-soon"><%= t('shop.soonTitle') %> (<%= soonBooks.length %>)</a><% } %><a class="pill" href="#sets"><%= t('shop.setsTitle') %></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" id="on-amazon" style="padding-top:0">
+  <div class="wrap stack" style="gap:24px">
+    <div class="stack-sm">
+      <h2 class="h2 book-h2"><%= t('shop.liveTitle') %></h2>
+      <p class="lead"><%= t('shop.liveLead').replace('{paper}', '$' + site.prices.paperback).replace('{kindle}', '$' + site.prices.kindle) %></p>
+    </div>
+    <div class="shop-books">
+      <% liveBooks.forEach(function (b) { %>
+      <article class="shop-book">
+        <a href="<%= b.href %>" class="shop-cover"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= b.displayTitle %>" loading="lazy" width="360" height="576"><% } %></a>
+        <div class="shop-info">
+          <a class="shop-title" href="<%= b.href %>" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></a>
+          <span class="shop-value"><%= b.valueText %></span>
+          <span class="shop-price"><%= t('common.paperback') %> $<%= site.prices.paperback %> · <%= t('common.kindle') %> $<%= site.prices.kindle %></span>
+          <a class="btn btn-primary shop-buy" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyAmazon') %></a>
+        </div>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<% if (soonBooks.length) { %>
+<section class="section tight band-sunpale" id="coming-soon">
+  <div class="wrap stack" style="gap:24px">
+    <div class="stack-sm">
+      <h2 class="h2 book-h2"><%= t('shop.soonTitle') %></h2>
+      <p class="lead"><%= t('shop.soonLead') %></p>
+    </div>
+    <div class="shop-books">
+      <% soonBooks.forEach(function (b) { %>
+      <article class="shop-book">
+        <a href="<%= b.href %>" class="shop-cover"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= b.displayTitle %>" loading="lazy" width="360" height="576"><% } %><span class="shop-soon"><%= t('shop.soonTag') %></span></a>
+        <div class="shop-info">
+          <a class="shop-title" href="<%= b.href %>" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></a>
+          <span class="shop-value"><%= b.valueText %></span>
+          <a class="btn btn-ghost shop-buy" href="<%= b.href %>#notify"><%= t('common.notifyMe') %></a>
+        </div>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
+<section class="section tight" id="sets">
+  <div class="wrap stack" style="gap:32px">
+    <div class="stack-sm">
+      <h2 class="h2 book-h2"><%= shopOpen ? t('shop.setsTitle') : t('shop.title') %></h2>
+      <% if (!shopOpen) { %><p class="lead"><%= t('shop.setsLead') %></p><% } %>
     </div>
     <% if (shopOpen) { %>
     <div class="grid-cards">

@@ -163,6 +163,14 @@ module.exports = {
     button: 'Apply'
   },
   shop: {
+    pageLead: 'Every finished book is on Amazon, in paperback and Kindle. Our own shop opens in early 2027 with sets, signed copies and gifts.',
+    liveTitle: 'On Amazon now',
+    liveLead: 'Paperback {paper} and Kindle {kindle}. The button opens the right Amazon store for your country.',
+    soonTitle: 'Coming to Amazon soon',
+    soonLead: 'These books are finished and on their way to Amazon. Leave your email on a book and we\'ll tell you the day it\'s out.',
+    soonTag: 'Coming soon',
+    setsTitle: 'Sets, signed copies and gifts',
+    setsLead: 'Our own shop will offer what Amazon can\'t: sets, signed copies and gifts.',
     title: 'The shop opens in early 2027',
     lead: 'Single books are on Amazon today. Our own shop will offer what Amazon can\'t: sets, signed copies and gifts.',
     items: [

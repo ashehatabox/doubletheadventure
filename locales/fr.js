@@ -163,6 +163,14 @@ module.exports = {
     button: 'Postuler'
   },
   shop: {
+    pageLead: 'Chaque livre terminé est sur Amazon, en broché et en Kindle. Notre boutique ouvre début 2027 avec des ensembles, des dédicaces et des cadeaux.',
+    liveTitle: 'Sur Amazon maintenant',
+    liveLead: 'Livre broché {paper} et Kindle {kindle}. Le bouton ouvre la boutique Amazon de votre pays.',
+    soonTitle: 'Bientôt sur Amazon',
+    soonLead: 'Ces livres sont terminés et en route vers Amazon. Laissez votre courriel sur un livre et nous vous préviendrons le jour de sa sortie.',
+    soonTag: 'Bientôt',
+    setsTitle: 'Ensembles, dédicaces et cadeaux',
+    setsLead: 'Notre propre boutique offrira ce qu\'Amazon ne peut pas : des ensembles, des exemplaires dédicacés et des cadeaux.',
     title: 'La boutique ouvre au début de 2027',
     lead: 'Les livres sont sur Amazon dès aujourd\'hui. Notre boutique offrira ce qu\'Amazon n\'offre pas : des ensembles, des exemplaires dédicacés et des cadeaux.',
     items: [

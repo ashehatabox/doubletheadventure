@@ -308,6 +308,17 @@ a.cast-card:hover { color: var(--ink); transform: translateY(-3px); box-shadow: 
 .hs-details summary .h3 { font-family: var(--serif); font-weight: 700; font-size: 22px; }
 .hs-details summary { cursor: pointer; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; min-height: 44px; }
 @media (max-width: 760px) { .guide-stack { height: 240px; } }
+.shop-books { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 18px; }
+.shop-book { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 14px; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; }
+.shop-cover { position: relative; display: block; align-self: start; }
+.shop-cover img { width: 96px; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(74,52,38,.18); display: block; }
+.shop-soon { position: absolute; left: 4px; right: 4px; white-space: nowrap; bottom: 6px; text-align: center; background: var(--sun); color: var(--ink); font-size: 12px; font-weight: 800; border-radius: 999px; padding: 2px 6px; }
+.shop-info { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.shop-title { font-family: var(--serif); font-weight: 700; font-size: 19px; line-height: 1.2; color: var(--ink); text-decoration: none; }
+.shop-title:hover { color: var(--coral-dark); }
+.shop-value { color: var(--ink-soft); font-size: 15px; }
+.shop-price { font-size: 14px; font-weight: 700; margin-top: 2px; }
+.shop-buy { margin-top: auto; align-self: flex-start; white-space: nowrap; margin-top: 10px; min-height: 44px; padding-left: 18px; padding-right: 18px; font-size: 15px; }
 .play-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .play-tile { display: flex; flex-direction: column; gap: 10px; text-align: center; font-weight: 800; }
 .play-tile .art { aspect-ratio: 3 / 4; align-items: center; justify-content: center; }

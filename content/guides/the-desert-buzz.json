@@ -1,0 +1,141 @@
+{
+ "book": "the-desert-buzz",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["SRWB", "BC", "PSI", "DLMB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a tray of sand or blocks, a feather or a paper fan, a feelings thermometer drawing",
+  "summary": "In a hot, sandy desert, Etoo the beetle and Bella the bee are best friends. One scorching afternoon, the wind from Bella’s wings knocks down Etoo’s sand tower. Etoo explodes: ‘You always ruin everything!’ Bella says it was an accident, but he won’t listen and stomps away, and she flies off hurt. Alone under a rock, Etoo notices how empty it feels without her. He takes a slow, deep breath and remembers the wise old scorpion’s advice. He finds Bella and says sorry, she says sorry too, and together they build the biggest tower yet.",
+  "bigIdea": "It’s okay to feel angry. When anger gets big, stop, take a deep breath and listen to your heart before you act.",
+  "theme": "When anger buzzes loud, pause and listen to your heart.",
+  "refrain": "",
+  "origin": "This story doesn’t come from one culture. Many traditions teach the same simple tool: when you feel a big angry feeling, wait and breathe before you speak or act.",
+  "words": [
+   {"word": "angry", "meaning": "a hot, big feeling when something seems unfair", "cue": "make fists and scrunch your face"},
+   {"word": "accident", "meaning": "something that happens by mistake, not on purpose", "cue": "shrug with open hands"},
+   {"word": "stomp", "meaning": "to walk hard and loud with your feet", "cue": "stomp twice"},
+   {"word": "breath", "meaning": "the air you take in and let out", "cue": "breathe in slowly, then out"},
+   {"word": "calm", "meaning": "quiet and still inside", "cue": "press your hands down gently"}
+  ],
+  "before": [
+   "Show the cover. Ask: Who are these two friends? Where do they live?",
+   "Ask: What makes you feel angry? What does angry feel like in your body? Take a few answers.",
+   "Practise the desert breath: breathe in slowly through your nose like smelling a flower, then out slowly like a soft desert breeze."
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Etoo and Bella explore the desert together.", "ask": "What do Etoo and Bella like to do together?", "listen": "climb cactus, share nectar, rest under rocks"},
+   {"spread": 5, "moment": "Bella’s wings knock down the tower.", "ask": "Why did Etoo get so angry?", "listen": "his tower fell, he worked hard on it"},
+   {"spread": 6, "moment": "‘I didn’t mean to!’", "ask": "Was it Bella’s fault?", "listen": "no, it was an accident, the wind from her wings"},
+   {"spread": 7, "moment": "‘You always ruin everything!’", "ask": "Was it fair when Etoo said Bella always ruins everything? Why or why not?", "listen": "no, it was one accident, it was hurtful"},
+   {"spread": 8, "moment": "Bella flies off, her wings drooping.", "ask": "How do you think Bella felt when Etoo stomped away?", "listen": "hurt, sad, lonely"},
+   {"spread": 10, "moment": "Being angry isn’t making Etoo feel better.", "ask": "What does Etoo notice now?", "listen": "he misses Bella, it’s empty, being angry doesn’t help"},
+   {"spread": 11, "moment": "Etoo takes a deep breath.", "ask": "What helped Etoo calm down?", "listen": "a deep breath, the scorpion’s words"},
+   {"spread": 14, "moment": "Both friends say sorry.", "ask": "Why do you think Bella said sorry too?", "listen": "she didn’t want to upset him, she cares about him"}
+  ],
+  "after": [
+   {"q": "Why did Etoo get so angry?", "a": "His sand tower got knocked down."},
+   {"q": "Was it fair when Etoo said Bella always ruins everything?", "a": "No. It was one accident, and the words hurt her."},
+   {"q": "How do you think Bella felt when Etoo stomped away?", "a": "Hurt and sad. Accept any feeling word."},
+   {"q": "What helped Etoo calm down?", "a": "A slow, deep breath and remembering the scorpion’s advice."},
+   {"q": "What helps you when you feel a big angry feeling?", "a": "Any answer. Practise the slow breath together."}
+  ],
+  "activities": [
+   {"title": "Desert breath", "time": "5 minutes, any time", "group": "Whole class", "materials": "A feather or a paper fan", "steps": "Hold a feather in front of your mouth. Breathe in slowly, then breathe out so gently the feather only wiggles. Do it three times. Use it whenever someone needs to cool down."},
+   {"title": "The tower falls", "time": "15 minutes", "group": "Small groups", "materials": "Sand tray or blocks", "steps": "Build a tower. A grown-up gently knocks it down ‘by accident’. Children practise: stop, breathe, say how they feel (‘I feel angry because…’), then rebuild it together."},
+   {"title": "Anger thermometer", "time": "10 minutes", "group": "Whole class", "materials": "A big drawing of a thermometer", "steps": "Mark ‘a little cross’ at the bottom and ‘buzzing loud’ at the top. Children place a sticker where Etoo was at each part of the story, and talk about what helps the feeling go back down."}
+  ],
+  "science": {
+   "text": "Many kinds of beetles and bees live in hot deserts. Desert beetles often hide under rocks or in sand during the hottest part of the day to stay cool. Bees visit desert flowers like cactus blossoms to drink nectar and help plants make seeds. Scorpions are desert hunters that come out at night. Never touch or pick up scorpions, bees or beetles in the wild.",
+   "link": "/heroes/the-desert-buzz",
+   "linkText": "Meet the real desert animals"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Use face cards for angry, sad, calm and happy. Teach ‘I feel angry because…’ as a sentence starter."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 5, 8 and 11). This book has 17 spreads with short text on each, so it reads quickly."},
+   {"who": "Children with big feelings", "how": "Practise the desert breath when everyone is calm, so it’s ready when it’s needed. Offer a calm corner, and never shame a child for feeling angry."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Uses a slow breath to calm down."},
+   {"frame": "BC", "text": "Says sorry after hurtful words and listens to a friend’s sorry."},
+   {"frame": "PSI", "text": "Tells the difference between an accident and doing something on purpose."},
+   {"frame": "DLMB", "text": "Builds a tower with others and talks about how to make it strong."}
+  ],
+  "care": [
+   "Feeling angry is okay. The message is about what we do with the feeling, never that anger is bad.",
+   "This guide is not therapy. If a child has frequent or very intense outbursts, talk with their family and your school team.",
+   "Bella did nothing wrong. Keep the accident clear so no child feels blamed for accidents."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), un bac à sable ou des blocs, une plume ou un éventail en papier, un dessin de thermomètre des émotions",
+  "summary": "Dans un désert chaud et sablonneux, Etoo le scarabée et Bella l’abeille sont les meilleurs amis du monde. Un après-midi brûlant, le vent des ailes de Bella fait tomber la tour de sable d’Etoo. Etoo explose : « Tu gâches toujours tout ! » Bella dit que c’était un accident, mais il ne veut rien entendre et part en tapant des pieds, et elle s’envole, blessée. Seul sous un rocher, Etoo se rend compte du vide sans elle. Il prend une grande respiration lente et se souvient du conseil du vieux scorpion sage. Il retrouve Bella et lui demande pardon, elle s’excuse aussi, et ensemble ils construisent la plus grande tour de toutes.",
+  "bigIdea": "On a le droit d’être en colère. Quand la colère devient grosse, arrête-toi, respire profondément et écoute ton cœur avant d’agir.",
+  "theme": "Quand la colère bourdonne fort, fais une pause et écoute ton cœur.",
+  "refrain": "",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Beaucoup de traditions enseignent le même outil simple : quand une grosse colère arrive, attends et respire avant de parler ou d’agir.",
+  "words": [
+   {"word": "en colère", "meaning": "une grosse émotion chaude quand quelque chose semble injuste", "cue": "serrez les poings et plissez le visage"},
+   {"word": "accident", "meaning": "quelque chose qui arrive par erreur, pas exprès", "cue": "haussez les épaules, mains ouvertes"},
+   {"word": "taper des pieds", "meaning": "marcher fort et bruyamment", "cue": "tapez deux fois des pieds"},
+   {"word": "respiration", "meaning": "l’air qu’on fait entrer et sortir", "cue": "inspirez lentement, puis soufflez"},
+   {"word": "calme", "meaning": "tranquille et paisible à l’intérieur", "cue": "appuyez doucement les mains vers le bas"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Qui sont ces deux amis ? Où vivent-ils ?",
+   "Demandez : Qu’est-ce qui te met en colère ? Que ressens-tu dans ton corps quand tu es en colère ? Prenez quelques réponses.",
+   "Pratiquez la respiration du désert : inspirez lentement par le nez comme pour sentir une fleur, puis soufflez doucement comme une petite brise du désert."
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Etoo et Bella explorent le désert ensemble.", "ask": "Qu’aiment faire Etoo et Bella ensemble ?", "listen": "grimper aux cactus, partager le nectar, se reposer sous les rochers"},
+   {"spread": 5, "moment": "Les ailes de Bella font tomber la tour.", "ask": "Pourquoi Etoo s’est-il mis si en colère ?", "listen": "sa tour est tombée, il avait beaucoup travaillé"},
+   {"spread": 6, "moment": "Bella dit qu’elle ne l’a pas fait exprès.", "ask": "Était-ce la faute de Bella ?", "listen": "non, c’était un accident, le vent de ses ailes"},
+   {"spread": 7, "moment": "« Tu gâches toujours tout ! »", "ask": "Était-ce juste de dire que Bella gâche toujours tout ? Pourquoi ?", "listen": "non, c’était un seul accident, ça faisait mal"},
+   {"spread": 8, "moment": "Bella s’envole, les ailes tombantes.", "ask": "Comment Bella s’est-elle sentie quand Etoo est parti, à ton avis ?", "listen": "blessée, triste, seule"},
+   {"spread": 10, "moment": "La colère n’aide pas Etoo à se sentir mieux.", "ask": "Que remarque Etoo maintenant ?", "listen": "Bella lui manque, c’est vide, la colère n’aide pas"},
+   {"spread": 11, "moment": "Etoo prend une grande respiration.", "ask": "Qu’est-ce qui a aidé Etoo à se calmer ?", "listen": "une grande respiration, les mots du scorpion"},
+   {"spread": 14, "moment": "Les deux amis s’excusent.", "ask": "Pourquoi Bella s’est-elle excusée aussi, à ton avis ?", "listen": "elle ne voulait pas le contrarier, elle tient à lui"}
+  ],
+  "after": [
+   {"q": "Pourquoi Etoo s’est-il mis si en colère ?", "a": "Sa tour de sable a été renversée."},
+   {"q": "Était-ce juste de dire que Bella gâche toujours tout ?", "a": "Non. C’était un seul accident, et les mots l’ont blessée."},
+   {"q": "Comment Bella s’est-elle sentie quand Etoo est parti ?", "a": "Blessée et triste. Acceptez tous les mots d’émotion."},
+   {"q": "Qu’est-ce qui a aidé Etoo à se calmer ?", "a": "Une respiration lente et profonde, et le conseil du scorpion."},
+   {"q": "Qu’est-ce qui t’aide quand tu ressens une grosse colère ?", "a": "Toutes les réponses. Pratiquez ensemble la respiration lente."}
+  ],
+  "activities": [
+   {"title": "La respiration du désert", "time": "5 minutes, à tout moment", "group": "Toute la classe", "materials": "Une plume ou un éventail en papier", "steps": "Tenez une plume devant la bouche. Inspirez lentement, puis soufflez si doucement que la plume bouge à peine. Faites-le trois fois. Utilisez-la chaque fois que quelqu’un a besoin de se calmer."},
+   {"title": "La tour tombe", "time": "15 minutes", "group": "Petits groupes", "materials": "Bac à sable ou blocs", "steps": "Construisez une tour. Un adulte la fait tomber doucement « par accident ». Les enfants s’entraînent : stop, respirer, dire ce qu’ils ressentent (« Je suis en colère parce que… »), puis reconstruire ensemble."},
+   {"title": "Le thermomètre de la colère", "time": "10 minutes", "group": "Toute la classe", "materials": "Un grand dessin de thermomètre", "steps": "En bas, « un peu fâché » ; en haut, « ça bourdonne fort ». Les enfants placent un autocollant là où était Etoo à chaque moment de l’histoire, et parlent de ce qui aide l’émotion à redescendre."}
+  ],
+  "science": {
+   "text": "Beaucoup de scarabées et d’abeilles vivent dans les déserts chauds. Les scarabées du désert se cachent souvent sous les rochers ou dans le sable pendant les heures les plus chaudes pour rester au frais. Les abeilles visitent les fleurs du désert, comme celles des cactus, pour boire le nectar et aider les plantes à faire des graines. Les scorpions sont des chasseurs du désert qui sortent la nuit. Ne jamais toucher ni ramasser de scorpions, d’abeilles ou de scarabées dans la nature.",
+   "link": "/heroes/the-desert-buzz",
+   "linkText": "Découvrir les vrais animaux du désert"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Utilisez des cartes visages pour colère, tristesse, calme et joie. Enseignez le début de phrase « Je suis en colère parce que… »."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 5, 8 et 11). Ce livre a 17 doubles pages avec peu de texte sur chacune : il se lit vite."},
+   {"who": "Enfants aux émotions intenses", "how": "Pratiquez la respiration du désert quand tout le monde est calme, pour qu’elle soit prête au bon moment. Proposez un coin calme, et ne faites jamais honte à un enfant d’être en colère."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Utilise une respiration lente pour se calmer."},
+   {"frame": "BC", "text": "S’excuse après des mots blessants et écoute les excuses d’un ami."},
+   {"frame": "PSI", "text": "Fait la différence entre un accident et quelque chose fait exprès."},
+   {"frame": "DLMB", "text": "Construit une tour avec d’autres et parle de ce qui la rend solide."}
+  ],
+  "care": [
+   "Être en colère, c’est normal. Le message porte sur ce qu’on fait de l’émotion, jamais sur le fait que la colère serait mauvaise.",
+   "Ce guide n’est pas une thérapie. Si un enfant a des crises fréquentes ou très intenses, parlez-en avec sa famille et l’équipe de l’école.",
+   "Bella n’a rien fait de mal. Gardez l’accident bien clair pour qu’aucun enfant ne se sente accusé pour un accident."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The Desert Buzz, a story about managing anger. Etoo the beetle gets very angry at his friend Bella over an accident, then learns that a slow, deep breath helps him calm down and say sorry. At home, practise the ‘desert breath’ together when everyone is calm: in slowly like smelling a flower, out slowly like a soft breeze. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Le Bourdonnement du désert, une histoire sur la gestion de la colère. Etoo le scarabée se fâche très fort contre son amie Bella à cause d’un accident, puis découvre qu’une respiration lente et profonde l’aide à se calmer et à s’excuser. À la maison, pratiquez ensemble la « respiration du désert » quand tout le monde est calme : on inspire lentement comme pour sentir une fleur, on souffle doucement comme une brise. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre cómo manejar el enojo. Etoo, el escarabajo, se enoja mucho con su amiga Bella por un accidente, y aprende que una respiración lenta y profunda lo ayuda a calmarse y pedir perdón. En casa, practiquen juntos la «respiración del desierto» cuando todos estén tranquilos: inspirar despacio como oliendo una flor, soltar despacio como una brisa suave. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über den Umgang mit Wut gelesen. Der Käfer Etoo wird wegen eines Missgeschicks sehr wütend auf seine Freundin Bella und lernt dann, dass ein langsamer, tiefer Atemzug ihm hilft, sich zu beruhigen und sich zu entschuldigen. Üben Sie zu Hause gemeinsam den ‚Wüstenatem‘, wenn alle ruhig sind: langsam einatmen wie an einer Blume riechen, langsam ausatmen wie eine sanfte Brise. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia su come gestire la rabbia. Etoo, lo scarabeo, si arrabbia moltissimo con la sua amica Bella per un incidente, poi scopre che un respiro lento e profondo lo aiuta a calmarsi e a chiedere scusa. A casa, esercitatevi insieme nel «respiro del deserto» quando tutti sono tranquilli: inspirare piano come annusando un fiore, espirare piano come una brezza leggera. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

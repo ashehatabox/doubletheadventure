@@ -1,0 +1,141 @@
+{
+ "book": "rainy-day-shiny-things",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["SRWB", "BC", "DLMB", "PSI"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a small jar, paper ‘shiny things’ (foil or yellow paper), a rain stick or a cup of rice in a bottle",
+  "summary": "Three cats share a cosy house on Maple Street with kind Mrs. Maple: curious Whiskers, quiet Shadow and playful Mittens. On a rainy day, all three are grumpy. Whiskers can’t chase the butterfly outside, Shadow misses the sun, and Mittens finds her toy mouse boring. Then a crash in the kitchen: a glass has fallen, and in the sparkling pieces they spot the silver wings of Mrs. Maple’s special necklace. Their grumpiness disappears. At dinner they purr and rub against Mrs. Maple, noticing all her love and care, and that night the rain sounds soothing.",
+  "bigIdea": "Even on a grey, boring day there are good things around us. Noticing them and saying thank you helps us feel happier.",
+  "theme": "Every day, rainy or sunny, has something special.",
+  "refrain": "",
+  "origin": "This story doesn’t come from one culture. All over the world, families teach children to notice small good things and to say thank you to the people who care for them.",
+  "words": [
+   {"word": "grumpy", "meaning": "in a bad mood, cross", "cue": "fold your arms and frown"},
+   {"word": "shiny", "meaning": "bright and sparkly in the light", "cue": "flick your fingers open like sparkles"},
+   {"word": "notice", "meaning": "to see something you didn’t see before", "cue": "point to your eyes"},
+   {"word": "thankful", "meaning": "happy about something good you have", "cue": "hands on your heart"},
+   {"word": "soothing", "meaning": "calming and gentle", "cue": "stroke your arm slowly"}
+  ],
+  "before": [
+   "Show the cover. Ask: How many cats can you see? What is the weather like?",
+   "Ask: What do you do on a rainy day? Do rainy days ever make you grumpy? Take a few answers.",
+   "Listen to the rain: tip a rain stick or a bottle of rice slowly. Ask: Does that sound nice or annoying? Listen again at the end of the story."
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Mrs. Maple tucks the cats in every night.", "ask": "How does Mrs. Maple look after the cats?", "listen": "tucks them in, scratches their ears, loves them"},
+   {"spread": 6, "moment": "We meet Whiskers, Shadow and Mittens.", "ask": "How are the three cats different?", "listen": "curious, quiet, playful"},
+   {"spread": 7, "moment": "‘Why does it have to rain?’", "ask": "Why is Whiskers grumpy?", "listen": "he can’t go out and chase the butterfly"},
+   {"spread": 9, "moment": "Mittens is bored with her toy mouse.", "ask": "Why were the cats grumpy on the rainy day?", "listen": "no sun, no outside, bored"},
+   {"spread": 10, "moment": "A crash! The pieces sparkle like stars.", "ask": "What happened to the cats’ grumpiness?", "listen": "they forgot it, they got curious"},
+   {"spread": 12, "moment": "The cats feel Mrs. Maple’s love.", "ask": "What good things did the cats have, even on a rainy day?", "listen": "an adventure, food, care, love, each other"},
+   {"spread": 13, "moment": "They purr and rub against her legs.", "ask": "How did the cats say thank you without words?", "listen": "purring, rubbing against her"},
+   {"spread": 14, "moment": "Now the rain sounds soothing.", "ask": "Why does the rain sound different now?", "listen": "they feel happy, calm, thankful"}
+  ],
+  "after": [
+   {"q": "Why were the cats grumpy on the rainy day?", "a": "They couldn’t go outside, missed the sun and were bored."},
+   {"q": "What changed their mood?", "a": "A surprise in the kitchen, the shiny wings, and noticing Mrs. Maple’s care."},
+   {"q": "How did the cats say thank you to Mrs. Maple without words?", "a": "They purred and rubbed against her legs."},
+   {"q": "What is one special thing that happened today?", "a": "Any answer, big or small."},
+   {"q": "Who looks after you? How could you show them thanks?", "a": "Any answer: a hug, a drawing, a thank you."}
+  ],
+  "activities": [
+   {"title": "Shiny things jar", "time": "5 minutes a day", "group": "Whole class", "materials": "A jar, foil or yellow paper pieces", "steps": "At the end of each day, children name one ‘shiny thing’ that happened. Add a shiny piece to the jar for each one. On a grey day, look at how full the jar has become."},
+   {"title": "Thank-you without words", "time": "10 minutes", "group": "Pairs", "materials": "None", "steps": "Like the cats, find ways to say thank you without words: a smile, a high five, a helping hand, a drawing. Partners take turns guessing what the ‘thank you’ is for."},
+   {"title": "Rainy day treasure hunt", "time": "15 minutes", "group": "Small groups", "materials": "A list with pictures", "steps": "Hunt for small good things in the classroom: something soft, something that makes you smile, something someone made for us. Share what each group found."}
+  ],
+  "science": {
+   "text": "Cats are curious animals that love to explore, climb and play. Many cats like warm, sunny spots for napping. Cats purr when they feel calm and content, and they rub against people they love, leaving their own special scent. Cats are natural hunters, which is why many vets and wildlife groups suggest keeping pet cats indoors to protect wild birds and small animals.",
+   "link": "/heroes/rainy-day-shiny-things",
+   "linkText": "Meet the real cats"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Teach ‘thank you’ in each child’s home language and say them all together. Use pictures of sunny and rainy weather."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 7, 10 and 13). This book has 17 spreads with short text on each, so it reads quickly."},
+   {"who": "Mixed ages and older children", "how": "Older children keep a small ‘shiny things’ notebook for a week, drawing one good thing each day, then share their favourite."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Names one good thing that happened, even on a hard day."},
+   {"frame": "BC", "text": "Shows thanks to someone who helps them, with or without words."},
+   {"frame": "DLMB", "text": "Counts the shiny things in the jar over the week."},
+   {"frame": "PSI", "text": "Explains how the cats’ feelings changed during the day."}
+  ],
+  "care": [
+   "Being grumpy is allowed. Gratitude is about noticing good things, not pretending everything is fine.",
+   "Real-life safety: broken glass is dangerous. Children should never touch it; they should step away and tell a grown-up.",
+   "Some children have hard home lives. Keep ‘who looks after you’ open: a family member, a teacher, a friend, a neighbour."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), un petit bocal, des « choses brillantes » en papier (aluminium ou papier jaune), un bâton de pluie ou du riz dans une bouteille",
+  "summary": "Trois chats partagent une maison douillette de la rue Maple avec la gentille Mme Maple : Whiskers le curieux, Shadow le tranquille et Mittens la joueuse. Un jour de pluie, ils sont tous les trois grognons. Whiskers ne peut pas poursuivre le papillon dehors, Shadow regrette le soleil, et Mittens trouve sa souris en jouet ennuyeuse. Puis un fracas dans la cuisine : un verre est tombé, et dans les morceaux étincelants ils aperçoivent les ailes argentées du collier spécial de Mme Maple. Leur mauvaise humeur disparaît. Au dîner, ils ronronnent et se frottent contre Mme Maple, en remarquant tout son amour et ses soins, et ce soir-là, la pluie leur semble apaisante.",
+  "bigIdea": "Même un jour gris et ennuyeux, il y a de bonnes choses autour de nous. Les remarquer et dire merci nous aide à nous sentir plus heureux.",
+  "theme": "Chaque jour, pluvieux ou ensoleillé, a quelque chose de spécial.",
+  "refrain": "",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Partout dans le monde, les familles apprennent aux enfants à remarquer les petites choses agréables et à dire merci à ceux qui prennent soin d’eux.",
+  "words": [
+   {"word": "grognon", "meaning": "de mauvaise humeur, fâché", "cue": "croisez les bras et froncez les sourcils"},
+   {"word": "brillant", "meaning": "qui étincelle à la lumière", "cue": "ouvrez les doigts comme des étincelles"},
+   {"word": "remarquer", "meaning": "voir quelque chose qu’on n’avait pas vu", "cue": "montrez vos yeux"},
+   {"word": "reconnaissant", "meaning": "content de quelque chose de bon qu’on a", "cue": "mains sur le cœur"},
+   {"word": "apaisant", "meaning": "qui calme, doux", "cue": "caressez votre bras lentement"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Combien de chats vois-tu ? Quel temps fait-il ?",
+   "Demandez : Que fais-tu un jour de pluie ? Les jours de pluie te rendent-ils parfois grognon ? Prenez quelques réponses.",
+   "Écoutez la pluie : penchez lentement un bâton de pluie ou une bouteille de riz. Demandez : Ce bruit est-il agréable ou agaçant ? Réécoutez-le à la fin de l’histoire."
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Mme Maple borde les chats chaque soir.", "ask": "Comment Mme Maple prend-elle soin des chats ?", "listen": "elle les borde, leur gratte les oreilles, les aime"},
+   {"spread": 6, "moment": "On rencontre Whiskers, Shadow et Mittens.", "ask": "En quoi les trois chats sont-ils différents ?", "listen": "curieux, tranquille, joueuse"},
+   {"spread": 7, "moment": "Whiskers se demande pourquoi il pleut.", "ask": "Pourquoi Whiskers est-il grognon ?", "listen": "il ne peut pas sortir poursuivre le papillon"},
+   {"spread": 9, "moment": "Mittens s’ennuie avec sa souris.", "ask": "Pourquoi les chats étaient-ils grognons ce jour de pluie ?", "listen": "pas de soleil, pas de sortie, l’ennui"},
+   {"spread": 10, "moment": "Un fracas ! Les morceaux brillent comme des étoiles.", "ask": "Qu’est devenue la mauvaise humeur des chats ?", "listen": "ils l’ont oubliée, ils sont devenus curieux"},
+   {"spread": 12, "moment": "Les chats sentent l’amour de Mme Maple.", "ask": "Quelles bonnes choses avaient les chats, même un jour de pluie ?", "listen": "une aventure, à manger, des soins, de l’amour, les uns les autres"},
+   {"spread": 13, "moment": "Ils ronronnent et se frottent contre elle.", "ask": "Comment les chats ont-ils dit merci sans mots ?", "listen": "en ronronnant, en se frottant contre elle"},
+   {"spread": 14, "moment": "La pluie devient apaisante.", "ask": "Pourquoi la pluie sonne-t-elle autrement maintenant ?", "listen": "ils se sentent heureux, calmes, reconnaissants"}
+  ],
+  "after": [
+   {"q": "Pourquoi les chats étaient-ils grognons ce jour de pluie ?", "a": "Ils ne pouvaient pas sortir, le soleil leur manquait et ils s’ennuyaient."},
+   {"q": "Qu’est-ce qui a changé leur humeur ?", "a": "Une surprise dans la cuisine, les ailes brillantes, et l’attention de Mme Maple."},
+   {"q": "Comment les chats ont-ils dit merci à Mme Maple sans mots ?", "a": "Ils ont ronronné et se sont frottés contre ses jambes."},
+   {"q": "Quelle chose spéciale s’est passée aujourd’hui ?", "a": "Toutes les réponses, grandes ou petites."},
+   {"q": "Qui prend soin de toi ? Comment pourrais-tu lui dire merci ?", "a": "Toutes les réponses : un câlin, un dessin, un merci."}
+  ],
+  "activities": [
+   {"title": "Le bocal des choses brillantes", "time": "5 minutes par jour", "group": "Toute la classe", "materials": "Un bocal, des morceaux d’aluminium ou de papier jaune", "steps": "À la fin de chaque journée, les enfants nomment une « chose brillante » qui s’est passée. Ajoutez un morceau brillant dans le bocal pour chacune. Un jour gris, regardez comme le bocal s’est rempli."},
+   {"title": "Merci sans mots", "time": "10 minutes", "group": "En duo", "materials": "Aucun", "steps": "Comme les chats, trouvez des façons de dire merci sans mots : un sourire, une tape dans la main, un coup de main, un dessin. Les partenaires devinent à tour de rôle pourquoi on dit merci."},
+   {"title": "Chasse au trésor du jour de pluie", "time": "15 minutes", "group": "Petits groupes", "materials": "Une liste avec des images", "steps": "Cherchez de petites bonnes choses dans la classe : quelque chose de doux, quelque chose qui fait sourire, quelque chose que quelqu’un a fait pour nous. Chaque groupe partage ses trouvailles."}
+  ],
+  "science": {
+   "text": "Les chats sont des animaux curieux qui adorent explorer, grimper et jouer. Beaucoup aiment faire la sieste dans des coins chauds et ensoleillés. Les chats ronronnent quand ils se sentent calmes et bien, et ils se frottent contre les personnes qu’ils aiment en y laissant leur odeur. Les chats sont des chasseurs naturels ; c’est pourquoi beaucoup de vétérinaires et de groupes de protection de la nature conseillent de garder les chats à l’intérieur pour protéger les oiseaux et les petits animaux.",
+   "link": "/heroes/rainy-day-shiny-things",
+   "linkText": "Découvrir les vrais chats"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Apprenez « merci » dans la langue de chaque enfant et dites-les tous ensemble. Utilisez des images de soleil et de pluie."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 7, 10 et 13). Ce livre a 17 doubles pages avec peu de texte sur chacune : il se lit vite."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands tiennent un petit carnet des « choses brillantes » pendant une semaine, en dessinant une bonne chose par jour, puis partagent leur préférée."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Nomme une bonne chose qui s’est passée, même un jour difficile."},
+   {"frame": "BC", "text": "Dit merci à quelqu’un qui l’aide, avec ou sans mots."},
+   {"frame": "DLMB", "text": "Compte les choses brillantes du bocal au fil de la semaine."},
+   {"frame": "PSI", "text": "Explique comment les émotions des chats ont changé pendant la journée."}
+  ],
+  "care": [
+   "On a le droit d’être grognon. La reconnaissance, c’est remarquer les bonnes choses, pas faire semblant que tout va bien.",
+   "Sécurité dans la vraie vie : le verre cassé est dangereux. Les enfants ne doivent jamais y toucher ; ils s’éloignent et préviennent un adulte.",
+   "Certains enfants vivent des situations difficiles à la maison. Gardez « qui prend soin de toi » ouvert : un membre de la famille, un enseignant, un ami, un voisin."
+  ]
+ },
+ "letter": {
+  "en": "Today we read Rainy Day, Shiny Things, a story about gratitude. Three grumpy cats on a rainy day discover a surprise, and notice how much love and care they have. At home, at bedtime, ask your child for one ‘shiny thing’ from their day, and share one of yours. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Jour de pluie, objets brillants, une histoire sur la reconnaissance. Trois chats grognons, un jour de pluie, découvrent une surprise et remarquent tout l’amour et les soins qu’ils reçoivent. À la maison, au coucher, demandez à votre enfant une « chose brillante » de sa journée, et partagez la vôtre. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre la gratitud. Tres gatos gruñones descubren una sorpresa en un día de lluvia y se dan cuenta de todo el amor y cuidado que tienen. En casa, a la hora de dormir, pida a su hijo o hija una «cosa brillante» de su día y comparta una suya. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über Dankbarkeit gelesen. Drei mürrische Katzen entdecken an einem Regentag eine Überraschung und merken, wie viel Liebe und Fürsorge sie haben. Fragen Sie Ihr Kind zu Hause vor dem Schlafengehen nach einem ‚glänzenden Ding‘ aus seinem Tag, und erzählen Sie eins von Ihrem. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sulla gratitudine. Tre gatti brontoloni, in un giorno di pioggia, scoprono una sorpresa e si accorgono di quanto amore e cura ricevono. A casa, prima di dormire, chiedete a vostro figlio o vostra figlia una «cosa luccicante» della sua giornata, e raccontate la vostra. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

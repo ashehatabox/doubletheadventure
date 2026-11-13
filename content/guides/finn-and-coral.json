@@ -1,0 +1,141 @@
+{
+ "book": "finn-and-coral",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["BC", "SRWB", "PSI", "DLMB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a blue cloth for the sea, paper shells, a basket, a scarf for a blindfold game (optional)",
+  "summary": "Finn is a young fish still learning to swim in the currents, and he loves following his big sister Coral around the reef. One morning she promises to stay close, but she gets excited and races ahead, leaving him alone. A big shadow passes over him: it’s a kind dolphin, who tells him to stay calm because his sister will come back. When Coral returns, Finn tells her he doesn’t trust her any more. For days he keeps his distance. Then Coral invites him to collect shells and promises to stay by his side. Day by day she keeps her word, and slowly Finn trusts her again.",
+  "bigIdea": "When we break a promise, we can earn trust back, not with one sorry, but by keeping our word again and again.",
+  "theme": "Trust isn’t just about promises. It’s about showing up for each other, no matter what.",
+  "refrain": "",
+  "origin": "This story doesn’t come from one culture. In many places, people say that trust is built slowly, one kept promise at a time, and that actions show what words can only say.",
+  "words": [
+   {"word": "promise", "meaning": "when you say you will really do something", "cue": "hook your little fingers together"},
+   {"word": "trust", "meaning": "believing someone will do what they say", "cue": "put your hand on your heart, then reach out"},
+   {"word": "reef", "meaning": "a colourful place in the sea where lots of fish live", "cue": "wiggle your fingers like coral"},
+   {"word": "current", "meaning": "water in the sea that moves and pushes", "cue": "sweep your arm sideways"},
+   {"word": "alone", "meaning": "with nobody else", "cue": "hold up one finger"}
+  ],
+  "before": [
+   "Show the cover. Ask: Who do you think these two fish are? Where do they live?",
+   "Ask: What is a promise? Has someone ever made you a promise? Take a few answers.",
+   "Hook little fingers with a partner and say: ‘I promise.’ Tell the children to listen for the promise in the story."
+  ],
+  "pauses": [
+   {"spread": 4, "moment": "Finn always trusts his sister to guide him.", "ask": "Why does Finn trust Coral?", "listen": "she is big, strong, knows the reef"},
+   {"spread": 5, "moment": "Coral promises: ‘Stick with me, Finn.’", "ask": "What did Coral promise Finn?", "listen": "to stay close"},
+   {"spread": 6, "moment": "Coral races ahead; Finn calls ‘Wait for me!’", "ask": "Why did Coral swim away?", "listen": "she got excited, she forgot"},
+   {"spread": 7, "moment": "A big shadow passes over Finn.", "ask": "How did Finn feel when he was alone and saw the big shadow?", "listen": "scared, lost, worried"},
+   {"spread": 8, "moment": "The dolphin says: stay calm.", "ask": "What good advice does the dolphin give?", "listen": "stay calm, stay where you are, your sister will find you"},
+   {"spread": 9, "moment": "‘I don’t trust you anymore!’", "ask": "Why didn’t Finn trust Coral straight away when she came back?", "listen": "she broke her promise, he was scared"},
+   {"spread": 10, "moment": "Coral feels awful.", "ask": "How does Coral feel?", "listen": "sorry, sad, bad"},
+   {"spread": 15, "moment": "Day by day, Coral keeps her promise.", "ask": "What did Coral do to earn Finn’s trust again?", "listen": "stayed by his side, every day, kept her word"}
+  ],
+  "after": [
+   {"q": "What did Coral promise Finn?", "a": "To stay close while they explored."},
+   {"q": "How did Finn feel when he was alone and saw the big shadow?", "a": "Scared and lost. Accept any feeling word."},
+   {"q": "Why didn’t Finn trust Coral straight away when she came back?", "a": "She broke her promise, and he was hurt."},
+   {"q": "What did Coral do to earn Finn’s trust again?", "a": "She kept her promise, day after day."},
+   {"q": "What is a promise you can keep for someone this week?", "a": "Any answer. Write them on paper shells for a promise basket."}
+  ],
+  "activities": [
+   {"title": "Promise shells", "time": "15 minutes", "group": "Individual", "materials": "Paper shells, crayons, a basket", "steps": "Each child draws or writes a small promise they can keep this week (‘I will help tidy up’). Put the shells in a basket. At the end of the week, children take theirs out and share how they kept it."},
+   {"title": "Stick with me", "time": "10 minutes", "group": "Pairs", "materials": "A blue cloth or open space", "steps": "Partners ‘swim’ around the room as Finn and Coral. The big sibling promises to stay close and must match the little one’s speed. Swap roles. Talk about how it felt to be the one who waits."},
+   {"title": "If I get lost", "time": "10 minutes", "group": "Whole class", "materials": "None", "steps": "Like Finn, talk about what to do if you get lost: stay where you are, stay calm, and look for a safe helper, like a staff member or a parent with children. Practise saying your name clearly."}
+  ],
+  "science": {
+   "text": "Coral reefs are built over many years by tiny animals called coral polyps, and they are home to a huge number of sea creatures. Many small reef fish stay close to shelter because open water can be dangerous. Dolphins are mammals, not fish: they breathe air through a blowhole on top of their head, live in groups called pods, and talk with clicks and whistles. Reefs are harmed by warming seas and pollution, so we should never touch or break coral.",
+   "link": "/heroes/finn-and-coral",
+   "linkText": "Meet the real reef fish and dolphins"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Teach ‘I promise’ with the little-finger gesture. Use a toy fish to act out ‘close’ and ‘far’."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 5, 9 and 15). This book has 17 spreads with short text on each, so it reads quickly."},
+   {"who": "Older siblings in the class", "how": "Invite older brothers and sisters to share how they look after younger ones. Talk about what it’s like to be the big one, and the small one."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Makes and keeps a small promise to a friend."},
+   {"frame": "SRWB", "text": "Names how it feels when a promise is broken."},
+   {"frame": "PSI", "text": "Explains that trust comes back slowly, with actions."},
+   {"frame": "DLMB", "text": "Uses words like near, far, beside and ahead."}
+  ],
+  "care": [
+   "Being lost is a real fear. Keep the dolphin’s calm advice in front, and finish with what to do in real life.",
+   "Finn is allowed to stay hurt for a while. Don’t push children to forgive straight away.",
+   "Coral is not a bad sister. She got excited and made a mistake, and she makes it right."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), un tissu bleu pour la mer, des coquillages en papier, un panier, un foulard (facultatif)",
+  "summary": "Finn est un jeune poisson qui apprend encore à nager dans les courants, et il adore suivre sa grande sœur Coral dans le récif. Un matin, elle promet de rester près de lui, mais, tout excitée, elle file devant et le laisse seul. Une grande ombre passe au-dessus de lui : c’est un dauphin gentil, qui lui dit de rester calme, car sa sœur va revenir. Quand Coral revient, Finn lui dit qu’il n’a plus confiance en elle. Pendant des jours, il garde ses distances. Puis Coral l’invite à ramasser des coquillages et promet de rester à ses côtés. Jour après jour, elle tient parole, et peu à peu Finn lui refait confiance.",
+  "bigIdea": "Quand on ne tient pas une promesse, on peut regagner la confiance, pas avec un seul pardon, mais en tenant parole encore et encore.",
+  "theme": "La confiance, ce n’est pas seulement des promesses. C’est être là l’un pour l’autre, quoi qu’il arrive.",
+  "refrain": "",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Dans beaucoup d’endroits, on dit que la confiance se construit lentement, une promesse tenue à la fois, et que les actes montrent ce que les mots ne font que dire.",
+  "words": [
+   {"word": "promesse", "meaning": "quand on dit qu’on va vraiment faire quelque chose", "cue": "accrochez vos petits doigts"},
+   {"word": "confiance", "meaning": "croire que quelqu’un fera ce qu’il dit", "cue": "main sur le cœur, puis tendez-la"},
+   {"word": "récif", "meaning": "un endroit coloré de la mer où vivent beaucoup de poissons", "cue": "agitez les doigts comme du corail"},
+   {"word": "courant", "meaning": "de l’eau de mer qui bouge et pousse", "cue": "balayez le bras sur le côté"},
+   {"word": "seul", "meaning": "sans personne d’autre", "cue": "levez un seul doigt"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Qui sont ces deux poissons, à ton avis ? Où vivent-ils ?",
+   "Demandez : Qu’est-ce qu’une promesse ? Quelqu’un t’a-t-il déjà fait une promesse ? Prenez quelques réponses.",
+   "Accrochez vos petits doigts avec un partenaire en disant : « Je promets. » Dites aux enfants d’écouter la promesse dans l’histoire."
+  ],
+  "pauses": [
+   {"spread": 4, "moment": "Finn fait toujours confiance à sa sœur.", "ask": "Pourquoi Finn fait-il confiance à Coral ?", "listen": "elle est grande, forte, connaît le récif"},
+   {"spread": 5, "moment": "Coral promet de rester près de lui.", "ask": "Qu’a promis Coral à Finn ?", "listen": "de rester près de lui"},
+   {"spread": 6, "moment": "Coral file devant ; Finn l’appelle.", "ask": "Pourquoi Coral est-elle partie ?", "listen": "elle était excitée, elle a oublié"},
+   {"spread": 7, "moment": "Une grande ombre passe au-dessus de Finn.", "ask": "Qu’a ressenti Finn, seul, en voyant la grande ombre ?", "listen": "peur, perdu, inquiet"},
+   {"spread": 8, "moment": "Le dauphin dit de rester calme.", "ask": "Quel bon conseil donne le dauphin ?", "listen": "reste calme, ne bouge pas, ta sœur va te retrouver"},
+   {"spread": 9, "moment": "Finn dit qu’il n’a plus confiance.", "ask": "Pourquoi Finn n’a-t-il pas tout de suite refait confiance à Coral ?", "listen": "elle n’a pas tenu sa promesse, il a eu peur"},
+   {"spread": 10, "moment": "Coral se sent très mal.", "ask": "Comment se sent Coral ?", "listen": "désolée, triste, mal"},
+   {"spread": 15, "moment": "Jour après jour, Coral tient parole.", "ask": "Qu’a fait Coral pour regagner la confiance de Finn ?", "listen": "rester à ses côtés, chaque jour, tenir parole"}
+  ],
+  "after": [
+   {"q": "Qu’avait promis Coral à Finn ?", "a": "De rester près de lui pendant l’exploration."},
+   {"q": "Qu’a ressenti Finn, seul, en voyant la grande ombre ?", "a": "De la peur, il se sentait perdu. Acceptez tous les mots d’émotion."},
+   {"q": "Pourquoi Finn n’a-t-il pas tout de suite refait confiance à Coral ?", "a": "Elle n’avait pas tenu sa promesse, et il avait de la peine."},
+   {"q": "Qu’a fait Coral pour regagner sa confiance ?", "a": "Elle a tenu sa promesse, jour après jour."},
+   {"q": "Quelle promesse peux-tu tenir pour quelqu’un cette semaine ?", "a": "Toutes les réponses. Écrivez-les sur des coquillages en papier pour un panier à promesses."}
+  ],
+  "activities": [
+   {"title": "Coquillages à promesses", "time": "15 minutes", "group": "Individuel", "materials": "Des coquillages en papier, des crayons, un panier", "steps": "Chaque enfant dessine ou écrit une petite promesse qu’il peut tenir cette semaine (« Je vais aider à ranger »). Mettez les coquillages dans un panier. En fin de semaine, chacun reprend le sien et raconte comment il l’a tenue."},
+   {"title": "Reste avec moi", "time": "10 minutes", "group": "En duo", "materials": "Un tissu bleu ou un espace libre", "steps": "Les partenaires « nagent » dans la classe comme Finn et Coral. Le grand promet de rester près du petit et doit suivre sa vitesse. Échangez. Parlez de ce qu’on ressent quand c’est soi qui attend."},
+   {"title": "Si je me perds", "time": "10 minutes", "group": "Toute la classe", "materials": "Aucun", "steps": "Comme Finn, parlez de ce qu’il faut faire si on se perd : rester sur place, rester calme et chercher une personne sûre, comme un employé ou un parent avec des enfants. Entraînez-vous à dire son prénom clairement."}
+  ],
+  "science": {
+   "text": "Les récifs de corail sont construits pendant de longues années par de tout petits animaux appelés polypes, et ils abritent un nombre immense de créatures marines. Beaucoup de petits poissons du récif restent près d’un abri, car l’eau libre peut être dangereuse. Les dauphins sont des mammifères, pas des poissons : ils respirent de l’air par un évent sur le dessus de la tête, vivent en groupes et communiquent par des clics et des sifflements. Le réchauffement des mers et la pollution abîment les récifs : il ne faut jamais toucher ni casser le corail.",
+   "link": "/heroes/finn-and-coral",
+   "linkText": "Découvrir les vrais poissons du récif et les dauphins"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Enseignez « Je promets » avec le geste des petits doigts. Utilisez un poisson en jouet pour montrer « près » et « loin »."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 5, 9 et 15). Ce livre a 17 doubles pages avec peu de texte sur chacune : il se lit vite."},
+   {"who": "Grands frères et grandes sœurs", "how": "Invitez les aînés de la classe à raconter comment ils s’occupent des plus petits. Parlez de ce que c’est d’être le grand, et le petit."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Fait et tient une petite promesse à un ami."},
+   {"frame": "SRWB", "text": "Nomme ce qu’on ressent quand une promesse n’est pas tenue."},
+   {"frame": "PSI", "text": "Explique que la confiance revient lentement, avec des actes."},
+   {"frame": "DLMB", "text": "Utilise des mots comme près, loin, à côté et devant."}
+  ],
+  "care": [
+   "Se perdre est une vraie peur. Mettez en avant le conseil calme du dauphin, et terminez par ce qu’il faut faire dans la vraie vie.",
+   "Finn a le droit d’avoir de la peine pendant un moment. Ne poussez pas les enfants à pardonner tout de suite.",
+   "Coral n’est pas une mauvaise sœur. Elle s’est laissé emporter, elle a fait une erreur, et elle la répare."
+  ]
+ },
+ "letter": {
+  "en": "Today we read Finn & Coral, a story about building trust. Coral breaks a promise to her little brother Finn, then wins his trust back by keeping her word, day after day. At home, make one small promise to each other this week, like reading together at bedtime, and keep it. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Finn & Coral, une histoire sur la confiance. Coral ne tient pas une promesse faite à son petit frère Finn, puis regagne sa confiance en tenant parole jour après jour. À la maison, faites-vous une petite promesse cette semaine, comme lire ensemble au coucher, et tenez-la. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre la confianza. Coral rompe una promesa a su hermanito Finn y luego recupera su confianza cumpliendo su palabra día tras día. En casa, háganse una pequeña promesa esta semana, como leer juntos antes de dormir, y cúmplanla. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über Vertrauen gelesen. Coral bricht ein Versprechen an ihren kleinen Bruder Finn und gewinnt sein Vertrauen zurück, indem sie Tag für Tag Wort hält. Geben Sie sich zu Hause diese Woche ein kleines Versprechen, etwa abends gemeinsam zu lesen, und halten Sie es. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sulla fiducia. Coral non mantiene una promessa fatta al fratellino Finn, poi riconquista la sua fiducia mantenendo la parola giorno dopo giorno. A casa, fatevi una piccola promessa questa settimana, come leggere insieme prima di dormire, e mantenetela. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "book": "the-honest-little-raccoon",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["SRWB", "BC", "PSI", "DLMB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a toy tray and play-dough rolls, a paper door, sticky notes",
+  "summary": "Riley is a clever, curious young raccoon who explores the city at night. Maggie, a wise old pigeon, tells him that trouble comes and goes, but the truth stays with you, and it opens doors that lies never can. One chilly evening, Riley and his big best friend Benny follow the smell of fresh bread into a bakery and nibble the sweet rolls, until Riley’s tail knocks over a tray. When the baker rushes in, Benny offers to take the blame. Riley remembers Maggie’s words, steps forward, and says, ‘It was me. I’m sorry.’ The baker calls him brave and tells them to ask next time, and Riley feels lighter than ever.",
+  "bigIdea": "Telling the truth can feel scary, but it makes your heart feel light and helps people trust you.",
+  "theme": "Lying only traps you in more lies. The truth sets you free.",
+  "refrain": "Truth will always set you free.",
+  "origin": "This story doesn’t come from one culture. All over the world, families tell children stories about owning up to a mistake, and how honesty, even when it is hard, opens doors.",
+  "words": [
+   {"word": "truth", "meaning": "what really happened", "cue": "put your hand flat on your heart"},
+   {"word": "blame", "meaning": "saying who did something wrong", "cue": "point a finger, then drop it"},
+   {"word": "admit", "meaning": "to say ‘I did it’", "cue": "point to yourself"},
+   {"word": "sorry", "meaning": "a word that shows you feel bad about what you did", "cue": "rub a circle on your chest"},
+   {"word": "free", "meaning": "light, not stuck or trapped", "cue": "fling your arms open"}
+  ],
+  "before": [
+   "Show the cover. Ask: What kind of animal is this? Where does he live? What do you think he gets up to at night?",
+   "Ask: Is it ever hard to tell the truth? Why? Take a few answers kindly.",
+   "Teach Maggie’s words with a gesture: hand on heart, then arms wide. ‘Truth will always set you free.’"
+  ],
+  "pauses": [
+   {"spread": 5, "moment": "Maggie: ‘Truth will always set you free.’", "ask": "What did Maggie tell Riley about the truth?", "listen": "it stays with you, it sets you free, it opens doors"},
+   {"spread": 6, "moment": "Benny is big and always protects Riley.", "ask": "What kind of friend is Benny?", "listen": "strong, kind, protective"},
+   {"spread": 8, "moment": "They climb in and nibble the sweet rolls.", "ask": "Was it okay for them to go into the bakery? Why or why not?", "listen": "no, it wasn’t theirs, they didn’t ask"},
+   {"spread": 9, "moment": "CRASH! The tray falls.", "ask": "How do you think Riley feels right now?", "listen": "scared, shocked, worried"},
+   {"spread": 10, "moment": "Benny offers to take the blame.", "ask": "Why do you think Benny offered to take the blame?", "listen": "he wanted to protect Riley, he is bigger"},
+   {"spread": 11, "moment": "Riley’s heart pounds; he remembers Maggie.", "ask": "What choice does Riley have to make?", "listen": "run away or tell the truth"},
+   {"spread": 13, "moment": "The baker sees the honesty in Riley’s eyes.", "ask": "What did the baker do when Riley was honest?", "listen": "called him brave, said ask next time"},
+   {"spread": 14, "moment": "Riley feels lighter, even proud.", "ask": "How did Riley feel after telling the truth?", "listen": "light, proud, free, happy"}
+  ],
+  "after": [
+   {"q": "What did Maggie tell Riley about the truth?", "a": "That the truth stays with you and sets you free, even when it’s hard."},
+   {"q": "Why do you think Benny offered to take the blame?", "a": "He wanted to protect his friend."},
+   {"q": "How did Riley feel before he told the truth? And afterwards?", "a": "Scared, heart pounding before; light and proud after."},
+   {"q": "What did the baker do when Riley was honest?", "a": "He said Riley was brave and told them to ask next time."},
+   {"q": "Can you remember a time when telling the truth was hard?", "a": "Any answer. Thank children for sharing."}
+  ],
+  "activities": [
+   {"title": "The bakery choice", "time": "10 minutes", "group": "Small groups", "materials": "A toy tray, play-dough rolls", "steps": "Act out the bakery scene. Stop at the moment the baker asks ‘Who made this mess?’ Let children try two endings: hiding, and owning up. Talk about how each ending felt."},
+   {"title": "Light and heavy", "time": "5 minutes", "group": "Whole class", "materials": "None", "steps": "Hunch your shoulders like you’re carrying a secret. Then say ‘It was me, I’m sorry’ and let your shoulders drop and your arms fly open. Talk about the difference."},
+   {"title": "Doors that truth opens", "time": "15 minutes", "group": "Whole class", "materials": "A big paper door, sticky notes", "steps": "On sticky notes, children draw or say good things that can happen after telling the truth (a friend forgives, a grown-up helps, you feel light). Stick them on the paper door."}
+  ],
+  "science": {
+   "text": "Raccoons come from North America, including southern Canada. They are mostly awake at night, have clever front paws that they use like hands, and have learned to live in cities, in attics, parks and sewers. Their black mask and ringed tail make them easy to spot. City pigeons come from wild rock doves and are famous for finding their way home. Real raccoons can carry germs: never touch or feed one.",
+   "link": "/heroes/the-honest-little-raccoon",
+   "linkText": "Meet the real raccoons and pigeons"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Teach two short sentences: ‘It was me’ and ‘I’m sorry’, with gestures. Use them in the bakery role play."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 5, 10 and 14). This book has 17 spreads with short text on each, so it reads quickly."},
+   {"who": "Mixed ages and older children", "how": "Older children talk about Benny’s offer: was it kind? Was it right? What would a good friend do?"}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Owns up to a small mistake and says sorry."},
+   {"frame": "BC", "text": "Responds kindly when a friend tells the truth."},
+   {"frame": "PSI", "text": "Explains how Riley felt before and after telling the truth."},
+   {"frame": "DLMB", "text": "Retells the bakery scene in order: smell, nibble, crash, choice, truth."}
+  ],
+  "care": [
+   "Honesty is not about avoiding punishment. When a child owns up in class, respond as the baker did: with kindness.",
+   "Sneaking into the bakery was the mistake. Don’t frame it as a fun adventure to copy.",
+   "Real-life safety: never approach, touch or feed wild animals like raccoons."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), un plateau jouet et des petits pains en pâte à modeler, une porte en papier, des papillons adhésifs",
+  "summary": "Riley est un jeune raton laveur malin et curieux qui explore la ville la nuit. Maggie, une vieille pigeonne sage, lui dit que les ennuis vont et viennent, mais que la vérité reste avec toi, et qu’elle ouvre des portes que les mensonges n’ouvrent jamais. Un soir frais, Riley et son grand ami Benny suivent l’odeur du pain chaud jusque dans une boulangerie et grignotent les brioches, jusqu’à ce que la queue de Riley renverse un plateau. Quand le boulanger arrive, Benny propose de prendre la faute. Riley se souvient des mots de Maggie, s’avance et dit : « C’est moi. Je suis désolé. » Le boulanger le trouve courageux et leur dit de demander la prochaine fois, et Riley se sent plus léger que jamais.",
+  "bigIdea": "Dire la vérité peut faire peur, mais ça rend le cœur léger et aide les autres à nous faire confiance.",
+  "theme": "Mentir t’enferme dans d’autres mensonges. La vérité te rend libre.",
+  "refrain": "La vérité te rendra toujours libre.",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Partout dans le monde, les familles racontent aux enfants des histoires sur le courage d’avouer une erreur, et sur l’honnêteté qui, même difficile, ouvre des portes.",
+  "words": [
+   {"word": "vérité", "meaning": "ce qui s’est vraiment passé", "cue": "posez la main à plat sur le cœur"},
+   {"word": "faute", "meaning": "une chose mal faite, une erreur", "cue": "pointez un doigt, puis baissez-le"},
+   {"word": "avouer", "meaning": "dire « c’est moi qui l’ai fait »", "cue": "montrez-vous du doigt"},
+   {"word": "désolé", "meaning": "un mot qui montre qu’on regrette ce qu’on a fait", "cue": "frottez un cercle sur la poitrine"},
+   {"word": "libre", "meaning": "léger, pas coincé ni enfermé", "cue": "ouvrez grand les bras"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Quel est cet animal ? Où vit-il ? Que fait-il la nuit, à ton avis ?",
+   "Demandez : Est-ce parfois difficile de dire la vérité ? Pourquoi ? Prenez quelques réponses avec douceur.",
+   "Apprenez les mots de Maggie avec un geste : main sur le cœur, puis bras grands ouverts. « La vérité te rendra toujours libre. »"
+  ],
+  "pauses": [
+   {"spread": 5, "moment": "Maggie : « La vérité te rendra toujours libre. »", "ask": "Qu’a dit Maggie à Riley sur la vérité ?", "listen": "elle reste avec toi, elle rend libre, elle ouvre des portes"},
+   {"spread": 6, "moment": "Benny est grand et protège toujours Riley.", "ask": "Quel genre d’ami est Benny ?", "listen": "fort, gentil, protecteur"},
+   {"spread": 8, "moment": "Ils entrent et grignotent les brioches.", "ask": "Était-ce bien d’entrer dans la boulangerie ? Pourquoi ?", "listen": "non, ce n’était pas à eux, ils n’ont pas demandé"},
+   {"spread": 9, "moment": "Le plateau tombe avec fracas.", "ask": "Comment se sent Riley en ce moment, à ton avis ?", "listen": "peur, surpris, inquiet"},
+   {"spread": 10, "moment": "Benny propose de prendre la faute.", "ask": "Pourquoi Benny propose-t-il de prendre la faute, à ton avis ?", "listen": "il voulait protéger Riley, il est plus grand"},
+   {"spread": 11, "moment": "Le cœur de Riley bat ; il se souvient de Maggie.", "ask": "Quel choix Riley doit-il faire ?", "listen": "s’enfuir ou dire la vérité"},
+   {"spread": 13, "moment": "Le boulanger voit l’honnêteté dans les yeux de Riley.", "ask": "Qu’a fait le boulanger quand Riley a été honnête ?", "listen": "il l’a trouvé courageux, il a dit de demander la prochaine fois"},
+   {"spread": 14, "moment": "Riley se sent léger, même fier.", "ask": "Comment Riley s’est-il senti après avoir dit la vérité ?", "listen": "léger, fier, libre, heureux"}
+  ],
+  "after": [
+   {"q": "Qu’a dit Maggie à Riley sur la vérité ?", "a": "Que la vérité reste avec toi et te rend libre, même quand c’est difficile."},
+   {"q": "Pourquoi Benny a-t-il proposé de prendre la faute ?", "a": "Il voulait protéger son ami."},
+   {"q": "Comment Riley se sentait-il avant de dire la vérité ? Et après ?", "a": "Avant : peur, le cœur qui bat. Après : léger et fier."},
+   {"q": "Qu’a fait le boulanger quand Riley a été honnête ?", "a": "Il a dit que Riley était courageux et leur a dit de demander la prochaine fois."},
+   {"q": "Te souviens-tu d’une fois où dire la vérité était difficile ?", "a": "Toutes les réponses. Remerciez les enfants de partager."}
+  ],
+  "activities": [
+   {"title": "Le choix à la boulangerie", "time": "10 minutes", "group": "Petits groupes", "materials": "Un plateau jouet, des petits pains en pâte à modeler", "steps": "Jouez la scène de la boulangerie. Arrêtez-vous quand le boulanger demande qui a fait ce désordre. Laissez les enfants essayer deux fins : se cacher, et avouer. Parlez de ce que chaque fin fait ressentir."},
+   {"title": "Lourd et léger", "time": "5 minutes", "group": "Toute la classe", "materials": "Aucun", "steps": "Rentrez les épaules comme si vous portiez un secret. Puis dites « C’est moi, je suis désolé » et laissez tomber les épaules en ouvrant les bras. Parlez de la différence."},
+   {"title": "Les portes que la vérité ouvre", "time": "15 minutes", "group": "Toute la classe", "materials": "Une grande porte en papier, des papillons adhésifs", "steps": "Sur les papillons, les enfants dessinent ou disent de bonnes choses qui peuvent arriver après avoir dit la vérité (un ami pardonne, un adulte aide, on se sent léger). Collez-les sur la porte."}
+  ],
+  "science": {
+   "text": "Les ratons laveurs viennent d’Amérique du Nord, dont le sud du Canada. Ils sont surtout actifs la nuit, ont des pattes avant habiles qu’ils utilisent comme des mains, et ont appris à vivre en ville, dans les greniers, les parcs et les égouts. Leur masque noir et leur queue à anneaux les rendent faciles à reconnaître. Les pigeons des villes descendent des pigeons bisets sauvages et sont célèbres pour retrouver leur chemin. Les vrais ratons laveurs peuvent porter des microbes : ne jamais en toucher ni en nourrir.",
+   "link": "/heroes/the-honest-little-raccoon",
+   "linkText": "Découvrir les vrais ratons laveurs et pigeons"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Enseignez deux phrases courtes : « C’est moi » et « Je suis désolé », avec des gestes. Utilisez-les dans le jeu de la boulangerie."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 5, 10 et 14). Ce livre a 17 doubles pages avec peu de texte sur chacune : il se lit vite."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands discutent de la proposition de Benny : était-ce gentil ? Était-ce juste ? Que ferait un bon ami ?"}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Avoue une petite erreur et dit pardon."},
+   {"frame": "BC", "text": "Réagit avec gentillesse quand un ami dit la vérité."},
+   {"frame": "PSI", "text": "Explique ce que Riley ressentait avant et après avoir dit la vérité."},
+   {"frame": "DLMB", "text": "Raconte la scène de la boulangerie dans l’ordre : l’odeur, les brioches, le fracas, le choix, la vérité."}
+  ],
+  "care": [
+   "L’honnêteté, ce n’est pas éviter une punition. Quand un enfant avoue en classe, réagissez comme le boulanger : avec gentillesse.",
+   "Entrer en cachette dans la boulangerie était l’erreur. Ne la présentez pas comme une aventure amusante à imiter.",
+   "Sécurité dans la vraie vie : ne jamais approcher, toucher ou nourrir des animaux sauvages comme les ratons laveurs."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The Honest Little Raccoon, a story about telling the truth. Riley the raccoon makes a mess in a bakery, and even when his friend offers to take the blame, he steps forward and says, ‘It was me. I’m sorry.’ At home, when your child owns up to something, thank them first, then talk about how to fix it. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Le Petit Raton Laveur Honnête, une histoire sur la vérité. Riley le raton laveur fait un désordre dans une boulangerie et, même quand son ami propose de prendre la faute, il s’avance et dit : « C’est moi. Je suis désolé. » À la maison, quand votre enfant avoue quelque chose, remerciez-le d’abord, puis parlez ensemble de la façon de réparer. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre decir la verdad. Riley, el mapache, hace un desastre en una panadería y, aunque su amigo se ofrece a cargar con la culpa, da un paso adelante y dice: «Fui yo. Lo siento». En casa, cuando su hijo o hija admita algo, agradézcale primero y luego hablen de cómo arreglarlo. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über die Wahrheit gelesen. Der Waschbär Riley macht in einer Bäckerei Unordnung, und obwohl sein Freund die Schuld auf sich nehmen will, tritt er vor und sagt: ‚Ich war es. Es tut mir leid.‘ Wenn Ihr Kind zu Hause etwas zugibt, danken Sie ihm zuerst und sprechen Sie dann darüber, wie man es wiedergutmacht. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sul dire la verità. Riley, il procione, combina un pasticcio in una panetteria e, anche quando il suo amico si offre di prendersi la colpa, si fa avanti e dice: «Sono stato io. Mi dispiace». A casa, quando vostro figlio o vostra figlia ammette qualcosa, ringraziatelo prima, poi parlate insieme di come rimediare. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

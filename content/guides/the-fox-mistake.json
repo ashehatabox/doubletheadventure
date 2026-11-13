@@ -1,0 +1,141 @@
+{
+ "book": "the-fox-mistake",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["BC", "SRWB", "PSI", "DLMB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a shiny pebble or a piece of foil, a box for a ‘den’, a bowl of water",
+  "summary": "Felix and Finn are best-friend foxes in an autumn forest. Felix finds a beautiful shiny pebble by the river and keeps it in his den, but the next day it’s gone. When he sees a shiny pebble outside Finn’s den, he shouts, ‘You took my pebble!’ Finn says he found his own near the oak tree, but Felix calls him a liar, and the friends turn their backs on each other. For days, both are miserable. Then Felix spots his own pebble sparkling in the river: it must have rolled away. Ashamed, he runs to Finn and says sorry. Finn tells him how much it hurt, and then forgives him.",
+  "bigIdea": "Everyone makes mistakes. When we’re wrong, we say sorry, and when someone says sorry, we can forgive, without pretending it didn’t hurt.",
+  "theme": "Mistakes can happen, but forgiveness makes a friendship even stronger.",
+  "refrain": "",
+  "origin": "This story doesn’t come from one culture. In families all over the world, children learn the same two halves of making up: say sorry when you are wrong, and forgive when someone says sorry to you.",
+  "words": [
+   {"word": "pebble", "meaning": "a small, smooth stone", "cue": "pinch a tiny pebble between your fingers"},
+   {"word": "den", "meaning": "a fox’s home, often a hole in the ground", "cue": "cup your hands like a little cave"},
+   {"word": "blame", "meaning": "to say someone did something wrong", "cue": "point a finger"},
+   {"word": "ashamed", "meaning": "feeling bad about something you did", "cue": "cover your face with your hands"},
+   {"word": "forgive", "meaning": "to stop being cross with someone after they say sorry", "cue": "open your arms for a hug"}
+  ],
+  "before": [
+   "Show the cover. Ask: What animals are these? How do you think they feel about each other?",
+   "Ask: Have you ever lost something and thought someone took it? What happened? Take a few answers.",
+   "Practise the two ‘making up’ phrases with gestures: ‘I’m sorry’ (rub a circle on your chest) and ‘I forgive you’ (open your arms)."
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Felix and Finn do everything together.", "ask": "What kind of friends are Felix and Finn?", "listen": "best friends, they share, they play together"},
+   {"spread": 5, "moment": "The pebble is gone!", "ask": "Where do you think the pebble went?", "listen": "someone took it, it rolled away, it got lost"},
+   {"spread": 6, "moment": "‘Finn, you took my pebble!’", "ask": "Why did Felix think Finn took his pebble?", "listen": "Finn had a shiny pebble too"},
+   {"spread": 8, "moment": "‘You’re lying!’", "ask": "How do you think Finn felt when Felix didn’t believe him?", "listen": "hurt, sad, angry"},
+   {"spread": 9, "moment": "Neither fox feels happy.", "ask": "Why do both foxes feel sad?", "listen": "they miss each other, the forest is empty"},
+   {"spread": 11, "moment": "Felix realises he was wrong.", "ask": "What really happened to the pebble?", "listen": "it rolled out of his den into the river"},
+   {"spread": 13, "moment": "‘I’m so sorry for not believing you.’", "ask": "What did Felix do when he found out he was wrong?", "listen": "went to Finn, explained, said sorry"},
+   {"spread": 14, "moment": "‘I was really hurt. But I forgive you.’", "ask": "What did Finn say before he forgave Felix? Why does that matter?", "listen": "he said he was hurt; it’s okay to say how you feel"}
+  ],
+  "after": [
+   {"q": "Why did Felix think Finn took his pebble?", "a": "His pebble was gone, and he saw a shiny pebble at Finn’s den."},
+   {"q": "How do you think Finn felt when Felix didn’t believe him?", "a": "Hurt and upset. Accept any feeling word."},
+   {"q": "What did Felix do when he found out he was wrong?", "a": "He went to Finn straight away, explained and said sorry."},
+   {"q": "Why do you think Finn forgave him?", "a": "Felix said a real sorry, and they were best friends."},
+   {"q": "What can you say or do when you have made a mistake with a friend?", "a": "Say sorry, say what you did, help fix it."}
+  ],
+  "activities": [
+   {"title": "Detective foxes", "time": "10 minutes", "group": "Small groups", "materials": "A ‘lost’ object hidden in the room", "steps": "Something has gone missing! Before anyone blames anyone, the group looks for clues: Where did we last see it? Could it have rolled or fallen? Talk about why it’s important to check before we blame."},
+   {"title": "The sorry steps", "time": "10 minutes", "group": "Pairs", "materials": "None", "steps": "Practise Felix’s sorry: 1. Say what you did (‘I didn’t believe you’). 2. Say sorry. Then practise Finn’s answer: 1. Say how you felt. 2. ‘I forgive you.’ Swap roles."},
+   {"title": "Floating and sinking pebbles", "time": "10 minutes", "group": "Whole class", "materials": "A bowl of water, a pebble, other small objects", "steps": "Test what sinks and what floats. Ask: Why did Felix see his pebble in the water? Then talk about river safety: never reach into a river without a grown-up."}
+  ],
+  "science": {
+   "text": "Red foxes live in forests, fields and even cities across much of the world, including Canada. They often dig dens in the ground to raise their young and to shelter. Foxes have excellent hearing and a bushy tail that helps them balance and keeps them warm. In autumn, foxes eat fruits and berries as well as small animals. Foxes are wild animals: enjoy them from a distance and never feed them.",
+   "link": "/heroes/the-fox-mistake",
+   "linkText": "Meet the real foxes"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Teach ‘I’m sorry’ and ‘I forgive you’ with gestures, and let children say them in their home languages too."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 6, 11 and 14). This book has 17 spreads with short text on each, so it reads quickly."},
+   {"who": "Mixed ages and older children", "how": "Older children talk about jumping to conclusions: what clues did Felix miss? What could he have asked first?"}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Says a clear sorry that names what they did."},
+   {"frame": "SRWB", "text": "Says how they feel when hurt, before forgiving."},
+   {"frame": "PSI", "text": "Looks for clues before blaming someone."},
+   {"frame": "DLMB", "text": "Predicts and tests whether objects sink or float."}
+  ],
+  "care": [
+   "Children don’t have to forgive straight away. Finn says he was hurt first, and that’s okay.",
+   "Nobody in the story stole anything. Avoid framing anyone as a thief.",
+   "Real-life safety: no wading or reaching into rivers without a grown-up."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), un galet brillant ou un morceau d’aluminium, une boîte comme « terrier », un bol d’eau",
+  "summary": "Felix et Finn sont deux renards, meilleurs amis, dans une forêt d’automne. Felix trouve un magnifique galet brillant au bord de la rivière et le garde dans son terrier, mais le lendemain, il a disparu. En voyant un galet brillant devant le terrier de Finn, il crie : « Finn, tu as pris mon galet ! » Finn dit qu’il a trouvé le sien près du chêne, mais Felix le traite de menteur, et les deux amis se tournent le dos. Pendant des jours, ils sont malheureux. Puis Felix aperçoit son propre galet qui brille dans la rivière : il a dû rouler. Honteux, il court chez Finn et s’excuse. Finn lui dit combien ça lui a fait mal, puis lui pardonne.",
+  "bigIdea": "Tout le monde fait des erreurs. Quand on a tort, on s’excuse, et quand quelqu’un s’excuse, on peut pardonner, sans faire semblant que ça n’a pas fait mal.",
+  "theme": "Les erreurs arrivent, mais le pardon rend l’amitié encore plus forte.",
+  "refrain": "",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Dans les familles du monde entier, les enfants apprennent les deux moitiés de la réconciliation : s’excuser quand on a tort, et pardonner quand quelqu’un s’excuse.",
+  "words": [
+   {"word": "galet", "meaning": "une petite pierre lisse", "cue": "pincez un petit galet entre vos doigts"},
+   {"word": "terrier", "meaning": "la maison d’un renard, souvent un trou dans le sol", "cue": "faites une petite grotte avec vos mains"},
+   {"word": "accuser", "meaning": "dire que quelqu’un a fait quelque chose de mal", "cue": "pointez un doigt"},
+   {"word": "honteux", "meaning": "qui se sent mal à cause de ce qu’il a fait", "cue": "cachez votre visage dans vos mains"},
+   {"word": "pardonner", "meaning": "ne plus être fâché après qu’on s’est excusé", "cue": "ouvrez les bras pour un câlin"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Quels sont ces animaux ? Que ressentent-ils l’un pour l’autre, à ton avis ?",
+   "Demandez : As-tu déjà perdu quelque chose et pensé que quelqu’un l’avait pris ? Que s’est-il passé ? Prenez quelques réponses.",
+   "Pratiquez les deux phrases de la réconciliation avec des gestes : « Je suis désolé » (frottez un cercle sur la poitrine) et « Je te pardonne » (ouvrez les bras)."
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Felix et Finn font tout ensemble.", "ask": "Quel genre d’amis sont Felix et Finn ?", "listen": "meilleurs amis, ils partagent, ils jouent ensemble"},
+   {"spread": 5, "moment": "Le galet a disparu !", "ask": "Où est passé le galet, à ton avis ?", "listen": "quelqu’un l’a pris, il a roulé, il s’est perdu"},
+   {"spread": 6, "moment": "« Finn, tu as pris mon galet ! »", "ask": "Pourquoi Felix pensait-il que Finn avait pris son galet ?", "listen": "Finn avait aussi un galet brillant"},
+   {"spread": 8, "moment": "« Tu mens ! »", "ask": "Qu’a ressenti Finn quand Felix ne l’a pas cru, à ton avis ?", "listen": "blessé, triste, en colère"},
+   {"spread": 9, "moment": "Aucun des deux renards n’est heureux.", "ask": "Pourquoi les deux renards sont-ils tristes ?", "listen": "ils se manquent, la forêt est vide"},
+   {"spread": 11, "moment": "Felix comprend qu’il avait tort.", "ask": "Qu’est-il vraiment arrivé au galet ?", "listen": "il a roulé hors du terrier jusque dans la rivière"},
+   {"spread": 13, "moment": "Felix s’excuse de ne pas l’avoir cru.", "ask": "Qu’a fait Felix quand il a compris son erreur ?", "listen": "il est allé voir Finn, a expliqué, s’est excusé"},
+   {"spread": 14, "moment": "« Ça m’a fait très mal. Mais je te pardonne. »", "ask": "Qu’a dit Finn avant de pardonner ? Pourquoi est-ce important ?", "listen": "qu’il avait eu mal ; on a le droit de dire ce qu’on ressent"}
+  ],
+  "after": [
+   {"q": "Pourquoi Felix pensait-il que Finn avait pris son galet ?", "a": "Son galet avait disparu, et il en a vu un brillant devant le terrier de Finn."},
+   {"q": "Qu’a ressenti Finn quand Felix ne l’a pas cru ?", "a": "De la peine et de la colère. Acceptez tous les mots d’émotion."},
+   {"q": "Qu’a fait Felix quand il a compris qu’il avait tort ?", "a": "Il est allé tout de suite voir Finn, a expliqué et s’est excusé."},
+   {"q": "Pourquoi Finn lui a-t-il pardonné, à ton avis ?", "a": "Felix s’est vraiment excusé, et ils étaient meilleurs amis."},
+   {"q": "Que peux-tu dire ou faire quand tu as fait une erreur avec un ami ?", "a": "S’excuser, dire ce qu’on a fait, aider à réparer."}
+  ],
+  "activities": [
+   {"title": "Renards détectives", "time": "10 minutes", "group": "Petits groupes", "materials": "Un objet « perdu » caché dans la classe", "steps": "Quelque chose a disparu ! Avant d’accuser qui que ce soit, le groupe cherche des indices : Où l’a-t-on vu en dernier ? A-t-il pu rouler ou tomber ? Parlez de l’importance de vérifier avant d’accuser."},
+   {"title": "Les étapes du pardon", "time": "10 minutes", "group": "En duo", "materials": "Aucun", "steps": "Pratiquez l’excuse de Felix : 1. Dire ce qu’on a fait (« Je ne t’ai pas cru »). 2. Dire pardon. Puis la réponse de Finn : 1. Dire ce qu’on a ressenti. 2. « Je te pardonne. » Échangez."},
+   {"title": "Galets qui coulent ou qui flottent", "time": "10 minutes", "group": "Toute la classe", "materials": "Un bol d’eau, un galet, d’autres petits objets", "steps": "Testez ce qui coule et ce qui flotte. Demandez : Pourquoi Felix a-t-il vu son galet dans l’eau ? Puis parlez de la sécurité près des rivières : ne jamais tendre la main dans une rivière sans un adulte."}
+  ],
+  "science": {
+   "text": "Les renards roux vivent dans les forêts, les champs et même les villes d’une grande partie du monde, dont le Canada. Ils creusent souvent des terriers pour élever leurs petits et s’abriter. Les renards ont une ouïe excellente et une queue touffue qui les aide à garder l’équilibre et à rester au chaud. En automne, ils mangent des fruits et des baies en plus de petits animaux. Les renards sont des animaux sauvages : on les admire de loin et on ne les nourrit jamais.",
+   "link": "/heroes/the-fox-mistake",
+   "linkText": "Découvrir les vrais renards"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Enseignez « Je suis désolé » et « Je te pardonne » avec des gestes, et laissez les enfants les dire aussi dans leur langue."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 6, 11 et 14). Ce livre a 17 doubles pages avec peu de texte sur chacune : il se lit vite."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands parlent des conclusions trop rapides : quels indices Felix a-t-il manqués ? Qu’aurait-il pu demander d’abord ?"}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "S’excuse clairement en disant ce qu’il a fait."},
+   {"frame": "SRWB", "text": "Dit ce qu’il ressent quand il a de la peine, avant de pardonner."},
+   {"frame": "PSI", "text": "Cherche des indices avant d’accuser quelqu’un."},
+   {"frame": "DLMB", "text": "Prédit et vérifie si des objets coulent ou flottent."}
+  ],
+  "care": [
+   "Les enfants n’ont pas à pardonner tout de suite. Finn dit d’abord qu’il a eu mal, et c’est très bien.",
+   "Personne n’a rien volé dans l’histoire. Ne présentez personne comme un voleur.",
+   "Sécurité dans la vraie vie : ne jamais entrer dans une rivière ni y tendre la main sans un adulte."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The Fox Mistake, a story about saying sorry and forgiving. Felix the fox blames his best friend for taking his pebble, then discovers he was wrong, says a real sorry, and is forgiven. At home, practise the two steps of making up: say what you did and say sorry; say how you felt and forgive. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu L’Erreur des renards, une histoire sur les excuses et le pardon. Felix le renard accuse son meilleur ami d’avoir pris son galet, puis découvre qu’il avait tort, s’excuse sincèrement et reçoit son pardon. À la maison, pratiquez les deux étapes de la réconciliation : dire ce qu’on a fait et s’excuser ; dire ce qu’on a ressenti et pardonner. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre pedir perdón y perdonar. Felix, el zorro, acusa a su mejor amigo de llevarse su piedrita, luego descubre que estaba equivocado, pide perdón de verdad y es perdonado. En casa, practiquen los dos pasos para hacer las paces: decir lo que hiciste y pedir perdón; decir cómo te sentiste y perdonar. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über das Entschuldigen und Verzeihen gelesen. Der Fuchs Felix beschuldigt seinen besten Freund, seinen Kieselstein genommen zu haben, merkt dann, dass er sich geirrt hat, entschuldigt sich ehrlich und bekommt Verzeihung. Üben Sie zu Hause die zwei Schritte des Versöhnens: sagen, was man getan hat, und sich entschuldigen; sagen, wie man sich gefühlt hat, und verzeihen. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sul chiedere scusa e perdonare. Felix, la volpe, accusa il suo migliore amico di avergli preso il sassolino, poi scopre di essersi sbagliato, chiede scusa sinceramente e viene perdonato. A casa, esercitatevi nei due passi per fare pace: dire cosa si è fatto e chiedere scusa; dire come ci si è sentiti e perdonare. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

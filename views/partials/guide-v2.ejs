@@ -20,7 +20,7 @@
           <div><dt><%= t('book.ageLabel') %></dt><dd><%= site.ages %></dd></div>
           <div class="g2-wide"><dt><%= t('guides2.materialsLabel') %></dt><dd><%= g2.materials %></dd></div>
           <div class="g2-wide"><dt><%= t('guides2.framesLabel') %></dt><dd><%= g2.frames.map(function (f) { return fr[f]; }).join(', ') %></dd></div>
-          <div class="g2-wide"><dt><%= t('guides2.languagesLabel') %></dt><dd><%= t('guides2.languages') %></dd></div>
+          <div class="g2-wide"><dt><%= t('guides2.languagesLabel') %></dt><dd><%= (book.languages && book.languages.length) ? book.languages.map(langName).join(', ') : t('guides2.languages') %></dd></div>
         </dl>
         <p class="g2-links no-print">
           <a class="btn btn-primary" href="<%= url('/books/' + book.slug + '/read') %>"><%= t('educators.bookRead') %></a>

@@ -1,0 +1,141 @@
+{
+ "book": "becoming-a-tree",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["SRWB", "DLMB", "PSI", "BC"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), bean seeds, clear cups, paper towels or soil, a watering can, a measuring strip",
+  "summary": "Oakie is a tiny seed deep in the dark soil who has never seen the light or felt the wind. When a passing bird tells him how wonderful they are, Oakie wants them right now, but the earth is too heavy to push through. A kind worm tells him that good things take time. Months pass: rain falls, the sun warms the soil, a root reaches down and a green shoot pushes up. Then a hungry deer nibbles one of his leaves, and Oakie wonders if it is safe outside. He decides life in the light is worth it, keeps growing into a strong tree, and one day passes the worm’s advice to a tiny new seed.",
+  "bigIdea": "Some things can’t be hurried. If you keep trying and wait, you grow when you are ready.",
+  "theme": "Be patient. Good things take time, but they’re worth it.",
+  "refrain": "Good things take time.",
+  "origin": "This story doesn’t come from one culture. Many traditions compare people to trees and seeds: growing slowly, little by little, and passing on what they have learned to those who come next.",
+  "words": [
+   {"word": "seed", "meaning": "a tiny thing that a plant grows from", "cue": "pinch your fingers into a tiny dot"},
+   {"word": "soil", "meaning": "the earth that plants grow in", "cue": "rub your fingers together like crumbly dirt"},
+   {"word": "root", "meaning": "the part of a plant that grows down into the ground", "cue": "wiggle your fingers downward"},
+   {"word": "sprout", "meaning": "a new little plant pushing up", "cue": "push one hand slowly up through the other"},
+   {"word": "patient", "meaning": "able to wait calmly", "cue": "fold your hands and breathe"}
+  ],
+  "before": [
+   "Show the cover. Ask: What do you think this story is about? How do trees start?",
+   "Ask: What is something you have to wait for? Is waiting easy or hard? Take a few answers.",
+   "Teach the worm’s words with a gesture: fold your hands, then slowly lift them like a growing plant. ‘Good things take time.’"
+  ],
+  "pauses": [
+   {"spread": 2, "moment": "Oakie lies in the dark soil.", "ask": "What has Oakie never seen or felt?", "listen": "the light, the wind"},
+   {"spread": 4, "moment": "Oakie pushes, but the soil is too heavy.", "ask": "How do you think Oakie felt when he pushed and pushed and nothing happened?", "listen": "frustrated, sad, impatient"},
+   {"spread": 6, "moment": "‘Good things take time.’", "ask": "What does the worm mean?", "listen": "you have to wait, keep trying, you will grow"},
+   {"spread": 7, "moment": "Plip-plop! Shine-shine! Months go by.", "ask": "What does a seed need to grow?", "listen": "rain, sun, warm soil, time"},
+   {"spread": 8, "moment": "A root goes down and a shoot goes up.", "ask": "Which way does the root grow? Which way does the shoot grow?", "listen": "root down, shoot up"},
+   {"spread": 10, "moment": "A deer nibbles a leaf.", "ask": "How does Oakie feel now?", "listen": "scared, worried, not safe"},
+   {"spread": 11, "moment": "‘Life in the light is worth the risk.’", "ask": "Why did Oakie decide to keep growing after the deer nibbled his leaf?", "listen": "he wanted the light, he was brave"},
+   {"spread": 15, "moment": "Oakie gives the little seed the worm’s advice.", "ask": "What did Oakie tell the little seed?", "listen": "be patient, good things take time"}
+  ],
+  "after": [
+   {"q": "What did Oakie want more than anything at the start?", "a": "To see the light and feel the wind."},
+   {"q": "How do you think Oakie felt when he pushed and nothing happened?", "a": "Frustrated or impatient. Accept any feeling word."},
+   {"q": "Why did Oakie decide to keep growing after the deer nibbled his leaf?", "a": "He felt that life in the light was worth it."},
+   {"q": "What are you waiting for, or getting better at, little by little?", "a": "Any answer: reading, swimming, a birthday, a tooth."},
+   {"q": "What would you tell a little seed who wants to grow up fast?", "a": "Be patient, keep trying, good things take time."}
+  ],
+  "activities": [
+   {"title": "Grow a bean", "time": "10 minutes, then a few minutes daily for two weeks", "group": "Individual", "materials": "Bean seeds, clear cups, damp paper towels, a sunny window", "steps": "Put a damp paper towel inside a clear cup and slide a bean between the towel and the cup so you can see it. Keep it damp. Check every day and draw what you see: the root going down, the shoot going up. Say the worm’s words when nothing seems to happen."},
+   {"title": "Be the seed", "time": "5 minutes", "group": "Whole class", "materials": "Quiet music (optional)", "steps": "Curl up small like a seed. The teacher is the rain (wiggle fingers) and the sun (open arms). Slowly, slowly, push up one hand like a shoot, then stand and stretch into a tall tree."},
+   {"title": "Growing chart", "time": "10 minutes", "group": "Whole class", "materials": "A long paper strip", "steps": "Make a chart of things children are getting better at little by little. Come back to it in a month and add what has grown."}
+  ],
+  "science": {
+   "text": "Oak trees grow from acorns. When an acorn has enough water and warmth, it sends a root down into the soil first, then a shoot pushes up toward the light. Young trees grow slowly and some take many years to make their own acorns. Worms help plants by mixing and loosening the soil. Deer eat leaves and young plants: that’s just how they find food.",
+   "link": "/heroes/becoming-a-tree",
+   "linkText": "Meet the real oaks, worms and deer"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Use the bean cups to show seed, root and sprout. Sound words (plip-plop, shine-shine) are easy to join."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 4, 8 and 11). This book has 17 spreads with short text on each, so it reads quickly."},
+   {"who": "Mixed ages and older children", "how": "Older children measure their bean every day and make a simple bar chart of how it grows."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Waits calmly for a turn, or keeps trying at something hard."},
+   {"frame": "DLMB", "text": "Names what a seed needs to grow: water, sun, soil, time."},
+   {"frame": "PSI", "text": "Notices and draws changes in their plant over days."},
+   {"frame": "BC", "text": "Shares something they learned with a younger child."}
+  ],
+  "care": [
+   "Patience is not sitting still and being quiet. Oakie keeps trying the whole time.",
+   "Some beans won’t sprout. Plant a few extras so every child has something to watch, and treat a seed that doesn’t grow kindly.",
+   "The deer is not bad; deer eat plants. Oakie forgives it, and that is a small, gentle moment in the story."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), des graines de haricot, des gobelets transparents, de l’essuie-tout ou de la terre, un arrosoir, une bande pour mesurer",
+  "summary": "Oakie est une toute petite graine au fond de la terre sombre ; il n’a jamais vu la lumière ni senti le vent. Quand un oiseau qui passe lui dit combien c’est merveilleux, Oakie veut tout, tout de suite, mais la terre est trop lourde à pousser. Un gentil ver de terre lui dit que les belles choses demandent du temps. Les mois passent : la pluie tombe, le soleil réchauffe le sol, une racine descend et une pousse verte monte. Puis un cerf affamé grignote une de ses feuilles, et Oakie se demande s’il est en sécurité dehors. Il décide que la vie dans la lumière en vaut la peine, devient un arbre solide et transmet un jour le conseil du ver à une nouvelle petite graine.",
+  "bigIdea": "Certaines choses ne se pressent pas. Si tu continues d’essayer et que tu attends, tu grandis quand tu es prêt.",
+  "theme": "Sois patient. Les belles choses demandent du temps, mais elles en valent la peine.",
+  "refrain": "Les belles choses demandent du temps.",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Beaucoup de traditions comparent les gens aux arbres et aux graines : on grandit lentement, petit à petit, et on transmet ce qu’on a appris à ceux qui viennent ensuite.",
+  "words": [
+   {"word": "graine", "meaning": "une toute petite chose d’où pousse une plante", "cue": "pincez les doigts en un petit point"},
+   {"word": "terre", "meaning": "le sol où poussent les plantes", "cue": "frottez les doigts comme de la terre qui s’émiette"},
+   {"word": "racine", "meaning": "la partie de la plante qui pousse dans le sol", "cue": "agitez les doigts vers le bas"},
+   {"word": "pousse", "meaning": "une petite plante nouvelle qui sort", "cue": "faites monter une main à travers l’autre, lentement"},
+   {"word": "patient", "meaning": "qui sait attendre calmement", "cue": "joignez les mains et respirez"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : De quoi parle cette histoire, à ton avis ? Comment commence un arbre ?",
+   "Demandez : Qu’est-ce que tu dois attendre ? Est-ce facile ou difficile d’attendre ? Prenez quelques réponses.",
+   "Apprenez les mots du ver avec un geste : joignez les mains, puis levez-les lentement comme une plante qui pousse. « Les belles choses demandent du temps. »"
+  ],
+  "pauses": [
+   {"spread": 2, "moment": "Oakie est dans la terre sombre.", "ask": "Qu’est-ce qu’Oakie n’a jamais vu ni senti ?", "listen": "la lumière, le vent"},
+   {"spread": 4, "moment": "Oakie pousse, mais la terre est trop lourde.", "ask": "Qu’a ressenti Oakie quand il poussait sans que rien ne se passe ?", "listen": "frustré, triste, impatient"},
+   {"spread": 6, "moment": "« Les belles choses demandent du temps. »", "ask": "Que veut dire le ver de terre ?", "listen": "il faut attendre, continuer d’essayer, tu vas grandir"},
+   {"spread": 7, "moment": "La pluie, le soleil, les mois passent.", "ask": "De quoi une graine a-t-elle besoin pour pousser ?", "listen": "de pluie, de soleil, de terre chaude, de temps"},
+   {"spread": 8, "moment": "Une racine descend, une pousse monte.", "ask": "Dans quel sens pousse la racine ? Et la pousse ?", "listen": "la racine vers le bas, la pousse vers le haut"},
+   {"spread": 10, "moment": "Un cerf grignote une feuille.", "ask": "Comment se sent Oakie maintenant ?", "listen": "peur, inquiet, pas en sécurité"},
+   {"spread": 11, "moment": "La vie dans la lumière vaut le risque.", "ask": "Pourquoi Oakie a-t-il continué à grandir après la feuille grignotée ?", "listen": "il voulait la lumière, il était courageux"},
+   {"spread": 15, "moment": "Oakie donne le conseil du ver à la petite graine.", "ask": "Qu’a dit Oakie à la petite graine ?", "listen": "sois patiente, les belles choses demandent du temps"}
+  ],
+  "after": [
+   {"q": "Que voulait Oakie plus que tout au début ?", "a": "Voir la lumière et sentir le vent."},
+   {"q": "Qu’a ressenti Oakie quand il poussait sans que rien ne se passe ?", "a": "De la frustration ou de l’impatience. Acceptez tous les mots d’émotion."},
+   {"q": "Pourquoi Oakie a-t-il continué à grandir après la visite du cerf ?", "a": "Il sentait que la vie dans la lumière en valait la peine."},
+   {"q": "Qu’attends-tu, ou dans quoi progresses-tu petit à petit ?", "a": "Toutes les réponses : lire, nager, un anniversaire, une dent."},
+   {"q": "Que dirais-tu à une petite graine qui veut grandir vite ?", "a": "Sois patiente, continue d’essayer, les belles choses demandent du temps."}
+  ],
+  "activities": [
+   {"title": "Faire pousser un haricot", "time": "10 minutes, puis quelques minutes par jour pendant deux semaines", "group": "Individuel", "materials": "Des graines de haricot, des gobelets transparents, de l’essuie-tout humide, une fenêtre ensoleillée", "steps": "Mettez de l’essuie-tout humide dans un gobelet transparent et glissez un haricot entre l’essuie-tout et la paroi pour le voir. Gardez-le humide. Regardez chaque jour et dessinez : la racine qui descend, la pousse qui monte. Dites les mots du ver quand rien ne semble se passer."},
+   {"title": "Être la graine", "time": "5 minutes", "group": "Toute la classe", "materials": "Une musique douce (facultatif)", "steps": "Recroquevillez-vous comme une graine. L’enseignant est la pluie (agitez les doigts) et le soleil (bras ouverts). Lentement, très lentement, levez une main comme une pousse, puis levez-vous et étirez-vous comme un grand arbre."},
+   {"title": "L’affiche de croissance", "time": "10 minutes", "group": "Toute la classe", "materials": "Une longue bande de papier", "steps": "Faites une affiche des choses où les enfants progressent petit à petit. Revenez-y dans un mois et ajoutez ce qui a grandi."}
+  ],
+  "science": {
+   "text": "Les chênes poussent à partir de glands. Quand un gland a assez d’eau et de chaleur, il envoie d’abord une racine dans le sol, puis une pousse monte vers la lumière. Les jeunes arbres grandissent lentement, et certains mettent de nombreuses années à faire leurs propres glands. Les vers de terre aident les plantes en mélangeant et en aérant le sol. Les cerfs mangent les feuilles et les jeunes plantes : c’est simplement leur façon de se nourrir.",
+   "link": "/heroes/becoming-a-tree",
+   "linkText": "Découvrir les vrais chênes, vers de terre et cerfs"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Utilisez les gobelets de haricots pour montrer graine, racine et pousse. Les mots-sons de l’histoire sont faciles à reprendre."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 4, 8 et 11). Ce livre a 17 doubles pages avec peu de texte sur chacune : il se lit vite."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands mesurent leur haricot chaque jour et font un diagramme en barres simple de sa croissance."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Attend son tour calmement, ou continue d’essayer quelque chose de difficile."},
+   {"frame": "DLMB", "text": "Nomme ce dont une graine a besoin : eau, soleil, terre, temps."},
+   {"frame": "PSI", "text": "Remarque et dessine les changements de sa plante au fil des jours."},
+   {"frame": "BC", "text": "Partage quelque chose qu’il a appris avec un plus petit."}
+  ],
+  "care": [
+   "La patience, ce n’est pas rester assis sans bouger. Oakie continue d’essayer tout le temps.",
+   "Certains haricots ne germeront pas. Plantez-en quelques-uns de plus pour que chaque enfant ait quelque chose à observer, et parlez avec douceur d’une graine qui ne pousse pas.",
+   "Le cerf n’est pas méchant : les cerfs mangent des plantes. Oakie lui pardonne, et c’est un petit moment tendre de l’histoire."
+  ]
+ },
+ "letter": {
+  "en": "Today we read Becoming a Tree, a story about patience. Oakie the seed wants to grow right now, but learns from a kind worm that good things take time, and he grows into a strong tree. At home, plant a seed together, like a bean in a cup, and check it each day. When nothing seems to happen, say together: ‘Good things take time.’ You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Devenir un arbre, une histoire sur la patience. Oakie la graine veut grandir tout de suite, mais un gentil ver de terre lui apprend que les belles choses demandent du temps, et il devient un arbre solide. À la maison, plantez ensemble une graine, comme un haricot dans un gobelet, et regardez-la chaque jour. Quand rien ne semble se passer, dites ensemble : « Les belles choses demandent du temps. » Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre la paciencia. Oakie, la semilla, quiere crecer ya, pero aprende de un gusano amable que las cosas buenas toman tiempo, y se convierte en un árbol fuerte. En casa, planten juntos una semilla, como un frijol en un vaso, y mírenla cada día. Cuando parezca que no pasa nada, digan juntos: «Las cosas buenas toman tiempo». Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über Geduld gelesen. Der kleine Samen Oakie will sofort wachsen, lernt aber von einem freundlichen Regenwurm, dass gute Dinge Zeit brauchen, und wird zu einem starken Baum. Pflanzen Sie zu Hause gemeinsam einen Samen, etwa eine Bohne in einem Becher, und schauen Sie jeden Tag nach. Wenn scheinbar nichts passiert, sagen Sie zusammen: ‚Gute Dinge brauchen Zeit.‘ Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sulla pazienza. Oakie, il semino, vuole crescere subito, ma un lombrico gentile gli insegna che le cose belle richiedono tempo, e diventa un albero forte. A casa, piantate insieme un seme, come un fagiolo in un bicchiere, e guardatelo ogni giorno. Quando sembra che non succeda niente, dite insieme: «Le cose belle richiedono tempo». Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

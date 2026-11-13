@@ -1,0 +1,141 @@
+{
+ "book": "friendship-bridge",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["PSI", "BC", "DLMB", "SRWB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), craft sticks or twigs, rubber bands or string, a tray of water, small toy figures",
+  "summary": "Venny the beaver and Sammy the squirrel live beside a wide, rushing river and spot a giant strawberry bush on the other side. They both want to build a bridge, but they can’t agree how: Venny wants heavy, strong logs, and Sammy wants light, quick branches. So each builds his own. Venny’s logs float away, and Sammy’s branches wobble and snap. Wet and grumpy, they blame each other, until Sammy wonders if they should try together. Each sees what is good in the other’s idea, and they tie the strong logs together with the bendy branches to build the sturdiest bridge the forest has ever seen.",
+  "bigIdea": "When we put our ideas together, we can do more than either of us could alone.",
+  "theme": "Together, we can do more.",
+  "refrain": "",
+  "origin": "This story doesn’t come from one culture. In the Andes of Peru, four Quechua communities still work together every year to rebuild a bridge out of grass, twisting many thin cords into one great rope: a real bridge that can only be made together.",
+  "words": [
+   {"word": "bridge", "meaning": "something you build to cross over water or a gap", "cue": "make an arch with your arm"},
+   {"word": "log", "meaning": "a big, heavy piece of a tree trunk", "cue": "hold your arms out wide and heavy"},
+   {"word": "branch", "meaning": "a thin, bendy part of a tree", "cue": "wiggle one arm like a branch"},
+   {"word": "argue", "meaning": "to disagree with cross words", "cue": "put your hands on your hips and shake your head"},
+   {"word": "together", "meaning": "with each other", "cue": "lace your fingers together"}
+  ],
+  "before": [
+   "Show the cover. Ask: What animals are these? What are they building?",
+   "Ask: Have you ever had a different idea from a friend? What happened? Take a few answers.",
+   "Lace your fingers together and say ‘Together, we can do more.’ Ask children to listen for those words."
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "The giant strawberry bush across the river.", "ask": "What do Venny and Sammy want?", "listen": "the strawberries, to cross the river"},
+   {"spread": 4, "moment": "Logs or branches?", "ask": "Why couldn’t Venny and Sammy agree at first?", "listen": "Venny wants strong logs, Sammy wants light branches"},
+   {"spread": 6, "moment": "Venny’s logs float away.", "ask": "What went wrong with Venny’s bridge?", "listen": "the logs were too heavy, they floated away"},
+   {"spread": 7, "moment": "Sammy’s bridge collapses with a crack.", "ask": "What went wrong with Sammy’s bridge?", "listen": "the branches were too weak and wobbly"},
+   {"spread": 8, "moment": "‘Your idea didn’t work!’", "ask": "Is blaming each other helping?", "listen": "no, they are both grumpy and wet"},
+   {"spread": 10, "moment": "Each names what is good in the other’s idea.", "ask": "What was good about Venny’s idea? What was good about Sammy’s?", "listen": "logs are strong; branches are light and bendy"},
+   {"spread": 11, "moment": "Tie the logs with branches!", "ask": "How did they put their ideas together?", "listen": "branches tie the logs, logs make it strong"},
+   {"spread": 13, "moment": "They laugh and cheer as they work.", "ask": "How does working together feel?", "listen": "fun, faster, better"}
+  ],
+  "after": [
+   {"q": "Why couldn’t Venny and Sammy agree at first?", "a": "They each had a different idea: logs or branches."},
+   {"q": "What went wrong with each bridge when they built alone?", "a": "The logs floated away; the branches collapsed."},
+   {"q": "What was good about Venny’s idea? What was good about Sammy’s?", "a": "Logs are strong; branches are light and bendy."},
+   {"q": "When have you and a friend had different ideas? What did you do?", "a": "Any answer."},
+   {"q": "What could you build with someone else this week?", "a": "Any answer. Try one in the block corner."}
+  ],
+  "activities": [
+   {"title": "Build a bridge together", "time": "20 minutes", "group": "Pairs", "materials": "Craft sticks, string or rubber bands, two books with a gap between", "steps": "Each partner tries building a bridge across the gap alone: one with only sticks, one with only string. Then build one together using both. Test it with a toy figure. Talk about what worked."},
+   {"title": "Good idea spotting", "time": "10 minutes", "group": "Whole class", "materials": "Chart paper", "steps": "Give a simple problem (‘How do we carry all the books?’). Take two different ideas. Ask the class to name one good thing about each idea, then find a way to combine them."},
+   {"title": "Float or sink", "time": "10 minutes", "group": "Small groups", "materials": "A tray of water, twigs, small pieces of wood", "steps": "Test which pieces float and which bend. Talk about why Venny’s logs floated away and Sammy’s branches snapped."}
+  ],
+  "science": {
+   "text": "Beavers are expert builders. They cut down trees with their strong front teeth and use logs, branches and mud to build dams and lodges in rivers and ponds. The beaver is a national symbol of Canada. Squirrels have bushy tails that help them balance as they leap from branch to branch. In real life, wild strawberries grow as low plants, not tall bushes: the giant bush is make-believe.",
+   "link": "/heroes/friendship-bridge",
+   "linkText": "Meet the real beavers and squirrels"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Show a real stick and a real twig for ‘log’ and ‘branch’. Teach ‘Together!’ with a hand-lacing gesture."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 4, 7 and 11). This book has 17 spreads with short text on each, so it reads quickly."},
+   {"who": "Mixed ages and older children", "how": "Older children draw a plan for a bridge before building, label the parts, and explain whose idea each part came from."}
+  ],
+  "lookFors": [
+   {"frame": "PSI", "text": "Combines two ideas to solve a problem."},
+   {"frame": "BC", "text": "Names something good about a friend’s idea."},
+   {"frame": "DLMB", "text": "Tests materials and describes them as strong, weak, heavy or light."},
+   {"frame": "SRWB", "text": "Stays calm when an idea doesn’t work the first time."}
+  ],
+  "care": [
+   "Neither friend is right or wrong. Keep the message that both ideas had something good.",
+   "Real-life safety: never build or cross homemade bridges over real rivers. Keep bridge-building to tables and sandboxes.",
+   "The grass bridge of Peru is a living Quechua tradition. Share it simply and respectfully."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), des bâtonnets ou des brindilles, des élastiques ou de la ficelle, un bac d’eau, des petites figurines",
+  "summary": "Venny le castor et Sammy l’écureuil vivent au bord d’une large rivière au courant rapide, et ils aperçoivent un buisson de fraises géant sur l’autre rive. Ils veulent tous les deux construire un pont, mais ils ne sont pas d’accord sur la façon : Venny veut de gros rondins solides, Sammy veut des branches légères et rapides. Alors chacun construit le sien. Les rondins de Venny partent à la dérive, et les branches de Sammy tremblent et cassent. Mouillés et grognons, ils s’accusent l’un l’autre, jusqu’à ce que Sammy propose d’essayer ensemble. Chacun voit ce qu’il y a de bon dans l’idée de l’autre, et ils attachent les rondins solides avec les branches souples pour construire le pont le plus solide que la forêt ait jamais vu.",
+  "bigIdea": "Quand on réunit nos idées, on peut faire plus que chacun tout seul.",
+  "theme": "Ensemble, on peut faire plus.",
+  "refrain": "",
+  "origin": "Cette histoire ne vient pas d’une seule culture. Dans les Andes du Pérou, quatre communautés quechua travaillent encore ensemble chaque année pour reconstruire un pont en herbe, en tressant beaucoup de fines cordes pour faire une seule grande corde : un vrai pont qu’on ne peut faire qu’ensemble.",
+  "words": [
+   {"word": "pont", "meaning": "ce qu’on construit pour passer au-dessus de l’eau ou d’un trou", "cue": "faites une arche avec votre bras"},
+   {"word": "rondin", "meaning": "un gros morceau lourd de tronc d’arbre", "cue": "tendez les bras, grands et lourds"},
+   {"word": "branche", "meaning": "une partie fine et souple d’un arbre", "cue": "faites onduler un bras comme une branche"},
+   {"word": "se disputer", "meaning": "ne pas être d’accord avec des mots fâchés", "cue": "mains sur les hanches, secouez la tête"},
+   {"word": "ensemble", "meaning": "l’un avec l’autre", "cue": "croisez vos doigts"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Quels sont ces animaux ? Que construisent-ils ?",
+   "Demandez : As-tu déjà eu une autre idée qu’un ami ? Que s’est-il passé ? Prenez quelques réponses.",
+   "Croisez les doigts et dites « Ensemble, on peut faire plus. » Demandez aux enfants d’écouter ces mots dans l’histoire."
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Le buisson de fraises géant de l’autre côté.", "ask": "Que veulent Venny et Sammy ?", "listen": "les fraises, traverser la rivière"},
+   {"spread": 4, "moment": "Rondins ou branches ?", "ask": "Pourquoi Venny et Sammy n’arrivaient-ils pas à se mettre d’accord ?", "listen": "Venny veut des rondins solides, Sammy des branches légères"},
+   {"spread": 6, "moment": "Les rondins de Venny partent à la dérive.", "ask": "Qu’est-ce qui n’a pas marché avec le pont de Venny ?", "listen": "les rondins étaient trop lourds, ils ont flotté au loin"},
+   {"spread": 7, "moment": "Le pont de Sammy s’écroule.", "ask": "Qu’est-ce qui n’a pas marché avec le pont de Sammy ?", "listen": "les branches étaient trop faibles et tremblantes"},
+   {"spread": 8, "moment": "« Ton idée n’a pas marché ! »", "ask": "S’accuser l’un l’autre, est-ce que ça aide ?", "listen": "non, ils sont grognons et mouillés"},
+   {"spread": 10, "moment": "Chacun nomme ce qui est bon dans l’idée de l’autre.", "ask": "Qu’y avait-il de bon dans l’idée de Venny ? Et dans celle de Sammy ?", "listen": "les rondins sont solides ; les branches sont légères et souples"},
+   {"spread": 11, "moment": "Attacher les rondins avec les branches !", "ask": "Comment ont-ils réuni leurs idées ?", "listen": "les branches attachent les rondins, les rondins rendent le pont solide"},
+   {"spread": 13, "moment": "Ils rient en travaillant.", "ask": "Qu’est-ce qu’on ressent quand on travaille ensemble ?", "listen": "c’est amusant, plus rapide, mieux"}
+  ],
+  "after": [
+   {"q": "Pourquoi Venny et Sammy n’étaient-ils pas d’accord au début ?", "a": "Chacun avait une idée différente : rondins ou branches."},
+   {"q": "Qu’est-ce qui n’a pas marché quand chacun construisait seul ?", "a": "Les rondins ont flotté au loin ; les branches se sont écroulées."},
+   {"q": "Qu’y avait-il de bon dans chaque idée ?", "a": "Les rondins sont solides ; les branches sont légères et souples."},
+   {"q": "Quand as-tu eu une idée différente d’un ami ? Qu’as-tu fait ?", "a": "Toutes les réponses."},
+   {"q": "Que pourrais-tu construire avec quelqu’un cette semaine ?", "a": "Toutes les réponses. Essayez au coin des blocs."}
+  ],
+  "activities": [
+   {"title": "Construire un pont ensemble", "time": "20 minutes", "group": "En duo", "materials": "Des bâtonnets, de la ficelle ou des élastiques, deux livres espacés", "steps": "Chaque partenaire essaie seul de faire un pont au-dessus du vide : l’un seulement avec des bâtonnets, l’autre seulement avec de la ficelle. Puis construisez-en un ensemble avec les deux. Testez-le avec une figurine. Parlez de ce qui a marché."},
+   {"title": "Repérer les bonnes idées", "time": "10 minutes", "group": "Toute la classe", "materials": "Une grande feuille", "steps": "Proposez un petit problème (« Comment porter tous les livres ? »). Prenez deux idées différentes. Demandez à la classe de dire une bonne chose sur chacune, puis trouvez un moyen de les réunir."},
+   {"title": "Flotte ou coule", "time": "10 minutes", "group": "Petits groupes", "materials": "Un bac d’eau, des brindilles, des petits morceaux de bois", "steps": "Testez quels morceaux flottent et lesquels plient. Parlez de pourquoi les rondins de Venny sont partis et les branches de Sammy ont cassé."}
+  ],
+  "science": {
+   "text": "Les castors sont des bâtisseurs experts. Ils abattent des arbres avec leurs fortes dents de devant et utilisent des rondins, des branches et de la boue pour construire des barrages et des huttes dans les rivières et les étangs. Le castor est un emblème national du Canada. Les écureuils ont une queue touffue qui les aide à garder l’équilibre quand ils sautent de branche en branche. Dans la vraie vie, les fraises sauvages poussent sur de petites plantes basses, pas sur de grands buissons : le buisson géant est imaginaire.",
+   "link": "/heroes/friendship-bridge",
+   "linkText": "Découvrir les vrais castors et écureuils"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Montrez un vrai bâton et une vraie brindille pour « rondin » et « branche ». Enseignez « Ensemble ! » avec le geste des doigts croisés."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 4, 7 et 11). Ce livre a 17 doubles pages avec peu de texte sur chacune : il se lit vite."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands dessinent un plan de pont avant de construire, nomment les parties et expliquent de qui vient chaque idée."}
+  ],
+  "lookFors": [
+   {"frame": "PSI", "text": "Réunit deux idées pour résoudre un problème."},
+   {"frame": "BC", "text": "Nomme quelque chose de bon dans l’idée d’un ami."},
+   {"frame": "DLMB", "text": "Teste des matériaux et les décrit : solide, faible, lourd ou léger."},
+   {"frame": "SRWB", "text": "Reste calme quand une idée ne marche pas du premier coup."}
+  ],
+  "care": [
+   "Aucun des deux amis n’a raison ou tort. Gardez le message que les deux idées avaient du bon.",
+   "Sécurité dans la vraie vie : ne jamais construire ni traverser de pont fait maison sur une vraie rivière. Gardez la construction pour la table et le bac à sable.",
+   "Le pont d’herbe du Pérou est une tradition quechua bien vivante. Présentez-la simplement et avec respect."
+  ]
+ },
+ "letter": {
+  "en": "Today we read Friendship Bridge, a story about teamwork. Venny the beaver and Sammy the squirrel each try to build a bridge their own way and fail, then put their ideas together and build the strongest bridge in the forest. At home, build something together, like a tower, a fort or a meal, and use one idea from each person. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Le Pont de l’Amitié, une histoire sur le travail d’équipe. Venny le castor et Sammy l’écureuil essaient chacun de construire un pont à leur façon, échouent, puis réunissent leurs idées et construisent le pont le plus solide de la forêt. À la maison, construisez quelque chose ensemble, une tour, une cabane ou un repas, en utilisant une idée de chaque personne. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre el trabajo en equipo. Venny, el castor, y Sammy, la ardilla, intentan construir un puente cada uno a su manera y fracasan; luego juntan sus ideas y construyen el puente más fuerte del bosque. En casa, construyan algo juntos, una torre, un fuerte o una comida, usando una idea de cada persona. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte über Teamarbeit gelesen. Der Biber Venny und das Eichhörnchen Sammy versuchen jeder auf seine Art, eine Brücke zu bauen, und scheitern; dann legen sie ihre Ideen zusammen und bauen die stärkste Brücke des Waldes. Bauen Sie zu Hause gemeinsam etwas, einen Turm, eine Höhle oder ein Essen, und nehmen Sie von jeder Person eine Idee. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sul lavoro di squadra. Venny, il castoro, e Sammy, lo scoiattolo, provano ognuno a costruire un ponte a modo suo e falliscono; poi uniscono le idee e costruiscono il ponte più solido del bosco. A casa, costruite qualcosa insieme, una torre, una capanna o un pasto, usando un’idea di ciascuno. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

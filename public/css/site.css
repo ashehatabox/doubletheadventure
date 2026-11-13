@@ -531,3 +531,16 @@ a.cast-card:hover { color: var(--ink); transform: translateY(-3px); box-shadow: 
   .table-wrap td[data-label]:not(:first-child)::before { content: attr(data-label) ": "; font-weight: 800; color: var(--ink-soft); font-size: 14px; }
   .table-wrap td:first-child { font-size: 18px; margin-bottom: 4px; }
 }
+
+/* Educator corner: compact book shelf (cover, value, three links) */
+.edu-books { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr)); gap: 28px 20px; }
+.edu-book { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.edu-cover { display: block; border-radius: 12px; }
+.edu-cover img { display: block; width: 100%; height: auto; aspect-ratio: 360 / 576; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 16px rgba(74, 52, 38, .14); }
+.edu-cover:hover img { transform: translateY(-2px); transition: transform .2s ease; }
+.edu-cover:focus-visible { outline: 3px solid var(--teal); outline-offset: 3px; }
+.edu-title { font-family: var(--serif); font-size: 18px; line-height: 1.25; margin: 6px 0 0; overflow-wrap: break-word; }
+.edu-value { margin: 0; font-size: 15px; color: var(--ink-soft); }
+.edu-links { margin: 2px 0 0; display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 15px; font-weight: 800; }
+.edu-links a:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; border-radius: 4px; }
+@media (prefers-reduced-motion: reduce) { .edu-cover:hover img { transform: none; } }

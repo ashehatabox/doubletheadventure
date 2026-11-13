@@ -9,7 +9,7 @@
     <% if (shopOpen) { %>
     <div class="grid-cards">
       <% products.forEach(function (p) { %>
-      <form class="card card-pad stack-sm" method="post" action="/shop/checkout">
+      <form class="card card-pad stack-sm" id="<%= p.id %>" method="post" action="/shop/checkout">
         <input type="hidden" name="product" value="<%= p.id %>"><input type="hidden" name="lang" value="<%= lang %>">
         <h2 class="h3"><%= p.title %></h2>
         <p class="muted" style="margin:0"><%= p.text %></p>

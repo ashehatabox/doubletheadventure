@@ -1,0 +1,22 @@
+<section class="section tight">
+  <div class="wrap stack" style="gap:20px">
+    <div class="stack-sm" style="max-width:720px">
+      <h2 class="h2" style="font-size:32px"><%= t('educators.booksTitle') %></h2>
+      <p class="lead"><%= t('educators.booksLead') %></p>
+    </div>
+    <ul class="edu-books">
+      <% guideCovers.forEach(function (b) { %>
+      <li class="edu-book">
+        <a class="edu-cover" href="<%= url('/educators/guides/' + b.slug) %>"><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('educators.bookGuide') %>: <%= b.displayTitle %>" loading="lazy" width="360" height="576"></a>
+        <h3 class="edu-title"><%= b.displayTitle %></h3>
+        <% if (b.valueText) { %><p class="edu-value"><%= b.valueText %></p><% } %>
+        <p class="edu-links">
+          <a href="<%= url('/educators/guides/' + b.slug) %>"><%= t('educators.bookGuide') %></a>
+          <a href="<%= url('/books/' + b.slug + '/read') %>"><%= t('educators.bookRead') %></a>
+          <% if (b.hasVideo) { %><a href="<%= url('/books/' + b.slug) %>#read-aloud"><%= t('educators.bookWatch') %></a><% } %>
+        </p>
+      </li>
+      <% }) %>
+    </ul>
+  </div>
+</section>

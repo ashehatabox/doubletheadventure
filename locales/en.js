@@ -464,6 +464,18 @@ module.exports = {
       { name: 'Ontario Kindergarten Program (2016)', href: 'https://www.ontario.ca/document/kindergarten-program-2016', text: 'the books support its four frames: Belonging and Contributing, Self-Regulation and Well-Being, Demonstrating Literacy and Mathematics Behaviours, and Problem Solving and Innovating.' },
       { text: 'How Does Learning Happen? (Ontario\'s pedagogy for the early years): belonging, well-being, engagement and expression, the four foundations daycares and EarlyON centres plan around.' }
     ],
+    ctaGuides: 'Open the free guides', ctaSets: 'See class sets',
+    doors: [
+      { title: 'Teach a book tomorrow', text: 'A free read-aloud guide for every book: questions, activities and Ontario links.', href: '/educators/guides' },
+      { title: 'Find a book for a value', text: 'Kindness, courage, patience, belonging. Pick the value, then read it on the class screen.', href: '#find-a-book' },
+      { title: 'Order for your class', text: 'Sets of 5, 10 or the whole library, shipped to your school.', href: '#class-sets' }
+    ],
+    setsTitle: 'Class sets',
+    setsLead: 'Paperbacks you choose, by value or by language, with a classroom licence and each book\'s SEL pack as soon as it is ready.',
+    setsAmazon: 'The same books on Amazon: ${price}',
+    setsOrder: 'Order this set',
+    setsNote: 'Prices in Canadian dollars, shipping to Canada and the United States included. Sets arrive in about 2 weeks in Canada and 3 to 4 weeks in the US. Need a purchase order or a multi-class price? Use the form on the teacher page.',
+    settingTitle: 'Made for your setting',
     booksTitle: 'Pick a book, teach it tomorrow',
     booksLead: 'Every published book has a free read-aloud guide, can be read on the class screen, and most have a read-aloud video.',
     bookGuide: 'Guide', bookRead: 'Read on screen', bookWatch: 'Watch'

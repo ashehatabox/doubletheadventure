@@ -464,6 +464,18 @@ module.exports = {
       { name: 'Programme de la maternelle et du jardin d\'enfants de l\'Ontario (2016)', href: 'https://www.ontario.ca/document/kindergarten-program-2016', text: 'les livres appuient ses quatre domaines : appartenance et contribution, autorégulation et bien-être, manifestation des comportements en littératie et en mathématiques, résolution de problèmes et innovation.' },
       { text: 'Comment apprend-on ? (la pédagogie de l\'Ontario pour la petite enfance) : appartenance, bien-être, engagement et expression, les quatre fondements des garderies et des centres ON y va.' }
     ],
+    ctaGuides: 'Ouvrir les guides gratuits', ctaSets: 'Voir les ensembles de classe',
+    doors: [
+      { title: 'Enseigner un livre demain', text: 'Un guide de lecture gratuit pour chaque livre : questions, activités et liens au programme de l\'Ontario.', href: '/educators/guides' },
+      { title: 'Trouver un livre par valeur', text: 'Gentillesse, courage, patience, appartenance. Choisissez la valeur, puis lisez-la au tableau.', href: '#find-a-book' },
+      { title: 'Commander pour votre classe', text: 'Ensembles de 5, de 10 ou toute la collection, livrés à votre école.', href: '#class-sets' }
+    ],
+    setsTitle: 'Ensembles de classe',
+    setsLead: 'Des livres brochés au choix, par valeur ou par langue, avec une licence de classe et la trousse SEL de chaque livre dès qu\'elle est prête.',
+    setsAmazon: 'Les mêmes livres sur Amazon : {price} $',
+    setsOrder: 'Commander cet ensemble',
+    setsNote: 'Prix en dollars canadiens, livraison au Canada et aux États-Unis incluse. Les ensembles arrivent en 2 semaines environ au Canada et en 3 à 4 semaines aux États-Unis. Besoin d\'un bon de commande ou d\'un prix multi-classes ? Utilisez le formulaire de la page enseignants.',
+    settingTitle: 'Pour votre milieu',
     booksTitle: 'Choisissez un livre, enseignez-le demain',
     booksLead: 'Chaque livre publié a un guide de lecture gratuit, se lit au tableau de la classe, et la plupart ont une vidéo lue à voix haute.',
     bookGuide: 'Guide', bookRead: 'Lire au tableau', bookWatch: 'Regarder'

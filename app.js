@@ -587,7 +587,13 @@ router.get('/parents/articles/:slug', (req, res, next) => {
 });
 router.get('/educators', (req, res) => page(req, res, 'educators', {
   showcase: showcaseData(req.h, req),
-  guideCovers: catalog.books.filter((b) => b.status !== 'coming' && guides.get(b.slug)).map((b) => bookView(b, req.h, req)),
+  guideCovers: catalog.books.filter((b) => b.status !== 'coming' && guides.get(b.slug)).map((b) => ({ ...bookView(b, req.h, req), hasVideo: readalouds.slugs().includes(b.slug) })),
+  classSets: shopData.products.filter((p) => p.educator && Number.isInteger(p.priceCents)).map((p) => ({
+    id: p.id,
+    title: p.title[req.h.lang] || p.title.en,
+    price: (p.priceCents / 100).toFixed(2),
+    amazon: (p.books * 11.99).toFixed(2)
+  })),
   seo: { title: req.h.t('educators.title') }
 }));
 // Teacher guides: one printable page per book.

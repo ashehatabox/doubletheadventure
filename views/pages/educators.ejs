@@ -4,10 +4,14 @@
     <div class="stack-sm" style="max-width:760px">
       <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('educators.title') %></h1>
       <p class="lead"><%= t('educators.lead') %></p>
+      <div class="row" style="gap:12px;flex-wrap:wrap">
+        <a class="btn btn-primary" href="<%= url('/educators/guides') %>"><%= t('educators.ctaGuides') %></a>
+        <a class="btn" href="#class-sets"><%= t('educators.ctaSets') %></a>
+      </div>
     </div>
     <div class="grid-cards">
-      <% t('educators.cards').forEach(function (c, i) { const cls = ['educators', 'play', 'parents', 'partners'][i]; %>
-      <a class="door <%= cls %>" href="<%= url('/educators/' + c.key) %>"><span class="door-title"><%= c.title %></span><span class="door-text"><%= c.text %></span></a>
+      <% t('educators.doors').forEach(function (d, i) { const cls = ['educators', 'play', 'parents'][i]; %>
+      <a class="door <%= cls %>" href="<%= d.href.charAt(0) === '#' ? d.href : url(d.href) %>"><span class="door-title"><%= d.title %></span><span class="door-text"><%= d.text %></span></a>
       <% }) %>
     </div>
   </div>
@@ -25,6 +29,27 @@
     </div>
   </div>
 </section>
+<div id="find-a-book"></div>
+<%- include('../partials/educator-books') %>
+<section class="section band-mint" id="class-sets">
+  <div class="wrap stack" style="gap:24px">
+    <div class="stack-sm" style="max-width:720px">
+      <h2 class="h2"><%= t('educators.setsTitle') %></h2>
+      <p class="lead"><%= t('educators.setsLead') %></p>
+    </div>
+    <div class="grid-cards">
+      <% classSets.forEach(function (p) { %>
+      <div class="card card-pad stack-sm">
+        <h3 class="h3" style="margin:0"><%= p.title %></h3>
+        <p style="margin:0;font-weight:800;font-size:30px">$<%= p.price %> <span class="muted" style="font-size:15px;font-weight:600">CAD</span></p>
+        <p class="muted" style="margin:0"><%= t('educators.setsAmazon').replace('{price}', p.amazon) %></p>
+        <a class="btn btn-primary" style="align-self:flex-start" href="<%= url('/shop') %>#<%= p.id %>"><%= t('educators.setsOrder') %></a>
+      </div>
+      <% }) %>
+    </div>
+    <p class="muted" style="margin:0;max-width:760px"><%= t('educators.setsNote') %></p>
+  </div>
+</section>
 <section class="section">
   <div class="wrap stack" style="gap:28px">
     <div class="stack-sm" style="max-width:720px">
@@ -38,6 +63,16 @@
   <div class="wrap stack-sm" style="max-width:860px">
     <h2 class="h2" style="font-size:32px"><%= t('educators.curriculumTitle') %></h2>
     <ul class="clean"><% t('educators.curriculum').forEach(function (c) { %><li><% if (c.href) { %><a href="<%= c.href %>" style="font-weight:800" rel="noopener"><%= c.name %></a>: <% } %><%= c.text || c %></li><% }) %></ul>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap stack" style="gap:24px">
+    <h2 class="h2" style="font-size:32px"><%= t('educators.settingTitle') %></h2>
+    <div class="grid-cards">
+      <% t('educators.cards').forEach(function (c, i) { const cls = ['educators', 'play', 'parents', 'partners'][i]; %>
+      <a class="door <%= cls %>" href="<%= url('/educators/' + c.key) %>"><span class="door-title"><%= c.title %></span><span class="door-text"><%= c.text %></span></a>
+      <% }) %>
+    </div>
   </div>
 </section>
 <%- include('../partials/bottom') %>

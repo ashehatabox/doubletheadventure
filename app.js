@@ -413,7 +413,7 @@ router.get('/shop', (req, res) => {
     liveBooks: catalog.books.filter((b) => b.status === 'live').map((b) => bookView(b, h, req)),
     soonBooks: catalog.books.filter((b) => b.status !== 'live' && b.status !== 'coming').map((b) => bookView(b, h, req)),
     products: open ? shop.priced().map((p) => ({ id: p.id, title: h.pick(p.title), text: h.pick(p.text), price: (p.priceCents / 100).toFixed(2) })) : [],
-    seo: { title: open ? h.t('shop.openTitle') : h.t('shop.title') }
+    seo: { title: h.t('shop.openTitle'), description: open ? h.t('shop.openLead') : h.t('shop.pageLead') }
   });
 });
 router.get('/shop/thanks', (req, res) => page(req, res, 'shop-thanks', { seo: { title: req.h.t('shop.thanksTitle'), noindex: true } }));

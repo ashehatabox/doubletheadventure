@@ -20,6 +20,7 @@ const shareImage = require('./lib/share');
 const search = require('./lib/search');
 const shop = require('./lib/shop');
 const shopData = require('./data/shop');
+const packs = require('./data/packs');
 const welcome = require('./lib/welcome');
 const readalouds = require('./lib/readalouds');
 const guide2 = require('./lib/guide2');
@@ -245,6 +246,7 @@ router.get('/books/:slug', (req, res, next) => {
     readHref: reader.has(b.slug) ? h.url('/books/' + b.slug + '/read') : '',
     readPreview: readerPreview(b.slug, h.lang),
     heroTeaser: heroTeaser(b.slug, h),
+    bookPacks: packCards(h, req, b.slug),
     colorPages: play.pages(b.slug),
     readOpen: reader.isOpen(b.slug),
     bookPlay: {
@@ -405,18 +407,59 @@ router.get('/values-map', (req, res) => {
   page(req, res, 'values-map', { atlas, seo: { title: h.t('valuesMap.title'), description: h.t('valuesMap.lead') } });
 });
 
+// Pack cards for one book (or every book with packs), only when the shop is open.
+function packCards(h, req, onlySlug) {
+  if (!shop.open()) return [];
+  return packs.slugs.filter((s) => !onlySlug || s === onlySlug).map((s) => catalog.get(s)).filter(Boolean)
+    .sort((a, b) => a.n - b.n)
+    .flatMap((b) => Object.keys(packs.kinds).map((kind) => {
+      const p = shop.find(`pack-${kind}-${b.slug}`);
+      if (!p) return null;
+      const k = packs.kinds[kind];
+      return { id: p.id, kind, book: bookView(b, h, req), title: h.pick(k.title), text: h.pick(k.text), licence: h.pick(k.licence), pages: k.pages, price: (p.priceCents / 100).toFixed(2), preview: packs.preview(b.slug, kind) };
+    }).filter(Boolean));
+}
 router.get('/shop', (req, res) => {
   const h = req.h;
   const open = shop.open();
+  const cards = packCards(h, req);
   page(req, res, 'shop', {
     shopOpen: open,
+    homePacks: cards.filter((c) => c.kind === 'home'),
+    classPacks: cards.filter((c) => c.kind === 'classroom'),
     liveBooks: catalog.books.filter((b) => b.status === 'live').map((b) => bookView(b, h, req)),
     soonBooks: catalog.books.filter((b) => b.status !== 'live' && b.status !== 'coming').map((b) => bookView(b, h, req)),
-    products: open ? shop.priced().map((p) => ({ id: p.id, title: h.pick(p.title), text: h.pick(p.text), price: (p.priceCents / 100).toFixed(2) })) : [],
+    products: open ? shop.priced().filter((p) => !p.digital).map((p) => ({ id: p.id, title: h.pick(p.title), text: h.pick(p.text), price: (p.priceCents / 100).toFixed(2) })) : [],
     seo: { title: h.t('shop.openTitle'), description: open ? h.t('shop.openLead') : h.t('shop.pageLead') }
   });
 });
-router.get('/shop/thanks', (req, res) => page(req, res, 'shop-thanks', { seo: { title: req.h.t('shop.thanksTitle'), noindex: true } }));
+router.get('/shop/thanks', async (req, res) => {
+  const h = req.h;
+  let download = null;
+  if (req.query.session_id) {
+    try {
+      const r = await shop.paidDigital(req.query.session_id);
+      if (r) {
+        const b = catalog.get(r.product.book);
+        download = { title: h.pick(r.product.title), book: b ? bookView(b, h, req).displayTitle : '', href: h.url('/shop/download') + '?session_id=' + encodeURIComponent(r.session.id), days: packs.DAYS };
+      }
+    } catch (err) { console.error('Download check failed:', err.message); }
+  }
+  page(req, res, 'shop-thanks', { download, seo: { title: h.t('shop.thanksTitle'), noindex: true } });
+});
+// Digital pack download: only for a paid Stripe session that bought this pack, within packs.DAYS days.
+router.get('/shop/download', async (req, res) => {
+  try {
+    const r = await shop.paidDigital(req.query.session_id);
+    if (r && fs.existsSync(packs.filePath(r.product))) {
+      res.set('Cache-Control', 'private, no-store');
+      res.set('X-Robots-Tag', 'noindex');
+      return res.download(packs.filePath(r.product), `${r.product.book}-${r.product.pack}-pack.pdf`);
+    }
+  } catch (err) { console.error('Download failed:', err.message); }
+  res.status(404);
+  page(req, res, '404', { seo: { title: req.h.t('shop.downloadGone'), noindex: true } }, 404);
+});
 router.post('/shop/checkout', async (req, res) => {
   const b = req.body || {};
   try {

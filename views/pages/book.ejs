@@ -114,6 +114,32 @@
 </section>
 <% } %>
 
+<% if (bookPacks.length) { %>
+<section class="section tight" id="packs">
+  <div class="wrap stack" style="gap:24px">
+    <div class="stack-sm" style="max-width:760px">
+      <h2 class="h2 book-h2"><%= t('book.packsTitle') %></h2>
+      <p class="lead"><%= t('book.packsLead') %></p>
+    </div>
+    <div class="pack-grid pack-grid-two">
+      <% bookPacks.forEach(function (c) { %>
+      <form class="pack-card" method="post" action="/shop/checkout">
+        <input type="hidden" name="product" value="<%= c.id %>"><input type="hidden" name="lang" value="<%= lang %>">
+        <% if (c.preview) { %><img class="pack-preview" src="<%= c.preview %>" alt="<%= t('shop.previewOf').replace('{title}', c.title) %>" loading="lazy" width="900" height="390"><% } %>
+        <div class="pack-body">
+          <h3 class="h3"><%= c.title %></h3>
+          <p class="muted" style="margin:0"><%= c.text %></p>
+          <p class="muted" style="margin:0;font-size:14px"><%= c.licence %></p>
+          <span class="shop-price">$<%= c.price %> CAD</span>
+          <button class="btn btn-primary" type="submit"><%= t('shop.buy') %></button>
+        </div>
+      </form>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% } %>
+
 <% if (heroTeaser) { %>
 <section class="feature-band band-mint" id="heroes">
   <div class="wrap stack" style="gap:32px">

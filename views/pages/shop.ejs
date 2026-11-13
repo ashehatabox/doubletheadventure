@@ -4,12 +4,38 @@
     <div class="stack-sm" style="max-width:760px">
       <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('shop.openTitle') %></h1>
       <p class="lead"><%= shopOpen ? t('shop.openLead') : t('shop.pageLead') %></p>
-      <div class="row"><a class="pill" href="#on-amazon"><%= t('shop.liveTitle') %> (<%= liveBooks.length %>)</a><% if (soonBooks.length) { %><a class="pill" href="#coming-soon"><%= t('shop.soonTitle') %> (<%= soonBooks.length %>)</a><% } %><a class="pill" href="#sets"><%= t('shop.setsTitle') %></a></div>
+      <div class="row"><% if (homePacks.length) { %><a class="pill" href="#home-packs"><%= t('shop.homeTitle') %></a><a class="pill" href="#class-packs"><%= t('shop.classTitle') %></a><% } %><a class="pill" href="#on-amazon"><%= t('shop.liveTitle') %> (<%= liveBooks.length %>)</a><% if (soonBooks.length) { %><a class="pill" href="#coming-soon"><%= t('shop.soonTitle') %> (<%= soonBooks.length %>)</a><% } %><a class="pill" href="#sets"><%= t('shop.setsTitle') %></a></div>
     </div>
   </div>
 </section>
 
-<section class="section tight" id="on-amazon" style="padding-top:0">
+<% [{ id: 'home-packs', list: homePacks, title: t('shop.homeTitle'), lead: t('shop.homeLead'), band: 'band-sunpale' }, { id: 'class-packs', list: classPacks, title: t('shop.classTitle'), lead: t('shop.classLead'), band: 'band-sky' }].forEach(function (shelf) { if (!shelf.list.length) return; %>
+<section class="section tight <%= shelf.band %>" id="<%= shelf.id %>">
+  <div class="wrap stack" style="gap:24px">
+    <div class="stack-sm" style="max-width:760px">
+      <h2 class="h2 book-h2"><%= shelf.title %></h2>
+      <p class="lead"><%= shelf.lead %></p>
+      <p class="muted" style="margin:0"><%= shelf.list[0].licence %> <%= t('shop.packPrice').replace('{price}', '$' + shelf.list[0].price).replace('{pages}', shelf.list[0].pages) %></p>
+    </div>
+    <div class="pack-grid">
+      <% shelf.list.forEach(function (c) { %>
+      <form class="pack-card" method="post" action="/shop/checkout" id="<%= c.id %>">
+        <input type="hidden" name="product" value="<%= c.id %>"><input type="hidden" name="lang" value="<%= lang %>">
+        <% if (c.preview) { %><img class="pack-preview" src="<%= c.preview %>" alt="<%= t('shop.previewOf').replace('{title}', c.book.displayTitle) %>" loading="lazy" width="900" height="390"><% } %>
+        <div class="pack-body">
+          <a class="shop-title" href="<%= c.book.href %>" <%- c.book.titleIsFallback ? 'lang="en"' : '' %>><%= c.book.displayTitle %></a>
+          <span class="shop-value"><%= c.book.valueText %></span>
+          <span class="shop-price">$<%= c.price %> CAD</span>
+          <button class="btn btn-primary" type="submit"><%= t('shop.buy') %></button>
+        </div>
+      </form>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<% }) %>
+
+<section class="section tight" id="on-amazon" style="padding-top:<%= homePacks.length ? '' : '0' %>">
   <div class="wrap stack" style="gap:24px">
     <div class="stack-sm">
       <h2 class="h2 book-h2"><%= t('shop.liveTitle') %></h2>

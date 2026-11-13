@@ -734,3 +734,11 @@ a.cast-card:hover { color: var(--ink); transform: translateY(-3px); box-shadow: 
   .os-table th, .os-table td { padding: 2px 6px; }
   .os-foot { margin-top: 10px; }
 }
+
+/* Digital packs (shop shelves and book pages) */
+.pack-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 18px; }
+.pack-grid-two { grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); }
+.pack-card { display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.pack-preview { width: 100%; height: auto; display: block; background: var(--cream); border-bottom: 1px solid var(--line); }
+.pack-body { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px 18px; flex: 1; }
+.pack-body .btn { margin-top: auto; align-self: flex-start; }

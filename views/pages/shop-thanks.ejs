@@ -2,8 +2,14 @@
 <section class="section">
   <div class="wrap stack" style="max-width:720px;text-align:center;align-items:center">
     <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('shop.thanksTitle') %></h1>
+    <% if (download) { %>
+    <p class="lead"><%= t('shop.downloadLead').replace('{title}', download.title).replace('{book}', download.book) %></p>
+    <a class="btn btn-primary" href="<%= download.href %>" download><%= t('shop.downloadBtn') %></a>
+    <p class="muted"><%= t('shop.downloadNote').replace('{days}', download.days) %></p>
+    <% } else { %>
     <p class="lead"><%= t('shop.thanksText') %></p>
     <a class="btn btn-primary" href="<%= url('/play') %>"><%= t('nav.play') %></a>
+    <% } %>
   </div>
 </section>
 <%- include('../partials/bottom') %>

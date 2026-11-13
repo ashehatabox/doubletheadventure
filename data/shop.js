@@ -2,6 +2,7 @@
 // Prices are in cents, Canadian dollars, shipping included (Canada and US). Worked out in data/pricing.js:
 // print cost + author-copy shipping + Stripe fee + profit. `books` = how many paperbacks the order ships; `choose` asks which books at checkout.
 // Check the margins with: node scripts/price-check.js
+// Digital packs (`digital: true`) have no shipping; after payment the buyer downloads the PDF from /shop/thanks.
 module.exports = {
   currency: 'cad',
   allowedCountries: ['CA', 'US'],
@@ -57,6 +58,8 @@ module.exports = {
       text: { en: 'All 21 books in one language, all the SEL packs and a classroom licence. Shipping included.', fr: 'Les 21 livres dans une langue, toutes les trousses SEL et une licence de classe. Livraison incluse.' },
       books: 21, choose: true,
       priceCents: 19999
-    }
+    },
+    // Digital packs, one home pack and one classroom pack per book (data/packs.js).
+    ...require('./packs').products
   ]
 };

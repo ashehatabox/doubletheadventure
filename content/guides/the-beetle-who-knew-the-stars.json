@@ -1,0 +1,141 @@
+{
+ "book": "the-beetle-who-knew-the-stars",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["BC", "PSI", "DLMB", "SRWB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a small ball, a dark blanket or a box with holes for stars, sticky notes",
+  "summary": "Kemi, a young hoopoe by the Nile in Egypt, knows lots of things and loves to tell them, but she never asks, and her friends go quiet around her. She tells Sabu the dung beetle he is rolling his ball the wrong way without asking why he keeps looking up. When she gets lost over the desert at sunset, she stops in the middle of ‘I know’ and asks her first real question. Sabu shows her the river of stars, the jerboas show her a shortcut, and asking takes her home.",
+  "bigIdea": "Asking makes room for other people’s words, and it takes you farther than telling.",
+  "theme": "Telling shows what you know. Asking helps you grow.",
+  "refrain": "Roll, roll, look up!",
+  "origin": "More than 4,000 years ago in ancient Egypt, a wise man named Ptahhotep wrote a book of advice, one of the oldest in the world. His first piece of advice was: don’t be proud of what you know; ask everyone, because anyone can teach you something.",
+  "words": [
+   {"word": "ask", "meaning": "to say a question so you can find out", "cue": "lift one hand, palm up"},
+   {"word": "dune", "meaning": "a big hill of sand", "cue": "draw a wave in the air"},
+   {"word": "crest", "meaning": "the feathers on top of a bird’s head", "cue": "spread your fingers on top of your head"},
+   {"word": "shortcut", "meaning": "a quicker way to get somewhere", "cue": "zip your finger in a straight line"},
+   {"word": "guide", "meaning": "to show someone the way", "cue": "point ahead and walk two fingers"}
+  ],
+  "before": [
+   "Show the cover. Ask: What is the beetle doing? Why might a beetle know about the stars?",
+   "Ask: What is something you know a lot about? Now, what is something you would like to ask a friend? Notice the difference together.",
+   "Teach the refrain: roll your hands, then point up. ‘Roll, roll, look up!’ And every time Kemi’s crest pops, everyone says ‘Pop!’"
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Kemi tells everyone how to do things; her friends go quiet.", "ask": "Why did Kemi’s friends stop talking when she came near?", "listen": "there was no room for their words, she always talked"},
+   {"spread": 4, "moment": "Kemi tells Sabu he is pushing the wrong way.", "ask": "What question could Kemi have asked Sabu?", "listen": "why do you look up? how do you do it?"},
+   {"spread": 5, "moment": "Every dune looks the same; Kemi is lost.", "ask": "How does Kemi feel now?", "listen": "scared, lost, worried, her crest drooped"},
+   {"spread": 6, "moment": "Kemi stops in the middle of ‘I kn…’ and asks.", "ask": "Why was this a big moment for Kemi?", "listen": "first time she asked, she didn’t know"},
+   {"spread": 7, "moment": "Sabu’s eyes sparkle: nobody had ever asked him.", "ask": "How did Sabu feel when Kemi asked him?", "listen": "happy, special, proud"},
+   {"spread": 8, "moment": "Each question opens like a little door.", "ask": "What did Kemi find behind the doors?", "listen": "beetles roll backwards, grandma’s song, new things"},
+   {"spread": 9, "moment": "A cloud hides the stars; Kemi thinks ‘Who could I ask?’", "ask": "Who could Kemi ask?", "listen": "the jerboas, another animal", "probe": "What did she do differently this time?"},
+   {"spread": 11, "moment": "Stars above, the Nile below.", "ask": "How did asking help Kemi get home?", "listen": "Sabu knew the stars, the jerboas knew the shortcut"}
+  ],
+  "after": [
+   {"q": "Why did Kemi’s friends stop talking when she came near?", "a": "She only told, never asked, so there was no room for their words."},
+   {"q": "How did Kemi feel when she didn’t know the way?", "a": "Lost, worried, a bit scared. Accept any feeling word."},
+   {"q": "What happened when she asked Sabu a question?", "a": "He was happy to be asked and showed her the river of stars."},
+   {"q": "Who knew the shortcut? How did they feel being asked?", "a": "The jerboas. They loved being asked."},
+   {"q": "What question could you ask a friend today?", "a": "Any answer. Try it at playtime."}
+  ],
+  "activities": [
+   {"title": "Ask first circle", "time": "10 minutes", "group": "Pairs", "materials": "None", "steps": "Partners take turns asking each other one question (‘What do you like to play?’) and listening to the whole answer before talking. Then each child tells the class one new thing they learned about their partner."},
+   {"title": "Roll backwards like Sabu", "time": "10 minutes", "group": "Small groups", "materials": "A soft ball, a tape path", "steps": "Children push a ball along a path with their feet, walking backwards, like a dung beetle. A partner ‘looks up’ and guides with words: left, right, straight. Swap roles."},
+   {"title": "River of stars", "time": "15 minutes", "group": "Whole class", "materials": "Dark paper, white chalk or star stickers", "steps": "Make a long strip of night sky with a ‘river of stars’ across it. Each child adds a star with a question they want to ask someone this week."}
+  ],
+  "science": {
+   "text": "Hoopoes live across Africa, Europe and Asia and are common in Egypt. They raise their crest when excited and poke their long bills into the ground to find insects. Dung beetles roll balls of dung backwards, standing on their front legs and pushing with their back legs. Scientists have found that some dung beetles can use the glow of the Milky Way to roll in a straight line at night. Jerboas are desert rodents that hop on long back legs.",
+   "link": "/heroes/the-beetle-who-knew-the-stars",
+   "linkText": "Meet the real hoopoes, beetles and jerboas"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Model the question frame ‘How do you…?’ and let children use it with a picture prompt. ‘Pop!’ is easy for everyone to join."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 3, 6 and 11). Act out ‘telling’ and ‘asking’ with a puppet so the difference is clear."},
+   {"who": "Mixed ages and older children", "how": "Older children make a ‘question door’ booklet: each page is a door with a question on the front and the answer they found behind it."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Asks a friend a question and listens to the answer."},
+   {"frame": "PSI", "text": "Explains how asking helped Kemi find her way."},
+   {"frame": "DLMB", "text": "Tells one real fact about dung beetles or hoopoes."},
+   {"frame": "SRWB", "text": "Stops before talking to let someone else speak."}
+  ],
+  "care": [
+   "Knowing things is good. Keep the message that asking first is better, not that knowing is bad.",
+   "Children who are shy may find asking hard. Let them ask a puppet or write a question first.",
+   "Being lost at night can worry some children. Kemi is never alone for long: Sabu’s song comes right away."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), une petite balle, une couverture sombre ou une boîte percée pour les étoiles, des papillons adhésifs",
+  "summary": "Kemi, une jeune huppe des bords du Nil en Égypte, sait beaucoup de choses et adore les dire, mais elle ne pose jamais de questions, et ses amis se taisent quand elle arrive. Elle dit à Sabu le scarabée qu’il pousse sa boule dans le mauvais sens, sans demander pourquoi il regarde le ciel. Perdue au-dessus du désert au coucher du soleil, elle s’arrête au milieu de « Je sais » et pose sa première vraie question. Sabu lui montre la rivière d’étoiles, les gerboises lui montrent un raccourci, et poser des questions la ramène chez elle.",
+  "bigIdea": "Poser des questions laisse de la place aux mots des autres, et mène plus loin que tout dire.",
+  "theme": "Dire montre ce que tu sais. Demander t’aide à grandir.",
+  "refrain": "Roule, roule, regarde en haut !",
+  "origin": "Il y a plus de 4 000 ans, dans l’Égypte ancienne, un sage nommé Ptahhotep a écrit un livre de conseils, l’un des plus anciens du monde. Son premier conseil : ne sois pas fier de ce que tu sais ; demande à tout le monde, car chacun peut t’apprendre quelque chose.",
+  "words": [
+   {"word": "demander", "meaning": "poser une question pour savoir", "cue": "tendez une main, paume vers le haut"},
+   {"word": "dune", "meaning": "une grande colline de sable", "cue": "dessinez une vague dans l’air"},
+   {"word": "huppe", "meaning": "les plumes sur la tête d’un oiseau", "cue": "écartez les doigts sur votre tête"},
+   {"word": "raccourci", "meaning": "un chemin plus rapide", "cue": "tracez une ligne droite avec le doigt"},
+   {"word": "guider", "meaning": "montrer le chemin à quelqu’un", "cue": "pointez devant vous et faites marcher deux doigts"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Que fait le scarabée ? Pourquoi un scarabée connaîtrait-il les étoiles ?",
+   "Demandez : Qu’est-ce que tu connais bien ? Et que voudrais-tu demander à un ami ? Remarquez la différence ensemble.",
+   "Apprenez le refrain : roulez les mains, puis pointez vers le haut. « Roule, roule, regarde en haut ! » Et chaque fois que la huppe de Kemi se dresse, tout le monde dit « Pop ! »"
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Kemi explique tout à tout le monde ; ses amis se taisent.", "ask": "Pourquoi les amis de Kemi arrêtent-ils de parler quand elle arrive ?", "listen": "il n’y a pas de place pour leurs mots, elle parle tout le temps"},
+   {"spread": 4, "moment": "Kemi dit à Sabu qu’il pousse dans le mauvais sens.", "ask": "Quelle question Kemi aurait-elle pu poser à Sabu ?", "listen": "pourquoi regardes-tu en haut ? comment fais-tu ?"},
+   {"spread": 5, "moment": "Toutes les dunes se ressemblent ; Kemi est perdue.", "ask": "Comment se sent Kemi maintenant ?", "listen": "peur, perdue, inquiète, sa huppe tombe"},
+   {"spread": 6, "moment": "Kemi s’arrête au milieu de « Je s… » et demande.", "ask": "Pourquoi est-ce un grand moment pour Kemi ?", "listen": "c’est sa première question, elle ne savait pas"},
+   {"spread": 7, "moment": "Les yeux de Sabu brillent : personne ne lui avait jamais demandé.", "ask": "Comment Sabu se sent-il quand Kemi lui pose une question ?", "listen": "content, spécial, fier"},
+   {"spread": 8, "moment": "Chaque question s’ouvre comme une petite porte.", "ask": "Qu’a trouvé Kemi derrière les portes ?", "listen": "les scarabées roulent à reculons, la chanson de grand-mère, des choses nouvelles"},
+   {"spread": 9, "moment": "Un nuage cache les étoiles ; Kemi pense : « À qui pourrais-je demander ? »", "ask": "À qui Kemi pourrait-elle demander ?", "listen": "aux gerboises, à un autre animal", "probe": "Qu’a-t-elle fait autrement cette fois ?"},
+   {"spread": 11, "moment": "Les étoiles en haut, le Nil en bas.", "ask": "Comment poser des questions a-t-il aidé Kemi à rentrer ?", "listen": "Sabu connaissait les étoiles, les gerboises le raccourci"}
+  ],
+  "after": [
+   {"q": "Pourquoi les amis de Kemi arrêtaient-ils de parler ?", "a": "Elle disait tout et ne demandait jamais, il n’y avait pas de place pour leurs mots."},
+   {"q": "Comment Kemi s’est-elle sentie quand elle ne savait plus le chemin ?", "a": "Perdue, inquiète, un peu effrayée. Acceptez tous les mots d’émotion."},
+   {"q": "Que s’est-il passé quand elle a posé une question à Sabu ?", "a": "Il était content et lui a montré la rivière d’étoiles."},
+   {"q": "Qui connaissait le raccourci ? Comment se sont-ils sentis ?", "a": "Les gerboises. Elles adoraient qu’on leur demande."},
+   {"q": "Quelle question pourrais-tu poser à un ami aujourd’hui ?", "a": "Toutes les réponses. Essayez à la récréation."}
+  ],
+  "activities": [
+   {"title": "Le cercle « je demande d’abord »", "time": "10 minutes", "group": "En duo", "materials": "Aucun", "steps": "Chacun son tour, les partenaires posent une question (« À quoi aimes-tu jouer ? ») et écoutent toute la réponse avant de parler. Puis chaque enfant dit à la classe une chose nouvelle apprise sur son partenaire."},
+   {"title": "Rouler à reculons comme Sabu", "time": "10 minutes", "group": "Petits groupes", "materials": "Une balle souple, un chemin de ruban adhésif", "steps": "Les enfants poussent une balle avec les pieds en marchant à reculons, comme un bousier. Un partenaire « regarde en haut » et guide avec des mots : gauche, droite, tout droit. Échangez les rôles."},
+   {"title": "La rivière d’étoiles", "time": "15 minutes", "group": "Toute la classe", "materials": "Papier sombre, craie blanche ou autocollants étoiles", "steps": "Faites une longue bande de ciel de nuit avec une « rivière d’étoiles ». Chaque enfant ajoute une étoile avec une question qu’il veut poser à quelqu’un cette semaine."}
+  ],
+  "science": {
+   "text": "Les huppes vivent en Afrique, en Europe et en Asie, et sont communes en Égypte. Elles dressent leur huppe quand elles sont excitées et plantent leur long bec dans le sol pour trouver des insectes. Les bousiers roulent leur boule à reculons, debout sur les pattes avant, en poussant avec les pattes arrière. Des scientifiques ont découvert que certains bousiers utilisent la lueur de la Voie lactée pour rouler droit la nuit. Les gerboises sont des rongeurs du désert qui sautent sur de longues pattes arrière.",
+   "link": "/heroes/the-beetle-who-knew-the-stars",
+   "linkText": "Découvrir les vraies huppes, scarabées et gerboises"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Donnez le modèle de question « Comment tu… ? » avec une image. « Pop ! » est facile pour tout le monde."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 3, 6 et 11). Jouez « dire » et « demander » avec une marionnette pour bien voir la différence."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands font un livret de « portes-questions » : chaque page est une porte avec une question devant et la réponse trouvée derrière."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Pose une question à un ami et écoute la réponse."},
+   {"frame": "PSI", "text": "Explique comment poser des questions a aidé Kemi à trouver son chemin."},
+   {"frame": "DLMB", "text": "Donne un vrai fait sur les bousiers ou les huppes."},
+   {"frame": "SRWB", "text": "S’arrête avant de parler pour laisser parler quelqu’un d’autre."}
+  ],
+  "care": [
+   "Savoir des choses, c’est bien. Le message est que demander d’abord, c’est mieux, pas que savoir est mal.",
+   "Les enfants timides peuvent trouver difficile de poser des questions. Laissez-les demander à une marionnette ou écrire la question d’abord.",
+   "Être perdu la nuit peut inquiéter certains enfants. Kemi n’est jamais seule longtemps : la chanson de Sabu arrive tout de suite."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The Beetle Who Knew the Stars, a story about asking before telling. Kemi the hoopoe loves to tell everyone what she knows, until she gets lost and finds that asking takes her farther. At home, take turns asking each other one question at dinner, and listen to the whole answer. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Le Scarabée qui connaissait les étoiles, une histoire sur l’importance de demander avant de dire. Kemi la huppe adore dire tout ce qu’elle sait, jusqu’au jour où elle se perd et découvre que poser des questions la mène plus loin. À la maison, posez-vous une question chacun votre tour au repas, et écoutez toute la réponse. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre preguntar antes de decir. Kemi, la abubilla, ama decirle a todos lo que sabe, hasta que se pierde y descubre que preguntar la lleva más lejos. En casa, túrnense para hacerse una pregunta en la cena y escuchen toda la respuesta. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte darüber gelesen, erst zu fragen und dann zu erzählen. Der Wiedehopf Kemi erzählt allen gern, was sie weiß, bis sie sich verirrt und merkt, dass Fragen sie weiter bringt. Stellen Sie sich zu Hause beim Abendessen abwechselnd eine Frage und hören Sie die ganze Antwort an. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sul chiedere prima di dire. Kemi, l’upupa, ama dire a tutti quello che sa, finché si perde e scopre che fare domande la porta più lontano. A casa, a cena, fatevi a turno una domanda e ascoltate tutta la risposta. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

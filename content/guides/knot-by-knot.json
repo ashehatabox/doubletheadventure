@@ -1,0 +1,141 @@
+{
+ "book": "knot-by-knot",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["SRWB", "PSI", "DLMB", "BC"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), strips of paper or ribbon, a paper plate or card with slits, a sand timer",
+  "summary": "Zayn, a young weaver bird in the misty mountains of southern Oman, has the fastest beak in the colony. He weaves a quick nest before the big wind, and it sags and falls into the pool. He learns to slow down, but then he keeps untying every crooked knot while his little sister Rima waits in the cold. With help from Hana the chameleon, he sees that his nest is strong and good, finishes it just in time, and every knot holds.",
+  "bigIdea": "Do your work with care, and then finish it. Rushing makes weak work, and waiting for perfect means it never gets done.",
+  "theme": "Do it well, and get it done.",
+  "refrain": "Loop, pull, tug!",
+  "origin": "In Arabic there is a word, itqan, for doing your work with care, all the way to the end. You can see it in the crafts of the region, like Omani palm-leaf weaving, made strand by strand until it is finished and ready to use.",
+  "words": [
+   {"word": "weave", "meaning": "to cross strips over and under to make something", "cue": "wiggle one hand through the fingers of the other"},
+   {"word": "knot", "meaning": "a tight twist that holds string or grass together", "cue": "make two fists and pull them apart"},
+   {"word": "sag", "meaning": "to droop down in the middle", "cue": "let your arms flop down"},
+   {"word": "crooked", "meaning": "not straight, a bit bent", "cue": "bend your finger sideways"},
+   {"word": "finish", "meaning": "to get to the very end", "cue": "brush your hands together: done!"}
+  ],
+  "before": [
+   "Show the cover. Ask: What is the little bird making? How do you think it does that with only a beak?",
+   "Ask: Have you ever rushed to finish something? Have you ever kept fixing something over and over? Take a few answers.",
+   "Teach the refrain with a hand motion: loop (circle a finger), pull (pull your hand back), tug (a small jerk). Say ‘Loop, pull, tug!’ together."
+  ],
+  "pauses": [
+   {"spread": 2, "moment": "Zayn is always finished first: Zip, zip, done!", "ask": "Is being first always the best?", "listen": "not always, sometimes you make mistakes"},
+   {"spread": 3, "moment": "Hana asks: ‘Is it done, or done well?’", "ask": "What is the difference between done and done well?", "listen": "done well means it is strong, careful, it works"},
+   {"spread": 5, "moment": "The nest falls into the pool.", "ask": "Why did the nest fall?", "listen": "he rushed, the knots were not tight", "probe": "How does Zayn feel now?"},
+   {"spread": 6, "moment": "Zayn watches Hana: grip, test, step.", "ask": "What does Zayn learn from watching Hana?", "listen": "go slowly, check, be careful"},
+   {"spread": 7, "moment": "Zayn keeps untying crooked knots.", "ask": "Is this a good idea? Why or why not?", "listen": "no, he will never finish; yes, he wants it strong", "probe": "Who is waiting for him?"},
+   {"spread": 8, "moment": "Rima shivers; the clouds roll in.", "ask": "How is Rima feeling?", "listen": "cold, worried, tired of waiting"},
+   {"spread": 9, "moment": "Hana: ‘If I waited for a perfect branch, I’d never get anywhere.’", "ask": "What does Hana mean?", "listen": "nothing is perfect, you have to keep going"},
+   {"spread": 11, "moment": "The wind blows all night; every knot holds.", "ask": "Was the nest perfect? Did it work?", "listen": "no, it had crooked knots; yes, it held"}
+  ],
+  "after": [
+   {"q": "What happened to Zayn’s first nest? Why?", "a": "It sagged and fell in the pool because he rushed."},
+   {"q": "How did weaving slowly feel to Zayn?", "a": "Different, nice, like humming a song."},
+   {"q": "Why did he keep untying his knots?", "a": "He wanted them to be perfect."},
+   {"q": "What helped him finish?", "a": "Hana’s words, Rima waiting, seeing his nest was already good."},
+   {"q": "What is something you can do well and finish this week?", "a": "Any answer. Write them on a ‘done well’ chart."}
+  ],
+  "activities": [
+   {"title": "Paper weaving", "time": "20 minutes", "group": "Individual", "materials": "Card with slits, paper strips", "steps": "Children weave strips over and under, saying ‘loop, pull, tug’ as they go. Stop together after ten minutes and ask: Is it strong? Is it finished? Then finish it. Display the mats ‘crooked bits and all’."},
+   {"title": "Done or done well?", "time": "10 minutes", "group": "Small groups", "materials": "Blocks, a sand timer", "steps": "Build a tower as fast as possible, then gently test it by blowing on it. Build again slowly and test. Then build a third time with the timer: careful, and finished before the sand runs out."},
+   {"title": "Grip, test, step", "time": "5 minutes", "group": "Whole class", "materials": "A tape line on the floor", "steps": "Walk the line like Hana: grip with your toes, test, step. Then walk it like Zayn at the start. Talk about which way worked better."}
+  ],
+  "science": {
+   "text": "Rüppell’s weavers live in north-east Africa and south-west Arabia, including the mountains of Dhofar in Oman. The males weave round hanging nests from strips of grass using their beaks and feet. Scientists have found that weaver birds get better at weaving with practice. Arabian chameleons move slowly, gripping branches with their feet and tail, and can move each eye on its own.",
+   "link": "/heroes/knot-by-knot",
+   "linkText": "Meet the real weaver birds and chameleons"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. The refrain has three short action words with gestures, so every child can join in. Use real string to show knot, loop and tug."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 5, 7 and 11). Offer wider paper strips and fewer slits for the weaving."},
+   {"who": "Children who are perfectionists", "how": "Praise finishing out loud. Set a gentle time limit and celebrate the ‘crooked knots and all’ result. Avoid naming any child as ‘too slow’."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Stays with a task to the end, even when it is not perfect."},
+   {"frame": "PSI", "text": "Explains why the first nest fell and the last one held."},
+   {"frame": "DLMB", "text": "Uses over-and-under to weave a simple pattern."},
+   {"frame": "BC", "text": "Notices that someone else (Rima) was waiting on the work."}
+  ],
+  "care": [
+   "Some children feel big worry about mistakes. Keep the message gentle: crooked knots are fine, and finishing is something to be proud of.",
+   "Never shame speed or slowness. Both Zayn and the children are learning a balance.",
+   "The storm in the story is safe: Zayn and Rima are always on the branch or in the nest. Keep the wind talk calm."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), des bandes de papier ou de ruban, une assiette en carton ou un carton fendu, un sablier",
+  "summary": "Zayn, un jeune tisserin des montagnes brumeuses du sud d’Oman, a le bec le plus rapide de la colonie. Il tisse un nid à toute vitesse avant le grand vent, et le nid s’affaisse puis tombe dans le bassin. Il apprend à ralentir, mais il défait alors chaque nœud de travers pendant que sa petite sœur Rima attend dans le froid. Avec l’aide de Hana la caméléon, il voit que son nid est solide et bon, le termine juste à temps, et chaque nœud tient.",
+  "bigIdea": "Fais ton travail avec soin, puis termine-le. Se dépêcher donne un travail fragile, et attendre la perfection empêche de finir.",
+  "theme": "Fais-le bien, et va jusqu’au bout.",
+  "refrain": "Boucle, tire, serre !",
+  "origin": "En arabe, le mot itqan désigne le travail fait avec soin, jusqu’au bout. On le voit dans l’artisanat de la région, comme le tressage des feuilles de palmier à Oman, fait brin par brin jusqu’à ce que l’objet soit fini et prêt à servir.",
+  "words": [
+   {"word": "tisser", "meaning": "croiser des brins dessus-dessous pour fabriquer quelque chose", "cue": "faites passer une main entre les doigts de l’autre"},
+   {"word": "nœud", "meaning": "une boucle serrée qui tient la ficelle ou l’herbe", "cue": "faites deux poings et tirez-les"},
+   {"word": "s’affaisser", "meaning": "s’enfoncer au milieu, pendre vers le bas", "cue": "laissez tomber vos bras"},
+   {"word": "de travers", "meaning": "pas droit, un peu tordu", "cue": "pliez un doigt sur le côté"},
+   {"word": "terminer", "meaning": "aller jusqu’à la fin", "cue": "frottez vos mains : fini !"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Que fabrique le petit oiseau ? Comment fait-il avec seulement un bec ?",
+   "Demandez : T’es-tu déjà dépêché pour finir quelque chose ? As-tu déjà réparé quelque chose encore et encore ? Prenez quelques réponses.",
+   "Apprenez le refrain avec un geste : boucle (un cercle du doigt), tire (tirez la main), serre (un petit coup sec). Dites ensemble « Boucle, tire, serre ! »"
+  ],
+  "pauses": [
+   {"spread": 2, "moment": "Zayn finit toujours le premier.", "ask": "Être le premier, est-ce toujours le mieux ?", "listen": "pas toujours, on peut faire des erreurs"},
+   {"spread": 3, "moment": "Hana demande si le nid est fini, ou bien fait.", "ask": "Quelle est la différence entre fini et bien fait ?", "listen": "bien fait, c’est solide, soigné, ça marche"},
+   {"spread": 5, "moment": "Le nid tombe dans le bassin.", "ask": "Pourquoi le nid est-il tombé ?", "listen": "il s’est dépêché, les nœuds n’étaient pas serrés", "probe": "Comment se sent Zayn maintenant ?"},
+   {"spread": 6, "moment": "Zayn regarde Hana : agripper, tester, avancer.", "ask": "Qu’apprend Zayn en regardant Hana ?", "listen": "aller doucement, vérifier, faire attention"},
+   {"spread": 7, "moment": "Zayn défait sans cesse les nœuds de travers.", "ask": "Est-ce une bonne idée ? Pourquoi ?", "listen": "non, il ne finira jamais ; oui, il veut un nid solide", "probe": "Qui l’attend ?"},
+   {"spread": 8, "moment": "Rima frissonne ; les nuages arrivent.", "ask": "Comment se sent Rima ?", "listen": "froid, inquiète, fatiguée d’attendre"},
+   {"spread": 9, "moment": "Hana parle de la branche parfaite.", "ask": "Que veut dire Hana ?", "listen": "rien n’est parfait, il faut continuer"},
+   {"spread": 11, "moment": "Le vent souffle toute la nuit ; chaque nœud tient.", "ask": "Le nid était-il parfait ? A-t-il tenu ?", "listen": "non, il avait des nœuds de travers ; oui, il a tenu"}
+  ],
+  "after": [
+   {"q": "Qu’est-il arrivé au premier nid de Zayn ? Pourquoi ?", "a": "Il s’est affaissé et il est tombé parce que Zayn s’est dépêché."},
+   {"q": "Comment Zayn s’est-il senti en tissant lentement ?", "a": "Différent, bien, comme fredonner une chanson."},
+   {"q": "Pourquoi défaisait-il ses nœuds ?", "a": "Il voulait qu’ils soient parfaits."},
+   {"q": "Qu’est-ce qui l’a aidé à finir ?", "a": "Les mots de Hana, Rima qui attendait, voir que son nid était déjà bon."},
+   {"q": "Que peux-tu bien faire et terminer cette semaine ?", "a": "Toutes les réponses. Notez-les sur une affiche « bien fait »."}
+  ],
+  "activities": [
+   {"title": "Tissage de papier", "time": "20 minutes", "group": "Individuel", "materials": "Carton fendu, bandes de papier", "steps": "Les enfants tissent dessus-dessous en disant « boucle, tire, serre ». Arrêtez-vous tous ensemble après dix minutes : Est-ce solide ? Est-ce fini ? Puis terminez. Exposez les tissages « avec leurs nœuds de travers »."},
+   {"title": "Fini ou bien fait ?", "time": "10 minutes", "group": "Petits groupes", "materials": "Des blocs, un sablier", "steps": "Construisez une tour le plus vite possible, puis soufflez doucement dessus. Recommencez lentement et testez. Puis une troisième fois avec le sablier : avec soin, et terminé avant la fin du sable."},
+   {"title": "Agripper, tester, avancer", "time": "5 minutes", "group": "Toute la classe", "materials": "Une ligne de ruban adhésif au sol", "steps": "Marchez sur la ligne comme Hana : agripper avec les orteils, tester, avancer. Puis comme Zayn au début. Parlez de la façon qui a le mieux marché."}
+  ],
+  "science": {
+   "text": "Les tisserins de Rüppell vivent dans le nord-est de l’Afrique et le sud-ouest de l’Arabie, dont les montagnes du Dhofar à Oman. Les mâles tissent des nids ronds suspendus avec des brins d’herbe, à l’aide du bec et des pattes. Des scientifiques ont découvert que les tisserins tissent mieux avec l’entraînement. Les caméléons d’Arabie se déplacent lentement, s’agrippent aux branches avec les pattes et la queue, et bougent chaque œil séparément.",
+   "link": "/heroes/knot-by-knot",
+   "linkText": "Découvrir les vrais tisserins et caméléons"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Le refrain a trois mots d’action courts avec des gestes : tout le monde peut le dire. Montrez nœud, boucle et serrer avec une vraie ficelle."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 5, 7 et 11). Proposez des bandes plus larges et moins de fentes pour le tissage."},
+   {"who": "Enfants perfectionnistes", "how": "Félicitez à voix haute le fait de terminer. Donnez une limite de temps douce et célébrez le résultat « avec ses nœuds de travers ». Ne qualifiez jamais un enfant de « trop lent »."}
+  ],
+  "lookFors": [
+   {"frame": "SRWB", "text": "Reste sur une tâche jusqu’au bout, même si ce n’est pas parfait."},
+   {"frame": "PSI", "text": "Explique pourquoi le premier nid est tombé et le dernier a tenu."},
+   {"frame": "DLMB", "text": "Utilise le dessus-dessous pour tisser un motif simple."},
+   {"frame": "BC", "text": "Remarque que quelqu’un d’autre (Rima) attendait le travail."}
+  ],
+  "care": [
+   "Certains enfants s’inquiètent beaucoup des erreurs. Gardez un message doux : les nœuds de travers, ce n’est pas grave, et terminer, c’est une fierté.",
+   "Ne critiquez jamais la vitesse ou la lenteur. Zayn et les enfants apprennent un équilibre.",
+   "La tempête de l’histoire est sans danger : Zayn et Rima sont toujours sur la branche ou dans le nid. Parlez du vent avec calme."
+  ]
+ },
+ "letter": {
+  "en": "Today we read Knot by Knot, a story about doing things well and getting them done. Zayn the weaver bird learns that rushing makes a weak nest, and waiting for perfect means it never gets finished. At home, choose one small job with your child, like tidying a shelf, and help them do it with care and finish it. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Nœud par nœud, une histoire sur le travail bien fait et mené jusqu’au bout. Zayn le tisserin apprend que se dépêcher donne un nid fragile, et qu’attendre la perfection empêche de finir. À la maison, choisissez une petite tâche avec votre enfant, comme ranger une étagère, et aidez-le à la faire avec soin jusqu’au bout. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre hacer las cosas bien y terminarlas. Zayn, un pajarito tejedor, aprende que con prisa el nido queda débil, y que si espera a que todo sea perfecto nunca lo termina. En casa, elijan una tarea pequeña, como ordenar un estante, y ayude a su hijo o hija a hacerla con cuidado hasta el final. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte darüber gelesen, Dinge gut zu machen und fertig zu machen. Der Webervogel Zayn lernt, dass ein eiliges Nest schwach ist und dass man nie fertig wird, wenn man auf Perfektion wartet. Wählen Sie zu Hause mit Ihrem Kind eine kleine Aufgabe, etwa ein Regal aufräumen, und helfen Sie ihm, sie sorgfältig zu Ende zu bringen. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sul fare le cose bene e portarle a termine. Zayn, un piccolo uccello tessitore, impara che la fretta fa un nido debole e che aspettare la perfezione impedisce di finire. A casa, scegliete insieme un piccolo compito, come riordinare uno scaffale, e aiutate vostro figlio o vostra figlia a farlo con cura fino alla fine. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

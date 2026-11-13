@@ -1,0 +1,143 @@
+{
+ "book": "the-old-path-song",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["BC", "PSI", "DLMB", "SRWB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a drum or a box to tap, three stones, chart paper, crayons",
+  "summary": "Ama, a young tree pangolin in a forest in Ghana, loves anything new and finds her grandmother Nana’s old evening song boring. When the dry wind comes and the fruit is gone, none of Ama’s new paths leads to food, and she can only half-remember the song. She chooses to go back, asks Nana to sing it again and really listens. Following the landmarks in the song, and adding new ideas of her own, she leads the hungry animals to a giant fig tree.",
+  "bigIdea": "The old ones know things we still need, and it is never too late to go back and ask.",
+  "theme": "It’s never too late to go back for what you left behind.",
+  "refrain": "Ka-tum, ka-tum.",
+  "origin": "The Akan people of Ghana have a symbol called Sankofa: a bird that walks forward while looking back, often carrying an egg. It comes from an old saying that it is not wrong to go back for what you have forgotten. The story keeps the idea and adds its other half: Ama brings the old song forward in her own new way.",
+  "words": [
+   {"word": "path", "meaning": "a little track you walk along", "cue": "walk two fingers across your arm"},
+   {"word": "landmark", "meaning": "something you can see that helps you find your way, like a big rock or a tree", "cue": "point far away"},
+   {"word": "dusty", "meaning": "full of tiny bits of dry dirt in the air", "cue": "wave a hand in front of your face"},
+   {"word": "fetch", "meaning": "to go and get something and bring it back", "cue": "reach out and pull back to your chest"},
+   {"word": "beat", "meaning": "a steady sound you can follow, like a drum", "cue": "tap ka-tum on your knee"}
+  ],
+  "before": [
+   "Show the cover. Ask: What kind of animal is this? Have you ever seen one? What do you notice about her scales and her tail?",
+   "Say: This story is about learning from people who came before us, like grandparents. Who teaches you old songs, games or stories? Take three or four answers.",
+   "Teach the refrain: tap your knee twice and say ‘Ka-tum, ka-tum.’ Ask the children to tap along every time they hear it."
+  ],
+  "pauses": [
+   {"spread": 2, "moment": "Ama loves new paths and games.", "ask": "What new thing did you try or find this week?", "listen": "a new game, a new friend, a new food"},
+   {"spread": 3, "moment": "Nana sings her old song; Ama yawns.", "ask": "Why does Ama think the song is boring?", "listen": "it is old, she has heard it every night, she likes new things"},
+   {"spread": 5, "moment": "The dry wind comes and Ama can’t remember the song.", "ask": "How are the animals feeling now? How is Ama feeling?", "listen": "hungry, worried, sorry she didn’t listen", "probe": "What could Ama do?"},
+   {"spread": 6, "moment": "Ama decides to go back and fetch the song.", "ask": "Her cheeks felt hot. What do you think that means?", "listen": "she feels embarrassed, she is sorry, she wishes she had listened"},
+   {"spread": 7, "moment": "Ama really listens; Nana says the song came from her own Nana.", "ask": "How old do you think the song is?", "listen": "very old, older than Nana, from long ago"},
+   {"spread": 8, "moment": "They follow the song’s landmarks; the dust gets thick.", "ask": "What was the first landmark in the song? Can you remember?", "listen": "three round stones, then the bent palm, the dry stream"},
+   {"spread": 9, "moment": "Ama taps a beat on her scales so everyone can follow.", "ask": "Was the beat an old idea or a new idea?", "listen": "new, it was Ama’s own idea", "probe": "How did old and new help together?"},
+   {"spread": 10, "moment": "Ama climbs above the dust and spots the fig tree.", "ask": "Why did climbing help her see?", "listen": "she was above the dust, she could see far"},
+   {"spread": 12, "moment": "The old song becomes a new clapping game.", "ask": "What did Ama do with the old song at the end?", "listen": "made it a game, taught the little ones"}
+  ],
+  "after": [
+   {"q": "Why did Ama think the old song was boring?", "a": "She loved new things and didn’t know the song was useful."},
+   {"q": "How did she feel when she couldn’t remember it?", "a": "Worried, sorry, hot-cheeked. Accept any feeling word."},
+   {"q": "What new ideas did Ama add to the old song?", "a": "The beat on her scales, climbing to look, the clapping game."},
+   {"q": "Who in your family knows old songs or stories?", "a": "Any answer. Invite children to bring one in."},
+   {"q": "What would you like to ask a grandparent or an older friend?", "a": "Collect the questions on chart paper to send home."}
+  ],
+  "activities": [
+   {"title": "Song-map walk", "time": "15 minutes", "group": "Whole class", "materials": "Three stones, a chair for the palm, a mat for the stream", "steps": "Set out three landmarks in the room or the yard. Sing a short song-map together (‘three round stones, then the big chair…’) and walk it in a line, tapping ka-tum as you go. Let a child lead the next walk with new landmarks."},
+   {"title": "Follow the beat", "time": "5 minutes", "group": "Whole class", "materials": "A drum or a box", "steps": "Children close their eyes. One child taps ka-tum from a spot in the room; the others point to where the sound comes from. Take turns."},
+   {"title": "Ask an elder", "time": "Home, then 10 minutes in class", "group": "Individual", "materials": "The family note", "steps": "Children ask a grandparent or an older person at home for a song, game or saying from when they were little. Share them at circle time and make a class book of ‘old things we still need’."}
+  ],
+  "science": {
+   "text": "Tree pangolins live in the forests of West and Central Africa, including Ghana. They are covered in hard scales, climb with their tails and eat ants and termites. Pangolins are protected all over the world because people hunt and sell them. Fig trees are a lifesaver for forest animals because they often have fruit when little else does.",
+   "link": "/heroes/the-old-path-song",
+   "linkText": "Meet the real animals of the forest"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first or use the book in the child’s home language if we publish it. Teach the five words with their gestures. The refrain is a sound, so everyone can join in from day one."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 3, 6 and 9). Act out the song-map with real objects before reading so the landmarks make sense."},
+   {"who": "Mixed ages and older children", "how": "Older children make their own song-map of the way from the classroom to the gym or the yard, and teach it to a younger buddy."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Names an older person in their life who teaches them something."},
+   {"frame": "DLMB", "text": "Remembers the landmarks in order (stones, palm, stream, fig tree)."},
+   {"frame": "PSI", "text": "Explains how Ama used an old idea and a new idea together."},
+   {"frame": "SRWB", "text": "Follows a beat with their body or an instrument."}
+  ],
+  "care": [
+   "Some children don’t have grandparents nearby, or have lost one. Widen it to ‘an older person you know’: a neighbour, an aunt, a teacher.",
+   "Keep the hunger in the story gentle: the animals are hungry for a short time and there is plenty for everyone at the end.",
+   "Sankofa belongs to the Akan people of Ghana. Present it as their symbol, not as a craft to copy carelessly; if you have Ghanaian families in your class, invite them to share."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), un tambour ou une boîte, trois pierres, du papier grand format, des crayons de cire",
+  "summary": "Ama, une jeune pangolin d’une forêt du Ghana, adore la nouveauté et trouve ennuyeuse la vieille chanson que Nana chante chaque soir. Quand le vent sec arrive et que les fruits disparaissent, aucun de ses nouveaux chemins ne mène à la nourriture, et elle ne se souvient plus que d’un bout de la chanson. Elle choisit de revenir, demande à Nana de la chanter encore et écoute vraiment. En suivant les repères de la chanson, et en y ajoutant ses propres idées, elle guide les animaux affamés jusqu’à un figuier géant.",
+  "bigIdea": "Les anciens savent des choses dont nous avons encore besoin, et il n’est jamais trop tard pour revenir leur demander.",
+  "theme": "Il n’est jamais trop tard pour revenir chercher ce qu’on a laissé derrière soi.",
+  "refrain": "Ka-tum, ka-tum.",
+  "origin": "Le peuple akan du Ghana a un symbole appelé Sankofa : un oiseau qui avance en regardant en arrière, souvent avec un œuf dans le bec. Il vient d’un vieux proverbe : il n’est pas mal de revenir chercher ce qu’on a oublié. L’histoire garde cette idée et y ajoute son autre moitié : Ama emporte la vieille chanson vers l’avant, à sa manière.",
+  "words": [
+   {"word": "chemin", "meaning": "une petite piste sur laquelle on marche", "cue": "faites marcher deux doigts sur votre bras"},
+   {"word": "repère", "meaning": "quelque chose qu’on voit et qui aide à trouver son chemin, comme un gros rocher ou un arbre", "cue": "pointez au loin"},
+   {"word": "poussiéreux", "meaning": "plein de petits grains de terre sèche dans l’air", "cue": "agitez la main devant votre visage"},
+   {"word": "aller chercher", "meaning": "aller prendre quelque chose et le rapporter", "cue": "tendez le bras puis ramenez-le contre vous"},
+   {"word": "rythme", "meaning": "un son régulier qu’on peut suivre, comme un tambour", "cue": "tapez ka-tum sur votre genou"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Quel est cet animal ? En as-tu déjà vu un ? Que remarques-tu sur ses écailles et sa queue ?",
+   "Dites : Cette histoire parle de ce qu’on apprend de ceux qui sont venus avant nous, comme les grands-parents. Qui t’apprend de vieilles chansons, de vieux jeux ou de vieilles histoires ? Prenez trois ou quatre réponses.",
+   "Apprenez le refrain : tapez deux fois sur votre genou en disant « Ka-tum, ka-tum. » Demandez aux enfants de taper avec vous chaque fois qu’ils l’entendent."
+  ],
+  "pauses": [
+   {"spread": 2, "moment": "Ama adore les nouveaux chemins et les nouveaux jeux.", "ask": "Quelle nouvelle chose as-tu essayée ou trouvée cette semaine ?", "listen": "un nouveau jeu, un nouvel ami, un nouvel aliment"},
+   {"spread": 3, "moment": "Nana chante sa vieille chanson ; Ama bâille.", "ask": "Pourquoi Ama trouve-t-elle la chanson ennuyeuse ?", "listen": "elle est vieille, elle l’entend tous les soirs, elle aime la nouveauté"},
+   {"spread": 5, "moment": "Le vent sec arrive et Ama ne se souvient plus de la chanson.", "ask": "Comment se sentent les animaux maintenant ? Et Ama ?", "listen": "affamés, inquiets, désolée de ne pas avoir écouté", "probe": "Que pourrait faire Ama ?"},
+   {"spread": 6, "moment": "Ama décide de retourner chercher la chanson.", "ask": "Ses joues sont devenues brûlantes. Qu’est-ce que ça veut dire, à ton avis ?", "listen": "elle a honte, elle regrette, elle aurait voulu écouter"},
+   {"spread": 7, "moment": "Ama écoute vraiment ; Nana dit que la chanson vient de sa propre Nana.", "ask": "Quel âge a la chanson, à ton avis ?", "listen": "très vieille, plus vieille que Nana, d’il y a longtemps"},
+   {"spread": 8, "moment": "Ils suivent les repères de la chanson ; la poussière s’épaissit.", "ask": "Quel était le premier repère de la chanson ? T’en souviens-tu ?", "listen": "trois pierres rondes, puis le vieux palmier tordu, le ruisseau sec"},
+   {"spread": 9, "moment": "Ama tape un rythme sur ses écailles pour que tous la suivent.", "ask": "Le rythme, c’était une vieille idée ou une nouvelle idée ?", "listen": "nouvelle, c’était l’idée d’Ama", "probe": "Comment l’ancien et le nouveau ont-ils aidé ensemble ?"},
+   {"spread": 10, "moment": "Ama grimpe au-dessus de la poussière et voit le figuier.", "ask": "Pourquoi grimper l’a-t-il aidée à voir ?", "listen": "elle était au-dessus de la poussière, elle voyait loin"},
+   {"spread": 12, "moment": "La vieille chanson devient un nouveau jeu de mains.", "ask": "Qu’a fait Ama avec la vieille chanson à la fin ?", "listen": "un jeu, elle l’a apprise aux petits"}
+  ],
+  "after": [
+   {"q": "Pourquoi Ama trouvait-elle la vieille chanson ennuyeuse ?", "a": "Elle aimait la nouveauté et ne savait pas que la chanson était utile."},
+   {"q": "Comment s’est-elle sentie quand elle ne s’en souvenait plus ?", "a": "Inquiète, désolée, les joues brûlantes. Acceptez tous les mots d’émotion."},
+   {"q": "Quelles nouvelles idées Ama a-t-elle ajoutées à la vieille chanson ?", "a": "Le rythme sur ses écailles, grimper pour regarder, le jeu de mains."},
+   {"q": "Qui, dans ta famille, connaît de vieilles chansons ou de vieilles histoires ?", "a": "Toutes les réponses. Invitez les enfants à en apporter une."},
+   {"q": "Que voudrais-tu demander à un grand-parent ou à un ami plus âgé ?", "a": "Notez les questions sur une grande feuille pour les envoyer à la maison."}
+  ],
+  "activities": [
+   {"title": "La marche de la chanson-carte", "time": "15 minutes", "group": "Toute la classe", "materials": "Trois pierres, une chaise pour le palmier, un tapis pour le ruisseau", "steps": "Placez trois repères dans la classe ou la cour. Chantez ensemble une petite chanson-carte (« trois pierres rondes, puis la grande chaise… ») et suivez-la en file en tapant ka-tum. Laissez un enfant mener la marche suivante avec de nouveaux repères."},
+   {"title": "Suivre le rythme", "time": "5 minutes", "group": "Toute la classe", "materials": "Un tambour ou une boîte", "steps": "Les enfants ferment les yeux. Un enfant tape ka-tum depuis un coin de la classe ; les autres montrent d’où vient le son. Chacun son tour."},
+   {"title": "Demander à un aîné", "time": "À la maison, puis 10 minutes en classe", "group": "Individuel", "materials": "Le mot pour les familles", "steps": "Les enfants demandent à un grand-parent ou à une personne plus âgée une chanson, un jeu ou un dicton de son enfance. Partagez-les au cercle et faites un livre de classe des « vieilles choses dont on a encore besoin »."}
+  ],
+  "science": {
+   "text": "Les pangolins arboricoles vivent dans les forêts d’Afrique de l’Ouest et centrale, dont le Ghana. Ils sont couverts d’écailles dures, grimpent avec leur queue et mangent des fourmis et des termites. Les pangolins sont protégés dans le monde entier parce qu’on les chasse et qu’on les vend. Les figuiers sauvent les animaux de la forêt, car ils ont souvent des fruits quand il n’y a presque rien d’autre.",
+   "link": "/heroes/the-old-path-song",
+   "linkText": "Découvrir les vrais animaux de la forêt"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo ou lisez le livre dans la langue de l’enfant si nous la publions. Enseignez les cinq mots avec leurs gestes. Le refrain est un son : tout le monde peut le dire dès le premier jour."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 3, 6 et 9). Jouez la chanson-carte avec de vrais objets avant la lecture pour que les repères aient du sens."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands créent leur propre chanson-carte du chemin entre la classe et le gymnase ou la cour, et l’apprennent à un plus petit."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Nomme une personne plus âgée de sa vie qui lui apprend quelque chose."},
+   {"frame": "DLMB", "text": "Se souvient des repères dans l’ordre (pierres, palmier, ruisseau, figuier)."},
+   {"frame": "PSI", "text": "Explique comment Ama a utilisé une vieille idée et une nouvelle idée ensemble."},
+   {"frame": "SRWB", "text": "Suit un rythme avec son corps ou un instrument."}
+  ],
+  "care": [
+   "Certains enfants n’ont pas de grands-parents près d’eux ou en ont perdu un. Élargissez à « une personne plus âgée que tu connais » : un voisin, une tante, un enseignant.",
+   "Gardez la faim de l’histoire en douceur : les animaux ont faim peu de temps, et il y a assez pour tout le monde à la fin.",
+   "Sankofa appartient au peuple akan du Ghana. Présentez-le comme son symbole, pas comme un bricolage à copier à la légère ; si des familles ghanéennes sont dans votre classe, invitez-les à partager."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The Old Path Song, a story about learning from those who came before. Ama the pangolin finds out that her grandmother’s old song still holds what everyone needs. At home, ask your child to learn one song, game or saying from an older person in the family. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu une histoire sur ce que nous apprennent ceux qui sont venus avant nous : la petite pangolin découvre que la vieille chanson de sa grand-mère contient ce dont tout le monde a besoin. À la maison, aidez votre enfant à apprendre une chanson, un jeu ou un dicton d’une personne plus âgée de la famille. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre aprender de quienes vinieron antes: la pequeña pangolín descubre que la vieja canción de su abuela guarda lo que todos necesitan. En casa, ayude a su hijo o hija a aprender una canción, un juego o un dicho de una persona mayor de la familia. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte darüber gelesen, von denen zu lernen, die vor uns kamen: Das kleine Schuppentier entdeckt, dass das alte Lied seiner Großmutter genau das enthält, was alle brauchen. Helfen Sie Ihrem Kind zu Hause, ein Lied, ein Spiel oder einen Spruch von einem älteren Familienmitglied zu lernen. Die Geschichte gibt es kostenlos zum Lesen und Anschauen auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sull’imparare da chi è venuto prima di noi: la piccola pangolina scopre che la vecchia canzone della nonna contiene ciò di cui tutti hanno bisogno. A casa, aiutate vostro figlio o vostra figlia a imparare una canzone, un gioco o un detto da una persona più anziana della famiglia. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

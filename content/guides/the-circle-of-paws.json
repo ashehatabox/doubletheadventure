@@ -1,0 +1,141 @@
+{
+ "book": "the-circle-of-paws",
+ "version": 2,
+ "updated": "2026-11-12",
+ "frames": ["BC", "SRWB", "PSI", "DLMB"],
+ "en": {
+  "time": "About 30 minutes, plus activities",
+  "materials": "The book (or the class screen), a soft ball, a ball of yarn, small blocks or stones",
+  "summary": "Killa, a little chinchilla high in the Andes, is the fastest helper on a mountain where everybody helps everybody. But when anyone offers to help her, she says, ‘I can do it myself!’ After a hailstorm wrecks her burrow, she struggles alone all night, until her friend Sami the vicuña explains that helping is like playing catch: you have to let others throw back. Killa asks for help, finds that it feels warm, and later leads the whole mountain in digging out after the biggest snow, with even tiny Kinti the hummingbird giving what she can.",
+  "bigIdea": "Help goes around in a circle. Asking for help is brave, and letting others help you is a gift to them too.",
+  "theme": "Help is a circle. Let it come back around.",
+  "refrain": "Paw to paw, round and round!",
+  "origin": "In the Andes mountains of Peru and Bolivia, the Quechua and Aymara peoples have a word, ayni, for helping each other in turn: today I help you, tomorrow you help me. Families still take turns working in each other’s fields and building each other’s houses.",
+  "words": [
+   {"word": "help", "meaning": "to do something that makes a job easier for someone", "cue": "hold out both hands"},
+   {"word": "burrow", "meaning": "a hole in the ground where an animal lives", "cue": "cup your hands like a little cave"},
+   {"word": "hail", "meaning": "little balls of ice that fall from the sky", "cue": "tap your fingertips on the table"},
+   {"word": "circle", "meaning": "a round shape that goes all the way around", "cue": "draw a big circle in the air"},
+   {"word": "give", "meaning": "to offer something to someone", "cue": "push your open hands forward"}
+  ],
+  "before": [
+   "Show the cover. Ask: What animals do you see? Where do you think they live? What do you notice about the land?",
+   "Ask: Do you like to help? Is it ever hard to let someone help you? Take a few answers.",
+   "Teach the refrain: hold your neighbours’ hands and sway, or roll your hands round and round. ‘Paw to paw, round and round!’"
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Killa helps everyone but says ‘I can do it myself!’", "ask": "Why do you think Killa never lets anyone help her?", "listen": "she wants to be strong, she likes helping, she doesn’t want to bother anyone"},
+   {"spread": 4, "moment": "Sami’s ears droop.", "ask": "How does Sami feel when Killa says no?", "listen": "sad, left out, he wanted to help"},
+   {"spread": 5, "moment": "The hailstorm wrecks Killa’s burrow; she refuses help again.", "ask": "What would you do if you were Killa?", "listen": "ask for help, say yes to friends"},
+   {"spread": 6, "moment": "Sami: helping is like playing catch.", "ask": "What does Sami mean?", "listen": "you have to let others give back, both sides throw"},
+   {"spread": 7, "moment": "Being helped feels strange, then warm.", "ask": "How did being helped feel to Killa?", "listen": "strange at first, then warm, like a sweater"},
+   {"spread": 8, "moment": "‘Thank YOU, for letting us!’", "ask": "Why did the viscachas thank Killa?", "listen": "helping made them happy too"},
+   {"spread": 10, "moment": "Kinti says she is too small to help.", "ask": "What can Kinti give?", "listen": "she can fly high and see", "probe": "What can you give, even if you are small?"},
+   {"spread": 11, "moment": "Everyone gives and everyone receives.", "ask": "Who helped who on the mountain?", "listen": "everyone helped everyone"}
+  ],
+  "after": [
+   {"q": "Why do you think Killa never let anyone help her?", "a": "She wanted to do it herself, she liked being the helper."},
+   {"q": "How did Sami feel when she said no?", "a": "Sad, his ears drooped."},
+   {"q": "Why was asking for help hard for Killa?", "a": "It felt harder than lifting a stone; she wasn’t used to it."},
+   {"q": "What did Kinti have to give?", "a": "She could fly up high and see what the others couldn’t."},
+   {"q": "When is it hard for you to ask for help?", "a": "Any answer. Thank children for sharing."}
+  ],
+  "activities": [
+   {"title": "Yarn circle", "time": "10 minutes", "group": "Whole class", "materials": "A ball of yarn", "steps": "Sit in a circle. Hold the end, say one way you can help someone (‘I can carry the books’), and roll the yarn to a friend. Keep going until the circle is a web. Notice how every child is holding a part."},
+   {"title": "Catch game", "time": "5 minutes", "group": "Pairs", "materials": "A soft ball", "steps": "Play catch, then try a ‘Killa round’ where one partner only throws and never catches. Ask: Was that fun? What did the other person feel?"},
+   {"title": "Build a burrow together", "time": "15 minutes", "group": "Small groups", "materials": "Blocks or stones", "steps": "Each child brings one block to build a wall. Before adding a block, they ask the group, ‘Can you help me?’ or ‘Do you need help?’"}
+  ],
+  "science": {
+   "text": "Chinchillas live high in the Andes mountains of South America. They have some of the thickest fur of any animal and take baths in dust, not water. Vicuñas are wild relatives of the alpaca, with very fine wool; they were once almost gone and are now protected. Mountain viscachas live among the rocks, and the Andean hillstar is a hummingbird that can survive freezing nights by resting very still in rock nooks.",
+   "link": "/heroes/the-circle-of-paws",
+   "linkText": "Meet the real animals of the Andes"
+  },
+  "differentiation": [
+   {"who": "English and French learners", "how": "Watch the read-aloud first. Teach two key phrases with gestures: ‘Can you help me?’ and ‘Yes, please!’ Practise them in the burrow activity."},
+   {"who": "Children who need more support", "how": "Use three stops (spreads 3, 6 and 11). Act out ‘No, thank you’ and ‘Yes, please’ with puppets."},
+   {"who": "Mixed ages and older children", "how": "Older children make a ‘help circle’ chart for the class: who can help with what, and who might need help with what."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Asks a friend for help with words."},
+   {"frame": "SRWB", "text": "Accepts help without getting upset."},
+   {"frame": "PSI", "text": "Explains how Kinti helped even though she was small."},
+   {"frame": "DLMB", "text": "Notices the round shape of the circle and the yarn web."}
+  ],
+  "care": [
+   "Never count or score favours in class. The circle is about giving freely.",
+   "Some children are told at home to do things alone. Honour that they are strong, and show that asking is strong too.",
+   "Ayni belongs to the Quechua and Aymara peoples. Share it as their word and practice; keep it simple and respectful, and invite Andean families to share if they wish."
+  ]
+ },
+ "fr": {
+  "time": "Environ 30 minutes, plus les activités",
+  "materials": "Le livre (ou le tableau de la classe), une balle souple, une pelote de laine, des petits blocs ou des pierres",
+  "summary": "Killa, une petite chinchilla des Andes, est l’aide la plus rapide d’une montagne où tout le monde s’entraide. Mais quand on veut l’aider, elle répond : « Je peux le faire toute seule ! » Après une averse de grêle qui détruit son terrier, elle se débat seule toute la nuit, jusqu’à ce que son ami Sami la vigogne lui explique qu’aider, c’est comme jouer à la balle : il faut laisser les autres renvoyer. Killa demande de l’aide, découvre que c’est chaud au cœur, puis mène toute la montagne pour déblayer après la plus grosse neige, avec même la petite Kinti le colibri qui donne ce qu’elle peut.",
+  "bigIdea": "L’entraide tourne en rond. Demander de l’aide est courageux, et se laisser aider est aussi un cadeau pour les autres.",
+  "theme": "L’entraide est un cercle. Laisse-la revenir vers toi.",
+  "refrain": "De patte en patte, en rond, en rond !",
+  "origin": "Dans les Andes du Pérou et de la Bolivie, les peuples quechua et aymara ont un mot, ayni, pour s’aider chacun son tour : aujourd’hui je t’aide, demain tu m’aides. Les familles travaillent encore à tour de rôle dans les champs les unes des autres et construisent ensemble leurs maisons.",
+  "words": [
+   {"word": "aider", "meaning": "faire quelque chose qui rend la tâche plus facile pour quelqu’un", "cue": "tendez les deux mains"},
+   {"word": "terrier", "meaning": "un trou dans le sol où vit un animal", "cue": "faites une petite grotte avec vos mains"},
+   {"word": "grêle", "meaning": "des petites billes de glace qui tombent du ciel", "cue": "tapotez du bout des doigts sur la table"},
+   {"word": "cercle", "meaning": "une forme ronde qui fait tout le tour", "cue": "dessinez un grand cercle dans l’air"},
+   {"word": "donner", "meaning": "offrir quelque chose à quelqu’un", "cue": "poussez vos mains ouvertes vers l’avant"}
+  ],
+  "before": [
+   "Montrez la couverture. Demandez : Quels animaux vois-tu ? Où vivent-ils, à ton avis ? Que remarques-tu sur le paysage ?",
+   "Demandez : Aimes-tu aider ? Est-ce parfois difficile de laisser quelqu’un t’aider ? Prenez quelques réponses.",
+   "Apprenez le refrain : tenez la main de vos voisins et balancez-vous, ou faites tourner vos mains. « De patte en patte, en rond, en rond ! »"
+  ],
+  "pauses": [
+   {"spread": 3, "moment": "Killa aide tout le monde mais refuse toute aide.", "ask": "Pourquoi Killa ne laisse-t-elle jamais personne l’aider, à ton avis ?", "listen": "elle veut être forte, elle aime aider, elle ne veut déranger personne"},
+   {"spread": 4, "moment": "Les oreilles de Sami tombent.", "ask": "Comment Sami se sent-il quand Killa dit non ?", "listen": "triste, mis de côté, il voulait aider"},
+   {"spread": 5, "moment": "La grêle détruit le terrier ; Killa refuse encore.", "ask": "Que ferais-tu à la place de Killa ?", "listen": "demander de l’aide, dire oui aux amis"},
+   {"spread": 6, "moment": "Sami : aider, c’est comme jouer à la balle.", "ask": "Que veut dire Sami ?", "listen": "il faut laisser les autres donner aussi, les deux lancent"},
+   {"spread": 7, "moment": "Être aidée, c’est bizarre, puis chaud.", "ask": "Qu’a ressenti Killa en étant aidée ?", "listen": "bizarre au début, puis chaud, comme un pull"},
+   {"spread": 8, "moment": "Les viscaches la remercient de les avoir laissés aider.", "ask": "Pourquoi les viscaches remercient-elles Killa ?", "listen": "aider les a rendues heureuses aussi"},
+   {"spread": 10, "moment": "Kinti dit qu’elle est trop petite pour aider.", "ask": "Que peut donner Kinti ?", "listen": "elle peut voler haut et voir", "probe": "Que peux-tu donner, même si tu es petit ?"},
+   {"spread": 11, "moment": "Tout le monde donne et tout le monde reçoit.", "ask": "Qui a aidé qui sur la montagne ?", "listen": "tout le monde a aidé tout le monde"}
+  ],
+  "after": [
+   {"q": "Pourquoi Killa ne laissait-elle personne l’aider ?", "a": "Elle voulait tout faire seule, elle aimait être celle qui aide."},
+   {"q": "Comment Sami se sentait-il quand elle disait non ?", "a": "Triste, ses oreilles tombaient."},
+   {"q": "Pourquoi demander de l’aide était-il difficile pour Killa ?", "a": "C’était plus dur que de soulever une pierre ; elle n’avait pas l’habitude."},
+   {"q": "Qu’avait Kinti à donner ?", "a": "Elle pouvait voler haut et voir ce que les autres ne voyaient pas."},
+   {"q": "Quand est-ce difficile pour toi de demander de l’aide ?", "a": "Toutes les réponses. Remerciez les enfants de partager."}
+  ],
+  "activities": [
+   {"title": "Le cercle de laine", "time": "10 minutes", "group": "Toute la classe", "materials": "Une pelote de laine", "steps": "Asseyez-vous en cercle. Tenez le bout, dites une façon d’aider quelqu’un (« Je peux porter les livres ») et roulez la pelote vers un ami. Continuez jusqu’à former une toile. Remarquez que chaque enfant en tient une partie."},
+   {"title": "Jeu de balle", "time": "5 minutes", "group": "En duo", "materials": "Une balle souple", "steps": "Jouez à la balle, puis essayez un « tour Killa » où un partenaire lance sans jamais attraper. Demandez : Était-ce amusant ? Qu’a ressenti l’autre ?"},
+   {"title": "Construire un terrier ensemble", "time": "15 minutes", "group": "Petits groupes", "materials": "Des blocs ou des pierres", "steps": "Chaque enfant apporte un bloc pour construire un mur. Avant de poser son bloc, il demande au groupe : « Peux-tu m’aider ? » ou « As-tu besoin d’aide ? »"}
+  ],
+  "science": {
+   "text": "Les chinchillas vivent en haute altitude dans les Andes d’Amérique du Sud. Leur fourrure est l’une des plus épaisses du monde animal, et ils prennent des bains de poussière, pas d’eau. Les vigognes sont des cousines sauvages de l’alpaga, à la laine très fine ; elles ont presque disparu et sont aujourd’hui protégées. Les viscaches des montagnes vivent parmi les rochers, et le colibri des Andes survit aux nuits glaciales en restant immobile dans un creux de rocher.",
+   "link": "/heroes/the-circle-of-paws",
+   "linkText": "Découvrir les vrais animaux des Andes"
+  },
+  "differentiation": [
+   {"who": "Élèves qui apprennent le français ou l’anglais", "how": "Montrez d’abord la vidéo. Enseignez deux phrases avec des gestes : « Peux-tu m’aider ? » et « Oui, merci ! » Pratiquez-les pendant la construction du terrier."},
+   {"who": "Enfants qui ont besoin de plus de soutien", "how": "Faites trois arrêts (doubles pages 3, 6 et 11). Jouez « Non, merci » et « Oui, merci » avec des marionnettes."},
+   {"who": "Groupes multiâges et enfants plus grands", "how": "Les plus grands font une affiche « cercle d’entraide » pour la classe : qui peut aider pour quoi, et qui pourrait avoir besoin d’aide pour quoi."}
+  ],
+  "lookFors": [
+   {"frame": "BC", "text": "Demande de l’aide à un ami avec des mots."},
+   {"frame": "SRWB", "text": "Accepte de l’aide sans se fâcher."},
+   {"frame": "PSI", "text": "Explique comment Kinti a aidé même si elle était petite."},
+   {"frame": "DLMB", "text": "Remarque la forme ronde du cercle et de la toile de laine."}
+  ],
+  "care": [
+   "Ne comptez jamais les services rendus en classe. Le cercle, c’est donner librement.",
+   "Certains enfants apprennent à la maison à tout faire seuls. Reconnaissez leur force, et montrez que demander, c’est fort aussi.",
+   "L’ayni appartient aux peuples quechua et aymara. Présentez-le comme leur mot et leur pratique, simplement et avec respect, et invitez les familles andines à partager si elles le souhaitent."
+  ]
+ },
+ "letter": {
+  "en": "Today we read The Circle of Paws, a story about asking for help and letting others give. Killa the chinchilla loves helping, but she learns that saying ‘yes, please’ is brave and makes her friends happy too. At home, ask your child for help with something small, and let them ask you too. You can watch or read the story together for free at doubleadventure.ca.",
+  "fr": "Aujourd’hui, nous avons lu Le Cercle des pattes, une histoire sur l’art de demander de l’aide et de laisser les autres donner. Killa la chinchilla adore aider, mais elle apprend que dire « oui, merci » est courageux et rend aussi ses amis heureux. À la maison, demandez à votre enfant de vous aider pour une petite chose, et laissez-le vous demander aussi. Vous pouvez lire ou regarder l’histoire gratuitement sur doubleadventure.ca.",
+  "es": "Hoy leímos un cuento sobre pedir ayuda y dejar que otros den. Killa, la chinchilla, ama ayudar, pero aprende que decir «sí, por favor» es valiente y también hace felices a sus amigos. En casa, pida a su hijo o hija ayuda con algo pequeño, y deje que también le pida ayuda a usted. Pueden leer o ver el cuento gratis en doubleadventure.ca.",
+  "de": "Heute haben wir eine Geschichte darüber gelesen, um Hilfe zu bitten und andere geben zu lassen. Das Chinchilla Killa hilft gern, lernt aber, dass ‚Ja, bitte‘ mutig ist und auch die Freunde glücklich macht. Bitten Sie Ihr Kind zu Hause um Hilfe bei etwas Kleinem, und lassen Sie sich auch von ihm bitten. Die Geschichte gibt es kostenlos auf doubleadventure.ca.",
+  "it": "Oggi abbiamo letto una storia sul chiedere aiuto e lasciare che gli altri diano. Killa, il cincillà, adora aiutare, ma impara che dire «sì, grazie» è coraggioso e rende felici anche gli amici. A casa, chiedete a vostro figlio o vostra figlia di aiutarvi in qualcosa di piccolo, e lasciate che anche lui o lei chieda a voi. Potete leggere o guardare la storia gratis su doubleadventure.ca."
+ }
+}

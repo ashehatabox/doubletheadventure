@@ -481,7 +481,7 @@ module.exports = {
         ['Ensembles d\'immersion française', 'Tous les ensembles ci-dessus en français, avec les guides en français', 'Mêmes prix que les ensembles ci-dessus', '/shop'],
         ['Visites d\'auteurs', 'En ligne ou en personne : lecture, refrain, coloriage à rapporter', 'Écrivez-nous avec le formulaire ci-dessous']
       ],
-      note: 'Prix en dollars canadiens, livraison au Canada et aux États-Unis incluse. Livres en français, anglais, espagnol, allemand ou italien. Vous commandez pour plusieurs classes ou tout un conseil scolaire ? Demandez-nous un prix multi-classes.',
+      note: 'Prix en dollars canadiens, livraison au Canada et aux États-Unis incluse. Les ensembles arrivent en 3 à 4 semaines environ. Livres en français, anglais, espagnol, allemand ou italien. Vous commandez pour plusieurs classes ou tout un conseil scolaire ? Demandez-nous un prix multi-classes.',
       showBooks: true,
       formKind: 'quote',
       formTitle: 'Demander une soumission ou une visite'
@@ -498,7 +498,7 @@ module.exports = {
         ['Ensembles commandités', 'Une entreprise locale offre des livres à un centre, avec sa page de dédicace', 'Voir Partenaires']
       ],
       formKind: 'quote',
-      note: 'Prix en dollars canadiens, livraison au Canada et aux États-Unis incluse.',
+      note: 'Prix en dollars canadiens, livraison au Canada et aux États-Unis incluse. Les ensembles arrivent en 3 à 4 semaines environ.',
       showBooks: true,
       formTitle: 'Demander une soumission ou une heure du conte'
     },

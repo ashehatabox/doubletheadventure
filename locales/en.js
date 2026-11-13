@@ -481,7 +481,7 @@ module.exports = {
         ['French immersion sets', 'Any set above in French, with the French guides', 'Same prices as the sets above', '/shop'],
         ['Author visits', 'Virtual or in person: read-aloud, refrain, a coloring page to take home', 'Ask us with the form below']
       ],
-      note: 'Prices in Canadian dollars, shipping to Canada and the United States included. Books are English, French, Spanish, German or Italian. Ordering for several classrooms or a whole board? Ask us for a multi-class price.',
+      note: 'Prices in Canadian dollars, shipping to Canada and the United States included. Sets arrive in about 3 to 4 weeks. Books are English, French, Spanish, German or Italian. Ordering for several classrooms or a whole board? Ask us for a multi-class price.',
       showBooks: true,
       formKind: 'quote',
       formTitle: 'Ask for a quote or a visit'
@@ -498,7 +498,7 @@ module.exports = {
         ['Sponsored centre sets', 'A local business funds books for a centre, with its dedication page', 'See Partners']
       ],
       formKind: 'quote',
-      note: 'Prices in Canadian dollars, shipping to Canada and the United States included.',
+      note: 'Prices in Canadian dollars, shipping to Canada and the United States included. Sets arrive in about 3 to 4 weeks.',
       showBooks: true,
       formTitle: 'Ask for a quote or a storytime visit'
     },

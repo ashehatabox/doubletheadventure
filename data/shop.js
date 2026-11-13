@@ -38,7 +38,7 @@ module.exports = {
       title: { en: 'Classroom set: 5 books', fr: 'Ensemble de classe : 5 livres' },
       text: { en: 'Five paperbacks you choose (by value or by language), with the SEL pack for each book and a classroom licence. Shipping included.', fr: 'Cinq livres brochés au choix (par valeur ou par langue), avec la trousse SEL de chaque livre et une licence de classe. Livraison incluse.' },
       books: 5, choose: true,
-      priceCents: 5999
+      priceCents: 5499
     },
     {
       id: 'classroom-set-10',
@@ -47,7 +47,7 @@ module.exports = {
       title: { en: 'Classroom set: 10 books', fr: 'Ensemble de classe : 10 livres' },
       text: { en: 'Ten paperbacks you choose, with the SEL pack for each book and a classroom licence. Shipping included.', fr: 'Dix livres brochés au choix, avec la trousse SEL de chaque livre et une licence de classe. Livraison incluse.' },
       books: 10, choose: true,
-      priceCents: 10999
+      priceCents: 9999
     },
     {
       id: 'full-library',
@@ -56,7 +56,7 @@ module.exports = {
       title: { en: 'The whole library: 21 books', fr: 'Toute la collection : 21 livres' },
       text: { en: 'All 21 books in one language, all the SEL packs and a classroom licence. Shipping included.', fr: 'Les 21 livres dans une langue, toutes les trousses SEL et une licence de classe. Livraison incluse.' },
       books: 21, choose: true,
-      priceCents: 22999
+      priceCents: 19999
     }
   ]
 };

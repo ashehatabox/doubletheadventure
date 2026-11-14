@@ -314,7 +314,16 @@
    },
    "storyVsRealSrc": [
     "wiki-turtle"
-   ]
+   ],
+   "photo": {
+    "file": "tavi-photo.jpg",
+    "pexels": 39651176,
+    "by": "Kostas Dimopoulos",
+    "caption": {
+     "en": "A real European pond turtle",
+     "fr": "Une vraie cistude d'Europe"
+    }
+   }
   },
   {
    "id": "fern",
@@ -504,7 +513,16 @@
    },
    "storyVsRealSrc": [
     "mammal-hare"
-   ]
+   ],
+   "photo": {
+    "file": "fern-photo.jpg",
+    "pexels": 18470431,
+    "by": "Peter Kovesi",
+    "caption": {
+     "en": "A real European hare",
+     "fr": "Un vrai lièvre d'Europe"
+    }
+   }
   },
   {
    "id": "frogs",
@@ -680,7 +698,16 @@
    },
    "storyVsRealSrc": [
     "donau-frog"
-   ]
+   ],
+   "photo": {
+    "file": "frogs-photo.jpg",
+    "pexels": 18169902,
+    "by": "Denitsa Kireva",
+    "caption": {
+     "en": "An edible frog singing with its cheek balloons",
+     "fr": "Une grenouille verte qui chante avec ses sacs vocaux"
+    }
+   }
   },
   {
    "id": "hedgehog",
@@ -856,7 +883,16 @@
    },
    "storyVsRealSrc": [
     "wiki-hog"
-   ]
+   ],
+   "photo": {
+    "file": "hedgehog-photo.jpg",
+    "pexels": 36483715,
+    "by": "Nikola Tomasic",
+    "caption": {
+     "en": "A real European hedgehog",
+     "fr": "Un vrai hérisson d'Europe"
+    }
+   }
   },
   {
    "id": "duck",
@@ -1032,7 +1068,16 @@
    "storyVsRealSrc": [
     "crt-mallard",
     "sheff-mallard"
-   ]
+   ],
+   "photo": {
+    "file": "duck-photo.jpg",
+    "pexels": 5487720,
+    "by": "Omar Ramadan",
+    "caption": {
+     "en": "Real mallards, males and a female",
+     "fr": "De vrais colverts, des mâles et une femelle"
+    }
+   }
   }
  ],
  "activities": [

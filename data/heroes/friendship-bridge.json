@@ -311,7 +311,15 @@
    "storyVsRealSrc": [
     "aff-bv",
     "pbs-bv"
-   ]
+   ],
+   "photo": {
+    "file": "venny-photo.jpg",
+    "pexels": 6920878,
+    "caption": {
+     "en": "A real North American beaver",
+     "fr": "Un vrai castor du Canada"
+    }
+   }
   },
   {
    "id": "sammy",
@@ -487,7 +495,16 @@
    },
    "storyVsRealSrc": [
     "ua-rs"
-   ]
+   ],
+   "photo": {
+    "file": "sammy-photo.jpg",
+    "pexels": 7872688,
+    "by": "Aaron J. Hill",
+    "caption": {
+     "en": "A real American red squirrel",
+     "fr": "Un vrai écureuil roux d'Amérique"
+    }
+   }
   }
  ],
  "activities": [

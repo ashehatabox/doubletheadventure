@@ -484,7 +484,15 @@
    },
    "storyVsRealSrc": [
     "kbb-bee"
-   ]
+   ],
+   "photo": {
+    "file": "bella-photo.jpg",
+    "pexels": 36195873,
+    "caption": {
+     "en": "A honey bee on yellow flowers",
+     "fr": "Une abeille mellifère sur des fleurs jaunes"
+    }
+   }
   },
   {
    "id": "scorpion",

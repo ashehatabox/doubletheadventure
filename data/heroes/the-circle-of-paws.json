@@ -346,6 +346,14 @@
       ],
       "storyVsReal": {
         "en": "Real chinchillas are quick, springy jumpers, just like Killa. But a real one would be fast asleep at noon. Killa is a daytime chinchilla, just for the story."
+      },
+      "photo": {
+        "file": "killa-photo.jpg",
+        "pexels": 4547058,
+        "caption": {
+          "en": "A pet chinchilla",
+          "fr": "Un chinchilla de compagnie"
+        }
       }
     },
     {
@@ -574,6 +582,14 @@
       ],
       "storyVsReal": {
         "en": "Real vicuñas don't wear ear tassels: Sami's red tassel makes him easy to spot on every page. And a real vicuña would be out with his whole family."
+      },
+      "photo": {
+        "file": "sami-photo.jpg",
+        "pexels": 16971404,
+        "caption": {
+          "en": "A wild vicuña in the Andes",
+          "fr": "Une vigogne sauvage dans les Andes"
+        }
       }
     },
     {
@@ -937,7 +953,16 @@
       },
       "storyVsRealSrc": [
         "grzimek"
-      ]
+      ],
+      "photo": {
+        "file": "viscachas-photo.jpg",
+        "pexels": 18893149,
+        "by": "Carlos Corco",
+        "caption": {
+          "en": "A real viscacha on a sunny rock",
+          "fr": "Une vraie viscache sur un rocher au soleil"
+        }
+      }
     },
     {
       "id": "guinea-pigs",

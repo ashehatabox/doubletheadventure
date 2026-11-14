@@ -342,7 +342,15 @@
       "storyVsRealSrc": [
         "sdz-porc",
         "coppola"
-      ]
+      ],
+      "photo": {
+        "file": "quilla-photo.jpg",
+        "pexels": 14702339,
+        "caption": {
+          "en": "A real crested porcupine",
+          "fr": "Un vrai porc-épic à crête"
+        }
+      }
     },
     {
       "id": "bodie",
@@ -531,7 +539,16 @@
       },
       "storyVsRealSrc": [
         "mammal-badger-sheet"
-      ]
+      ],
+      "photo": {
+        "file": "bodie-photo.jpg",
+        "pexels": 34818485,
+        "by": "Georg Wietschorke",
+        "caption": {
+          "en": "A European badger in a German forest",
+          "fr": "Un blaireau européen dans une forêt allemande"
+        }
+      }
     },
     {
       "id": "hazel",
@@ -707,7 +724,16 @@
       },
       "storyVsRealSrc": [
         "wa-squirrel"
-      ]
+      ],
+      "photo": {
+        "file": "hazel-photo.jpg",
+        "pexels": 31330872,
+        "by": "Valentin",
+        "caption": {
+          "en": "A red squirrel in Berlin, Germany",
+          "fr": "Un écureuil roux à Berlin, en Allemagne"
+        }
+      }
     },
     {
       "id": "thimble",
@@ -882,7 +908,15 @@
       },
       "storyVsRealSrc": [
         "bwc-mouse"
-      ]
+      ],
+      "photo": {
+        "file": "thimble-photo.jpg",
+        "pexels": 345736,
+        "caption": {
+          "en": "A real wood mouse in England",
+          "fr": "Un vrai mulot sylvestre en Angleterre"
+        }
+      }
     },
     {
       "id": "mossy",
@@ -1058,7 +1092,16 @@
       "storyVsRealSrc": [
         "wlo-mole",
         "ptw-mole"
-      ]
+      ],
+      "photo": {
+        "file": "mossy-photo.jpg",
+        "pexels": 23731650,
+        "by": "Nikola Tomasic",
+        "caption": {
+          "en": "A real European mole",
+          "fr": "Une vraie taupe d'Europe"
+        }
+      }
     },
     {
       "id": "twins",
@@ -1235,7 +1278,16 @@
       "storyVsRealSrc": [
         "wildwood-rabbit",
         "wti"
-      ]
+      ],
+      "photo": {
+        "file": "twins-photo.jpg",
+        "pexels": 19535575,
+        "by": "Maria Argiroudaki",
+        "caption": {
+          "en": "Two wild rabbits on Gotland, Sweden",
+          "fr": "Deux lapins sauvages sur l'île de Gotland, en Suède"
+        }
+      }
     }
   ],
   "activities": [

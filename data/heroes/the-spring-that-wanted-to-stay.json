@@ -314,7 +314,15 @@
    },
    "storyVsRealSrc": [
     "crt-otter"
-   ]
+   ],
+   "photo": {
+    "file": "otters-photo.jpg",
+    "pexels": 13886525,
+    "caption": {
+     "en": "A Eurasian otter in the Netherlands",
+     "fr": "Une loutre d'Europe aux Pays-Bas"
+    }
+   }
   },
   {
    "id": "heron",
@@ -490,7 +498,16 @@
    },
    "storyVsRealSrc": [
     "kent-heron"
-   ]
+   ],
+   "photo": {
+    "file": "heron-photo.jpg",
+    "pexels": 37397129,
+    "by": "Karl Byron",
+    "caption": {
+     "en": "A real grey heron",
+     "fr": "Un vrai héron cendré"
+    }
+   }
   },
   {
    "id": "bees",
@@ -842,7 +859,15 @@
    },
    "storyVsRealSrc": [
     "adw-frog"
-   ]
+   ],
+   "photo": {
+    "file": "frogs-photo.jpg",
+    "pexels": 34983525,
+    "caption": {
+     "en": "A real common frog",
+     "fr": "Une vraie grenouille rousse"
+    }
+   }
   }
  ],
  "activities": [

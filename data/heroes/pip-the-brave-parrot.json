@@ -313,7 +313,15 @@
    },
    "storyVsRealSrc": [
     "pango"
-   ]
+   ],
+   "photo": {
+    "file": "pip-photo.jpg",
+    "pexels": 11615619,
+    "caption": {
+     "en": "A real sun conure",
+     "fr": "Une vraie conure soleil"
+    }
+   }
   },
   {
    "id": "tanagers",
@@ -489,7 +497,16 @@
    },
    "storyVsRealSrc": [
     "wiki-tanager"
-   ]
+   ],
+   "photo": {
+    "file": "tanagers-photo.jpg",
+    "pexels": 32847276,
+    "by": "Veronika Andrews",
+    "caption": {
+     "en": "A real blue-gray tanager",
+     "fr": "Un vrai tangara évêque"
+    }
+   }
   },
   {
    "id": "toucan",
@@ -664,7 +681,15 @@
    },
    "storyVsRealSrc": [
     "wa-toucan"
-   ]
+   ],
+   "photo": {
+    "file": "toucan-photo.jpg",
+    "pexels": 36938292,
+    "caption": {
+     "en": "A real toco toucan",
+     "fr": "Un vrai toucan toco"
+    }
+   }
   },
   {
    "id": "sloth",
@@ -826,7 +851,16 @@
    },
    "storyVsRealSrc": [
     "mf-sloth"
-   ]
+   ],
+   "photo": {
+    "file": "sloth-photo.jpg",
+    "pexels": 20673920,
+    "by": "David Gomez",
+    "caption": {
+     "en": "A brown-throated sloth, one of the three-toed sloths",
+     "fr": "Un paresseux à gorge brune, l'un des paresseux à trois doigts"
+    }
+   }
   },
   {
    "id": "macaws",
@@ -1002,7 +1036,16 @@
    },
    "storyVsRealSrc": [
     "wiki-macaw"
-   ]
+   ],
+   "photo": {
+    "file": "macaws-photo.jpg",
+    "pexels": 6747068,
+    "by": "Alexis Blazquez",
+    "caption": {
+     "en": "Two real scarlet macaws",
+     "fr": "Deux vrais aras rouges"
+    }
+   }
   }
  ],
  "activities": [

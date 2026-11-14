@@ -340,7 +340,15 @@
       "storyVsRealSrc": [
         "bristol",
         "pbs"
-      ]
+      ],
+      "photo": {
+        "file": "langa-photo.jpg",
+        "pexels": 26582999,
+        "caption": {
+          "en": "A giraffe in South Africa",
+          "fr": "Une girafe en Afrique du Sud"
+        }
+      }
     },
     {
       "id": "themba",
@@ -527,7 +535,16 @@
       },
       "storyVsRealSrc": [
         "adw-meerkat"
-      ]
+      ],
+      "photo": {
+        "file": "themba-photo.jpg",
+        "pexels": 13038541,
+        "by": "Lindsay Morrison",
+        "caption": {
+          "en": "Two real meerkats",
+          "fr": "Deux vrais suricates"
+        }
+      }
     },
     {
       "id": "kulu",
@@ -704,7 +721,15 @@
       },
       "storyVsRealSrc": [
         "lvzoo"
-      ]
+      ],
+      "photo": {
+        "file": "kulu-photo.jpg",
+        "pexels": 8058293,
+        "caption": {
+          "en": "A leopard tortoise in South Africa",
+          "fr": "Une tortue léopard en Afrique du Sud"
+        }
+      }
     },
     {
       "id": "chicks",
@@ -883,7 +908,16 @@
       },
       "storyVsRealSrc": [
         "adw-gf"
-      ]
+      ],
+      "photo": {
+        "file": "chicks-photo.jpg",
+        "pexels": 5510972,
+        "by": "Mike van Schoonderwalt",
+        "caption": {
+          "en": "Grown-up helmeted guineafowl",
+          "fr": "Des pintades de Numidie adultes"
+        }
+      }
     },
     {
       "id": "warthogs",
@@ -1061,7 +1095,16 @@
       "storyVsRealSrc": [
         "sdz-warthog",
         "safariwest-wh"
-      ]
+      ],
+      "photo": {
+        "file": "warthogs-photo.jpg",
+        "pexels": 38191377,
+        "by": "Newton Jabez",
+        "caption": {
+          "en": "A real common warthog",
+          "fr": "Un vrai phacochère commun"
+        }
+      }
     }
   ],
   "activities": [

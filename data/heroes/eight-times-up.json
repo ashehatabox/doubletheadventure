@@ -516,7 +516,15 @@
    },
    "storyVsRealSrc": [
     "adw-macaque"
-   ]
+   ],
+   "photo": {
+    "file": "taro-photo.jpg",
+    "pexels": 8553809,
+    "caption": {
+     "en": "Japanese macaques huddled in the snow in Nagano, Japan",
+     "fr": "Des macaques japonais serrés dans la neige, à Nagano, au Japon"
+    }
+   }
   },
   {
    "id": "hina",
@@ -729,7 +737,16 @@
    "storyVsRealSrc": [
     "nippon-raicho",
     "norikura"
-   ]
+   ],
+   "photo": {
+    "file": "hina-photo.jpg",
+    "pexels": 13299693,
+    "by": "Jos van Ouwerkerk",
+    "caption": {
+     "en": "A grown-up rock ptarmigan in white winter feathers",
+     "fr": "Un lagopède alpin adulte, en plumes blanches d'hiver"
+    }
+   }
   }
  ],
  "activities": [

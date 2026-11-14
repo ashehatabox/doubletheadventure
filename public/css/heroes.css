@@ -187,3 +187,22 @@ html, body { overflow-x: clip; }
 .hg-cast-card:active, .hg-index-card:active { transform: translateY(0) scale(.98); }
 .hg-faq summary:active, .hg-all-src summary:active { opacity: .8; }
 .hg-src a:active, .hg-card-src:active { color: var(--coral-dark); }
+
+/* Book picture / real photo switch on the hero file card */
+.hg-pic { margin-bottom: 16px; }
+.hg-pic-tabs { display: none; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; margin-bottom: 12px; background: var(--hg-tint); border-radius: 999px; }
+.hg-pic.is-ready .hg-pic-tabs { display: grid; }
+.hg-pic-tabs button { font: 800 15px var(--sans); color: var(--ink); background: none; border: 0; border-radius: 999px; padding: 10px 8px; min-height: 44px; cursor: pointer; }
+.hg-pic-tabs button[aria-pressed="true"] { background: var(--white); box-shadow: 0 2px 8px rgba(74, 52, 38, .15); }
+.hg-pic-tabs button:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+.hg-pic-frame { position: relative; aspect-ratio: 1; }
+.hg-pic-frame .hg-id-img { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; transition: opacity .35s ease, transform .45s ease; backface-visibility: hidden; }
+.hg-pic-badge { position: absolute; left: 12px; bottom: 12px; padding: 4px 12px; border-radius: 999px; background: var(--white); color: var(--ink); font: 800 13px var(--sans); box-shadow: 0 2px 8px rgba(0, 0, 0, .2); transition: opacity .35s ease; }
+.hg-pic[data-view="book"] .hg-pic-real { opacity: 0; transform: rotateY(-90deg); pointer-events: none; }
+.hg-pic[data-view="real"] .hg-pic-book { opacity: 0; transform: rotateY(90deg); pointer-events: none; }
+.hg-pic[data-view="book"] .hg-pic-badge, .hg-pic[data-view="book"] .hg-pic-credit { display: none; }
+.hg-pic-credit { margin: 8px 0 0; font-size: 13px; line-height: 1.4; color: var(--ink-soft); }
+.hg-pic-credit a { color: var(--ink-soft); }
+@media (max-width: 960px) { .hg-id .hg-pic { grid-row: span 4; margin-bottom: 0; } .hg-pic-tabs button { font-size: 13px; padding: 8px 4px; } }
+@media (max-width: 640px) { .hg-id .hg-pic { margin-bottom: 16px; } .hg-pic-tabs button { font-size: 15px; padding: 10px 8px; } }
+@media (prefers-reduced-motion: reduce) { .hg-pic-frame .hg-id-img { transition: none; transform: none !important; } }

@@ -663,7 +663,15 @@
    },
    "storyVsRealSrc": [
     "ll-gw"
-   ]
+   ],
+   "photo": {
+    "file": "oldglow-photo.jpg",
+    "pexels": 15533243,
+    "caption": {
+     "en": "A glow-worm larva eating a slug",
+     "fr": "Une larve de ver luisant qui mange une limace"
+    }
+   }
   },
   {
    "id": "cricket",
@@ -1012,7 +1020,15 @@
    },
    "storyVsRealSrc": [
     "mammal-mouse"
-   ]
+   ],
+   "photo": {
+    "file": "mice-photo.jpg",
+    "pexels": 345736,
+    "caption": {
+     "en": "A real wood mouse in England",
+     "fr": "Un vrai mulot sylvestre en Angleterre"
+    }
+   }
   }
  ],
  "activities": [

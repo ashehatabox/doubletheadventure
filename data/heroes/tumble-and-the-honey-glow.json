@@ -290,7 +290,16 @@
       "storyVsRealSrc": [
         "doi-katmai",
         "nps-katm-hib"
-      ]
+      ],
+      "photo": {
+        "file": "tumble-photo.jpg",
+        "pexels": 38845917,
+        "by": "Maxime Max",
+        "caption": {
+          "en": "A young brown bear in a Romanian forest",
+          "fr": "Un jeune ours brun dans une forêt de Roumanie"
+        }
+      }
     },
     {
       "id": "zuzu",
@@ -482,7 +491,15 @@
       },
       "storyVsRealSrc": [
         "psu-seasons"
-      ]
+      ],
+      "photo": {
+        "file": "zuzu-photo.jpg",
+        "pexels": 27418555,
+        "caption": {
+          "en": "A honeybee on a yellow flower",
+          "fr": "Une abeille mellifère sur une fleur jaune"
+        }
+      }
     },
     {
       "id": "mama-bear",
@@ -658,7 +675,16 @@
       },
       "storyVsRealSrc": [
         "adw-bear"
-      ]
+      ],
+      "photo": {
+        "file": "mama-bear-photo.jpg",
+        "pexels": 9580459,
+        "by": "Andrey Dvoretskiy",
+        "caption": {
+          "en": "A real brown bear",
+          "fr": "Un vrai ours brun"
+        }
+      }
     },
     {
       "id": "hedgehog",
@@ -836,7 +862,16 @@
       },
       "storyVsRealSrc": [
         "mammal-hog"
-      ]
+      ],
+      "photo": {
+        "file": "hedgehog-photo.jpg",
+        "pexels": 39211975,
+        "by": "Aleksei Alimenko",
+        "caption": {
+          "en": "A real European hedgehog",
+          "fr": "Un vrai hérisson d'Europe"
+        }
+      }
     },
     {
       "id": "hare",
@@ -1016,7 +1051,16 @@
       "storyVsRealSrc": [
         "ypte-hare-print",
         "adw-hare"
-      ]
+      ],
+      "photo": {
+        "file": "hare-photo.jpg",
+        "pexels": 33890773,
+        "by": "Geraldine",
+        "caption": {
+          "en": "A European hare in France",
+          "fr": "Un lièvre d'Europe en France"
+        }
+      }
     },
     {
       "id": "squirrel",
@@ -1195,7 +1239,16 @@
       },
       "storyVsRealSrc": [
         "woodland-squirrel"
-      ]
+      ],
+      "photo": {
+        "file": "squirrel-photo.jpg",
+        "pexels": 31330872,
+        "by": "Valentin",
+        "caption": {
+          "en": "A red squirrel in Berlin, Germany",
+          "fr": "Un écureuil roux à Berlin, en Allemagne"
+        }
+      }
     }
   ],
   "activities": [

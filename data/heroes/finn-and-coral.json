@@ -485,7 +485,15 @@
    },
    "storyVsRealSrc": [
     "oi-dolphin"
-   ]
+   ],
+   "photo": {
+    "file": "dolphin-photo.jpg",
+    "pexels": 39972152,
+    "caption": {
+     "en": "Two bottlenose dolphins near Cancún, Mexico",
+     "fr": "Deux grands dauphins près de Cancún, au Mexique"
+    }
+   }
   },
   {
    "id": "turtle",
@@ -661,7 +669,15 @@
    },
    "storyVsRealSrc": [
     "ip-bnmp"
-   ]
+   ],
+   "photo": {
+    "file": "turtle-photo.jpg",
+    "pexels": 6310392,
+    "caption": {
+     "en": "A green sea turtle in the British Virgin Islands",
+     "fr": "Une tortue verte aux îles Vierges britanniques"
+    }
+   }
   },
   {
    "id": "octopus",

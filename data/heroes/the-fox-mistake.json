@@ -299,7 +299,16 @@
    },
    "storyVsRealSrc": [
     "ngk-rf"
-   ]
+   ],
+   "photo": {
+    "file": "felix-photo.jpg",
+    "pexels": 23914490,
+    "by": "Tomáš Malík",
+    "caption": {
+     "en": "A real red fox",
+     "fr": "Un vrai renard roux"
+    }
+   }
   },
   {
    "id": "finn",
@@ -474,7 +483,16 @@
    },
    "storyVsRealSrc": [
     "aw-gf"
-   ]
+   ],
+   "photo": {
+    "file": "finn-photo.jpg",
+    "pexels": 33810788,
+    "by": "Richard Block",
+    "caption": {
+     "en": "A gray fox in Santa Barbara, California",
+     "fr": "Un renard gris à Santa Barbara, en Californie"
+    }
+   }
   }
  ],
  "activities": [

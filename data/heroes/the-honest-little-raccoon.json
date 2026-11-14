@@ -299,7 +299,16 @@
    },
    "storyVsRealSrc": [
     "pbs-rac2"
-   ]
+   ],
+   "photo": {
+    "file": "riley-photo.jpg",
+    "pexels": 25711231,
+    "by": "Chris F",
+    "caption": {
+     "en": "A raccoon peeking out of a tree hole",
+     "fr": "Un raton laveur qui sort la tête d'un trou d'arbre"
+    }
+   }
   },
   {
    "id": "benny",
@@ -475,7 +484,15 @@
    "storyVsRealSrc": [
     "ctr-rac",
     "tce-rac"
-   ]
+   ],
+   "photo": {
+    "file": "benny-photo.jpg",
+    "pexels": 14050298,
+    "caption": {
+     "en": "Two real raccoons on a log",
+     "fr": "Deux vrais ratons laveurs sur un tronc"
+    }
+   }
   },
   {
    "id": "maggie",
@@ -651,7 +668,15 @@
    "storyVsRealSrc": [
     "nw-pig",
     "bf-pig"
-   ]
+   ],
+   "photo": {
+    "file": "maggie-photo.jpg",
+    "pexels": 12905388,
+    "caption": {
+     "en": "A real rock pigeon",
+     "fr": "Un vrai pigeon biset"
+    }
+   }
   }
  ],
  "activities": [

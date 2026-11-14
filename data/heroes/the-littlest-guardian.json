@@ -343,7 +343,15 @@
    "storyVsRealSrc": [
     "nzbo-penguin",
     "vic-penguin"
-   ]
+   ],
+   "photo": {
+    "file": "tama-photo.jpg",
+    "pexels": 11934274,
+    "caption": {
+     "en": "A real little penguin",
+     "fr": "Un vrai manchot pygmée"
+    }
+   }
   },
   {
    "id": "aroha",
@@ -728,7 +736,15 @@
    },
    "storyVsRealSrc": [
     "vic-penguin"
-   ]
+   ],
+   "photo": {
+    "file": "chicks-photo.jpg",
+    "pexels": 28832448,
+    "caption": {
+     "en": "A grown-up little penguin",
+     "fr": "Un manchot pygmée adulte"
+    }
+   }
   }
  ],
  "activities": [

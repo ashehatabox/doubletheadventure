@@ -298,7 +298,16 @@
    },
    "storyVsRealSrc": [
     "wat-cat"
-   ]
+   ],
+   "photo": {
+    "file": "whiskers-photo.jpg",
+    "pexels": 36344564,
+    "by": "Yuliia Patrikhalkina",
+    "caption": {
+     "en": "A real grey house cat",
+     "fr": "Un vrai chat gris"
+    }
+   }
   },
   {
    "id": "mittens",
@@ -474,7 +483,15 @@
    },
    "storyVsRealSrc": [
     "pv-orange"
-   ]
+   ],
+   "photo": {
+    "file": "mittens-photo.jpg",
+    "pexels": 13677525,
+    "caption": {
+     "en": "A real orange tabby cat",
+     "fr": "Un vrai chat roux tigré"
+    }
+   }
   },
   {
    "id": "shadow",
@@ -649,7 +666,15 @@
    },
    "storyVsRealSrc": [
     "arc-tux"
-   ]
+   ],
+   "photo": {
+    "file": "shadow-photo.jpg",
+    "pexels": 37228040,
+    "caption": {
+     "en": "A real tuxedo cat",
+     "fr": "Un vrai chat « smoking »"
+    }
+   }
   },
   {
    "id": "monarch",
@@ -825,7 +850,16 @@
    },
    "storyVsRealSrc": [
     "tnc-mon"
-   ]
+   ],
+   "photo": {
+    "file": "monarch-photo.jpg",
+    "pexels": 29295511,
+    "by": "Pete Weiler",
+    "caption": {
+     "en": "A monarch butterfly on a thistle",
+     "fr": "Un monarque sur un chardon"
+    }
+   }
   }
  ],
  "activities": [

@@ -354,7 +354,16 @@
    "storyVsRealSrc": [
     "birdfact",
     "rspb-hoopoe"
-   ]
+   ],
+   "photo": {
+    "file": "kemi-photo.jpg",
+    "pexels": 30802851,
+    "by": "Regan D'Souza",
+    "caption": {
+     "en": "A real Eurasian hoopoe",
+     "fr": "Une vraie huppe fasciée"
+    }
+   }
   },
   {
    "id": "sabu",
@@ -778,7 +787,16 @@
    },
    "storyVsRealSrc": [
     "adw-kingfisher"
-   ]
+   ],
+   "photo": {
+    "file": "kingfisher-photo.jpg",
+    "pexels": 23884269,
+    "by": "Timon Cornelissen",
+    "caption": {
+     "en": "A real pied kingfisher",
+     "fr": "Un vrai martin-pêcheur pie"
+    }
+   }
   },
   {
    "id": "frogs",

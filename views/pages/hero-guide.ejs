@@ -106,7 +106,23 @@
   <section id="<%= c.id %>" class="section hg-file hg-c-<%= c.colour %>" aria-labelledby="<%= c.id %>-h">
     <div class="wrap hg-file-grid">
       <aside class="hg-id">
+        <% const photo = c.photo && img(c.photo.file); %>
+        <% if (photo && img(c.image)) { %>
+        <div class="hg-pic" data-hg-pic data-view="book">
+          <div class="hg-pic-tabs" role="group" aria-label="<%= t('heroes.picLabel') %>">
+            <button type="button" aria-pressed="true" data-v="book"><%= t('heroes.picBook') %></button>
+            <button type="button" aria-pressed="false" data-v="real"><%= t('heroes.picReal') %></button>
+          </div>
+          <div class="hg-pic-frame">
+            <%- portrait(c, 'hg-id-img hg-pic-book') %>
+            <img class="hg-id-img hg-pic-real" src="<%= photo %>" alt="<%= P(c.photo.caption) %>" loading="lazy" width="960" height="960">
+            <span class="hg-pic-badge" aria-hidden="true"><%= t('heroes.picBadge') %></span>
+          </div>
+          <p class="hg-pic-credit" <%- fallback(c.photo.caption) %>><%= P(c.photo.caption) %>. <%= t('heroes.photo') %>: <a href="https://www.pexels.com/photo/<%= c.photo.pexels %>/" rel="noopener" target="_blank"><%= c.photo.by ? t('heroes.photoBy').replace('{name}', c.photo.by) : 'Pexels' %></a></p>
+        </div>
+        <% } else { %>
         <%- portrait(c, 'hg-id-img') %>
+        <% } %>
         <p class="hg-id-role"><%= t('heroes.roles')[c.role] %></p>
         <h2 class="h2" id="<%= c.id %>-h" <%- fallback(c.name) %>><%= P(c.name) %></h2>
         <p class="hg-id-animal" <%- fallback(c.animal) %>><%= P(c.animal) %></p>

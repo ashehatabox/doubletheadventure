@@ -296,7 +296,16 @@
    },
    "storyVsRealSrc": [
     "ved-ew"
-   ]
+   ],
+   "photo": {
+    "file": "worm-photo.jpg",
+    "pexels": 7670144,
+    "by": "Leni",
+    "caption": {
+     "en": "A real earthworm",
+     "fr": "Un vrai ver de terre"
+    }
+   }
   },
   {
    "id": "sparrow",
@@ -471,7 +480,15 @@
    },
    "storyVsRealSrc": [
     "wiki-ss"
-   ]
+   ],
+   "photo": {
+    "file": "sparrow-photo.jpg",
+    "pexels": 21568573,
+    "caption": {
+     "en": "A real song sparrow",
+     "fr": "Un vrai bruant chanteur"
+    }
+   }
   },
   {
    "id": "deer",
@@ -658,7 +675,15 @@
    },
    "storyVsRealSrc": [
     "ngt-wtd"
-   ]
+   ],
+   "photo": {
+    "file": "deer-photo.jpg",
+    "pexels": 38660942,
+    "caption": {
+     "en": "A young white-tailed deer",
+     "fr": "Un jeune cerf de Virginie"
+    }
+   }
   },
   {
    "id": "squirrel",
@@ -834,7 +859,16 @@
    },
    "storyVsRealSrc": [
     "wiki-rs"
-   ]
+   ],
+   "photo": {
+    "file": "squirrel-photo.jpg",
+    "pexels": 14620930,
+    "by": "Aaron J. Hill",
+    "caption": {
+     "en": "An American red squirrel in winter",
+     "fr": "Un écureuil roux d'Amérique en hiver"
+    }
+   }
   },
   {
    "id": "bluebird",
@@ -1010,7 +1044,16 @@
    },
    "storyVsRealSrc": [
     "bf-eb"
-   ]
+   ],
+   "photo": {
+    "file": "bluebird-photo.jpg",
+    "pexels": 12204630,
+    "by": "Skyler Ewing",
+    "caption": {
+     "en": "A real eastern bluebird",
+     "fr": "Un vrai merlebleu de l'Est"
+    }
+   }
   }
  ],
  "activities": [

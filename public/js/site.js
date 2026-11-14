@@ -1,5 +1,17 @@
 // Small progressive enhancements. Every form and filter also works without JavaScript.
 (function () {
+  // Hero file cards: switch between the book picture and a real photo of the animal.
+  document.querySelectorAll('[data-hg-pic]').forEach(function (box) {
+    var buttons = box.querySelectorAll('[data-v]');
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () {
+        box.setAttribute('data-view', b.getAttribute('data-v'));
+        buttons.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      });
+    });
+    box.classList.add('is-ready');
+  });
+
   // Forms send in the background and show their thank-you line in place.
   document.querySelectorAll('form[data-ajax]').forEach(function (form) {
     form.addEventListener('submit', function (e) {

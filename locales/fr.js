@@ -754,7 +754,7 @@ module.exports = {
     steps: [
       { title: 'Un souhait est partagé', text: 'Quelqu\'un nous confie une valeur qu\'il aimerait voir comprise par les enfants : attendre son tour, demander pardon, demander de l\'aide, finir ce qu\'on commence.' },
       { title: 'Nous cherchons ses racines', text: 'Nous cherchons où cette valeur vit dans une culture ancienne : un dicton, une coutume ou un conte qui la porte depuis des générations.' },
-      { title: 'Un nouveau héros naît', text: 'Un petit animal fait face à un vrai problème et choisit la valeur par lui-même. Un lecteur de cette culture relit le livre avant sa publication.' }
+      { title: 'Un nouveau héros naît', text: 'Un petit animal fait face à un vrai problème et choisit la valeur par lui-même. Un lecteur de cette culture relit la note culturelle et les noms avant la publication.' }
     ],
     communityClose: 'Avec chaque inspiration, un nouveau livre prend vie. C\'est ainsi que la question d\'un père continue de grandir, une valeur et un livre à la fois.',
     visionEyebrow: 'Notre vision',
@@ -766,7 +766,7 @@ module.exports = {
     careTitle: 'Ce qui nous tient à cœur',
     paragraphs: [
       'Chaque livre fait revivre une valeur ancienne qui a façonné les contes traditionnels d\'une culture, et la raconte aux enfants d\'aujourd\'hui.',
-      'Le héros est toujours un enfant qui résout le problème par son propre choix. Pas d\'adulte qui vient à la rescousse, rien qui fasse peur.',
+      'Le héros est toujours un jeune animal qui choisit la valeur, jamais un adulte qui vient à la rescousse. Rien qui fasse peur.',
       'Nous tenons à des valeurs honnêtes, pas faciles. Nous avons réécrit Le Cocon parce que sa première version enseignait « tu as ta place quand tu es utile ». Dans le livre final, Quilla construit son propre abri et l\'ouvre à tout le monde.',
       'Quand un livre s\'inspire d\'une culture, un lecteur de cette culture relit la note et les noms avant la publication.'
     ],
@@ -846,6 +846,7 @@ module.exports = {
     languagesLine: 'English, Français, Español, Deutsch, Italiano.',
     askLanguage: 'Votre langue ? Demandez-nous',
     writeTitle: 'Écrivez-nous',
+    mailAll: 'Familles, presse, librairies, bibliothèques, écoles et droits',
     mailHello: 'Familles et questions', mailPress: 'Presse et critiques', mailOrders: 'Librairies, bibliothèques, écoles', mailRights: 'Droits et licences',
     tagline: '{total} livres pour l\'instant, en route vers {planned}. Cinq langues pour commencer, et d\'autres à venir.',
     booksTitle: 'Livres', familiesTitle: 'Familles', educatorsTitle: 'Éducateurs', partnersTitle: 'Partenaires',
@@ -876,7 +877,7 @@ module.exports = {
       { title: 'Un lecteur propose une valeur', text: 'Un parent, un grand-parent ou une enseignante nous dit la valeur qu\'il aimerait que les enfants comprennent.' },
       { title: 'Nous trouvons ses racines', text: 'Nous cherchons une culture ancienne qui l\'a portée : un dicton, un mot ou une coutume, avec sa source.' },
       { title: 'Un nouveau héros naît', text: 'Un petit animal fait face à un vrai problème et choisit la valeur lui-même.' },
-      { title: 'Un lecteur de cette culture le relit', text: 'Avant la publication, une personne de cette culture lit le livre.' }
+      { title: 'Un lecteur de cette culture le relit', text: 'Avant la publication, une personne de cette culture relit la note culturelle et les noms.' }
     ],
     wavesTitle: 'Les vagues',
     wavesLead: 'La bibliothèque grandit en quatre vagues.',
@@ -912,7 +913,7 @@ module.exports = {
     extrasTitle: 'Gratuit dans chaque langue',
     extras: [
       'Un mot aux familles dans les cinq langues, dans chaque guide de lecture.',
-      'Vidéos de lecture en anglais, et quelques-unes en français. Lecture en ligne : en anglais pour l\'instant.'
+      'Vidéos de lecture : {videoLangs}. Lecture en ligne : en anglais pour l\'instant.'
     ],
     nextTitle: 'Bientôt',
     nextText: 'Les prochaines langues que nous ajouterons :',
@@ -1079,5 +1080,66 @@ module.exports = {
     rightsOptions: ['Traduction', 'Coédition', 'Audio', 'Animation ou télévision', 'Produits dérivés ou jouets', 'Autre']
   },
   homeVision: { cta: 'En route vers 100' },
+  proof: {
+    countsLabel: 'La collection en chiffres',
+    books: 'livres pour l\'instant', videos: 'vidéos de lecture', animals: 'vrais animaux, faits sourcés', cultures: 'cultures sur la carte des valeurs',
+    quotesTitle: 'Ce qu\'en disent les familles et les enseignants',
+    badgesTitle: 'Presse et prix',
+    reviewer: 'Relu par une personne de {from}'
+  },
+  bookTrade: {
+    title: 'Pour les bibliothèques, les librairies et les acheteurs de droits',
+    colLang: 'Langue', colFormat: 'Format', colIsbn: 'ISBN', colStatus: 'Statut',
+    status: { live: 'En vente', draft: 'Prêt, pas encore en vente', planned: 'Prévu' },
+    pagesTrim: 'Pages et format',
+    rightsSheet: 'Fiche de droits de ce livre',
+    titleList: 'Liste complète des titres'
+  },
+  invoice: {
+    button: 'Demander une facture',
+    note: 'Les écoles, les conseils scolaires et les services de garde peuvent payer par bon de commande ou sur facture.',
+    perBook: '{price} $ CA par livre',
+    formTitle: 'Demander une facture ou une soumission',
+    messageLabel: 'Quel ensemble ou quelle licence, combien, et votre numéro de bon de commande si vous en avez un'
+  },
+  licences: {
+    title: 'Licences pour écoles et conseils scolaires',
+    lead: 'Pour les classes, écoles, conseils et services de garde qui veulent toutes les trousses SEL pour un groupe.',
+    items: ['Licence de classe', 'Licence d\'école', 'Licence de service de garde', 'Programme SEL de 21 semaines'],
+    priceLabel: 'Prix'
+  },
+  shopExtra: {
+    intlTitle: 'Hors du Canada et des États-Unis ?',
+    intlText: 'Les livres imprimés de notre boutique sont expédiés au Canada et aux États-Unis. Ailleurs, achetez sur Amazon dans votre pays, ou prenez les trousses à imprimer, qui se téléchargent partout.',
+    giftTitle: 'Coffrets-cadeaux des fêtes',
+    giftText: 'Coffrets de trois livres sur une valeur, emballés, avec une carte de dédicace. Commandez avant cette date pour une livraison à Noël :',
+    soonMonth: 'Attendu sur Amazon :'
+  },
+  sponsorsPage: {
+    title: 'Commandites et collectes de fonds',
+    description: 'Commanditez un ensemble de classe, offrez une collection à une école, commanditez un nouveau livre, cadeaux d\'entreprise et collectes de fonds scolaires avec Double the Adventure.',
+    lead: 'Mettez des livres entre les mains des enfants, avec votre nom en première page.',
+    packagesTitle: 'Forfaits', colPackage: 'Forfait', colGets: 'Ce que vous recevez', colPrice: 'Prix ($ CA)',
+    packages: [
+      ['Commanditer un ensemble de classe', '10 livres et leurs trousses SEL pour une garderie ou une école nommée, avec une page de dédicace'],
+      ['Offrir une école', 'Les {total} livres et une licence de classe, avec une page de remerciement'],
+      ['Commanditer un nouveau livre', 'Votre nom dans les crédits d\'un nouveau titre en route vers 100, un lancement et une histoire sur la valeur'],
+      ['Cadeaux d\'entreprise', 'Un ex-libris à votre image, par lots de 25, 100 ou 500 livres'],
+      ['Collecte de fonds scolaire', 'L\'école garde une part fixe des commandes des familles, avec affiche et bon de commande prêts']
+    ],
+    howTitle: 'Comment ça marche',
+    how: [
+      { title: 'Choisir', text: 'Choisissez un forfait et dites-nous à qui il est destiné.' },
+      { title: 'Impression et dédicace', text: 'Nous ajoutons votre page de dédicace ou votre ex-libris.' },
+      { title: 'Livraison', text: 'Les livres sont expédiés en lot à l\'école, au centre ou au bureau.' }
+    ],
+    delivery: 'Délai de livraison :',
+    recognitionTitle: 'Reconnaissance',
+    wallEmpty: 'Notre mur des commanditaires commence avec vous.',
+    taxNote: 'A² Publishing est une entreprise : les commandites ne donnent pas de reçu fiscal pour don, sauf si nous nous associons à un organisme de bienfaisance pour ce projet.',
+    proofTitle: 'À quoi ressemble une page de dédicace',
+    formTitle: 'Parlons commandite'
+  },
+  reviewConsent: 'Vous pouvez citer ma critique sur votre site, avec mon prénom et mon rôle.',
   notFound: { title: 'Cette page s\'est égarée', text: 'Trouvons-vous plutôt une histoire.' }
 };

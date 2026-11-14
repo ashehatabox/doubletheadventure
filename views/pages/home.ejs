@@ -39,6 +39,33 @@
   </div>
 </section>
 
+<section class="section tight" aria-label="<%= t('proof.countsLabel') %>" style="padding-top:0">
+  <div class="wrap">
+    <ul class="counter counter-4">
+      <li><b><%= numbers.books %></b><span><%= t('proof.books') %></span></li>
+      <li><b><%= numbers.videos %></b><span><%= t('proof.videos') %></span></li>
+      <li><b><%= numbers.animals %></b><span><%= t('proof.animals') %></span></li>
+      <li><b><%= numbers.cultures %></b><span><%= t('proof.cultures') %></span></li>
+    </ul>
+  </div>
+</section>
+<% if (proof.quotes.length >= 3) { %>
+<section class="section tight" aria-labelledby="quotes-title" style="padding-top:0">
+  <div class="wrap stack" style="gap:20px">
+    <h2 id="quotes-title" class="h2"><%= t('proof.quotesTitle') %></h2>
+    <div class="p-grid"><% proof.quotes.slice(0, 3).forEach(function (q) { %><figure class="p-card" style="margin:0"><blockquote style="margin:0"><%= pick(q.text) %></blockquote><figcaption><span><%= q.name %><% if (q.role) { %>, <%= pick(q.role) %><% } %><% if (q.place) { %>, <%= q.place %><% } %></span></figcaption></figure><% }) %></div>
+  </div>
+</section>
+<% } %>
+<% if (proof.press.length || proof.awards.length) { %>
+<section class="section tight" aria-labelledby="badges-title" style="padding-top:0">
+  <div class="wrap stack-sm">
+    <h2 id="badges-title" class="h3"><%= t('proof.badgesTitle') %></h2>
+    <ul class="jumpnav"><% proof.awards.concat(proof.press).forEach(function (x) { %><li><a href="<%= x.url %>" rel="noopener"><%= x.name || x.outlet %><% if (x.year) { %> <%= x.year %><% } %></a></li><% }) %></ul>
+  </div>
+</section>
+<% } %>
+
 <section class="section band-sun" aria-labelledby="featured-title">
   <div class="wrap grid-2">
     <% if (featured.spread) { %>

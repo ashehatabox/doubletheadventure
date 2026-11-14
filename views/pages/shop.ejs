@@ -44,7 +44,7 @@
     <div class="shop-books">
       <% liveBooks.forEach(function (b) { %>
       <article class="shop-book">
-        <a href="<%= b.href %>" class="shop-cover"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= b.displayTitle %>" loading="lazy" width="360" height="576"><% } %></a>
+        <a href="<%= b.href %>" class="shop-cover"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle %>" loading="lazy" width="360" height="576"><% } %></a>
         <div class="shop-info">
           <a class="shop-title" href="<%= b.href %>" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></a>
           <span class="shop-value"><%= b.valueText %></span>
@@ -67,10 +67,11 @@
     <div class="shop-books">
       <% soonBooks.forEach(function (b) { %>
       <article class="shop-book">
-        <a href="<%= b.href %>" class="shop-cover"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= b.displayTitle %>" loading="lazy" width="360" height="576"><% } %><span class="shop-soon"><%= t('shop.soonTag') %></span></a>
+        <a href="<%= b.href %>" class="shop-cover"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle %>" loading="lazy" width="360" height="576"><% } %><span class="shop-soon"><%= t('shop.soonTag') %></span></a>
         <div class="shop-info">
           <a class="shop-title" href="<%= b.href %>" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></a>
           <span class="shop-value"><%= b.valueText %></span>
+          <span class="muted" style="font-size:14px"><%= t('shopExtra.soonMonth') %> <% if (b.expected) { %><%= b.expected %><% } else { %><%- include('../partials/pending', { k: 'date' }) %><% } %></span>
           <a class="btn btn-ghost shop-buy" href="<%= b.href %>#notify"><%= t('common.notifyMe') %></a>
         </div>
       </article>
@@ -79,6 +80,13 @@
   </div>
 </section>
 <% } %>
+
+<section class="section tight band-sky" aria-labelledby="intl-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm"><h2 id="intl-title" class="h3"><%= t('shopExtra.intlTitle') %></h2><p style="margin:0"><%= t('shopExtra.intlText') %></p></div>
+    <div class="stack-sm"><h2 class="h3"><%= t('shopExtra.giftTitle') %></h2><p style="margin:0"><%= t('shopExtra.giftText') %> <%- include('../partials/pending', { k: 'date' }) %></p></div>
+  </div>
+</section>
 
 <section class="section tight" id="sets">
   <div class="wrap stack" style="gap:32px">
@@ -94,9 +102,11 @@
         <h2 class="h3"><%= p.title %></h2>
         <p class="muted" style="margin:0"><%= p.text %></p>
         <p style="margin:0;font-weight:800;font-size:22px">$<%= p.price %> <span class="muted" style="font-size:14px;font-weight:600">CAD</span></p>
+        <% if (p.perBook) { %><p class="muted" style="margin:0"><%= t('invoice.perBook').replace('{price}', p.perBook) %></p><% } %>
         <label class="muted" for="qty-<%= p.id %>"><%= t('shop.quantity') %></label>
         <input class="input round" id="qty-<%= p.id %>" name="quantity" type="number" min="1" max="10" value="1" style="max-width:100px">
         <button class="btn btn-primary" type="submit"><%= t('shop.buy') %></button>
+        <% if (p.educator) { %><a class="btn btn-ghost" href="<%= url('/educators/teachers') %>?invoice=<%= p.id %>#enquiry"><%= t('invoice.button') %></a><% } %>
       </form>
       <% }) %>
     </div>

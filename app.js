@@ -31,6 +31,7 @@ const { insert } = require('./lib/supabase');
 const { notify } = require('./lib/mailer');
 const refs = require('./lib/ref');
 const titles = require('./lib/titles');
+const proof = require('./data/proof');
 
 const SITE_URL = (process.env.SITE_URL || 'https://doubleadventure.ca').replace(/\/$/, '');
 const EDUCATOR_PAGES = ['teachers', 'early-years', 'libraries', 'newcomers'];
@@ -194,7 +195,19 @@ function showcaseData(h, req) {
     snugPage: play.pages('the-snug')[0] || ''
   };
 }
-router.get('/', (req, res) => page(req, res, 'home', { showcase: showcaseData(req.h, req) }));
+// Numbers that are already true, all counted from the data (never typed in).
+function seriesNumbers(sc) {
+  return {
+    books: catalog.books.length,
+    videos: readalouds.slugs().reduce((n, s) => n + readalouds.forBook(s, 'en').length, 0),
+    animals: sc.animals.count,
+    cultures: new Set(catalog.books.filter((b) => b.culture).map((b) => b.culture)).size
+  };
+}
+router.get('/', (req, res) => {
+  const sc = showcaseData(req.h, req);
+  page(req, res, 'home', { showcase: sc, numbers: seriesNumbers(sc), proof, extraCss: 'partners' });
+});
 
 router.get('/books', (req, res) => {
   const moment = catalog.moments[req.query.moment] ? req.query.moment : '';
@@ -244,6 +257,8 @@ router.get('/books/:slug', (req, res, next) => {
     .slice(0, 4)
     .map((o) => bookView(o, h, req));
   page(req, res, 'book', {
+    extraCss: 'partners',
+    proof,
     book: view,
     related,
     bookArticles: articles.forBook(b.slug, h.lang).slice(0, 6),
@@ -434,7 +449,8 @@ router.get('/shop', (req, res) => {
     classPacks: cards.filter((c) => c.kind === 'classroom'),
     liveBooks: catalog.books.filter((b) => b.status === 'live').map((b) => bookView(b, h, req)),
     soonBooks: catalog.books.filter((b) => b.status !== 'live' && b.status !== 'coming').map((b) => bookView(b, h, req)),
-    products: open ? shop.priced().filter((p) => !p.digital).map((p) => ({ id: p.id, title: h.pick(p.title), text: h.pick(p.text), price: (p.priceCents / 100).toFixed(2) })) : [],
+    products: open ? shop.priced().filter((p) => !p.digital).map((p) => ({ id: p.id, title: h.pick(p.title), text: h.pick(p.text), price: (p.priceCents / 100).toFixed(2), perBook: p.books > 1 ? (p.priceCents / 100 / p.books).toFixed(2) : '', educator: !!p.educator })) : [],
+    extraCss: 'partners',
     seo: { title: h.t('shop.openTitle'), description: open ? h.t('shop.openLead') : h.t('shop.pageLead') }
   });
 });
@@ -683,8 +699,9 @@ router.get('/educators', (req, res) => page(req, res, 'educators', {
     id: p.id,
     title: p.title[req.h.lang] || p.title.en,
     price: (p.priceCents / 100).toFixed(2),
-    amazon: (p.books * 11.99).toFixed(2)
+    perBook: p.books > 1 ? (p.priceCents / 100 / p.books).toFixed(2) : ''
   })),
+  extraCss: 'partners',
   seo: { title: req.h.t('educators.title') }
 }));
 // Teacher guides: one printable page per book.
@@ -778,7 +795,8 @@ router.get('/educators/:page', (req, res, next) => {
   const content = req.h.t('educatorPages.' + req.params.page);
   const videos = readalouds.slugs();
   const guideCovers = content.showBooks ? guideBooks().map((b) => ({ ...bookView(b, req.h, req), hasVideo: videos.includes(b.slug) })) : [];
-  page(req, res, 'educator-page', { key: req.params.page, content, guideCovers, seo: { title: content.title, description: content.lead } });
+  const inv = shopData.products.find((p) => p.id === String(req.query.invoice || ''));
+  page(req, res, 'educator-page', { extraCss: 'partners', key: req.params.page, content, guideCovers, invoiceFor: inv ? req.h.pick(inv.title) : (req.query.invoice ? ' ' : ''), seo: { title: content.title, description: content.lead } });
 });
 // ---------- Vision, languages and partner pages (Content Gap Plan, Nov 2026) ----------
 // Every count, ISBN, format and language on these pages comes from data/books.js; missing facts show as pending.
@@ -818,7 +836,10 @@ router.get('/languages', async (req, res) => {
     readyBooks: g.ready.map((sl) => bookView(catalog.get(sl), h, req))
   }));
   const pairSet = shopData.products.find((p) => p.id === 'bilingual-set');
-  page(req, res, 'languages', { extraCss: 'partners', grid, tally: await languageTally(), pairSet: pairSet ? { id: pairSet.id, price: Number.isInteger(pairSet.priceCents) ? (pairSet.priceCents / 100).toFixed(2) : '' } : null, seo: { title: h.t('langs.title'), description: h.t('langs.description') } });
+  const videoCounts = {};
+  Object.values(require('./data/readalouds')).forEach((byLang) => Object.keys(byLang).forEach((l) => { videoCounts[l] = (videoCounts[l] || 0) + 1; }));
+  const videosLine = Object.keys(videoCounts).sort((a, b) => videoCounts[b] - videoCounts[a]).map((l) => `${videoCounts[l]} ${h.langName(l) || l}`).join(', ');
+  page(req, res, 'languages', { extraCss: 'partners', grid, videosLine, tally: await languageTally(), pairSet: pairSet ? { id: pairSet.id, price: Number.isInteger(pairSet.priceCents) ? (pairSet.priceCents / 100).toFixed(2) : '' } : null, seo: { title: h.t('langs.title'), description: h.t('langs.description') } });
 });
 router.get('/partners/press', (req, res) => {
   const h = req.h;
@@ -828,6 +849,10 @@ router.get('/partners/press', (req, res) => {
 router.get('/partners/press/fact-sheet', (req, res) => {
   const h = req.h;
   page(req, res, 'press-fact', { extraCss: 'partners', prices: priceFacts(), seo: { title: h.t('press.factTitle'), description: h.t('press.description') } });
+});
+router.get('/partners/sponsors', (req, res) => {
+  const h = req.h;
+  page(req, res, 'sponsors', { extraCss: 'partners', seo: { title: h.t('sponsorsPage.title'), description: h.t('sponsorsPage.description') } });
 });
 router.get('/partners/stores', (req, res) => {
   const h = req.h;
@@ -919,7 +944,7 @@ const clean = (v, max) => String(v || '').trim().slice(0, max);
 const ROLE = ['parent', 'educator', 'other'];
 const KINDS = ['contact', 'quote', 'visit', 'press', 'stores', 'sponsors', 'rights', 'review-team', 'language'];
 // Extra fields some forms carry (rights, language requests), folded into the start of the message.
-const EXTRA_FIELDS = [['territory', 'Territory'], ['rightsType', 'Rights'], ['rightsLanguage', 'Language'], ['country', 'Country'], ['who', 'I am'], ['groupSize', 'Children or classes'], ['format', 'Format'], ['interview', 'Request']];
+const EXTRA_FIELDS = [['territory', 'Territory'], ['rightsType', 'Rights'], ['rightsLanguage', 'Language'], ['country', 'Country'], ['who', 'I am'], ['groupSize', 'Children or classes'], ['format', 'Format'], ['interview', 'Request'], ['quoteOk', 'May quote my review']];
 function enquiryExtras(b) {
   const lines = EXTRA_FIELDS.map(([k, label]) => (clean(b[k], 120) ? `${label}: ${clean(b[k], 120)}` : '')).filter(Boolean);
   return lines.length ? lines.join('\n') + '\n\n' : '';
@@ -977,7 +1002,7 @@ app.post('/api/enquire', async (req, res) => {
     name: clean(b.name, 120) || null,
     email,
     organisation: clean(b.organisation, 160) || null,
-    message: (b.topic === 'value' ? '[Value idea] ' : '') + enquiryExtras(b) + clean(b.message, 3980 - enquiryExtras(b).length),
+    message: (b.topic === 'value' ? '[Value idea] ' : b.topic === 'invoice' ? '[Invoice request] ' : '') + enquiryExtras(b) + clean(b.message, 3980 - enquiryExtras(b).length),
     page: safeBack(req),
     language: kind === 'language' ? clean(b.language, 60) || null : null,
     ref: refs.get(req) || null

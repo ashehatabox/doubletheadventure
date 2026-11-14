@@ -754,7 +754,7 @@ module.exports = {
     steps: [
       { title: 'A wish is shared', text: 'Someone tells us a value they wish children understood: waiting your turn, saying sorry, asking for help, finishing what you start.' },
       { title: 'We find its roots', text: 'We look for where that value lives in an old culture: a saying, a custom or a tale that has carried it for generations.' },
-      { title: 'A new hero is born', text: 'A little animal faces a real problem and chooses the value for themselves. A reader from that culture checks the book before it\'s published.' }
+      { title: 'A new hero is born', text: 'A little animal faces a real problem and chooses the value for themselves. A reader from that culture checks the cultural note and the names before it\'s published.' }
     ],
     communityClose: 'With each inspiration, a new book comes to life. That\'s how one father\'s question keeps growing, one value and one book at a time.',
     visionEyebrow: 'Our vision',
@@ -766,7 +766,7 @@ module.exports = {
     careTitle: 'What we hold to',
     paragraphs: [
       'Each book digs up one old value that shaped traditional stories in a particular culture, and retells it for today\'s children.',
-      'The hero is always a child who solves the problem by their own choice. There\'s no adult rescue and nothing scary.',
+      'The hero is always a young animal who chooses the value, never an adult who rescues. Nothing scary.',
       'We care about honest values, not easy ones. We rewrote The Snug because its first draft taught "you belong once you\'re useful". In the final book, Quilla builds a place of her own and opens it to everyone.',
       'When a book draws on a culture, a reader from that culture checks the note and the names before it\'s published.'
     ],
@@ -847,6 +847,7 @@ module.exports = {
     languagesLine: 'English, Français, Español, Deutsch, Italiano.',
     askLanguage: 'Your language? Ask us',
     writeTitle: 'Write to us',
+    mailAll: 'Families, press, stores, libraries, schools and rights',
     mailHello: 'Families and questions', mailPress: 'Press and reviews', mailOrders: 'Stores, libraries, schools', mailRights: 'Rights and licensing',
     tagline: '{total} books so far, on the road to {planned}. Five languages to start, open to more.',
     booksTitle: 'Books', familiesTitle: 'Families', educatorsTitle: 'Educators', partnersTitle: 'Partners',
@@ -877,7 +878,7 @@ module.exports = {
       { title: 'A reader suggests a value', text: 'A parent, grandparent or teacher tells us a value they wish children understood.' },
       { title: 'We find its roots', text: 'We look for an older culture that has carried it: a saying, a word or a custom, with its source.' },
       { title: 'A new hero is created', text: 'A little animal meets a real problem and chooses the value for themselves.' },
-      { title: 'A reader from that culture checks it', text: 'Before the book is published, someone from the culture reads it.' }
+      { title: 'A reader from that culture checks it', text: 'Before the book is published, someone from that culture checks the cultural note and the names.' }
     ],
     wavesTitle: 'The waves',
     wavesLead: 'The library grows in four waves.',
@@ -913,7 +914,7 @@ module.exports = {
     extrasTitle: 'Free in every language',
     extras: [
       'A note for families in all five languages, inside every read-aloud guide.',
-      'Read-aloud videos in English and some in French. Read online: English for now.'
+      'Read-aloud videos: {videoLangs}. Read online: English for now.'
     ],
     nextTitle: 'Coming next',
     nextText: 'The next languages we will add:',
@@ -1080,5 +1081,66 @@ module.exports = {
     rightsOptions: ['Translation', 'Co-edition', 'Audio', 'Animation or TV', 'Merchandise or toys', 'Other']
   },
   homeVision: { cta: 'The road to 100' },
+  proof: {
+    countsLabel: 'The series in numbers',
+    books: 'books so far', videos: 'read-aloud videos', animals: 'real animals with sourced facts', cultures: 'cultures on the values map',
+    quotesTitle: 'What families and teachers say',
+    badgesTitle: 'Press and awards',
+    reviewer: 'Checked by a reader from {from}'
+  },
+  bookTrade: {
+    title: 'For libraries, stores and rights buyers',
+    colLang: 'Language', colFormat: 'Format', colIsbn: 'ISBN', colStatus: 'Status',
+    status: { live: 'On sale', draft: 'Ready, not yet on sale', planned: 'Planned' },
+    pagesTrim: 'Pages and trim',
+    rightsSheet: 'Rights sheet for this book',
+    titleList: 'Full title list'
+  },
+  invoice: {
+    button: 'Request an invoice',
+    note: 'Schools, boards and daycares can pay by purchase order or invoice.',
+    perBook: '${price} CAD per book',
+    formTitle: 'Request an invoice or a quote',
+    messageLabel: 'Which set or licence, how many, and your purchase order number if you have one'
+  },
+  licences: {
+    title: 'School and board licences',
+    lead: 'For classrooms, schools, boards and daycares that want every SEL pack for a group.',
+    items: ['Classroom licence', 'School licence', 'Daycare or centre licence', '21-week SEL program'],
+    priceLabel: 'Price'
+  },
+  shopExtra: {
+    intlTitle: 'Outside Canada and the US?',
+    intlText: 'Printed books from our shop ship to Canada and the United States. Everywhere else, buy on Amazon in your country, or get the printable packs, which download anywhere.',
+    giftTitle: 'Gift sets for the holidays',
+    giftText: 'Three-book value boxes with gift wrap and a dedication card. Order by this date for Christmas delivery:',
+    soonMonth: 'Expected on Amazon:'
+  },
+  sponsorsPage: {
+    title: 'Sponsors and fundraising',
+    description: 'Sponsor a classroom set, gift a school, sponsor a new book on the road to 100, corporate gifts and school fundraisers with Double the Adventure.',
+    lead: 'Put books in children\'s hands, with your name on the first page.',
+    packagesTitle: 'Packages', colPackage: 'Package', colGets: 'What you get', colPrice: 'Price (CAD)',
+    packages: [
+      ['Sponsor a classroom set', '10 books and their SEL packs for a named daycare or school, with a dedication page'],
+      ['Gift a school', 'All {total} books and a classroom licence, with a thank-you page'],
+      ['Sponsor a new book', 'Your name in the credits of a new title on the road to 100, a launch event and a story about the value'],
+      ['Corporate gifts', 'A branded bookplate, in bulk tiers of 25, 100 or 500 books'],
+      ['School fundraiser', 'The school keeps a set share of family orders, with a ready-made flyer and order form']
+    ],
+    howTitle: 'How it works',
+    how: [
+      { title: 'Choose', text: 'Pick a package and tell us who it is for.' },
+      { title: 'We print and dedicate', text: 'We add your dedication page or bookplate.' },
+      { title: 'Delivered', text: 'Books are shipped in bulk to the school, centre or office.' }
+    ],
+    delivery: 'Delivery time:',
+    recognitionTitle: 'Recognition',
+    wallEmpty: 'Our sponsor wall starts with you.',
+    taxNote: 'A² Publishing is a business, so sponsorships do not come with a charitable tax receipt unless we partner with a charity for that project.',
+    proofTitle: 'What a dedication page looks like',
+    formTitle: 'Talk to us about sponsoring'
+  },
+  reviewConsent: 'You may quote my review on your website, with my first name and role.',
   notFound: { title: 'This page wandered off', text: 'Let\'s find you a story instead.' }
 };

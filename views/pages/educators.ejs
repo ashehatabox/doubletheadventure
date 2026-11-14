@@ -43,12 +43,13 @@
       <div class="card card-pad stack-sm">
         <h3 class="h3" style="margin:0"><%= p.title %></h3>
         <p style="margin:0;font-weight:800;font-size:30px">$<%= p.price %> <span class="muted" style="font-size:15px;font-weight:600">CAD</span></p>
+        <% if (p.perBook) { %><p class="muted" style="margin:0"><%= t('invoice.perBook').replace('{price}', p.perBook) %></p><% } %>
         <p class="muted" style="margin:0"><%= t('educators.setsAmazon') %></p>
-        <a class="btn btn-primary" style="align-self:flex-start" href="<%= url('/shop') %>#<%= p.id %>"><%= t('educators.setsOrder') %></a>
+        <div class="row"><a class="btn btn-primary" href="<%= url('/shop') %>#<%= p.id %>"><%= t('educators.setsOrder') %></a><a class="btn btn-ghost" href="<%= url('/educators/teachers') %>?invoice=<%= p.id %>#enquiry"><%= t('invoice.button') %></a></div>
       </div>
       <% }) %>
     </div>
-    <p class="muted" style="margin:0;max-width:760px"><%= t('educators.setsNote') %></p>
+    <p class="muted" style="margin:0;max-width:760px"><%= t('educators.setsNote') %> <%= t('invoice.note') %></p>
   </div>
 </section>
 <section class="section">

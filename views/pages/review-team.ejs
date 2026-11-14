@@ -6,7 +6,7 @@
       <p class="lead"><%= t('reviewTeam.lead') %></p>
       <ul class="clean"><% t('reviewTeam.points').forEach(function (p) { %><li><%= p %></li><% }) %></ul>
     </div>
-    <%- include('../partials/enquiry', { kind: 'review-team', showOrg: false, messageLabel: t('reviewTeam.messageLabel'), button: t('reviewTeam.button') }) %>
+    <%- include('../partials/enquiry', { kind: 'review-team', showOrg: false, messageLabel: t('reviewTeam.messageLabel'), button: t('reviewTeam.button'), quoteConsent: t('reviewConsent') }) %>
   </div>
 </section>
 <%- include('../partials/bottom') %>

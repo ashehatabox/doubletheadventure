@@ -34,7 +34,7 @@
     </ul>
     <div class="stack-sm">
       <h3 class="h3"><%= t('langs.extrasTitle') %></h3>
-      <ul class="clean"><% t('langs.extras').forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+      <ul class="clean"><% t('langs.extras').forEach(function (x) { %><li><%= x.replace("{videoLangs}", videosLine) %></li><% }) %></ul>
     </div>
   </div>
 </section>

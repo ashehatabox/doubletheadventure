@@ -19,6 +19,7 @@
   <div class="field"><label for="enq-<%= select.name %>"><%= select.label %></label><select class="input" id="enq-<%= select.name %>" name="<%= select.name %>"><% select.options.forEach(function (o) { %><option><%= o %></option><% }) %></select></div>
   <% } %>
   <div class="field"><label for="enq-message"><%= typeof messageLabel !== 'undefined' ? messageLabel : t('common.message') %></label><textarea class="textarea" id="enq-message" name="message" required></textarea></div>
+  <% if (typeof quoteConsent !== 'undefined' && quoteConsent) { %><label class="check"><input type="checkbox" name="quoteOk" value="yes"> <span><%= quoteConsent %></span></label><% } %>
   <div><button class="btn btn-primary" type="submit"><%= typeof button !== 'undefined' ? button : t('common.send') %></button></div>
   <p class="notice ok" role="status" data-ok <%- sent === 'enquiry' ? '' : 'hidden' %>><%= t('common.thanksEnquiry') %></p>
   <p class="notice bad" role="alert" data-bad <%- failed === 'enquiry' ? '' : 'hidden' %>><%= t('common.error') %></p>

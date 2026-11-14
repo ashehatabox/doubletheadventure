@@ -39,7 +39,7 @@
       </nav>
       <div class="footer-col footer-mail">
         <strong><%= t('footer.writeTitle') %></strong>
-        <% [['hello', 'footer.mailHello'], ['press', 'footer.mailPress'], ['orders', 'footer.mailOrders'], ['rights', 'footer.mailRights']].forEach(function (m) { %>
+        <% const mails = [['hello', 'footer.mailHello'], ['press', 'footer.mailPress'], ['orders', 'footer.mailOrders'], ['rights', 'footer.mailRights']]; const oneMail = mails.every(function (m) { return site.email(m[0]) === site.email('hello'); }); (oneMail ? [['hello', 'footer.mailAll']] : mails).forEach(function (m) { %>
         <span><%= t(m[1]) %><br><a href="mailto:<%= site.email(m[0]) %>"><%= site.email(m[0]) %></a></span>
         <% }) %>
       </div>

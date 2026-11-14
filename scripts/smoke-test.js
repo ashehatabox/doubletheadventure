@@ -16,7 +16,8 @@ const catalog = require('../data/books');
 const base = `http://localhost:${process.env.PORT}`;
 
 const checks = [
-  ['/', 200, 'Inside every book'],
+  ['/', 200, 'on the road to 100'],
+  ['/fr/', 200, 'en route vers 100'],
   ['/fr/', 200, 'Dans chaque livre'],
   ['/books', 200, 'All the books'],
   ['/books?moment=left-out', 200, 'The Snug'],
@@ -96,10 +97,26 @@ const checks = [
   ['/educators/newcomers', 200, 'Multilingual sets'],
   ['/fr/educators/early-years', 200, 'Comment apprend-on ?'],
   ['/partners', 200, 'Rights and licensing'],
-  ['/partners/press', 200, 'Request a review copy'],
-  ['/partners/stores', 200, 'wholesale'],
+  ['/partners/press', 200, 'No form needed'],
+  ['/partners/press/fact-sheet', 200, 'Kingston, Ontario'],
+  ['/fr/partners/press', 200, 'Sans formulaire'],
+  ['/partners/stores/sell-sheet', 200, '[ISBN – pending]'],
+  ['/fr/partners/stores', 200, 'Nom de la librairie'],
+  ['/road-to-100', 200, '100 values. 100 cultures.'],
+  ['/fr/road-to-100', 200, '100 valeurs. 100 cultures.'],
+  ['/languages', 200, 'Ask for your language'],
+  ['/fr/languages', 200, 'Demandez votre langue'],
+  ['/educators/libraries', 200, 'Title list'],
+  ['/fr/educators/libraries', 200, 'Liste des titres'],
+  ['/educators/libraries/titles', 200, '9798140945923'],
+  ['/educators/libraries/titles.csv', 200, 'Number,Title'],
+  ['/partners/rights/catalogue', 200, 'Rights catalogue'],
+  ['/books/the-snug/rights', 200, 'Rights sheet'],
+  ['/fr/books/the-snug/rights', 200, 'Fiche de droits'],
+  ['/partners/stores', 200, 'Store or business name'],
   ['/partners/sponsors', 200, 'Gift a school'],
-  ['/partners/rights', 200, 'Animation and audio'],
+  ['/partners/rights', 200, 'Animation and TV'],
+  ['/fr/partners/rights', 200, 'Catalogue des droits'],
   ['/about', 200, 'Our story'],
   ['/contact', 200, 'Contact us'],
   ['/faq', 200, 'FAQPage'],
@@ -145,6 +162,29 @@ setTimeout(async () => {
     if (!good) failed++;
     console.log(`${good ? 'ok  ' : 'FAIL'} ${res.status} POST ${name}${res.headers.get('location') ? ' → ' + res.headers.get('location') : ''}`);
   }
+  // One source of truth: no page may say "Twenty" or a stale count.
+  for (const u of ['/books', '/partners/rights', '/fr/books', '/fr/partners/rights']) {
+    const body = await (await fetch(base + u)).text();
+    const good = !/Twenty|Vingt /.test(body) && body.includes(String(catalog.books.length));
+    if (!good) failed++;
+    console.log(`${good ? 'ok  ' : 'FAIL'} counts from book data on ${u}`);
+  }
+
+  // Referral codes, end to end: ?ref= sets the cookie; the cookie and the form field both reach the saved rows.
+  const landing = await fetch(base + '/books?ref=OT_296', { redirect: 'manual' });
+  const cookie = (landing.headers.get('set-cookie') || '').split(';')[0];
+  const cookieOk = cookie === 'a2ref=ot_296';
+  if (!cookieOk) failed++;
+  console.log(`${cookieOk ? 'ok  ' : 'FAIL'} ?ref= sets cookie (${cookie})`);
+  await fetch(base + '/api/subscribe', { method: 'POST', redirect: 'manual', headers: { 'content-type': 'application/x-www-form-urlencoded', accept: 'application/json', cookie }, body: new URLSearchParams({ email: 'ref@example.com', consent: '1', lang: 'en', back: '/', form: 'signup' }) });
+  await post('/api/enquire', { kind: 'stores', email: 'store@example.com', message: 'Terms please', organisation: 'Shop', ref: 'ot_301', back: '/partners/stores', form: 'enquiry' });
+  const langRes = await post('/api/enquire', { kind: 'language', email: 'fam@example.com', language: 'Arabic', country: 'Canada', who: 'Parent', back: '/languages', form: 'language' }, true);
+  const subRows = fs.readFileSync(path.join(process.env.DATA_DIR, 'subscribers.jsonl'), 'utf8');
+  const enqRows = fs.readFileSync(path.join(process.env.DATA_DIR, 'enquiries.jsonl'), 'utf8');
+  const refOk = /"email":"ref@example.com"[^\n]*"ref":"ot_296"/.test(subRows) && /"store@example.com"[^\n]*"ref":"ot_301"/.test(enqRows) && langRes.status === 200 && /"kind":"language"[^\n]*"language":"Arabic"/.test(enqRows);
+  if (!refOk) failed++;
+  console.log(`${refOk ? 'ok  ' : 'FAIL'} ref code saved on sign-ups and enquiries; language request saved`);
+
   const saved = fs.readdirSync(process.env.DATA_DIR);
   const savedOk = saved.includes('subscribers.jsonl') && saved.includes('waitlist.jsonl') && saved.includes('enquiries.jsonl');
   if (!savedOk) failed++;

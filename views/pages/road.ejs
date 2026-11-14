@@ -1,0 +1,87 @@
+<%- include('../partials/top') %>
+<section class="section tight" aria-labelledby="road-title">
+  <div class="wrap stack" style="gap:28px">
+    <div class="ph">
+      <h1 id="road-title" class="h1"><%= t('road.heroTitle') %></h1>
+      <p class="lead"><%= t('road.heroLead') %></p>
+      <div class="row">
+        <a class="btn btn-primary" href="<%= url('/books') %>"><%= t('common.exploreBooks') %></a>
+        <a class="btn btn-ghost" href="#grow"><%= t('road.growTitle') %></a>
+      </div>
+    </div>
+    <%- include('../partials/counter') %>
+  </div>
+</section>
+
+<section class="section tight band-sun" aria-labelledby="why-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="why-title" class="h2"><%= t('road.whyTitle') %></h2>
+      <p class="lead"><%= t('road.whyText') %></p>
+    </div>
+    <div class="stack-sm">
+      <h2 class="h3"><%= t('road.langTitle') %></h2>
+      <p class="lead"><%= t('road.langText') %></p>
+      <p><a href="<%= url('/languages') %>" style="font-weight:800"><%= t('road.langCta') %></a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="how-title">
+  <div class="wrap stack" style="gap:24px">
+    <h2 id="how-title" class="h2"><%= t('road.howTitle') %></h2>
+    <ol class="steps4">
+      <% t('road.steps').forEach(function (s) { %><li><h3><%= s.title %></h3><p><%= s.text %></p></li><% }) %>
+    </ol>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="waves-title" style="padding-top:0">
+  <div class="wrap stack" style="gap:20px">
+    <div class="stack-sm"><h2 id="waves-title" class="h2"><%= t('road.wavesTitle') %></h2><p class="lead"><%= t('road.wavesLead') %></p></div>
+    <div class="table-wrap" tabindex="0" role="region" aria-labelledby="waves-title">
+      <table class="dtable">
+        <thead><tr><th scope="col"><%= t('road.colWave') %></th><th scope="col"><%= t('road.colBooks') %></th><th scope="col"><%= t('road.colStatus') %></th><th scope="col"><%= t('road.colDate') %></th></tr></thead>
+        <tbody>
+          <% waves.forEach(function (w) { %>
+          <tr>
+            <th scope="row"><%= w.n %></th>
+            <td data-label="<%= t('road.colBooks') %>"><%= w.from %>–<%= w.to %></td>
+            <td data-label="<%= t('road.colStatus') %>"><%= w.status === 'done' ? t('road.waveDone') : t('road.wavePlanned') %></td>
+            <td data-label="<%= t('road.colDate') %>"><% if (w.status === 'done') { %><%= t('road.waveDoneDate') %><% } else if (w.date) { %><%= w.date %><% } else { %><%- include('../partials/pending', { k: 'date' }) %><% } %></td>
+          </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="map-title" style="padding-top:0">
+  <div class="wrap stack" style="gap:20px">
+    <h2 id="map-title" class="h2"><%= t('road.mapTitle') %></h2>
+    <%- include('../partials/values-map') %>
+    <p style="margin:0"><%= t('road.mapNext') %> <%- include('../partials/pending', { k: 'list' }) %></p>
+  </div>
+</section>
+
+<section class="section tight band-sky" id="grow" aria-labelledby="grow-title">
+  <div class="wrap stack" style="gap:20px">
+    <h2 id="grow-title" class="h2"><%= t('road.growTitle') %></h2>
+    <div class="p-grid">
+      <% t('road.grow').forEach(function (g) { %><a class="p-card" href="<%= url(g.href.split('#')[0]) %><%= g.href.includes('#') ? '#' + g.href.split('#')[1] : '' %>"><strong><%= g.title %></strong><span><%= g.text %></span></a><% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="follow-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="follow-title" class="h2"><%= t('road.followTitle') %></h2>
+      <p class="lead"><%= t('road.followLead') %></p>
+      <%- include('../partials/signup', { formId: 'new-hero', source: 'road-to-100-new-hero', button: t('road.followButton') }) %>
+    </div>
+    <%- include('../partials/enquiry', { kind: 'contact', topic: 'value', formTitle: t('road.shareTitle'), messageLabel: t('about.shareLabel'), button: t('about.shareButton'), showOrg: false }) %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

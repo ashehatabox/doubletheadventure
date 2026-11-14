@@ -1,0 +1,16 @@
+<% const F = t('press.facts'); %>
+<table class="sheet-kv">
+  <tbody>
+    <tr><th scope="row"><%= F.series %></th><td><%= F.seriesV %></td></tr>
+    <tr><th scope="row"><%= F.ages %></th><td><%= F.agesV %></td></tr>
+    <tr><th scope="row"><%= F.books %></th><td><%= F.booksV %></td></tr>
+    <tr><th scope="row"><%= F.languages %></th><td><%= F.languagesV %></td></tr>
+    <tr><th scope="row"><%= F.publisher %></th><td><%= F.publisherV %></td></tr>
+    <tr><th scope="row"><%= F.founders %></th><td><%= F.foundersV %></td></tr>
+    <tr><th scope="row"><%= F.first %></th><td><%- include('pending', { k: 'date' }) %></td></tr>
+    <tr><th scope="row"><%= F.buy %></th><td><%= F.buyV %></td></tr>
+    <tr><th scope="row"><%= F.price %></th><td><%= F.priceV.replace('{packFrom}', prices.packFrom).replace('{setFrom}', prices.setFrom).replace('{setTo}', prices.setTo) %></td></tr>
+    <tr><th scope="row"><%= F.review %></th><td><%= F.reviewV %></td></tr>
+    <tr><th scope="row"><%= t('footer.mailPress') %></th><td><a href="mailto:<%= site.email('press') %>"><%= site.email('press') %></a></td></tr>
+  </tbody>
+</table>

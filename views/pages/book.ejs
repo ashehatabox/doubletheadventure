@@ -32,8 +32,7 @@
       <% if (b.status === 'live') { %>
       <div class="buy-box stack-sm">
         <div class="chips">
-          <span class="chip" style="background:#fff"><%= t('common.paperback') %> <%= site.prices.paperback %></span>
-          <span class="chip" style="background:#fff"><%= t('common.kindle') %> <%= site.prices.kindle %></span>
+          <span class="chip" style="background:#fff"><%= t('common.amazonPrice') %></span>
         </div>
         <div class="row">
           <a class="btn btn-primary" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyAmazon') %></a>
@@ -89,7 +88,7 @@
 <section class="feature-band band-sky" id="read">
   <div class="wrap feature">
     <a class="feature-media spread-preview" href="<%= readHref %>" aria-label="<%= readOpen ? t('reader.open') : t('reader.peek') %>">
-      <% readPreview.pages.forEach(function (src) { %><img src="<%= src %>" alt="" loading="lazy" width="1000" height="1000"><% }) %>
+      <% readPreview.pages.forEach(function (src) { %><img src="<%= src %>" alt="<%= t('common.altSpread') %>" loading="lazy" width="1000" height="1000"><% }) %>
     </a>
     <div class="feature-text stack">
       <h2 class="h2 feature-h"><%= t('book.readTitle') %></h2>
@@ -181,21 +180,21 @@
     <div class="bp-grid">
       <% if (colorPages.length) { %>
       <a class="bp-card" href="<%= url('/play/color/' + b.slug) %>">
-        <span class="bp-art bp-art-color"><% colorPages.slice(0, 3).forEach(function (p) { %><img src="<%= p %>" alt="" loading="lazy" width="600" height="600"><% }) %></span>
+        <span class="bp-art bp-art-color"><% colorPages.slice(0, 3).forEach(function (p) { %><img src="<%= p %>" alt="<%= t('common.altColoring') %>" loading="lazy" width="600" height="600"><% }) %></span>
         <span class="bp-title"><%= t('book.playColor') %></span>
         <span class="bp-text"><%= t('book.colorCardText') %></span>
       </a>
       <% } %>
       <% if (bookPlay.jigsaw) { %>
       <a class="bp-card" href="<%= url('/play/jigsaw/' + b.slug) %>">
-        <span class="bp-art bp-art-jigsaw"><img src="<%= b.cover %>" alt="" loading="lazy" width="900" height="1440"></span>
+        <span class="bp-art bp-art-jigsaw"><img src="<%= b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="900" height="1440"></span>
         <span class="bp-title"><%= t('book.playJigsaw') %></span>
         <span class="bp-text"><%= t('book.jigsawCardText') %></span>
       </a>
       <% } %>
       <% if (bookPlay.memory) { %>
       <a class="bp-card" href="<%= url('/play/memory') %>">
-        <span class="bp-art bp-art-memory"><span class="mem-back"></span><img src="<%= b.cover %>" alt="" loading="lazy" width="900" height="1440"><span class="mem-back"></span></span>
+        <span class="bp-art bp-art-memory"><span class="mem-back"></span><img src="<%= b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="900" height="1440"><span class="mem-back"></span></span>
         <span class="bp-title"><%= t('book.playMemory') %></span>
         <span class="bp-text"><%= t('book.memoryCardText') %></span>
       </a>

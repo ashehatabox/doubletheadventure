@@ -1,6 +1,7 @@
 <%
   const live = allBooks.filter(function (b) { return b.status !== 'coming'; });
-  const shelf = ['the-snug', 'the-pebbles-inside', 'eight-times-up', 'pip-the-brave-parrot'].map(function (s) { return allBooks.find(function (b) { return b.slug === s; }); });
+  // Buyable books first: the shelf shows books on Amazon now, newest first, then fills with the rest (badged).
+  const shelf = allBooks.filter(function (b) { return b.status === 'live'; }).sort(function (x, y) { return y.n - x.n; }).concat(allBooks.filter(function (b) { return b.status !== 'live'; })).slice(0, 4);
   const heroBooks = ['the-snug', 'the-littlest-guardian', 'the-old-path-song'].map(function (s) { return allBooks.find(function (b) { return b.slug === s; }); });
   const coming = allBooks.filter(function (b) { return b.status === 'coming'; });
   const titleParts = t('home.title').split(/\{\{|\}\}/);
@@ -25,6 +26,7 @@
         <a class="btn btn-primary" href="<%= url('/books') %>"><%= t('common.exploreBooks') %></a>
         <a class="btn btn-ghost" href="#free-page"><%= t('common.getFreePage') %></a>
       </div>
+      <p style="margin:0;font-weight:800"><a href="<%= url('/road-to-100') %>"><%= t('topbar.vision') %></a></p>
       <div class="chips">
         <% [['belonging', '#A8DDA8'], ['resilience', '#CDB8F2'], ['guardianship', '#9FD3F0'], ['courage', '#FFB3B3'], ['elders', '#FFC93C']].forEach(function (v) { %>
         <span class="chip" style="background:<%= v[1] %>"><%= pick(catalog.values[v[0]]) %></span>
@@ -32,7 +34,7 @@
       </div>
     </div>
     <div class="hero-art">
-      <% heroBooks.forEach(function (b, i) { %><%- include('../partials/cover', { b: b, eager: true }) %><% }) %>
+      <% heroBooks.forEach(function (b, i) { %><%- include('../partials/cover', { b: b, eager: true, badge: b.status === 'live' ? '' : t('books.soon') }) %><% }) %>
     </div>
   </div>
 </section>
@@ -40,7 +42,7 @@
 <section class="section band-sun" aria-labelledby="featured-title">
   <div class="wrap grid-2">
     <% if (featured.spread) { %>
-    <div class="art" style="background:<%= featured.color %>;min-height:440px"><img src="<%= featured.spread %>" alt="" loading="lazy"></div>
+    <div class="art" style="background:<%= featured.color %>;min-height:440px"><img src="<%= featured.spread %>" alt="<%= t('common.altSpread') %>: <%= featured.displayTitle %>" loading="lazy"></div>
     <% } else { %>
     <div class="art art-cover" style="background:<%= featured.color %>"><%- include('../partials/cover', { b: featured, eager: false }) %></div>
     <% } %>
@@ -50,8 +52,7 @@
       <p class="lead" <%- isFallback(featured.blurb) ? 'lang="en"' : '' %>><%= pick(featured.blurb) %></p>
       <% if (featured.refrain) { %><p class="quote"><%= pick(featured.refrain) %></p><% } %>
       <div class="chips">
-        <span class="chip" style="background:#fff"><%= t('common.paperback') %> <%= site.prices.paperback %></span>
-        <span class="chip" style="background:#fff"><%= t('common.kindle') %> <%= site.prices.kindle %></span>
+        <span class="chip" style="background:#fff"><%= t('common.amazonPrice') %></span>
         <span class="chip" style="background:#fff"><%= featured.languages.map(function (l) { return l.toUpperCase(); }).join(' · ') %></span>
       </div>
       <div class="row">
@@ -113,7 +114,7 @@
     <div class="play-tiles">
       <% const pt = t('home.playTiles'); const cv = function (sl) { const b = allBooks.find(function (x) { return x.slug === sl; }); return b && b.cover; }; const pics = [showcase.snugPage || showcase.color.pages[0], cv('the-littlest-guardian') || featured.cover, cv('the-pebbles-inside') || featured.cover]; %>
       <% pt.forEach(function (name, i) { const bg = ['#FFFFFF', '#9FD3F0', '#FFC59E'][i]; %>
-      <div class="play-tile"><div class="art play-art-<%= i %>" style="background:<%= bg %>"><% if (pics[i]) { %><img src="<%= pics[i] %>" alt="" loading="lazy"><% } %></div><span><%= name %></span></div>
+      <div class="play-tile"><div class="art play-art-<%= i %>" style="background:<%= bg %>"><% if (pics[i]) { %><img src="<%= pics[i] %>" alt="<%= [t('common.altColoring'), t('common.altJigsaw'), t('common.altMemory')][i] %>" loading="lazy"><% } %></div><span><%= name %></span></div>
       <% }) %>
     </div>
   </div>
@@ -163,7 +164,7 @@
     <div class="grid-cards">
       <% coming.forEach(function (b) { %>
       <a class="tile card" href="<%= b.href %>" style="background:#fff">
-        <span class="tile-swatch" style="background:<%= b.color %>"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576"><% } %></span>
+        <span class="tile-swatch" style="background:<%= b.color %>"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="360" height="576"><% } %></span>
         <span><span class="tile-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span><span class="tile-text" style="color:#0E7C7B;font-weight:800"><%= t('common.notifyMe') %></span></span>
       </a>
       <% }) %>

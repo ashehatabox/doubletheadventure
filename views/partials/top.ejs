@@ -28,6 +28,7 @@
 <% const isReader = typeof readerMode !== 'undefined' && readerMode; if (isReader) { %><link rel="stylesheet" href="<%= asset('/css/reader.css') %>"><script src="<%= asset('/js/reader.js') %>" defer></script><% } %>
 <% if (typeof jsonLd !== 'undefined' && jsonLd) { %><script type="application/ld+json"><%- JSON.stringify(jsonLd).replace(/</g, '\\u003c') %></script><% } %>
 <script src="<%= asset('/js/site.js') %>" defer></script>
+<% if (site.ga4Id && !(typeof playMode !== 'undefined' && playMode) && !(typeof readerMode !== 'undefined' && readerMode)) { %><script src="<%= asset('/js/ga.js') %>" data-ga4="<%= site.ga4Id %>" defer></script><% } %>
 <% if (typeof gameScript !== 'undefined' && gameScript) { %><script src="<%= asset('/js/play/common.js') %>" defer></script><script src="<%= asset('/js/play/' + gameScript + '.js') %>" defer></script><% } %>
 </head>
 <% if (isReader) { %><body class="reader-mode">
@@ -39,6 +40,7 @@
 <div class="topbar">
   <div class="wrap">
     <span><%= t('topbar.newBook') %> <a href="<%= featured.href %>"><%= featured.displayTitle %></a>, <%= t('topbar.newBookLine') %></span>
+    <a class="topbar-vision" href="<%= url('/road-to-100') %>"><%= t('topbar.vision') %></a>
     <nav class="lang-switch" aria-label="<%= t('nav.language') %>">
       <a href="<%= basePath %>" hreflang="en" lang="en" <%- lang === 'en' ? 'aria-current="true"' : '' %>>English</a>
       <a href="/fr<%= basePath === '/' ? '/' : basePath %>" hreflang="fr" lang="fr" <%- lang === 'fr' ? 'aria-current="true"' : '' %>>Français</a>

@@ -1,0 +1,50 @@
+<%- include('../partials/top') %>
+<% const R = t('rights'); %>
+<section class="section tight" aria-labelledby="rights-title">
+  <div class="wrap stack" style="gap:24px">
+    <p class="ph-back"><a href="<%= url('/partners') %>"><%= t('partners.title') %></a></p>
+    <div class="ph">
+      <h1 id="rights-title" class="h1"><%= R.title %></h1>
+      <p class="lead"><%= t('partnerPages.rights.lead') %></p>
+      <div class="row">
+        <a class="btn btn-primary" href="#catalogue"><%= R.catalogueTitle %></a>
+        <a class="btn btn-ghost" href="<%= url('/partners/rights/catalogue') %>"><%= R.cataloguePrint %></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight band-sun" aria-labelledby="avail-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="avail-title" class="h2"><%= R.availTitle %></h2>
+      <ul class="clean"><% R.types.forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+      <p style="margin:0"><%= R.licensed %> <%- include('../partials/pending', { k: 'list' }) %></p>
+    </div>
+    <div class="stack-sm">
+      <h2 class="h3"><%= R.whyTitle %></h2>
+      <ul class="clean"><% R.why.forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+      <p><a href="<%= url('/road-to-100') %>" style="font-weight:800"><%= t('road.title') %></a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" id="catalogue" aria-labelledby="cat-title">
+  <div class="wrap stack" style="gap:20px">
+    <div class="stack-sm"><h2 id="cat-title" class="h2"><%= R.catalogueTitle %></h2><p class="lead"><%= R.catalogueLead %></p></div>
+    <div class="rc-grid"><% rows.forEach(function (r) { %><%- include('../partials/rights-card', { r: r }) %><% }) %></div>
+  </div>
+</section>
+
+<section class="section tight band-sky" aria-labelledby="fairs-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="fairs-title" class="h2"><%= R.fairsTitle %></h2>
+      <p class="lead"><%= R.fairsText %> <%- include('../partials/pending', { k: 'list' }) %></p>
+      <p><%= R.fairsNext %></p>
+      <p><a href="mailto:<%= site.email('rights') %>" style="font-weight:800;font-size:20px"><%= site.email('rights') %></a></p>
+    </div>
+    <%- include('../partials/enquiry', { kind: 'rights', formTitle: R.formTitle, orgLabel: R.fCompany, fields: [{ name: 'territory', label: R.fTerritory }, { name: 'rightsLanguage', label: R.fRightsLanguage }], select: { name: 'rightsType', label: R.fRightsType, options: R.rightsOptions } }) %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

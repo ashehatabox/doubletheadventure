@@ -14,7 +14,7 @@
   <div class="wrap posters">
     <% posters.forEach(function (b) { %>
     <article class="poster" style="--accent:<%= b.color || '#F7C873' %>">
-      <img class="poster-cover" src="<%= b.cover %>" alt="" width="360" height="576" loading="lazy">
+      <img class="poster-cover" src="<%= b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" width="360" height="576" loading="lazy">
       <div class="poster-text">
         <h2 class="poster-title"><%= b.displayTitle %></h2>
         <% if (b.refrain) { %><p class="poster-label"><%= t('classroom.postersSing') %></p><p class="poster-refrain"><%= b.refrain %></p><% } %>

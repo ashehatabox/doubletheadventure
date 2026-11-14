@@ -4,7 +4,9 @@
     <div class="footer-grid">
       <div class="footer-col">
         <img src="/images/brand/logo-light.png" alt="A² Publishing, Double the Adventure" width="720" height="180" style="width:200px;height:auto" loading="lazy">
-        <span><%= t('footer.tagline') %></span>
+        <p class="footer-vision"><a href="<%= url('/road-to-100') %>"><%= t('footer.tagline') %></a></p>
+        <p class="footer-langs"><%= t('footer.languagesLine') %> <a href="<%= url('/languages') %>"><%= t('footer.askLanguage') %></a></p>
+        <p class="footer-place"><%= pick(site.location) %></p>
       </div>
       <nav class="footer-col" aria-label="<%= t('footer.booksTitle') %>">
         <strong><%= t('footer.booksTitle') %></strong>
@@ -31,8 +33,16 @@
       <nav class="footer-col" aria-label="<%= t('footer.partnersTitle') %>">
         <strong><%= t('footer.partnersTitle') %></strong>
         <% t('partners.cards').forEach(function (c) { %><a href="<%= url('/partners/' + c.key) %>"><%= c.title %></a><% }) %>
+        <a href="<%= url('/road-to-100') %>"><%= t('footer.road') %></a>
+        <a href="<%= url('/languages') %>"><%= t('footer.languages') %></a>
         <a href="<%= url('/about') %>"><%= t('footer.aboutUs') %></a>
       </nav>
+      <div class="footer-col footer-mail">
+        <strong><%= t('footer.writeTitle') %></strong>
+        <% [['hello', 'footer.mailHello'], ['press', 'footer.mailPress'], ['orders', 'footer.mailOrders'], ['rights', 'footer.mailRights']].forEach(function (m) { %>
+        <span><%= t(m[1]) %><br><a href="mailto:<%= site.email(m[0]) %>"><%= site.email(m[0]) %></a></span>
+        <% }) %>
+      </div>
     </div>
     <div class="footer-bottom">
       <span>© <%= new Date().getFullYear() %> A² Publishing</span>

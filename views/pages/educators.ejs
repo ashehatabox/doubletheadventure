@@ -20,7 +20,7 @@
 <section class="section feature-band band-sunpale">
   <div class="wrap feature">
     <div class="guide-stack" aria-hidden="true">
-      <% guideCovers.slice(0, 5).forEach(function (b, i) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576" style="--i:<%= i %>"><% }) %>
+      <% guideCovers.slice(0, 5).forEach(function (b, i) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="360" height="576" style="--i:<%= i %>"><% }) %>
     </div>
     <div class="feature-text stack">
       <h2 class="h2 feature-h"><%= t('guides.title') %></h2>
@@ -43,7 +43,7 @@
       <div class="card card-pad stack-sm">
         <h3 class="h3" style="margin:0"><%= p.title %></h3>
         <p style="margin:0;font-weight:800;font-size:30px">$<%= p.price %> <span class="muted" style="font-size:15px;font-weight:600">CAD</span></p>
-        <p class="muted" style="margin:0"><%= t('educators.setsAmazon').replace('{price}', p.amazon) %></p>
+        <p class="muted" style="margin:0"><%= t('educators.setsAmazon') %></p>
         <a class="btn btn-primary" style="align-self:flex-start" href="<%= url('/shop') %>#<%= p.id %>"><%= t('educators.setsOrder') %></a>
       </div>
       <% }) %>

@@ -34,7 +34,7 @@
     <% list.forEach(function (x) { %>
     <div class="ag">
       <a class="ag-head" href="<%= url('/heroes/' + x.guide.book) %>">
-        <% if (x.book.cover) { %><img class="ag-cover" src="<%= x.book.coverSmall || x.book.cover %>" alt="" loading="lazy" width="360" height="576"><% } %>
+        <% if (x.book.cover) { %><img class="ag-cover" src="<%= x.book.coverSmall || x.book.cover %>" alt="<%= t('common.coverOf') %> <%= x.book.displayTitle || bookTitle(x.book) %>" loading="lazy" width="360" height="576"><% } %>
         <span class="stack-sm" style="gap:2px">
           <span class="ag-title"><%= pick(x.guide.title) %></span>
           <span class="ag-meta"><%= x.book.displayTitle %><% if (x.place) { %> · <%= x.place %><% } %></span>
@@ -44,7 +44,7 @@
       <ul class="cast-grid" role="list">
         <% x.cast.forEach(function (c) { %>
         <li><a class="cast-card" href="<%= url('/heroes/' + x.guide.book) %>#<%= c.id %>">
-          <% if (c.image) { %><img src="<%= c.image %>" alt="" loading="lazy" width="960" height="960"><% } else { %><span class="cast-ph" aria-hidden="true"></span><% } %>
+          <% if (c.image) { %><img src="<%= c.image %>" alt="<%= c.name %>, <%= c.animal %>" loading="lazy" width="960" height="960"><% } else { %><span class="cast-ph" aria-hidden="true"></span><% } %>
           <span class="cast-name"><%= c.name %></span>
           <span class="cast-animal"><%= c.animal %></span>
           <% if (c.superpower) { %><span class="cast-power"><%= c.superpower %></span><% } %>

@@ -15,7 +15,7 @@
     <div class="stack-sm" style="max-width:760px">
       <h2 class="h2 book-h2"><%= shelf.title %></h2>
       <p class="lead"><%= shelf.lead %></p>
-      <p class="muted" style="margin:0"><%= shelf.list[0].licence %> <%= t('shop.packPrice').replace('{price}', '$' + shelf.list[0].price).replace('{pages}', shelf.list[0].pages) %></p>
+      <p class="muted" style="margin:0"><%= shelf.list[0].licence %> <%= t('shop.packPrice').replace('{price}', '$' + shelf.list[0].price + ' CAD').replace('{pages}', shelf.list[0].pages) %></p>
     </div>
     <div class="pack-grid">
       <% shelf.list.forEach(function (c) { %>
@@ -39,7 +39,7 @@
   <div class="wrap stack" style="gap:24px">
     <div class="stack-sm">
       <h2 class="h2 book-h2"><%= t('shop.liveTitle') %></h2>
-      <p class="lead"><%= t('shop.liveLead').replace('{paper}', '$' + site.prices.paperback).replace('{kindle}', '$' + site.prices.kindle) %></p>
+      <p class="lead"><%= t('shop.liveLead') %></p>
     </div>
     <div class="shop-books">
       <% liveBooks.forEach(function (b) { %>
@@ -48,7 +48,7 @@
         <div class="shop-info">
           <a class="shop-title" href="<%= b.href %>" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></a>
           <span class="shop-value"><%= b.valueText %></span>
-          <span class="shop-price"><%= t('common.paperback') %> $<%= site.prices.paperback %> · <%= t('common.kindle') %> $<%= site.prices.kindle %></span>
+          <span class="shop-price"><%= t('common.amazonPrice') %></span>
           <a class="btn btn-primary shop-buy" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyAmazon') %></a>
         </div>
       </article>

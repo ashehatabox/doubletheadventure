@@ -1,0 +1,102 @@
+<%- include('../partials/top') %>
+<% const maxTally = tally.reduce(function (m, x) { return Math.max(m, Number(x.requests) || 0); }, 0); %>
+<section class="section tight" aria-labelledby="langs-title">
+  <div class="wrap stack" style="gap:24px">
+    <div class="ph">
+      <h1 id="langs-title" class="h1"><%= t('langs.title') %></h1>
+      <p class="lead"><%= t('langs.lead') %></p>
+      <div class="row"><a class="btn btn-primary" href="#request"><%= t('langs.requestTitle') %></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="now-title" style="padding-top:0">
+  <div class="wrap stack" style="gap:20px">
+    <div class="stack-sm"><h2 id="now-title" class="h2"><%= t('langs.nowTitle') %></h2><p class="lead"><%= t('langs.nowLead') %></p></div>
+    <ul class="lang-list">
+      <% grid.forEach(function (g) { %>
+      <li class="lang-row" lang="<%= g.lang %>">
+        <p class="lang-name"><%= g.native %><% if (g.native !== g.name) { %><small lang="<%= lang %>"><%= g.name %></small><% } %></p>
+        <div lang="<%= lang %>">
+          <p class="lang-sub"><%= t('langs.colBooks') %></p>
+          <% if (g.liveBooks.length) { %>
+          <ul class="lang-books">
+            <% g.liveBooks.forEach(function (x) { %><li><a href="<%= x.book.href %>"><%= x.book.displayTitle %> <small><%= x.formats.map(function (f) { return t('langs.formats.' + f); }).join(', ') %></small></a></li><% }) %>
+          </ul>
+          <% } else { %><p style="margin:0"><%= t('langs.none') %></p><% } %>
+          <% if (g.readyBooks.length) { %>
+          <p class="lang-sub"><%= t('langs.colNext') %></p>
+          <ul class="lang-books"><% g.readyBooks.forEach(function (b) { %><li class="ready"><a href="<%= b.href %>"><%= b.displayTitle %></a></li><% }) %></ul>
+          <% } %>
+        </div>
+      </li>
+      <% }) %>
+    </ul>
+    <div class="stack-sm">
+      <h3 class="h3"><%= t('langs.extrasTitle') %></h3>
+      <ul class="clean"><% t('langs.extras').forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+    </div>
+  </div>
+</section>
+
+<section class="section tight band-sun" aria-labelledby="next-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="next-title" class="h2"><%= t('langs.nextTitle') %></h2>
+      <p class="lead"><%= t('langs.nextText') %> <%- include('../partials/pending', { k: 'list' }) %></p>
+    </div>
+    <div class="stack-sm">
+      <h2 class="h3"><%= t('langs.bilingualTitle') %></h2>
+      <p><%= t('langs.bilingualText') %></p>
+      <% if (pairSet) { %><p><a href="<%= url('/shop') %>#<%= pairSet.id %>" style="font-weight:800"><%= t('langs.bilingualCta') %><% if (pairSet.price) { %>, $<%= pairSet.price %> CAD<% } %></a></p><% } %>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" id="request" aria-labelledby="request-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <form class="form card card-pad" method="post" action="/api/enquire" id="language" data-ajax>
+      <h2 id="request-title" class="h3"><%= t('langs.requestTitle') %></h2>
+      <p class="muted" style="margin:0"><%= t('langs.requestLead') %></p>
+      <input type="hidden" name="kind" value="language">
+      <input type="hidden" name="back" value="<%= url(basePath) %>">
+      <input type="hidden" name="form" value="language">
+      <div class="hp" aria-hidden="true"><label for="lang-hpf">Leave this empty</label><input id="lang-hpf" name="a2_hp" tabindex="-1" autocomplete="off"></div>
+      <div class="field"><label for="lang-language"><%= t('langs.fLanguage') %></label><input class="input" id="lang-language" name="language" required maxlength="60"></div>
+      <div class="field"><label for="lang-country"><%= t('langs.fCountry') %></label><input class="input" id="lang-country" name="country" autocomplete="country-name" maxlength="80"></div>
+      <div class="field"><label for="lang-who"><%= t('langs.fWho') %></label>
+        <select class="input" id="lang-who" name="who"><% t('langs.who').forEach(function (w) { %><option><%= w %></option><% }) %></select></div>
+      <div class="field"><label for="lang-size"><%= t('langs.fSize') %></label><input class="input" id="lang-size" name="groupSize" maxlength="60"></div>
+      <div class="field"><label for="lang-email"><%= t('common.email') %></label><input class="input" id="lang-email" name="email" type="email" autocomplete="email" required></div>
+      <div><button class="btn btn-primary" type="submit"><%= t('langs.requestButton') %></button></div>
+      <p class="notice ok" role="status" data-ok <%- sent === 'language' ? '' : 'hidden' %>><%= t('common.thanksEnquiry') %></p>
+      <p class="notice bad" role="alert" data-bad <%- failed === 'language' ? '' : 'hidden' %>><%= t('common.error') %></p>
+    </form>
+    <div class="stack-sm">
+      <h2 class="h3"><%= t('langs.tallyTitle') %></h2>
+      <% if (tally.length) { %>
+      <ul class="tally">
+        <% tally.forEach(function (x) { const n = Number(x.requests) || 0; %>
+        <li><span style="text-transform:capitalize"><%= x.language %></span><span class="tally-bar" aria-hidden="true"><i style="width:<%= maxTally ? Math.max(6, Math.round(n / maxTally * 100)) : 0 %>%"></i></span><b><%= n %></b></li>
+        <% }) %>
+      </ul>
+      <% } else { %><p class="empty-state"><%= t('langs.tallyEmpty') %></p><% } %>
+      <p class="muted" style="margin:0"><%= t('langs.tallyNote') %></p>
+    </div>
+  </div>
+</section>
+
+<section class="section tight band-sky" id="translate" aria-labelledby="translate-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="translate-title" class="h2"><%= t('langs.translateTitle') %></h2>
+      <p class="lead"><%= t('langs.translateText') %></p>
+      <p><a class="btn btn-dark" href="<%= url('/partners/rights') %>"><%= t('langs.translateCta') %></a></p>
+    </div>
+    <div class="stack-sm">
+      <h2 class="h3"><%= t('langs.siteTitle') %></h2>
+      <p><%= t('langs.siteText') %></p>
+    </div>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

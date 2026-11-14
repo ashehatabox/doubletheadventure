@@ -1,0 +1,100 @@
+<%- include('../partials/top') %>
+<% const P = t('press'); %>
+<section class="section tight" aria-labelledby="press-title">
+  <div class="wrap stack" style="gap:24px">
+    <p class="ph-back"><a href="<%= url('/partners') %>"><%= t('partners.title') %></a></p>
+    <div class="ph">
+      <h1 id="press-title" class="h1"><%= P.title %></h1>
+      <p class="lead"><%= P.lead %></p>
+      <div class="row">
+        <% if (kitHref) { %><a class="btn btn-primary" href="<%= kitHref %>" download><%= P.dlKit %></a><% } %>
+        <a class="btn btn-ghost" href="<%= url('/partners/press/fact-sheet') %>"><%= P.factPrint %></a>
+      </div>
+    </div>
+    <nav aria-label="<%= P.jump %>"><ul class="jumpnav">
+      <li><a href="#facts"><%= P.factTitle %></a></li><li><a href="#story"><%= P.storyTitle %></a></li><li><a href="#bios"><%= P.biosTitle %></a></li>
+      <li><a href="#angles"><%= P.anglesTitle %></a></li><li><a href="#downloads"><%= P.downloadsTitle %></a></li><li><a href="#contact-press"><%= P.contactTitle %></a></li>
+    </ul></nav>
+  </div>
+</section>
+
+<section class="section tight" id="facts" aria-labelledby="facts-title" style="padding-top:0">
+  <div class="wrap stack" style="gap:16px;max-width:900px;margin-left:auto;margin-right:auto">
+    <h2 id="facts-title" class="h2"><%= P.factTitle %></h2>
+    <%- include('../partials/press-facts') %>
+  </div>
+</section>
+
+<section class="section tight band-sun" id="story" aria-labelledby="story-title">
+  <div class="wrap stack" style="gap:20px">
+    <div class="stack-sm"><h2 id="story-title" class="h2"><%= P.storyTitle %></h2><p class="lead"><%= P.storyNote %></p></div>
+    <div class="copy-block"><h3>50</h3><p><%= P.s50 %></p></div>
+    <div class="copy-block"><h3>150</h3><p><%= P.s150 %></p></div>
+    <div class="copy-block"><h3>400</h3><% P.s400.forEach(function (p) { %><p><%= p %></p><% }) %></div>
+  </div>
+</section>
+
+<section class="section tight" id="bios" aria-labelledby="bios-title">
+  <div class="wrap stack" style="gap:20px">
+    <h2 id="bios-title" class="h2"><%= P.biosTitle %></h2>
+    <% P.bios.forEach(function (b) { %>
+    <div class="copy-block bio">
+      <img src="/images/brand/<%= b.portrait %>.webp" alt="<%= P.portraitAlt.replace('{name}', b.name) %>" width="240" height="240" loading="lazy">
+      <div class="stack-sm">
+        <h3><%= b.name %></h3>
+        <p><strong><%= P.short %>.</strong> <%= b.short %></p>
+        <p><strong><%= P.long %>.</strong> <%= b.long %></p>
+        <p class="muted"><%= P.photoNote %> <%- include('../partials/pending', { k: 'photo' }) %></p>
+      </div>
+    </div>
+    <% }) %>
+  </div>
+</section>
+
+<section class="section tight band-sky" id="angles" aria-labelledby="angles-title">
+  <div class="wrap stack" style="gap:16px">
+    <h2 id="angles-title" class="h2"><%= P.anglesTitle %></h2>
+    <ul class="clean"><% P.angles.forEach(function (a) { %><li><%= a %></li><% }) %></ul>
+  </div>
+</section>
+
+<section class="section tight" id="downloads" aria-labelledby="dl-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="dl-title" class="h2"><%= P.downloadsTitle %></h2>
+      <p class="lead"><%= P.downloadsLead %></p>
+      <ul class="dl-list">
+        <% if (kitHref) { %><li><a href="<%= kitHref %>" download><%= P.dlKit %></a></li><% } %>
+        <li><a href="/images/brand/logo.png" download><%= P.dlLogo %></a></li>
+        <li><a href="/images/brand/logo-light.png" download><%= P.dlLogoLight %></a></li>
+        <li><a href="<%= url('/partners/press/fact-sheet') %>"><%= P.dlFact %></a></li>
+      </ul>
+      <p style="margin:8px 0 0"><strong><%= P.stillComing %></strong> <%= P.comingFiles.join(', ') %>. <%- include('../partials/pending', { k: 'files' }) %></p>
+    </div>
+    <div class="stack-sm">
+      <h3 class="h3"><%= P.dlCovers %></h3>
+      <div class="cover-strip">
+        <% covers.forEach(function (b) { %><a href="<%= b.cover %>" download><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle %>" width="360" height="576" loading="lazy"></a><% }) %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="coverage-title" style="padding-top:0">
+  <div class="wrap stack" style="gap:12px">
+    <h2 id="coverage-title" class="h2"><%= P.coverageTitle %></h2>
+    <p class="empty-state"><%= P.coverageEmpty %></p>
+  </div>
+</section>
+
+<section class="section tight band-sun" id="contact-press" aria-labelledby="pc-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="pc-title" class="h2"><%= P.contactTitle %></h2>
+      <p class="lead"><%= P.contactLead %></p>
+      <p><a href="mailto:<%= site.email('press') %>" style="font-weight:800;font-size:20px"><%= site.email('press') %></a></p>
+    </div>
+    <%- include('../partials/enquiry', { kind: 'press', formTitle: P.formTitle, select: { name: 'interview', label: P.fInterview, options: P.interviewOptions } }) %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

@@ -1,0 +1,90 @@
+<%- include('../partials/top') %>
+<% const L = t('libs'); const heads = lang === 'fr' ? ['Offre', 'Ce que c\'est', 'Comment'] : ['Offer', 'What it is', 'How']; %>
+<section class="section tight" aria-labelledby="lib-title">
+  <div class="wrap stack" style="gap:24px">
+    <p class="ph-back"><a href="<%= url('/educators') %>"><%= t('educators.title') %></a></p>
+    <div class="ph">
+      <h1 id="lib-title" class="h1"><%= content.title %></h1>
+      <p class="lead"><%= content.lead %></p>
+      <div class="row">
+        <a class="btn btn-primary" href="#titles"><%= L.titlesTitle %></a>
+        <a class="btn btn-ghost" href="#order"><%= L.orderTitle %></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" id="order" aria-labelledby="order-title" style="padding-top:0">
+  <div class="wrap stack" style="gap:20px">
+    <h2 id="order-title" class="h2"><%= L.orderTitle %></h2>
+    <div class="p-grid">
+      <% L.order.forEach(function (o, i) { %>
+      <div class="p-card"><strong><%= o.title %></strong><span><%= o.text %></span>
+        <% if (i < 2) { %><span><%= L.notYet %>: <%- include('../partials/pending', { k: 'link' }) %></span><% } else { %><span><%- include('../partials/pending', { k: 'terms' }) %> <a href="mailto:<%= site.email('orders') %>"><%= site.email('orders') %></a></span><% } %>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section tight band-sun" id="titles" aria-labelledby="titles-title">
+  <div class="wrap stack" style="gap:20px">
+    <div class="stack-sm">
+      <h2 id="titles-title" class="h2"><%= L.titlesTitle %></h2>
+      <p class="lead"><%= L.titlesLead %></p>
+      <div class="row">
+        <a class="btn btn-dark" href="<%= url('/educators/libraries/titles.csv') %>" download><%= L.csv %></a>
+        <a class="btn btn-ghost" href="<%= url('/educators/libraries/titles') %>"><%= L.print %></a>
+        <a class="btn btn-ghost" href="<%= url('/educators/libraries/one-sheet') %>"><%= t('oneSheet.title') %></a>
+      </div>
+    </div>
+    <div class="table-wrap" tabindex="0" role="region" aria-labelledby="titles-title"><%- include('../partials/title-table') %></div>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="fit-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="fit-title" class="h2"><%= L.fitTitle %></h2>
+      <ul class="clean">
+        <% L.fit.forEach(function (x, i) { %><li><% if (i === 1) { %><a href="<%= L.k2026 %>" rel="noopener"><%= x %></a><% } else { %><%= x %><% } %></li><% }) %>
+      </ul>
+    </div>
+    <div class="stack-sm">
+      <h2 class="h3"><%= L.marcTitle %></h2>
+      <p><%= L.marcText %></p>
+      <h2 class="h3"><%= L.poTitle %></h2>
+      <p><%= L.poText %> <%- include('../partials/pending', { k: 'terms' }) %></p>
+      <p><a href="#enquiry" style="font-weight:800"><%= L.poCta %></a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="offers-title" style="padding-top:0">
+  <div class="wrap stack" style="gap:20px">
+    <h2 id="offers-title" class="h2"><%= t('oneSheet.free') %></h2>
+    <div class="table-wrap" tabindex="0" role="region" aria-labelledby="offers-title">
+      <table>
+        <thead><tr><% heads.forEach(function (h) { %><th scope="col"><%= h %></th><% }) %></tr></thead>
+        <tbody><% content.offers.forEach(function (o) { %><tr><td style="font-weight:800" data-label="<%= heads[0] %>"><%= o[0] %></td><td data-label="<%= heads[1] %>"><%= o[1] %></td><td data-label="<%= heads[2] %>"><% if (o[3]) { %><a href="<%= url(o[3]) %>" style="font-weight:800"><%= o[2] %></a><% } else { %><%= o[2] %><% } %></td></tr><% }) %></tbody>
+      </table>
+    </div>
+    <div class="grid-2" style="align-items:start">
+      <div class="stack-sm">
+        <h2 class="h3"><%= L.visitsTitle %></h2>
+        <table class="dtable"><tbody><% L.visits.forEach(function (v) { %><tr><th scope="row"><%= v %></th><td><%- include('../partials/pending', { k: 'fee' }) %></td></tr><% }) %></tbody></table>
+      </div>
+      <div class="stack-sm">
+        <h2 class="h3"><%= L.reviewsTitle %></h2>
+        <p class="empty-state"><%= L.reviewsEmpty %></p>
+      </div>
+    </div>
+  </div>
+</section>
+<% if (guideCovers.length) { %><%- include('../partials/educator-books') %><% } %>
+<section class="section tight" style="padding-top:0">
+  <div class="wrap" style="max-width:760px">
+    <%- include('../partials/enquiry', { kind: content.formKind, formTitle: content.formTitle }) %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

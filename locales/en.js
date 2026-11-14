@@ -7,7 +7,7 @@ module.exports = {
     guideDesc: 'Free teacher guide for {title}: discussion questions, activities and a lesson plan for ages 3–7, built around the value of {value}.',
     siteDescription: 'Double the Adventure picture books for ages 3–7: old wisdom from around the world, in stories where little heroes choose to do the right thing. In English, French, Spanish, German and Italian.'
   },
-  topbar: { newBook: 'New:', newBookLine: 'a story about belonging you build yourself' },
+  topbar: { vision: '{total} books so far, on the road to {planned}', newBook: 'New:', newBookLine: 'a story about belonging you build yourself' },
   nav: {
     stories: 'Stories', heroes: 'Heroes', readWatch: 'Read & watch', animals: 'Real animals', books: 'Books', shop: 'Shop', play: 'Play', parents: 'Parents', educators: 'Educators', partners: 'Partners',
     freePage: 'Free coloring page', menu: 'Menu', main: 'Main', language: 'Language', skip: 'Skip to content'
@@ -23,6 +23,8 @@ module.exports = {
     notifyMe: 'Notify me',
     notifyAmazon: 'Tell me when it\'s on Amazon',
     paperback: 'Paperback', kindle: 'Kindle',
+    amazonPrice: 'Paperback and Kindle on Amazon (price varies by country)',
+    amazonNote: 'on Amazon (price varies by country)',
     newBook: 'New book',
     comingSoon: 'Coming soon',
     readMore: 'Read more',
@@ -38,6 +40,7 @@ module.exports = {
     enquiryNote: 'We reply within 2 business days and only use your details to answer you.',
     error: 'Something went wrong. Please check your email address and try again.',
     englishOnly: 'This text is in English for now.',
+    altMap: 'World map of the cultures in the series', altSpread: 'Two pages from the book', altColoring: 'Coloring page from the book', altJigsaw: 'Jigsaw made from a book cover', altMemory: 'Memory cards with book covers', altPlaceMap: 'Map showing',
     coverOf: 'Cover of'
   },
   home: {
@@ -91,11 +94,11 @@ module.exports = {
   books: {
     readOnline: 'Read online', liveTitle: 'On Amazon now', soonTitle: 'Coming to Amazon soon', exRead: 'Read inside', exWatch: 'Video', exAnimals: 'Real animals', exPlay: 'Games',
     title: 'All the books',
-    lead: 'Twenty little heroes, each carrying one value from one culture. Pick by what your child is going through, or browse them all.',
+    lead: '{total} little heroes so far, on the road to {planned}, each carrying one value from one culture. Pick by what your child is going through, or browse them all.',
     filterLabel: 'Find a book by the moment',
     all: 'All books',
     onAmazon: 'On Amazon',
-    soon: 'On Amazon soon',
+    soon: 'Coming soon: notify me',
     none: 'No book for this moment yet.'
   },
   book: {
@@ -171,7 +174,7 @@ module.exports = {
   shop: {
     pageLead: 'Every finished book is on Amazon, in paperback and Kindle. Our own shop opens in early 2027 with sets, signed copies and gifts.',
     liveTitle: 'On Amazon now',
-    liveLead: 'Paperback {paper} and Kindle {kindle}. The button opens the right Amazon store for your country.',
+    liveLead: 'Paperback and Kindle on Amazon (price varies by country). The button opens the right Amazon store for your country.',
     soonTitle: 'Coming to Amazon soon',
     soonLead: 'These books are finished and on their way to Amazon. Leave your email on a book and we\'ll tell you the day it\'s out.',
     soonTag: 'Coming soon',
@@ -192,7 +195,7 @@ module.exports = {
     homeTitle: 'For home',
     homeLead: 'A printable activity pack for every book: stick puppets, feelings, story order, tracing, a craft, real-animal facts, coloring, talk cards and a certificate. Pay once, download the PDF straight away.',
     classTitle: 'For the classroom',
-    classLead: 'A week on one value, ready to print: a five-day plan, word cards, a poster, a feelings chart, sequencing cards, an observation grid tied to the Ontario frames, exit tickets and family letters in five languages. The home pack is inside too.',
+    classLead: 'A week on one value, ready to print: a five-day plan, word cards, a poster, a feelings chart, sequencing cards, an observation grid tied to the Ontario frames, exit tickets and family letters in five languages (English, French, Spanish, German and Italian). The home pack is inside too.',
     packPrice: '{price} each, {pages} pages, instant PDF download.',
     previewOf: 'Pages from the pack for {title}',
     downloadLead: 'Your {title} for {book} is ready.',
@@ -366,7 +369,7 @@ module.exports = {
     codeBad: 'That code doesn\'t match this book. Check the letters and try again.',
     codeWait: 'Too many tries. Please wait a few minutes.',
     codeOk: 'Unlocked. Enjoy the whole story!',
-    buy: 'Unlock the book for ${price}',
+    buy: 'Unlock the book for ${price} CAD',
     buyNote: 'Secure payment by Stripe. Read it on this device and with the code we give you.',
     amazon: 'Get the book on Amazon',
     again: 'Read it again',
@@ -495,9 +498,9 @@ module.exports = {
     printLead: 'Free to print and use in your classroom, library or centre.',
     prints: [
       { href: '/educators/classroom/cards', title: 'QR read-aloud cards', text: 'Four cards per page. Children scan a card with a tablet to hear the story read aloud. Great for a listening centre.' },
-      { href: '/educators/classroom/posters', title: 'Refrain and value posters', text: 'One poster per book with the refrain to sing together and the big idea. Print one or all 21.' },
-      { href: '/educators/libraries/one-sheet', title: 'Library one-sheet', text: 'All 21 books on one page, with values, languages and how to order class sets. For librarians and directors.' },
-      { href: '/educators/guides', title: 'Read-aloud guides', text: 'A full guide for every book: pause points, activities, look-fors and a family letter in five languages.' }
+      { href: '/educators/classroom/posters', title: 'Refrain and value posters', text: 'One poster per book with the refrain to sing together and the big idea. Print one or all {total}.' },
+      { href: '/educators/libraries/one-sheet', title: 'Library one-sheet', text: 'All {total} books on one page, with values, languages and how to order class sets. For librarians and directors.' },
+      { href: '/educators/guides', title: 'Read-aloud guides', text: 'A full guide for every book: pause points, activities, look-fors and a family letter in English, French, Spanish, German and Italian.' }
     ],
     yearTitle: 'A year of values',
     yearLead: 'Two books a month, September to June. Each month builds on the last, from belonging at the start of the year to courage at the end.',
@@ -539,9 +542,9 @@ module.exports = {
   },
   oneSheet: {
     title: 'Library one-sheet',
-    lead: 'The Double the Adventure series on one page: 21 picture books about values from around the world, for ages 3 to 7.',
+    lead: 'The Double the Adventure series on one page: {total} picture books so far, on the road to {planned}, about values from around the world, for ages 3 to 7.',
     print: 'Print or save as PDF',
-    about: 'Each book follows a real animal in a real place and carries one value, many of them from a culture’s own words. Every book comes with a free read-aloud guide, an on-screen reader and, for most titles, a read-aloud video.',
+    about: 'Each book follows a real animal in a real place and carries one value, many of them from a culture’s own words. Every book comes with a free read-aloud guide, an on-screen reader, and {videos} of the {total} titles have a read-aloud video.',
     colNum: '#',
     colTitle: 'Title',
     colValue: 'Value',
@@ -573,6 +576,7 @@ module.exports = {
     diffTitle: 'For every child',
     lookForsTitle: 'What to look for',
     lookForsText: 'Tick what you notice during the week. Each line names the Ontario frame it shows.',
+    madeTitle: 'How the books are made',
     careTitle: 'Handle with care',
     letterTitle: 'Note for families',
     letterText: 'Copy it into your newsletter or send it home. It is also here in other languages.',
@@ -597,7 +601,7 @@ module.exports = {
       { key: 'teachers', title: 'Teachers', text: 'A free read-aloud guide per book, SEL packs and classroom sets.' },
       { key: 'early-years', title: 'Early years and daycares', text: 'Circle-time guides, centre sets and storytime visits.' },
       { key: 'libraries', title: 'Libraries', text: 'One-sheets, ISBNs, storytime kits and multilingual editions.' },
-      { key: 'newcomers', title: 'Newcomer and ESL programs', text: 'Stories from many cultures, in five languages.' }
+      { key: 'newcomers', title: 'Newcomer and ESL programs', text: 'Stories from many cultures, in English, French, Spanish, German and Italian.' }
     ],
     curriculumTitle: 'Linked to what you already teach',
     curriculum: [
@@ -612,12 +616,12 @@ module.exports = {
     ],
     setsTitle: 'Class sets',
     setsLead: 'Paperbacks you choose, by value or by language, with a classroom licence and each book\'s SEL pack as soon as it is ready.',
-    setsAmazon: 'The same books on Amazon: ${price}',
+    setsAmazon: 'Also on Amazon, one book at a time (price varies by country).',
     setsOrder: 'Order this set',
     setsNote: 'Prices in Canadian dollars, shipping to Canada and the United States included. Sets arrive in about 2 weeks in Canada and 3 to 4 weeks in the US. Need a purchase order or a multi-class price? Use the form on the teacher page.',
     settingTitle: 'Made for your setting',
     booksTitle: 'Pick a book, teach it tomorrow',
-    booksLead: 'Every published book has a free read-aloud guide, can be read on the class screen, and most have a read-aloud video.',
+    booksLead: 'Every published book has a free read-aloud guide, can be read on the class screen, and {videos} of the {total} titles have a read-aloud video.',
     bookGuide: 'Guide', bookRead: 'Read on screen', bookWatch: 'Watch'
   },
   educatorPages: {
@@ -658,7 +662,7 @@ module.exports = {
       title: 'Libraries',
       lead: 'Everything a librarian needs to choose, order and run a storytime with our books.',
       offers: [
-        ['Series one-sheet', 'All 21 books on one page: values, languages, ages, class-set prices', 'Free, print it now', '/educators/libraries/one-sheet'],
+        ['Series one-sheet', 'All {total} books on one page: values, languages, ages, class-set prices', 'Free, print it now', '/educators/libraries/one-sheet'],
         ['Storytime kit', 'A read-aloud guide, QR listening cards and a refrain poster for every book', 'Free, print it now', '/educators/classroom'],
         ['Multilingual editions', 'English, French, Spanish, German and Italian, for branches serving newcomer families', 'On Amazon, or direct: 5 books $54.99, 10 books $99.99, all 21 $199.99 CAD', '/shop'],
         ['Storytime visits', 'Virtual or in person', 'Ask us with the form below']
@@ -715,7 +719,7 @@ module.exports = {
     },
     rights: {
       title: 'Rights and licensing',
-      lead: 'Twenty titles in five languages, with characters children haven\'t seen lead a book before.',
+      lead: '{total} titles so far, on the road to {planned}, in five languages: English, French, Spanish, German and Italian.',
       points: ['Foreign-language editions', 'Animation and audio', 'Toys, games and products'],
       formKind: 'rights',
       formTitle: 'Rights and licensing enquiries'
@@ -784,6 +788,8 @@ module.exports = {
   faq: {
     title: 'Questions',
     items: [
+      ['How are the books made?', '[wording – pending]'],
+      ['Where are you based?', 'A² Publishing is in Kingston, Ontario, Canada. Write to hello@doubleadventure.ca.'],
       ['What ages are the books for?', 'Ages 3–7. They work as bedtime read-alouds and in preschool, kindergarten and early-years classrooms.'],
       ['Where can I buy them?', 'On Amazon today, in print and on Kindle. Our own shop opens in early 2027 for sets, signed copies and gifts.'],
       ['Which languages are they in?', 'The newest books come in English, French, Spanish, German and Italian. Each book page lists its editions.'],
@@ -798,6 +804,8 @@ module.exports = {
         'We collect only what you give us: an email address (and a name or organisation if you send an enquiry). We use it to send what you asked for and our emails, which you can leave at any time with the unsubscribe link.',
         'We never collect information about children. Our games and pages for kids need no account and ask for nothing.',
         'Your details are stored with Supabase in Canada and are not sold or shared. To see or delete what we hold about you, write to hello@doubleadventure.ca.',
+        'If you arrive from a link with a referral code (for example ?ref=ot_296), we keep that code for 90 days in a small cookie on your device, so we know which outreach brought you. It holds only the code, nothing about you. If we turn on Google Analytics, it counts visits on our grown-up pages only, never on the Play area or the book reader.',
+        'If you arrive from a link with a referral code (for example ?ref=ot_296), we keep that code for 90 days in a small cookie on your device, so we know which outreach brought you. It holds only the code, nothing about you. If we turn on Google Analytics, it counts visits on our grown-up pages only, never on the Play area or the book reader.',
         'We follow Canada\'s privacy law (PIPEDA) and anti-spam law (CASL).'
       ]
     },
@@ -835,12 +843,242 @@ module.exports = {
     readBook: 'Read the story', otherGuides: 'More hero guides', none: 'Hero guides are coming for every book.'
   },
   footer: {
-    tagline: 'Old wisdom, little heroes. Ages 3–7, in five languages.',
+    road: 'Road to 100', languages: 'Languages',
+    languagesLine: 'English, Français, Español, Deutsch, Italiano.',
+    askLanguage: 'Your language? Ask us',
+    writeTitle: 'Write to us',
+    mailHello: 'Families and questions', mailPress: 'Press and reviews', mailOrders: 'Stores, libraries, schools', mailRights: 'Rights and licensing',
+    tagline: '{total} books so far, on the road to {planned}. Five languages to start, open to more.',
     booksTitle: 'Books', familiesTitle: 'Families', educatorsTitle: 'Educators', partnersTitle: 'Partners',
     values: 'Values',
     start: 'Which book first?',
     aboutUs: 'About us', allBooks: 'All books', reviewTeam: 'Review team', about: 'Our story', contact: 'Contact', faq: 'Questions',
     privacy: 'Privacy', terms: 'Terms', shipping: 'Shipping'
   },
+  pending: {
+    isbn: '[ISBN – pending]', date: '[date – pending]', price: '[price – pending]', pages: '[pages – pending]', trim: '[trim – pending]',
+    link: '[link – pending]', terms: '[terms – pending]', fee: '[fee – pending]', bisac: '[BISAC – pending]', pitch: '[50-word pitch – pending]',
+    photo: '[photo – pending]', files: '[files – pending]', wording: '[wording – pending]', list: '[list – pending]', percent: '[% – pending]',
+    status: '[status – pending]', confirm: '[to confirm]'
+  },
+  vision: {
+    out: 'out now', finished: 'finished, coming to Amazon', planned: 'planned in all',
+    langs: 'English, Français, Español, Deutsch, Italiano'
+  },
+  road: {
+    title: 'Road to 100',
+    description: '{total} Double the Adventure books so far, on the road to 100: one value from one culture in every book, in five languages to start.',
+    heroTitle: '100 values. 100 cultures. One little hero at a time.',
+    heroLead: '{total} books so far, in five languages to start.',
+    whyTitle: 'Why 100',
+    whyText: 'Every culture has a value worth passing on. We are building a library where every child finds their own heritage, and their friends\' too.',
+    howTitle: 'How a value is chosen',
+    steps: [
+      { title: 'A reader suggests a value', text: 'A parent, grandparent or teacher tells us a value they wish children understood.' },
+      { title: 'We find its roots', text: 'We look for an older culture that has carried it: a saying, a word or a custom, with its source.' },
+      { title: 'A new hero is created', text: 'A little animal meets a real problem and chooses the value for themselves.' },
+      { title: 'A reader from that culture checks it', text: 'Before the book is published, someone from the culture reads it.' }
+    ],
+    wavesTitle: 'The waves',
+    wavesLead: 'The library grows in four waves.',
+    colWave: 'Wave', colBooks: 'Books', colStatus: 'Status', colDate: 'Target date',
+    waveDone: '{out} on Amazon, {finished} finished', wavePlanned: 'Planned', waveDoneDate: 'Done',
+    mapTitle: 'Cultures on the map so far',
+    mapNext: 'Next cultures for wave 2:',
+    langTitle: 'Five languages to start',
+    langText: 'English, Français, Español, Deutsch and Italiano, and open to more.',
+    langCta: 'See every language',
+    growTitle: 'Grow with us',
+    grow: [
+      { title: 'Sponsor a book', text: 'Put your name in the credits of a new title.', href: '/partners/sponsors' },
+      { title: 'Translate a book', text: 'Bring a story into your language.', href: '/languages#translate' },
+      { title: 'License a book', text: 'Editions, audio, screen and products.', href: '/partners/rights' },
+      { title: 'Stock the series', text: 'Terms and a sell sheet for stores.', href: '/partners/stores' },
+      { title: 'Review a book', text: 'Get a free copy for an honest review.', href: '/books/review-team' }
+    ],
+    followTitle: 'Follow the journey',
+    followLead: 'One email when a new hero is born. For grown-ups only.',
+    followButton: 'Tell me',
+    shareTitle: 'Share a value with us'
+  },
+  langs: {
+    title: 'Languages',
+    description: 'Double the Adventure picture books in English, French, Spanish, German and Italian, and open to more. See what is available in each language, or ask for yours.',
+    lead: 'Five languages to start: English, Français, Español, Deutsch and Italiano. Open to more.',
+    nowTitle: 'Available now',
+    nowLead: 'What is on sale in each language today. More titles are translated and go on sale a few at a time.',
+    colLang: 'Language', colBooks: 'On sale now', colFormats: 'Formats', colNext: 'Ready, not yet on sale',
+    none: 'None yet',
+    formats: { paperback: 'paperback', kindle: 'Kindle', hardcover: 'hardcover' },
+    extrasTitle: 'Free in every language',
+    extras: [
+      'A note for families in all five languages, inside every read-aloud guide.',
+      'Read-aloud videos in English and some in French. Read online: English for now.'
+    ],
+    nextTitle: 'Coming next',
+    nextText: 'The next languages we will add:',
+    requestTitle: 'Ask for your language',
+    requestLead: 'Tell us which language you need. Every request is counted below.',
+    fLanguage: 'Language you need', fCountry: 'Country', fWho: 'I am a', fSize: 'How many children or classes?',
+    who: ['Parent', 'Teacher', 'Librarian', 'Publisher', 'Translator', 'Other'],
+    requestButton: 'Send my request',
+    tallyTitle: 'Requests so far',
+    tallyEmpty: 'No requests yet. Be the first.',
+    tallyNote: 'Counts only. We never show names or emails.',
+    translateTitle: 'Translate with us',
+    translateText: 'Translators and publishers: we license translation rights by language and territory.',
+    translateCta: 'Rights and licensing',
+    bilingualTitle: 'Two languages together',
+    bilingualText: 'For dual-language classrooms and newcomer families, we sell the same story in English and French as a pair. A single book with both languages on every page is not made yet.',
+    bilingualCta: 'See the English and French set',
+    siteTitle: 'This website',
+    siteText: 'The site is in English and French today. Spanish, German and Italian pages are not built yet; book buttons open Amazon in your country.'
+  },
+  press: {
+    title: 'Press and reviews',
+    description: 'Press kit for the Double the Adventure picture books: fact sheet, story in three lengths, founder bios, logos and covers. Free to download, no form.',
+    lead: 'Everything a journalist needs, free to download. No form needed.',
+    jump: 'On this page',
+    factTitle: 'Fact sheet',
+    factPrint: 'Print the fact sheet',
+    facts: {
+      series: 'Series', seriesV: 'Double the Adventure picture books',
+      ages: 'Ages', agesV: '3 to 7',
+      books: 'Books', booksV: '{total} so far ({out} on Amazon, {finished} finished), on the road to {planned}',
+      languages: 'Languages', languagesV: 'English, French, Spanish, German and Italian to start',
+      publisher: 'Publisher', publisherV: 'A² Publishing, Kingston, Ontario, Canada',
+      founders: 'Founders', foundersV: 'Amr Mohamed and Abdallah Shehata',
+      first: 'First book',
+      buy: 'Where to buy', buyV: 'Amazon (paperback and Kindle) and doubleadventure.ca (sets and printable packs)',
+      price: 'Price', priceV: 'On Amazon, the price varies by country. On our site: packs from ${packFrom} CAD, sets ${setFrom}–${setTo} CAD.',
+      review: 'Cultural review', reviewV: 'Each value comes from a sourced saying, word or custom. Books built on a living tradition are checked by a reader from that culture.'
+    },
+    storyTitle: 'The story in three lengths',
+    storyNote: 'Ready to paste. Free to edit for length.',
+    s50: 'Double the Adventure is a picture-book series for ages 3 to 7 from A² Publishing in Kingston, Ontario. Each book takes one value from a culture\'s own stories, such as Ubuntu or Sankofa, and gives it to a little animal hero who chooses it. {total} books so far, on the road to {planned}.',
+    s150: 'Double the Adventure began with one question from a father, Amr Mohamed: how do you give a child a value that stays? He and his friend Abdallah Shehata, a storyteller, answered with picture books. Each one takes a single value from a culture\'s traditional stories, from Ubuntu in Southern Africa to Sankofa in Ghana and kaitiakitanga in Aotearoa New Zealand, and gives it to a little animal hero who solves a real problem by their own choice. There is no lecture at the end and no adult who fixes everything. The series has {total} books so far, for ages 3 to 7, in English, French, Spanish, German and Italian to start. Every book comes with a free read-aloud guide for teachers, coloring pages and games. The goal is 100 books: one value from every corner of the world.',
+    s400: [
+      'Double the Adventure began at home. Amr Mohamed, father of a curious six-year-old, noticed that reminders don\'t last. "Be patient" is forgotten by dinnertime, but a child remembers the little hero who waited. He shared the idea with his friend Abdallah Shehata, a storyteller, and together they started A² Publishing, based in Kingston, Ontario.',
+      'Each book carries one value that shaped traditional stories somewhere in the world. Ubuntu, the Southern African idea that a person is a person through other people. Sankofa, the Akan bird that walks forward while looking back. Kaitiakitanga, the Māori idea of guardianship. Ayni, the Andean promise that today I help you and tomorrow you help me. Each value starts from a sourced saying, word or custom, and books built on a living tradition are checked by a reader from that culture.',
+      'The hero is always a young animal who faces a real problem and chooses the value for themselves. There is no adult rescue and nothing scary. A refrain children can say along, a real animal and a real place make each story easy to remember.',
+      'The series has {total} books so far, for ages 3 to 7, in English, French, Spanish, German and Italian to start. Families get free coloring pages, online games and articles. Teachers get a free read-aloud guide for every book, linked to Ontario\'s Kindergarten program, plus classroom packs with family letters in five languages.',
+      'Many of the values come from readers. Parents, grandparents and teachers write in with a value they wish children understood, and the team looks for where it lives in an older culture. The goal is a library of 100 books, so that every child can find their own heritage on the shelf, and their friends\' too.'
+    ],
+    biosTitle: 'Founder bios',
+    short: 'Short', long: 'Long',
+    bios: [
+      { name: 'Amr Mohamed', short: 'Amr Mohamed is co-founder of A² Publishing and the father whose question started Double the Adventure. He keeps every book close to real family life.', long: 'Amr Mohamed is co-founder of A² Publishing. As the father of a curious six-year-old, he wanted to pass on the things that matter, like honesty, patience, kindness and courage, and noticed that reminders fade while stories stay. That question became Double the Adventure. He keeps every book close to real family life.', portrait: 'author-glasses' },
+      { name: 'Abdallah Shehata', short: 'Abdallah Shehata is co-founder of A² Publishing and the storyteller of Double the Adventure. He turns each value into a hero, a problem worth solving and a refrain children love to say along.', long: 'Abdallah Shehata is co-founder of A² Publishing and the storyteller behind Double the Adventure. He shaped the series\' rule: a gentle animal hero, one value, and a problem the hero solves by their own choice, with no lecture and no adult who fixes everything. He turns each value into a hero, a problem worth solving and a refrain children love to say along.', portrait: 'author-parrot' }
+    ],
+    portraitAlt: 'Watercolour portrait of {name}',
+    photoNote: 'Real photos:',
+    anglesTitle: 'Story angles',
+    angles: [
+      'A Kingston, Ontario publisher turns world wisdom into bedtime books.',
+      '100 cultures in 100 books: a picture-book library built one value at a time.',
+      'Every value is sourced, and books built on a living tradition are checked by a reader from that culture.',
+      'Free guides and family letters in five languages for teachers and newcomer families.'
+    ],
+    downloadsTitle: 'Downloads',
+    downloadsLead: 'Images are free to use with the credit "© A² Publishing".',
+    dlKit: 'Press kit (logos and covers, ZIP)',
+    dlLogo: 'Logo, colour (PNG)', dlLogoLight: 'Logo, light, for dark backgrounds (PNG)',
+    dlCovers: 'Book covers, web size',
+    dlFact: 'Fact sheet (print or save as PDF)',
+    stillComing: 'Still coming:',
+    comingFiles: ['Logo as SVG', 'Covers at 300 dpi', 'Two sample spreads per book', 'Series poster', 'Character art'],
+    coverageTitle: 'Coverage',
+    coverageEmpty: 'Coverage coming soon.',
+    contactTitle: 'Review copies and interviews',
+    contactLead: 'Write to us, or ask for a print or Kindle review copy with the form.',
+    formTitle: 'Ask for a review copy or an interview',
+    fInterview: 'What would you like?', interviewOptions: ['Print review copy', 'Kindle review copy', 'Interview', 'Something else']
+  },
+  stores: {
+    title: 'Bookstores and gift shops',
+    description: 'Stock the Double the Adventure picture books: ordering routes, wholesale terms, a printable sell sheet and a storytime offer for stores.',
+    lead: 'Ordering routes, terms and a sell sheet on one page.',
+    routesTitle: 'Three ways to order',
+    routes: [
+      { title: 'Through Ingram', text: 'Order with your usual Ingram account once our titles are listed.' },
+      { title: 'On Faire', text: 'Wholesale with low minimums, for gift and museum shops.' },
+      { title: 'Direct from us', text: 'Local stores order straight from A² Publishing. Consignment is possible.' }
+    ],
+    termsTitle: 'Terms',
+    terms: ['Wholesale discount', 'Minimum order', 'Shipping', 'Payment terms', 'Returns', 'Consignment for local stores'],
+    shelf: 'Shelf category: children\'s picture books, social and emotional learning. Ages 3 to 7.',
+    sellTitle: 'Sell sheet',
+    sellText: 'Series summary, cover grid, formats, ISBNs and contact on one printable page.',
+    sellCta: 'Open the sell sheet',
+    kitTitle: 'Retail marketing kit',
+    kit: [
+      { title: 'Refrain and value posters', text: 'One per book, free to print.', href: '/educators/classroom/posters' },
+      { title: 'Shelf talkers', text: null },
+      { title: 'Series poster', text: null },
+      { title: 'Counter display idea', text: 'The three newest books on a small stand, with a free coloring page for children to take home.' }
+    ],
+    eventTitle: 'Storytime and signing',
+    eventText: 'An author storytime and signing for stores in the Kingston area and across Ontario. Ask us for a date.',
+    formTitle: 'Ask for wholesale terms',
+    orgLabel: 'Store or business name'
+  },
+  libs: {
+    orderTitle: 'How to order',
+    order: [
+      { title: 'Print', text: 'Ingram and Follett (through IngramSpark), Library Services Centre in Canada, Mackin in the US.' },
+      { title: 'Ebooks', text: 'OverDrive and Libby, Hoopla, BorrowBox.' },
+      { title: 'Direct', text: 'Class and branch sets, invoiced.' }
+    ],
+    notYet: 'Not listed yet',
+    titlesTitle: 'Title list',
+    titlesLead: 'Every title, format and language. ISBNs appear as each edition is assigned one.',
+    csv: 'Download the list (CSV)', print: 'Print the list',
+    colTitle: 'Title', colValue: 'Value', colLangs: 'Languages', colIsbn: 'Paperback ISBN (English)', colStatus: 'Status',
+    status: { out: 'Out now', finished: 'Finished, coming', planned: 'Planned' },
+    marcTitle: 'Catalogue records',
+    marcText: 'MARC records on request now, and through your wholesaler once our titles are listed there.',
+    fitTitle: 'Curriculum fit',
+    fit: [
+      'Ontario Kindergarten Program (2016): every guide links its activities to the four frames.',
+      'Ontario Kindergarten Curriculum (2026), in effect since September 2026: our guides still name the 2016 frames while we update them.',
+      'How Does Learning Happen?: belonging, well-being, engagement and expression.',
+      'CASEL 5: self-awareness, self-management, social awareness, relationship skills and responsible decision-making.'
+    ],
+    k2026: 'https://www.dcp.edu.gov.on.ca/en/curriculum/kindergarten/grades/jk-sk',
+    poTitle: 'Purchase orders and invoices',
+    poText: 'Schools and boards can pay by purchase order or invoice. Terms:',
+    poCta: 'Ask for a quote',
+    visitsTitle: 'Storytime and author visits',
+    visits: ['Half day', 'Full day', 'Virtual visit'],
+    reviewsTitle: 'Professional reviews',
+    reviewsEmpty: 'Reviews will appear here as they arrive.'
+  },
+  rights: {
+    title: 'Rights and licensing',
+    description: 'Rights catalogue for the Double the Adventure picture books: translation, co-editions, audio, animation and merchandise. {total} titles so far, on the road to 100.',
+    availTitle: 'Rights available',
+    types: ['Translation rights, by language and territory', 'Co-editions', 'Audio', 'Animation and TV', 'Merchandise and toys'],
+    licensed: 'Already licensed:',
+    catalogueTitle: 'Rights catalogue',
+    catalogueLead: 'One card per title. Open a card for its printable rights sheet.',
+    cataloguePrint: 'Print the catalogue',
+    published: 'Published in', notPublished: 'Not on sale yet',
+    pagesTrim: 'Pages and trim', agesL: 'Ages', valueCulture: 'Value and culture', salesAwards: 'Sales and awards',
+    sheet: 'Rights sheet', backToRights: 'Rights and licensing',
+    whyTitle: 'Why license this series',
+    why: [
+      'A 100-book roadmap, so a partner can plan a long run.',
+      'Each value is sourced, and books built on a living tradition are checked by a reader from that culture.',
+      'Free read-aloud guides for every title, and read-aloud videos for {videos} of them.',
+      'A values map that suits co-editions in each region.'
+    ],
+    fairsTitle: 'Meet us at',
+    fairsText: 'Fairs we will attend:',
+    fairsNext: 'The next big rights fair is the Bologna Children\'s Book Fair, April 5–8, 2027.',
+    formTitle: 'Rights and licensing enquiries',
+    fCompany: 'Company', fTerritory: 'Territory', fRightsLanguage: 'Language', fRightsType: 'Type of rights',
+    rightsOptions: ['Translation', 'Co-edition', 'Audio', 'Animation or TV', 'Merchandise or toys', 'Other']
+  },
+  homeVision: { cta: 'The road to 100' },
   notFound: { title: 'This page wandered off', text: 'Let\'s find you a story instead.' }
 };

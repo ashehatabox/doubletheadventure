@@ -83,7 +83,7 @@
         <h3 class="cls-month-name"><%= m.month %></h3>
         <p class="cls-month-idea"><%= t('classroom.monthIdeas')[i] %></p>
         <ul class="cls-month-books">
-          <% m.books.forEach(function (b) { %><li><a href="<%= url('/educators/guides/' + b.slug) %>"><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="60" height="96"><span><%= b.displayTitle %><% if (b.valueText) { %><small><%= b.valueText %></small><% } %></span></a></li><% }) %>
+          <% m.books.forEach(function (b) { %><li><a href="<%= url('/educators/guides/' + b.slug) %>"><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="60" height="96"><span><%= b.displayTitle %><% if (b.valueText) { %><small><%= b.valueText %></small><% } %></span></a></li><% }) %>
         </ul>
       </li>
       <% }) %>

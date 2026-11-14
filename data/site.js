@@ -4,9 +4,9 @@ module.exports = {
   name: 'A² Publishing',
   series: 'Double the Adventure',
   authors: ['Amr Mohamed', 'Abdallah Shehata'],
-  contactEmail: 'hello@doubleadventure.ca',
-  // One address per audience. null = not set up yet: the page shows hello@ instead (see the "still needed" list).
-  emails: { hello: 'hello@doubleadventure.ca', press: null, orders: null, rights: null },
+  contactEmail: 'ceo@doubleadventure.ca',
+  // One address per audience. All go to ceo@ for now (Abdallah, Nov 14, 2026); change one here when a separate inbox exists.
+  emails: { hello: 'ceo@doubleadventure.ca', press: 'ceo@doubleadventure.ca', orders: 'ceo@doubleadventure.ca', rights: 'ceo@doubleadventure.ca' },
   location: { en: 'Made in Kingston, Ontario, Canada', fr: 'Fait à Kingston, en Ontario, au Canada' },
   // Google Analytics 4 measurement ID (G-XXXXXXX). Set GA4_ID on the server; empty = no analytics at all.
   ga4Id: process.env.GA4_ID || '',

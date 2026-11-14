@@ -789,7 +789,7 @@ module.exports = {
     title: 'Questions',
     items: [
       ['How are the books made?', '[wording – pending]'],
-      ['Where are you based?', 'A² Publishing is in Kingston, Ontario, Canada. Write to hello@doubleadventure.ca.'],
+      ['Where are you based?', 'A² Publishing is in Kingston, Ontario, Canada. Write to ceo@doubleadventure.ca.'],
       ['What ages are the books for?', 'Ages 3–7. They work as bedtime read-alouds and in preschool, kindergarten and early-years classrooms.'],
       ['Where can I buy them?', 'On Amazon today, in print and on Kindle. Our own shop opens in early 2027 for sets, signed copies and gifts.'],
       ['Which languages are they in?', 'The newest books come in English, French, Spanish, German and Italian. Each book page lists its editions.'],
@@ -803,7 +803,7 @@ module.exports = {
       body: [
         'We collect only what you give us: an email address (and a name or organisation if you send an enquiry). We use it to send what you asked for and our emails, which you can leave at any time with the unsubscribe link.',
         'We never collect information about children. Our games and pages for kids need no account and ask for nothing.',
-        'Your details are stored with Supabase in Canada and are not sold or shared. To see or delete what we hold about you, write to hello@doubleadventure.ca.',
+        'Your details are stored with Supabase in Canada and are not sold or shared. To see or delete what we hold about you, write to ceo@doubleadventure.ca.',
         'If you arrive from a link with a referral code (for example ?ref=ot_296), we keep that code for 90 days in a small cookie on your device, so we know which outreach brought you. It holds only the code, nothing about you. If we turn on Google Analytics, it counts visits on our grown-up pages only, never on the Play area or the book reader.',
         'If you arrive from a link with a referral code (for example ?ref=ot_296), we keep that code for 90 days in a small cookie on your device, so we know which outreach brought you. It holds only the code, nothing about you. If we turn on Google Analytics, it counts visits on our grown-up pages only, never on the Play area or the book reader.',
         'We follow Canada\'s privacy law (PIPEDA) and anti-spam law (CASL).'

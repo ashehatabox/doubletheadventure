@@ -15,5 +15,5 @@ with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED) as z:
         f = d / 'cover.jpg'
         if f.exists():
             z.write(f, 'covers/' + d.name + '.jpg')
-    z.writestr('README.txt', 'A² Publishing, Double the Adventure press kit.\n\nImages are free to use with the credit "© A² Publishing".\nCovers are web size (900 px wide). 300 dpi files, sample spreads and character art: ask press@ / hello@doubleadventure.ca.\nhttps://doubleadventure.ca/partners/press\n')
+    z.writestr('README.txt', 'A² Publishing, Double the Adventure press kit.\n\nImages are free to use with the credit "© A² Publishing".\nCovers are web size (900 px wide). 300 dpi files, sample spreads and character art: ask ceo@doubleadventure.ca.\nhttps://doubleadventure.ca/partners/press\n')
 print(out, os.path.getsize(out))

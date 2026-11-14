@@ -789,7 +789,7 @@ module.exports = {
     title: 'Questions',
     items: [
       ['Comment les livres sont-ils faits ?', '[texte – à venir]'],
-      ['Où êtes-vous établis ?', 'A² Publishing est à Kingston, en Ontario, au Canada. Écrivez à hello@doubleadventure.ca.'],
+      ['Où êtes-vous établis ?', 'A² Publishing est à Kingston, en Ontario, au Canada. Écrivez à ceo@doubleadventure.ca.'],
       ['Pour quels âges ?', 'De 3 à 7 ans. Ils se lisent au coucher et en prématernelle, maternelle et garderie.'],
       ['Où les acheter ?', 'Sur Amazon dès aujourd\'hui, imprimés et sur Kindle. Notre boutique ouvre au début de 2027 pour les ensembles, dédicaces et cadeaux.'],
       ['En quelles langues ?', 'Les nouveaux livres existent en français, anglais, espagnol, allemand et italien. Chaque page de livre indique ses éditions.'],
@@ -803,7 +803,7 @@ module.exports = {
       body: [
         'Nous ne recueillons que ce que vous nous donnez : un courriel (et un nom ou un organisme si vous nous écrivez). Nous l\'utilisons pour vous envoyer ce que vous avez demandé et nos courriels, dont vous pouvez vous désabonner à tout moment.',
         'Nous ne recueillons jamais d\'information sur les enfants. Nos jeux et pages pour enfants ne demandent ni compte ni renseignement.',
-        'Vos données sont conservées chez Supabase au Canada et ne sont ni vendues ni partagées. Pour consulter ou supprimer vos données, écrivez à hello@doubleadventure.ca.',
+        'Vos données sont conservées chez Supabase au Canada et ne sont ni vendues ni partagées. Pour consulter ou supprimer vos données, écrivez à ceo@doubleadventure.ca.',
         'Si vous arrivez par un lien avec un code de recommandation (par exemple ?ref=ot_296), nous gardons ce code 90 jours dans un petit témoin sur votre appareil, pour savoir quelle démarche vous a amené ici. Il ne contient que le code, rien sur vous. Si nous activons Google Analytics, il ne compte que les visites des pages pour adultes, jamais l\'espace Jeux ni la liseuse.',
         'Nous respectons la loi canadienne sur la protection des renseignements personnels (LPRPDE) et la loi anti-pourriel (LCAP).'
       ]

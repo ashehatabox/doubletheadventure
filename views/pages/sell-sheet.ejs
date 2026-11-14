@@ -1,0 +1,44 @@
+<%- include('../partials/top') %>
+<section class="section tight os-page">
+  <div class="wrap one-sheet">
+    <div class="row no-print" style="gap:12px;margin-bottom:20px">
+      <a class="muted" href="<%= url('/partners/stores') %>"><%= t('stores.title') %></a>
+      <button class="btn btn-primary" type="button" data-print><%= t('oneSheet.print') %></button>
+    </div>
+    <div class="os-head">
+      <div class="stack-sm">
+        <h1 class="os-title">Double the Adventure</h1>
+        <p class="os-lead"><%= t('oneSheet.lead') %></p>
+        <p class="os-meta"><%= t('stores.shelf') %></p>
+      </div>
+      <div class="os-qr"><div role="img" aria-label="doubleadventure.ca/partners/stores"><%- qr %></div><p>doubleadventure.ca</p></div>
+    </div>
+    <div class="sheet-covers">
+      <% books.forEach(function (b) { %><figure><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle %>" width="360" height="576"><% } else { %><span class="rc-ph" style="background:<%= b.color %>;display:block"></span><% } %><figcaption><%= b.valueText %></figcaption></figure><% }) %>
+    </div>
+    <table class="os-table">
+      <thead><tr><th scope="col">#</th><th scope="col"><%= t('libs.colTitle') %></th><th scope="col"><%= t('libs.colValue') %></th><th scope="col"><%= t('libs.colLangs') %></th><th scope="col"><%= t('libs.colIsbn') %></th><th scope="col"><%= t('libs.colStatus') %></th></tr></thead>
+      <tbody>
+        <% rows.forEach(function (r) { %>
+        <tr><td><%= r.n %></td><td><%= r.title %></td><td><%= r.value %></td><td><%= r.languages.map(function (l) { return l.toUpperCase(); }).join(', ') %></td>
+          <td><% if (r.paperback && r.paperback.isbn) { %><%= r.paperback.isbn %><% } else { %><%- include('../partials/pending', { k: 'isbn' }) %><% } %></td>
+          <td><%= t('libs.status.' + r.status) %></td></tr>
+        <% }) %>
+      </tbody>
+    </table>
+    <div class="os-foot">
+      <div>
+        <h2 class="os-h2"><%= t('stores.termsTitle') %></h2>
+        <ul><% t('stores.terms').forEach(function (x) { %><li><%= x %>: <%- include('../partials/pending', { k: 'terms' }) %></li><% }) %></ul>
+      </div>
+      <div>
+        <h2 class="os-h2"><%= t('stores.routesTitle') %></h2>
+        <ul><% t('stores.routes').forEach(function (r) { %><li><%= r.title %></li><% }) %></ul>
+        <p class="os-small"><%= t('common.amazonPrice') %>. <%= t('stores.kit')[3].text %></p>
+        <p class="os-small"><%= site.email('orders') %></p>
+      </div>
+    </div>
+    <p class="os-small">A² Publishing, <%= pick(site.location) %>. doubleadventure.ca</p>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

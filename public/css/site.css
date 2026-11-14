@@ -742,3 +742,13 @@ a.cast-card:hover { color: var(--ink); transform: translateY(-3px); box-shadow: 
 .pack-preview { width: 100%; height: auto; display: block; background: var(--cream); border-bottom: 1px solid var(--line); }
 .pack-body { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px 18px; flex: 1; }
 .pack-body .btn { margin-top: auto; align-self: flex-start; }
+
+/* Vision line, languages and contact in the footer and top bar (Nov 2026). */
+.topbar-vision { text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 760px) { .topbar-vision { display: none; } }
+.footer-vision { margin: 4px 0 0; font-family: var(--serif); font-size: 19px; line-height: 1.35; }
+.footer-vision a { color: var(--white); text-decoration: none; }
+.footer-vision a:hover { text-decoration: underline; }
+.footer-langs, .footer-place { margin: 0; }
+.footer-langs a { text-decoration: underline; text-underline-offset: 3px; }
+.footer-mail span { line-height: 1.4; overflow-wrap: anywhere; }

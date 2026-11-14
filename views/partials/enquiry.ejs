@@ -1,4 +1,4 @@
-<%# Contact / quote form. Needs: kind. Optional: topic (e.g. "value"), formTitle, messageLabel, button, showOrg %>
+<%# Contact / quote form. Needs: kind. Optional: topic (e.g. "value"), formTitle, messageLabel, button, showOrg, orgLabel, fields [{name,label}], select {name,label,options} %>
 <form class="form card card-pad" method="post" action="/api/enquire" id="enquiry" data-ajax data-kind="enquiry">
   <% if (typeof formTitle !== 'undefined' && formTitle) { %><h2 class="h3"><%= formTitle %></h2><% } %>
   <p class="muted" style="margin:0"><%= t('common.enquiryNote') %> <a href="<%= url('/policies/privacy') %>"><%= t('common.privacy') %></a></p>
@@ -6,13 +6,20 @@
   <input type="hidden" name="back" value="<%= url(basePath) %>">
   <input type="hidden" name="form" value="enquiry">
   <% if (typeof topic !== 'undefined' && topic) { %><input type="hidden" name="topic" value="<%= topic %>"><% } %>
-  <div class="hp" aria-hidden="true"><label for="enq-website">Website</label><input id="enq-website" name="website" tabindex="-1" autocomplete="off"></div>
+  <div class="hp" aria-hidden="true"><label for="enq-hpf">Leave this empty</label><input id="enq-hpf" name="a2_hp" tabindex="-1" autocomplete="off"></div>
   <div class="field"><label for="enq-name"><%= t('common.name') %></label><input class="input" id="enq-name" name="name" autocomplete="name"></div>
   <div class="field"><label for="enq-email"><%= t('common.email') %></label><input class="input" id="enq-email" name="email" type="email" autocomplete="email" required></div>
   <% if (typeof showOrg === 'undefined' || showOrg) { %>
-  <div class="field"><label for="enq-org"><%= t('common.organisation') %></label><input class="input" id="enq-org" name="organisation" autocomplete="organization"></div>
+  <div class="field"><label for="enq-org"><%= typeof orgLabel !== 'undefined' && orgLabel ? orgLabel : t('common.organisation') %></label><input class="input" id="enq-org" name="organisation" autocomplete="organization"></div>
+  <% } %>
+  <% (typeof fields !== 'undefined' ? fields : []).forEach(function (f) { %>
+  <div class="field"><label for="enq-<%= f.name %>"><%= f.label %></label><input class="input" id="enq-<%= f.name %>" name="<%= f.name %>" maxlength="120"></div>
+  <% }) %>
+  <% if (typeof select !== 'undefined' && select) { %>
+  <div class="field"><label for="enq-<%= select.name %>"><%= select.label %></label><select class="input" id="enq-<%= select.name %>" name="<%= select.name %>"><% select.options.forEach(function (o) { %><option><%= o %></option><% }) %></select></div>
   <% } %>
   <div class="field"><label for="enq-message"><%= typeof messageLabel !== 'undefined' ? messageLabel : t('common.message') %></label><textarea class="textarea" id="enq-message" name="message" required></textarea></div>
+  <% if (typeof quoteConsent !== 'undefined' && quoteConsent) { %><label class="check"><input type="checkbox" name="quoteOk" value="yes"> <span><%= quoteConsent %></span></label><% } %>
   <div><button class="btn btn-primary" type="submit"><%= typeof button !== 'undefined' ? button : t('common.send') %></button></div>
   <p class="notice ok" role="status" data-ok <%- sent === 'enquiry' ? '' : 'hidden' %>><%= t('common.thanksEnquiry') %></p>
   <p class="notice bad" role="alert" data-bad <%- failed === 'enquiry' ? '' : 'hidden' %>><%= t('common.error') %></p>

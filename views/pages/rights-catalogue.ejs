@@ -1,0 +1,19 @@
+<%- include('../partials/top') %>
+<section class="section tight os-page">
+  <div class="wrap">
+    <div class="row no-print" style="gap:12px;margin-bottom:20px">
+      <a class="muted" href="<%= url('/partners/rights') %>"><%= t('rights.backToRights') %></a>
+      <button class="btn btn-primary" type="button" data-print><%= t('oneSheet.print') %></button>
+    </div>
+    <div class="os-head" style="margin-bottom:16px">
+      <div class="stack-sm">
+        <h1 class="os-title">Double the Adventure: <%= t('rights.catalogueTitle') %></h1>
+        <p class="os-lead"><%= t('partnerPages.rights.lead') %></p>
+        <p class="os-meta"><%= t('rights.types').join(', ') %>. <%= site.email('rights') %></p>
+      </div>
+    </div>
+    <div class="rc-grid"><% rows.forEach(function (r) { %><%- include('../partials/rights-card', { r: r, noLink: true }) %><% }) %></div>
+    <p class="os-small">A² Publishing, <%= pick(site.location) %>. doubleadventure.ca</p>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

@@ -7,7 +7,7 @@ module.exports = {
     guideDesc: 'Guide pédagogique gratuit pour {title} : questions, activités et plan de leçon pour les 3 à 7 ans, autour de la valeur {value}.',
     siteDescription: 'Les albums Double the Adventure pour les 3 à 7 ans : la sagesse ancienne du monde entier, dans des histoires où de petits héros choisissent de bien faire. En français, anglais, espagnol, allemand et italien.'
   },
-  topbar: { newBook: 'Nouveau :', newBookLine: 'une histoire sur l\'appartenance qu\'on construit soi-même' },
+  topbar: { vision: '{total} livres pour l\'instant, en route vers {planned}', newBook: 'Nouveau :', newBookLine: 'une histoire sur l\'appartenance qu\'on construit soi-même' },
   nav: {
     stories: 'Histoires', heroes: 'Héros', readWatch: 'Lire et regarder', animals: 'Vrais animaux', books: 'Livres', shop: 'Boutique', play: 'Jouer', parents: 'Parents', educators: 'Éducateurs', partners: 'Partenaires',
     freePage: 'Coloriage gratuit', menu: 'Menu', main: 'Principal', language: 'Langue', skip: 'Aller au contenu'
@@ -23,6 +23,8 @@ module.exports = {
     notifyMe: 'Me prévenir',
     notifyAmazon: 'Me prévenir de sa sortie sur Amazon',
     paperback: 'Broché', kindle: 'Kindle',
+    amazonPrice: 'Livre broché et Kindle sur Amazon (le prix varie selon le pays)',
+    amazonNote: 'sur Amazon (le prix varie selon le pays)',
     newBook: 'Nouveau livre',
     comingSoon: 'Bientôt',
     readMore: 'En savoir plus',
@@ -38,6 +40,7 @@ module.exports = {
     enquiryNote: 'Nous répondons en 2 jours ouvrables et utilisons vos coordonnées seulement pour vous répondre.',
     error: 'Une erreur s\'est produite. Vérifiez votre courriel et réessayez.',
     englishOnly: 'Ce texte est en anglais pour l\'instant.',
+    altMap: 'Carte du monde des cultures de la collection', altSpread: 'Deux pages du livre', altColoring: 'Page à colorier du livre', altJigsaw: 'Casse-tête fait à partir d\'une couverture', altMemory: 'Cartes de mémoire avec des couvertures', altPlaceMap: 'Carte montrant',
     coverOf: 'Couverture de'
   },
   home: {
@@ -91,11 +94,11 @@ module.exports = {
   books: {
     readOnline: 'À lire en ligne', liveTitle: 'Sur Amazon maintenant', soonTitle: 'Bientôt sur Amazon', exRead: 'Lire un extrait', exWatch: 'Vidéo', exAnimals: 'Vrais animaux', exPlay: 'Jeux',
     title: 'Tous les livres',
-    lead: 'Vingt petits héros, chacun porteur d\'une valeur d\'une culture. Choisissez selon ce que vit votre enfant, ou parcourez-les tous.',
+    lead: '{total} petits héros pour l\'instant, en route vers {planned}, chacun porteur d\'une valeur d\'une culture. Choisissez selon ce que vit votre enfant, ou parcourez-les tous.',
     filterLabel: 'Trouver un livre selon le moment',
     all: 'Tous les livres',
     onAmazon: 'Sur Amazon',
-    soon: 'Bientôt sur Amazon',
+    soon: 'Bientôt : être prévenu',
     none: 'Pas encore de livre pour ce moment.'
   },
   book: {
@@ -171,7 +174,7 @@ module.exports = {
   shop: {
     pageLead: 'Chaque livre terminé est sur Amazon, en broché et en Kindle. Notre boutique ouvre début 2027 avec des ensembles, des dédicaces et des cadeaux.',
     liveTitle: 'Sur Amazon maintenant',
-    liveLead: 'Livre broché {paper} et Kindle {kindle}. Le bouton ouvre la boutique Amazon de votre pays.',
+    liveLead: 'Livre broché et Kindle sur Amazon (le prix varie selon le pays). Le bouton ouvre la boutique Amazon de votre pays.',
     soonTitle: 'Bientôt sur Amazon',
     soonLead: 'Ces livres sont terminés et en route vers Amazon. Laissez votre courriel sur un livre et nous vous préviendrons le jour de sa sortie.',
     soonTag: 'Bientôt',
@@ -192,7 +195,7 @@ module.exports = {
     homeTitle: 'Pour la maison',
     homeLead: 'Une trousse d’activités à imprimer pour chaque livre : marionnettes, émotions, ordre de l’histoire, traçage, bricolage, vrais animaux, coloriage, cartes pour discuter et certificat. Un seul paiement, le PDF se télécharge tout de suite.',
     classTitle: 'Pour la classe',
-    classLead: 'Une semaine sur une valeur, prête à imprimer : plan de cinq jours, cartes de mots, affiche, tableau des émotions, cartes de séquence, grille d’observation liée aux cadres de l’Ontario, billets de sortie et lettres aux familles en cinq langues. La trousse maison est incluse.',
+    classLead: 'Une semaine sur une valeur, prête à imprimer : plan de cinq jours, cartes de mots, affiche, tableau des émotions, cartes de séquence, grille d’observation liée aux cadres de l’Ontario, billets de sortie et lettres aux familles en cinq langues (anglais, français, espagnol, allemand et italien). La trousse maison est incluse.',
     packPrice: '{price} chacune, {pages} pages, PDF à télécharger tout de suite.',
     previewOf: 'Pages de la trousse pour {title}',
     downloadLead: 'Votre {title} pour {book} est prête.',
@@ -366,7 +369,7 @@ module.exports = {
     codeBad: 'Ce code ne correspond pas à ce livre. Vérifiez les lettres et réessayez.',
     codeWait: 'Trop d\'essais. Patientez quelques minutes.',
     codeOk: 'Débloqué. Bonne lecture !',
-    buy: 'Débloquer le livre pour {price} $',
+    buy: 'Débloquer le livre pour {price} $ CA',
     buyNote: 'Paiement sécurisé par Stripe. Lisez-le sur cet appareil et avec le code que nous vous donnons.',
     amazon: 'Acheter le livre sur Amazon',
     again: 'Relire l\'histoire',
@@ -495,9 +498,9 @@ module.exports = {
     printLead: 'Gratuit à imprimer pour votre classe, votre bibliothèque ou votre service de garde.',
     prints: [
       { href: '/educators/classroom/cards', title: 'Cartes QR de lecture à voix haute', text: 'Quatre cartes par page. Les enfants scannent une carte avec une tablette pour écouter l’histoire. Idéal pour un coin d’écoute.' },
-      { href: '/educators/classroom/posters', title: 'Affiches de refrains et de valeurs', text: 'Une affiche par livre avec le refrain à dire ensemble et la grande idée. Imprimez-en une ou les 21.' },
-      { href: '/educators/libraries/one-sheet', title: 'Fiche pour les bibliothèques', text: 'Les 21 livres sur une page, avec les valeurs, les langues et comment commander des lots. Pour les bibliothécaires et les directions.' },
-      { href: '/educators/guides', title: 'Guides de lecture à voix haute', text: 'Un guide complet pour chaque livre : pauses, activités, observations et mot aux familles en cinq langues.' }
+      { href: '/educators/classroom/posters', title: 'Affiches de refrains et de valeurs', text: 'Une affiche par livre avec le refrain à dire ensemble et la grande idée. Imprimez-en une ou les {total}.' },
+      { href: '/educators/libraries/one-sheet', title: 'Fiche pour les bibliothèques', text: 'Les {total} livres sur une page, avec les valeurs, les langues et comment commander des lots. Pour les bibliothécaires et les directions.' },
+      { href: '/educators/guides', title: 'Guides de lecture à voix haute', text: 'Un guide complet pour chaque livre : pauses, activités, observations et mot aux familles en anglais, français, espagnol, allemand et italien.' }
     ],
     yearTitle: 'Une année de valeurs',
     yearLead: 'Deux livres par mois, de septembre à juin. Chaque mois s’appuie sur le précédent, de l’appartenance en début d’année au courage à la fin.',
@@ -539,9 +542,9 @@ module.exports = {
   },
   oneSheet: {
     title: 'Fiche pour les bibliothèques',
-    lead: 'La collection Double the Adventure sur une page : 21 albums sur des valeurs du monde entier, pour les 3 à 7 ans.',
+    lead: 'La collection Double the Adventure sur une page : {total} albums pour l\'instant, en route vers {planned}, sur des valeurs du monde entier, pour les 3 à 7 ans.',
     print: 'Imprimer ou enregistrer en PDF',
-    about: 'Chaque livre suit un vrai animal dans un vrai lieu et porte une valeur, souvent tirée des mots d’une culture. Chaque livre a un guide de lecture gratuit, une liseuse à l’écran et, pour la plupart des titres, une vidéo de lecture à voix haute.',
+    about: 'Chaque livre suit un vrai animal dans un vrai lieu et porte une valeur, souvent tirée des mots d’une culture. Chaque livre a un guide de lecture gratuit, une liseuse à l’écran, et {videos} des {total} titres ont une vidéo de lecture à voix haute.',
     colNum: 'N°',
     colTitle: 'Titre',
     colValue: 'Valeur',
@@ -573,6 +576,7 @@ module.exports = {
     diffTitle: 'Pour chaque enfant',
     lookForsTitle: 'Ce qu\'on observe',
     lookForsText: 'Cochez ce que vous remarquez pendant la semaine. Chaque ligne indique le domaine du programme de l\'Ontario.',
+    madeTitle: 'Comment les livres sont faits',
     careTitle: 'Points d\'attention',
     letterTitle: 'Mot pour les familles',
     letterText: 'Copiez-le dans votre bulletin ou envoyez-le à la maison. Il existe aussi dans d\'autres langues.',
@@ -597,7 +601,7 @@ module.exports = {
       { key: 'teachers', title: 'Enseignants', text: 'Un guide de lecture gratuit par livre, des trousses SEL et des ensembles de classe.' },
       { key: 'early-years', title: 'Petite enfance et garderies', text: 'Guides pour le cercle, ensembles pour les centres et heures du conte.' },
       { key: 'libraries', title: 'Bibliothèques', text: 'Fiches, ISBN, trousses d\'heure du conte et éditions multilingues.' },
-      { key: 'newcomers', title: 'Nouveaux arrivants et ALS', text: 'Des histoires de nombreuses cultures, en cinq langues.' }
+      { key: 'newcomers', title: 'Nouveaux arrivants et ALS', text: 'Des histoires de nombreuses cultures, en anglais, français, espagnol, allemand et italien.' }
     ],
     curriculumTitle: 'Liés à ce que vous enseignez déjà',
     curriculum: [
@@ -612,12 +616,12 @@ module.exports = {
     ],
     setsTitle: 'Ensembles de classe',
     setsLead: 'Des livres brochés au choix, par valeur ou par langue, avec une licence de classe et la trousse SEL de chaque livre dès qu\'elle est prête.',
-    setsAmazon: 'Les mêmes livres sur Amazon : {price} $',
+    setsAmazon: 'Aussi sur Amazon, un livre à la fois (le prix varie selon le pays).',
     setsOrder: 'Commander cet ensemble',
     setsNote: 'Prix en dollars canadiens, livraison au Canada et aux États-Unis incluse. Les ensembles arrivent en 2 semaines environ au Canada et en 3 à 4 semaines aux États-Unis. Besoin d\'un bon de commande ou d\'un prix multi-classes ? Utilisez le formulaire de la page enseignants.',
     settingTitle: 'Pour votre milieu',
     booksTitle: 'Choisissez un livre, enseignez-le demain',
-    booksLead: 'Chaque livre publié a un guide de lecture gratuit, se lit au tableau de la classe, et la plupart ont une vidéo lue à voix haute.',
+    booksLead: 'Chaque livre publié a un guide de lecture gratuit, se lit au tableau de la classe, et {videos} des {total} titres ont une vidéo lue à voix haute.',
     bookGuide: 'Guide', bookRead: 'Lire au tableau', bookWatch: 'Regarder'
   },
   educatorPages: {
@@ -629,7 +633,7 @@ module.exports = {
         ['Trousse SEL par livre', 'Plan de leçon, cartes de séquence, pages « colorie l\'émotion », refrain à tracer, bricolage, licence de classe', '4,99 $ CA (bientôt). Gratuite avec chaque ensemble de classe'],
         ['Ensemble de classe : 5 livres', 'Cinq livres brochés au choix, par valeur ou par langue, avec leurs trousses SEL', '54,99 $ CA, livraison incluse', '/shop'],
         ['Ensemble de classe : 10 livres', 'Dix livres brochés au choix, avec leurs trousses SEL', '99,99 $ CA, livraison incluse', '/shop'],
-        ['Toute la collection', 'Les 21 livres dans une langue, toutes les trousses SEL', '227,99 $ CA, livraison incluse', '/shop'],
+        ['Toute la collection', 'Les 21 livres dans une langue, toutes les trousses SEL', '199,99 $ CA, livraison incluse', '/shop'],
         ['Ensembles d\'immersion française', 'Tous les ensembles ci-dessus en français, avec les guides en français', 'Mêmes prix que les ensembles ci-dessus', '/shop'],
         ['Visites d\'auteurs', 'En ligne ou en personne : lecture, refrain, coloriage à rapporter', 'Écrivez-nous avec le formulaire ci-dessous']
       ],
@@ -658,9 +662,9 @@ module.exports = {
       title: 'Bibliothèques',
       lead: 'Tout ce qu\'il faut pour choisir, commander et animer une heure du conte avec nos livres.',
       offers: [
-        ['Fiche de la collection', 'Les 21 livres sur une page : valeurs, langues, âges, prix des lots', 'Gratuit, à imprimer maintenant', '/educators/libraries/one-sheet'],
+        ['Fiche de la collection', 'Les {total} livres sur une page : valeurs, langues, âges, prix des lots', 'Gratuit, à imprimer maintenant', '/educators/libraries/one-sheet'],
         ['Trousse d\'heure du conte', 'Un guide de lecture, des cartes QR d\'écoute et une affiche de refrain pour chaque livre', 'Gratuit, à imprimer maintenant', '/educators/classroom'],
-        ['Éditions multilingues', 'Français, anglais, espagnol, allemand et italien, pour les succursales qui accueillent des familles nouvellement arrivées', 'Sur Amazon, ou en direct : 5 livres 54,99 $, 10 livres 99,99 $, les 21 livres 227,99 $ CA', '/shop'],
+        ['Éditions multilingues', 'Français, anglais, espagnol, allemand et italien, pour les succursales qui accueillent des familles nouvellement arrivées', 'Sur Amazon, ou en direct : 5 livres 54,99 $, 10 livres 99,99 $, les 21 livres 199,99 $ CA', '/shop'],
         ['Heures du conte', 'En ligne ou en personne', 'Écrivez-nous avec le formulaire ci-dessous']
       ],
       showBooks: true,
@@ -715,7 +719,7 @@ module.exports = {
     },
     rights: {
       title: 'Droits et licences',
-      lead: 'Vingt titres en cinq langues, avec des personnages que les enfants n\'ont jamais vus en héros.',
+      lead: '{total} titres pour l\'instant, en route vers {planned}, en cinq langues : anglais, français, espagnol, allemand et italien.',
       points: ['Éditions en langues étrangères', 'Animation et audio', 'Jouets, jeux et produits'],
       formKind: 'rights',
       formTitle: 'Demandes de droits et de licences'
@@ -750,7 +754,7 @@ module.exports = {
     steps: [
       { title: 'Un souhait est partagé', text: 'Quelqu\'un nous confie une valeur qu\'il aimerait voir comprise par les enfants : attendre son tour, demander pardon, demander de l\'aide, finir ce qu\'on commence.' },
       { title: 'Nous cherchons ses racines', text: 'Nous cherchons où cette valeur vit dans une culture ancienne : un dicton, une coutume ou un conte qui la porte depuis des générations.' },
-      { title: 'Un nouveau héros naît', text: 'Un petit animal fait face à un vrai problème et choisit la valeur par lui-même. Un lecteur de cette culture relit le livre avant sa publication.' }
+      { title: 'Un nouveau héros naît', text: 'Un petit animal fait face à un vrai problème et choisit la valeur par lui-même. Un lecteur de cette culture relit la note culturelle et les noms avant la publication.' }
     ],
     communityClose: 'Avec chaque inspiration, un nouveau livre prend vie. C\'est ainsi que la question d\'un père continue de grandir, une valeur et un livre à la fois.',
     visionEyebrow: 'Notre vision',
@@ -762,7 +766,7 @@ module.exports = {
     careTitle: 'Ce qui nous tient à cœur',
     paragraphs: [
       'Chaque livre fait revivre une valeur ancienne qui a façonné les contes traditionnels d\'une culture, et la raconte aux enfants d\'aujourd\'hui.',
-      'Le héros est toujours un enfant qui résout le problème par son propre choix. Pas d\'adulte qui vient à la rescousse, rien qui fasse peur.',
+      'Le héros est toujours un jeune animal qui choisit la valeur, jamais un adulte qui vient à la rescousse. Rien qui fasse peur.',
       'Nous tenons à des valeurs honnêtes, pas faciles. Nous avons réécrit Le Cocon parce que sa première version enseignait « tu as ta place quand tu es utile ». Dans le livre final, Quilla construit son propre abri et l\'ouvre à tout le monde.',
       'Quand un livre s\'inspire d\'une culture, un lecteur de cette culture relit la note et les noms avant la publication.'
     ],
@@ -784,6 +788,8 @@ module.exports = {
   faq: {
     title: 'Questions',
     items: [
+      ['Comment les livres sont-ils faits ?', '[texte – à venir]'],
+      ['Où êtes-vous établis ?', 'A² Publishing est à Kingston, en Ontario, au Canada. Écrivez à ceo@doubleadventure.ca.'],
       ['Pour quels âges ?', 'De 3 à 7 ans. Ils se lisent au coucher et en prématernelle, maternelle et garderie.'],
       ['Où les acheter ?', 'Sur Amazon dès aujourd\'hui, imprimés et sur Kindle. Notre boutique ouvre au début de 2027 pour les ensembles, dédicaces et cadeaux.'],
       ['En quelles langues ?', 'Les nouveaux livres existent en français, anglais, espagnol, allemand et italien. Chaque page de livre indique ses éditions.'],
@@ -797,7 +803,8 @@ module.exports = {
       body: [
         'Nous ne recueillons que ce que vous nous donnez : un courriel (et un nom ou un organisme si vous nous écrivez). Nous l\'utilisons pour vous envoyer ce que vous avez demandé et nos courriels, dont vous pouvez vous désabonner à tout moment.',
         'Nous ne recueillons jamais d\'information sur les enfants. Nos jeux et pages pour enfants ne demandent ni compte ni renseignement.',
-        'Vos données sont conservées chez Supabase au Canada et ne sont ni vendues ni partagées. Pour consulter ou supprimer vos données, écrivez à hello@doubleadventure.ca.',
+        'Vos données sont conservées chez Supabase au Canada et ne sont ni vendues ni partagées. Pour consulter ou supprimer vos données, écrivez à ceo@doubleadventure.ca.',
+        'Si vous arrivez par un lien avec un code de recommandation (par exemple ?ref=ot_296), nous gardons ce code 90 jours dans un petit témoin sur votre appareil, pour savoir quelle démarche vous a amené ici. Il ne contient que le code, rien sur vous. Si nous activons Google Analytics, il ne compte que les visites des pages pour adultes, jamais l\'espace Jeux ni la liseuse.',
         'Nous respectons la loi canadienne sur la protection des renseignements personnels (LPRPDE) et la loi anti-pourriel (LCAP).'
       ]
     },
@@ -835,12 +842,304 @@ module.exports = {
     readBook: 'Lire l\'histoire', otherGuides: 'Autres fiches de héros', none: 'Des fiches de héros arrivent pour chaque livre.'
   },
   footer: {
-    tagline: 'Sagesse ancienne, petits héros. De 3 à 7 ans, en cinq langues.',
+    road: 'En route vers 100', languages: 'Langues',
+    languagesLine: 'English, Français, Español, Deutsch, Italiano.',
+    askLanguage: 'Votre langue ? Demandez-nous',
+    writeTitle: 'Écrivez-nous',
+    mailAll: 'Familles, presse, librairies, bibliothèques, écoles et droits',
+    mailHello: 'Familles et questions', mailPress: 'Presse et critiques', mailOrders: 'Librairies, bibliothèques, écoles', mailRights: 'Droits et licences',
+    tagline: '{total} livres pour l\'instant, en route vers {planned}. Cinq langues pour commencer, et d\'autres à venir.',
     booksTitle: 'Livres', familiesTitle: 'Familles', educatorsTitle: 'Éducateurs', partnersTitle: 'Partenaires',
     values: 'Les valeurs',
     start: 'Quel livre d\'abord ?',
     aboutUs: 'À propos', allBooks: 'Tous les livres', reviewTeam: 'Équipe de lecteurs', about: 'Notre histoire', contact: 'Nous écrire', faq: 'Questions',
     privacy: 'Confidentialité', terms: 'Conditions', shipping: 'Livraison'
   },
+  pending: {
+    isbn: '[ISBN – à venir]', date: '[date – à venir]', price: '[prix – à venir]', pages: '[pages – à venir]', trim: '[format – à venir]',
+    link: '[lien – à venir]', terms: '[conditions – à venir]', fee: '[tarif – à venir]', bisac: '[BISAC – à venir]', pitch: '[résumé de 50 mots – à venir]',
+    photo: '[photo – à venir]', files: '[fichiers – à venir]', wording: '[texte – à venir]', list: '[liste – à venir]', percent: '[% – à venir]',
+    status: '[statut – à venir]', confirm: '[à confirmer]'
+  },
+  vision: {
+    out: 'parus', finished: 'terminés, bientôt sur Amazon', planned: 'prévus en tout',
+    langs: 'English, Français, Español, Deutsch, Italiano'
+  },
+  road: {
+    title: 'En route vers 100',
+    description: '{total} livres Double the Adventure pour l\'instant, en route vers 100 : une valeur d\'une culture dans chaque livre, en cinq langues pour commencer.',
+    heroTitle: '100 valeurs. 100 cultures. Un petit héros à la fois.',
+    heroLead: '{total} livres pour l\'instant, en cinq langues pour commencer.',
+    whyTitle: 'Pourquoi 100',
+    whyText: 'Chaque culture a une valeur qui mérite d\'être transmise. Nous construisons une bibliothèque où chaque enfant trouve son héritage, et celui de ses amis.',
+    howTitle: 'Comment une valeur est choisie',
+    steps: [
+      { title: 'Un lecteur propose une valeur', text: 'Un parent, un grand-parent ou une enseignante nous dit la valeur qu\'il aimerait que les enfants comprennent.' },
+      { title: 'Nous trouvons ses racines', text: 'Nous cherchons une culture ancienne qui l\'a portée : un dicton, un mot ou une coutume, avec sa source.' },
+      { title: 'Un nouveau héros naît', text: 'Un petit animal fait face à un vrai problème et choisit la valeur lui-même.' },
+      { title: 'Un lecteur de cette culture le relit', text: 'Avant la publication, une personne de cette culture relit la note culturelle et les noms.' }
+    ],
+    wavesTitle: 'Les vagues',
+    wavesLead: 'La bibliothèque grandit en quatre vagues.',
+    colWave: 'Vague', colBooks: 'Livres', colStatus: 'Statut', colDate: 'Date visée',
+    waveDone: '{out} sur Amazon, {finished} terminés', wavePlanned: 'Prévue', waveDoneDate: 'Faite',
+    mapTitle: 'Les cultures déjà sur la carte',
+    mapNext: 'Prochaines cultures, vague 2 :',
+    langTitle: 'Cinq langues pour commencer',
+    langText: 'English, Français, Español, Deutsch et Italiano, et ouverts à d\'autres.',
+    langCta: 'Voir toutes les langues',
+    growTitle: 'Grandir avec nous',
+    grow: [
+      { title: 'Parrainer un livre', text: 'Votre nom dans les crédits d\'un nouveau titre.', href: '/partners/sponsors' },
+      { title: 'Traduire un livre', text: 'Faire vivre une histoire dans votre langue.', href: '/languages#translate' },
+      { title: 'Acheter une licence', text: 'Éditions, audio, écran et produits.', href: '/partners/rights' },
+      { title: 'Vendre la collection', text: 'Conditions et fiche de vente pour les librairies.', href: '/partners/stores' },
+      { title: 'Critiquer un livre', text: 'Un exemplaire gratuit pour un avis honnête.', href: '/books/review-team' }
+    ],
+    followTitle: 'Suivre l\'aventure',
+    followLead: 'Un courriel quand un nouveau héros voit le jour. Pour les adultes seulement.',
+    followButton: 'Prévenez-moi',
+    shareTitle: 'Partagez une valeur avec nous'
+  },
+  langs: {
+    title: 'Langues',
+    description: 'Les albums Double the Adventure en anglais, français, espagnol, allemand et italien, et ouverts à d\'autres langues. Voyez ce qui existe dans chaque langue, ou demandez la vôtre.',
+    lead: 'Cinq langues pour commencer : English, Français, Español, Deutsch et Italiano. Ouverts à d\'autres.',
+    nowTitle: 'Disponible maintenant',
+    nowLead: 'Ce qui est en vente dans chaque langue aujourd\'hui. D\'autres titres sont traduits et sortent quelques-uns à la fois.',
+    colLang: 'Langue', colBooks: 'En vente', colFormats: 'Formats', colNext: 'Prêts, pas encore en vente',
+    none: 'Aucun pour l\'instant',
+    formats: { paperback: 'broché', kindle: 'Kindle', hardcover: 'relié' },
+    extrasTitle: 'Gratuit dans chaque langue',
+    extras: [
+      'Un mot aux familles dans les cinq langues, dans chaque guide de lecture.',
+      'Vidéos de lecture : {videoLangs}. Lecture en ligne : en anglais pour l\'instant.'
+    ],
+    nextTitle: 'Bientôt',
+    nextText: 'Les prochaines langues que nous ajouterons :',
+    requestTitle: 'Demandez votre langue',
+    requestLead: 'Dites-nous de quelle langue vous avez besoin. Chaque demande est comptée ci-dessous.',
+    fLanguage: 'Langue souhaitée', fCountry: 'Pays', fWho: 'Je suis', fSize: 'Combien d\'enfants ou de classes ?',
+    who: ['Parent', 'Enseignant', 'Bibliothécaire', 'Éditeur', 'Traducteur', 'Autre'],
+    requestButton: 'Envoyer ma demande',
+    tallyTitle: 'Demandes jusqu\'ici',
+    tallyEmpty: 'Aucune demande pour l\'instant. Soyez le premier.',
+    tallyNote: 'Seulement des chiffres. Nous ne montrons jamais de noms ni de courriels.',
+    translateTitle: 'Traduire avec nous',
+    translateText: 'Traducteurs et éditeurs : nous cédons les droits de traduction par langue et par territoire.',
+    translateCta: 'Droits et licences',
+    bilingualTitle: 'Deux langues ensemble',
+    bilingualText: 'Pour les classes bilingues et les familles nouvellement arrivées, nous vendons la même histoire en anglais et en français, en duo. Un seul livre avec les deux langues sur chaque page n\'existe pas encore.',
+    bilingualCta: 'Voir l\'ensemble anglais et français',
+    siteTitle: 'Ce site',
+    siteText: 'Le site est en anglais et en français aujourd\'hui. Les pages en espagnol, en allemand et en italien ne sont pas encore faites ; les boutons des livres ouvrent Amazon dans votre pays.'
+  },
+  press: {
+    title: 'Presse et critiques',
+    description: 'Dossier de presse des albums Double the Adventure : fiche, histoire en trois longueurs, biographies, logos et couvertures. À télécharger, sans formulaire.',
+    lead: 'Tout ce qu\'il faut aux journalistes, à télécharger gratuitement. Sans formulaire.',
+    jump: 'Sur cette page',
+    factTitle: 'Fiche d\'information',
+    factPrint: 'Imprimer la fiche',
+    facts: {
+      series: 'Collection', seriesV: 'Albums Double the Adventure',
+      ages: 'Âges', agesV: '3 à 7 ans',
+      books: 'Livres', booksV: '{total} pour l\'instant ({out} sur Amazon, {finished} terminés), en route vers {planned}',
+      languages: 'Langues', languagesV: 'Anglais, français, espagnol, allemand et italien pour commencer',
+      publisher: 'Éditeur', publisherV: 'A² Publishing, Kingston, Ontario, Canada',
+      founders: 'Fondateurs', foundersV: 'Amr Mohamed et Abdallah Shehata',
+      first: 'Premier livre',
+      buy: 'Où acheter', buyV: 'Amazon (broché et Kindle) et doubleadventure.ca (ensembles et trousses à imprimer)',
+      price: 'Prix', priceV: 'Sur Amazon, le prix varie selon le pays. Sur notre site : trousses dès {packFrom} $ CA, ensembles de {setFrom} à {setTo} $ CA.',
+      review: 'Relecture culturelle', reviewV: 'Chaque valeur vient d\'un dicton, d\'un mot ou d\'une coutume sourcés. Les livres fondés sur une tradition vivante sont relus par une personne de cette culture.'
+    },
+    storyTitle: 'L\'histoire en trois longueurs',
+    storyNote: 'Prêt à coller. Libre à vous de raccourcir.',
+    s50: 'Double the Adventure est une collection d\'albums pour les 3 à 7 ans, publiée par A² Publishing à Kingston, en Ontario. Chaque livre prend une valeur dans les histoires d\'une culture, comme Ubuntu ou Sankofa, et la confie à un petit héros animal qui la choisit. {total} livres pour l\'instant, en route vers {planned}.',
+    s150: 'Double the Adventure est née d\'une question d\'un père, Amr Mohamed : comment donner à un enfant une valeur qui reste ? Avec son ami Abdallah Shehata, conteur, il a répondu par des albums. Chacun prend une seule valeur dans les histoires traditionnelles d\'une culture, d\'Ubuntu en Afrique australe à Sankofa au Ghana et au kaitiakitanga d\'Aotearoa Nouvelle-Zélande, et la confie à un petit héros animal qui résout un vrai problème par son propre choix. Pas de morale à la fin, pas d\'adulte qui règle tout. La collection compte {total} livres pour l\'instant, pour les 3 à 7 ans, en anglais, français, espagnol, allemand et italien pour commencer. Chaque livre vient avec un guide de lecture gratuit pour le personnel enseignant, des pages à colorier et des jeux. Le but : 100 livres, une valeur de chaque coin du monde.',
+    s400: [
+      'Double the Adventure a commencé à la maison. Amr Mohamed, père d\'un garçon curieux de six ans, a remarqué que les rappels ne durent pas. « Sois patient » est oublié avant le souper, mais un enfant se souvient du petit héros qui a attendu. Il en a parlé à son ami Abdallah Shehata, conteur, et ensemble ils ont lancé A² Publishing, établie à Kingston, en Ontario.',
+      'Chaque livre porte une valeur qui a façonné les histoires traditionnelles quelque part dans le monde. Ubuntu, l\'idée d\'Afrique australe selon laquelle une personne est une personne grâce aux autres. Sankofa, l\'oiseau akan qui avance en regardant en arrière. Le kaitiakitanga, l\'idée maorie de la garde de la terre. L\'ayni, la promesse andine : aujourd\'hui je t\'aide, demain tu m\'aides. Chaque valeur part d\'un dicton, d\'un mot ou d\'une coutume sourcés, et les livres fondés sur une tradition vivante sont relus par une personne de cette culture.',
+      'Le héros est toujours un jeune animal qui fait face à un vrai problème et choisit la valeur lui-même. Pas de sauvetage par un adulte, rien d\'effrayant. Un refrain à répéter ensemble, un vrai animal et un vrai lieu rendent chaque histoire facile à retenir.',
+      'La collection compte {total} livres pour l\'instant, pour les 3 à 7 ans, en anglais, français, espagnol, allemand et italien pour commencer. Les familles ont des pages à colorier, des jeux en ligne et des articles gratuits. Le personnel enseignant a un guide de lecture gratuit pour chaque livre, lié au programme de maternelle et de jardin d\'enfants de l\'Ontario, et des trousses de classe avec des lettres aux familles en cinq langues.',
+      'Beaucoup de valeurs viennent des lecteurs. Parents, grands-parents et enseignants nous écrivent la valeur qu\'ils aimeraient que les enfants comprennent, et l\'équipe cherche où elle vit dans une culture ancienne. Le but est une bibliothèque de 100 livres, pour que chaque enfant trouve son héritage sur l\'étagère, et celui de ses amis.'
+    ],
+    biosTitle: 'Biographies des fondateurs',
+    short: 'Courte', long: 'Longue',
+    bios: [
+      { name: 'Amr Mohamed', short: 'Amr Mohamed est cofondateur d\'A² Publishing et le père dont la question a lancé Double the Adventure. Il garde chaque livre proche de la vraie vie de famille.', long: 'Amr Mohamed est cofondateur d\'A² Publishing. Père d\'un garçon curieux de six ans, il voulait transmettre ce qui compte, comme l\'honnêteté, la patience, la gentillesse et le courage, et il a remarqué que les rappels s\'effacent alors que les histoires restent. Cette question est devenue Double the Adventure. Il garde chaque livre proche de la vraie vie de famille.', portrait: 'author-glasses' },
+      { name: 'Abdallah Shehata', short: 'Abdallah Shehata est cofondateur d\'A² Publishing et le conteur de Double the Adventure. Il fait de chaque valeur un héros, un problème qui vaut la peine et un refrain que les enfants aiment répéter.', long: 'Abdallah Shehata est cofondateur d\'A² Publishing et le conteur derrière Double the Adventure. Il a fixé la règle de la collection : un doux héros animal, une valeur, et un problème que le héros résout par son propre choix, sans morale et sans adulte qui règle tout. Il fait de chaque valeur un héros, un problème qui vaut la peine et un refrain que les enfants aiment répéter.', portrait: 'author-parrot' }
+    ],
+    portraitAlt: 'Portrait à l\'aquarelle de {name}',
+    photoNote: 'Vraies photos :',
+    anglesTitle: 'Angles pour un reportage',
+    angles: [
+      'Un éditeur de Kingston, en Ontario, fait de la sagesse du monde des histoires du soir.',
+      '100 cultures en 100 livres : une bibliothèque d\'albums construite une valeur à la fois.',
+      'Chaque valeur est sourcée, et les livres fondés sur une tradition vivante sont relus par une personne de cette culture.',
+      'Des guides et des lettres aux familles en cinq langues, gratuits, pour les écoles et les familles nouvellement arrivées.'
+    ],
+    downloadsTitle: 'Téléchargements',
+    downloadsLead: 'Images libres d\'utilisation avec la mention « © A² Publishing ».',
+    dlKit: 'Dossier de presse (logos et couvertures, ZIP)',
+    dlLogo: 'Logo, couleur (PNG)', dlLogoLight: 'Logo, clair, pour fonds foncés (PNG)',
+    dlCovers: 'Couvertures, taille web',
+    dlFact: 'Fiche d\'information (imprimer ou enregistrer en PDF)',
+    stillComing: 'À venir :',
+    comingFiles: ['Logo en SVG', 'Couvertures à 300 ppp', 'Deux doubles pages par livre', 'Affiche de la collection', 'Illustrations des personnages'],
+    coverageTitle: 'Dans les médias',
+    coverageEmpty: 'Articles à venir.',
+    contactTitle: 'Exemplaires de presse et entrevues',
+    contactLead: 'Écrivez-nous, ou demandez un exemplaire imprimé ou Kindle avec le formulaire.',
+    formTitle: 'Demander un exemplaire ou une entrevue',
+    fInterview: 'Que souhaitez-vous ?', interviewOptions: ['Exemplaire imprimé', 'Exemplaire Kindle', 'Entrevue', 'Autre chose']
+  },
+  stores: {
+    title: 'Librairies et boutiques',
+    description: 'Vendez les albums Double the Adventure : façons de commander, conditions de gros, fiche de vente à imprimer et heure du conte en magasin.',
+    lead: 'Façons de commander, conditions et fiche de vente sur une seule page.',
+    routesTitle: 'Trois façons de commander',
+    routes: [
+      { title: 'Par Ingram', text: 'Commandez avec votre compte Ingram habituel dès que nos titres y sont inscrits.' },
+      { title: 'Sur Faire', text: 'Vente en gros avec de petits minimums, pour les boutiques de cadeaux et de musées.' },
+      { title: 'Directement chez nous', text: 'Les librairies locales commandent directement à A² Publishing. Le dépôt-vente est possible.' }
+    ],
+    termsTitle: 'Conditions',
+    terms: ['Remise de gros', 'Commande minimale', 'Livraison', 'Paiement', 'Retours', 'Dépôt-vente pour les librairies locales'],
+    shelf: 'Rayon : albums jeunesse, apprentissage social et émotionnel. De 3 à 7 ans.',
+    sellTitle: 'Fiche de vente',
+    sellText: 'Résumé de la collection, couvertures, formats, ISBN et contact sur une page à imprimer.',
+    sellCta: 'Ouvrir la fiche de vente',
+    kitTitle: 'Matériel de vente',
+    kit: [
+      { title: 'Affiches de refrains et de valeurs', text: 'Une par livre, à imprimer gratuitement.', href: '/educators/classroom/posters' },
+      { title: 'Étiquettes de rayon', text: null },
+      { title: 'Affiche de la collection', text: null },
+      { title: 'Idée de présentoir', text: 'Les trois livres les plus récents sur un petit support, avec une page à colorier gratuite à emporter.' }
+    ],
+    eventTitle: 'Heure du conte et dédicace',
+    eventText: 'Une heure du conte avec dédicace pour les librairies de la région de Kingston et de tout l\'Ontario. Demandez-nous une date.',
+    formTitle: 'Demander les conditions de gros',
+    orgLabel: 'Nom de la librairie ou de l\'entreprise'
+  },
+  libs: {
+    orderTitle: 'Comment commander',
+    order: [
+      { title: 'Imprimé', text: 'Ingram et Follett (par IngramSpark), Library Services Centre au Canada, Mackin aux États-Unis.' },
+      { title: 'Livres numériques', text: 'OverDrive et Libby, Hoopla, BorrowBox.' },
+      { title: 'Direct', text: 'Ensembles pour classes et succursales, sur facture.' }
+    ],
+    notYet: 'Pas encore inscrit',
+    titlesTitle: 'Liste des titres',
+    titlesLead: 'Chaque titre, format et langue. Les ISBN apparaissent à mesure que chaque édition en reçoit un.',
+    csv: 'Télécharger la liste (CSV)', print: 'Imprimer la liste',
+    colTitle: 'Titre', colValue: 'Valeur', colLangs: 'Langues', colIsbn: 'ISBN broché (anglais)', colStatus: 'Statut',
+    status: { out: 'Paru', finished: 'Terminé, à venir', planned: 'Prévu' },
+    marcTitle: 'Notices de catalogage',
+    marcText: 'Notices MARC sur demande dès maintenant, et chez votre grossiste quand nos titres y seront inscrits.',
+    fitTitle: 'Liens avec le programme',
+    fit: [
+      'Programme de la maternelle et du jardin d\'enfants de l\'Ontario (2016) : chaque guide relie ses activités aux quatre domaines.',
+      'Curriculum de la maternelle et du jardin d\'enfants de l\'Ontario (2026), en vigueur depuis septembre 2026 : nos guides nomment encore les domaines de 2016 pendant la mise à jour.',
+      'Comment apprend-on ? : appartenance, bien-être, engagement et expression.',
+      'CASEL 5 : conscience de soi, gestion de soi, conscience sociale, habiletés relationnelles et prise de décision responsable.'
+    ],
+    k2026: 'https://www.dcp.edu.gov.on.ca/en/curriculum/kindergarten/grades/jk-sk',
+    poTitle: 'Bons de commande et factures',
+    poText: 'Les écoles et les conseils scolaires peuvent payer par bon de commande ou sur facture. Conditions :',
+    poCta: 'Demander une soumission',
+    visitsTitle: 'Heure du conte et visites d\'auteur',
+    visits: ['Demi-journée', 'Journée complète', 'Visite virtuelle'],
+    reviewsTitle: 'Critiques professionnelles',
+    reviewsEmpty: 'Les critiques apparaîtront ici à leur arrivée.'
+  },
+  rights: {
+    title: 'Droits et licences',
+    description: 'Catalogue des droits des albums Double the Adventure : traduction, coéditions, audio, animation et produits dérivés. {total} titres pour l\'instant, en route vers 100.',
+    availTitle: 'Droits disponibles',
+    types: ['Droits de traduction, par langue et par territoire', 'Coéditions', 'Audio', 'Animation et télévision', 'Produits dérivés et jouets'],
+    licensed: 'Déjà cédés :',
+    catalogueTitle: 'Catalogue des droits',
+    catalogueLead: 'Une fiche par titre. Ouvrez une fiche pour sa page de droits à imprimer.',
+    cataloguePrint: 'Imprimer le catalogue',
+    published: 'Publié en', notPublished: 'Pas encore en vente',
+    pagesTrim: 'Pages et format', agesL: 'Âges', valueCulture: 'Valeur et culture', salesAwards: 'Ventes et prix',
+    sheet: 'Fiche de droits', backToRights: 'Droits et licences',
+    whyTitle: 'Pourquoi cette collection',
+    why: [
+      'Une feuille de route de 100 livres, pour qu\'un partenaire planifie sur la durée.',
+      'Chaque valeur est sourcée, et les livres fondés sur une tradition vivante sont relus par une personne de cette culture.',
+      'Un guide de lecture gratuit pour chaque titre, et des vidéos de lecture pour {videos} d\'entre eux.',
+      'Une carte des valeurs qui se prête aux coéditions dans chaque région.'
+    ],
+    fairsTitle: 'Rencontrez-nous',
+    fairsText: 'Salons où nous serons :',
+    fairsNext: 'Le prochain grand salon des droits est la Foire du livre pour enfants de Bologne, du 5 au 8 avril 2027.',
+    formTitle: 'Demandes de droits et de licences',
+    fCompany: 'Entreprise', fTerritory: 'Territoire', fRightsLanguage: 'Langue', fRightsType: 'Type de droits',
+    rightsOptions: ['Traduction', 'Coédition', 'Audio', 'Animation ou télévision', 'Produits dérivés ou jouets', 'Autre']
+  },
+  homeVision: { cta: 'En route vers 100' },
+  proof: {
+    countsLabel: 'La collection en chiffres',
+    books: 'livres pour l\'instant', videos: 'vidéos de lecture', animals: 'vrais animaux, faits sourcés', cultures: 'cultures sur la carte des valeurs',
+    quotesTitle: 'Ce qu\'en disent les familles et les enseignants',
+    badgesTitle: 'Presse et prix',
+    reviewer: 'Relu par une personne de {from}'
+  },
+  bookTrade: {
+    title: 'Pour les bibliothèques, les librairies et les acheteurs de droits',
+    colLang: 'Langue', colFormat: 'Format', colIsbn: 'ISBN', colStatus: 'Statut',
+    status: { live: 'En vente', draft: 'Prêt, pas encore en vente', planned: 'Prévu' },
+    pagesTrim: 'Pages et format',
+    rightsSheet: 'Fiche de droits de ce livre',
+    titleList: 'Liste complète des titres'
+  },
+  invoice: {
+    button: 'Demander une facture',
+    note: 'Les écoles, les conseils scolaires et les services de garde peuvent payer par bon de commande ou sur facture.',
+    perBook: '{price} $ CA par livre',
+    formTitle: 'Demander une facture ou une soumission',
+    messageLabel: 'Quel ensemble ou quelle licence, combien, et votre numéro de bon de commande si vous en avez un'
+  },
+  licences: {
+    title: 'Licences pour écoles et conseils scolaires',
+    lead: 'Pour les classes, écoles, conseils et services de garde qui veulent toutes les trousses SEL pour un groupe.',
+    items: ['Licence de classe', 'Licence d\'école', 'Licence de service de garde', 'Programme SEL de 21 semaines'],
+    priceLabel: 'Prix'
+  },
+  shopExtra: {
+    intlTitle: 'Hors du Canada et des États-Unis ?',
+    intlText: 'Les livres imprimés de notre boutique sont expédiés au Canada et aux États-Unis. Ailleurs, achetez sur Amazon dans votre pays, ou prenez les trousses à imprimer, qui se téléchargent partout.',
+    giftTitle: 'Coffrets-cadeaux des fêtes',
+    giftText: 'Coffrets de trois livres sur une valeur, emballés, avec une carte de dédicace. Commandez avant cette date pour une livraison à Noël :',
+    soonMonth: 'Attendu sur Amazon :'
+  },
+  sponsorsPage: {
+    title: 'Commandites et collectes de fonds',
+    description: 'Commanditez un ensemble de classe, offrez une collection à une école, commanditez un nouveau livre, cadeaux d\'entreprise et collectes de fonds scolaires avec Double the Adventure.',
+    lead: 'Mettez des livres entre les mains des enfants, avec votre nom en première page.',
+    packagesTitle: 'Forfaits', colPackage: 'Forfait', colGets: 'Ce que vous recevez', colPrice: 'Prix ($ CA)',
+    packages: [
+      ['Commanditer un ensemble de classe', '10 livres et leurs trousses SEL pour une garderie ou une école nommée, avec une page de dédicace'],
+      ['Offrir une école', 'Les {total} livres et une licence de classe, avec une page de remerciement'],
+      ['Commanditer un nouveau livre', 'Votre nom dans les crédits d\'un nouveau titre en route vers 100, un lancement et une histoire sur la valeur'],
+      ['Cadeaux d\'entreprise', 'Un ex-libris à votre image, par lots de 25, 100 ou 500 livres'],
+      ['Collecte de fonds scolaire', 'L\'école garde une part fixe des commandes des familles, avec affiche et bon de commande prêts']
+    ],
+    howTitle: 'Comment ça marche',
+    how: [
+      { title: 'Choisir', text: 'Choisissez un forfait et dites-nous à qui il est destiné.' },
+      { title: 'Impression et dédicace', text: 'Nous ajoutons votre page de dédicace ou votre ex-libris.' },
+      { title: 'Livraison', text: 'Les livres sont expédiés en lot à l\'école, au centre ou au bureau.' }
+    ],
+    delivery: 'Délai de livraison :',
+    recognitionTitle: 'Reconnaissance',
+    wallEmpty: 'Notre mur des commanditaires commence avec vous.',
+    taxNote: 'A² Publishing est une entreprise : les commandites ne donnent pas de reçu fiscal pour don, sauf si nous nous associons à un organisme de bienfaisance pour ce projet.',
+    proofTitle: 'À quoi ressemble une page de dédicace',
+    formTitle: 'Parlons commandite'
+  },
+  reviewConsent: 'Vous pouvez citer ma critique sur votre site, avec mon prénom et mon rôle.',
   notFound: { title: 'Cette page s\'est égarée', text: 'Trouvons-vous plutôt une histoire.' }
 };

@@ -22,7 +22,7 @@
     <div class="rw-grid">
       <% readList.forEach(function (r) { %>
       <a class="rw-card" href="<%= r.href %>">
-        <span class="rw-spread"><% r.preview.pages.forEach(function (p) { %><img src="<%= p %>" alt="" loading="lazy" width="1000" height="1000"><% }) %></span>
+        <span class="rw-spread"><% r.preview.pages.forEach(function (p) { %><img src="<%= p %>" alt="<%= t('common.altSpread') %>" loading="lazy" width="1000" height="1000"><% }) %></span>
         <span class="rw-title" <%- r.book.titleIsFallback ? 'lang="en"' : '' %>><%= r.book.displayTitle %></span>
         <span class="rw-meta"><%= r.book.valueText %> · <%= t('book.readPages').replace('{n}', r.preview.totalPages) %></span>
       </a>
@@ -44,7 +44,7 @@
     <div class="ra-grid">
       <% list.forEach(function (b) { %>
       <a class="card ra-card" href="<%= b.href %>#read-aloud">
-        <span class="ra-thumb"><% if (b.coverSmall || b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576"><% } %><span class="ra-btn" aria-hidden="true">▶</span></span>
+        <span class="ra-thumb"><% if (b.coverSmall || b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="360" height="576"><% } %><span class="ra-btn" aria-hidden="true">▶</span></span>
         <span class="ra-card-title"><%= b.displayTitle %></span>
         <span class="muted"><%= b.valueText %> · <%= b.langs.join(' · ') %></span>
       </a>

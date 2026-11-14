@@ -69,6 +69,8 @@
     <p class="eyebrow"><%= t('about.visionEyebrow') %></p>
     <h2 id="vision-title" class="h2"><%= t('about.visionTitle') %></h2>
     <% t('about.vision').forEach(function (p) { %><p class="lead" style="margin:0"><%= p %></p><% }) %>
+    <p class="lead" style="margin:0;font-weight:800"><%= t('footer.tagline') %></p>
+    <div class="row"><a class="btn btn-sun" href="<%= url('/road-to-100') %>"><%= t('road.title') %></a><a class="btn btn-outline-light" href="<%= url('/languages') %>"><%= t('footer.languages') %></a></div>
   </div>
 </section>
 
@@ -77,6 +79,7 @@
     <h2 id="care-title" class="h2" style="font-size:clamp(26px,3.4vw,36px)"><%= t('about.careTitle') %></h2>
     <div class="grid-cards">
       <% t('about.paragraphs').forEach(function (p) { %><div class="card card-pad"><p style="margin:0"><%= p %></p></div><% }) %>
+      <div class="card card-pad stack-sm" id="how-made"><h3 class="h3" style="font-size:21px"><%= t('about.madeTitle') %></h3><p style="margin:0"><%- include('../partials/pending', { k: 'wording' }) %></p></div>
     </div>
   </div>
 </section>
@@ -94,6 +97,7 @@
         </div>
       </div>
       <% }) %>
+      <p style="margin:0;font-weight:700"><%= pick(site.location) %>. <a href="mailto:<%= site.email('hello') %>"><%= site.email('hello') %></a></p>
       <div class="row"><a class="btn btn-primary" href="<%= url('/books') %>"><%= t('common.exploreBooks') %></a></div>
     </div>
     <div class="stack">

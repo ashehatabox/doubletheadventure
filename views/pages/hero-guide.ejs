@@ -63,7 +63,7 @@
         <p class="lead" <%- fallback(g.place.intro) %>><%= P(g.place.intro) %></p>
         <%- srcLine(g.place.introSrc) %>
       </div>
-      <% if (img(g.place.image)) { %><img class="hg-place-img" src="<%= img(g.place.image) %>" alt="" loading="lazy" width="900" height="510"><% } %>
+      <% if (img(g.place.image)) { %><img class="hg-place-img" src="<%= img(g.place.image) %>" alt="<%= pick(g.place.name) %>" loading="lazy" width="900" height="510"><% } %>
     </div>
     <% const m = g.place.map; if (m && m.pin) {
          const earth = `https://earth.google.com/web/@${m.lat},${m.lon},4000a,25000d,35y,0h,65t,0r`;
@@ -71,7 +71,7 @@
     <div class="wrap">
       <div class="hg-map<%= m.aspect > 1 ? ' hg-map-wide' : '' %>">
         <a class="hg-map-stage" href="<%= earth %>" rel="noopener" target="_blank" style="aspect-ratio:<%= m.aspect %>" aria-label="<%= t('heroes.flyEarth') %>: <%= P(m.label) %>">
-          <img src="<%= img('map.svg') %>" alt="" width="800" height="<%= Math.round(800 / m.aspect) %>">
+          <img src="<%= img('map.svg') %>" alt="<%= t('common.altPlaceMap') %> <%= pick(g.place.name) %>" width="800" height="<%= Math.round(800 / m.aspect) %>">
           <span class="hg-pin<%= m.pin[0] > 55 ? ' hg-pin-left' : '' %>" style="left:<%= m.pin[0] %>%;top:<%= m.pin[1] %>%"><span class="hg-pin-dot"></span><span class="hg-pin-label" <%- fallback(m.label) %>><%= P(m.label) %></span></span>
         </a>
         <div class="stack-sm hg-map-text">

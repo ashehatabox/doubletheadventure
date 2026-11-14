@@ -4,10 +4,20 @@
     '@context': 'https://schema.org', '@type': 'Book', name: b.displayTitle,
     author: site.authors.map(function (n) { return { '@type': 'Person', name: n }; }),
     publisher: { '@type': 'Organization', name: 'A² Publishing' },
-    bookFormat: 'https://schema.org/Paperback', inLanguage: b.languages,
+    inLanguage: b.languages,
     typicalAgeRange: '3-7', isPartOf: { '@type': 'BookSeries', name: 'Double the Adventure' },
     url: seo.canonical
   };
+  // One workExample per edition on sale, with its ISBN when assigned (data/books.js editions).
+  const liveEds = (b.editions || []).filter(function (e) { return e.status === 'live'; });
+  if (liveEds.length) ld.workExample = liveEds.map(function (e) {
+    const w = { '@type': 'Book', bookFormat: e.format === 'kindle' ? 'https://schema.org/EBook' : e.format === 'hardcover' ? 'https://schema.org/Hardcover' : 'https://schema.org/Paperback', inLanguage: e.lang, publisher: { '@type': 'Organization', name: 'A² Publishing' } };
+    if (e.isbn) w.isbn = e.isbn;
+    if (e.pages) w.numberOfPages = e.pages;
+    return w;
+  });
+  const enPb = (b.editions || []).find(function (e) { return e.lang === 'en' && e.format === 'paperback' && e.isbn; });
+  if (enPb) ld.isbn = enPb.isbn;
   if (pick(b.blurb)) ld.description = pick(b.blurb);
   if (b.cover) ld.image = seo.canonical.split('/').slice(0, 3).join('/') + b.cover;
 %>
@@ -32,8 +42,7 @@
       <% if (b.status === 'live') { %>
       <div class="buy-box stack-sm">
         <div class="chips">
-          <span class="chip" style="background:#fff"><%= t('common.paperback') %> <%= site.prices.paperback %></span>
-          <span class="chip" style="background:#fff"><%= t('common.kindle') %> <%= site.prices.kindle %></span>
+          <span class="chip" style="background:#fff"><%= t('common.amazonPrice') %></span>
         </div>
         <div class="row">
           <a class="btn btn-primary" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyAmazon') %></a>
@@ -89,7 +98,7 @@
 <section class="feature-band band-sky" id="read">
   <div class="wrap feature">
     <a class="feature-media spread-preview" href="<%= readHref %>" aria-label="<%= readOpen ? t('reader.open') : t('reader.peek') %>">
-      <% readPreview.pages.forEach(function (src) { %><img src="<%= src %>" alt="" loading="lazy" width="1000" height="1000"><% }) %>
+      <% readPreview.pages.forEach(function (src) { %><img src="<%= src %>" alt="<%= t('common.altSpread') %>" loading="lazy" width="1000" height="1000"><% }) %>
     </a>
     <div class="feature-text stack">
       <h2 class="h2 feature-h"><%= t('book.readTitle') %></h2>
@@ -181,21 +190,21 @@
     <div class="bp-grid">
       <% if (colorPages.length) { %>
       <a class="bp-card" href="<%= url('/play/color/' + b.slug) %>">
-        <span class="bp-art bp-art-color"><% colorPages.slice(0, 3).forEach(function (p) { %><img src="<%= p %>" alt="" loading="lazy" width="600" height="600"><% }) %></span>
+        <span class="bp-art bp-art-color"><% colorPages.slice(0, 3).forEach(function (p) { %><img src="<%= p %>" alt="<%= t('common.altColoring') %>" loading="lazy" width="600" height="600"><% }) %></span>
         <span class="bp-title"><%= t('book.playColor') %></span>
         <span class="bp-text"><%= t('book.colorCardText') %></span>
       </a>
       <% } %>
       <% if (bookPlay.jigsaw) { %>
       <a class="bp-card" href="<%= url('/play/jigsaw/' + b.slug) %>">
-        <span class="bp-art bp-art-jigsaw"><img src="<%= b.cover %>" alt="" loading="lazy" width="900" height="1440"></span>
+        <span class="bp-art bp-art-jigsaw"><img src="<%= b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="900" height="1440"></span>
         <span class="bp-title"><%= t('book.playJigsaw') %></span>
         <span class="bp-text"><%= t('book.jigsawCardText') %></span>
       </a>
       <% } %>
       <% if (bookPlay.memory) { %>
       <a class="bp-card" href="<%= url('/play/memory') %>">
-        <span class="bp-art bp-art-memory"><span class="mem-back"></span><img src="<%= b.cover %>" alt="" loading="lazy" width="900" height="1440"><span class="mem-back"></span></span>
+        <span class="bp-art bp-art-memory"><span class="mem-back"></span><img src="<%= b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="900" height="1440"><span class="mem-back"></span></span>
         <span class="bp-title"><%= t('book.playMemory') %></span>
         <span class="bp-text"><%= t('book.memoryCardText') %></span>
       </a>
@@ -236,6 +245,30 @@
   </div>
 </section>
 <% } %>
+
+<section class="section tight" style="padding-top:0" aria-labelledby="trade-title">
+  <div class="wrap">
+    <details class="card card-pad">
+      <summary id="trade-title" style="font-weight:800;cursor:pointer;min-height:44px;display:flex;align-items:center"><%= t('bookTrade.title') %></summary>
+      <div class="stack-sm" style="margin-top:12px">
+        <% if (proof.culturalReviewers[b.slug]) { const cr = proof.culturalReviewers[b.slug]; %><p style="margin:0"><%= t('proof.reviewer').replace('{from}', pick(cr.from)) %><% if (cr.name) { %> (<%= cr.name %>)<% } %></p><% } %>
+        <div class="table-wrap" tabindex="0" role="region" aria-labelledby="trade-title">
+          <table class="dtable">
+            <thead><tr><th scope="col"><%= t('bookTrade.colLang') %></th><th scope="col"><%= t('bookTrade.colFormat') %></th><th scope="col"><%= t('bookTrade.colIsbn') %></th><th scope="col"><%= t('bookTrade.colStatus') %></th></tr></thead>
+            <tbody>
+              <% (b.editions || []).forEach(function (e) { %>
+              <tr><th scope="row"><%= langName(e.lang) %></th><td data-label="<%= t('bookTrade.colFormat') %>"><%= t('langs.formats.' + e.format) %></td><td data-label="<%= t('bookTrade.colIsbn') %>"><% if (e.isbn) { %><%= e.isbn %><% } else if (e.format === 'kindle') { %><%= e.asin ? 'ASIN ' + e.asin : '' %><% } else { %><%- include('../partials/pending', { k: 'isbn' }) %><% } %></td><td data-label="<%= t('bookTrade.colStatus') %>"><%= t('bookTrade.status.' + e.status) %></td></tr>
+              <% }) %>
+            </tbody>
+          </table>
+        </div>
+        <% const pb = (b.editions || []).find(function (e) { return e.lang === 'en' && e.format === 'paperback'; }) || {}; %>
+        <p style="margin:0"><strong><%= t('bookTrade.pagesTrim') %>:</strong> <%= [pb.pages ? pb.pages + ' pp' : '', pb.trim || ''].filter(Boolean).join(', ') %><% if (!pb.pages) { %> <%- include('../partials/pending', { k: 'pages' }) %><% } %></p>
+        <p class="row" style="margin:0"><a href="<%= url('/books/' + b.slug + '/rights') %>" style="font-weight:800"><%= t('bookTrade.rightsSheet') %></a> <a href="<%= url('/educators/libraries') %>#titles" style="font-weight:800"><%= t('bookTrade.titleList') %></a></p>
+      </div>
+    </details>
+  </div>
+</section>
 
 <% if (related.length) { %>
 <section class="section tight" style="padding-top:0">

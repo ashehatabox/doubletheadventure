@@ -1,0 +1,20 @@
+<%- include('../partials/top') %>
+<section class="section tight os-page">
+  <div class="wrap one-sheet">
+    <div class="row no-print" style="gap:12px;margin-bottom:20px">
+      <a class="muted" href="<%= url('/partners/press') %>"><%= t('press.title') %></a>
+      <button class="btn btn-primary" type="button" data-print><%= t('oneSheet.print') %></button>
+    </div>
+    <div class="os-head">
+      <div class="stack-sm">
+        <h1 class="os-title">Double the Adventure</h1>
+        <p class="os-lead"><%= t('press.factTitle') %></p>
+      </div>
+    </div>
+    <%- include('../partials/press-facts') %>
+    <h2 class="os-h2"><%= t('press.storyTitle') %> (150)</h2>
+    <p><%= t('press.s150') %></p>
+    <p class="os-small"><%= t('press.downloadsLead') %> A² Publishing, doubleadventure.ca</p>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

@@ -4,7 +4,12 @@
     <div class="stack">
       <h1 class="h1" style="font-size:clamp(34px,4.6vw,52px)"><%= t('contact.title') %></h1>
       <p class="lead"><%= t('contact.lead') %></p>
-      <p style="margin:0"><a href="mailto:<%= site.contactEmail %>" style="font-weight:800"><%= site.contactEmail %></a></p>
+      <ul class="clean">
+        <% const mails = [['hello', 'footer.mailHello'], ['press', 'footer.mailPress'], ['orders', 'footer.mailOrders'], ['rights', 'footer.mailRights']]; const oneMail = mails.every(function (m) { return site.email(m[0]) === site.email('hello'); }); (oneMail ? [['hello', 'footer.mailAll']] : mails).forEach(function (m) { %>
+        <li><%= t(m[1]) %>: <a href="mailto:<%= site.email(m[0]) %>" style="font-weight:800"><%= site.email(m[0]) %></a></li>
+        <% }) %>
+      </ul>
+      <p style="margin:0"><%= pick(site.location) %></p>
     </div>
     <%- include('../partials/enquiry', { kind: 'contact', showOrg: false }) %>
   </div>

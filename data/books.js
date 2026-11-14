@@ -165,6 +165,64 @@ const books = [
   }
 ];
 
+// ---------- Editions: one record per format and language, the single source for ISBNs and formats ----------
+// Every page, the sell sheet, the rights catalogue and the library title list read from here.
+// status: 'live' (on sale), 'draft' (files ready on KDP, not published yet), 'planned'.
+// isbn: null = not assigned yet (pages show "[ISBN – pending]"). Never type a number that isn't on the KDP Bookshelf
+// or from ISBN Canada. Paperback ISBNs below are KDP's free ISBNs, as recorded in the KDP pipeline doc (Nov 8, 2026).
+// pages / trim: null until confirmed from the KDP print setup ("[pending]" on the page).
+const ED = (lang, format, status, extra = {}) => ({ lang, format, status, isbn: null, asin: null, pages: null, trim: null, ...extra });
+const editions = {
+  'secret-hero': [ED('en', 'paperback', 'live', { asin: 'B0DVLJ6HBQ' }), ED('en', 'kindle', 'live', { asin: 'B0DWYK3WMC' }), ED('es', 'kindle', 'live')],
+  'becoming-a-tree': [ED('en', 'paperback', 'live', { asin: 'B0FGJHLLFB' }), ED('en', 'kindle', 'live')],
+  'friendship-bridge': [ED('en', 'paperback', 'live', { asin: 'B0FHB9MLYG' }), ED('en', 'kindle', 'live', { asin: 'B0FHBNDNZX' })],
+  'the-fox-mistake': [ED('en', 'paperback', 'live', { asin: 'B0FHB5J4BQ' }), ED('en', 'kindle', 'live')],
+  'rainy-day-shiny-things': [ED('en', 'paperback', 'live', { asin: 'B0FHBM6NWF' }), ED('en', 'kindle', 'live')],
+  'the-desert-buzz': [ED('en', 'paperback', 'live', { asin: 'B0FHDSFQ16' }), ED('en', 'kindle', 'live')],
+  'the-honest-little-raccoon': [ED('en', 'paperback', 'live', { asin: 'B0FHKS3W3B' }), ED('en', 'kindle', 'live')],
+  'pip-the-brave-parrot': [ED('en', 'paperback', 'live', { asin: 'B0HMJXN1YG' }), ED('en', 'kindle', 'live')],
+  'the-pebbles-inside': [
+    ED('en', 'paperback', 'live', { asin: 'B0HQXRK4Y1', isbn: '9798140945923', trim: '8 × 10 in' }), ED('en', 'kindle', 'live', { asin: 'B0HQXZJXKY' }),
+    ED('es', 'paperback', 'live', { asin: 'B0HQXP8JSQ', isbn: '9798140948184', trim: '8 × 10 in' }), ED('es', 'kindle', 'draft'),
+    ED('fr', 'paperback', 'draft', { isbn: '9798140950460', trim: '8 × 10 in' }), ED('fr', 'kindle', 'draft'), ED('de', 'kindle', 'draft')
+  ],
+  'the-snug': [
+    ED('en', 'paperback', 'live', { asin: 'B0HNX1BTYF' }), ED('en', 'kindle', 'live', { asin: 'B0HNVY8T7Y' }),
+    ED('fr', 'paperback', 'live', { asin: 'B0HP44JZXG' }), ED('fr', 'kindle', 'live', { asin: 'B0HP3T3KVC' }),
+    ED('es', 'kindle', 'live', { asin: 'B0HQYL7QBM' }), ED('es', 'paperback', 'draft', { isbn: '9798166148148', trim: '8 × 10 in' }),
+    ED('de', 'paperback', 'draft', { isbn: '9798166148483', trim: '8 × 10 in' }), ED('de', 'kindle', 'draft'),
+    ED('it', 'paperback', 'draft', { isbn: '9798140951740', trim: '8 × 10 in' }), ED('it', 'kindle', 'draft')
+  ]
+};
+// Books with no record yet get a planned English paperback and Kindle.
+books.forEach((b) => { b.editions = editions[b.slug] || [ED('en', 'paperback', 'planned'), ED('en', 'kindle', 'planned')]; });
+
+// ---------- The vision, in numbers ----------
+const vision = { planned: 100, startLanguages: FIVE };
+// Waves of the road to 100. dates: null = "[date – pending]" on the page.
+const waves = [
+  { n: 1, from: 1, to: 21, status: 'done', date: null },
+  { n: 2, from: 22, to: 40, status: 'planned', date: null },
+  { n: 3, from: 41, to: 70, status: 'planned', date: null },
+  { n: 4, from: 71, to: 100, status: 'planned', date: null }
+];
+function counts() {
+  const out = books.filter((b) => b.status === 'live').length;
+  const finished = books.filter((b) => b.status === 'soon').length;
+  return { total: books.length, out, finished, inProduction: books.filter((b) => b.status === 'coming').length, planned: vision.planned, languages: vision.startLanguages.length };
+}
+// Which languages have at least one live edition, per format.
+function languageGrid() {
+  return vision.startLanguages.map((lang) => {
+    const rows = books.map((b) => ({ b, eds: b.editions.filter((e) => e.lang === lang) })).filter((r) => r.eds.length);
+    return {
+      lang,
+      live: rows.filter((r) => r.eds.some((e) => e.status === 'live')).map((r) => ({ slug: r.b.slug, formats: r.eds.filter((e) => e.status === 'live').map((e) => e.format) })),
+      ready: rows.filter((r) => !r.eds.some((e) => e.status === 'live') && r.eds.some((e) => e.status === 'draft')).map((r) => r.b.slug)
+    };
+  });
+}
+
 // The values, moments and cultures the catalog is sorted by (labels per language).
 const values = {
   kindness: { en: 'Kindness', fr: 'Gentillesse' },
@@ -229,6 +287,10 @@ const bySlug = Object.fromEntries(books.map((b) => [b.slug, b]));
 
 module.exports = {
   books,
+  vision,
+  waves,
+  counts,
+  languageGrid,
   values,
   moments,
   cultures,

@@ -29,6 +29,9 @@ const { helpers, bookImage, coverSmall, LANGS } = require('./lib/i18n');
 const amazon = require('./lib/amazon');
 const { insert } = require('./lib/supabase');
 const { notify } = require('./lib/mailer');
+const refs = require('./lib/ref');
+const titles = require('./lib/titles');
+const proof = require('./data/proof');
 
 const SITE_URL = (process.env.SITE_URL || 'https://doubleadventure.ca').replace(/\/$/, '');
 const EDUCATOR_PAGES = ['teachers', 'early-years', 'libraries', 'newcomers'];
@@ -73,16 +76,19 @@ app.post('/stripe/webhook', express.raw({ type: 'application/json', limit: '1mb'
   try { await shop.handleEvent(event); res.json({ received: true }); } catch (err) { console.error('Stripe webhook failed:', err.message); res.status(500).end(); }
 });
 app.use(express.urlencoded({ extended: false, limit: '20kb' }));
+app.use(refs.capture);
 app.use(express.json({ limit: '20kb' }));
 
-// Basic security headers. No third-party scripts run on this site.
+// Basic security headers. No third-party scripts run on this site, except Google Analytics when GA4_ID is set (never on /play).
 app.use((req, res, next) => {
   res.set('X-Content-Type-Options', 'nosniff');
   res.set('Referrer-Policy', 'strict-origin-when-cross-origin');
   res.set('X-Frame-Options', 'SAMEORIGIN');
   res.set(
     'Content-Security-Policy',
-    "default-src 'self'; img-src 'self' data:; media-src 'self'; frame-src https://www.youtube-nocookie.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://checkout.stripe.com"
+    site.ga4Id && !req.path.startsWith('/play') && !req.path.startsWith('/fr/play')
+      ? "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; media-src 'self'; frame-src https://www.youtube-nocookie.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://checkout.stripe.com"
+      : "default-src 'self'; img-src 'self' data:; media-src 'self'; frame-src https://www.youtube-nocookie.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://checkout.stripe.com"
   );
   next();
 });
@@ -189,7 +195,19 @@ function showcaseData(h, req) {
     snugPage: play.pages('the-snug')[0] || ''
   };
 }
-router.get('/', (req, res) => page(req, res, 'home', { showcase: showcaseData(req.h, req) }));
+// Numbers that are already true, all counted from the data (never typed in).
+function seriesNumbers(sc) {
+  return {
+    books: catalog.books.length,
+    videos: readalouds.slugs().reduce((n, s) => n + readalouds.forBook(s, 'en').length, 0),
+    animals: sc.animals.count,
+    cultures: new Set(catalog.books.filter((b) => b.culture).map((b) => b.culture)).size
+  };
+}
+router.get('/', (req, res) => {
+  const sc = showcaseData(req.h, req);
+  page(req, res, 'home', { showcase: sc, numbers: seriesNumbers(sc), proof, extraCss: 'partners' });
+});
 
 router.get('/books', (req, res) => {
   const moment = catalog.moments[req.query.moment] ? req.query.moment : '';
@@ -239,6 +257,8 @@ router.get('/books/:slug', (req, res, next) => {
     .slice(0, 4)
     .map((o) => bookView(o, h, req));
   page(req, res, 'book', {
+    extraCss: 'partners',
+    proof,
     book: view,
     related,
     bookArticles: articles.forBook(b.slug, h.lang).slice(0, 6),
@@ -429,7 +449,8 @@ router.get('/shop', (req, res) => {
     classPacks: cards.filter((c) => c.kind === 'classroom'),
     liveBooks: catalog.books.filter((b) => b.status === 'live').map((b) => bookView(b, h, req)),
     soonBooks: catalog.books.filter((b) => b.status !== 'live' && b.status !== 'coming').map((b) => bookView(b, h, req)),
-    products: open ? shop.priced().filter((p) => !p.digital).map((p) => ({ id: p.id, title: h.pick(p.title), text: h.pick(p.text), price: (p.priceCents / 100).toFixed(2) })) : [],
+    products: open ? shop.priced().filter((p) => !p.digital).map((p) => ({ id: p.id, title: h.pick(p.title), text: h.pick(p.text), price: (p.priceCents / 100).toFixed(2), perBook: p.books > 1 ? (p.priceCents / 100 / p.books).toFixed(2) : '', educator: !!p.educator })) : [],
+    extraCss: 'partners',
     seo: { title: h.t('shop.openTitle'), description: open ? h.t('shop.openLead') : h.t('shop.pageLead') }
   });
 });
@@ -463,7 +484,7 @@ router.get('/shop/download', async (req, res) => {
 router.post('/shop/checkout', async (req, res) => {
   const b = req.body || {};
   try {
-    const url = await shop.createSession({ productId: String(b.product || ''), quantity: b.quantity, lang: LANGS.includes(b.lang) && b.lang === 'fr' ? 'fr' : 'en' });
+    const url = await shop.createSession({ productId: String(b.product || ''), quantity: b.quantity, lang: LANGS.includes(b.lang) && b.lang === 'fr' ? 'fr' : 'en', ref: refs.get(req) });
     if (url) return res.redirect(303, url);
   } catch (err) { console.error('Checkout failed:', err.message); }
   res.redirect(303, (b.lang === 'fr' ? '/fr' : '') + '/shop');
@@ -524,7 +545,7 @@ router.post('/books/:slug/read/buy', async (req, res, next) => {
       success_url: `${SITE_URL}${back}/unlocked?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${SITE_URL}${back}#gate`,
       locale: h.lang === 'fr' ? 'fr-CA' : 'en',
-      metadata: { reader: b.slug, lang: h.lang }
+      metadata: { reader: b.slug, lang: h.lang, ref: refs.get(req) }
     });
     return res.redirect(303, session.url);
   } catch (err) { console.error('Reader checkout failed:', err.message); }
@@ -678,8 +699,9 @@ router.get('/educators', (req, res) => page(req, res, 'educators', {
     id: p.id,
     title: p.title[req.h.lang] || p.title.en,
     price: (p.priceCents / 100).toFixed(2),
-    amazon: (p.books * 11.99).toFixed(2)
+    perBook: p.books > 1 ? (p.priceCents / 100 / p.books).toFixed(2) : ''
   })),
+  extraCss: 'partners',
   seo: { title: req.h.t('educators.title') }
 }));
 // Teacher guides: one printable page per book.
@@ -769,11 +791,111 @@ router.get('/educators/libraries/one-sheet', async (req, res, next) => {
   } catch (e) { next(e); }
 });
 router.get('/educators/:page', (req, res, next) => {
-  if (!EDUCATOR_PAGES.includes(req.params.page)) return next();
+  if (!EDUCATOR_PAGES.includes(req.params.page) || req.params.page === 'libraries') return next();
   const content = req.h.t('educatorPages.' + req.params.page);
   const videos = readalouds.slugs();
   const guideCovers = content.showBooks ? guideBooks().map((b) => ({ ...bookView(b, req.h, req), hasVideo: videos.includes(b.slug) })) : [];
-  page(req, res, 'educator-page', { key: req.params.page, content, guideCovers, seo: { title: content.title, description: content.lead } });
+  const inv = shopData.products.find((p) => p.id === String(req.query.invoice || ''));
+  page(req, res, 'educator-page', { extraCss: 'partners', key: req.params.page, content, guideCovers, invoiceFor: inv ? req.h.pick(inv.title) : (req.query.invoice ? ' ' : ''), seo: { title: content.title, description: content.lead } });
+});
+// ---------- Vision, languages and partner pages (Content Gap Plan, Nov 2026) ----------
+// Every count, ISBN, format and language on these pages comes from data/books.js; missing facts show as pending.
+const PRESS_FILES = '/press/a2-publishing-press-kit.zip';
+function priceFacts() {
+  const sets = shopData.products.filter((p) => p.physical && Number.isInteger(p.priceCents)).map((p) => p.priceCents);
+  const packFrom = Math.min(...Object.values(packs.kinds || {}).map((k) => k.priceCents).filter(Number.isFinite));
+  const f = (c) => (c / 100).toFixed(2);
+  return { setFrom: sets.length ? f(Math.min(...sets)) : '', setTo: sets.length ? f(Math.max(...sets)) : '', packFrom: Number.isFinite(packFrom) ? f(packFrom) : '' };
+}
+// Language requests: public counts from the Supabase function language_tally(), cached for 10 minutes.
+let tallyCache = { at: 0, rows: [] };
+async function languageTally() {
+  if (Date.now() - tallyCache.at < 10 * 60 * 1000) return tallyCache.rows;
+  const url = process.env.SUPABASE_URL;
+  const key = process.env.SUPABASE_PUBLISHABLE_KEY;
+  if (!url || !key) return [];
+  try {
+    const r = await fetch(`${url}/rest/v1/rpc/language_tally`, { method: 'POST', headers: { apikey: key, Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' }, body: '{}', signal: AbortSignal.timeout(5000) });
+    if (r.ok) tallyCache = { at: Date.now(), rows: (await r.json()).filter((x) => x && x.language) };
+  } catch (err) { console.error('Language tally failed:', err.message); }
+  return tallyCache.rows;
+}
+const cultureBooks = (h, req) => catalog.books.filter((b) => b.culture).map((b) => bookView(b, h, req));
+
+router.get('/road-to-100', (req, res) => {
+  const h = req.h;
+  page(req, res, 'road', { extraCss: 'partners', waves: catalog.waves, cultureBooks: cultureBooks(h, req), seo: { title: h.t('road.title'), description: h.t('road.description') } });
+});
+router.get('/languages', async (req, res) => {
+  const h = req.h;
+  const grid = catalog.languageGrid().map((g) => ({
+    ...g,
+    name: h.langName(g.lang),
+    native: { en: 'English', fr: 'Français', es: 'Español', de: 'Deutsch', it: 'Italiano' }[g.lang],
+    liveBooks: g.live.map((x) => ({ book: bookView(catalog.get(x.slug), h, req), formats: x.formats })),
+    readyBooks: g.ready.map((sl) => bookView(catalog.get(sl), h, req))
+  }));
+  const pairSet = shopData.products.find((p) => p.id === 'bilingual-set');
+  const videoCounts = {};
+  Object.values(require('./data/readalouds')).forEach((byLang) => Object.keys(byLang).forEach((l) => { videoCounts[l] = (videoCounts[l] || 0) + 1; }));
+  const videosLine = Object.keys(videoCounts).sort((a, b) => videoCounts[b] - videoCounts[a]).map((l) => `${videoCounts[l]} ${h.langName(l) || l}`).join(', ');
+  page(req, res, 'languages', { extraCss: 'partners', grid, videosLine, tally: await languageTally(), pairSet: pairSet ? { id: pairSet.id, price: Number.isInteger(pairSet.priceCents) ? (pairSet.priceCents / 100).toFixed(2) : '' } : null, seo: { title: h.t('langs.title'), description: h.t('langs.description') } });
+});
+router.get('/partners/press', (req, res) => {
+  const h = req.h;
+  const covers = catalog.books.map((b) => bookView(b, h, req)).filter((b) => b.cover);
+  page(req, res, 'press', { extraCss: 'partners', covers, prices: priceFacts(), kitHref: fs.existsSync(path.join(__dirname, 'public', PRESS_FILES)) ? PRESS_FILES : '', seo: { title: h.t('press.title'), description: h.t('press.description') } });
+});
+router.get('/partners/press/fact-sheet', (req, res) => {
+  const h = req.h;
+  page(req, res, 'press-fact', { extraCss: 'partners', prices: priceFacts(), seo: { title: h.t('press.factTitle'), description: h.t('press.description') } });
+});
+router.get('/partners/sponsors', (req, res) => {
+  const h = req.h;
+  page(req, res, 'sponsors', { extraCss: 'partners', seo: { title: h.t('sponsorsPage.title'), description: h.t('sponsorsPage.description') } });
+});
+router.get('/partners/stores', (req, res) => {
+  const h = req.h;
+  page(req, res, 'stores', { extraCss: 'partners', seo: { title: h.t('stores.title'), description: h.t('stores.description') } });
+});
+router.get('/partners/stores/sell-sheet', async (req, res, next) => {
+  try {
+    const h = req.h;
+    const qr = await QRCode.toString(SITE_URL + h.url('/partners/stores') + '?ref=sell-sheet', { type: 'svg', margin: 0 });
+    page(req, res, 'sell-sheet', { extraCss: 'partners', qr, rows: titles.rows(h), books: catalog.books.map((b) => bookView(b, h, req)), seo: { title: h.t('stores.sellTitle'), description: h.t('stores.sellText') } });
+  } catch (e) { next(e); }
+});
+router.get('/partners/rights', (req, res) => {
+  const h = req.h;
+  const rows = titles.rows(h).map((r) => ({ ...r, view: bookView(catalog.get(r.slug), h, req) }));
+  page(req, res, 'rights', { extraCss: 'partners', rows, seo: { title: h.t('rights.title'), description: h.t('rights.description') } });
+});
+router.get('/partners/rights/catalogue', (req, res) => {
+  const h = req.h;
+  const rows = titles.rows(h).map((r) => ({ ...r, view: bookView(catalog.get(r.slug), h, req) }));
+  page(req, res, 'rights-catalogue', { extraCss: 'partners', rows, seo: { title: h.t('rights.catalogueTitle'), description: h.t('rights.description') } });
+});
+router.get('/books/:slug/rights', (req, res, next) => {
+  const b = catalog.get(req.params.slug);
+  if (!b) return next();
+  const h = req.h;
+  const r = titles.rows(h).find((x) => x.slug === b.slug);
+  page(req, res, 'book-rights', { extraCss: 'partners', r, book: bookView(b, h, req), seo: { title: h.t('rights.sheet') + ': ' + h.bookTitle(b), description: h.pick(b.blurb) || h.pick(b.subtitle) || h.t('rights.description') } });
+});
+router.get('/educators/libraries/titles.csv', (req, res) => {
+  res.set('Content-Disposition', 'attachment; filename="double-the-adventure-titles.csv"');
+  res.type('text/csv; charset=utf-8').send(titles.csv(req.h));
+});
+router.get('/educators/libraries/titles', (req, res) => {
+  const h = req.h;
+  page(req, res, 'titles-print', { extraCss: 'partners', rows: titles.rows(h), seo: { title: h.t('libs.titlesTitle'), description: h.t('libs.titlesLead') } });
+});
+router.get('/educators/libraries', (req, res) => {
+  const h = req.h;
+  const content = h.t('educatorPages.libraries');
+  const videos = readalouds.slugs();
+  const guideCovers = guideBooks().map((b) => ({ ...bookView(b, h, req), hasVideo: videos.includes(b.slug) }));
+  page(req, res, 'libraries', { extraCss: 'partners', key: 'libraries', content, guideCovers, rows: titles.rows(h), seo: { title: content.title, description: content.lead } });
 });
 router.get('/partners', (req, res) => page(req, res, 'partners', { seo: { title: req.h.t('partners.title') } }));
 router.get('/partners/:page', (req, res, next) => {
@@ -820,7 +942,13 @@ function tooMany(ip) {
 const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 const clean = (v, max) => String(v || '').trim().slice(0, max);
 const ROLE = ['parent', 'educator', 'other'];
-const KINDS = ['contact', 'quote', 'visit', 'press', 'stores', 'sponsors', 'rights', 'review-team'];
+const KINDS = ['contact', 'quote', 'visit', 'press', 'stores', 'sponsors', 'rights', 'review-team', 'language'];
+// Extra fields some forms carry (rights, language requests), folded into the start of the message.
+const EXTRA_FIELDS = [['territory', 'Territory'], ['rightsType', 'Rights'], ['rightsLanguage', 'Language'], ['country', 'Country'], ['who', 'I am'], ['groupSize', 'Children or classes'], ['format', 'Format'], ['interview', 'Request'], ['quoteOk', 'May quote my review']];
+function enquiryExtras(b) {
+  const lines = EXTRA_FIELDS.map(([k, label]) => (clean(b[k], 120) ? `${label}: ${clean(b[k], 120)}` : '')).filter(Boolean);
+  return lines.length ? lines.join('\n') + '\n\n' : '';
+}
 
 function finish(req, res, ok, back) {
   const wantsJson = (req.get('accept') || '').includes('application/json');
@@ -840,15 +968,16 @@ function safeBack(req) {
 
 app.post('/api/subscribe', async (req, res) => {
   const b = req.body || {};
-  if (b.website) return finish(req, res, true, safeBack(req)); // honeypot
+  if (b.website || b.a2_hp) return finish(req, res, true, safeBack(req)); // honeypot
   const email = clean(b.email, 254).toLowerCase();
   const lang = LANGS.includes(b.lang) ? b.lang : 'en';
   const slug = catalog.get(b.book) ? b.book : null;
   if (!EMAIL_RE.test(email) || !b.consent || tooMany(req.ip)) return finish(req, res, false, safeBack(req));
   const table = b.list === 'waitlist' && slug ? 'waitlist' : 'subscribers';
+  const ref = refs.get(req) || null;
   const row = table === 'waitlist'
-    ? { email, book_slug: slug, lang, consent: true }
-    : { email, role: ROLE.includes(b.role) ? b.role : null, source: clean(b.source, 80) || null, book_slug: slug, lang, consent: true };
+    ? { email, book_slug: slug, lang, consent: true, ref }
+    : { email, role: ROLE.includes(b.role) ? b.role : null, source: clean(b.source, 80) || null, book_slug: slug, lang, consent: true, ref };
   const result = await insert(table, row);
   if (result.ok) welcome.sendWelcome(row, { waitlist: table === 'waitlist', bookTitle: slug ? (catalog.get(slug).title[lang] || catalog.get(slug).title.en) : '' }).catch(() => {});
   finish(req, res, result.ok, safeBack(req));
@@ -863,22 +992,26 @@ app.post('/unsubscribe', async (req, res) => {
 
 app.post('/api/enquire', async (req, res) => {
   const b = req.body || {};
-  if (b.website) return finish(req, res, true, safeBack(req));
+  if (b.website || b.a2_hp) return finish(req, res, true, safeBack(req));
   const email = clean(b.email, 254).toLowerCase();
   const kind = KINDS.includes(b.kind) ? b.kind : 'contact';
-  if (!EMAIL_RE.test(email) || !clean(b.message, 4000) || tooMany(req.ip)) return finish(req, res, false, safeBack(req));
+  const needsMessage = kind !== 'language';
+  if (!EMAIL_RE.test(email) || (needsMessage && !clean(b.message, 4000)) || tooMany(req.ip)) return finish(req, res, false, safeBack(req));
   const row = {
     kind,
     name: clean(b.name, 120) || null,
     email,
     organisation: clean(b.organisation, 160) || null,
-    message: (b.topic === 'value' ? '[Value idea] ' : '') + clean(b.message, 3980),
-    page: safeBack(req)
+    message: (b.topic === 'value' ? '[Value idea] ' : b.topic === 'invoice' ? '[Invoice request] ' : '') + enquiryExtras(b) + clean(b.message, 3980 - enquiryExtras(b).length),
+    page: safeBack(req),
+    language: kind === 'language' ? clean(b.language, 60) || null : null,
+    ref: refs.get(req) || null
   };
+  if (kind === 'language' && !row.language) return finish(req, res, false, safeBack(req));
   const result = await insert('enquiries', row);
   notify({
     subject: `New ${kind} enquiry from ${row.name || row.email}`,
-    text: `Kind: ${kind}\nName: ${row.name || ''}\nEmail: ${row.email}\nOrganisation: ${row.organisation || ''}\nPage: ${row.page}\n\n${row.message}`,
+    text: `Kind: ${kind}\nName: ${row.name || ''}\nEmail: ${row.email}\nOrganisation: ${row.organisation || ''}\nPage: ${row.page}\nRef: ${row.ref || ''}\n\n${row.message}`,
     replyTo: row.email
   }).catch((err) => console.error('Notify failed:', err.message));
   finish(req, res, result.ok, safeBack(req));
@@ -927,12 +1060,12 @@ app.get('/llms.txt', (req, res) => {
 });
 
 app.get('/sitemap.xml', (req, res) => {
-  const paths = ['/', '/stories', '/start', '/values', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
+  const paths = ['/road-to-100', '/languages', '/partners/press/fact-sheet', '/partners/stores/sell-sheet', '/partners/rights/catalogue', '/educators/libraries/titles', '/', '/stories', '/start', '/values', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
     .concat(EDUCATOR_PAGES.map((p) => '/educators/' + p))
     .concat(startMoments().map((m) => '/start/' + m), hubValues().map((v) => '/values/' + v), ['/educators/guides', '/educators/classroom', '/educators/classroom/cards', '/educators/classroom/posters', '/educators/libraries/one-sheet'], guideBooks().map((b) => '/educators/guides/' + b.slug))
     .concat(PARTNER_PAGES.map((p) => '/partners/' + p))
     .concat(POLICY_PAGES.map((p) => '/policies/' + p))
-    .concat(catalog.books.map((b) => '/books/' + b.slug))
+    .concat(catalog.books.map((b) => '/books/' + b.slug), catalog.books.map((b) => '/books/' + b.slug + '/rights'))
     .concat(['/parents/articles'])
     .concat(articles.published().map((s) => '/parents/articles/' + s))
     .concat(heroes.published().length ? ['/heroes'] : [], heroes.published().map((s) => '/heroes/' + s))

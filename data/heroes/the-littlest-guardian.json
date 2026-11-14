@@ -582,7 +582,18 @@
    "storyVsRealSrc": [
     "doc-tokoeka",
     "paua-org"
-   ]
+   ],
+   "photo": {
+    "file": "aroha-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/7141487",
+    "by": "Wendy Bailey",
+    "license": "CC BY",
+    "caption": {
+     "en": "A real Stewart Island tokoeka",
+     "fr": "Un vrai tokoeka de l'île Stewart"
+    }
+   }
   },
   {
    "id": "chicks",

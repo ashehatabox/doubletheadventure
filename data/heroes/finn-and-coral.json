@@ -309,7 +309,18 @@
    },
    "storyVsRealSrc": [
     "reef-tang"
-   ]
+   ],
+   "photo": {
+    "file": "finncoral-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/235407575",
+    "by": "Pauline Walsh Jacobson",
+    "license": "CC BY",
+    "caption": {
+     "en": "A real Atlantic blue tang",
+     "fr": "Un vrai chirurgien bleu de l'Atlantique"
+    }
+   }
   },
   {
    "id": "dolphin",
@@ -852,7 +863,18 @@
    },
    "storyVsRealSrc": [
     "angari2"
-   ]
+   ],
+   "photo": {
+    "file": "octopus-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/139277846",
+    "by": "Dan Schofield",
+    "license": "CC BY",
+    "caption": {
+     "en": "A real Caribbean reef octopus",
+     "fr": "Une vraie pieuvre des récifs des Caraïbes"
+    }
+   }
   },
   {
    "id": "seahorse",
@@ -1029,7 +1051,18 @@
    "storyVsRealSrc": [
     "rsg-sea2",
     "snap-sea"
-   ]
+   ],
+   "photo": {
+    "file": "seahorse-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/142841579",
+    "by": "Pauline Walsh Jacobson",
+    "license": "CC BY",
+    "caption": {
+     "en": "A real longsnout seahorse",
+     "fr": "Un vrai hippocampe à long museau"
+    }
+   }
   }
  ],
  "activities": [

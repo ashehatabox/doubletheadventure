@@ -683,7 +683,18 @@
    },
    "storyVsRealSrc": [
     "aguide-bee"
-   ]
+   ],
+   "photo": {
+    "file": "bees-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/399830082",
+    "by": "Alan Flisch",
+    "license": "CC BY",
+    "caption": {
+     "en": "A real buff-tailed bumblebee",
+     "fr": "Un vrai bourdon terrestre"
+    }
+   }
   },
   {
    "id": "frogs",

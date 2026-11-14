@@ -590,7 +590,18 @@
    "storyVsRealSrc": [
     "dacke2013",
     "insectbooks"
-   ]
+   ],
+   "photo": {
+    "file": "sabu-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/183828289",
+    "by": "Andrea Battisti",
+    "license": "CC BY",
+    "caption": {
+     "en": "A real sacred scarab",
+     "fr": "Un vrai scarabée sacré"
+    }
+   }
   },
   {
    "id": "kingfisher",
@@ -994,7 +1005,18 @@
    "storyVsRealSrc": [
     "amnh-nilotica",
     "amphibiaweb"
-   ]
+   ],
+   "photo": {
+    "file": "frogs-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/42396922",
+    "by": "John Lyakurwa",
+    "license": "CC BY",
+    "caption": {
+     "en": "A real Nile grass frog",
+     "fr": "Une vraie grenouille ptychadène du Nil"
+    }
+   }
   },
   {
    "id": "jerboas",
@@ -1183,7 +1205,18 @@
    },
    "storyVsRealSrc": [
     "adw-jerboa"
-   ]
+   ],
+   "photo": {
+    "file": "jerboas-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/362178799",
+    "by": "Barry Stewart",
+    "license": "CC BY",
+    "caption": {
+     "en": "A real lesser Egyptian jerboa",
+     "fr": "Une vraie petite gerboise d'Égypte"
+    }
+   }
   }
  ],
  "activities": [

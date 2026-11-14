@@ -823,7 +823,7 @@ module.exports = {
     meet: 'Meet the cast', seeBook: 'See the book', cast: 'The cast', castLead: 'Every character in the book is a real animal. Tap one to read its file.',
     roles: { hero: 'Hero', friend: 'Best friend', supporting: 'Supporting cast' },
     place: 'Where the story happens', theFile: 'Hero file', superpower: 'Superpower', inTheStory: 'In the story',
-    picLabel: 'Choose a picture', picBook: 'In the book', picReal: 'In real life', picBadge: 'Real photo', photo: 'Photo', photoBy: '{name} on Pexels',
+    picLabel: 'Choose a picture', picBook: 'In the book', picReal: 'In real life', picBadge: 'Real photo', photo: 'Photo', photoBy: '{name} on Pexels', publicDomain: 'public domain', via: 'via',
     kinds: { wow: 'Wow!', ha: 'Ha!', uhoh: 'Uh-oh!', hidden: 'Hidden fact', rescue: 'The rescue' },
     storyVsReal: 'In the story vs. real life', source: 'Source', sources: 'Sources',
     lineup: 'The size line-up', lineupLead: 'From lightest to heaviest. Circles grow with weight, but not to scale.',

@@ -327,7 +327,18 @@
    },
    "storyVsRealSrc": [
     "adw-serow"
-   ]
+   ],
+   "photo": {
+    "file": "yuki-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/296725944",
+    "by": "Timur Kalininsky",
+    "license": "CC BY",
+    "caption": {
+     "en": "A Japanese serow in the forest",
+     "fr": "Un saro du Japon dans la forêt"
+    }
+   }
   },
   {
    "id": "taro",

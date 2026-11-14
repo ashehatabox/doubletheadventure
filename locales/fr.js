@@ -823,7 +823,7 @@ module.exports = {
     meet: 'Rencontrer les héros', seeBook: 'Voir le livre', cast: 'Les personnages', castLead: 'Chaque personnage du livre est un vrai animal. Touchez-en un pour lire sa fiche.',
     roles: { hero: 'Héros', friend: 'Meilleur ami', supporting: 'Personnages secondaires' },
     place: 'Où se passe l\'histoire', theFile: 'Fiche du héros', superpower: 'Superpouvoir', inTheStory: 'Dans l\'histoire',
-    picLabel: 'Choisir une image', picBook: 'Dans le livre', picReal: 'Dans la vraie vie', picBadge: 'Vraie photo', photo: 'Photo', photoBy: '{name} sur Pexels',
+    picLabel: 'Choisir une image', picBook: 'Dans le livre', picReal: 'Dans la vraie vie', picBadge: 'Vraie photo', photo: 'Photo', photoBy: '{name} sur Pexels', publicDomain: 'domaine public', via: 'via',
     kinds: { wow: 'Waouh !', ha: 'Ha ha !', uhoh: 'Oh là là !', hidden: 'Fait caché', rescue: 'Le sauvetage' },
     storyVsReal: 'Dans l\'histoire et dans la vraie vie', source: 'Source', sources: 'Sources',
     lineup: 'Du plus léger au plus lourd', lineupLead: 'Les cercles grandissent avec le poids, sans être à l\'échelle.',

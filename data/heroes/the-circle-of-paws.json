@@ -772,7 +772,18 @@
       },
       "storyVsRealSrc": [
         "ebird"
-      ]
+      ],
+      "photo": {
+        "file": "kinti-photo.jpg",
+        "source": "inaturalist",
+        "url": "https://www.inaturalist.org/observations/197800579",
+        "by": "Jan Ebr & Ivana Ebrová",
+        "license": "CC BY",
+        "caption": {
+          "en": "A real Andean hillstar",
+          "fr": "Un vrai colibri estelle"
+        }
+      }
     },
     {
       "id": "viscachas",
@@ -1159,7 +1170,18 @@
       },
       "storyVsRealSrc": [
         "natzoo"
-      ]
+      ],
+      "photo": {
+        "file": "guinea-pigs-photo.jpg",
+        "source": "inaturalist",
+        "url": "https://www.inaturalist.org/observations/64844422",
+        "by": "Pirataber",
+        "license": "CC BY",
+        "caption": {
+          "en": "A wild montane guinea pig",
+          "fr": "Un cobaye des montagnes sauvage"
+        }
+      }
     }
   ],
   "activities": [

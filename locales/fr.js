@@ -18,6 +18,7 @@ module.exports = {
     getFreePage: 'Recevoir un coloriage gratuit',
     seeAll: 'Voir tous les livres',
     buyAmazon: 'Acheter sur Amazon',
+    buyPaperback: 'Broché sur Amazon', buyKindle: 'Kindle', alsoIn: 'Aussi sur Amazon en :',
     otherStores: 'Autres boutiques Amazon',
     giftSet: 'Exemplaire dédicacé ou coffret',
     notifyMe: 'Me prévenir',

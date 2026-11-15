@@ -36,10 +36,12 @@
           <span class="chip" style="background:#fff"><%= t('common.kindle') %> <%= site.prices.kindle %></span>
         </div>
         <div class="row">
-          <a class="btn btn-primary" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyAmazon') %></a>
+          <a class="btn btn-primary" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyPaperback') %></a>
+          <% if (b.amazonKindle) { %><a class="btn btn-ghost" href="<%= b.amazonKindle %>" rel="noopener"><%= t('common.buyKindle') %></a><% } %>
           <a class="btn btn-ghost" href="<%= url('/shop') %>"><%= t('common.giftSet') %></a>
           <% if (readHref) { %><a class="btn btn-ghost" href="<%= readHref %>"><%= readOpen ? t('reader.open') : t('reader.peek') %></a><% } %>
         </div>
+        <%- include('../partials/editions', { eds: b.amazonEditions }) %>
         <details class="stores">
           <summary><%= t('common.otherStores') %></summary>
           <ul><% b.amazonStores.forEach(function (s) { %><li><a class="chip" href="<%= s.href %>" rel="noopener"><%= s.label %></a></li><% }) %></ul>

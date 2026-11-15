@@ -1,0 +1,6 @@
+<%# Other language editions live on Amazon. Pass eds (book.amazonEditions). %>
+<% if (eds && eds.length) { %>
+<p class="also-in"><span class="also-label"><%= t('common.alsoIn') %></span>
+  <% eds.forEach(function (e, i) { %><span class="also-ed"><span lang="<%= e.lang %>"><%= e.language %> (<cite><%= e.title %></cite>)</span>: <% if (e.paperback) { %><a href="<%= e.paperback %>" rel="noopener" hreflang="<%= e.lang %>"><%= t('common.paperback') %></a><% } %><% if (e.paperback && e.kindle) { %> · <% } %><% if (e.kindle) { %><a href="<%= e.kindle %>" rel="noopener" hreflang="<%= e.lang %>"><%= t('common.kindle') %></a><% } %></span><% if (i < eds.length - 1) { %><span class="also-sep" aria-hidden="true"> · </span><% } %><% }) %>
+</p>
+<% } %>

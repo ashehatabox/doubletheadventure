@@ -1041,7 +1041,7 @@ module.exports = {
     fitTitle: 'Liens avec le programme',
     fit: [
       'Programme de la maternelle et du jardin d\'enfants de l\'Ontario (2016) : chaque guide relie ses activités aux quatre domaines.',
-      'Curriculum de la maternelle et du jardin d\'enfants de l\'Ontario (2026), en vigueur depuis septembre 2026 : nos guides nomment encore les domaines de 2016 pendant la mise à jour.',
+      'Curriculum de la maternelle et du jardin d\'enfants de l\'Ontario (2026), en vigueur depuis septembre 2026 : les mêmes quatre domaines, devenus les volets A à D, sous les mêmes noms que dans nos guides.',
       'Comment apprend-on ? : appartenance, bien-être, engagement et expression.',
       'CASEL 5 : conscience de soi, gestion de soi, conscience sociale, habiletés relationnelles et prise de décision responsable.'
     ],
@@ -1142,5 +1142,56 @@ module.exports = {
     formTitle: 'Parlons commandite'
   },
   reviewConsent: 'Vous pouvez citer ma critique sur votre site, avec mon prénom et mon rôle.',
+  selmap: {
+    title: 'Liens avec le programme et l\'ASE',
+    description: 'Les 21 livres Double the Adventure reliés au curriculum de la maternelle et du jardin d\'enfants de l\'Ontario (2026), à l\'éducation physique et santé (1re et 2e année) et au CASEL 5, avec une courte activité et une question pour chacun.',
+    lead: 'Chaque livre relié au curriculum de la maternelle et du jardin d\'enfants de l\'Ontario (2026), à l\'éducation physique et santé de 1re et 2e année et au CASEL 5. En lien avec ces programmes, sans approbation d\'un conseil ou du ministère.',
+    print: 'Imprimer ou enregistrer en PDF',
+    colBook: 'Livre', colValue: 'Valeur', colCasel: 'Compétence CASEL', colStrand: 'Maternelle Ontario (2026)', colHpe: 'EPS Ontario 1re–2e', colActivity: 'Courte activité', colQuestion: 'Question à discuter',
+    checked: 'Vérifié par une enseignante de maternelle de l\'Ontario',
+    teacherNote: 'Une enseignante de maternelle de l\'Ontario relit cinq lignes ; nous les indiquerons ici une fois vérifiées.',
+    frameworksTitle: 'Cadres',
+    frameworks: [
+      'Curriculum de la maternelle et du jardin d\'enfants de l\'Ontario (2026), en vigueur depuis septembre 2026 : quatre volets, A Fondements de la langue et des mathématiques, B Résolution de problèmes et innovation, C Autorégulation et bien-être, D Appartenance et contribution.',
+      'Éducation physique et santé de l\'Ontario, 1re et 2e année (2019), habiletés d\'apprentissage socioémotionnel A1.1 à A1.6.',
+      'Comment apprend-on ? (petite enfance en Ontario) : appartenance, bien-être, engagement et expression.',
+      'CASEL 5 : conscience de soi, gestion de soi, conscience sociale, habiletés relationnelles et prise de décision responsable.'
+    ],
+    guide: 'Guide'
+  },
+  visits: {
+    title: 'Visites dans les écoles et les bibliothèques',
+    description: 'Visites autour d\'une histoire et d\'une valeur pour la maternelle à la 2e année, les bibliothèques et les centres ON y va : lecture, atelier sur une valeur et visite virtuelle avec A² Publishing.',
+    heroTitle: 'Visites histoire et valeur pour la maternelle à la 2e année, les bibliothèques et ON y va',
+    lead: 'Une histoire, une valeur et quelque chose à rapporter. Réservez en deux minutes.',
+    book: 'Réserver une visite',
+    formatsTitle: 'Trois formules',
+    colFormat: 'Formule', colLength: 'Durée', colAudience: 'Public', colIncludes: 'Comprend', colFee: 'Tarif ($ CA)',
+    formats: [
+      ['Visite lecture', '30 min', 'Une classe ou un groupe de l\'heure du conte', 'Une histoire, une discussion sur la valeur et une page à colorier'],
+      ['Atelier sur une valeur', '45 à 60 min', '1 ou 2 classes', 'Une histoire, une activité de la trousse SEL et une feuille à rapporter'],
+      ['Visite virtuelle', '30 min', 'Toute école', 'Une lecture en direct par vidéo, avec questions']
+    ],
+    firstVisit: 'Première visite pour les écoles et bibliothèques de la région de Kingston :',
+    fitTitle: 'Liens avec le programme',
+    fit: [
+      'Chaque histoire développe une valeur et se rattache au curriculum de la maternelle de l\'Ontario (2026) : volet C, Autorégulation et bien-être, et volet D, Appartenance et contribution.',
+      '1re et 2e année : les habiletés d\'apprentissage socioémotionnel de l\'éducation physique et santé de l\'Ontario (A1.1 à A1.6).',
+      'Chaque livre est relié aux cinq compétences CASEL, avec une activité de 10 minutes et une question à discuter.'
+    ],
+    fitCta: 'Voir tous les liens',
+    hostTitle: 'Ce que l\'hôte reçoit',
+    host: ['Des affiches de refrains et de valeurs à imprimer', 'La trousse SEL de classe pour l\'histoire lue', 'Un bon de commande de livres pour les familles'],
+    seeTitle: 'Voir une lecture',
+    seeText: 'Voici à quoi ressemble une lecture. Les visites se font en direct, et les enfants reprennent le refrain.',
+    logisticsTitle: 'Détails pratiques',
+    logistics: [
+      ['Déplacements', 'Visites en personne depuis Seeley\'s Bay, près de Kingston. Distance parcourue :'],
+      ['Nous apportons', 'Les livres et les feuilles imprimées. Un écran est utile pour la formule virtuelle.'],
+      ['Vérification policière', 'Pour les visites scolaires, statut :']
+    ],
+    formTitle: 'Réserver une visite',
+    fSchool: 'École, bibliothèque ou centre', fGrade: 'Année ou groupe d\'âge', fDates: 'Dates possibles', fFormat: 'Formule', fChildren: 'Nombre d\'enfants'
+  },
   notFound: { title: 'Cette page s\'est égarée', text: 'Trouvons-vous plutôt une histoire.' }
 };

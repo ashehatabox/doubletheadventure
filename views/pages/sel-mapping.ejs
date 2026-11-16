@@ -1,0 +1,38 @@
+<%- include('../partials/top') %>
+<% const M = t('selmap'); %>
+<section class="section tight os-page">
+  <div class="wrap">
+    <div class="row no-print" style="gap:12px;margin-bottom:20px">
+      <a class="muted" href="<%= url('/educators') %>"><%= t('educators.title') %></a>
+      <button class="btn btn-primary" type="button" data-print><%= M.print %></button>
+    </div>
+    <div class="ph" style="max-width:900px">
+      <h1 class="h1"><%= M.title %></h1>
+      <p class="lead"><%= M.lead %></p>
+    </div>
+    <div class="table-wrap" tabindex="0" role="region" aria-label="<%= M.title %>" style="margin-top:20px">
+      <table class="dtable selmap">
+        <thead><tr><th scope="col">#</th><th scope="col"><%= M.colBook %></th><th scope="col"><%= M.colValue %></th><th scope="col"><%= M.colCasel %></th><th scope="col"><%= M.colStrand %></th><th scope="col"><%= M.colHpe %></th><th scope="col"><%= M.colActivity %></th><th scope="col"><%= M.colQuestion %></th></tr></thead>
+        <tbody>
+          <% rows.forEach(function (r) { %>
+          <tr>
+            <td data-label="#"><%= r.n %></td>
+            <th scope="row"><a href="<%= url('/educators/guides/' + r.slug) %>"><%= r.title %></a><% if (r.checked) { %><br><small><%= M.checked %></small><% } %></th>
+            <td data-label="<%= M.colValue %>"><%= r.value %></td>
+            <td data-label="<%= M.colCasel %>"><%= r.casel %></td>
+            <td data-label="<%= M.colStrand %>"><%= r.strand %></td>
+            <td data-label="<%= M.colHpe %>"><%= r.hpe %></td>
+            <td data-label="<%= M.colActivity %>"><%= r.activity %></td>
+            <td data-label="<%= M.colQuestion %>" lang="en"><%= r.question %></td>
+          </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+    <% if (!anyChecked) { %><p class="muted" style="margin:12px 0 0"><%= M.teacherNote %></p><% } %>
+    <h2 class="h3" style="margin-top:24px"><%= M.frameworksTitle %></h2>
+    <ul class="clean"><% M.frameworks.forEach(function (f) { %><li><%= f %></li><% }) %></ul>
+    <p class="os-small">A² Publishing, <%= pick(site.location) %>. doubleadventure.ca/educators/sel-mapping</p>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

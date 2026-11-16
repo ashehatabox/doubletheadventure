@@ -806,7 +806,6 @@ module.exports = {
         'We never collect information about children. Our games and pages for kids need no account and ask for nothing.',
         'Your details are stored with Supabase in Canada and are not sold or shared. To see or delete what we hold about you, write to ceo@doubleadventure.ca.',
         'If you arrive from a link with a referral code (for example ?ref=ot_296), we keep that code for 90 days in a small cookie on your device, so we know which outreach brought you. It holds only the code, nothing about you. If we turn on Google Analytics, it counts visits on our grown-up pages only, never on the Play area or the book reader.',
-        'If you arrive from a link with a referral code (for example ?ref=ot_296), we keep that code for 90 days in a small cookie on your device, so we know which outreach brought you. It holds only the code, nothing about you. If we turn on Google Analytics, it counts visits on our grown-up pages only, never on the Play area or the book reader.',
         'We follow Canada\'s privacy law (PIPEDA) and anti-spam law (CASL).'
       ]
     },
@@ -1042,7 +1041,7 @@ module.exports = {
     fitTitle: 'Curriculum fit',
     fit: [
       'Ontario Kindergarten Program (2016): every guide links its activities to the four frames.',
-      'Ontario Kindergarten Curriculum (2026), in effect since September 2026: our guides still name the 2016 frames while we update them.',
+      'Ontario Kindergarten Curriculum (2026), in effect since September 2026: the same four areas, now Strands A to D, with the same names our guides use.',
       'How Does Learning Happen?: belonging, well-being, engagement and expression.',
       'CASEL 5: self-awareness, self-management, social awareness, relationship skills and responsible decision-making.'
     ],
@@ -1143,5 +1142,56 @@ module.exports = {
     formTitle: 'Talk to us about sponsoring'
   },
   reviewConsent: 'You may quote my review on your website, with my first name and role.',
+  selmap: {
+    title: 'Curriculum and SEL mapping',
+    description: 'All 21 Double the Adventure books mapped to Ontario\'s Kindergarten Curriculum (2026), Ontario HPE grades 1–2 and the CASEL 5, with a short activity and a discussion question for each.',
+    lead: 'Every book, mapped to the Ontario Kindergarten Curriculum (2026), Ontario HPE grades 1–2 and the CASEL 5. Aligned with, not approved by, any board or ministry.',
+    print: 'Print or save as PDF',
+    colBook: 'Book', colValue: 'Value', colCasel: 'CASEL competency', colStrand: 'Ontario Kindergarten (2026)', colHpe: 'Ontario HPE gr. 1–2', colActivity: 'Short activity', colQuestion: 'Discussion question',
+    checked: 'Checked by an Ontario kindergarten teacher',
+    teacherNote: 'An Ontario kindergarten teacher is reviewing five rows; we will mark them here once checked.',
+    frameworksTitle: 'Frameworks',
+    frameworks: [
+      'Ontario Kindergarten Curriculum (2026), in effect since September 2026: four strands, A Foundations of Language and Mathematics, B Problem Solving and Innovating, C Self-Regulation and Well-Being, D Belonging and Contributing.',
+      'Ontario Health and Physical Education, grades 1–2 (2019), social-emotional learning skills A1.1 to A1.6.',
+      'How Does Learning Happen? (Ontario early years): belonging, well-being, engagement and expression.',
+      'CASEL 5: self-awareness, self-management, social awareness, relationship skills and responsible decision-making.'
+    ],
+    guide: 'Guide'
+  },
+  visits: {
+    title: 'School and library visits',
+    description: 'Story and value visits for kindergarten to grade 2, libraries and EarlyON centres: read-aloud visits, value workshops and virtual visits with A² Publishing.',
+    heroTitle: 'Story and value visits for kindergarten to grade 2, libraries and EarlyON',
+    lead: 'One story, one value and something to take home. Book in two minutes.',
+    book: 'Book a visit',
+    formatsTitle: 'Three formats',
+    colFormat: 'Format', colLength: 'Length', colAudience: 'Audience', colIncludes: 'Includes', colFee: 'Fee (CAD)',
+    formats: [
+      ['Read-aloud visit', '30 min', 'One class or storytime group', 'One story, a value talk and a coloring page'],
+      ['Value workshop', '45–60 min', '1 or 2 classes', 'One story, an activity from the SEL pack and a take-home sheet'],
+      ['Virtual visit', '30 min', 'Any school', 'A live read-aloud on video, with questions']
+    ],
+    firstVisit: 'First visit for Kingston-area schools and libraries:',
+    fitTitle: 'Curriculum fit',
+    fit: [
+      'Each story builds one value and links to Ontario\'s Kindergarten Curriculum (2026): Strand C, Self-Regulation and Well-Being, and Strand D, Belonging and Contributing.',
+      'Grades 1 and 2: the social-emotional learning skills of Ontario Health and Physical Education (A1.1 to A1.6).',
+      'Every book maps to the CASEL 5 competencies, with a 10-minute activity and a discussion question.'
+    ],
+    fitCta: 'See the full mapping',
+    hostTitle: 'What the host gets',
+    host: ['Printable refrain and value posters', 'The classroom SEL pack for the story we read', 'A book order form for families'],
+    seeTitle: 'See a read-aloud',
+    seeText: 'This is how a read-aloud sounds. Visits are live, with the children joining the refrain.',
+    logisticsTitle: 'Practical details',
+    logistics: [
+      ['Travel', 'In-person visits from Seeley\'s Bay, near Kingston. Distance we travel:'],
+      ['We bring', 'The books and printed sheets. A screen helps for the virtual format.'],
+      ['Police check', 'For school visits, status:']
+    ],
+    formTitle: 'Book a visit',
+    fSchool: 'School, library or centre', fGrade: 'Grade or age group', fDates: 'Dates that work', fFormat: 'Format', fChildren: 'Number of children'
+  },
   notFound: { title: 'This page wandered off', text: 'Let\'s find you a story instead.' }
 };

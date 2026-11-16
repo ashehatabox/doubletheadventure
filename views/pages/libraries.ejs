@@ -49,6 +49,7 @@
       <ul class="clean">
         <% L.fit.forEach(function (x, i) { %><li><% if (i === 1) { %><a href="<%= L.k2026 %>" rel="noopener"><%= x %></a><% } else { %><%= x %><% } %></li><% }) %>
       </ul>
+      <p><a href="<%= url('/educators/sel-mapping') %>" style="font-weight:800"><%= t('selmap.title') %></a></p>
     </div>
     <div class="stack-sm">
       <h2 class="h3"><%= L.marcTitle %></h2>
@@ -71,7 +72,7 @@
     </div>
     <div class="grid-2" style="align-items:start">
       <div class="stack-sm">
-        <h2 class="h3"><%= L.visitsTitle %></h2>
+        <h2 class="h3"><a href="<%= url('/educators/visits') %>"><%= L.visitsTitle %></a></h2>
         <table class="dtable"><tbody><% L.visits.forEach(function (v) { %><tr><th scope="row"><%= v %></th><td><%- include('../partials/pending', { k: 'fee' }) %></td></tr><% }) %></tbody></table>
       </div>
       <div class="stack-sm">

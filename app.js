@@ -32,6 +32,7 @@ const { notify } = require('./lib/mailer');
 const refs = require('./lib/ref');
 const titles = require('./lib/titles');
 const proof = require('./data/proof');
+const selmap = require('./data/sel-mapping');
 
 const SITE_URL = (process.env.SITE_URL || 'https://doubleadventure.ca').replace(/\/$/, '');
 const EDUCATOR_PAGES = ['teachers', 'early-years', 'libraries', 'newcomers'];
@@ -884,6 +885,21 @@ router.get('/books/:slug/rights', (req, res, next) => {
   const r = titles.rows(h).find((x) => x.slug === b.slug);
   page(req, res, 'book-rights', { extraCss: 'partners', r, book: bookView(b, h, req), seo: { title: h.t('rights.sheet') + ': ' + h.bookTitle(b), description: h.pick(b.blurb) || h.pick(b.subtitle) || h.t('rights.description') } });
 });
+router.get('/educators/sel-mapping', (req, res) => {
+  const h = req.h;
+  const L = h.lang === 'fr' ? 'fr' : 'en';
+  const rows = selmap.rows.map((r) => {
+    const b = catalog.get(r.slug);
+    return { n: b.n, slug: r.slug, title: h.bookTitle(b), value: h.valueLabel(b), casel: r.casel.map((k) => selmap.CASEL[k][L]).join('; '), strand: selmap.STRANDS[r.strand][L], hpe: selmap.HPE[r.hpe][L], activity: r.activity, question: r.question, checked: selmap.checked.includes(r.slug) };
+  });
+  page(req, res, 'sel-mapping', { extraCss: 'partners', rows, anyChecked: selmap.checked.length > 0, seo: { title: h.t('selmap.title'), description: h.t('selmap.description') } });
+});
+router.get('/educators/visits', (req, res) => {
+  const h = req.h;
+  const slug = readalouds.slugs().includes('the-snug') ? 'the-snug' : readalouds.slugs()[0];
+  const video = slug ? { book: bookView(catalog.get(slug), h, req), videos: readalouds.forBook(slug, h.lang) } : null;
+  page(req, res, 'visits', { extraCss: 'partners', video, seo: { title: h.t('visits.title'), description: h.t('visits.description') } });
+});
 router.get('/educators/libraries/titles.csv', (req, res) => {
   res.set('Content-Disposition', 'attachment; filename="double-the-adventure-titles.csv"');
   res.type('text/csv; charset=utf-8').send(titles.csv(req.h));
@@ -946,7 +962,7 @@ const clean = (v, max) => String(v || '').trim().slice(0, max);
 const ROLE = ['parent', 'educator', 'other'];
 const KINDS = ['contact', 'quote', 'visit', 'press', 'stores', 'sponsors', 'rights', 'review-team', 'language'];
 // Extra fields some forms carry (rights, language requests), folded into the start of the message.
-const EXTRA_FIELDS = [['territory', 'Territory'], ['rightsType', 'Rights'], ['rightsLanguage', 'Language'], ['country', 'Country'], ['who', 'I am'], ['groupSize', 'Children or classes'], ['format', 'Format'], ['interview', 'Request'], ['quoteOk', 'May quote my review']];
+const EXTRA_FIELDS = [['territory', 'Territory'], ['rightsType', 'Rights'], ['rightsLanguage', 'Language'], ['country', 'Country'], ['who', 'I am'], ['groupSize', 'Children or classes'], ['format', 'Format'], ['interview', 'Request'], ['grade', 'Grade'], ['dates', 'Dates'], ['children', 'Children'], ['quoteOk', 'May quote my review']];
 function enquiryExtras(b) {
   const lines = EXTRA_FIELDS.map(([k, label]) => (clean(b[k], 120) ? `${label}: ${clean(b[k], 120)}` : '')).filter(Boolean);
   return lines.length ? lines.join('\n') + '\n\n' : '';
@@ -1062,7 +1078,7 @@ app.get('/llms.txt', (req, res) => {
 });
 
 app.get('/sitemap.xml', (req, res) => {
-  const paths = ['/road-to-100', '/languages', '/partners/press/fact-sheet', '/partners/stores/sell-sheet', '/partners/rights/catalogue', '/educators/libraries/titles', '/', '/stories', '/start', '/values', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
+  const paths = ['/educators/sel-mapping', '/educators/visits', '/road-to-100', '/languages', '/partners/press/fact-sheet', '/partners/stores/sell-sheet', '/partners/rights/catalogue', '/educators/libraries/titles', '/', '/stories', '/start', '/values', '/values-map', '/books', '/books/coming', '/books/review-team', '/shop', '/play', '/parents', '/educators', '/partners', '/about', '/contact', '/faq']
     .concat(EDUCATOR_PAGES.map((p) => '/educators/' + p))
     .concat(startMoments().map((m) => '/start/' + m), hubValues().map((v) => '/values/' + v), ['/educators/guides', '/educators/classroom', '/educators/classroom/cards', '/educators/classroom/posters', '/educators/libraries/one-sheet'], guideBooks().map((b) => '/educators/guides/' + b.slug))
     .concat(PARTNER_PAGES.map((p) => '/partners/' + p))

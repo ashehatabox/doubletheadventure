@@ -136,3 +136,12 @@ html, body { overflow-x: clip; }
 @media (max-width: 640px) {
   .table-wrap .dtable td { padding: 4px 0; border: 0; }
 }
+@media (min-width: 700px) { .selmap { min-width: 980px; } } .selmap td, .selmap th { font-size: 15px; } @media print { .selmap { min-width: 0; font-size: 11px; } }
+.selmap td, .selmap th { overflow-wrap: normal; hyphens: auto; }
+@media print {
+  .selmap { font-size: 9px; }
+  .selmap td, .selmap th { padding: 4px 6px; font-size: 9px; }
+  .selmap thead th { font-size: 9px; }
+  .os-page .ph .h1 { font-size: 24px; }
+  .os-page .ph .lead { font-size: 12px; }
+}

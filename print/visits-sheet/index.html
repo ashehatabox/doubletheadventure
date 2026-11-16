@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Publishing: School and library visits</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+/* Print one-sheet, 2 pages US Letter. Brand tokens from the site. */
+:root {
+  --ink: #4A3426;
+  --ink-soft: #6B5546;
+  --cream: #FFF9EE;
+  --paper: #FFFFFF;
+  --line: #E9DFCC;
+  --teal: #0E7C7B;
+  --coral: #D9381E;
+  --sun-pale: #FFF1C2;
+  --mint-pale: #DDF5E2;
+  --sky-pale: #DDF1FC;
+  --rose-pale: #FFE3DE;
+  --serif: 'Fraunces', Georgia, serif;
+  --sans: 'Nunito', system-ui, sans-serif;
+}
+@page { size: 8.5in 11in; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; overflow-x: clip; }
+body { font-family: var(--sans); color: var(--ink); font-size: 10.5pt; line-height: 1.45; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { width: 8.5in; height: 11in; position: relative; overflow: hidden; background: var(--cream); page-break-after: always; display: flex; flex-direction: column; }
+.page:last-child { page-break-after: auto; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 700; margin: 0; line-height: 1.12; overflow-wrap: break-word; min-width: 0; }
+p { margin: 0; }
+.pad { padding: 0 0.6in; }
+
+/* Masthead */
+.mast { display: flex; justify-content: space-between; align-items: center; padding: 0.38in 0.6in 0.22in; }
+.mast img { height: 0.42in; width: auto; }
+.mast span { font-size: 9pt; color: var(--ink-soft); font-weight: 700; }
+
+/* Hero */
+.hero { position: relative; height: 3.55in; margin: 0 0.6in; border-radius: 18pt; overflow: hidden; background: var(--mint-pale); }
+.hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 100% 100%; }
+.hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(255, 249, 238, 0.94) 0%, rgba(255, 249, 238, 0.82) 42%, rgba(255, 249, 238, 0) 66%); }
+.hero-text { z-index: 1; }
+.hero-text { position: absolute; left: 0.42in; top: 50%; transform: translateY(-50%); width: 3.7in; }
+.hero h1 { font-size: 32pt; letter-spacing: -0.01em; }
+.hero p { margin-top: 10pt; font-size: 12pt; font-weight: 600; max-width: 3.4in; }
+
+/* Formats */
+.sec { margin-top: 0.28in; }
+.sec h2 { font-size: 17pt; margin-bottom: 9pt; }
+.cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12pt; }
+.card { background: var(--paper); border: 1pt solid var(--line); border-radius: 12pt; padding: 13pt 13pt 12pt; display: flex; flex-direction: column; gap: 6pt; }
+.card h3 { font-size: 13pt; }
+.meta { display: flex; gap: 6pt; flex-wrap: wrap; }
+.meta span { font-size: 8.5pt; font-weight: 800; padding: 2pt 7pt; border-radius: 99pt; background: var(--sun-pale); }
+.card .inc { font-size: 9.5pt; flex: 1; }
+.fee { border-top: 1pt solid var(--line); padding-top: 6pt; font-size: 9pt; display: flex; justify-content: space-between; gap: 6pt; }
+.fee b { font-weight: 800; }
+.tbc { font-style: italic; color: var(--coral); font-weight: 700; }
+.note { margin-top: 10pt; font-size: 9.5pt; }
+
+/* Footer */
+.foot { margin-top: auto; padding: 0.2in 0.6in 0.32in; display: flex; justify-content: space-between; align-items: end; font-size: 8.5pt; color: var(--ink-soft); }
+.foot b { color: var(--ink); }
+
+/* Page 2 */
+.p2a { margin-top: 0.3in; }
+.p2a h2 { font-size: 17pt; margin-bottom: 10pt; }
+.p2b { margin-top: auto; padding-top: 0.28in; margin-bottom: 0.1in; }
+.band { background: var(--mint-pale); border-radius: 16pt; padding: 18pt 20pt 16pt; }
+.p2a:first-of-type { margin-top: 0.12in; }
+.two { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 0.3in; }
+.panel { border-radius: 14pt; padding: 16pt 18pt; }
+.panel.sun { background: var(--sun-pale); }
+.panel.sky { background: var(--sky-pale); }
+.panel h2 { font-size: 15pt; margin-bottom: 8pt; }
+ul.ticks { list-style: none; margin: 0; padding: 0; display: grid; gap: 7pt; }
+ul.ticks li { padding-left: 15pt; position: relative; font-size: 10pt; }
+ul.ticks li::before { content: ""; position: absolute; left: 0; top: 0.5em; width: 6pt; height: 6pt; border-radius: 50%; background: var(--teal); }
+.small { font-size: 9pt; color: var(--ink-soft); margin-top: 9pt; }
+
+.shelf { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14pt 16pt; }
+.shelf img { width: 100%; max-width: 0.98in; margin: 0 auto; aspect-ratio: 5 / 8; object-fit: cover; border-radius: 5pt; box-shadow: 0 2pt 5pt rgba(74, 52, 38, 0.22); display: block; }
+.shelf-cap { margin-top: 12pt; font-size: 9pt; color: var(--ink-soft); }
+
+table.facts { width: 100%; border-collapse: collapse; background: var(--paper); border-radius: 12pt; overflow: hidden; border: 1pt solid var(--line); }
+table.facts th, table.facts td { text-align: left; vertical-align: top; padding: 9pt 13pt; border-bottom: 1pt solid var(--line); font-size: 10pt; }
+table.facts tr:last-child th, table.facts tr:last-child td { border-bottom: 0; }
+table.facts th { width: 1.35in; font-weight: 800; }
+
+.book { padding-top: 20pt; padding-bottom: 20pt; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.3in; align-items: center; background: var(--ink); color: var(--cream); border-radius: 16pt; padding: 20pt 24pt; }
+.book h2 { font-size: 19pt; color: var(--cream); }
+.book p { margin-top: 6pt; font-size: 10.5pt; }
+.book .mail { margin-top: 10pt; font-weight: 800; font-size: 12pt; }
+.book .qr { background: var(--paper); padding: 9pt; border-radius: 10pt; text-align: center; }
+.book .qr img { width: 1.15in; height: 1.15in; display: block; }
+.book .qr span { display: block; margin-top: 5pt; font-size: 7.5pt; color: var(--ink); font-weight: 700; }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <header class="mast">
+    <img src="../../public/images/brand/logo.png" alt="A² Publishing, Double the Adventure">
+    <span>For schools, libraries and EarlyON centres</span>
+  </header>
+
+  <div class="hero">
+    <img src="../../public/images/heroes/the-snug/place.jpg" alt="Watercolour hedgehog from The Snug beside a stone wall">
+    <div class="hero-text">
+      <h1>Story and value visits</h1>
+      <p>For kindergarten to grade 2, libraries and EarlyON centres. One story, one value and something to take home.</p>
+    </div>
+  </div>
+
+  <div class="pad sec">
+    <h2>Three formats</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Read-aloud visit</h3>
+        <div class="meta"><span>30 min</span><span>One class or storytime group</span></div>
+        <p class="inc">One story, a value talk and a coloring page.</p>
+        <p class="fee"><b>Fee (CAD)</b><span class="tbc">[fee – pending]</span></p>
+      </article>
+      <article class="card">
+        <h3>Value workshop</h3>
+        <div class="meta"><span>45–60 min</span><span>1 or 2 classes</span></div>
+        <p class="inc">One story, an activity from the SEL pack and a take-home sheet.</p>
+        <p class="fee"><b>Fee (CAD)</b><span class="tbc">[fee – pending]</span></p>
+      </article>
+      <article class="card">
+        <h3>Virtual visit</h3>
+        <div class="meta"><span>30 min</span><span>Any school</span></div>
+        <p class="inc">A live read-aloud on video, with questions.</p>
+        <p class="fee"><b>Fee (CAD)</b><span class="tbc">[fee – pending]</span></p>
+      </article>
+    </div>
+    <p class="note"><b>First visit for Kingston-area schools and libraries:</b> <span class="tbc">[terms – pending]</span></p>
+  </div>
+
+  <div class="pad two sec">
+    <div class="panel sun">
+      <h2>Curriculum fit</h2>
+      <ul class="ticks">
+        <li>Each story builds one value and links to Ontario's Kindergarten Curriculum (2026): Strand C, Self-Regulation and Well-Being, and Strand D, Belonging and Contributing.</li>
+        <li>Grades 1 and 2: the social-emotional learning skills of Ontario Health and Physical Education (A1.1 to A1.6).</li>
+        <li>Every book maps to the CASEL 5 competencies, with a 10-minute activity and a discussion question.</li>
+      </ul>
+      <p class="small">Full mapping for all 21 books: doubleadventure.ca/educators/sel-mapping</p>
+    </div>
+    <div class="panel sky">
+      <h2>What the host gets</h2>
+      <ul class="ticks">
+        <li>Printable refrain and value posters</li>
+        <li>The classroom SEL pack for the story we read</li>
+        <li>A book order form for families</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="foot">
+    <span><b>A² Publishing</b>, Double the Adventure picture books, ages 3–7</span>
+    <span>doubleadventure.ca/educators/visits</span>
+  </footer>
+</section>
+
+<section class="page">
+  <header class="mast">
+    <img src="../../public/images/brand/logo.png" alt="A² Publishing, Double the Adventure">
+    <span>School and library visits</span>
+  </header>
+
+  <div class="pad p2a">
+    <div class="band">
+    <h2>Stories we bring</h2>
+    <div class="shelf">
+      <img src="../../public/images/books/the-snug/cover.jpg" alt="The Snug">
+      <img src="../../public/images/books/the-pebbles-inside/cover.jpg" alt="The Pebbles Inside">
+      <img src="../../public/images/books/secret-hero/cover.jpg" alt="Secret Hero">
+      <img src="../../public/images/books/the-desert-buzz/cover.jpg" alt="The Desert Buzz">
+      <img src="../../public/images/books/the-honest-little-raccoon/cover.jpg" alt="The Honest Little Raccoon">
+      <img src="../../public/images/books/pip-the-brave-parrot/cover.jpg" alt="Pip the Brave Parrot">
+      <img src="../../public/images/books/the-fox-mistake/cover.jpg" alt="The Fox Mistake">
+      <img src="../../public/images/books/becoming-a-tree/cover.jpg" alt="Becoming a Tree">
+      <img src="../../public/images/books/friendship-bridge/cover.jpg" alt="Friendship Bridge">
+      <img src="../../public/images/books/rainy-day-shiny-things/cover.jpg" alt="Rainy Day, Shiny Things">
+    </div>
+    <p class="shelf-cap">Each book carries one value from a different culture. Five languages to start: English, French, Spanish, German and Italian.</p>
+    </div>
+  </div>
+
+  <div class="pad p2a">
+    <h2>Practical details</h2>
+    <table class="facts">
+      <tr><th>Travel</th><td>In-person visits from Seeley's Bay, near Kingston. Distance we travel: <span class="tbc">[terms – pending]</span></td></tr>
+      <tr><th>We bring</th><td>The books and printed sheets. A screen helps for the virtual format.</td></tr>
+      <tr><th>Police check</th><td>For school visits, status: <span class="tbc">[status – pending]</span></td></tr>
+    </table>
+  </div>
+
+  <div class="pad p2b">
+    <div class="book">
+      <div>
+        <h2>Book a visit</h2>
+        <p>Scan the code or email us with your school, grade, dates and number of children. We reply within 2 business days.</p>
+        <p class="mail">ceo@doubleadventure.ca</p>
+      </div>
+      <div class="qr">
+        <img src="qr.png" alt="QR code to doubleadventure.ca/educators/visits">
+        <span>Book online</span>
+      </div>
+    </div>
+  </div>
+
+  <footer class="foot">
+    <span><b>A² Publishing</b>, made in Kingston, Ontario, Canada</span>
+    <span>21 books so far, on the road to 100</span>
+  </footer>
+</section>
+</body>
+</html>

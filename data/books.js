@@ -191,16 +191,31 @@ const ED = (lang, format, status, extra = {}) => ({ lang, format, status, isbn: 
 // - editions ready on KDP but not published yet (status 'draft').
 const TRIM_KDP = '8 × 10 in';
 const tradeFacts = {
-  B0HQXRK4Y1: { isbn: '9798140945923', trim: TRIM_KDP }, // The Pebbles Inside, EN paperback
-  B0HQXP8JSQ: { isbn: '9798140948184', trim: TRIM_KDP } // Las piedras de Tavi, ES paperback
+  // Paperback ISBN-13, print length and US publication date, read from each Amazon product page (Nov 16, 2026).
+  B0DVLJ6HBQ: { isbn: '9798308700470', pages: 27, trim: TRIM_KDP, published: '2025-01-29' }, // Secret Hero, EN
+  B0DXQ1WXJS: { isbn: '9798311276696', pages: 27, trim: TRIM_KDP, published: '2025-02-18' }, // Héroe Secreto, ES
+  B0DXVLMSX9: { isbn: '9798311410144', pages: 27, trim: TRIM_KDP, published: '2025-02-19' }, // Hemlig hjälte, SV
+  B0FGJHLLFB: { isbn: '9798290573724', pages: 32, trim: TRIM_KDP, published: '2025-06-26' }, // Becoming a Tree
+  B0FHB9MLYG: { isbn: '9798291982945', pages: 32, trim: TRIM_KDP, published: '2025-07-10' }, // Friendship Bridge
+  B0FHB5J4BQ: { isbn: '9798291974865', pages: 32, trim: TRIM_KDP, published: '2025-07-10' }, // The Fox Mistake
+  B0FHBM6NWF: { isbn: '9798292012122', pages: 32, trim: TRIM_KDP, published: '2025-07-10' }, // Rainy Day, Shiny Things
+  B0FHDSFQ16: { isbn: '9798292139812', pages: 32, trim: TRIM_KDP, published: '2025-07-11' }, // The Desert Buzz
+  B0FHKS3W3B: { isbn: '9798292502722', pages: 32, trim: TRIM_KDP, published: '2025-07-14' }, // The Honest Little Raccoon
+  B0HMJXN1YG: { isbn: '9798161187968', pages: 32, trim: TRIM_KDP, published: '2026-10-09' }, // Pip the Brave Parrot
+  B0HNX1BTYF: { isbn: '9798163158232', pages: 25, trim: TRIM_KDP, published: '2026-10-22' }, // The Snug, EN
+  B0HP44JZXG: { isbn: '9798163745999', pages: 25, trim: TRIM_KDP, published: '2026-10-23' }, // Le Cocon, FR
+  B0HQXRK4Y1: { isbn: '9798140945923', pages: 25, trim: TRIM_KDP, published: '2026-11-08' }, // The Pebbles Inside, EN
+  B0HQXP8JSQ: { isbn: '9798140948184', pages: 25, trim: TRIM_KDP, published: '2026-11-08' } // Las piedras de Tavi, ES
 };
 const tradeDrafts = {
+  'the-light-that-grows': [ED('en', 'paperback', 'draft', { isbn: '9798142640604', pages: 33, trim: TRIM_KDP }), ED('en', 'kindle', 'draft')],
+  'the-spring-that-wanted-to-stay': [ED('en', 'paperback', 'draft', { isbn: '9798142646668', pages: 33, trim: TRIM_KDP }), ED('en', 'kindle', 'draft')],
   'the-pebbles-inside': [ED('fr', 'paperback', 'draft', { isbn: '9798140950460', trim: TRIM_KDP }), ED('es', 'kindle', 'draft'), ED('fr', 'kindle', 'draft'), ED('de', 'kindle', 'draft')],
   'the-snug': [ED('es', 'paperback', 'draft', { isbn: '9798166148148', trim: TRIM_KDP }), ED('de', 'paperback', 'draft', { isbn: '9798166148483', trim: TRIM_KDP }), ED('de', 'kindle', 'draft'), ED('it', 'paperback', 'draft', { isbn: '9798140951740', trim: TRIM_KDP }), ED('it', 'kindle', 'draft')]
 };
 const asinOf = (stores) => (stores && stores.com ? (stores.com.match(/\/dp\/([A-Z0-9]+)/) || [])[1] : null) || null;
 books.forEach((b) => {
-  if (b.status !== 'live') { b.trade = [ED('en', 'paperback', 'planned'), ED('en', 'kindle', 'planned')]; return; }
+  if (b.status !== 'live') { b.trade = tradeDrafts[b.slug] || [ED('en', 'paperback', 'planned'), ED('en', 'kindle', 'planned')]; return; }
   const live = (lang, format, asin) => ED(lang, format, 'live', { asin, ...(tradeFacts[asin] || {}) });
   const list = [live('en', 'paperback', asinOf(b.amazon))];
   if (b.kindle) list.push(live('en', 'kindle', asinOf(b.kindle)));
@@ -210,6 +225,8 @@ books.forEach((b) => {
   });
   (tradeDrafts[b.slug] || []).forEach((d) => { if (!list.some((x) => x.lang === d.lang && x.format === d.format)) list.push(d); });
   b.trade = list;
+  const enPb = list.find((x) => x.lang === 'en' && x.format === 'paperback' && x.published);
+  if (enPb && !b.pubDate) b.pubDate = enPb.published;
 });
 
 // ---------- The vision, in numbers ----------

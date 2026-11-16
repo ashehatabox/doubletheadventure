@@ -311,7 +311,18 @@
    "storyVsRealSrc": [
     "dm-pin",
     "ua-pin"
-   ]
+   ],
+   "photo": {
+    "file": "etoo-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/220198800",
+    "by": "Zakqary Roy",
+    "license": "CC BY",
+    "caption": {
+     "en": "A pinacate (desert stink) beetle in Arizona",
+     "fr": "Un ténébrion pinacate du désert, en Arizona"
+    }
+   }
   },
   {
    "id": "bella",
@@ -667,7 +678,18 @@
    "storyVsRealSrc": [
     "je-sco",
     "bt-sco"
-   ]
+   ],
+   "photo": {
+    "file": "scorpion-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/59745306",
+    "by": "Bob Miller",
+    "license": "CC BY",
+    "caption": {
+     "en": "A real giant desert hairy scorpion",
+     "fr": "Un vrai scorpion velu géant du désert"
+    }
+   }
   }
  ],
  "activities": [

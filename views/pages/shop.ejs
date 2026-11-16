@@ -48,8 +48,9 @@
         <div class="shop-info">
           <a class="shop-title" href="<%= b.href %>" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></a>
           <span class="shop-value"><%= b.valueText %></span>
-          <span class="shop-price"><%= t('common.amazonPrice') %></span>
-          <a class="btn btn-primary shop-buy" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyAmazon') %></a>
+          <span class="shop-price"><%= b.amazonKindle ? t('common.amazonPrice') : t('common.paperback') + ' ' + t('common.amazonNote') %></span>
+          <div class="shop-buys"><a class="btn btn-primary shop-buy" href="<%= b.amazonMain %>" rel="noopener" aria-label="<%= t('common.buyPaperback') %>: <%= b.displayTitle %>"><%= t('common.paperback') %></a><% if (b.amazonKindle) { %><a class="btn btn-ghost shop-buy" href="<%= b.amazonKindle %>" rel="noopener" aria-label="<%= t('common.buyKindle') %>: <%= b.displayTitle %>"><%= t('common.kindle') %></a><% } %></div>
+          <%- include('../partials/editions', { eds: b.amazonEditions }) %>
         </div>
       </article>
       <% }) %>

@@ -118,7 +118,7 @@
             <img class="hg-id-img hg-pic-real" src="<%= photo %>" alt="<%= P(c.photo.caption) %>" loading="lazy" width="960" height="960">
             <span class="hg-pic-badge" aria-hidden="true"><%= t('heroes.picBadge') %></span>
           </div>
-          <p class="hg-pic-credit" <%- fallback(c.photo.caption) %>><%= P(c.photo.caption) %>. <%= t('heroes.photo') %>: <a href="https://www.pexels.com/photo/<%= c.photo.pexels %>/" rel="noopener" target="_blank"><%= c.photo.by ? t('heroes.photoBy').replace('{name}', c.photo.by) : 'Pexels' %></a></p>
+          <p class="hg-pic-credit" <%- fallback(c.photo.caption) %>><%= P(c.photo.caption) %>. <%= t('heroes.photo') %>: <% if (c.photo.pexels) { %><a href="https://www.pexels.com/photo/<%= c.photo.pexels %>/" rel="noopener" target="_blank"><%= c.photo.by ? t('heroes.photoBy').replace('{name}', c.photo.by) : 'Pexels' %></a><% } else { %><a href="<%= c.photo.url %>" rel="noopener" target="_blank"><%= c.photo.by %></a>, <%= c.photo.license === 'CC0' ? t('heroes.publicDomain') : c.photo.license %>, <%= t('heroes.via') %> iNaturalist<% } %></p>
         </div>
         <% } else { %>
         <%- portrait(c, 'hg-id-img') %>

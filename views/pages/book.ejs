@@ -9,14 +9,14 @@
     url: seo.canonical
   };
   // One workExample per edition on sale, with its ISBN when assigned (data/books.js editions).
-  const liveEds = (b.editions || []).filter(function (e) { return e.status === 'live'; });
+  const liveEds = (b.trade || []).filter(function (e) { return e.status === 'live'; });
   if (liveEds.length) ld.workExample = liveEds.map(function (e) {
     const w = { '@type': 'Book', bookFormat: e.format === 'kindle' ? 'https://schema.org/EBook' : e.format === 'hardcover' ? 'https://schema.org/Hardcover' : 'https://schema.org/Paperback', inLanguage: e.lang, publisher: { '@type': 'Organization', name: 'A² Publishing' } };
     if (e.isbn) w.isbn = e.isbn;
     if (e.pages) w.numberOfPages = e.pages;
     return w;
   });
-  const enPb = (b.editions || []).find(function (e) { return e.lang === 'en' && e.format === 'paperback' && e.isbn; });
+  const enPb = (b.trade || []).find(function (e) { return e.lang === 'en' && e.format === 'paperback' && e.isbn; });
   if (enPb) ld.isbn = enPb.isbn;
   if (pick(b.blurb)) ld.description = pick(b.blurb);
   if (b.cover) ld.image = seo.canonical.split('/').slice(0, 3).join('/') + b.cover;
@@ -42,13 +42,15 @@
       <% if (b.status === 'live') { %>
       <div class="buy-box stack-sm">
         <div class="chips">
-          <span class="chip" style="background:#fff"><%= t('common.amazonPrice') %></span>
+          <span class="chip" style="background:#fff"><%= b.kindle ? t('common.amazonPrice') : t('common.paperback') + ' ' + t('common.amazonNote') %></span>
         </div>
         <div class="row">
-          <a class="btn btn-primary" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyAmazon') %></a>
+          <a class="btn btn-primary" href="<%= b.amazonMain %>" rel="noopener"><%= t('common.buyPaperback') %></a>
+          <% if (b.amazonKindle) { %><a class="btn btn-ghost" href="<%= b.amazonKindle %>" rel="noopener"><%= t('common.buyKindle') %></a><% } %>
           <a class="btn btn-ghost" href="<%= url('/shop') %>"><%= t('common.giftSet') %></a>
           <% if (readHref) { %><a class="btn btn-ghost" href="<%= readHref %>"><%= readOpen ? t('reader.open') : t('reader.peek') %></a><% } %>
         </div>
+        <%- include('../partials/editions', { eds: b.amazonEditions }) %>
         <details class="stores">
           <summary><%= t('common.otherStores') %></summary>
           <ul><% b.amazonStores.forEach(function (s) { %><li><a class="chip" href="<%= s.href %>" rel="noopener"><%= s.label %></a></li><% }) %></ul>
@@ -256,13 +258,13 @@
           <table class="dtable">
             <thead><tr><th scope="col"><%= t('bookTrade.colLang') %></th><th scope="col"><%= t('bookTrade.colFormat') %></th><th scope="col"><%= t('bookTrade.colIsbn') %></th><th scope="col"><%= t('bookTrade.colStatus') %></th></tr></thead>
             <tbody>
-              <% (b.editions || []).forEach(function (e) { %>
+              <% (b.trade || []).forEach(function (e) { %>
               <tr><th scope="row"><%= langName(e.lang) %></th><td data-label="<%= t('bookTrade.colFormat') %>"><%= t('langs.formats.' + e.format) %></td><td data-label="<%= t('bookTrade.colIsbn') %>"><% if (e.isbn) { %><%= e.isbn %><% } else if (e.format === 'kindle') { %><%= e.asin ? 'ASIN ' + e.asin : '' %><% } else { %><%- include('../partials/pending', { k: 'isbn' }) %><% } %></td><td data-label="<%= t('bookTrade.colStatus') %>"><%= t('bookTrade.status.' + e.status) %></td></tr>
               <% }) %>
             </tbody>
           </table>
         </div>
-        <% const pb = (b.editions || []).find(function (e) { return e.lang === 'en' && e.format === 'paperback'; }) || {}; %>
+        <% const pb = (b.trade || []).find(function (e) { return e.lang === 'en' && e.format === 'paperback'; }) || {}; %>
         <p style="margin:0"><strong><%= t('bookTrade.pagesTrim') %>:</strong> <%= [pb.pages ? pb.pages + ' pp' : '', pb.trim || ''].filter(Boolean).join(', ') %><% if (!pb.pages) { %> <%- include('../partials/pending', { k: 'pages' }) %><% } %></p>
         <p class="row" style="margin:0"><a href="<%= url('/books/' + b.slug + '/rights') %>" style="font-weight:800"><%= t('bookTrade.rightsSheet') %></a> <a href="<%= url('/educators/libraries') %>#titles" style="font-weight:800"><%= t('bookTrade.titleList') %></a></p>
       </div>

@@ -341,7 +341,18 @@
    "storyVsRealSrc": [
     "animalia-pangolin",
     "dswf"
-   ]
+   ],
+   "photo": {
+    "file": "ama-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/200396604",
+    "by": "Ben Keen",
+    "license": "CC0",
+    "caption": {
+     "en": "A white-bellied pangolin climbing at night",
+     "fr": "Un pangolin à écailles tricuspides qui grimpe la nuit"
+    }
+   }
   },
   {
    "id": "kwesi",
@@ -720,7 +731,18 @@
    "storyVsRealSrc": [
     "dswf",
     "zsl"
-   ]
+   ],
+   "photo": {
+    "file": "nana-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/200396604",
+    "by": "Ben Keen",
+    "license": "CC0",
+    "caption": {
+     "en": "A white-bellied pangolin climbing at night",
+     "fr": "Un pangolin à écailles tricuspides qui grimpe la nuit"
+    }
+   }
   },
   {
    "id": "hornbill",
@@ -1087,7 +1109,18 @@
     "adw-maxwell",
     "knust-kakum",
     "encyc-duiker"
-   ]
+   ],
+   "photo": {
+    "file": "duikers-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/74326",
+    "by": "Scott Loarie",
+    "license": "CC0",
+    "caption": {
+     "en": "A Maxwell's duiker in the forest at night",
+     "fr": "Un céphalophe de Maxwell dans la forêt la nuit"
+    }
+   }
   },
   {
    "id": "monkeys",
@@ -1266,7 +1299,18 @@
    "storyVsRealSrc": [
     "plazi-lowe",
     "bioexplorer-lowe"
-   ]
+   ],
+   "photo": {
+    "file": "monkeys-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/312823010",
+    "by": "Zac Peterson",
+    "license": "CC BY",
+    "caption": {
+     "en": "A real Lowe's monkey",
+     "fr": "Un vrai cercopithèque de Lowe"
+    }
+   }
   }
  ],
  "activities": [

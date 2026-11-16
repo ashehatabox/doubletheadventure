@@ -107,6 +107,8 @@ function bookView(b, h, req) {
     href: h.url('/books/' + b.slug),
     amazonMain: amazon.link(b, title, store),
     amazonStores: amazon.links(b, title, store),
+    amazonKindle: amazon.kindleLink(b, store),
+    amazonEditions: amazon.editions(b, store),
     valueText: h.valueLabel(b),
     cultureText: h.cultureLabel(b)
   };

@@ -6,6 +6,10 @@
 //          'coming' = in production (shown under Coming soon)
 // amazon:  per store, the book's Amazon address once it's live, e.g. { ca: 'https://www.amazon.ca/dp/XXXXXXXXXX' }.
 //          Missing stores fall back to an Amazon search for the title.
+// kindle:  same shape as amazon, for the Kindle edition (built with az()).
+// editions: other language editions LIVE on Amazon, shown as "Also on Amazon in":
+//          { lang, title, paperback, kindle, host } (ASINs; host only when the edition is on one store, e.g. 'se').
+//          Rule (Abdallah, Nov 14 2026): whatever is live on Amazon must be live here. Checklist: a2-books/website-amazon-sync.md.
 // languages: editions that exist (or will exist) for this book.
 // Covers: put a 900 px wide JPG at public/images/books/<slug>/cover.jpg (and spread.jpg for a wide picture).
 
@@ -17,13 +21,18 @@ const HOSTS = { ca: 'ca', com: 'com', uk: 'co.uk', fr: 'fr', de: 'de', es: 'es',
 const az = (asin, local = {}) => Object.fromEntries(Object.entries(HOSTS).map(([st, h]) => [st, `https://www.amazon.${h}/dp/${local[st] || asin}`]));
 
 const books = [
-  { n: 1, slug: 'secret-hero', title: { en: 'Secret Hero' }, value: 'kindness', moments: ['kindness'], status: 'live', languages: ['en'], amazon: az('B0DVLJ6HBQ'), color: '#FFB3B3' },
-  { n: 2, slug: 'becoming-a-tree', title: { en: 'Becoming a Tree' }, value: 'patience', moments: ['patience'], status: 'live', languages: ['en'], amazon: az('B0FGJHLLFB'), color: '#A8DDA8' },
-  { n: 3, slug: 'friendship-bridge', title: { en: 'Friendship Bridge' }, value: 'teamwork', moments: ['friendship'], status: 'live', languages: ['en'], amazon: az('B0FHB9MLYG'), color: '#9FD3F0' },
-  { n: 4, slug: 'the-fox-mistake', title: { en: 'The Fox Mistake' }, value: 'forgiveness', moments: ['sorry', 'friendship'], status: 'live', languages: ['en'], amazon: az('B0FHB5J4BQ'), color: '#FFC59E' },
-  { n: 5, slug: 'rainy-day-shiny-things', title: { en: 'Rainy Day, Shiny Things' }, value: 'gratitude', moments: ['thankful'], status: 'live', languages: ['en'], amazon: az('B0FHBM6NWF'), color: '#CDB8F2' },
-  { n: 6, slug: 'the-desert-buzz', title: { en: 'The Desert Buzz' }, value: 'anger', moments: ['big-feelings'], status: 'live', languages: ['en'], amazon: az('B0FHDSFQ16'), color: '#FFE08A' },
-  { n: 7, slug: 'the-honest-little-raccoon', title: { en: 'The Honest Little Raccoon' }, value: 'truth', moments: ['honesty'], status: 'live', languages: ['en'], amazon: az('B0FHKS3W3B'), color: '#9FD3F0' },
+  { n: 1, slug: 'secret-hero', title: { en: 'Secret Hero' }, value: 'kindness', moments: ['kindness'], status: 'live', languages: ['en', 'es'], color: '#FFB3B3',
+    amazon: az('B0DVLJ6HBQ', { es: 'B0DXQ1WXJS' }), kindle: az('B0DWYK3WMC', { es: 'B0DXMWKG3Z' }),
+    editions: [
+      { lang: 'es', title: 'Héroe Secreto', paperback: 'B0DXQ1WXJS', kindle: 'B0DXMWKG3Z' },
+      { lang: 'sv', title: 'Hemlig hjälte', paperback: 'B0DXVLMSX9', kindle: 'B0DXRTZVN7', host: 'se' }
+    ] },
+  { n: 2, slug: 'becoming-a-tree', title: { en: 'Becoming a Tree' }, value: 'patience', moments: ['patience'], status: 'live', languages: ['en'], amazon: az('B0FGJHLLFB'), kindle: az('B0FFPP6YJN'), color: '#A8DDA8' },
+  { n: 3, slug: 'friendship-bridge', title: { en: 'Friendship Bridge' }, value: 'teamwork', moments: ['friendship'], status: 'live', languages: ['en'], amazon: az('B0FHB9MLYG'), kindle: az('B0FHBNDNZX'), color: '#9FD3F0' },
+  { n: 4, slug: 'the-fox-mistake', title: { en: 'The Fox Mistake' }, value: 'forgiveness', moments: ['sorry', 'friendship'], status: 'live', languages: ['en'], amazon: az('B0FHB5J4BQ'), kindle: az('B0FH7HGXCR'), color: '#FFC59E' },
+  { n: 5, slug: 'rainy-day-shiny-things', title: { en: 'Rainy Day, Shiny Things' }, value: 'gratitude', moments: ['thankful'], status: 'live', languages: ['en'], amazon: az('B0FHBM6NWF'), kindle: az('B0FH7RCJVV'), color: '#CDB8F2' },
+  { n: 6, slug: 'the-desert-buzz', title: { en: 'The Desert Buzz' }, value: 'anger', moments: ['big-feelings'], status: 'live', languages: ['en'], amazon: az('B0FHDSFQ16'), kindle: az('B0FHC1K5YK'), color: '#FFE08A' },
+  { n: 7, slug: 'the-honest-little-raccoon', title: { en: 'The Honest Little Raccoon' }, value: 'truth', moments: ['honesty'], status: 'live', languages: ['en'], amazon: az('B0FHKS3W3B'), kindle: az('B0FHJ1B8YY'), color: '#9FD3F0' },
   { n: 8, slug: 'finn-and-coral', title: { en: 'Finn & Coral' }, value: 'trust', moments: ['friendship'], status: 'soon', languages: ['en'], color: '#A8DDA8' },
   {
     n: 9, slug: 'pip-the-brave-parrot',
@@ -59,7 +68,8 @@ const books = [
     subtitle: { en: 'A Story About Sharing Our Feelings and the Friends Who Listen', fr: 'Une histoire sur le partage de nos émotions et les amis qui écoutent' },
     value: 'feelings', moments: ['big-feelings', 'friendship'], status: 'live', languages: FIVE, color: '#FFB3B3',
     // Live Nov 2026: paperback B0HQXRK4Y1, Kindle B0HQXZJXKY.
-    amazon: az('B0HQXRK4Y1', { es: 'B0HQXP8JSQ' }), // ES store: Las piedras de Tavi paperback
+    amazon: az('B0HQXRK4Y1', { es: 'B0HQXP8JSQ' }), kindle: az('B0HQXZJXKY'), // ES store: Las piedras de Tavi paperback
+    editions: [{ lang: 'es', title: 'Las piedras de Tavi', paperback: 'B0HQXP8JSQ' }],
     hero: { en: 'Tavi, a little turtle with a big, quiet heart' },
     blurb: { en: 'Tavi says "I\'m fine" and tucks each hurt inside like a little pebble. Pebble by pebble her shell grows heavy, until her best friend Fern sits down beside her and simply stays.' },
     themeLine: { en: 'Feelings kept inside grow heavy. Feelings we share become a path.' }
@@ -70,7 +80,11 @@ const books = [
     subtitle: { en: 'A Story About Belonging and Making Room for Everyone', fr: 'Une histoire sur l\'appartenance et la place pour chacun' },
     value: 'belonging', moments: ['left-out', 'friendship'], status: 'live', languages: FIVE, color: '#A8DDA8',
     // Live since early Nov 2026: paperback B0HNX1BTYF, Kindle B0HNVY8T7Y (French Le Cocon: paperback B0HP44JZXG, Kindle B0HP3T3KVC).
-    amazon: az('B0HNX1BTYF', { fr: 'B0HP44JZXG', es: 'B0HQYL7QBM' }), // FR store: Le Cocon paperback; ES store: El Nidito Kindle
+    amazon: az('B0HNX1BTYF', { fr: 'B0HP44JZXG' }), kindle: az('B0HNVY8T7Y', { fr: 'B0HP3T3KVC', es: 'B0HQYL7QBM' }), // FR store: Le Cocon; ES store Kindle: El Nidito
+    editions: [
+      { lang: 'fr', title: 'Le Cocon', paperback: 'B0HP44JZXG', kindle: 'B0HP3T3KVC' },
+      { lang: 'es', title: 'El Nidito', kindle: 'B0HQYL7QBM' }
+    ],
     hero: { en: 'Quilla the porcupine and Bodie the badger' },
     refrain: { en: 'Scoop, loop, snug!', fr: 'Creuse, boucle, cocon !' },
     blurb: { en: 'Quilla doesn\'t wait to be let in. With Bodie, she scoops, loops and pins together a warm little hut of their own. When the first snow falls, she has one big decision to make: who is it for?' },
@@ -165,37 +179,38 @@ const books = [
   }
 ];
 
-// ---------- Editions: one record per format and language, the single source for ISBNs and formats ----------
-// Every page, the sell sheet, the rights catalogue and the library title list read from here.
+// ---------- Trade records: one per format and language (b.trade), the source for ISBNs and formats ----------
+// The library title list, sell sheet, rights catalogue and book-page trade panel read from here.
 // status: 'live' (on sale), 'draft' (files ready on KDP, not published yet), 'planned'.
 // isbn: null = not assigned yet (pages show "[ISBN – pending]"). Never type a number that isn't on the KDP Bookshelf
-// or from ISBN Canada. Paperback ISBNs below are KDP's free ISBNs, as recorded in the KDP pipeline doc (Nov 8, 2026).
-// pages / trim: null until confirmed from the KDP print setup ("[pending]" on the page).
+// or from ISBN Canada. pages / trim: null until confirmed ("[pending]" on the page).
 const ED = (lang, format, status, extra = {}) => ({ lang, format, status, isbn: null, asin: null, pages: null, trim: null, ...extra });
-const editions = {
-  'secret-hero': [ED('en', 'paperback', 'live', { asin: 'B0DVLJ6HBQ' }), ED('en', 'kindle', 'live', { asin: 'B0DWYK3WMC' }), ED('es', 'kindle', 'live')],
-  'becoming-a-tree': [ED('en', 'paperback', 'live', { asin: 'B0FGJHLLFB' }), ED('en', 'kindle', 'live')],
-  'friendship-bridge': [ED('en', 'paperback', 'live', { asin: 'B0FHB9MLYG' }), ED('en', 'kindle', 'live', { asin: 'B0FHBNDNZX' })],
-  'the-fox-mistake': [ED('en', 'paperback', 'live', { asin: 'B0FHB5J4BQ' }), ED('en', 'kindle', 'live')],
-  'rainy-day-shiny-things': [ED('en', 'paperback', 'live', { asin: 'B0FHBM6NWF' }), ED('en', 'kindle', 'live')],
-  'the-desert-buzz': [ED('en', 'paperback', 'live', { asin: 'B0FHDSFQ16' }), ED('en', 'kindle', 'live')],
-  'the-honest-little-raccoon': [ED('en', 'paperback', 'live', { asin: 'B0FHKS3W3B' }), ED('en', 'kindle', 'live')],
-  'pip-the-brave-parrot': [ED('en', 'paperback', 'live', { asin: 'B0HMJXN1YG' }), ED('en', 'kindle', 'live')],
-  'the-pebbles-inside': [
-    ED('en', 'paperback', 'live', { asin: 'B0HQXRK4Y1', isbn: '9798140945923', trim: '8 × 10 in' }), ED('en', 'kindle', 'live', { asin: 'B0HQXZJXKY' }),
-    ED('es', 'paperback', 'live', { asin: 'B0HQXP8JSQ', isbn: '9798140948184', trim: '8 × 10 in' }), ED('es', 'kindle', 'draft'),
-    ED('fr', 'paperback', 'draft', { isbn: '9798140950460', trim: '8 × 10 in' }), ED('fr', 'kindle', 'draft'), ED('de', 'kindle', 'draft')
-  ],
-  'the-snug': [
-    ED('en', 'paperback', 'live', { asin: 'B0HNX1BTYF' }), ED('en', 'kindle', 'live', { asin: 'B0HNVY8T7Y' }),
-    ED('fr', 'paperback', 'live', { asin: 'B0HP44JZXG' }), ED('fr', 'kindle', 'live', { asin: 'B0HP3T3KVC' }),
-    ED('es', 'kindle', 'live', { asin: 'B0HQYL7QBM' }), ED('es', 'paperback', 'draft', { isbn: '9798166148148', trim: '8 × 10 in' }),
-    ED('de', 'paperback', 'draft', { isbn: '9798166148483', trim: '8 × 10 in' }), ED('de', 'kindle', 'draft'),
-    ED('it', 'paperback', 'draft', { isbn: '9798140951740', trim: '8 × 10 in' }), ED('it', 'kindle', 'draft')
-  ]
+// b.trade (format records for libraries, stores and rights buyers) is BUILT from what is live above
+// (amazon / kindle / editions, kept in sync with Amazon per website-amazon-sync.md), plus:
+// - ISBN, pages and trim for an ASIN when known (KDP free ISBNs from the KDP pipeline doc, Nov 8, 2026);
+// - editions ready on KDP but not published yet (status 'draft').
+const TRIM_KDP = '8 × 10 in';
+const tradeFacts = {
+  B0HQXRK4Y1: { isbn: '9798140945923', trim: TRIM_KDP }, // The Pebbles Inside, EN paperback
+  B0HQXP8JSQ: { isbn: '9798140948184', trim: TRIM_KDP } // Las piedras de Tavi, ES paperback
 };
-// Books with no record yet get a planned English paperback and Kindle.
-books.forEach((b) => { b.editions = editions[b.slug] || [ED('en', 'paperback', 'planned'), ED('en', 'kindle', 'planned')]; });
+const tradeDrafts = {
+  'the-pebbles-inside': [ED('fr', 'paperback', 'draft', { isbn: '9798140950460', trim: TRIM_KDP }), ED('es', 'kindle', 'draft'), ED('fr', 'kindle', 'draft'), ED('de', 'kindle', 'draft')],
+  'the-snug': [ED('es', 'paperback', 'draft', { isbn: '9798166148148', trim: TRIM_KDP }), ED('de', 'paperback', 'draft', { isbn: '9798166148483', trim: TRIM_KDP }), ED('de', 'kindle', 'draft'), ED('it', 'paperback', 'draft', { isbn: '9798140951740', trim: TRIM_KDP }), ED('it', 'kindle', 'draft')]
+};
+const asinOf = (stores) => (stores && stores.com ? (stores.com.match(/\/dp\/([A-Z0-9]+)/) || [])[1] : null) || null;
+books.forEach((b) => {
+  if (b.status !== 'live') { b.trade = [ED('en', 'paperback', 'planned'), ED('en', 'kindle', 'planned')]; return; }
+  const live = (lang, format, asin) => ED(lang, format, 'live', { asin, ...(tradeFacts[asin] || {}) });
+  const list = [live('en', 'paperback', asinOf(b.amazon))];
+  if (b.kindle) list.push(live('en', 'kindle', asinOf(b.kindle)));
+  (b.editions || []).forEach((e) => {
+    if (e.paperback) list.push(live(e.lang, 'paperback', e.paperback));
+    if (e.kindle) list.push(live(e.lang, 'kindle', e.kindle));
+  });
+  (tradeDrafts[b.slug] || []).forEach((d) => { if (!list.some((x) => x.lang === d.lang && x.format === d.format)) list.push(d); });
+  b.trade = list;
+});
 
 // ---------- The vision, in numbers ----------
 const vision = { planned: 100, startLanguages: FIVE };
@@ -214,7 +229,7 @@ function counts() {
 // Which languages have at least one live edition, per format.
 function languageGrid() {
   return vision.startLanguages.map((lang) => {
-    const rows = books.map((b) => ({ b, eds: b.editions.filter((e) => e.lang === lang) })).filter((r) => r.eds.length);
+    const rows = books.map((b) => ({ b, eds: b.trade.filter((e) => e.lang === lang) })).filter((r) => r.eds.length);
     return {
       lang,
       live: rows.filter((r) => r.eds.some((e) => e.status === 'live')).map((r) => ({ slug: r.b.slug, formats: r.eds.filter((e) => e.status === 'live').map((e) => e.format) })),

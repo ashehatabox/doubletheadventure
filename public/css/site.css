@@ -318,7 +318,14 @@ a.cast-card:hover { color: var(--ink); transform: translateY(-3px); box-shadow: 
 .shop-title:hover { color: var(--coral-dark); }
 .shop-value { color: var(--ink-soft); font-size: 15px; }
 .shop-price { font-size: 14px; font-weight: 700; margin-top: 2px; }
-.shop-buy { margin-top: auto; align-self: flex-start; white-space: nowrap; margin-top: 10px; min-height: 44px; padding-left: 18px; padding-right: 18px; font-size: 15px; }
+.shop-buys { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.shop-buy { white-space: nowrap; min-height: 44px; padding-left: 18px; padding-right: 18px; font-size: 15px; }
+.also-in { margin: 10px 0 0; font-size: 14px; line-height: 1.5; color: var(--ink-soft); }
+.also-label { display: block; font-weight: 700; color: var(--ink); }
+.also-ed { display: block; }
+.also-sep { display: none; }
+.also-in cite { font-style: italic; }
+.also-in a { font-weight: 700; display: inline-block; padding: 4px 2px; min-height: 24px; }
 .play-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .play-tile { display: flex; flex-direction: column; gap: 10px; text-align: center; font-weight: 800; }
 .play-tile .art { aspect-ratio: 3 / 4; align-items: center; justify-content: center; }

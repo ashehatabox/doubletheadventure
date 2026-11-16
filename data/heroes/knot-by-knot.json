@@ -324,7 +324,18 @@
       "storyVsRealSrc": [
         "adu",
         "standrews"
-      ]
+      ],
+      "photo": {
+        "file": "zayn-photo.jpg",
+        "source": "inaturalist",
+        "url": "https://www.inaturalist.org/observations/247534201",
+        "by": "Tommy Andriollo",
+        "license": "CC BY",
+        "caption": {
+          "en": "A real Rüppell's weaver",
+          "fr": "Un vrai tisserin de Rüppell"
+        }
+      }
     },
     {
       "id": "hana",
@@ -524,7 +535,18 @@
       },
       "storyVsRealSrc": [
         "omanobs-cham"
-      ]
+      ],
+      "photo": {
+        "file": "hana-photo.jpg",
+        "source": "inaturalist",
+        "url": "https://www.inaturalist.org/observations/104969977",
+        "by": "Thomas Galewski",
+        "license": "CC BY",
+        "caption": {
+          "en": "A real Arabian chameleon",
+          "fr": "Un vrai caméléon d'Arabie"
+        }
+      }
     },
     {
       "id": "rima",
@@ -690,7 +712,18 @@
       },
       "storyVsRealSrc": [
         "birdsnet"
-      ]
+      ],
+      "photo": {
+        "file": "rima-photo.jpg",
+        "source": "inaturalist",
+        "url": "https://www.inaturalist.org/observations/247303908",
+        "by": "Tommy Andriollo",
+        "license": "CC BY",
+        "caption": {
+          "en": "A grown-up Rüppell's weaver",
+          "fr": "Un tisserin de Rüppell adulte"
+        }
+      }
     }
   ],
   "activities": [

@@ -310,7 +310,18 @@
    },
    "storyVsRealSrc": [
     "starlight"
-   ]
+   ],
+   "photo": {
+    "file": "lumi-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/75587575",
+    "by": "João Valença",
+    "license": "CC BY-SA",
+    "caption": {
+     "en": "A Portuguese firefly glowing",
+     "fr": "Une luciole du Portugal qui brille"
+    }
+   }
   },
   {
    "id": "moss",
@@ -487,7 +498,18 @@
    },
    "storyVsRealSrc": [
     "breeding"
-   ]
+   ],
+   "photo": {
+    "file": "moss-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/165272764",
+    "by": "Juan Rodríguez",
+    "license": "CC BY",
+    "caption": {
+     "en": "A real Spanish moon moth",
+     "fr": "Un vrai papillon Isabelle"
+    }
+   }
   },
   {
    "id": "oldglow",
@@ -845,7 +867,18 @@
    },
    "storyVsRealSrc": [
     "uks-ggbc"
-   ]
+   ],
+   "photo": {
+    "file": "cricket-photo.jpg",
+    "source": "inaturalist",
+    "url": "https://www.inaturalist.org/observations/80048533",
+    "by": "Gilles San Martin",
+    "license": "CC BY-SA",
+    "caption": {
+     "en": "A young great green bush-cricket",
+     "fr": "Une jeune grande sauterelle verte"
+    }
+   }
   },
   {
    "id": "mice",

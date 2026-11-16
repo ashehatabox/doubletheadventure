@@ -18,6 +18,7 @@ module.exports = {
     getFreePage: 'Get a free coloring page',
     seeAll: 'See all books',
     buyAmazon: 'Buy on Amazon',
+    buyPaperback: 'Paperback on Amazon', buyKindle: 'Kindle', alsoIn: 'Also on Amazon in:',
     otherStores: 'Other Amazon stores',
     giftSet: 'Signed copy or gift set',
     notifyMe: 'Notify me',

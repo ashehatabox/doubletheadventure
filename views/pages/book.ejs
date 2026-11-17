@@ -127,13 +127,13 @@
       <% bookPacks.forEach(function (c) { %>
       <form class="pack-card" method="post" action="/shop/checkout">
         <input type="hidden" name="product" value="<%= c.id %>"><input type="hidden" name="lang" value="<%= lang %>">
-        <% if (c.preview) { %><img class="pack-preview" src="<%= c.preview %>" alt="<%= t('shop.previewOf').replace('{title}', c.title) %>" loading="lazy" width="900" height="390"><% } %>
+        <% if (c.preview) { %><a href="<%= c.href %>" tabindex="-1" aria-hidden="true"><img class="pack-preview" src="<%= c.preview %>" alt="" loading="lazy" width="900" height="390"></a><% } %>
         <div class="pack-body">
-          <h3 class="h3"><%= c.title %></h3>
+          <h3 class="h3"><a class="pack-link" href="<%= c.href %>"><%= c.title %></a></h3>
           <p class="muted" style="margin:0"><%= c.text %></p>
           <p class="muted" style="margin:0;font-size:14px"><%= c.licence %></p>
           <span class="shop-price">$<%= c.price %> CAD</span>
-          <button class="btn btn-primary" type="submit"><%= t('shop.buy') %></button>
+          <div class="pack-actions"><button class="btn btn-primary" type="submit"><%= t('shop.buy') %></button><a class="btn btn-ghost" href="<%= c.href %>"><%= t('pack.details') %></a></div>
         </div>
       </form>
       <% }) %>

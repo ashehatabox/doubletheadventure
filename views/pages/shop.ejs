@@ -21,12 +21,12 @@
       <% shelf.list.forEach(function (c) { %>
       <form class="pack-card" method="post" action="/shop/checkout" id="<%= c.id %>">
         <input type="hidden" name="product" value="<%= c.id %>"><input type="hidden" name="lang" value="<%= lang %>">
-        <% if (c.preview) { %><img class="pack-preview" src="<%= c.preview %>" alt="<%= t('shop.previewOf').replace('{title}', c.book.displayTitle) %>" loading="lazy" width="900" height="390"><% } %>
+        <% if (c.preview) { %><a href="<%= c.href %>" tabindex="-1" aria-hidden="true"><img class="pack-preview" src="<%= c.preview %>" alt="" loading="lazy" width="900" height="390"></a><% } %>
         <div class="pack-body">
-          <a class="shop-title" href="<%= c.book.href %>" <%- c.book.titleIsFallback ? 'lang="en"' : '' %>><%= c.book.displayTitle %></a>
+          <a class="shop-title" href="<%= c.href %>" <%- c.book.titleIsFallback ? 'lang="en"' : '' %>><%= c.book.displayTitle %></a>
           <span class="shop-value"><%= c.book.valueText %></span>
           <span class="shop-price">$<%= c.price %> CAD</span>
-          <button class="btn btn-primary" type="submit"><%= t('shop.buy') %></button>
+          <div class="pack-actions"><button class="btn btn-primary" type="submit"><%= t('shop.buy') %></button><a class="btn btn-ghost" href="<%= c.href %>" aria-label="<%= t('pack.details') %>: <%= c.title %>, <%= c.book.displayTitle %>"><%= t('pack.details') %></a></div>
         </div>
       </form>
       <% }) %>

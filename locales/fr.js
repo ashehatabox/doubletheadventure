@@ -169,6 +169,22 @@ module.exports = {
     messageLabel: 'Où parlez-vous de livres ? (Amazon, Instagram, une classe, un blogue...)',
     button: 'Postuler'
   },
+  pack: {
+    eyebrow: 'Trousse à imprimer',
+    from: 'Tirée du livre',
+    whoFor: 'Pour',
+    pages: '{n} pages, PDF',
+    inside: 'Ce qu’il y a dedans',
+    insideLead: 'Chaque page vient de l’histoire du livre, de ses personnages et de vrais animaux.',
+    good: 'Bon à savoir',
+    good1: 'Vous recevez le PDF dès le paiement. Le lien de téléchargement fonctionne pendant {days} jours.',
+    good2: 'À imprimer à la maison sur du papier Lettre ou A4, en couleur ou en noir et blanc.',
+    good3: 'Rien n’est expédié : c’est un fichier numérique.',
+    other: 'Aussi pour ce livre',
+    details: 'Voir le contenu',
+    allPacks: 'Toutes les trousses à imprimer',
+    title: '{pack} : {book}'
+  },
   shop: {
     pageLead: 'Chaque livre terminé est sur Amazon, en broché et en Kindle. Notre boutique ouvre début 2027 avec des ensembles, des dédicaces et des cadeaux.',
     liveTitle: 'Sur Amazon maintenant',

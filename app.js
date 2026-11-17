@@ -418,7 +418,7 @@ function packCards(h, req, onlySlug) {
       const p = shop.find(`pack-${kind}-${b.slug}`);
       if (!p) return null;
       const k = packs.kinds[kind];
-      return { id: p.id, kind, book: bookView(b, h, req), title: h.pick(k.title), text: h.pick(k.text), licence: h.pick(k.licence), pages: k.pages, price: (p.priceCents / 100).toFixed(2), preview: packs.preview(b.slug, kind) };
+      return { id: p.id, kind, book: bookView(b, h, req), title: h.pick(k.title), text: h.pick(k.text), licence: h.pick(k.licence), pages: k.pages, price: (p.priceCents / 100).toFixed(2), preview: packs.preview(b.slug, kind), href: h.url(`/shop/packs/${b.slug}/${kind}`) };
     }).filter(Boolean));
 }
 router.get('/shop', (req, res) => {
@@ -433,6 +433,19 @@ router.get('/shop', (req, res) => {
     soonBooks: catalog.books.filter((b) => b.status !== 'live' && b.status !== 'coming').map((b) => bookView(b, h, req)),
     products: open ? shop.priced().filter((p) => !p.digital).map((p) => ({ id: p.id, title: h.pick(p.title), text: h.pick(p.text), price: (p.priceCents / 100).toFixed(2) })) : [],
     seo: { title: h.t('shop.openTitle'), description: open ? h.t('shop.openLead') : h.t('shop.pageLead') }
+  });
+});
+// One pack's details page: what's inside, who it's for, price and Buy now.
+router.get('/shop/packs/:slug/:kind', (req, res, next) => {
+  const h = req.h;
+  const card = packCards(h, req, req.params.slug).find((c) => c.kind === req.params.kind);
+  if (!card) return next();
+  const k = packs.kinds[card.kind];
+  const other = packCards(h, req, req.params.slug).filter((c) => c.kind !== card.kind);
+  page(req, res, 'pack', {
+    pack: Object.assign({}, card, { who: h.pick(k.who), inside: h.pick(k.inside) || [], days: packs.DAYS }),
+    other,
+    seo: { title: h.t('pack.title').replace('{pack}', card.title).replace('{book}', card.book.displayTitle), description: card.text, image: card.preview || undefined }
   });
 });
 router.get('/shop/thanks', async (req, res) => {
@@ -938,6 +951,7 @@ app.get('/sitemap.xml', (req, res) => {
     .concat(['/parents/articles'])
     .concat(articles.published().map((s) => '/parents/articles/' + s))
     .concat(heroes.published().length ? ['/heroes'] : [], heroes.published().map((s) => '/heroes/' + s))
+    .concat(shop.open() ? packs.slugs.flatMap((sl) => Object.keys(packs.kinds).map((k) => `/shop/packs/${sl}/${k}`)) : [])
     .concat(['/play/memory'])
     .concat(play.coloring.map((s) => '/play/color/' + s))
     .concat(play.jigsaw.map((s) => '/play/jigsaw/' + s));

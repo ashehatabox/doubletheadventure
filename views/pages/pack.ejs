@@ -1,0 +1,61 @@
+<%- include('../partials/top') %>
+<% const p = pack, b = pack.book; %>
+<section class="section tight">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="<%= url('/shop') %>"><%= t('nav.shop') %></a> <span aria-hidden="true">›</span> <a href="<%= url('/shop') %>#<%= p.kind === 'home' ? 'home-packs' : 'class-packs' %>"><%= t('pack.allPacks') %></a></nav>
+    <div class="pack-detail">
+      <div class="pack-detail-art">
+        <% if (p.preview) { %><img class="pack-detail-strip" src="<%= p.preview %>" alt="<%= t('shop.previewOf').replace('{title}', b.displayTitle) %>" width="900" height="390"><% } %>
+      </div>
+      <div class="pack-detail-info stack-sm">
+        <p class="eyebrow"><%= t('pack.eyebrow') %></p>
+        <h1 class="h1 pack-detail-h"><%= p.title %>: <span <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span></h1>
+        <p class="lead" style="margin:0"><%= p.text %></p>
+        <ul class="pack-facts">
+          <li><strong><%= t('pack.whoFor') %>:</strong> <%= p.who %></li>
+          <li><%= t('pack.pages').replace('{n}', p.pages) %></li>
+          <li><%= p.licence %></li>
+        </ul>
+        <span class="shop-price pack-detail-price">$<%= p.price %> CAD</span>
+        <form method="post" action="/shop/checkout">
+          <input type="hidden" name="product" value="<%= p.id %>"><input type="hidden" name="lang" value="<%= lang %>">
+          <button class="btn btn-primary" type="submit"><%= t('shop.buy') %></button>
+        </form>
+        <a class="pack-book" href="<%= b.href %>">
+          <img src="<%= b.coverSmall || b.cover %>" alt="" width="60" height="96" loading="lazy">
+          <span><span class="muted"><%= t('pack.from') %></span><br><strong <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></strong> · <%= b.valueText %></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" style="padding-top:0">
+  <div class="wrap pack-detail-more">
+    <div class="stack-sm">
+      <h2 class="h2 book-h2"><%= t('pack.inside') %></h2>
+      <p class="muted" style="margin:0"><%= t('pack.insideLead') %></p>
+      <ol class="pack-inside">
+        <% p.inside.forEach(function (line) { %><li><%= line %></li><% }) %>
+      </ol>
+    </div>
+    <div class="stack-sm">
+      <h2 class="h2 book-h2"><%= t('pack.good') %></h2>
+      <ul class="pack-good">
+        <li><%= t('pack.good1').replace('{days}', p.days) %></li>
+        <li><%= t('pack.good2') %></li>
+        <li><%= t('pack.good3') %></li>
+      </ul>
+      <% if (other.length) { %>
+      <h2 class="h3" style="margin-top:18px"><%= t('pack.other') %></h2>
+      <% other.forEach(function (o) { %>
+      <a class="pack-other" href="<%= o.href %>">
+        <% if (o.preview) { %><img src="<%= o.preview %>" alt="" width="900" height="390" loading="lazy"><% } %>
+        <span><strong><%= o.title %></strong> · $<%= o.price %> CAD</span>
+      </a>
+      <% }) %>
+      <% } %>
+    </div>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

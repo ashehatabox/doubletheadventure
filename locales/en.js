@@ -169,6 +169,22 @@ module.exports = {
     messageLabel: 'Where do you share books? (Amazon, Instagram, a classroom, a blog...)',
     button: 'Apply'
   },
+  pack: {
+    eyebrow: 'Printable pack',
+    from: 'Made from the book',
+    whoFor: 'For',
+    pages: '{n} pages, PDF',
+    inside: 'What’s inside',
+    insideLead: 'Every page comes from the book’s own story, characters and real animals.',
+    good: 'Good to know',
+    good1: 'You get the PDF as soon as you pay. The download link works for {days} days.',
+    good2: 'Print at home on Letter or A4 paper, in color or black and white.',
+    good3: 'Nothing is shipped: this is a digital file.',
+    other: 'Also for this book',
+    details: 'See what’s inside',
+    allPacks: 'All printable packs',
+    title: '{pack}: {book}'
+  },
   shop: {
     pageLead: 'Every finished book is on Amazon, in paperback and Kindle. Our own shop opens in early 2027 with sets, signed copies and gifts.',
     liveTitle: 'On Amazon now',

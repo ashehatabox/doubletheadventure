@@ -748,4 +748,24 @@ a.cast-card:hover { color: var(--ink); transform: translateY(-3px); box-shadow: 
 .pack-card { display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
 .pack-preview { width: 100%; height: auto; display: block; background: var(--cream); border-bottom: 1px solid var(--line); }
 .pack-body { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px 18px; flex: 1; }
-.pack-body .btn { margin-top: auto; align-self: flex-start; }
+.pack-body .btn { align-self: flex-start; }
+.pack-actions { margin-top: auto; display: flex; flex-wrap: wrap; gap: 8px; padding-top: 4px; }
+.pack-link { color: inherit; text-decoration: none; }
+.pack-link:hover, .pack-link:focus-visible { text-decoration: underline; }
+.crumbs { font-size: 14px; margin-bottom: 18px; color: var(--ink-soft); }
+.crumbs a { font-weight: 700; }
+.pack-detail { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 36px; align-items: start; }
+.pack-detail-strip { width: 100%; height: auto; display: block; border-radius: var(--radius); border: 1px solid var(--line); background: var(--white); }
+.pack-detail-h { font-size: clamp(30px, 3.6vw, 44px); margin: 0; }
+.pack-facts { margin: 4px 0 0; padding-left: 20px; line-height: 1.6; }
+.pack-detail-price { font-size: 22px; }
+.pack-book { display: flex; gap: 12px; align-items: center; margin-top: 10px; padding: 10px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); text-decoration: none; color: var(--ink); line-height: 1.4; }
+.pack-book img { width: 60px; height: auto; border-radius: 6px; flex: none; }
+.pack-detail-more { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 36px; }
+.pack-inside { margin: 8px 0 0; padding-left: 24px; columns: 2 260px; column-gap: 28px; line-height: 1.5; }
+.pack-inside li { break-inside: avoid; margin-bottom: 8px; }
+.pack-good { margin: 0; padding-left: 20px; line-height: 1.6; }
+.pack-other { display: block; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--white); text-decoration: none; color: var(--ink); }
+.pack-other img { width: 100%; height: auto; display: block; border-bottom: 1px solid var(--line); }
+.pack-other span { display: block; padding: 10px 14px; }
+@media (max-width: 820px) { .pack-detail, .pack-detail-more { grid-template-columns: 1fr; gap: 24px; } }

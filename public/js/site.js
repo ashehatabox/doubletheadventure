@@ -237,3 +237,38 @@ document.querySelectorAll('[data-ra]').forEach(function (box) {
     });
   });
 });
+
+// Pack details page: thumbnails swap the big page; any page opens in a viewer with previous/next.
+(function () {
+  const gallery = document.querySelector('[data-pk-gallery]');
+  if (!gallery) return;
+  const thumbs = Array.from(gallery.querySelectorAll('[data-pk-show]'));
+  const pages = thumbs.map((a) => ({ src: a.dataset.src, cap: a.dataset.cap, alt: a.dataset.alt }));
+  const main = document.getElementById('pk-main');
+  const cap = document.getElementById('pk-cap');
+  const stageLink = gallery.querySelector('.pk-stage-link');
+  const show = (i) => {
+    const p = pages[i]; if (!p) return;
+    main.src = p.src; main.alt = p.alt; cap.textContent = p.cap;
+    stageLink.href = p.src; stageLink.dataset.pkOpen = String(i);
+    thumbs.forEach((t, k) => t.classList.toggle('is-on', k === i));
+  };
+  thumbs.forEach((a, i) => a.addEventListener('click', (e) => { e.preventDefault(); show(i); }));
+
+  const dlg = document.getElementById('pk-dialog');
+  if (!dlg || typeof dlg.showModal !== 'function') return;
+  const img = document.getElementById('pk-dialog-img');
+  const dcap = document.getElementById('pk-dialog-cap');
+  let at = 0;
+  const open = (i) => {
+    at = (i + pages.length) % pages.length;
+    img.src = pages[at].src; img.alt = pages[at].alt; dcap.textContent = pages[at].cap;
+    if (!dlg.open) dlg.showModal();
+  };
+  document.querySelectorAll('[data-pk-open]').forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); open(Number(a.dataset.pkOpen)); }));
+  dlg.querySelector('[data-pk-close]').addEventListener('click', () => dlg.close());
+  dlg.querySelector('[data-pk-prev]').addEventListener('click', () => open(at - 1));
+  dlg.querySelector('[data-pk-next]').addEventListener('click', () => open(at + 1));
+  dlg.addEventListener('keydown', (e) => { if (e.key === 'ArrowLeft') open(at - 1); if (e.key === 'ArrowRight') open(at + 1); });
+  dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+})();

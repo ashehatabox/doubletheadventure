@@ -435,16 +435,38 @@ router.get('/shop', (req, res) => {
     seo: { title: h.t('shop.openTitle'), description: open ? h.t('shop.openLead') : h.t('shop.pageLead') }
   });
 });
-// One pack's details page: what's inside, who it's for, price and Buy now.
+// One pack's details page: every page previewed and explained, the book's own words, characters and activities, price and Buy now.
 router.get('/shop/packs/:slug/:kind', (req, res, next) => {
   const h = req.h;
-  const card = packCards(h, req, req.params.slug).find((c) => c.kind === req.params.kind);
+  const cards = packCards(h, req, req.params.slug);
+  const card = cards.find((c) => c.kind === req.params.kind);
   if (!card) return next();
+  const slug = req.params.slug;
   const k = packs.kinds[card.kind];
-  const other = packCards(h, req, req.params.slug).filter((c) => c.kind !== card.kind);
+  const d = packs.details(slug) || {};
+  const g = heroes.get(slug);
+  const b = catalog.get(slug);
+  const cast = ((g && g.cast) || []).map((c) => ({ name: h.pick(c.name), animal: h.pick(c.animal), image: heroes.image(slug, c.image) }));
+  const value = (card.book.valueText || '').toLowerCase();
+  const list = (xs) => xs.length < 2 ? xs.join('') : xs.slice(0, -1).join(', ') + (h.lang === 'fr' ? ' et ' : ' and ') + xs[xs.length - 1];
+  const place = g && g.place ? h.pick(g.place.name) : '';
+  const fill = (t) => t
+    .replace('{hero}', cast[0] ? cast[0].name : card.book.displayTitle)
+    .replace('{friends}', cast.length ? list(cast.map((c) => `${c.name} (${c.animal.toLowerCase()})`)) : card.book.displayTitle)
+    .replace(/\{value\}/g, value)
+    .replace('{activity}', d.activity ? `“${d.activity.title}”` : h.t('pack.storyActivity'))
+    .replace('{words}', list((d.words || []).map((w) => w.word)))
+    .replace('{place}', place ? `: ${place}` : '');
+  const imgs = packs.pageImages(slug, card.kind);
+  const pages = k.pages.map((pg, i) => ({ n: i + 1, name: h.pick(pg.name), text: fill(h.pick(pg.text)), image: imgs[i] || '' }));
   page(req, res, 'pack', {
-    pack: Object.assign({}, card, { who: h.pick(k.who), inside: h.pick(k.inside) || [], days: packs.DAYS }),
-    other,
+    pack: Object.assign({}, card, { who: h.pick(k.who), days: packs.DAYS, pages, total: k.pages.length + (card.kind === 'classroom' ? packs.HOME_PAGES : 0) }),
+    details: {
+      // English-only extras come from the English PDFs; the French page says so.
+      words: d.words || [], activity: d.activity || null, week: d.week || [], materials: d.materials || '', classActivities: d.classActivities || [],
+      cast, place, refrain: b && h.pick(b.refrain)
+    },
+    other: cards.find((c) => c.kind !== card.kind) || null,
     seo: { title: h.t('pack.title').replace('{pack}', card.title).replace('{book}', card.book.displayTitle), description: card.text, image: card.preview || undefined }
   });
 });

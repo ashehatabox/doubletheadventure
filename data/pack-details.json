@@ -1,0 +1,1607 @@
+{
+ "becoming-a-tree": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "seed",
+    "means": "a tiny thing that a plant grows from",
+    "do": "pinch your fingers into a tiny dot"
+   },
+   {
+    "word": "soil",
+    "means": "the earth that plants grow in",
+    "do": "rub your fingers together like crumbly dirt"
+   },
+   {
+    "word": "root",
+    "means": "the part of a plant that grows down into the ground",
+    "do": "wiggle your fingers downward"
+   },
+   {
+    "word": "sprout",
+    "means": "a new little plant pushing up",
+    "do": "push one hand slowly up through the other"
+   },
+   {
+    "word": "patient",
+    "means": "able to wait calmly",
+    "do": "fold your hands and breathe"
+   }
+  ],
+  "activity": {
+   "title": "Grow a bean",
+   "need": "Bean seeds, clear cups, damp paper towels, a sunny window",
+   "text": "Put a damp paper towel inside a clear cup and slide a bean between the towel and the cup so you can see it. Keep it damp. Check every day and draw what you see: the root going down, the shoot going up. Say the worm’s words when nothing seems to happen."
+  },
+  "classActivities": [
+   {
+    "title": "Be the seed",
+    "minutes": 5,
+    "group": "Whole class",
+    "materials": "Quiet music (optional)"
+   },
+   {
+    "title": "Growing chart",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "A long paper strip"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Grow a bean",
+    "text": "Put a damp paper towel inside a clear cup and slide a bean between the towel and the cup so you can see it. Keep it damp. Check every day and draw what you see: the root …"
+   },
+   {
+    "title": "Be the seed",
+    "text": "Be the seed, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), bean seeds, clear cups, paper towels or soil, a watering can, a measuring strip"
+ },
+ "eight-times-up": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "climb",
+    "means": "to go up using your hands and feet",
+    "do": "move your hands up like a ladder"
+   },
+   {
+    "word": "slip",
+    "means": "to slide and lose your balance",
+    "do": "slide one hand off the other"
+   },
+   {
+    "word": "practise",
+    "means": "to do something again and again to get better",
+    "do": "tap your fist three times"
+   },
+   {
+    "word": "rest",
+    "means": "to stop and be still for a while",
+    "do": "lay your head on your hands"
+   },
+   {
+    "word": "sunrise",
+    "means": "when the sun comes up in the morning",
+    "do": "raise one hand slowly like the sun"
+   }
+  ],
+  "activity": {
+   "title": "Make a roly-poly",
+   "need": "Half a plastic egg or a paper cup, play dough or a coin, paper and crayons",
+   "text": "Put a little weight in the round bottom and decorate it. Tip it over and watch it pop back up. Say ‘Wobble, wobble… POP!’ together."
+  },
+  "classActivities": [
+   {
+    "title": "Make a roly-poly",
+    "minutes": 20,
+    "group": "Individual",
+    "materials": "Half a plastic egg or a paper cup, play dough or a coin, paper and crayons"
+   },
+   {
+    "title": "What did the fall teach me?",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "Chart paper"
+   },
+   {
+    "title": "Cloud Rock climb",
+    "minutes": 15,
+    "group": "Small groups",
+    "materials": "Cushions, a low bench, a soft mat"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Make a roly-poly",
+    "text": "Put a little weight in the round bottom and decorate it. Tip it over and watch it pop back up. Say ‘Wobble, wobble… POP!’ together."
+   },
+   {
+    "title": "What did the fall teach me?",
+    "text": "What did the fall teach me?, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a roly-poly toy or a ball of clay with a weight in the bottom, cushions, a chart for counting"
+ },
+ "finn-and-coral": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "promise",
+    "means": "when you say you will really do something",
+    "do": "hook your little fingers together"
+   },
+   {
+    "word": "trust",
+    "means": "believing someone will do what they say",
+    "do": "put your hand on your heart, then reach out"
+   },
+   {
+    "word": "reef",
+    "means": "a colourful place in the sea where lots of fish live",
+    "do": "wiggle your fingers like coral"
+   },
+   {
+    "word": "current",
+    "means": "water in the sea that moves and pushes",
+    "do": "sweep your arm sideways"
+   },
+   {
+    "word": "alone",
+    "means": "with nobody else",
+    "do": "hold up one finger"
+   }
+  ],
+  "activity": {
+   "title": "Promise shells",
+   "need": "Paper shells, crayons, a basket",
+   "text": "Each child draws or writes a small promise they can keep this week (‘I will help tidy up’). Put the shells in a basket. At the end of the week, children take theirs out and share how they kept it."
+  },
+  "classActivities": [
+   {
+    "title": "Promise shells",
+    "minutes": 15,
+    "group": "Individual",
+    "materials": "Paper shells, crayons, a basket"
+   },
+   {
+    "title": "Stick with me",
+    "minutes": 10,
+    "group": "Pairs",
+    "materials": "A blue cloth or open space"
+   },
+   {
+    "title": "If I get lost",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "None"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Promise shells",
+    "text": "Each child draws or writes a small promise they can keep this week (‘I will help tidy up’). Put the shells in a basket. At the end of the week, children take theirs out a…"
+   },
+   {
+    "title": "Stick with me",
+    "text": "Stick with me, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a blue cloth for the sea, paper shells, a basket, a scarf for a blindfold game (optional)"
+ },
+ "friendship-bridge": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "bridge",
+    "means": "something you build to cross over water or a gap",
+    "do": "make an arch with your arm"
+   },
+   {
+    "word": "log",
+    "means": "a big, heavy piece of a tree trunk",
+    "do": "hold your arms out wide and heavy"
+   },
+   {
+    "word": "branch",
+    "means": "a thin, bendy part of a tree",
+    "do": "wiggle one arm like a branch"
+   },
+   {
+    "word": "argue",
+    "means": "to disagree with cross words",
+    "do": "put your hands on your hips and shake your head"
+   },
+   {
+    "word": "together",
+    "means": "with each other",
+    "do": "lace your fingers together"
+   }
+  ],
+  "activity": {
+   "title": "Build a bridge together",
+   "need": "Craft sticks, string or rubber bands, two books with a gap between",
+   "text": "Each partner tries building a bridge across the gap alone: one with only sticks, one with only string. Then build one together using both. Test it with a toy figure. Talk about what worked."
+  },
+  "classActivities": [
+   {
+    "title": "Build a bridge together",
+    "minutes": 20,
+    "group": "Pairs",
+    "materials": "Craft sticks, string or rubber bands, two books with a gap between"
+   },
+   {
+    "title": "Good idea spotting",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "Chart paper"
+   },
+   {
+    "title": "Float or sink",
+    "minutes": 10,
+    "group": "Small groups",
+    "materials": "A tray of water, twigs, small pieces of wood"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Build a bridge together",
+    "text": "Each partner tries building a bridge across the gap alone: one with only sticks, one with only string. Then build one together using both. Test it with a toy figure. Talk…"
+   },
+   {
+    "title": "Good idea spotting",
+    "text": "Good idea spotting, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), craft sticks or twigs, rubber bands or string, a tray of water, small toy figures"
+ },
+ "knot-by-knot": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "weave",
+    "means": "to cross strips over and under to make something",
+    "do": "wiggle one hand through the fingers of the other"
+   },
+   {
+    "word": "knot",
+    "means": "a tight twist that holds string or grass together",
+    "do": "make two fists and pull them apart"
+   },
+   {
+    "word": "sag",
+    "means": "to droop down in the middle",
+    "do": "let your arms flop down"
+   },
+   {
+    "word": "crooked",
+    "means": "not straight, a bit bent",
+    "do": "bend your finger sideways"
+   },
+   {
+    "word": "finish",
+    "means": "to get to the very end",
+    "do": "brush your hands together: done!"
+   }
+  ],
+  "activity": {
+   "title": "Paper weaving",
+   "need": "Card with slits, paper strips",
+   "text": "Children weave strips over and under, saying ‘loop, pull, tug’ as they go. Stop together after ten minutes and ask: Is it strong? Is it finished? Then finish it. Display the mats ‘crooked bits and all’."
+  },
+  "classActivities": [
+   {
+    "title": "Paper weaving",
+    "minutes": 20,
+    "group": "Individual",
+    "materials": "Card with slits, paper strips"
+   },
+   {
+    "title": "Done or done well?",
+    "minutes": 10,
+    "group": "Small groups",
+    "materials": "Blocks, a sand timer"
+   },
+   {
+    "title": "Grip, test, step",
+    "minutes": 5,
+    "group": "Whole class",
+    "materials": "A tape line on the floor"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Paper weaving",
+    "text": "Children weave strips over and under, saying ‘loop, pull, tug’ as they go. Stop together after ten minutes and ask: Is it strong? Is it finished? Then finish it. Display …"
+   },
+   {
+    "title": "Done or done well?",
+    "text": "Done or done well?, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), strips of paper or ribbon, a paper plate or card with slits, a sand timer"
+ },
+ "pip-the-brave-parrot": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "brave",
+    "means": "doing something even when you feel scared",
+    "do": "stand tall and put your hands on your hips"
+   },
+   {
+    "word": "quiet",
+    "means": "making very little sound",
+    "do": "put a finger to your lips"
+   },
+   {
+    "word": "voice",
+    "means": "the sound you make when you talk or sing",
+    "do": "touch your throat"
+   },
+   {
+    "word": "wobble",
+    "means": "to shake a little",
+    "do": "wobble your hand"
+   },
+   {
+    "word": "nest",
+    "means": "a home that birds build for their babies",
+    "do": "cup your hands into a bowl"
+   }
+  ],
+  "activity": {
+   "title": "My voice picture",
+   "need": "Paper, crayons",
+   "text": "Children draw a time they used their voice to help or to say something important, and tell a partner about it."
+  },
+  "classActivities": [
+   {
+    "title": "Call for help",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "A soft toy bird"
+   },
+   {
+    "title": "Pass Pip’s song",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "Shakers or clapping"
+   },
+   {
+    "title": "My voice picture",
+    "minutes": 15,
+    "group": "Individual",
+    "materials": "Paper, crayons"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Call for help",
+    "text": "Hide the toy bird somewhere ‘fallen’. The child who finds it practises a strong, clear call: ‘I need help!’ Talk about who the grown-ups are that children can call in rea…"
+   },
+   {
+    "title": "Pass Pip’s song",
+    "text": "Pass Pip’s song, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a soft toy bird, a small basket for a nest, simple instruments or shakers"
+ },
+ "rainy-day-shiny-things": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "grumpy",
+    "means": "in a bad mood, cross",
+    "do": "fold your arms and frown"
+   },
+   {
+    "word": "shiny",
+    "means": "bright and sparkly in the light",
+    "do": "flick your fingers open like sparkles"
+   },
+   {
+    "word": "notice",
+    "means": "to see something you didn’t see before",
+    "do": "point to your eyes"
+   },
+   {
+    "word": "thankful",
+    "means": "happy about something good you have",
+    "do": "hands on your heart"
+   },
+   {
+    "word": "soothing",
+    "means": "calming and gentle",
+    "do": "stroke your arm slowly"
+   }
+  ],
+  "activity": {
+   "title": "Thank-you without words",
+   "need": "None",
+   "text": "Like the cats, find ways to say thank you without words: a smile, a high five, a helping hand, a drawing. Partners take turns guessing what the ‘thank you’ is for."
+  },
+  "classActivities": [
+   {
+    "title": "Thank-you without words",
+    "minutes": 10,
+    "group": "Pairs",
+    "materials": "None"
+   },
+   {
+    "title": "Rainy day treasure hunt",
+    "minutes": 15,
+    "group": "Small groups",
+    "materials": "A list with pictures"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Shiny things jar",
+    "text": "At the end of each day, children name one ‘shiny thing’ that happened. Add a shiny piece to the jar for each one. On a grey day, look at how full the jar has become."
+   },
+   {
+    "title": "Thank-you without words",
+    "text": "Thank-you without words, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a small jar, paper ‘shiny things’ (foil or yellow paper), a rain stick or a cup of rice in a bottle"
+ },
+ "secret-hero": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "secret",
+    "means": "something only you know",
+    "do": "put a finger to your lips"
+   },
+   {
+    "word": "shy",
+    "means": "a bit nervous around others",
+    "do": "peek through your fingers"
+   },
+   {
+    "word": "fix",
+    "means": "to make something work again",
+    "do": "pretend to tap with a little hammer"
+   },
+   {
+    "word": "hero",
+    "means": "someone who helps others",
+    "do": "stand tall with hands on hips"
+   },
+   {
+    "word": "kindness",
+    "means": "being gentle and helpful to others",
+    "do": "make a heart with your hands"
+   }
+  ],
+  "activity": {
+   "title": "Who did this?",
+   "need": "A small surprise (a drawing, tidied blocks)",
+   "text": "Before children arrive, the teacher does a small kind ‘secret’ act. Children notice it and ask, ‘Who did this?’ Talk about how it felt to find the surprise."
+  },
+  "classActivities": [
+   {
+    "title": "Who did this?",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "A small surprise (a drawing, tidied blocks)"
+   },
+   {
+    "title": "Kindness chain",
+    "minutes": 15,
+    "group": "Whole class",
+    "materials": "Paper strips, glue"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Secret heroes week",
+    "text": "Each child does one quiet kind thing each day (with a grown-up nearby): tidying a shelf, putting a classmate’s coat on its hook. When someone notices a kindness, they dro…"
+   },
+   {
+    "title": "Who did this?",
+    "text": "Who did this?, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), small paper hearts, a ‘secret hero’ box, a toy egg and nest (optional)"
+ },
+ "the-beetle-who-knew-the-stars": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "ask",
+    "means": "to say a question so you can find out",
+    "do": "lift one hand, palm up"
+   },
+   {
+    "word": "dune",
+    "means": "a big hill of sand",
+    "do": "draw a wave in the air"
+   },
+   {
+    "word": "crest",
+    "means": "the feathers on top of a bird’s head",
+    "do": "spread your fingers on top of your head"
+   },
+   {
+    "word": "shortcut",
+    "means": "a quicker way to get somewhere",
+    "do": "zip your finger in a straight line"
+   },
+   {
+    "word": "guide",
+    "means": "to show someone the way",
+    "do": "point ahead and walk two fingers"
+   }
+  ],
+  "activity": {
+   "title": "Ask first circle",
+   "need": "None",
+   "text": "Partners take turns asking each other one question (‘What do you like to play?’) and listening to the whole answer before talking. Then each child tells the class one new thing they learned about their partner."
+  },
+  "classActivities": [
+   {
+    "title": "Ask first circle",
+    "minutes": 10,
+    "group": "Pairs",
+    "materials": "None"
+   },
+   {
+    "title": "Roll backwards like Sabu",
+    "minutes": 10,
+    "group": "Small groups",
+    "materials": "A soft ball, a tape path"
+   },
+   {
+    "title": "River of stars",
+    "minutes": 15,
+    "group": "Whole class",
+    "materials": "Dark paper, white chalk or star stickers"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Ask first circle",
+    "text": "Partners take turns asking each other one question (‘What do you like to play?’) and listening to the whole answer before talking. Then each child tells the class one new…"
+   },
+   {
+    "title": "Roll backwards like Sabu",
+    "text": "Roll backwards like Sabu, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a small ball, a dark blanket or a box with holes for stars, sticky notes"
+ },
+ "the-circle-of-paws": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "help",
+    "means": "to do something that makes a job easier for someone",
+    "do": "hold out both hands"
+   },
+   {
+    "word": "burrow",
+    "means": "a hole in the ground where an animal lives",
+    "do": "cup your hands like a little cave"
+   },
+   {
+    "word": "hail",
+    "means": "little balls of ice that fall from the sky",
+    "do": "tap your fingertips on the table"
+   },
+   {
+    "word": "circle",
+    "means": "a round shape that goes all the way around",
+    "do": "draw a big circle in the air"
+   },
+   {
+    "word": "give",
+    "means": "to offer something to someone",
+    "do": "push your open hands forward"
+   }
+  ],
+  "activity": {
+   "title": "Catch game",
+   "need": "A soft ball",
+   "text": "Play catch, then try a ‘Killa round’ where one partner only throws and never catches. Ask: Was that fun? What did the other person feel?"
+  },
+  "classActivities": [
+   {
+    "title": "Yarn circle",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "A ball of yarn"
+   },
+   {
+    "title": "Catch game",
+    "minutes": 5,
+    "group": "Pairs",
+    "materials": "A soft ball"
+   },
+   {
+    "title": "Build a burrow together",
+    "minutes": 15,
+    "group": "Small groups",
+    "materials": "Blocks or stones"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Yarn circle",
+    "text": "Sit in a circle. Hold the end, say one way you can help someone (‘I can carry the books’), and roll the yarn to a friend. Keep going until the circle is a web. Notice how…"
+   },
+   {
+    "title": "Catch game",
+    "text": "Catch game, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a soft ball, a ball of yarn, small blocks or stones"
+ },
+ "the-desert-buzz": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "angry",
+    "means": "a hot, big feeling when something seems unfair",
+    "do": "make fists and scrunch your face"
+   },
+   {
+    "word": "accident",
+    "means": "something that happens by mistake, not on purpose",
+    "do": "shrug with open hands"
+   },
+   {
+    "word": "stomp",
+    "means": "to walk hard and loud with your feet",
+    "do": "stomp twice"
+   },
+   {
+    "word": "breath",
+    "means": "the air you take in and let out",
+    "do": "breathe in slowly, then out"
+   },
+   {
+    "word": "calm",
+    "means": "quiet and still inside",
+    "do": "press your hands down gently"
+   }
+  ],
+  "activity": {
+   "title": "The tower falls",
+   "need": "Sand tray or blocks",
+   "text": "Build a tower. A grown-up gently knocks it down ‘by accident’. Children practise: stop, breathe, say how they feel (‘I feel angry because…’), then rebuild it together."
+  },
+  "classActivities": [
+   {
+    "title": "The tower falls",
+    "minutes": 15,
+    "group": "Small groups",
+    "materials": "Sand tray or blocks"
+   },
+   {
+    "title": "Anger thermometer",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "A big drawing of a thermometer"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Desert breath",
+    "text": "Hold a feather in front of your mouth. Breathe in slowly, then breathe out so gently the feather only wiggles. Do it three times. Use it whenever someone needs to cool do…"
+   },
+   {
+    "title": "The tower falls",
+    "text": "The tower falls, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a tray of sand or blocks, a feather or a paper fan, a feelings thermometer drawing"
+ },
+ "the-fox-mistake": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "pebble",
+    "means": "a small, smooth stone",
+    "do": "pinch a tiny pebble between your fingers"
+   },
+   {
+    "word": "den",
+    "means": "a fox’s home, often a hole in the ground",
+    "do": "cup your hands like a little cave"
+   },
+   {
+    "word": "blame",
+    "means": "to say someone did something wrong",
+    "do": "point a finger"
+   },
+   {
+    "word": "ashamed",
+    "means": "feeling bad about something you did",
+    "do": "cover your face with your hands"
+   },
+   {
+    "word": "forgive",
+    "means": "to stop being cross with someone after they say sorry",
+    "do": "open your arms for a hug"
+   }
+  ],
+  "activity": {
+   "title": "Detective foxes",
+   "need": "A ‘lost’ object hidden in the room",
+   "text": "Something has gone missing! Before anyone blames anyone, the group looks for clues: Where did we last see it? Could it have rolled or fallen? Talk about why it’s important to check before we blame."
+  },
+  "classActivities": [
+   {
+    "title": "Detective foxes",
+    "minutes": 10,
+    "group": "Small groups",
+    "materials": "A ‘lost’ object hidden in the room"
+   },
+   {
+    "title": "The sorry steps",
+    "minutes": 10,
+    "group": "Pairs",
+    "materials": "None"
+   },
+   {
+    "title": "Floating and sinking pebbles",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "A bowl of water, a pebble, other small objects"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Detective foxes",
+    "text": "Something has gone missing! Before anyone blames anyone, the group looks for clues: Where did we last see it? Could it have rolled or fallen? Talk about why it’s importan…"
+   },
+   {
+    "title": "The sorry steps",
+    "text": "The sorry steps, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a shiny pebble or a piece of foil, a box for a ‘den’, a bowl of water"
+ },
+ "the-honest-little-raccoon": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "truth",
+    "means": "what really happened",
+    "do": "put your hand flat on your heart"
+   },
+   {
+    "word": "blame",
+    "means": "saying who did something wrong",
+    "do": "point a finger, then drop it"
+   },
+   {
+    "word": "admit",
+    "means": "to say ‘I did it’",
+    "do": "point to yourself"
+   },
+   {
+    "word": "sorry",
+    "means": "a word that shows you feel bad about what you did",
+    "do": "rub a circle on your chest"
+   },
+   {
+    "word": "free",
+    "means": "light, not stuck or trapped",
+    "do": "fling your arms open"
+   }
+  ],
+  "activity": {
+   "title": "The bakery choice",
+   "need": "A toy tray, play-dough rolls",
+   "text": "Act out the bakery scene. Stop at the moment the baker asks ‘Who made this mess?’ Let children try two endings: hiding, and owning up. Talk about how each ending felt."
+  },
+  "classActivities": [
+   {
+    "title": "The bakery choice",
+    "minutes": 10,
+    "group": "Small groups",
+    "materials": "A toy tray, play-dough rolls"
+   },
+   {
+    "title": "Light and heavy",
+    "minutes": 5,
+    "group": "Whole class",
+    "materials": "None"
+   },
+   {
+    "title": "Doors that truth opens",
+    "minutes": 15,
+    "group": "Whole class",
+    "materials": "A big paper door, sticky notes"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "The bakery choice",
+    "text": "Act out the bakery scene. Stop at the moment the baker asks ‘Who made this mess?’ Let children try two endings: hiding, and owning up. Talk about how each ending felt."
+   },
+   {
+    "title": "Light and heavy",
+    "text": "Light and heavy, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a toy tray and play-dough rolls, a paper door, sticky notes"
+ },
+ "the-light-that-grows": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "glow",
+    "means": "a soft, warm light",
+    "do": "open and close your hands like a little light"
+   },
+   {
+    "word": "firefly",
+    "means": "a small beetle that makes its own light",
+    "do": "flutter your fingers and blink your hands"
+   },
+   {
+    "word": "fade",
+    "means": "to slowly get dimmer and dimmer",
+    "do": "close your hands slowly"
+   },
+   {
+    "word": "hide",
+    "means": "to put something where no one can see it",
+    "do": "cover your hands"
+   },
+   {
+    "word": "share",
+    "means": "to give some to someone else",
+    "do": "move your hands from your chest to a friend"
+   }
+  ],
+  "activity": {
+   "title": "Kindness meadow",
+   "need": "Yellow paper circles, a dark paper meadow",
+   "text": "Each child draws a kind act on a yellow glow and sticks it on the meadow. Add more glows all week as children notice kindness. Watch the meadow fill up."
+  },
+  "classActivities": [
+   {
+    "title": "Pass the light",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "Paper fireflies, a dim room"
+   },
+   {
+    "title": "Light and dark",
+    "minutes": 10,
+    "group": "Small groups",
+    "materials": "A flashlight, a blanket"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Pass the light",
+    "text": "Sit in a circle. One child holds a paper ‘glow’ and says one kind thing to the next child, then gives them a new glow from the basket. Keep going until everyone is holdin…"
+   },
+   {
+    "title": "Kindness meadow",
+    "text": "Kindness meadow, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a flashlight or battery tea-lights, yellow paper, a dark corner or blanket"
+ },
+ "the-littlest-guardian": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "path",
+    "means": "a little track you walk along",
+    "do": "walk two fingers across your arm"
+   },
+   {
+    "word": "storm",
+    "means": "strong wind and rain",
+    "do": "wave your arms like wind"
+   },
+   {
+    "word": "driftwood",
+    "means": "wood the sea brings onto the beach",
+    "do": "hold your arms out like a log"
+   },
+   {
+    "word": "colony",
+    "means": "a big group of animals that live together",
+    "do": "wave your arms to show lots of friends"
+   },
+   {
+    "word": "look",
+    "means": "after to take care of something",
+    "do": "hug your arms around something"
+   }
+  ],
+  "activity": {
+   "title": "Glowing shell edges",
+   "need": "White paper, scissors, a dark display board",
+   "text": "Cut and decorate white shells. Line the edges of a paper path on the board so ‘everyone can find their way home’."
+  },
+  "classActivities": [
+   {
+    "title": "Our classroom path",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "A tape path, soft paper ‘sticks’ and ‘seaweed’"
+   },
+   {
+    "title": "Glowing shell edges",
+    "minutes": 15,
+    "group": "Individual",
+    "materials": "White paper, scissors, a dark display board"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Our classroom path",
+    "text": "Scatter soft paper pieces on a tape path. Each child picks up one piece at a time, saying ‘start little’, until the path is clear. Then waddle along it saying ‘pitter-pat…"
+   },
+   {
+    "title": "Glowing shell edges",
+    "text": "Glowing shell edges, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), small sticks or paper strips, white paper shells, a tape path on the floor"
+ },
+ "the-old-path-song": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "path",
+    "means": "a little track you walk along",
+    "do": "walk two fingers across your arm"
+   },
+   {
+    "word": "landmark",
+    "means": "something you can see that helps you find your way, like a big rock or a tree",
+    "do": "point far away"
+   },
+   {
+    "word": "dusty",
+    "means": "full of tiny bits of dry dirt in the air",
+    "do": "wave a hand in front of your face"
+   },
+   {
+    "word": "fetch",
+    "means": "to go and get something and bring it back",
+    "do": "reach out and pull back to your chest"
+   },
+   {
+    "word": "beat",
+    "means": "a steady sound you can follow, like a drum",
+    "do": "tap ka-tum on your knee"
+   }
+  ],
+  "activity": {
+   "title": "Ask an elder",
+   "need": "The family note",
+   "text": "Children ask a grandparent or an older person at home for a song, game or saying from when they were little. Share them at circle time and make a class book of ‘old things we still need’."
+  },
+  "classActivities": [
+   {
+    "title": "Song-map walk",
+    "minutes": 15,
+    "group": "Whole class",
+    "materials": "Three stones, a chair for the palm, a mat for the stream"
+   },
+   {
+    "title": "Follow the beat",
+    "minutes": 5,
+    "group": "Whole class",
+    "materials": "A drum or a box"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Song-map walk",
+    "text": "Set out three landmarks in the room or the yard. Sing a short song-map together (‘three round stones, then the big chair…’) and walk it in a line, tapping ka-tum as you g…"
+   },
+   {
+    "title": "Follow the beat",
+    "text": "Follow the beat, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a drum or a box to tap, three stones, chart paper, crayons"
+ },
+ "the-pebbles-inside": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "pebble",
+    "means": "a small, smooth stone",
+    "do": "pinch a tiny pebble between your fingers"
+   },
+   {
+    "word": "heavy",
+    "means": "hard to lift or carry",
+    "do": "pretend to lift something with both arms"
+   },
+   {
+    "word": "feeling",
+    "means": "what happens in your heart, like happy, sad or scared",
+    "do": "put your hand on your heart"
+   },
+   {
+    "word": "share",
+    "means": "to give some to someone else, or tell them",
+    "do": "move your hands from your chest to a friend"
+   },
+   {
+    "word": "listen",
+    "means": "to pay attention to what someone says",
+    "do": "cup your hand behind your ear"
+   }
+  ],
+  "activity": {
+   "title": "The heavy backpack",
+   "need": "A small backpack, soft objects",
+   "text": "A volunteer wears the backpack. Each time the class names a feeling someone might hide, add one soft object. Ask: Is it getting heavy? Then take them out one by one as the class names who you could tell."
+  },
+  "classActivities": [
+   {
+    "title": "The heavy backpack",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "A small backpack, soft objects"
+   },
+   {
+    "title": "Listener practice",
+    "minutes": 10,
+    "group": "Pairs",
+    "materials": "None"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "The heavy backpack",
+    "text": "A volunteer wears the backpack. Each time the class names a feeling someone might hide, add one soft object. Ask: Is it getting heavy? Then take them out one by one as th…"
+   },
+   {
+    "title": "Pebble path",
+    "text": "Pebble path, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), paper pebbles in many colours (or large smooth stones for children over 3, with a grown-up), a small backpack, crayons"
+ },
+ "the-snug": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "snug",
+    "means": "warm, cosy and comfortable",
+    "do": "hug yourself and smile"
+   },
+   {
+    "word": "shy",
+    "means": "a bit scared to talk or join in",
+    "do": "hide behind your hands"
+   },
+   {
+    "word": "meadow",
+    "means": "a big field of grass and flowers",
+    "do": "sweep your hand flat and wide"
+   },
+   {
+    "word": "vine",
+    "means": "a long, bendy plant that climbs",
+    "do": "wiggle your arm upward"
+   },
+   {
+    "word": "welcome",
+    "means": "happy to have someone come in",
+    "do": "open your arms wide"
+   }
+  ],
+  "activity": {
+   "title": "Acorn lanterns",
+   "need": "Paper, crayons, string",
+   "text": "Make a small paper lantern and write or draw one way you can make room for someone new. Hang them by the class door."
+  },
+  "classActivities": [
+   {
+    "title": "Build a class Snug",
+    "minutes": 20,
+    "group": "Whole class",
+    "materials": "A big sheet, chairs, string, clothes pegs"
+   },
+   {
+    "title": "Who’s at the edge?",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "None"
+   },
+   {
+    "title": "Acorn lanterns",
+    "minutes": 15,
+    "group": "Individual",
+    "materials": "Paper, crayons, string"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Build a class Snug",
+    "text": "Build a hut together over chairs, using pegs as ‘quills’. Everyone has a job: scoop (make the floor), loop (tie the string), snug (make it cosy). Make a sign for the door…"
+   },
+   {
+    "title": "Who’s at the edge?",
+    "text": "Who’s at the edge?, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a big blanket or sheet, string or ribbon, clothes pegs, paper lanterns"
+ },
+ "the-spring-that-wanted-to-stay": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "spring",
+    "means": "a place where water bubbles up out of the ground",
+    "do": "wiggle your fingers upward like bubbles"
+   },
+   {
+    "word": "pond",
+    "means": "a small pool of still water",
+    "do": "make a round shape with your arms"
+   },
+   {
+    "word": "flow",
+    "means": "to move along like water in a stream",
+    "do": "wave your hand forward"
+   },
+   {
+    "word": "still",
+    "means": "not moving at all",
+    "do": "freeze like a statue"
+   },
+   {
+    "word": "valley",
+    "means": "low land between hills or mountains",
+    "do": "make a V shape with your arms"
+   }
+  ],
+  "activity": {
+   "title": "Stuck pond, flowing stream",
+   "need": "A tray, stones, a watering can, leaves",
+   "text": "Build a stream on a tilted tray and pour water. Then block it with stones and pour again. Add leaves to the still water. Talk about which water stays fresh."
+  },
+  "classActivities": [
+   {
+    "title": "Stuck pond, flowing stream",
+    "minutes": 10,
+    "group": "Small groups",
+    "materials": "A tray, stones, a watering can, leaves"
+   },
+   {
+    "title": "Share and pass on",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "A cup of water and small cups"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "The water cycle in a bag",
+    "text": "Draw a sun, a cloud and a mountain on the bag. Pour in a little water, seal it and tape it to a sunny window. Over the next days, watch drops form at the top and ‘rain’ d…"
+   },
+   {
+    "title": "Stuck pond, flowing stream",
+    "text": "Stuck pond, flowing stream, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a clear jar of water, a tray, small stones, a watering can, a cup of ice"
+ },
+ "the-view-from-down-low": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "tall",
+    "means": "very high from top to bottom",
+    "do": "stretch your hand up high"
+   },
+   {
+    "word": "bend",
+    "means": "to lean your body down",
+    "do": "bend over and touch your knees"
+   },
+   {
+    "word": "notice",
+    "means": "to see or feel something you didn’t see before",
+    "do": "point to your eyes"
+   },
+   {
+    "word": "listen",
+    "means": "to pay attention to what someone says",
+    "do": "cup your hand behind your ear"
+   },
+   {
+    "word": "view",
+    "means": "what you can see from where you are",
+    "do": "make binoculars with your hands"
+   }
+  ],
+  "activity": {
+   "title": "Two views drawing",
+   "need": "Paper folded in half, crayons",
+   "text": "On one half, draw what Langa sees from up high. On the other half, draw what Themba sees down low. Share with a partner."
+  },
+  "classActivities": [
+   {
+    "title": "Down-low walk",
+    "minutes": 10,
+    "group": "Whole class",
+    "materials": "None"
+   },
+   {
+    "title": "Two views drawing",
+    "minutes": 15,
+    "group": "Pairs",
+    "materials": "Paper folded in half, crayons"
+   },
+   {
+    "title": "We see you",
+    "minutes": 5,
+    "group": "Whole class",
+    "materials": "None"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Down-low walk",
+    "text": "Crawl around the classroom at meerkat height. What can you see? What can’t you reach? Then stand on a step stool (with a grown-up) and look down. Talk about how the room …"
+   },
+   {
+    "title": "Two views drawing",
+    "text": "Two views drawing, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), a step stool or chair, a tape measure, paper and crayons"
+ },
+ "tumble-and-the-honey-glow": {
+  "homePages": 12,
+  "classroomPages": 16,
+  "words": [
+   {
+    "word": "tumble",
+    "means": "to roll and fall over and over, like Tumble down a hill",
+    "do": "roll your hands over each other"
+   },
+   {
+    "word": "tickle",
+    "means": "a little scratchy, itchy feeling",
+    "do": "touch your throat gently"
+   },
+   {
+    "word": "sniffly",
+    "means": "when your nose is runny and you keep sniffing",
+    "do": "a pretend sniff"
+   },
+   {
+    "word": "den",
+    "means": "a bear's cozy, safe home",
+    "do": "make a roof with your arms"
+   },
+   {
+    "word": "rest",
+    "means": "to be still and quiet so your body can feel better",
+    "do": "hands together under your cheek"
+   }
+  ],
+  "activity": {
+   "title": "My cozy den",
+   "need": "Paper, crayons",
+   "text": "Each child draws the cozy den they would rest in when they feel unwell, and the three things inside it that help them (soup, a toy, a person). Write their words under the picture."
+  },
+  "classActivities": [
+   {
+    "title": "Warm, slow, honey-glow",
+    "minutes": 5,
+    "group": "Whole class",
+    "materials": "A soft scarf or blanket"
+   },
+   {
+    "title": "My cozy den",
+    "minutes": 20,
+    "group": "Small groups",
+    "materials": "Paper, crayons"
+   },
+   {
+    "title": "Elbow power",
+    "minutes": 5,
+    "group": "Whole class",
+    "materials": "None"
+   }
+  ],
+  "week": [
+   {
+    "title": "Read and learn the words",
+    "text": "Read the story with the pause points. Teach the five words with gestures. Put up the poster and word cards."
+   },
+   {
+    "title": "Feelings",
+    "text": "Feelings check-in. Re-read the book and talk about how the characters felt, using the talk questions."
+   },
+   {
+    "title": "Retell",
+    "text": "Mix up the sequencing cards and put the story back in order as a class. Retell with “First… Then… At the end…”."
+   },
+   {
+    "title": "Body check-in",
+    "text": "Sit in a circle, eyes closed. Ask together: 'What does my body need right now?' Each child answers with one word or a gesture (water, move, rest, hug, snack). U…"
+   },
+   {
+    "title": "Warm, slow, honey-glow",
+    "text": "Warm, slow, honey-glow, then promise cards and exit tickets. Send the family letter home."
+   }
+  ],
+  "materials": "The book (or the class screen), chart paper, a soft blanket or scarf, crayons"
+ }
+}

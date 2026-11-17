@@ -1,0 +1,16 @@
+<table class="dtable">
+  <thead><tr><th scope="col">#</th><th scope="col"><%= t('libs.colTitle') %></th><th scope="col"><%= t('libs.colValue') %></th><th scope="col"><%= t('libs.colLangs') %></th><th scope="col"><%= t('libs.colIsbn') %></th><th scope="col"><%= t('rights.pagesTrim') %></th><th scope="col"><%= t('libs.colStatus') %></th></tr></thead>
+  <tbody>
+    <% rows.forEach(function (r) { %>
+    <tr>
+      <td data-label="#"><%= r.n %></td>
+      <th scope="row"><a href="<%= url('/books/' + r.slug) %>"><%= r.title %></a></th>
+      <td data-label="<%= t('libs.colValue') %>"><%= r.value %><% if (r.culture) { %>, <%= r.culture %><% } %></td>
+      <td data-label="<%= t('libs.colLangs') %>"><%= r.languages.map(function (l) { return l.toUpperCase(); }).join(', ') %></td>
+      <td data-label="<%= t('libs.colIsbn') %>"><% if (r.paperback && r.paperback.isbn) { %><%= r.paperback.isbn %><% } else { %><%- include('pending', { k: 'isbn' }) %><% } %></td>
+      <td data-label="<%= t('rights.pagesTrim') %>"><% if (r.paperback && r.paperback.pages) { %><%= r.paperback.pages %><% } else { %><%- include('pending', { k: 'pages' }) %><% } %> <% if (r.paperback && r.paperback.trim) { %><%= r.paperback.trim %><% } %></td>
+      <td data-label="<%= t('libs.colStatus') %>"><%= t('libs.status.' + r.status) %></td>
+    </tr>
+    <% }) %>
+  </tbody>
+</table>

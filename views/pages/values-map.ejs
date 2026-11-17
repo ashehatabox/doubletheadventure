@@ -35,7 +35,7 @@
         <p class="cult-where"><%= b.cultureText %></p>
         <p class="cult-idea" <%- isFallback(b.cultureIdea) ? 'lang="en"' : '' %>><%= x.idea %></p>
         <a class="cult-book" href="<%= b.href %>">
-          <% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576"><% } %>
+          <% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="360" height="576"><% } %>
           <span><span class="tile-title"><%= b.displayTitle %></span><span class="tile-text"><%= b.valueText %></span></span>
         </a>
       </article>
@@ -55,7 +55,7 @@
     <div class="shared-grid">
       <% shared.forEach(function (x) { const b = x.book; %>
       <a class="shared-card" href="<%= b.href %>">
-        <% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576"><% } %>
+        <% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="360" height="576"><% } %>
         <span class="shared-value"><%= b.valueText %></span>
         <span class="shared-title"><%= b.displayTitle %></span>
         <% if (x.place) { %><span class="shared-place"><%= t('valuesMap.storyIn') %> <%= x.place %></span><% } %>
@@ -76,9 +76,9 @@
   <div class="fmap-body">
     <div class="fmap-view" data-fmap-view>
       <div class="fmap-stage" data-fmap-stage style="aspect-ratio:<%= mapPoints.aspect %>">
-        <img class="vmap-world" src="/images/map/world-zoom.svg" alt="" width="1000" height="444" draggable="false">
+        <img class="vmap-world" src="/images/map/world-zoom.svg" alt="<%= t('common.altMap') %>" width="1000" height="444" draggable="false">
         <% atlas.forEach(function (x, i) { %>
-        <button type="button" class="fpin fpin-<%= x.kind %>" style="left:<%= x.pt[0] %>%;top:<%= x.pt[1] %>%;--c:<%= x.book.color %>" data-i="<%= i %>" aria-label="<%= x.book.displayTitle %>"><span class="fpin-dot"><% if (x.book.cover) { %><img src="<%= x.book.coverSmall || x.book.cover %>" alt="" loading="lazy" width="360" height="576" draggable="false"><% } %></span></button>
+        <button type="button" class="fpin fpin-<%= x.kind %>" style="left:<%= x.pt[0] %>%;top:<%= x.pt[1] %>%;--c:<%= x.book.color %>" data-i="<%= i %>" aria-label="<%= x.book.displayTitle %>"><span class="fpin-dot"><% if (x.book.cover) { %><img src="<%= x.book.coverSmall || x.book.cover %>" alt="<%= t('common.coverOf') %> <%= x.book.displayTitle || bookTitle(x.book) %>" loading="lazy" width="360" height="576" draggable="false"><% } %></span></button>
         <% }) %>
       </div>
       <div class="fmap-zoom">
@@ -95,7 +95,7 @@
       <template data-card="<%= i %>">
         <div class="stack-sm">
           <p class="cult-where"><%= x.kind === 'culture' ? b.cultureText : t('valuesMap.storyIn') + ' ' + x.place %></p>
-          <a class="cult-book" href="<%= b.href %>"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="" width="360" height="576"><% } %><span><span class="tile-title"><%= b.displayTitle %></span><span class="tile-text"><%= b.valueText %></span></span></a>
+          <a class="cult-book" href="<%= b.href %>"><% if (b.cover) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" width="360" height="576"><% } %><span><span class="tile-title"><%= b.displayTitle %></span><span class="tile-text"><%= b.valueText %></span></span></a>
           <% if (x.kind === 'culture' && x.idea) { %><p class="cult-idea" style="font-size:19px"><%= x.idea %></p><% } %>
           <div class="row"><a class="btn btn-primary" href="<%= b.href %>"><%= t('valuesMap.openBook') %></a><% if (x.guideHref) { %><a class="btn btn-ghost" href="<%= x.guideHref %>"><%= t('valuesMap.meetAnimals') %></a><% } %></div>
         </div>

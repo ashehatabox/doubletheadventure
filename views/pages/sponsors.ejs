@@ -1,0 +1,54 @@
+<%- include('../partials/top') %>
+<% const S = t('sponsorsPage'); %>
+<section class="section tight" aria-labelledby="sp-title">
+  <div class="wrap stack" style="gap:24px">
+    <p class="ph-back"><a href="<%= url('/partners') %>"><%= t('partners.title') %></a></p>
+    <div class="ph">
+      <h1 id="sp-title" class="h1"><%= S.title %></h1>
+      <p class="lead"><%= S.lead %></p>
+      <div class="row"><a class="btn btn-primary" href="#enquiry"><%= S.formTitle %></a><a class="btn btn-ghost" href="<%= url('/road-to-100') %>"><%= t('road.title') %></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="pk-title" style="padding-top:0">
+  <div class="wrap stack" style="gap:16px">
+    <h2 id="pk-title" class="h2"><%= S.packagesTitle %></h2>
+    <div class="table-wrap" tabindex="0" role="region" aria-labelledby="pk-title">
+      <table class="dtable">
+        <thead><tr><th scope="col"><%= S.colPackage %></th><th scope="col"><%= S.colGets %></th><th scope="col"><%= S.colPrice %></th></tr></thead>
+        <tbody><% S.packages.forEach(function (p, i) { %><tr><th scope="row"><%= p[0] %></th><td data-label="<%= S.colGets %>"><%= p[1] %></td><td data-label="<%= S.colPrice %>"><%- include('../partials/pending', { k: i === 4 ? 'percent' : 'price' }) %></td></tr><% }) %></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section tight band-sun" aria-labelledby="how-title">
+  <div class="wrap stack" style="gap:20px">
+    <h2 id="how-title" class="h2"><%= S.howTitle %></h2>
+    <ol class="steps4"><% S.how.forEach(function (x) { %><li><h3><%= x.title %></h3><p><%= x.text %></p></li><% }) %></ol>
+    <p style="margin:0"><%= S.delivery %> <%- include('../partials/pending', { k: 'date' }) %></p>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="rec-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="rec-title" class="h2"><%= S.recognitionTitle %></h2>
+      <p class="empty-state"><%= S.wallEmpty %></p>
+      <p class="muted" style="margin:0"><%= S.taxNote %> <%- include('../partials/pending', { k: 'confirm' }) %></p>
+    </div>
+    <div class="stack-sm">
+      <h2 class="h3"><%= S.proofTitle %></h2>
+      <p class="empty-state"><%- include('../partials/pending', { k: 'files' }) %></p>
+    </div>
+  </div>
+</section>
+
+<section class="section tight band-sky" aria-label="<%= S.formTitle %>">
+  <div class="wrap" style="max-width:760px">
+    <%- include('../partials/enquiry', { kind: 'sponsors', formTitle: S.formTitle }) %>
+    <p style="margin:16px 0 0"><a href="mailto:<%= site.email('hello') %>" style="font-weight:800"><%= site.email('hello') %></a></p>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

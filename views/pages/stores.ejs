@@ -1,0 +1,68 @@
+<%- include('../partials/top') %>
+<% const S = t('stores'); %>
+<section class="section tight" aria-labelledby="stores-title">
+  <div class="wrap stack" style="gap:24px">
+    <p class="ph-back"><a href="<%= url('/partners') %>"><%= t('partners.title') %></a></p>
+    <div class="ph">
+      <h1 id="stores-title" class="h1"><%= S.title %></h1>
+      <p class="lead"><%= S.lead %></p>
+      <div class="row">
+        <a class="btn btn-primary" href="<%= url('/partners/stores/sell-sheet') %>"><%= S.sellCta %></a>
+        <a class="btn btn-ghost" href="#terms"><%= S.termsTitle %></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="routes-title" style="padding-top:0">
+  <div class="wrap stack" style="gap:20px">
+    <h2 id="routes-title" class="h2"><%= S.routesTitle %></h2>
+    <div class="p-grid">
+      <% S.routes.forEach(function (r, i) { %>
+      <div class="p-card"><strong><%= r.title %></strong><span><%= r.text %></span>
+        <% if (i < 2) { %><span><%- include('../partials/pending', { k: 'link' }) %></span><% } else { %><span><a href="mailto:<%= site.email('orders') %>"><%= site.email('orders') %></a></span><% } %>
+      </div>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section tight band-sun" id="terms" aria-labelledby="terms-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="terms-title" class="h2"><%= S.termsTitle %></h2>
+      <p class="lead"><%= S.shelf %></p>
+    </div>
+    <table class="dtable">
+      <tbody><% S.terms.forEach(function (x) { %><tr><th scope="row"><%= x %></th><td><%- include('../partials/pending', { k: 'terms' }) %></td></tr><% }) %></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="kit-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="kit-title" class="h2"><%= S.sellTitle %></h2>
+      <p class="lead"><%= S.sellText %></p>
+      <p><a class="btn btn-dark" href="<%= url('/partners/stores/sell-sheet') %>"><%= S.sellCta %></a></p>
+    </div>
+    <div class="stack-sm">
+      <h2 class="h3"><%= S.kitTitle %></h2>
+      <ul class="clean">
+        <% S.kit.forEach(function (k) { %><li><strong><% if (k.href) { %><a href="<%= url(k.href) %>"><%= k.title %></a><% } else { %><%= k.title %><% } %></strong>: <% if (k.text) { %><%= k.text %><% } else { %><%- include('../partials/pending', { k: 'files' }) %><% } %></li><% }) %>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section tight band-sky" aria-labelledby="event-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="event-title" class="h2"><%= S.eventTitle %></h2>
+      <p class="lead"><%= S.eventText %></p>
+      <p><a href="mailto:<%= site.email('orders') %>" style="font-weight:800"><%= site.email('orders') %></a></p>
+    </div>
+    <%- include('../partials/enquiry', { kind: 'stores', formTitle: S.formTitle, orgLabel: S.orgLabel }) %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

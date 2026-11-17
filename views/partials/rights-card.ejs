@@ -1,0 +1,16 @@
+<% const R = t('rights'); const pubLangs = r.liveLanguages.map(function (l) { return langName(l); }); %>
+<article class="rc">
+  <% if (r.view.cover) { %><img src="<%= r.view.coverSmall || r.view.cover %>" alt="<%= t('common.coverOf') %> <%= r.title %>" width="360" height="576" loading="lazy"><% } else { %><span class="rc-ph" style="background:<%= r.view.color %>"></span><% } %>
+  <div class="stack-sm" style="gap:6px;min-width:0">
+    <h3><%= r.n %>. <%= r.title %></h3>
+    <p><% if (r.pitch) { %><%= r.pitch %><% } else { %><%- include('pending', { k: 'pitch' }) %><% } %></p>
+    <dl>
+      <dt><%= R.valueCulture %></dt><dd><%= r.value %><% if (r.culture) { %>, <%= r.culture %><% } %></dd>
+      <dt><%= R.agesL %></dt><dd><%= r.ages %></dd>
+      <dt><%= R.pagesTrim %></dt><dd><% const pg = r.paperback && r.paperback.pages, tr = r.paperback && r.paperback.trim; %><% if (pg || tr) { %><%= [pg ? pg + ' pp' : '', tr || ''].filter(Boolean).join(', ') %><% } %><% if (!pg) { %> <%- include('pending', { k: 'pages' }) %><% } %></dd>
+      <dt><%= R.published %></dt><dd><%= pubLangs.length ? pubLangs.join(', ') : R.notPublished %></dd>
+      <dt><%= R.salesAwards %></dt><dd><%- include('pending', { k: 'status' }) %></dd>
+    </dl>
+    <% if (typeof noLink === 'undefined' || !noLink) { %><a class="rc-link no-print" href="<%= url('/books/' + r.slug + '/rights') %>"><%= R.sheet %></a><% } %>
+  </div>
+</article>

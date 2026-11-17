@@ -1,0 +1,15 @@
+<%- include('../partials/top') %>
+<section class="section tight os-page">
+  <div class="wrap">
+    <div class="row no-print" style="gap:12px;margin-bottom:20px">
+      <a class="muted" href="<%= url('/educators/libraries') %>"><%= t('educatorPages.libraries.title') %></a>
+      <a class="muted" href="<%= url('/educators/libraries/titles.csv') %>" download><%= t('libs.csv') %></a>
+      <button class="btn btn-primary" type="button" data-print><%= t('oneSheet.print') %></button>
+    </div>
+    <h1 class="os-title">Double the Adventure: <%= t('libs.titlesTitle') %></h1>
+    <p class="os-lead"><%= t('oneSheet.lead') %> <%= t('oneSheet.age') %></p>
+    <div class="table-wrap"><%- include('../partials/title-table') %></div>
+    <p class="os-small"><%= t('libs.marcText') %> A² Publishing, <%= site.email('orders') %>, doubleadventure.ca</p>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

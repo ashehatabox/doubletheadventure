@@ -16,10 +16,23 @@
     <% if (content.note) { %><p class="muted" style="margin:0;max-width:760px"><%= content.note %></p><% } %>
   </div>
 </section>
+<% if (key === 'teachers' || key === 'early-years') { %>
+<section class="section tight" style="padding-top:0" aria-labelledby="lic-title">
+  <div class="wrap stack" style="gap:16px">
+    <div class="stack-sm" style="max-width:760px"><h2 id="lic-title" class="h2" style="font-size:32px"><%= t('licences.title') %></h2><p class="lead"><%= t('licences.lead') %></p></div>
+    <table class="dtable" style="max-width:760px"><tbody><% t('licences.items').forEach(function (x) { %><tr><th scope="row"><%= x %></th><td><%- include('../partials/pending', { k: 'price' }) %></td></tr><% }) %></tbody></table>
+    <p class="muted" style="margin:0;max-width:760px"><%= t('invoice.note') %> <%= t('libs.poText').replace(/[^.]*\.\s*/, '') %> <%- include('../partials/pending', { k: 'terms' }) %></p>
+  </div>
+</section>
+<% } %>
 <% if (content.showBooks && guideCovers.length) { %><%- include('../partials/educator-books') %><% } %>
 <section class="section tight" style="padding-top:0">
   <div class="wrap" style="max-width:760px">
+    <% if (invoiceFor) { %>
+    <%- include('../partials/enquiry', { kind: 'quote', topic: 'invoice', formTitle: t('invoice.formTitle') + (invoiceFor.trim() ? ': ' + invoiceFor : ''), messageLabel: t('invoice.messageLabel') }) %>
+    <% } else { %>
     <%- include('../partials/enquiry', { kind: content.formKind, formTitle: content.formTitle }) %>
+    <% } %>
   </div>
 </section>
 <%- include('../partials/bottom') %>

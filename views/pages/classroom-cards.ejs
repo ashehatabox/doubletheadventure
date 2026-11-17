@@ -16,7 +16,7 @@
     <ul class="qr-sheet">
       <% cards.forEach(function (b) { %>
       <li class="qr-card">
-        <img class="qr-cover" src="<%= b.coverSmall || b.cover %>" alt="" width="360" height="576">
+        <img class="qr-cover" src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" width="360" height="576">
         <div class="qr-body">
           <h2 class="qr-title"><%= b.displayTitle %></h2>
           <% if (b.valueText) { %><p class="qr-value"><%= b.valueText %></p><% } %>

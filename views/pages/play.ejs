@@ -37,7 +37,7 @@
     <div class="play-grid">
       <% coloringBooks.forEach(function (b) { %>
       <a class="play-pick" href="<%= url('/play/color/' + b.slug) %>">
-        <span class="play-pick-art play-pick-lineart"><img src="/images/play/<%= b.slug %>/p01.png" alt="" loading="lazy" width="867" height="1100"></span>
+        <span class="play-pick-art play-pick-lineart"><img src="/images/play/<%= b.slug %>/p01.png" alt="<%= t('common.altColoring') %>" loading="lazy" width="867" height="1100"></span>
         <span class="play-pick-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span>
         <span class="play-pick-meta"><%= b.pageCount %> <%= t('play.pagesCount') %></span>
       </a>
@@ -55,7 +55,7 @@
     <div class="play-grid">
       <% jigsawBooks.forEach(function (b) { %>
       <a class="play-pick" href="<%= url('/play/jigsaw/' + b.slug) %>">
-        <span class="play-pick-art"><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576"></span>
+        <span class="play-pick-art"><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="360" height="576"></span>
         <span class="play-pick-title" <%- b.titleIsFallback ? 'lang="en"' : '' %>><%= b.displayTitle %></span>
       </a>
       <% }) %>
@@ -75,7 +75,7 @@
       </div>
     </div>
     <div class="play-memory-art" aria-hidden="true">
-      <% jigsawBooks.slice(0, 3).forEach(function (b, i) { %><img src="<%= b.coverSmall || b.cover %>" alt="" loading="lazy" width="360" height="576" style="--r:<%= [-8, 3, 10][i] %>deg"><% }) %>
+      <% jigsawBooks.slice(0, 3).forEach(function (b, i) { %><img src="<%= b.coverSmall || b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="360" height="576" style="--r:<%= [-8, 3, 10][i] %>deg"><% }) %>
     </div>
   </div>
 </section>

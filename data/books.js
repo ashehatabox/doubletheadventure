@@ -179,6 +179,82 @@ const books = [
   }
 ];
 
+// ---------- Trade records: one per format and language (b.trade), the source for ISBNs and formats ----------
+// The library title list, sell sheet, rights catalogue and book-page trade panel read from here.
+// status: 'live' (on sale), 'draft' (files ready on KDP, not published yet), 'planned'.
+// isbn: null = not assigned yet (pages show "[ISBN – pending]"). Never type a number that isn't on the KDP Bookshelf
+// or from ISBN Canada. pages / trim: null until confirmed ("[pending]" on the page).
+const ED = (lang, format, status, extra = {}) => ({ lang, format, status, isbn: null, asin: null, pages: null, trim: null, ...extra });
+// b.trade (format records for libraries, stores and rights buyers) is BUILT from what is live above
+// (amazon / kindle / editions, kept in sync with Amazon per website-amazon-sync.md), plus:
+// - ISBN, pages and trim for an ASIN when known (KDP free ISBNs from the KDP pipeline doc, Nov 8, 2026);
+// - editions ready on KDP but not published yet (status 'draft').
+const TRIM_KDP = '8 × 10 in';
+const tradeFacts = {
+  // Paperback ISBN-13, print length and US publication date, read from each Amazon product page (Nov 16, 2026).
+  B0DVLJ6HBQ: { isbn: '9798308700470', pages: 27, trim: TRIM_KDP, published: '2025-01-29' }, // Secret Hero, EN
+  B0DXQ1WXJS: { isbn: '9798311276696', pages: 27, trim: TRIM_KDP, published: '2025-02-18' }, // Héroe Secreto, ES
+  B0DXVLMSX9: { isbn: '9798311410144', pages: 27, trim: TRIM_KDP, published: '2025-02-19' }, // Hemlig hjälte, SV
+  B0FGJHLLFB: { isbn: '9798290573724', pages: 32, trim: TRIM_KDP, published: '2025-06-26' }, // Becoming a Tree
+  B0FHB9MLYG: { isbn: '9798291982945', pages: 32, trim: TRIM_KDP, published: '2025-07-10' }, // Friendship Bridge
+  B0FHB5J4BQ: { isbn: '9798291974865', pages: 32, trim: TRIM_KDP, published: '2025-07-10' }, // The Fox Mistake
+  B0FHBM6NWF: { isbn: '9798292012122', pages: 32, trim: TRIM_KDP, published: '2025-07-10' }, // Rainy Day, Shiny Things
+  B0FHDSFQ16: { isbn: '9798292139812', pages: 32, trim: TRIM_KDP, published: '2025-07-11' }, // The Desert Buzz
+  B0FHKS3W3B: { isbn: '9798292502722', pages: 32, trim: TRIM_KDP, published: '2025-07-14' }, // The Honest Little Raccoon
+  B0HMJXN1YG: { isbn: '9798161187968', pages: 32, trim: TRIM_KDP, published: '2026-10-09' }, // Pip the Brave Parrot
+  B0HNX1BTYF: { isbn: '9798163158232', pages: 25, trim: TRIM_KDP, published: '2026-10-22' }, // The Snug, EN
+  B0HP44JZXG: { isbn: '9798163745999', pages: 25, trim: TRIM_KDP, published: '2026-10-23' }, // Le Cocon, FR
+  B0HQXRK4Y1: { isbn: '9798140945923', pages: 25, trim: TRIM_KDP, published: '2026-11-08' }, // The Pebbles Inside, EN
+  B0HQXP8JSQ: { isbn: '9798140948184', pages: 25, trim: TRIM_KDP, published: '2026-11-08' } // Las piedras de Tavi, ES
+};
+const tradeDrafts = {
+  'the-light-that-grows': [ED('en', 'paperback', 'draft', { isbn: '9798142640604', pages: 33, trim: TRIM_KDP }), ED('en', 'kindle', 'draft')],
+  'the-spring-that-wanted-to-stay': [ED('en', 'paperback', 'draft', { isbn: '9798142646668', pages: 33, trim: TRIM_KDP }), ED('en', 'kindle', 'draft')],
+  'the-pebbles-inside': [ED('fr', 'paperback', 'draft', { isbn: '9798140950460', trim: TRIM_KDP }), ED('es', 'kindle', 'draft'), ED('fr', 'kindle', 'draft'), ED('de', 'kindle', 'draft')],
+  'the-snug': [ED('es', 'paperback', 'draft', { isbn: '9798166148148', trim: TRIM_KDP }), ED('de', 'paperback', 'draft', { isbn: '9798166148483', trim: TRIM_KDP }), ED('de', 'kindle', 'draft'), ED('it', 'paperback', 'draft', { isbn: '9798140951740', trim: TRIM_KDP }), ED('it', 'kindle', 'draft')]
+};
+const asinOf = (stores) => (stores && stores.com ? (stores.com.match(/\/dp\/([A-Z0-9]+)/) || [])[1] : null) || null;
+books.forEach((b) => {
+  if (b.status !== 'live') { b.trade = tradeDrafts[b.slug] || [ED('en', 'paperback', 'planned'), ED('en', 'kindle', 'planned')]; return; }
+  const live = (lang, format, asin) => ED(lang, format, 'live', { asin, ...(tradeFacts[asin] || {}) });
+  const list = [live('en', 'paperback', asinOf(b.amazon))];
+  if (b.kindle) list.push(live('en', 'kindle', asinOf(b.kindle)));
+  (b.editions || []).forEach((e) => {
+    if (e.paperback) list.push(live(e.lang, 'paperback', e.paperback));
+    if (e.kindle) list.push(live(e.lang, 'kindle', e.kindle));
+  });
+  (tradeDrafts[b.slug] || []).forEach((d) => { if (!list.some((x) => x.lang === d.lang && x.format === d.format)) list.push(d); });
+  b.trade = list;
+  const enPb = list.find((x) => x.lang === 'en' && x.format === 'paperback' && x.published);
+  if (enPb && !b.pubDate) b.pubDate = enPb.published;
+});
+
+// ---------- The vision, in numbers ----------
+const vision = { planned: 100, startLanguages: FIVE };
+// Waves of the road to 100. dates: null = "[date – pending]" on the page.
+const waves = [
+  { n: 1, from: 1, to: 21, status: 'done', date: null },
+  { n: 2, from: 22, to: 40, status: 'planned', date: null },
+  { n: 3, from: 41, to: 70, status: 'planned', date: null },
+  { n: 4, from: 71, to: 100, status: 'planned', date: null }
+];
+function counts() {
+  const out = books.filter((b) => b.status === 'live').length;
+  const finished = books.filter((b) => b.status === 'soon').length;
+  return { total: books.length, out, finished, inProduction: books.filter((b) => b.status === 'coming').length, planned: vision.planned, languages: vision.startLanguages.length };
+}
+// Which languages have at least one live edition, per format.
+function languageGrid() {
+  return vision.startLanguages.map((lang) => {
+    const rows = books.map((b) => ({ b, eds: b.trade.filter((e) => e.lang === lang) })).filter((r) => r.eds.length);
+    return {
+      lang,
+      live: rows.filter((r) => r.eds.some((e) => e.status === 'live')).map((r) => ({ slug: r.b.slug, formats: r.eds.filter((e) => e.status === 'live').map((e) => e.format) })),
+      ready: rows.filter((r) => !r.eds.some((e) => e.status === 'live') && r.eds.some((e) => e.status === 'draft')).map((r) => r.b.slug)
+    };
+  });
+}
+
 // The values, moments and cultures the catalog is sorted by (labels per language).
 const values = {
   kindness: { en: 'Kindness', fr: 'Gentillesse' },
@@ -243,6 +319,10 @@ const bySlug = Object.fromEntries(books.map((b) => [b.slug, b]));
 
 module.exports = {
   books,
+  vision,
+  waves,
+  counts,
+  languageGrid,
   values,
   moments,
   cultures,

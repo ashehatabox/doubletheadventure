@@ -1,0 +1,66 @@
+<%- include('../partials/top') %>
+<% const V = t('visits'); %>
+<section class="section tight" aria-labelledby="v-title">
+  <div class="wrap stack" style="gap:24px">
+    <p class="ph-back"><a href="<%= url('/educators') %>"><%= t('educators.title') %></a></p>
+    <div class="ph">
+      <h1 id="v-title" class="h1"><%= V.heroTitle %></h1>
+      <p class="lead"><%= V.lead %></p>
+      <div class="row"><a class="btn btn-primary" href="#enquiry"><%= V.book %></a><a class="btn btn-ghost" href="<%= url('/educators/sel-mapping') %>"><%= V.fitCta %></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight" aria-labelledby="f-title" style="padding-top:0">
+  <div class="wrap stack" style="gap:16px">
+    <h2 id="f-title" class="h2"><%= V.formatsTitle %></h2>
+    <div class="table-wrap" tabindex="0" role="region" aria-labelledby="f-title">
+      <table class="dtable">
+        <thead><tr><th scope="col"><%= V.colFormat %></th><th scope="col"><%= V.colLength %></th><th scope="col"><%= V.colAudience %></th><th scope="col"><%= V.colIncludes %></th><th scope="col"><%= V.colFee %></th></tr></thead>
+        <tbody><% V.formats.forEach(function (f) { %><tr><th scope="row"><%= f[0] %></th><td data-label="<%= V.colLength %>"><%= f[1] %></td><td data-label="<%= V.colAudience %>"><%= f[2] %></td><td data-label="<%= V.colIncludes %>"><%= f[3] %></td><td data-label="<%= V.colFee %>"><%- include('../partials/pending', { k: 'fee' }) %></td></tr><% }) %></tbody>
+      </table>
+    </div>
+    <p style="margin:0"><%= V.firstVisit %> <%- include('../partials/pending', { k: 'terms' }) %></p>
+  </div>
+</section>
+
+<section class="section tight band-sun" aria-labelledby="fit-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="fit-title" class="h2"><%= V.fitTitle %></h2>
+      <ul class="clean"><% V.fit.forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+      <p><a href="<%= url('/educators/sel-mapping') %>" style="font-weight:800"><%= V.fitCta %></a></p>
+    </div>
+    <div class="stack-sm">
+      <h2 class="h3"><%= V.hostTitle %></h2>
+      <ul class="clean"><% V.host.forEach(function (x) { %><li><%= x %></li><% }) %></ul>
+    </div>
+  </div>
+</section>
+
+<% if (video) { %>
+<section class="feature-band band-rose" aria-labelledby="see-title">
+  <div class="wrap feature feature-wide">
+    <div class="feature-text stack">
+      <h2 id="see-title" class="h2 feature-h"><%= V.seeTitle %></h2>
+      <p class="lead"><%= V.seeText %></p>
+      <p><a href="<%= video.book.href %>" style="font-weight:800"><%= video.book.displayTitle %></a></p>
+    </div>
+    <div class="feature-media"><%- include('../partials/readaloud', { b: video.book, videos: video.videos }) %></div>
+  </div>
+</section>
+<% } %>
+
+<section class="section tight" aria-labelledby="log-title">
+  <div class="wrap grid-2" style="align-items:start">
+    <div class="stack-sm">
+      <h2 id="log-title" class="h2"><%= V.logisticsTitle %></h2>
+      <table class="dtable"><tbody>
+        <% V.logistics.forEach(function (l, i) { %><tr><th scope="row"><%= l[0] %></th><td><%= l[1] %><% if (i !== 1) { %> <%- include('../partials/pending', { k: i === 0 ? 'terms' : 'status' }) %><% } %></td></tr><% }) %>
+      </tbody></table>
+      <p><a href="mailto:<%= site.email('orders') %>" style="font-weight:800"><%= site.email('orders') %></a></p>
+    </div>
+    <%- include('../partials/enquiry', { kind: 'visit', formTitle: V.formTitle, orgLabel: V.fSchool, fields: [{ name: 'grade', label: V.fGrade }, { name: 'dates', label: V.fDates }, { name: 'children', label: V.fChildren }], select: { name: 'format', label: V.fFormat, options: V.formats.map(function (f) { return f[0]; }) } }) %>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

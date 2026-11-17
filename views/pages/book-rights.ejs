@@ -1,0 +1,39 @@
+<%- include('../partials/top') %>
+<% const R = t('rights'); %>
+<section class="section tight os-page">
+  <div class="wrap one-sheet">
+    <div class="row no-print" style="gap:12px;margin-bottom:20px">
+      <a class="muted" href="<%= url('/partners/rights') %>"><%= R.backToRights %></a>
+      <a class="muted" href="<%= book.href %>"><%= book.displayTitle %></a>
+      <button class="btn btn-primary" type="button" data-print><%= t('oneSheet.print') %></button>
+    </div>
+    <div class="os-head">
+      <div class="stack-sm">
+        <h1 class="os-title"><%= r.title %></h1>
+        <% if (r.subtitle) { %><p class="os-lead"><%= r.subtitle %></p><% } %>
+        <p class="os-meta">Double the Adventure, <%= R.sheet %>. #<%= r.n %></p>
+      </div>
+    </div>
+    <div class="grid-2" style="grid-template-columns:minmax(0,200px) minmax(0,1fr);gap:24px;align-items:start;margin-top:16px">
+      <% if (book.cover) { %><img src="<%= book.cover %>" alt="<%= t('common.coverOf') %> <%= r.title %>" width="900" height="1440" style="border-radius:8px"><% } else { %><span class="rc-ph" style="background:<%= book.color %>;width:100%;display:block"></span><% } %>
+      <div>
+        <p style="margin-top:0"><% if (r.pitch) { %><%= r.pitch %><% } else { %><%- include('../partials/pending', { k: 'pitch' }) %><% } %></p>
+        <table class="sheet-kv">
+          <tbody>
+            <tr><th scope="row"><%= R.valueCulture %></th><td><%= r.value %><% if (r.culture) { %>, <%= r.culture %><% } %><% if (r.cultureIdea) { %>. <%= r.cultureIdea %><% } %></td></tr>
+            <tr><th scope="row"><%= R.agesL %></th><td><%= r.ages %></td></tr>
+            <tr><th scope="row"><%= R.pagesTrim %></th><td><% const pg = r.paperback && r.paperback.pages, tr = r.paperback && r.paperback.trim; %><% if (pg || tr) { %><%= [pg ? pg + ' pp' : '', tr || ''].filter(Boolean).join(', ') %><% } %><% if (!pg) { %> <%- include('../partials/pending', { k: 'pages' }) %><% } %></td></tr>
+            <tr><th scope="row"><%= R.published %></th><td><%= r.liveLanguages.length ? r.liveLanguages.map(function (l) { return langName(l); }).join(', ') : R.notPublished %></td></tr>
+            <tr><th scope="row"><%= R.availTitle %></th><td><%= R.types.join('; ') %></td></tr>
+            <tr><th scope="row"><%= R.licensed %></th><td><%- include('../partials/pending', { k: 'list' }) %></td></tr>
+            <tr><th scope="row"><%= R.salesAwards %></th><td><%- include('../partials/pending', { k: 'status' }) %></td></tr>
+            <tr><th scope="row"><%= t('libs.colIsbn') %></th><td><% if (r.paperback && r.paperback.isbn) { %><%= r.paperback.isbn %><% } else { %><%- include('../partials/pending', { k: 'isbn' }) %><% } %></td></tr>
+            <tr><th scope="row"><%= t('footer.mailRights') %></th><td><a href="mailto:<%= site.email('rights') %>"><%= site.email('rights') %></a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="os-small">A² Publishing, <%= pick(site.location) %>. doubleadventure.ca</p>
+  </div>
+</section>
+<%- include('../partials/bottom') %>

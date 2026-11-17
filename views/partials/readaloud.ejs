@@ -2,7 +2,7 @@
 <div class="ra" data-ra>
   <div class="ra-stage" data-ra-stage>
     <button type="button" class="ra-play" data-ra-play aria-label="<%= t('readaloud.play') %>: <%= b.displayTitle %>">
-      <% if (b.cover) { %><img src="<%= b.cover %>" alt="" loading="lazy" width="900" height="1440"><% } %>
+      <% if (b.cover) { %><img src="<%= b.cover %>" alt="<%= t('common.coverOf') %> <%= b.displayTitle || bookTitle(b) %>" loading="lazy" width="900" height="1440"><% } %>
       <span class="ra-btn" aria-hidden="true">▶</span>
       <span class="ra-hint"><%= t('readaloud.play') %></span>
     </button>

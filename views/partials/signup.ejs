@@ -9,7 +9,7 @@
   <input type="hidden" name="list" value="<%= typeof list !== 'undefined' ? list : 'subscribers' %>">
   <% if (typeof book !== 'undefined' && book) { %><input type="hidden" name="book" value="<%= book %>"><% } %>
   <input type="hidden" name="source" value="<%= typeof source !== 'undefined' ? source : basePath %>">
-  <div class="hp" aria-hidden="true"><label for="<%= fid %>-website">Website</label><input id="<%= fid %>-website" name="website" tabindex="-1" autocomplete="off"></div>
+  <div class="hp" aria-hidden="true"><label for="<%= fid %>-hpf">Leave this empty</label><input id="<%= fid %>-hpf" name="a2_hp" tabindex="-1" autocomplete="off"></div>
   <label for="<%= fid %>-email"><%= typeof label !== 'undefined' ? label : t('common.yourEmail') %></label>
   <div class="inline-form">
     <input class="input round" id="<%= fid %>-email" name="email" type="email" autocomplete="email" required placeholder="<%= t('common.emailPlaceholder') %>">

@@ -1,5 +1,31 @@
 // Small progressive enhancements. Every form and filter also works without JavaScript.
 (function () {
+  // Referral code (?ref=ot_296): keep it 90 days on this device, then add it to every form on the site.
+  // The server also saves it in a first-party cookie, so forms work the same without JavaScript.
+  var REF_DAYS = 90;
+  var ref = '';
+  try {
+    var fresh = (new URLSearchParams(location.search).get('ref') || '').trim().toLowerCase().slice(0, 60);
+    if (/^[a-z0-9][a-z0-9_.-]*$/.test(fresh)) {
+      ref = fresh;
+      localStorage.setItem('a2ref', JSON.stringify({ code: fresh, at: Date.now() }));
+    } else {
+      var kept = JSON.parse(localStorage.getItem('a2ref') || 'null');
+      if (kept && kept.code && Date.now() - kept.at < REF_DAYS * 864e5) ref = kept.code;
+      else if (kept) localStorage.removeItem('a2ref');
+    }
+  } catch (e) { /* storage blocked: the cookie still carries the code */ }
+  if (!ref) { var m = document.cookie.match(/(?:^|;\s*)a2ref=([^;]+)/); if (m) ref = decodeURIComponent(m[1]); }
+  if (ref) {
+    document.querySelectorAll('form[method="post"], form[method="POST"]').forEach(function (f) {
+      if (f.querySelector('input[name="ref"]')) return;
+      var i = document.createElement('input');
+      i.type = 'hidden'; i.name = 'ref'; i.value = ref;
+      f.appendChild(i);
+    });
+    document.documentElement.setAttribute('data-ref', ref);
+  }
+
   // Hero file cards: switch between the book picture and a real photo of the animal.
   document.querySelectorAll('[data-hg-pic]').forEach(function (box) {
     var buttons = box.querySelectorAll('[data-v]');

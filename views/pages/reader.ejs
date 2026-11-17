@@ -34,7 +34,7 @@
     <noscript>
       <div class="rd-plain">
         <p><%= t('reader.noscript') %></p>
-        <% config.spreads.forEach(function (sp) { sp.pages.forEach(function (p) { %><img src="<%= p.src %>" alt="<%= p.text %>" loading="lazy"><% }) }) %>
+        <% config.spreads.forEach(function (sp) { sp.pages.forEach(function (p) { %><img src="<%= p.src %>" alt="<%= p.text || (t('common.altSpread') + ', ' + book.displayTitle) %>" loading="lazy"><% }) }) %>
       </div>
     </noscript>
   </div>
@@ -53,7 +53,7 @@
   <%# The last page: what comes after the open pages. reader.js places it in the book. %>
   <template id="rd-gate">
     <section class="rd-gate" id="gate" aria-labelledby="gate-title">
-      <img class="rd-gate-cover" src="<%= book.coverSmall || book.cover %>" alt="" width="360" height="576">
+      <img class="rd-gate-cover" src="<%= book.coverSmall || book.cover %>" alt="<%= t('common.coverOf') %> <%= book.displayTitle || bookTitle(book) %>" width="360" height="576">
       <% if (!config.locked) { %>
         <h2 id="gate-title"><%= t('reader.theEnd') %></h2>
         <div class="rd-gate-actions">

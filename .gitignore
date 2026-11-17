@@ -5,3 +5,4 @@ node_modules/
 tmp/
 data/*.jsonl
 art-src/
+__pycache__/

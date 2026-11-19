@@ -1,0 +1,219 @@
+{
+ "slug": "rainy-day-shiny-things",
+ "lang": "fr",
+ "title": "Jour de pluie, objets brillants",
+ "source": "a2-books_book05-rainy-day-shiny-things-translations.json",
+ "pages": {
+  "p01": {
+   "en": "To those who Find Joy in Small Moments, just like the cats. A story about gratitude and appreciation.",
+   "text": [
+    "À ceux qui trouvent la joie dans les petits moments, tout comme les chats."
+   ],
+   "placedBy": "english"
+  },
+  "p03": {
+   "en": "In a cozy little house on Maple Street lived three cats: Whiskers, the curious one; Mittens, the playful one; and Shadow, the quiet observer.",
+   "text": [
+    "Dans une petite maison douillette de la rue Maple vivaient trois chats : Whiskers, le curieux ; Mittens, la joueuse ; et Shadow, l'observateur tranquille."
+   ],
+   "placedBy": "english"
+  },
+  "p04": {
+   "en": "They lived with a kind, caring lady named Mrs. Maple, who loved them dearly.",
+   "text": [
+    "Ils vivaient avec une dame gentille et attentionnée, Mme Maple, qui les aimait tendrement."
+   ],
+   "placedBy": "english"
+  },
+  "p05": {
+   "en": "Every night, she tucked them into their favorite spots with a gentle scratch behind their ears.",
+   "text": [
+    "Chaque soir, elle les installait dans leurs coins préférés avec une douce caresse derrière les oreilles."
+   ],
+   "placedBy": "english"
+  },
+  "p06": {
+   "en": "Whiskers loved to explore every corner of the house.",
+   "text": [
+    "Whiskers adorait explorer tous les recoins de la maison."
+   ],
+   "placedBy": "english"
+  },
+  "p07": {
+   "en": "He peeked into cupboards and climbed onto bookshelves, always searching for something new.",
+   "text": [
+    "Il jetait un œil dans les placards et grimpait sur les étagères, toujours à la recherche de quelque chose de nouveau."
+   ],
+   "placedBy": "english"
+  },
+  "p08": {
+   "en": "Shadow preferred to nap in quiet corners.",
+   "text": [
+    "Shadow préférait faire la sieste dans les coins tranquilles."
+   ],
+   "placedBy": "english"
+  },
+  "p09": {
+   "en": "He loved curling up in the sunniest spot, his fur warming under the golden light.",
+   "text": [
+    "Il adorait s'enrouler dans le coin le plus ensoleillé, le pelage réchauffé par la lumière dorée."
+   ],
+   "placedBy": "english"
+  },
+  "p10": {
+   "en": "Mittens was full of playful energy and fun.",
+   "text": [
+    "Mittens débordait d'énergie et de joie de jouer."
+   ],
+   "placedBy": "english"
+  },
+  "p11": {
+   "en": "She loved to chase yarn balls, leap and pounce on shadows that danced across the floor.",
+   "text": [
+    "Elle adorait courir après les pelotes de laine et bondir sur les ombres qui dansaient sur le sol."
+   ],
+   "placedBy": "english"
+  },
+  "p12": {
+   "en": "On a rainy day, Whiskers saw a butterfly outside and wished he could chase it.",
+   "text": [
+    "Un jour de pluie, Whiskers aperçut un papillon dehors et rêva de pouvoir lui courir après."
+   ],
+   "placedBy": "english"
+  },
+  "p13": {
+   "en": "“Why does it have to rain?” he muttered. His tail twitched in frustration.",
+   "text": [
+    "« Pourquoi faut-il qu'il pleuve ? » marmonna-t-il. Sa queue frétilla d'agacement."
+   ],
+   "placedBy": "english"
+  },
+  "p14": {
+   "en": "Shadow gazed at the gray sky through the window. He flicked his tail and sighed .",
+   "text": [
+    "Shadow contempla le ciel gris par la fenêtre. Il agita la queue et soupira."
+   ],
+   "placedBy": "english"
+  },
+  "p15": {
+   "en": "He watched the raindrops slide down the glass. He missed the sunshine. He can't sleep.",
+   "text": [
+    "Il regardait les gouttes glisser sur la vitre. Le soleil lui manquait. Il n'arrivait pas à dormir."
+   ],
+   "placedBy": "english"
+  },
+  "p16": {
+   "en": "Mittens found a new toy mouse by the food bowl. She flopped onto the floor, feeling bored.",
+   "text": [
+    "Mittens trouva une nouvelle souris en peluche près de la gamelle. Elle s'affala par terre, s'ennuyant."
+   ],
+   "placedBy": "english"
+  },
+  "p17": {
+   "en": "She grumbled, “It’s not as fun as chasing real mice outside in the field.”",
+   "text": [
+    "Elle grommela : « Ce n'est pas aussi drôle que de pourchasser de vraies souris dehors, dans les champs. »"
+   ],
+   "placedBy": "english"
+  },
+  "p18": {
+   "en": "A loud crash echoed from the kitchen! They ran to find a glass had fallen off the counter.",
+   "text": [
+    "Un grand fracas résonna dans la cuisine ! Ils coururent voir : un verre était tombé du comptoir."
+   ],
+   "placedBy": "english"
+  },
+  "p19": {
+   "en": "The shards sparkled like tiny stars on the floor. Curious, they stepped closer, their earlier grumpiness forgotten.",
+   "text": [
+    "Les éclats scintillaient comme de minuscules étoiles sur le sol. Curieux, ils s'approchèrent, leur mauvaise humeur oubliée."
+   ],
+   "placedBy": "english"
+  },
+  "p20": {
+   "en": "In the mess of broken glass, they spotted silver, shiny wings from Mrs. Maple’s necklace,",
+   "text": [
+    "Au milieu du verre brisé, ils repérèrent des ailes d'argent scintillantes, tombées du collier de Mme Maple :"
+   ],
+   "placedBy": "english"
+  },
+  "p21": {
+   "en": "A special gift from her husband. The cats felt taken by the shiny light.",
+   "text": [
+    "un cadeau spécial de son mari. Les chats se laissèrent captiver par la lumière brillante."
+   ],
+   "placedBy": "english"
+  },
+  "p22": {
+   "en": "That evening after the shiny necklace adventure, Mrs. Maple called them for food, and the cats began to purr.",
+   "text": [
+    "Ce soir-là, après l'aventure du collier brillant, Mme Maple les appela pour manger, et les chats se mirent à ronronner."
+   ],
+   "placedBy": "english"
+  },
+  "p23": {
+   "en": "They felt the warmth of her love, realizing that even on a rainy day, they had an adventure, comfort and care.",
+   "text": [
+    "Ils sentirent la chaleur de son amour et comprirent que, même un jour de pluie, ils avaient de l'aventure, du réconfort et des soins."
+   ],
+   "placedBy": "english"
+  },
+  "p24": {
+   "en": "The cats watched as she filled their bowls with their favorite meal. They purred and rubbed against her legs, their way of saying, \"We love you, Mrs. Maple.\"",
+   "text": [
+    "Les chats la regardèrent remplir leurs gamelles de leur repas préféré. Ils ronronnèrent et se frottèrent contre ses jambes, leur façon de dire : « Nous vous aimons, Mme Maple. »"
+   ],
+   "placedBy": "english"
+  },
+  "p26": {
+   "en": "Later, they curled up together on the windowsill, listening to the rain. At first, the sound had made them restless.",
+   "text": [
+    "Plus tard, ils se blottirent ensemble sur le rebord de la fenêtre, à écouter la pluie. Au début, ce bruit les avait rendus nerveux."
+   ],
+   "placedBy": "english"
+  },
+  "p27": {
+   "en": "But now, they found it soothing, their tails curling around each other.",
+   "text": [
+    "Mais maintenant, ils le trouvaient apaisant, leurs queues enroulées les unes autour des autres."
+   ],
+   "placedBy": "english"
+  },
+  "p28": {
+   "en": "Whiskers purred. “Every day—rainy or sunny—has something special.”",
+   "text": [
+    "Whiskers ronronna : « Chaque jour, pluvieux ou ensoleillé, a quelque chose de spécial. »"
+   ],
+   "placedBy": "english"
+  },
+  "p29": {
+   "en": "He curled up next to Mittens and Shadow, enjoying the moment.",
+   "text": [
+    "Il se blottit contre Mittens et Shadow, savourant l'instant."
+   ],
+   "placedBy": "english"
+  },
+  "p30": {
+   "en": "From that day on, they found joy in everything,",
+   "text": [
+    "Dès ce jour, ils trouvèrent de la joie en toute chose,"
+   ],
+   "placedBy": "english"
+  },
+  "p31": {
+   "en": "knowing that every little moment can make their world perfect, if they choose to.",
+   "text": [
+    "sachant que chaque petit instant peut rendre leur monde parfait, s'ils le choisissent."
+   ],
+   "placedBy": "english"
+  },
+  "p32": {
+   "en": "The End",
+   "text": [
+    "Fin"
+   ],
+   "placedBy": "english"
+  }
+ },
+ "unplaced": []
+}

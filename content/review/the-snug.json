@@ -1,0 +1,172 @@
+{
+ "slug": "the-snug",
+ "lang": "fr",
+ "title": "Le Cocon",
+ "source": "a2-books_book13-the-snug-translations.json",
+ "pages": {
+  "p01": {
+   "en": "To everyone still waiting at the edge of the meadow: you can build a place of your own.",
+   "text": [
+    "À tous ceux qui attendent encore au bord de la prairie : vous pouvez construire un endroit à vous.",
+    "Une histoire sur l'appartenance et la place pour chacun."
+   ],
+   "placedBy": "english"
+  },
+  "p04": {
+   "en": "In Bramble Hollow, when the first cold wind blew, all the animals squeezed together under the Big Oak, warm and giggling.",
+   "text": [
+    "À Bramble Hollow, quand soufflait le premier vent froid, tous les animaux se serraient sous le Grand Chêne, au chaud, en riant."
+   ],
+   "placedBy": "english"
+  },
+  "p05": {
+   "en": "Bodie the badger loved it best of all. He pulled on his blue hat, wiggled in close, and sighed, \"Snug!\"",
+   "text": [
+    "Bodie le blaireau adorait ça plus que tout. Il enfilait son bonnet bleu, se faufilait tout près et soupirait : « Douillet ! »"
+   ],
+   "placedBy": "english"
+  },
+  "p06": {
+   "en": "One misty evening, a little cart creaked down the lane. A new family was moving into the empty burrow by the hill.",
+   "text": [
+    "Un soir de brume, une petite charrette grinça sur le chemin. Une nouvelle famille s'installait dans le terrier vide près de la colline."
+   ],
+   "placedBy": "english"
+  },
+  "p07": {
+   "en": "Out stepped Quilla, a young porcupine in a yellow neckerchief. When she felt shy, her quills stood straight up.",
+   "text": [
+    "Quilla en descendit, une jeune porc-épic au foulard jaune. Quand elle se sentait timide, ses piquants se dressaient tout droit."
+   ],
+   "placedBy": "english"
+  },
+  "p08": {
+   "en": "The next day, Quilla walked to the Big Oak. \"Hello,\" she said softly. \"May I squeeze in too?\"",
+   "text": [
+    "Le lendemain, Quilla alla jusqu'au Grand Chêne. « Bonjour, dit-elle doucement. Je peux me serrer avec vous ? »"
+   ],
+   "placedBy": "english"
+  },
+  "p09": {
+   "en": "But everyone scooted away. \"Too prickly!\" whispered the rabbit twins. So Quilla sat all alone at the edge of the meadow.",
+   "text": [
+    "Mais tout le monde s'écarta. « Trop piquante ! » chuchotèrent les jumeaux lapins. Alors Quilla s'assit toute seule au bord de la prairie."
+   ],
+   "placedBy": "english"
+  },
+  "p10": {
+   "en": "Bodie saw her sitting there. He wanted to go over, but his tummy did a flip-flop. What if they scooted away from him, too?",
+   "text": [
+    "Bodie la vit assise là-bas. Il voulait la rejoindre, mais son ventre fit une galipette. Et si on s'écartait de lui aussi ?"
+   ],
+   "placedBy": "english"
+  },
+  "p11": {
+   "en": "He took a deep breath, walked all the way across the meadow, and sat right down beside her. \"Hello,\" said Bodie.",
+   "text": [
+    "Il prit une grande inspiration, traversa toute la prairie et s'assit juste à côté d'elle. « Bonjour », dit Bodie."
+   ],
+   "placedBy": "english"
+  },
+  "p12": {
+   "en": "They sat for a long time, watching the others under the oak. Then Quilla said, \"I'm done waiting to be asked.\"",
+   "text": [
+    "Ils restèrent longtemps assis à regarder les autres sous le chêne. Puis Quilla dit : « J'ai fini d'attendre qu'on m'invite. »"
+   ],
+   "placedBy": "english"
+  },
+  "p13": {
+   "en": "\"Let's make a warm place of our own. Right here.\" Bodie grinned. \"I can dig!\" \"And I can climb!\" said Quilla.",
+   "text": [
+    "« Faisons-nous un endroit chaud à nous. Ici même. » Bodie sourit jusqu'aux oreilles. « Je sais creuser ! » « Et moi grimper ! » dit Quilla."
+   ],
+   "placedBy": "english"
+  },
+  "p14": {
+   "en": "Bodie scooped a round, deep hollow. Quilla climbed high and tugged down long, bendy vines. \"Scoop, loop, snug!\" they sang.",
+   "text": [
+    "Bodie creusa un trou rond et profond. Quilla grimpa tout en haut et tira de longues lianes souples. « Creuse, boucle, cocon ! » chantaient-ils."
+   ],
+   "placedBy": "english"
+  },
+  "p15": {
+   "en": "They looped the vines into walls. A loose quill fell out, like a baby tooth. \"A pin!\" said Quilla, and pinned them tight.",
+   "text": [
+    "Ils bouclèrent les lianes pour faire des murs. Un piquant tomba, comme une dent de lait. « Une épingle ! » dit Quilla, et elle les fixa bien serré."
+   ],
+   "placedBy": "english"
+  },
+  "p16": {
+   "en": "Hazel the squirrel hopped by. \"What are you making?\" \"A snug!\" said Bodie. \"Ooh! Can I help?\" asked Hazel.",
+   "text": [
+    "Hazel l'écureuil passa en sautillant. « Qu'est-ce que vous faites ? » « Un cocon ! » dit Bodie. « Oh ! Je peux aider ? » demanda Hazel."
+   ],
+   "placedBy": "english"
+  },
+  "p17": {
+   "en": "Hazel piled soft moss on the roof. Thimble the mouse tied every vine with tiny, tidy knots. Scoop, loop, snug!",
+   "text": [
+    "Hazel entassa de la mousse douce sur le toit. Thimble la souris attacha chaque liane avec de petits nœuds bien nets. Creuse, boucle, cocon !"
+   ],
+   "placedBy": "english"
+  },
+  "p18": {
+   "en": "Mossy the mole popped up right in the middle of the floor. \"Did somebody say dig?\" He smoothed it flat and cozy.",
+   "text": [
+    "Mossy la taupe surgit en plein milieu du sol. « Quelqu'un a dit creuser ? » Il le rendit bien plat et douillet."
+   ],
+   "placedBy": "english"
+  },
+  "p19": {
+   "en": "Scoop, loop, snug! Five friends, one snug. When the cold wind came whooshing, the walls didn't wobble one bit.",
+   "text": [
+    "Creuse, boucle, cocon ! Cinq amis, un cocon. Quand le vent froid arriva en sifflant, les murs ne bougèrent pas d'un poil."
+   ],
+   "placedBy": "english"
+  },
+  "p20": {
+   "en": "At last it was done. They hung acorn-cup lanterns by the door. \"It's beautiful,\" whispered Quilla. \"Who is it for?\" asked Hazel.",
+   "text": [
+    "Enfin, c'était fini. Ils accrochèrent des lanternes en cupules de gland près de la porte. « C'est magnifique », murmura Quilla. « C'est pour qui ? » demanda Hazel."
+   ],
+   "placedBy": "english"
+  },
+  "p21": {
+   "en": "Quilla thought about the Big Oak, and all the scooting away. Then she smiled her biggest smile. \"Everyone,\" she said. \"It's for everyone.\"",
+   "text": [
+    "Quilla pensa au Grand Chêne, et à tous ceux qui s'étaient écartés. Puis elle fit son plus grand sourire. « Pour tout le monde, dit-elle. C'est pour tout le monde. »"
+   ],
+   "placedBy": "english"
+  },
+  "p22": {
+   "en": "That evening, the first snowflakes fell. Bodie called across the meadow, \"The Snug is open! Everyone is welcome!\" And everyone came.",
+   "text": [
+    "Ce soir-là, les premiers flocons tombèrent. Bodie lança à travers la prairie : « Le Cocon est ouvert ! Tout le monde est bienvenu ! » Et tout le monde vint."
+   ],
+   "placedBy": "english"
+  },
+  "p23": {
+   "en": "The rabbit twins stopped at the door, ears drooping. \"We're sorry we scooted,\" said Fern. \"Is there room for us?\"",
+   "text": [
+    "Les jumeaux lapins s'arrêtèrent à la porte, les oreilles basses. « Pardon de nous être écartés, dit Fern. Il y a de la place pour nous ? »"
+   ],
+   "placedBy": "english"
+  },
+  "p24": {
+   "en": "Quilla held the door open wide. \"Lots of room,\" she said. \"Come in, come in!\" And they all squeezed in together.",
+   "text": [
+    "Quilla ouvrit grand la porte. « Plein de place, dit-elle. Entrez, entrez ! » Et ils se serrèrent tous ensemble."
+   ],
+   "placedBy": "english"
+  },
+  "p25": {
+   "en": "Outside, the snow fell softly. Inside, Bodie sighed, \"Snug.\" If there's no room for you, build a place with room for everyone. The End.",
+   "text": [
+    "Dehors, la neige tombait doucement. Dedans, Bodie soupira : « Douillet. » S'il n'y a pas de place pour toi, construis un endroit où il y a de la place pour tous.",
+    "Fin"
+   ],
+   "placedBy": "english"
+  }
+ },
+ "unplaced": []
+}

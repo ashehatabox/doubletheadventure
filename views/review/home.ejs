@@ -1,0 +1,64 @@
+<%- include('_head') %>
+<header class="rv-bar">
+  <div class="rv-wrap rv-bar-in">
+    <p class="rv-brand">A² Publishing <span>Espace relecture</span></p>
+    <p class="rv-muted">Bonjour <%= reviewer.name %></p>
+  </div>
+</header>
+<main class="rv-wrap rv-home">
+  <section class="rv-hello">
+    <h1>Merci de relire nos histoires.</h1>
+    <p>Lisez comme un enfant, puis touchez une phrase pour la commenter.</p>
+  </section>
+
+  <% if (thanks) { %><p class="rv-done" role="status">Merci, c'est bien enregistré.</p><% } %>
+
+  <section id="prio" aria-labelledby="prio-h">
+    <h2 id="prio-h">Abdallah aimerait votre avis d'abord</h2>
+    <div class="rv-prio">
+      <% priorities.forEach(function (p) { %>
+      <form class="rv-card" method="post" action="/review/answer">
+        <input type="hidden" name="id" value="<%= p.id %>">
+        <p class="rv-muted"><%= p.label %></p>
+        <p class="rv-refrain" lang="fr"><%= p.text %></p>
+        <p class="rv-small rv-muted" lang="en">En anglais : <%= p.en %></p>
+        <p><%= p.question %></p>
+        <% if (p.answered) { %><p class="rv-ok">Réponse envoyée. Vous pouvez en ajouter une autre.</p><% } %>
+        <label class="rv-field">Votre version (facultatif)
+          <input type="text" name="proposed" value="" placeholder="<%= p.text %>">
+        </label>
+        <label class="rv-field">Votre avis
+          <textarea name="note" rows="2"></textarea>
+        </label>
+        <button class="rv-btn rv-btn-main" type="submit">Envoyer</button>
+      </form>
+      <% }) %>
+    </div>
+  </section>
+
+  <section aria-labelledby="books-h">
+    <div class="rv-row-head">
+      <h2 id="books-h">Les livres</h2>
+      <p class="rv-muted"><%= books.length %> livres en français</p>
+    </div>
+    <ul class="rv-books">
+      <% books.forEach(function (b) { %>
+      <li class="rv-book">
+        <img src="<%= b.cover %>" alt="" width="56" height="56" loading="lazy">
+        <div class="rv-book-name">
+          <p class="rv-book-title"><%= b.title %></p>
+          <p class="rv-small rv-muted">Livre <%= b.n %>, <%= b.pages %> pages</p>
+        </div>
+        <p class="rv-book-status"><%= b.status %></p>
+        <div class="rv-book-go">
+          <a class="rv-btn rv-btn-main" href="<%= b.href %>#page"><%= b.action %></a>
+          <a class="rv-btn" href="/review/<%= b.slug %>?mode=lecture">Lire l'histoire</a>
+        </div>
+      </li>
+      <% }) %>
+    </ul>
+    <% if (missing.length) { %><p class="rv-muted rv-small"><%= missing.length === 1 ? 'Le livre ' + missing[0] + ' arrive' : 'Les livres ' + missing.slice(0, -1).join(', ') + ' et ' + missing[missing.length - 1] + ' arrivent' %> bientôt.</p><% } %>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<%- include('_head') %>
+<header class="rv-bar">
+  <div class="rv-wrap rv-bar-in">
+    <a class="rv-back" href="/review">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      Mes livres
+    </a>
+    <div class="rv-bar-title">
+      <p class="rv-book-title"><%= book.title %></p>
+      <% if (!reading) { %><p class="rv-small rv-muted">Page <%= parseInt(page.id.slice(1), 10) %> sur <%= parseInt(book.pages[total - 1].id.slice(1), 10) %></p><% } %>
+    </div>
+    <nav class="rv-mode" aria-label="Mode">
+      <a class="rv-pill" href="<%= reviewHref %>" <%- !reading ? 'aria-current="page"' : '' %>>Relecture</a>
+      <a class="rv-pill" href="<%= readHref %>" <%- reading ? 'aria-current="page"' : '' %>>Lecture</a>
+    </nav>
+  </div>
+</header>
+
+<% if (reading) { %>
+<main class="rv-wrap rv-read">
+  <h1 class="rv-read-title"><%= book.title %></h1>
+  <% book.pages.forEach(function (p) { %>
+  <section class="rv-read-page" id="<%= p.id %>">
+    <% if (p.image) { %><img src="<%= p.image %>" alt="" loading="lazy"><% } %>
+    <div class="rv-read-text">
+      <% p.lines.forEach(function (l) { %><p><%= l %></p><% }) %>
+      <a class="rv-small" href="/review/<%= book.slug %>?p=<%= p.id %>#panel">Commenter cette page</a>
+    </div>
+  </section>
+  <% }) %>
+  <p class="rv-read-end"><a class="rv-btn rv-btn-main" href="/review">Retour à mes livres</a></p>
+</main>
+<% } else { %>
+<main class="rv-wrap rv-review" id="page">
+  <section class="rv-left" aria-label="Page de l'histoire">
+    <div class="rv-spread">
+      <div class="rv-art">
+        <% if (page.image) { %><img src="<%= page.image %>" alt="Illustration de la page <%= idx + 1 %>, avec le texte anglais"><% } else { %><p class="rv-muted">Pas d'image pour cette page.</p><% } %>
+      </div>
+      <div class="rv-text">
+        <p class="rv-sentences" lang="fr">
+          <% sentences.forEach(function (s) { %><a class="rv-s<%= s.selected ? ' is-sel' : '' %><%= s.commented ? ' is-com' : '' %>" href="<%= s.href %>" data-s="<%= s.i %>" <%- s.selected ? 'aria-current="true"' : '' %>><%= s.text %></a> <% }) %>
+        </p>
+        <% if (showEn && page.en) { %><p class="rv-en" lang="en"><%= page.en %></p><% } %>
+        <p class="rv-small rv-muted">Touchez une phrase pour la commenter. Les phrases soulignées ont déjà un commentaire.</p>
+      </div>
+    </div>
+
+    <div class="rv-nav">
+      <% if (prevHref) { %><a class="rv-btn" href="<%= prevHref %>">Page précédente</a><% } %>
+      <% if (nextHref) { %><a class="rv-btn" href="<%= nextHref %>">Page suivante</a><% } %>
+      <a class="rv-link" href="<%= enHref %>"><%= showEn ? "Cacher l'anglais" : "Afficher l'anglais" %></a>
+    </div>
+
+    <nav class="rv-thumbs" aria-label="Pages">
+      <% thumbs.forEach(function (t) { %>
+      <a class="rv-thumb<%= t.current ? ' is-cur' : '' %>" href="<%= t.href %>" <%- t.current ? 'aria-current="page"' : '' %>>
+        <span class="rv-thumb-n">Page <%= t.num %></span>
+        <span class="rv-small"><%= t.status %></span>
+      </a>
+      <% }) %>
+    </nav>
+  </section>
+
+  <aside class="rv-panel" id="panel" aria-label="Commentaires">
+    <form class="rv-card rv-form" method="post" action="/review/<%= book.slug %>/comment" data-sentences="<%= JSON.stringify(sentences.map(function (s) { return s.text; })) %>">
+      <h2>Commenter cette phrase</h2>
+      <input type="hidden" name="page" value="<%= page.id %>">
+      <input type="hidden" name="s" value="<%= sel %>" data-sel>
+      <% if (showEn) { %><input type="hidden" name="en" value="1"><% } %>
+      <blockquote class="rv-quote" lang="fr" data-quote><%= sentences[sel].text %></blockquote>
+      <fieldset class="rv-kinds">
+        <legend>Type de commentaire</legend>
+        <label class="rv-kind rv-k-correction"><input type="radio" name="kind" value="correction"> <span>Correction</span></label>
+        <label class="rv-kind rv-k-suggestion"><input type="radio" name="kind" value="suggestion" checked> <span>Suggestion</span></label>
+        <label class="rv-kind rv-k-question"><input type="radio" name="kind" value="question"> <span>Question</span></label>
+      </fieldset>
+      <label class="rv-field">Votre version
+        <textarea name="proposed" rows="3" lang="fr" data-proposed><%= sentences[sel].text %></textarea>
+      </label>
+      <label class="rv-field">Pourquoi ? (facultatif)
+        <textarea name="note" rows="2" placeholder="Par exemple : plus naturel pour un enfant de 5 ans"></textarea>
+      </label>
+      <div class="rv-actions">
+        <button class="rv-btn rv-btn-main" type="submit">Envoyer le commentaire</button>
+      </div>
+      <% if (sent) { %><p class="rv-ok" role="status">Merci, commentaire envoyé à Abdallah.</p><% } %>
+    </form>
+
+    <form class="rv-okform" method="post" action="/review/<%= book.slug %>/ok">
+      <input type="hidden" name="page" value="<%= page.id %>">
+      <% if (showEn) { %><input type="hidden" name="en" value="1"><% } %>
+      <button class="rv-btn rv-btn-ok" type="submit">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>
+        <%= pageOk ? 'Page déjà validée, suivante' : 'Page parfaite, suivante' %>
+      </button>
+    </form>
+
+    <section class="rv-list" aria-labelledby="list-h">
+      <h2 id="list-h">Sur cette page</h2>
+      <% if (!pageComments.length) { %><p class="rv-muted">Aucun commentaire pour l'instant.</p><% } %>
+      <% pageComments.forEach(function (c) { %>
+      <article class="rv-card rv-com">
+        <p class="rv-com-head"><span class="rv-kind-label rv-t-<%= c.kind %>"><%= KIND_FR[c.kind] %></span> <span class="rv-muted"><%= c.reply ? 'Réponse reçue' : c.status === 'accepted' || c.status === 'fixed' ? 'Accepté' : c.status === 'kept' ? 'Gardé tel quel' : 'Envoyé' %></span></p>
+        <p class="rv-was" lang="fr"><%= c.original %></p>
+        <% if (c.proposed && c.proposed !== c.original) { %><p class="rv-now" lang="fr"><%= c.proposed %></p><% } %>
+        <% if (c.note) { %><p><%= c.note %></p><% } %>
+        <% if (c.reply) { %><p class="rv-reply">Abdallah : <%= c.reply %></p><% } %>
+      </article>
+      <% }) %>
+    </section>
+  </aside>
+</main>
+<% } %>
+</body>
+</html>

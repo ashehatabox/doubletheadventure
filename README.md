@@ -84,3 +84,15 @@ Long articles live in `content/articles/en/<slug>.md` (French: `content/articles
 - **Welcome email**: sent after every sign-up once a mail account is set (`RESEND_API_KEY` or `SMTP_*`). It carries the free coloring link, the "Which book first?" link and a signed unsubscribe link. Set `UNSUB_SECRET` (any long random text) and `MAIL_ADDRESS` (your mailing address; Canada's anti-spam law requires it). Unsubscribes are saved in the Supabase table `unsubscribes`: any future newsletter must skip those addresses.
 - **Shop**: Stripe Checkout (hosted page), shipping to Canada and the US. Off until all three are true: `SHOP_OPEN=1`, `STRIPE_SECRET_KEY` is set, and at least one product in `data/shop.js` has a `priceCents`. In Stripe, add a webhook to `https://<site>/stripe/webhook` for `checkout.session.completed` and `checkout.session.async_payment_succeeded`, and put its signing secret in `STRIPE_WEBHOOK_SECRET`. Each paid order is saved once in the Supabase table `orders` and emailed to `STORE_EMAIL`. Test with Stripe test keys and card 4242 4242 4242 4242 before going live. Turn on `STRIPE_AUTOMATIC_TAX=1` only after GST/HST registration is added in Stripe Tax.
 - `node scripts/test-shop.js` tests all of this without Stripe.
+
+## Reviewer area (/review) and inbox (/admin/review)
+A private place where a language reviewer reads each book page by page (the page picture next to the French text)
+and comments on single sentences: Correction, Suggestion or Question, plus "Page parfaite". Abdallah answers in
+/admin/review (password `ADMIN_PASSWORD`), accepts or keeps each comment, and downloads the accepted changes as JSON
+for the Canva text fixes. Pages are noindex and need a signed link (made in /admin/review, "Invite a reviewer").
+- Text: `content/review/<slug>.json`. Add or refresh a book with
+  `node scripts/add-review-book.js <slug> <bookNN-...-translations.json>` (from the Kids books project); it matches
+  each French line to its reader page by the English text and tells you about anything it couldn't place.
+- Storage: Supabase tables `review_comments`, `review_pages` (needs `SUPABASE_SECRET_KEY`), else `DATA_DIR/review-store.json`.
+- First questions on the reviewer's home page: `data/review.js`.
+- Test: `node scripts/test-review.js` (part of `npm run check`).

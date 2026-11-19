@@ -1,0 +1,13 @@
+<%- include('_head') %>
+<main class="rv-wrap rv-gone">
+  <p class="rv-brand">A² Publishing</p>
+  <% if (typeof error !== 'undefined' && error) { %>
+  <h1>Un petit problème.</h1>
+  <p>Votre commentaire n'a peut-être pas été enregistré. Revenez en arrière et réessayez dans un instant.</p>
+  <% } else { %>
+  <h1>Ce lien a expiré.</h1>
+  <p>Demandez un nouveau lien à Abdallah. Il vous l'enverra par courriel.</p>
+  <% } %>
+</main>
+</body>
+</html>

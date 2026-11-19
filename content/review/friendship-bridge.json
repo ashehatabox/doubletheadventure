@@ -1,0 +1,226 @@
+{
+ "slug": "friendship-bridge",
+ "lang": "fr",
+ "title": "Le Pont de l’Amitié",
+ "source": "a2-books_book03-friendship-bridge-translations.json",
+ "pages": {
+  "p01": {
+   "en": "To those who build stuff like Venny & Sammy A story about Teamwork.",
+   "text": [
+    "Pour tous ceux qui construisent, comme Venny et Sammy"
+   ],
+   "placedBy": "english"
+  },
+  "p03": {
+   "en": "In a peaceful forest, by the edge of a wide, rushing river, lived a beaver named Venny and a squirrel named Sammy.",
+   "text": [
+    "Dans une paisible forêt, au bord d’une large rivière au courant rapide, vivaient un castor nommé Venny et un écureuil nommé Sammy."
+   ],
+   "placedBy": "english"
+  },
+  "p04": {
+   "en": "One day, Venny and Sammy spotted the biggest, juiciest strawberry bush on the other side of the river",
+   "text": [
+    "Un jour, Venny et Sammy aperçurent le plus gros et le plus juteux des buissons de fraises, sur l’autre rive de la rivière."
+   ],
+   "placedBy": "english"
+  },
+  "p05": {
+   "en": "“Let’s build a bridge!” Venny said excitedly. “Yes!” Sammy agreed.",
+   "text": [
+    "« Construisons un pont ! » dit Venny avec enthousiasme. « Oui ! » répondit Sammy."
+   ],
+   "placedBy": "english"
+  },
+  "p06": {
+   "en": "“We should build it with strong logs,” Venny said, tapping his thick tail. “It needs to be sturdy.”",
+   "text": [
+    "« Construisons-le avec de gros troncs solides », dit Venny en tapotant sa grosse queue. « Il doit être robuste. »"
+   ],
+   "placedBy": "english"
+  },
+  "p07": {
+   "en": "“No, no!” Sammy squeaked. “We should use light branches so it’s quick and easy!",
+   "text": [
+    "« Non, non ! » couina Sammy. « Utilisons des branches légères, ce sera rapide et facile ! »"
+   ],
+   "placedBy": "english"
+  },
+  "p08": {
+   "en": "As usual they both had different ideas. They argued and argued until finally,",
+   "text": [
+    "Comme d’habitude, ils avaient des idées différentes. Ils discutèrent et discutèrent, jusqu’à ce que"
+   ],
+   "placedBy": "english"
+  },
+  "p09": {
+   "en": "they decided to build separate bridges their own way.",
+   "text": [
+    "finalement, ils décident de construire deux ponts séparés, chacun à sa façon."
+   ],
+   "placedBy": "english"
+  },
+  "p10": {
+   "en": "Venny gathered heavy logs and built his bridge.",
+   "text": [
+    "Venny rassembla de lourds troncs et construisit son pont."
+   ],
+   "placedBy": "english"
+  },
+  "p11": {
+   "en": "But the logs were too big and float away into the river with a big splash!",
+   "text": [
+    "Mais les troncs étaient trop gros et furent emportés par la rivière dans un grand plouf !"
+   ],
+   "placedBy": "english"
+  },
+  "p12": {
+   "en": "Sammy used light branches to build his bridge.",
+   "text": [
+    "Sammy utilisa des branches légères pour construire son pont."
+   ],
+   "placedBy": "english"
+  },
+  "p13": {
+   "en": "But the branches were too flimsy, and his bridge wobbled and collapsed with a loud crack!",
+   "text": [
+    "Mais les branches étaient trop fragiles, et son pont vacilla et s’effondra dans un grand craquement !"
+   ],
+   "placedBy": "english"
+  },
+  "p14": {
+   "en": "They both sat by the river, wet and frustrated.",
+   "text": [
+    "Tous les deux s’assirent au bord de la rivière, trempés et frustrés."
+   ],
+   "placedBy": "english"
+  },
+  "p15": {
+   "en": "“Your idea didn’t work!” Sammy huffed. “Well, neither did yours!” Venny grumbled.",
+   "text": [
+    "« Ton idée n’a pas marché ! » grogna Sammy. « Eh bien, la tienne non plus ! » grommela Venny."
+   ],
+   "placedBy": "english"
+  },
+  "p16": {
+   "en": "After a moment, Sammy sighed. “Maybe… we should try working together?”",
+   "text": [
+    "Après un moment, Sammy soupira. « Et si… on essayait de travailler ensemble ? »"
+   ],
+   "placedBy": "english"
+  },
+  "p17": {
+   "en": "Venny thought for a second and nodded. “Yeah, maybe combining our ideas is the best way.”",
+   "text": [
+    "Venny réfléchit un instant et hocha la tête. « Oui, peut-être que mélanger nos idées est la meilleure solution. »"
+   ],
+   "placedBy": "english"
+  },
+  "p18": {
+   "en": "“Your logs are really strong,” Sammy admitted. “But they’re too heavy on their own.”",
+   "text": [
+    "« Tes troncs sont vraiment solides », admit Sammy. « Mais ils sont trop lourds tout seuls. »"
+   ],
+   "placedBy": "english"
+  },
+  "p19": {
+   "en": "Venny scratched his head. “And your branches are light and flexible, but too weak to hold everything up.”",
+   "text": [
+    "Venny se gratta la tête. « Et tes branches sont légères et souples, mais trop faibles pour tout porter. »"
+   ],
+   "placedBy": "english"
+  },
+  "p20": {
+   "en": "Sammy’s eyes lit up. “What if we use my soft branches to tie your big logs together?”",
+   "text": [
+    "Les yeux de Sammy s’illuminèrent. « Et si on utilisait mes branches souples pour attacher tes gros troncs ensemble ? »"
+   ],
+   "placedBy": "english"
+  },
+  "p21": {
+   "en": "Venny grinned. “That might actually work! The logs will be sturdy, and the branches will keep them from floating away.”",
+   "text": [
+    "Venny sourit. « Ça pourrait vraiment marcher ! Les troncs seront solides, et les branches les empêcheront de partir au fil de l’eau. »"
+   ],
+   "placedBy": "english"
+  },
+  "p22": {
+   "en": "So, they got to work. Venny brought strong logs",
+   "text": [
+    "Alors, ils se mirent au travail. Venny apporta de solides troncs"
+   ],
+   "placedBy": "english"
+  },
+  "p23": {
+   "en": "and Sammy tied them together with flexible branches.",
+   "text": [
+    "et Sammy les attacha ensemble avec des branches souples."
+   ],
+   "placedBy": "english"
+  },
+  "p24": {
+   "en": "They laughed and cheered as they worked,",
+   "text": [
+    "Ils riaient et criaient de joie en travaillant,"
+   ],
+   "placedBy": "english"
+  },
+  "p25": {
+   "en": "realizing how much faster and better it was when they helped each other.",
+   "text": [
+    "et découvraient comme tout allait plus vite et mieux quand ils s’entraidaient."
+   ],
+   "placedBy": "english"
+  },
+  "p26": {
+   "en": "By the end of the day, they had built the sturdiest, most beautiful bridge the forest had ever seen",
+   "text": [
+    "À la fin de la journée, ils avaient construit le pont le plus solide et le plus beau que la forêt ait jamais vu."
+   ],
+   "placedBy": "english"
+  },
+  "p27": {
+   "en": "Together, Venny and Sammy crossed the bridge, excited to reach the strawberry bush.",
+   "text": [
+    "Ensemble, Venny et Sammy traversèrent le pont, impatients d’arriver au buisson de fraises."
+   ],
+   "placedBy": "english"
+  },
+  "p28": {
+   "en": "As they munched on the juicy strawberries, Sammy smiled. “We did it!”",
+   "text": [
+    "Pendant qu’ils croquaient les fraises juteuses, Sammy sourit. « On l’a fait ! »"
+   ],
+   "placedBy": "english"
+  },
+  "p29": {
+   "en": "Venny grinned. “Yep! Together, we can do more.”",
+   "text": [
+    "Venny sourit à son tour. « Oui ! Ensemble, on peut faire plus. »"
+   ],
+   "placedBy": "english"
+  },
+  "p30": {
+   "en": "From that day on, Venny and Sammy became the best of friends",
+   "text": [
+    "Dès ce jour, Venny et Sammy devinrent les meilleurs amis du monde,"
+   ],
+   "placedBy": "english"
+  },
+  "p31": {
+   "en": "knowing that teamwork made everything better —and a lot more fun!",
+   "text": [
+    "sachant que le travail d’équipe rend tout meilleur, et bien plus amusant !"
+   ],
+   "placedBy": "english"
+  },
+  "p32": {
+   "en": "The End",
+   "text": [
+    "Fin"
+   ],
+   "placedBy": "english"
+  }
+ },
+ "unplaced": []
+}

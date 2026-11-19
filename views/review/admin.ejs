@@ -1,0 +1,65 @@
+<%- include('_head', { lang: 'en' }) %>
+<header class="rv-bar">
+  <div class="rv-wrap rv-bar-in">
+    <p class="rv-brand">A² admin <span>French review</span></p>
+    <a class="rv-btn rv-btn-main" href="/admin/review/export.json">Export accepted for Canva</a>
+  </div>
+</header>
+<main class="rv-wrap rv-admin">
+  <nav class="rv-filters" aria-label="Filter">
+    <% Object.keys(FILTERS).forEach(function (k) { %>
+    <a class="rv-filter" href="/admin/review?f=<%= k %>" <%- k === f ? 'aria-current="page"' : '' %>><%= FILTERS[k] %> (<%= counts[k] %>)</a>
+    <% }) %>
+    <p class="rv-small rv-muted">Pages marked perfect: <%= okCount %></p>
+    <p class="rv-small rv-muted">Saved in: <%= storage %></p>
+    <% if (reviewers.length) { %><p class="rv-small rv-muted">Reviewers: <%= reviewers.join(', ') %></p><% } %>
+
+    <form class="rv-card rv-invite" id="invite" method="post" action="/admin/review/invite">
+      <h2>Invite a reviewer</h2>
+      <label class="rv-field">Her name
+        <input type="text" name="name" required maxlength="60" value="<%= invite ? invite.name : '' %>">
+      </label>
+      <label class="rv-field">Link works for (days)
+        <input type="number" name="days" value="60" min="1" max="365">
+      </label>
+      <button class="rv-btn rv-btn-main" type="submit">Make the link</button>
+      <% if (invite) { %>
+      <label class="rv-field">Send her this link
+        <input type="text" readonly value="<%= invite.link %>" data-select>
+      </label>
+      <% } %>
+    </form>
+  </nav>
+
+  <section class="rv-inbox" aria-labelledby="inbox-h">
+    <h1 id="inbox-h"><%= FILTERS[f] %></h1>
+    <% if (!items.length) { %><p class="rv-muted">Nothing here.</p><% } %>
+    <% items.forEach(function (c) { %>
+    <article class="rv-card rv-item">
+      <p class="rv-com-head"><span><span class="rv-kind-label rv-t-<%= c.kind %>"><%= c.kindLabel %></span> on <%= c.where %>, by <%= c.reviewer %></span> <span class="rv-muted"><%= c.when %></span></p>
+      <div class="rv-compare">
+        <div class="rv-was-box"><p class="rv-small rv-muted">Now in the book</p><p lang="fr"><%= c.original %></p></div>
+        <div class="rv-now-box"><p class="rv-small rv-muted">Her version</p><p lang="fr"><%= c.proposed %></p></div>
+      </div>
+      <% if (c.note) { %><p lang="fr"><%= c.note %></p><% } %>
+      <% if (c.reply) { %><p class="rv-reply">You replied: <%= c.reply %></p><% } %>
+      <div class="rv-actions">
+        <% if (f !== 'accepted') { %><form method="post" action="/admin/review/<%= c.id %>"><input type="hidden" name="f" value="<%= f %>"><button class="rv-btn rv-btn-ok" name="action" value="accept">Accept</button></form><% } %>
+        <% if (f === 'accepted') { %><form method="post" action="/admin/review/<%= c.id %>"><input type="hidden" name="f" value="<%= f %>"><button class="rv-btn rv-btn-ok" name="action" value="fixed">Fixed in Canva</button></form><% } %>
+        <% if (f !== 'kept') { %><form method="post" action="/admin/review/<%= c.id %>"><input type="hidden" name="f" value="<%= f %>"><button class="rv-btn" name="action" value="keep">Keep as is</button></form><% } %>
+        <% if (f !== 'open') { %><form method="post" action="/admin/review/<%= c.id %>"><input type="hidden" name="f" value="<%= f %>"><button class="rv-btn" name="action" value="reopen">Back to open</button></form><% } %>
+        <% if (c.pageHref) { %><a class="rv-link" href="<%= c.pageHref %>">Open the page</a><% } %>
+      </div>
+      <form class="rv-replyform" method="post" action="/admin/review/<%= c.id %>">
+        <input type="hidden" name="f" value="<%= f %>">
+        <label class="rv-field">Reply to her (she sees it under her comment)
+          <input type="text" name="reply" maxlength="2000" value="<%= c.reply %>" lang="fr">
+        </label>
+        <button class="rv-btn" name="action" value="reply">Send reply</button>
+      </form>
+    </article>
+    <% }) %>
+  </section>
+</main>
+</body>
+</html>

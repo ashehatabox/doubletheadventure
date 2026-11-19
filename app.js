@@ -922,7 +922,7 @@ app.post('/api/enquire', async (req, res) => {
 });
 
 // ---------- SEO files ----------
-app.get('/robots.txt', (req, res) => res.type('text/plain').send(`User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`));
+app.get('/robots.txt', (req, res) => res.type('text/plain').send(`User-agent: *\nAllow: /\nDisallow: /review\nDisallow: /admin\nSitemap: ${SITE_URL}/sitemap.xml\n`));
 
 // A plain summary of the site for AI answer engines (llmstxt.org format).
 app.get('/llms.txt', (req, res) => {
@@ -999,6 +999,9 @@ app.get('/reader/:slug/:lang/:name', (req, res) => {
 });
 
 app.get('/healthz', (req, res) => res.type('text/plain').send('ok'));
+
+// Reviewer area (/review, private, French) and its inbox (/admin/review). See lib/review.js.
+require('./lib/review-routes')(app, { catalog, SITE_URL });
 
 // French first (so /fr/... isn't read as an English path), then English.
 app.use('/fr', withLang('fr'), router);

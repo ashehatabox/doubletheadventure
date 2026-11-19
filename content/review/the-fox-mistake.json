@@ -1,0 +1,226 @@
+{
+ "slug": "the-fox-mistake",
+ "lang": "fr",
+ "title": "L’Erreur des renards",
+ "source": "a2-books_book04-the-fox-mistake-translations.json",
+ "pages": {
+  "p01": {
+   "en": "To best friends like Felix and Finn. A story about friendship and forgiveness.",
+   "text": [
+    "À de meilleurs amis comme Felix et Finn."
+   ],
+   "placedBy": "english"
+  },
+  "p03": {
+   "en": "In a quiet forest, under the golden autumn leaves, lived two foxes named Felix and Finn.",
+   "text": [
+    "Dans une forêt paisible, sous les feuilles dorées de l’automne, vivaient deux renards nommés Felix et Finn."
+   ],
+   "placedBy": "english"
+  },
+  "p04": {
+   "en": "They were the best of friends and did everything together.",
+   "text": [
+    "Ils étaient les meilleurs amis du monde et faisaient tout ensemble."
+   ],
+   "placedBy": "english"
+  },
+  "p05": {
+   "en": "They raced through the woods, shared tasty fruits, and even built cozy dens side by side.",
+   "text": [
+    "Ils couraient à travers les bois, partageaient de bons fruits et construisaient même des terriers douillets côte à côte."
+   ],
+   "placedBy": "english"
+  },
+  "p06": {
+   "en": "One day, Felix found a shiny, round pebble by the river",
+   "text": [
+    "Un jour, Felix trouva un galet rond et brillant au bord de la rivière."
+   ],
+   "placedBy": "english"
+  },
+  "p07": {
+   "en": "“Look, Finn!” he called. “Isn’t it beautiful?”",
+   "text": [
+    "« Regarde, Finn ! » cria-t-il. « N’est-il pas magnifique ? »"
+   ],
+   "placedBy": "english"
+  },
+  "p08": {
+   "en": "Felix placed the pebble in his den, proud of his special find.",
+   "text": [
+    "Felix posa le galet dans son terrier, fier de sa trouvaille."
+   ],
+   "placedBy": "english"
+  },
+  "p09": {
+   "en": "But the next day, it was gone!",
+   "text": [
+    "Mais le lendemain, il avait disparu !"
+   ],
+   "placedBy": "english"
+  },
+  "p10": {
+   "en": "Felix rushed to Finn’s den and saw a shiny pebble sitting by the entrance.",
+   "text": [
+    "Felix se précipita vers le terrier de Finn et vit un galet brillant posé près de l’entrée."
+   ],
+   "placedBy": "english"
+  },
+  "p11": {
+   "en": "“Finn, you took my pebble!” Felix shouted.",
+   "text": [
+    "« Finn, tu as pris mon galet ! » cria Felix."
+   ],
+   "placedBy": "english"
+  },
+  "p12": {
+   "en": "Finn’s eyes widened. “I didn’t!",
+   "text": [
+    "Finn écarquilla les yeux. « Ce n’est pas moi !"
+   ],
+   "placedBy": "english"
+  },
+  "p13": {
+   "en": "This is my pebble. I found it near the oak tree!”",
+   "text": [
+    "C’est mon galet. Je l’ai trouvé près du chêne ! »"
+   ],
+   "placedBy": "english"
+  },
+  "p14": {
+   "en": "But Felix didn’t believe him. “You’re lying!” he growled.",
+   "text": [
+    "Mais Felix ne le crut pas. « Tu mens ! » gronda-t-il."
+   ],
+   "placedBy": "english"
+  },
+  "p15": {
+   "en": "Angry and hurt, the two foxes turned their backs on each other and stormed off",
+   "text": [
+    "Fâchés et blessés, les deux renards se tournèrent le dos et partirent en furie."
+   ],
+   "placedBy": "english"
+  },
+  "p16": {
+   "en": "Days passed, but neither fox felt happy.",
+   "text": [
+    "Les jours passèrent, mais aucun des deux renards n’était heureux."
+   ],
+   "placedBy": "english"
+  },
+  "p17": {
+   "en": "The forest felt emptier without their laughter and adventures.",
+   "text": [
+    "La forêt semblait plus vide sans leurs rires et leurs aventures."
+   ],
+   "placedBy": "english"
+  },
+  "p18": {
+   "en": "One evening, Felix was walking by the river",
+   "text": [
+    "Un soir, Felix se promenait au bord de la rivière,"
+   ],
+   "placedBy": "english"
+  },
+  "p19": {
+   "en": "he saw something sparkling in the water. It was his pebble!",
+   "text": [
+    "quand il vit quelque chose briller dans l’eau. C’était son galet !"
+   ],
+   "placedBy": "english"
+  },
+  "p20": {
+   "en": "Felix realized he had been wrong.",
+   "text": [
+    "Felix comprit qu’il s’était trompé."
+   ],
+   "placedBy": "english"
+  },
+  "p21": {
+   "en": "The pebble must have rolled out of his den and into the river.",
+   "text": [
+    "Le galet avait dû rouler hors de son terrier jusque dans la rivière."
+   ],
+   "placedBy": "english"
+  },
+  "p22": {
+   "en": "Feeling ashamed, Felix knew he had to make things right",
+   "text": [
+    "Plein de honte, Felix savait qu’il devait réparer son erreur."
+   ],
+   "placedBy": "english"
+  },
+  "p23": {
+   "en": "He ran to Finn’s den.",
+   "text": [
+    "Il courut jusqu’au terrier de Finn."
+   ],
+   "placedBy": "english"
+  },
+  "p24": {
+   "en": "“Finn,” Felix said softly, “I found my pebble by the river.",
+   "text": [
+    "« Finn, » dit doucement Felix, « j’ai retrouvé mon galet au bord de la rivière."
+   ],
+   "placedBy": "english"
+  },
+  "p25": {
+   "en": "I’m so sorry for not believing you.”",
+   "text": [
+    "Je suis vraiment désolé de ne pas t’avoir cru. »"
+   ],
+   "placedBy": "english"
+  },
+  "p26": {
+   "en": "Finn looked at Felix, his eyes softening.",
+   "text": [
+    "Finn regarda Felix, le regard adouci."
+   ],
+   "placedBy": "english"
+  },
+  "p27": {
+   "en": "“I was really hurt, Felix. But I forgive you.”",
+   "text": [
+    "« J’ai vraiment eu de la peine, Felix. Mais je te pardonne. »"
+   ],
+   "placedBy": "english"
+  },
+  "p28": {
+   "en": "The two foxes hugged tightly. “Friends?” Felix asked.",
+   "text": [
+    "Les deux renards se serrèrent très fort dans leurs bras. « Amis ? » demanda Felix."
+   ],
+   "placedBy": "english"
+  },
+  "p29": {
+   "en": "“Always,” Finn smiled.",
+   "text": [
+    "« Toujours, » sourit Finn."
+   ],
+   "placedBy": "english"
+  },
+  "p30": {
+   "en": "From that day on, Felix and Finn knew that mistakes could happen,",
+   "text": [
+    "Depuis ce jour, Felix et Finn surent que l’on peut faire des erreurs,"
+   ],
+   "placedBy": "english"
+  },
+  "p31": {
+   "en": "but forgiveness made their friendship even stronger.",
+   "text": [
+    "mais que le pardon rendait leur amitié encore plus forte."
+   ],
+   "placedBy": "english"
+  },
+  "p32": {
+   "en": "The End",
+   "text": [
+    "Fin"
+   ],
+   "placedBy": "english"
+  }
+ },
+ "unplaced": []
+}

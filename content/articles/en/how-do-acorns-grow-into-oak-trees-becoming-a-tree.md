@@ -93,7 +93,7 @@ The deer who bites off one of Oakie's leaves is the story's big setback. It help
 
 Hinterland Who's Who, the wildlife guide from the Canadian Wildlife Federation and Environment and Climate Change Canada, describes its menu: in spring and summer, leaves from woody plants, grasses and other green plants, plus treats like fiddleheads, mushrooms and blueberries. In autumn and winter, when green plants fade, deer depend mostly on the **twigs and buds** they can reach. And in eastern Canada, **acorns are a favourite autumn food**.
 
-So a deer nibbling a young oak is perfectly natural. Researchers at Penn State have filmed a deer stripping the leaves off an oak seedling. Seedlings that are nibbled again and again grow up shorter and stubbier, which is why foresters and gardeners sometimes protect young trees with fences or tubes. Still, the same research found that light, soil and competition from other plants mattered as much as deer did for how young oaks grew. A nibbled seedling isn't necessarily a lost one.
+So a deer nibbling a young oak is perfectly natural. Researchers at Penn State have filmed a deer stripping the leaves off an oak seedling. Seedlings that are nibbled again and again grow up shorter and stubbier, which is why foresters and gardeners sometimes protect young trees with fences or tubes. Still, the same study found that young oaks were shaped more by light, soil and their size before a gap opened in the forest than by deer. A nibbled seedling isn't necessarily a lost one.
 
 ### Fun deer facts for children
 

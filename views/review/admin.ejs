@@ -5,6 +5,7 @@
     <a class="rv-btn rv-btn-main" href="/admin/review/export.json">Export accepted for Canva</a>
   </div>
 </header>
+<% if (!safe) { %><p class="rv-wrap rv-warn" role="alert">Comments are not safe yet: SUPABASE_SECRET_KEY is missing in GoDaddy, so they are kept in a file that an update can erase. Add the key in Settings, then Restart Published App.</p><% } %>
 <main class="rv-wrap rv-admin">
   <nav class="rv-filters" aria-label="Filter">
     <% Object.keys(FILTERS).forEach(function (k) { %>

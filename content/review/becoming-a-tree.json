@@ -2,54 +2,54 @@
  "slug": "becoming-a-tree",
  "lang": "fr",
  "title": "Devenir un arbre",
- "source": "a2-books_book02-becoming-a-tree-translations.json",
+ "source": "translations_new.json",
  "pages": {
   "p01": {
    "en": "To those who have big goals, just like Oakie. A story about patience, determination, and forgiveness.",
    "text": [
-    "À tous ceux qui ont de grands rêves, comme Oakie."
+    "À tous ceux qui rêvent grand, comme Oakie."
    ],
    "placedBy": "order"
   },
   "p03": {
    "en": "Deep in the cozy, warm soil, a tiny seed named Oakie lay in the darkness. It had never seen the light or felt the wind.",
    "text": [
-    "Au fond de la terre chaude et douillette, une minuscule graine nommée Oakie reposait dans l’obscurité. Elle n’avait jamais vu la lumière ni senti le vent."
+    "Douillettement nichée dans la terre chaude, une toute petite graine appelée Oakie se reposait dans le noir. Elle n’avait jamais vu la lumière ni senti le vent."
    ],
    "placedBy": "order"
   },
   "p04": {
    "en": "One day, Oakie heard a tiny voice from above.",
    "text": [
-    "Un jour, Oakie entendit une petite voix venue d’en haut."
+    "Un jour, une petite voix l’appela d’en haut."
    ],
    "placedBy": "order"
   },
   "p05": {
    "en": "“Sunlight is warm, and the wind feels wonderful!” called a passing bird.",
    "text": [
-    "« Le soleil est chaud, et le vent est merveilleux ! » lança un oiseau de passage."
+    "« Cui-cui ! Quel beau soleil ! Cui-cui ! Cui-cui ! Quel vent agréable ! » gazouilla un oiseau de passage."
    ],
    "placedBy": "order"
   },
   "p07": {
    "en": "Oakie pushed upward, but the soil was heavy, and the light seemed so far away.",
    "text": [
-    "Oakie poussa vers le haut, mais la terre était lourde, et la lumière semblait si lointaine."
+    "Oakie poussa de toutes ses forces, mais la terre restait lourde, et la lumière, lointaine."
    ],
    "placedBy": "order"
   },
   "p08": {
    "en": "Nearby, a kind worm wiggled past. “Hey there, little seed,” said the worm.",
    "text": [
-    "Tout près, un gentil ver de terre passa en se tortillant. « Salut, petite graine », dit le ver."
+    "Un gentil ver de terre serpenta près d’elle. « Salut, petite graine », dit le ver."
    ],
    "placedBy": "order"
   },
   "p09": {
    "en": "“How can I see the light and feel the wind?” Oakie asked. “Be patient,” said the worm. “When you grow, you will reach them.”",
    "text": [
-    "« Comment puis-je voir la lumière et sentir le vent ? » demanda Oakie. « Sois patiente », dit le ver. « Quand tu auras grandi, tu les atteindras. »"
+    "« Comment faire pour voir la lumière et sentir le vent ? » demanda Oakie. « Patience ! » dit le ver. « Pour cela, il te faut grandir. »"
    ],
    "placedBy": "order"
   },
@@ -70,112 +70,112 @@
   "p12": {
    "en": "Months went by and Oakie waited in patience. One day, Plip-plop! Raindrops tickled the dirt.",
    "text": [
-    "Les mois passèrent, et Oakie attendit avec patience. Un jour, plic-ploc ! Des gouttes de pluie chatouillèrent la terre."
+    "De longs mois passaient, et Oakie attendait patiemment. Un jour, plic-ploc ! Quelques gouttes de pluie vinrent chatouiller la terre."
    ],
    "placedBy": "order"
   },
   "p13": {
    "en": "Shine-shine! The sun’s warmth hugged the soil. Oakie felt cozy and safe.",
    "text": [
-    "Brille-brille ! La chaleur du soleil enveloppa la terre. Oakie se sentit bien au chaud, en sécurité."
+    "Chhh… Chhh… murmurait la chaleur du soleil sur la terre. Elle se glissait doucement jusqu’à Oakie, en sécurité et bien au chaud."
    ],
    "placedBy": "order"
   },
   "p14": {
    "en": "A tiny root reached down into the ground. Sprout-sprout! A little green shoot stretched upward.",
    "text": [
-    "Une minuscule racine descendit dans le sol. Pousse-pousse ! Une petite pousse verte s’étira vers le haut."
+    "Une minuscule racine se faufila doucement dans la terre. Hop ! Hop ! Une petite pousse verte se hissa vers la lumière."
    ],
    "placedBy": "order"
   },
   "p15": {
    "en": "“I’m getting closer!” Oakie thought, feeling excited for the first time.",
    "text": [
-    "« Je me rapproche ! » pensa Oakie, tout excitée pour la première fois."
+    "« Je me rapproche ! » pensa Oakie, toute frémissante d’impatience pour la première fois."
    ],
    "placedBy": "order"
   },
   "p16": {
    "en": "The wind whooshed gently around the sprout.",
    "text": [
-    "Le vent souffla doucement autour de la pousse."
+    "Le vent soufflait doucement autour de la pousse."
    ],
    "placedBy": "order"
   },
   "p17": {
    "en": "“Welcome!” said the wind, making Oakie’s tiny leaves dance.",
    "text": [
-    "« Bienvenue ! » dit le vent, faisant danser les minuscules feuilles d’Oakie."
+    "« Bienvenue ! » murmura le vent en faisant voltiger les minuscules feuilles d’Oakie."
    ],
    "placedBy": "order"
   },
   "p18": {
    "en": "But just then—tug! A hungry deer nibbled one of Oakie’s leaves.",
    "text": [
-    "Mais soudain, hop ! Un cerf affamé grignota l’une des feuilles d’Oakie."
+    "Mais soudain… Grign, grign ! fit un cerf affamé en croquant délicatement l’une des feuilles tendres d’Oakie."
    ],
    "placedBy": "order"
   },
   "p19": {
    "en": "“Oh no!” Oakie shivered. “Is it safe to be outside?”",
    "text": [
-    "« Oh non ! » Oakie frissonna. « Est-ce sans danger dehors ? »"
+    "« Oh non ! » Oakie frissonna. « Le monde, là-dehors, est-il un endroit sûr ? »"
    ],
    "placedBy": "order"
   },
   "p20": {
    "en": "Oakie sighed but stood tall.",
    "text": [
-    "Oakie soupira, mais resta debout, bien droite."
+    "Oakie soupira, mais resta bien droite."
    ],
    "placedBy": "order"
   },
   "p21": {
    "en": "“Life in the light is worth the risk. I will grow strong and survive.”",
    "text": [
-    "« Vivre dans la lumière vaut le risque. Je deviendrai forte et je survivrai. »"
+    "« La lumière vaut bien un peu de courage. Je deviendrai forte et je saurai faire face. »"
    ],
    "placedBy": "order"
   },
   "p22": {
    "en": "Day by day, Oakie’s sprout grew taller and taller. Its leaves became big and strong, and its roots stretched deep into the soil.",
    "text": [
-    "Jour après jour, la pousse d’Oakie grandit, grandit. Ses feuilles devinrent grandes et fortes, et ses racines s’enfoncèrent profondément dans la terre."
+    "La petite pousse d’Oakie grandissait de jour en jour. Ses feuilles s’agrandirent peu à peu, et ses racines plongèrent plus profondément dans le sol."
    ],
    "placedBy": "order"
   },
   "p23": {
    "en": "“I’m growing! I feel safe now,” Oakie thought proudly.",
    "text": [
-    "« Je grandis ! Je me sens en sécurité maintenant », pensa Oakie avec fierté."
+    "« Je grandis ! Je me sens en sécurité maintenant », pensa Oakie, heureuse du chemin parcouru."
    ],
    "placedBy": "order"
   },
   "p24": {
    "en": "Over time, Oakie’s sprout became a tree. Tweet-tweet! Birds built nests in its branches.",
    "text": [
-    "Avec le temps, la pousse d’Oakie devint un arbre. Piou-piou ! Des oiseaux construisirent des nids dans ses branches."
+    "La petite pousse grandit, grandit encore, jusqu’à devenir un arbre. Cui-cui ! Piou-piou ! Tuit-tuit ! Ses branches accueillirent bientôt de douillets nids d’oiseaux."
    ],
    "placedBy": "order"
   },
   "p25": {
    "en": "The same deer rested in its cool shade. “I forgive you,” Oakie thought happily.",
    "text": [
-    "Le même cerf se reposait à son ombre fraîche. « Je te pardonne », pensa Oakie, heureuse."
+    "Le même cerf revint se reposer à l’ombre fraîche de ses branches. « Je te pardonne », pensa Oakie, heureuse."
    ],
    "placedBy": "order"
   },
   "p26": {
    "en": "One day, Oakie looked down and saw a tiny seed resting in the soil.",
    "text": [
-    "Un jour, Oakie baissa les yeux et vit une minuscule graine posée dans la terre."
+    "Un jour, Oakie baissa les yeux et aperçut une minuscule graine blottie dans la terre."
    ],
    "placedBy": "order"
   },
   "p27": {
    "en": "“I dream of reaching the sky like you!” said the little seed.",
    "text": [
-    "« Je rêve d’atteindre le ciel comme toi ! » dit la petite graine."
+    "« Moi aussi, je veux toucher le ciel ! » dit la petite graine."
    ],
    "placedBy": "order"
   },
@@ -197,14 +197,14 @@
   "p30": {
    "en": "And so, the forest grew, one tiny seed at a time.",
    "text": [
-    "Et c’est ainsi que la forêt grandit, une minuscule graine à la fois."
+    "Et c’est ainsi que la forêt grandit, graine après graine."
    ],
    "placedBy": "order"
   },
   "p31": {
    "en": "Each seed became a tree, each tree provided shelter, and the forest was full of life and dreams.",
    "text": [
-    "Chaque graine devint un arbre, chaque arbre offrit un abri, et la forêt fut pleine de vie et de rêves."
+    "Chaque graine devint un arbre, chaque arbre offrit un refuge, et la forêt s’anima peu à peu de mille vies et de mille rêves."
    ],
    "placedBy": "order"
   },

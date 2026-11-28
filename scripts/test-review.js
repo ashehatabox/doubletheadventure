@@ -89,7 +89,8 @@ const form = (port, p, data, headers) => req(port, p, { method: 'POST', body: ne
     // 4. Admin.
     r = await req(port, '/admin/review');
     assert.strictEqual(r.status, 401, 'admin needs the password');
-    r = await req(port, '/admin/review', { headers: admin });
+    assert.strictEqual(list[0].status, 'accepted', 'a text change is accepted automatically');
+    r = await req(port, '/admin/review?f=accepted', { headers: admin });
     assert.strictEqual(r.status, 200);
     assert.ok(r.body.includes('Une phrase corrigée.'));
     const id = list[0].id;
